@@ -1,4 +1,5 @@
 {
-  "outputDirectory": "dist",
-  "buildCommand": "astro build"
+  "rewrites": [
+    { "source": "/news/:path*", "destination": "/:path*" }
+  ]
 }
