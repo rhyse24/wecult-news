@@ -36,7 +36,7 @@ jobs:
       - name: Commit new articles
         run: |
           git config user.name "wecult-pipeline[bot]"
-          git config user.email "pipeline@wecult.app"
+          git config user.email "kaptankaptanim19@gmail.com"
           git add src/content/articles/ scripts/pipeline/.seen-urls.json
           if git diff --staged --quiet; then
             echo "No new articles, skipping commit"
