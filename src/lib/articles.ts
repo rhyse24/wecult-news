@@ -44,7 +44,7 @@ function normalizeArticle(raw: Record<string, unknown>): Article {
       : null
   }
 
-  const enSummary = normalizedTranslations.en?.summary ?? ''
+  const enBody = normalizedTranslations.en?.body ?? normalizedTranslations.en?.summary ?? ''
 
   return {
     id: raw.id as string,
@@ -56,7 +56,7 @@ function normalizeArticle(raw: Record<string, unknown>): Article {
     source_url: raw.source_url as string,
     source_name: raw.source_name as string,
     tags: (raw.tags as string[]) ?? [category],
-    reading_time_minutes: readingTime(enSummary),
+    reading_time_minutes: readingTime(enBody),
     translations: normalizedTranslations,
   }
 }

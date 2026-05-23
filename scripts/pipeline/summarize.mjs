@@ -35,27 +35,27 @@ Return ONLY valid JSON (no markdown, no code block):
     "en": {
       "title": "Engaging English title (can be slightly reworded for impact)",
       "summary": "One punchy hook sentence in English",
-      "body": "3-4 paragraph editorial article in English. Each paragraph separated by \\n\\n. Engaging, fan-focused, opinionated but fair."
+      "body": "600-800 word editorial article in English. 6-8 paragraphs separated by \\n\\n. Structure: hook paragraph → background/context → main story details → fan/community reaction or implications → analysis of what this means → forward-looking conclusion. Write like Polygon or IGN features — engaging, specific, no fluff."
     },
     "tr": {
       "title": "Türkçe başlık",
       "summary": "Türkçe tek cümle hook",
-      "body": "3-4 paragraf Türkçe makale. Her paragraf \\n\\n ile ayrılmış. Türk okuyucuya hitap eden, samimi ton."
+      "body": "600-800 kelime Türkçe makale. 6-8 paragraf, her biri \\n\\n ile ayrılmış. Türk okuyucuya doğrudan hitap eden samimi editorial ton."
     },
     "es": {
       "title": "Título en español",
       "summary": "Un gancho en español",
-      "body": "3-4 párrafos en español separados por \\n\\n."
+      "body": "Artículo editorial de 600-800 palabras en español. 6-8 párrafos separados por \\n\\n."
     },
     "pt": {
       "title": "Título em português",
       "summary": "Um gancho em português",
-      "body": "3-4 parágrafos em português separados por \\n\\n."
+      "body": "Artigo editorial de 600-800 palavras em português. 6-8 parágrafos separados por \\n\\n."
     },
     "ja": {
       "title": "日本語タイトル",
       "summary": "日本語のフック文",
-      "body": "\\n\\nで区切られた3〜4段落の日本語記事。"
+      "body": "600〜800語の日本語記事。6〜8段落、\\n\\nで区切り。"
     }
   }
 }`;
@@ -65,7 +65,7 @@ Return ONLY valid JSON (no markdown, no code block):
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.7, maxOutputTokens: 2500 },
+      generationConfig: { temperature: 0.7, maxOutputTokens: 4000 },
     }),
     signal: AbortSignal.timeout(30000),
   });

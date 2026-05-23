@@ -100,5 +100,5 @@ function isImageUrl(url) {
 }
 
 function strip(html) {
-  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 1500);
+  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 3000);
 }
