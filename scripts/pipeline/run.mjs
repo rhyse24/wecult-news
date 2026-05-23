@@ -19,6 +19,48 @@ mkdirSync(ARTICLES_DIR, { recursive: true });
 // Load seen URLs to avoid reprocessing
 const seen = new Set(existsSync(SEEN_FILE) ? JSON.parse(readFileSync(SEEN_FILE, 'utf8')) : []);
 
+// Fetch Reddit hot keywords per category for popularity scoring
+const REDDIT_SUBS = { games: 'gaming', film: 'movies', tv: 'television', books: 'books' };
+const redditKeywords = {};
+console.log('[pipeline] Fetching Reddit trending signals...');
+for (const [cat, sub] of Object.entries(REDDIT_SUBS)) {
+  try {
+    const res = await fetch(`https://www.reddit.com/r/${sub}/hot.json?limit=30`, {
+      headers: { 'User-Agent': 'WeCultNews/1.0 (+https://wecult.app/news)' },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (res.ok) {
+      const data = await res.json();
+      redditKeywords[cat] = data.data.children
+        .map(p => p.data.title.toLowerCase())
+        .join(' ');
+      console.log(`  r/${sub}: ${data.data.children.length} hot posts loaded`);
+    }
+  } catch {
+    console.warn(`  [skip] Reddit r/${sub}`);
+  }
+}
+
+function scoreArticle(article) {
+  let score = 0;
+  const titleWords = article.title.toLowerCase().split(/\s+/).filter(w => w.length > 4);
+  const trending = redditKeywords[article.category] || '';
+  // Reddit trending match — biggest signal
+  for (const word of titleWords) {
+    if (trending.includes(word)) score += 2;
+  }
+  // Recency bonus
+  const ageHours = (Date.now() - new Date(article.pubDate).getTime()) / 3600000;
+  if (ageHours < 6) score += 4;
+  else if (ageHours < 12) score += 2;
+  else if (ageHours < 24) score += 1;
+  // Has image
+  if (article.image_url) score += 1;
+  // Substantial content
+  if (article.content.length > 500) score += 1;
+  return score;
+}
+
 console.log('[pipeline] Fetching RSS feeds...');
 const allArticles = [];
 
@@ -33,7 +75,10 @@ for (const source of SOURCES) {
   }
 }
 
-// Equal distribution across categories
+// Score and sort — trending articles bubble to top
+allArticles.sort((a, b) => scoreArticle(b) - scoreArticle(a));
+
+// Equal distribution across categories (top-scored articles per category)
 const byCategory = {};
 for (const a of allArticles) {
   if (!byCategory[a.category]) byCategory[a.category] = [];
