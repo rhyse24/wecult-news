@@ -3,7 +3,8 @@
   "outputDirectory": "dist",
   "framework": null,
   "cleanUrls": true,
+  "trailingSlash": false,
   "rewrites": [
-    { "source": "/news/:path*", "destination": "/:path*" }
+    { "source": "/news/:path(.*)", "destination": "/:path" }
   ]
 }
