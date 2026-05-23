@@ -137,18 +137,24 @@ const shareUrl = encodeURIComponent(pageUrl)
             </button>
           </div>
 
-          <!-- AI Summary -->
-          <div class="ai-summary-box">
-            <div class="ai-summary-header">
-              <span class="ai-section-label">✦ {t(lang, 'article.ai_summary')}</span>
+          <!-- AI Summary — only show if different from body start -->
+          {tr?.summary && tr.summary !== tr?.body?.slice(0, tr.summary.length) && (
+            <div class="ai-summary-box">
+              <div class="ai-summary-header">
+                <span class="ai-section-label">✦ {t(lang, 'article.ai_summary')}</span>
+              </div>
+              <p class="ai-summary-text">{tr.summary}</p>
             </div>
-            <p class="ai-summary-text">{tr?.summary}</p>
-          </div>
+          )}
 
           <!-- Article body -->
           {tr?.body && (
             <div class="article-content">
-              {tr.body.split('\n\n').map(para => <p>{para}</p>)}
+              {tr.body
+                .split(/\n\n+/)
+                .flatMap(para => para.trim().length > 0 ? [para.trim()] : [])
+                .map(para => <p>{para}</p>)
+              }
             </div>
           )}
 
@@ -570,24 +576,23 @@ const shareUrl = encodeURIComponent(pageUrl)
   }
 
   /* Body */
-  .article-content { margin-bottom: 1.75rem; }
+  .article-content {
+    margin-bottom: 1.75rem;
+    max-width: 680px;
+  }
   .article-content p {
     font-size: 1.0625rem;
     color: var(--text-secondary);
-    line-height: 1.82;
-    margin-bottom: 1.5em;
+    line-height: 1.85;
+    margin-bottom: 1.625em;
+    letter-spacing: 0.01em;
   }
-  /* Drop cap on first paragraph */
-  .article-content p:first-child::first-letter {
-    font-family: var(--font-serif);
-    font-size: 3.5em;
-    font-weight: 700;
-    line-height: 0.82;
-    float: left;
-    margin-right: 0.1em;
-    margin-top: 0.06em;
+  .article-content p:first-child {
+    font-size: 1.125rem;
     color: var(--text);
+    font-weight: 400;
   }
+  .article-content p:last-child { margin-bottom: 0; }
 
   /* Tags */
   .article-tags {

@@ -21,6 +21,19 @@ function decodeEntities(str: string): string {
     .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
 }
 
+function splitIntoParagraphs(text: string): string {
+  // If already has paragraph breaks, use them
+  if (text.includes('\n\n')) return text
+  // Split on sentence boundaries every ~3 sentences
+  const sentences = text.match(/[^.!?]+[.!?]+/g) ?? [text]
+  const paragraphs: string[] = []
+  for (let i = 0; i < sentences.length; i += 3) {
+    const chunk = sentences.slice(i, i + 3).join(' ').trim()
+    if (chunk) paragraphs.push(chunk)
+  }
+  return paragraphs.join('\n\n')
+}
+
 function readingTime(text: string): number {
   const words = text.trim().split(/\s+/).length
   return Math.max(1, Math.round(words / 200))
@@ -30,7 +43,7 @@ function normalizeArticle(raw: Record<string, unknown>): Article {
   const category = (raw.category as Category) ?? 'games'
   const translations = raw.translations as Record<string, { title: string; summary: string } | null>
 
-  const contentRaw = decodeEntities((raw.content_raw as string) ?? '')
+  const contentRaw = splitIntoParagraphs(decodeEntities((raw.content_raw as string) ?? ''))
   const normalizedTranslations = {} as Article['translations']
   for (const lang of ['en', 'tr', 'es', 'pt', 'ja'] as Lang[]) {
     const t = translations?.[lang] as { title?: string; summary?: string; body?: string } | null
