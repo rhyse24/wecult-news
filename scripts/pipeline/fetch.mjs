@@ -23,7 +23,7 @@ export async function fetchFeed(source, maxItems = 3) {
     ? Array.isArray(channel.entry) ? channel.entry : [channel.entry]
     : [];
 
-  return items.slice(0, maxItems).map(item => {
+  return items.slice(0, maxItems * 3).map(item => {
     const rawHtml = item['content:encoded'] || item.content?._ || item.description || item.summary || '';
     return {
       title: item.title?._ || item.title || '',
@@ -35,7 +35,29 @@ export async function fetchFeed(source, maxItems = 3) {
       source_url: source.url,
       category: source.category,
     };
-  }).filter(a => a.title && a.link);
+  })
+  .filter(a => a.title && a.link)
+  .filter(isQuality)
+  .slice(0, maxItems);
+}
+
+/**
+ * Quality filter — rejects deals, sponsored, video-only, and stub articles.
+ */
+const LOW_QUALITY_PATTERNS = [
+  /\b(deals?|sale|% off|\$\d+|discount|coupon|promo)\b/i,
+  /\b(best of|top \d+|ranked|roundup|gift guide)\b/i,
+  /\b(giveaway|contest|sweepstakes|sponsored|advertisement)\b/i,
+  /\b(gallery|photos?|pictures?|video:|podcast:|listen:)\b/i,
+];
+
+function isQuality(article) {
+  if (article.content.length < 120) return false;
+  const title = article.title.toLowerCase();
+  for (const pattern of LOW_QUALITY_PATTERNS) {
+    if (pattern.test(title)) return false;
+  }
+  return true;
 }
 
 /**
