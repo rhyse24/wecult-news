@@ -12,6 +12,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "xml2js": "^0.6.2",
     "@astrojs/check": "^0.9.9",
     "@supabase/supabase-js": "^2.106.1",
     "@tailwindcss/vite": "^4.3.0",
