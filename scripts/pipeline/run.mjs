@@ -3,7 +3,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
 import { summarizeArticle } from './summarize.mjs';
-import { SOURCES, MAX_PER_SOURCE, MAX_TOTAL } from './sources.mjs';
+import { SOURCES, MAX_PER_SOURCE, MAX_PER_CATEGORY, MAX_TOTAL } from './sources.mjs';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 if (!GEMINI_API_KEY) {
@@ -33,8 +33,15 @@ for (const source of SOURCES) {
   }
 }
 
-const toProcess = allArticles.slice(0, MAX_TOTAL);
-console.log(`[pipeline] Processing ${toProcess.length} articles with Gemini...`);
+// Equal distribution across categories
+const byCategory = {};
+for (const a of allArticles) {
+  if (!byCategory[a.category]) byCategory[a.category] = [];
+  if (byCategory[a.category].length < MAX_PER_CATEGORY) byCategory[a.category].push(a);
+}
+const toProcess = Object.values(byCategory).flat().slice(0, MAX_TOTAL);
+const dist = Object.entries(byCategory).map(([c, arr]) => `${c}:${arr.length}`).join(' ');
+console.log(`[pipeline] Processing ${toProcess.length} articles (${dist}) with Gemini...`);
 
 let saved = 0;
 for (const article of toProcess) {
