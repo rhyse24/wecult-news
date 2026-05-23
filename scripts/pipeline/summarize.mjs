@@ -16,7 +16,7 @@ export async function summarizeArticle(article, apiKey, webContext = '') {
   const prompt = `You are ${voice} working for WeCult — a premium dark-themed entertainment platform.
 
 Your job is to REWRITE the article below in WeCult's editorial style.
-IMPORTANT: Always write a MINIMUM of 500 words for the body. If the source content is brief, expand using your knowledge of the topic, the franchise, the industry context, and what fans care about. Never produce a short stub.
+IMPORTANT: Always write a MINIMUM of 900 words for the body (target 5-minute read). If the source content is brief, expand using your knowledge: franchise history, fan community context, industry implications, comparisons to similar titles/films/shows, what this means for the future. Never produce a short stub — always fill the full depth.
 
 Rules:
 - Hook the reader in the first sentence (don't start with the source name or "According to")
@@ -39,28 +39,28 @@ Return ONLY valid JSON (no markdown, no code block):
   "translations": {
     "en": {
       "title": "Engaging English title (can be slightly reworded for impact)",
-      "summary": "One punchy hook sentence in English",
-      "body": "600-800 word editorial article in English. 6-8 paragraphs separated by \\n\\n. Structure: hook paragraph → background/context → main story details → fan/community reaction or implications → analysis of what this means → forward-looking conclusion. Write like Polygon or IGN features — engaging, specific, no fluff."
+      "summary": "One punchy 2-sentence hook that makes you want to read the full article",
+      "body": "900-1200 word editorial article in English. 8-10 paragraphs separated by \\n\\n. Structure: hook → background & franchise history → main news details → community/fan reaction → deeper analysis → industry context → what this means for the future → conclusion. Write like a long-form Polygon or Eurogamer feature — engaging, specific, rich with context, no fluff."
     },
     "tr": {
       "title": "Türkçe başlık",
-      "summary": "Türkçe tek cümle hook",
-      "body": "600-800 kelime Türkçe makale. 6-8 paragraf, her biri \\n\\n ile ayrılmış. Türk okuyucuya doğrudan hitap eden samimi editorial ton."
+      "summary": "İki cümlelik Türkçe hook",
+      "body": "900-1200 kelime Türkçe makale. 8-10 paragraf, her biri \\n\\n ile ayrılmış. Türk okuyucuya doğrudan hitap eden, franchise geçmişi ve fan tepkileriyle zenginleştirilmiş editorial ton."
     },
     "es": {
       "title": "Título en español",
-      "summary": "Un gancho en español",
-      "body": "Artículo editorial de 600-800 palabras en español. 6-8 párrafos separados por \\n\\n."
+      "summary": "Dos frases gancho en español",
+      "body": "Artículo editorial de 900-1200 palabras en español. 8-10 párrafos separados por \\n\\n. Con historia del tema, reacción de fans y análisis profundo."
     },
     "pt": {
       "title": "Título em português",
-      "summary": "Um gancho em português",
-      "body": "Artigo editorial de 600-800 palavras em português. 6-8 parágrafos separados por \\n\\n."
+      "summary": "Duas frases gancho em português",
+      "body": "Artigo editorial de 900-1200 palavras em português. 8-10 parágrafos separados por \\n\\n."
     },
     "ja": {
       "title": "日本語タイトル",
-      "summary": "日本語のフック文",
-      "body": "600〜800語の日本語記事。6〜8段落、\\n\\nで区切り。"
+      "summary": "2文の日本語フック",
+      "body": "900〜1200語の日本語記事。8〜10段落、\\n\\nで区切り。背景、ファンの反応、業界分析を含む。"
     }
   }
 }`;
@@ -70,7 +70,7 @@ Return ONLY valid JSON (no markdown, no code block):
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.7, maxOutputTokens: 4000 },
+      generationConfig: { temperature: 0.7, maxOutputTokens: 5000 },
     }),
     signal: AbortSignal.timeout(30000),
   });
