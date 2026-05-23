@@ -1,0 +1,142 @@
+---
+import Base from '../../layouts/Base.astro'
+import ArticleCard from '../../components/article/ArticleCard.astro'
+import AdSlot from '../../components/ui/AdSlot.astro'
+import { t, getLocalizedPath } from '../../lib/i18n'
+import { articles as mockArticles, getByCategory } from '../../lib/articles'
+import type { Lang } from '../../types'
+
+export function getStaticPaths() {
+  return [
+    { params: { category: 'games' } },
+    { params: { category: 'film'  } },
+    { params: { category: 'tv'    } },
+    { params: { category: 'books' } },
+  ]
+}
+
+const { category } = Astro.params
+const lang: Lang = 'tr'
+
+const catMeta: Record<string, { color: string; label: string; desc: string; icon: string }> = {
+  games: { color: 'var(--cat-games)', label: 'Oyunlar',  icon: '🎮', desc: 'Oyun dünyasından en güncel haberler, incelemeler ve çıkışlar.' },
+  film:  { color: 'var(--cat-film)',  label: 'Film',     icon: '🎬', desc: 'Film haberleri, gişe sonuçları, fragmanlar ve eleştiriler.' },
+  tv:    { color: 'var(--cat-tv)',    label: 'Dizi',     icon: '📺', desc: 'Dizi haberleri, oyuncu kadrosu, yeni sezonlar ve iptal kararları.' },
+  books: { color: 'var(--cat-books)', label: 'Kitaplar', icon: '📚', desc: 'Yeni kitaplar, yazar haberleri ve edebiyat dünyasından güncel gelişmeler.' },
+}
+
+const typeFilters = ['Hepsi', 'Haber', 'İnceleme', 'Röportaj', 'Köşe Yazısı', 'Rehber']
+
+const meta = catMeta[category!]
+const articles = getByCategory(mockArticles, category! as import('../../types').Category)
+const [hero, featured, ...rest] = articles
+const allOtherArticles = mockArticles.filter(a => a.category !== category).slice(0, 4)
+---
+
+<Base title={meta.label} lang={lang}>
+  <div class="cat-page">
+
+    <!-- ── Category hero banner ───────────────────── -->
+    <div class="cat-banner" style={`--cat-color:${meta.color}`}>
+      <div class="container">
+        <div class="cat-banner-inner">
+          <div class="cat-breadcrumb">
+            <a href={getLocalizedPath(lang, '/')}>WeCult News</a>
+            <span>›</span>
+            <span style={`color:${meta.color}`}>{meta.label}</span>
+          </div>
+          <div class="cat-banner-title-row">
+            <span class="cat-banner-icon">{meta.icon}</span>
+            <h1 class="cat-banner-title" style={`color:${meta.color}`}>{meta.label}</h1>
+          </div>
+          <p class="cat-banner-desc">{meta.desc}</p>
+        </div>
+      </div>
+      <div class="cat-banner-line" style={`background:${meta.color}`}></div>
+    </div>
+
+    <div class="container">
+
+      <!-- ── Hero + sidebar ─────────────────────── -->
+      {hero && (
+        <div class="cat-hero-section">
+          <div class="cat-hero-main">
+            <ArticleCard article={hero} lang={lang} size="hero" />
+          </div>
+          <div class="cat-hero-side">
+            {featured && (
+              <div class="cat-side-featured">
+                <ArticleCard article={featured} lang={lang} size="featured" />
+              </div>
+            )}
+            {rest.slice(0, 2).map(a => (
+              <ArticleCard article={a} lang={lang} size="compact" />
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- ── Filter bar ──────────────────────────── -->
+      <div class="cat-filter-bar" id="filter-bar">
+        <div class="cat-filter-tabs">
+          {typeFilters.map((f, i) => (
+            <button
+              class={`filter-tab${i === 0 ? ' is-active' : ''}`}
+              data-filter={i === 0 ? 'all' : f.toLowerCase()}
+            >
+              {f}
+            </button>
+          ))}
+        </div>
+        <span class="cat-count">{articles.length} haber</span>
+      </div>
+
+      <AdSlot class="cat-filter-ad" />
+
+      <!-- ── Article grid ────────────────────────── -->
+      {articles.length === 0 ? (
+        <div class="cat-empty">
+          <p>Bu kategoride henüz haber yok.</p>
+        </div>
+      ) : (
+        <div class="cat-grid cards-grid" id="cat-grid">
+          {articles.map(a => (
+            <div class="cat-grid-item" data-type={a.article_type}>
+              <ArticleCard article={a} lang={lang} size="default" />
+            </div>
+          ))}
+        </div>
+      )}
+
+      <!-- ── More from WeCult News ───────────────── -->
+      {allOtherArticles.length > 0 && (
+        <section class="cat-more">
+          <div class="section-header">
+            <h2 class="section-title" style="color:var(--text-muted)">WeCult News'ten Daha Fazlası</h2>
+            <a href={getLocalizedPath(lang, '/')} class="section-link">Tüm kategoriler →</a>
+          </div>
+          <div class="cat-more-grid">
+            {allOtherArticles.map(a => <ArticleCard article={a} lang={lang} size="default" />)}
+          </div>
+        </section>
+      )}
+
+    </div>
+  </div>
+</Base>
+
+<script>
+  const tabs = document.querySelectorAll<HTMLButtonElement>('.filter-tab')
+  const items = document.querySelectorAll<HTMLElement>('.cat-grid-item')
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('is-active'))
+      tab.classList.add('is-active')
+      const filter = tab.dataset.filter
+      items.forEach(item => {
+        item.style.display = (filter === 'all' || item.dataset.type === filter) ? '' : 'none'
+      })
+    })
+  })
+</script>

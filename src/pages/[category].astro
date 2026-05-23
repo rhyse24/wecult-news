@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro'
 import ArticleCard from '../components/article/ArticleCard.astro'
 import AdSlot from '../components/ui/AdSlot.astro'
-import { t } from '../lib/i18n'
+import { t, getLocalizedPath } from '../lib/i18n'
 import { articles as mockArticles, getByCategory } from '../lib/articles'
 import type { Lang } from '../types'
 
@@ -41,7 +41,7 @@ const allOtherArticles = mockArticles.filter(a => a.category !== category).slice
       <div class="container">
         <div class="cat-banner-inner">
           <div class="cat-breadcrumb">
-            <a href="/">WeCult News</a>
+            <a href={getLocalizedPath(lang, '/')}>WeCult News</a>
             <span>›</span>
             <span style={`color:${meta.color}`}>{meta.label}</span>
           </div>
@@ -113,7 +113,7 @@ const allOtherArticles = mockArticles.filter(a => a.category !== category).slice
         <section class="cat-more">
           <div class="section-header">
             <h2 class="section-title" style="color:var(--text-muted)">More from WeCult News</h2>
-            <a href="/" class="section-link">All categories →</a>
+            <a href={getLocalizedPath(lang, '/')} class="section-link">All categories →</a>
           </div>
           <div class="cat-more-grid">
             {allOtherArticles.map(a => <ArticleCard article={a} lang={lang} size="default" />)}

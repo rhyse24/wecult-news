@@ -33,8 +33,8 @@ const popularTags = ['Rockstar Games', 'HBO', 'Neil Gaiman', 'Denis Villeneuve',
         </div>
         <p class="footer-tagline">Film, dizi, oyun ve kitap dünyasından<br/>AI destekli haber ve analizler.</p>
         <div class="footer-langs">
-          {(['en','tr','es','pt','ja'] as const).map(l => (
-            <a href={l === 'en' ? '/' : `/${l}`} class={`footer-lang${l === lang ? ' is-active' : ''}`}>
+          {(['en','tr'] as const).map(l => (
+            <a href={getLocalizedPath(l, '/')} class={`footer-lang${l === lang ? ' is-active' : ''}`}>
               {l.toUpperCase()}
             </a>
           ))}
