@@ -1,0 +1,26 @@
+{
+  "site_name": "WeCult News",
+  "tagline": "Inteligência de entretenimento, curada por IA",
+  "nav": {
+    "home": "Início",
+    "games": "Jogos",
+    "film": "Cinema",
+    "tv": "Séries",
+    "books": "Livros"
+  },
+  "article": {
+    "ai_summary": "Resumo IA",
+    "ai_analysis": "Análise",
+    "source": "Fonte",
+    "read_original": "Ler original",
+    "compiled_from": "Compilado de {{count}} fontes",
+    "published": "Publicado"
+  },
+  "ui": {
+    "latest": "Últimas notícias",
+    "trending": "Em alta",
+    "load_more": "Carregar mais",
+    "back": "Voltar",
+    "search": "Pesquisar"
+  }
+}

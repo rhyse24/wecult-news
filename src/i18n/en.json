@@ -1,0 +1,26 @@
+{
+  "site_name": "WeCult News",
+  "tagline": "Entertainment intelligence, curated by AI",
+  "nav": {
+    "home": "Home",
+    "games": "Games",
+    "film": "Film",
+    "tv": "TV",
+    "books": "Books"
+  },
+  "article": {
+    "ai_summary": "AI Summary",
+    "ai_analysis": "Analysis",
+    "source": "Source",
+    "read_original": "Read Original",
+    "compiled_from": "Compiled from {{count}} sources",
+    "published": "Published"
+  },
+  "ui": {
+    "latest": "Latest",
+    "trending": "Trending",
+    "load_more": "Load more",
+    "back": "Back",
+    "search": "Search"
+  }
+}

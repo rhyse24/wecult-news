@@ -1,0 +1,277 @@
+---
+// Ported from wecult-web: src/lib/cookieConsent.ts + src/components/layout/CookieBanner.tsx
+// Storage key, version, event names — wecult-web ile birebir aynı
+---
+
+<!-- ── Banner ── -->
+<div class="cb-banner" id="cb-banner" role="region" aria-label="Çerez tercihleri" hidden>
+  <div class="cb-card">
+    <div class="cb-gold-line" aria-hidden="true"></div>
+    <div class="cb-banner-inner">
+      <div class="cb-banner-text">
+        <h2 class="cb-title">Gizliliğine önem veriyoruz</h2>
+        <p class="cb-body">
+          Sitenin çalışması için temel çerezler kullanıyoruz. Onayın ile ayrıca analiz çerezleri
+          (kullanımı anlamak için) ve reklam çerezleri (ilgili reklamları göstermek için) kullanıyoruz.
+          Seçimini istediğin zaman değiştirebilirsin.
+          <a href={`${import.meta.env.BASE_URL}cookies`} class="cb-policy-link">Çerez politikası</a>
+        </p>
+      </div>
+      <!-- GDPR: 3 eşit önem düzeyinde buton -->
+      <div class="cb-banner-actions">
+        <button class="cb-btn cb-btn--accept" id="cb-accept">Tümünü kabul et</button>
+        <button class="cb-btn cb-btn--reject" id="cb-reject">Sadece gerekli olanlar</button>
+        <button class="cb-btn cb-btn--customize" id="cb-customize">Ayarla</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Preferences modal ── -->
+<div class="cb-backdrop" id="cb-backdrop" aria-hidden="true" hidden>
+  <div
+    class="cb-modal"
+    id="cb-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="cb-modal-title"
+    tabindex="-1"
+  >
+    <div class="cb-gold-line" aria-hidden="true"></div>
+
+    <div class="cb-modal-header">
+      <div>
+        <h2 class="cb-modal-title" id="cb-modal-title">Çerez tercihleri</h2>
+        <p class="cb-modal-sub">
+          Her kategoriyi açabilir veya kapatabilirsin. Gerekli çerezler sitenin çalışması için
+          zorunlu olduğu için kapatılamaz.
+        </p>
+      </div>
+      <button class="cb-modal-close" id="cb-modal-close" aria-label="Kapat">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="cb-categories">
+      <!-- Necessary — locked -->
+      <div class="cb-category">
+        <div class="cb-category-text">
+          <span class="cb-cat-title">Zorunlu</span>
+          <p class="cb-cat-desc">Giriş, dil tercihi, güvenlik. Her zaman açık.</p>
+        </div>
+        <span class="cb-always-on">Her zaman açık</span>
+      </div>
+
+      <!-- Analytics -->
+      <div class="cb-category">
+        <div class="cb-category-text">
+          <label class="cb-cat-title" for="toggle-analytics">Analitik</label>
+          <p class="cb-cat-desc">
+            WeCult News'i geliştirmemize yardım eden anonim kullanım verisi — hangi sayfalar popüler,
+            kullanıcılar nerede takılıyor.
+          </p>
+        </div>
+        <button
+          class="cb-toggle"
+          id="toggle-analytics"
+          role="switch"
+          aria-checked="false"
+          aria-label="Analitik çerezler"
+        >
+          <span class="cb-toggle-thumb"></span>
+        </button>
+      </div>
+
+      <!-- Advertising -->
+      <div class="cb-category">
+        <div class="cb-category-text">
+          <label class="cb-cat-title" for="toggle-advertising">Reklam</label>
+          <p class="cb-cat-desc">
+            Reklam ortağımızın (Google AdSense) ilgili reklamları gösterebilmesi ve performansı
+            ölçebilmesi için kullandığı çerezler.
+          </p>
+        </div>
+        <button
+          class="cb-toggle"
+          id="toggle-advertising"
+          role="switch"
+          aria-checked="false"
+          aria-label="Reklam çerezleri"
+        >
+          <span class="cb-toggle-thumb"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="cb-modal-footer">
+      <button class="cb-btn cb-btn--reject" id="cb-modal-reject">Sadece gerekli olanlar</button>
+      <div class="cb-modal-footer-right">
+        <button class="cb-btn cb-btn--save" id="cb-modal-save">Seçimleri kaydet</button>
+        <button class="cb-btn cb-btn--accept" id="cb-modal-accept">Tümünü kabul et</button>
+      </div>
+    </div>
+
+    <div class="cb-read-policy">
+      <a href={`${import.meta.env.BASE_URL}cookies`} class="cb-policy-link">Politikayı oku</a>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+(function () {
+  /* ─── Constants — wecult-web ile aynı ─── */
+  var STORAGE_KEY    = 'wecult-consent'
+  var COOKIE_NAME    = 'wecult-consent'
+  var EVENT_CHANGE   = 'wecult:consent-change'
+  var EVENT_OPEN     = 'wecult:consent-open'
+  var VERSION        = 2
+  var EXPIRY_DAYS    = 365
+  var EXPIRY_MS      = EXPIRY_DAYS * 24 * 60 * 60 * 1000
+
+  /* ─── Consent logic (ported from cookieConsent.ts) ─── */
+  function readConsent() {
+    try {
+      var raw = localStorage.getItem(STORAGE_KEY)
+      if (!raw) return null
+      var c = JSON.parse(raw)
+      if (c.version !== VERSION) return null
+      if (Date.now() - (c.timestamp || 0) > EXPIRY_MS) return null
+      return { necessary: true, analytics: !!c.analytics, advertising: !!c.advertising, version: VERSION, timestamp: c.timestamp }
+    } catch(e) { return null }
+  }
+
+  function writeConsent(analytics, advertising) {
+    var next = { necessary: true, analytics: analytics, advertising: advertising, version: VERSION, timestamp: Date.now() }
+    try {
+      var s = JSON.stringify(next)
+      localStorage.setItem(STORAGE_KEY, s)
+      // Mirror to first-party cookie so server can read it
+      var exp = new Date(Date.now() + EXPIRY_MS).toUTCString()
+      document.cookie = COOKIE_NAME + '=' + encodeURIComponent(s) + ';path=/;expires=' + exp + ';SameSite=Lax'
+      window.dispatchEvent(new CustomEvent(EVENT_CHANGE, { detail: next }))
+      syncGoogle(next)
+    } catch(e) {}
+    return next
+  }
+
+  function syncGoogle(state) {
+    window.dataLayer = window.dataLayer || []
+    if (!window.gtag) window.gtag = function() { window.dataLayer.push(arguments) }
+    window.gtag('consent', 'update', {
+      ad_storage:         state.advertising ? 'granted' : 'denied',
+      ad_user_data:       state.advertising ? 'granted' : 'denied',
+      ad_personalization: state.advertising ? 'granted' : 'denied',
+      analytics_storage:  state.analytics   ? 'granted' : 'denied',
+    })
+  }
+
+  function loadAdSense() {
+    if (document.getElementById('adsense-script')) return
+    var s = document.createElement('script')
+    s.id = 'adsense-script'
+    s.async = true
+    s.crossOrigin = 'anonymous'
+    s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3306856150955594'
+    document.head.appendChild(s)
+  }
+
+  /* ─── DOM refs ─── */
+  var banner      = document.getElementById('cb-banner')
+  var backdrop    = document.getElementById('cb-backdrop')
+  var modal       = document.getElementById('cb-modal')
+  var togAnalytics    = document.getElementById('toggle-analytics')
+  var togAdvertising  = document.getElementById('toggle-advertising')
+
+  /* ─── Toggle helpers ─── */
+  function getToggle(el) { return el ? el.getAttribute('aria-checked') === 'true' : false }
+  function setToggle(el, val) { if (el) el.setAttribute('aria-checked', val ? 'true' : 'false') }
+
+  function syncToggles(state) {
+    setToggle(togAnalytics,   state ? state.analytics   : false)
+    setToggle(togAdvertising, state ? state.advertising : false)
+  }
+
+  /* ─── Banner show/hide ─── */
+  function showBanner() { if (banner) banner.hidden = false }
+  function hideBanner() {
+    if (!banner) return
+    banner.style.opacity = '0'
+    banner.style.transform = 'translateY(8px)'
+    setTimeout(function() { banner.hidden = true; banner.style.opacity = ''; banner.style.transform = '' }, 280)
+  }
+
+  /* ─── Modal show/hide ─── */
+  function openModal() {
+    syncToggles(readConsent())
+    if (backdrop) { backdrop.hidden = false; backdrop.removeAttribute('aria-hidden') }
+    if (modal) { modal.focus() }
+    document.body.style.overflow = 'hidden'
+  }
+  function closeModal() {
+    if (backdrop) { backdrop.hidden = true; backdrop.setAttribute('aria-hidden', 'true') }
+    document.body.style.overflow = ''
+    // If no consent yet, bring banner back
+    if (!readConsent() && banner) banner.hidden = false
+  }
+
+  /* ─── Actions ─── */
+  function acceptAll() {
+    var c = writeConsent(true, true)
+    if (c.advertising) { syncGoogle(c); loadAdSense(); window.dispatchEvent(new Event('wcn-consent-granted')) }
+    hideBanner(); closeModal()
+  }
+  function rejectAll() {
+    writeConsent(false, false)
+    hideBanner(); closeModal()
+  }
+  function saveChoices() {
+    var analytics   = getToggle(togAnalytics)
+    var advertising = getToggle(togAdvertising)
+    var c = writeConsent(analytics, advertising)
+    if (c.advertising) { loadAdSense(); window.dispatchEvent(new Event('wcn-consent-granted')) }
+    hideBanner(); closeModal()
+  }
+
+  /* ─── Wire buttons ─── */
+  document.getElementById('cb-accept')?.addEventListener('click', acceptAll)
+  document.getElementById('cb-reject')?.addEventListener('click', rejectAll)
+  document.getElementById('cb-customize')?.addEventListener('click', function() { hideBanner(); openModal() })
+  document.getElementById('cb-modal-accept')?.addEventListener('click', acceptAll)
+  document.getElementById('cb-modal-reject')?.addEventListener('click', rejectAll)
+  document.getElementById('cb-modal-save')?.addEventListener('click', saveChoices)
+  document.getElementById('cb-modal-close')?.addEventListener('click', closeModal)
+
+  // Backdrop click-outside
+  backdrop?.addEventListener('click', function(e) { if (e.target === backdrop) closeModal() })
+
+  // ESC key
+  window.addEventListener('keydown', function(e) { if (e.key === 'Escape' && backdrop && !backdrop.hidden) closeModal() })
+
+  // Toggle switches
+  ;[togAnalytics, togAdvertising].forEach(function(btn) {
+    btn?.addEventListener('click', function() { setToggle(btn, !getToggle(btn)) })
+  })
+
+  // Footer "Çerez tercihleri" link
+  window.addEventListener(EVENT_OPEN, function() { syncToggles(readConsent()); openModal() })
+  // Expose for footer onclick
+  window.wcnOpenCookieSettings = function() { window.dispatchEvent(new Event(EVENT_OPEN)) }
+
+  // Cross-tab sync
+  window.addEventListener('storage', function(e) {
+    if (e.key !== STORAGE_KEY) return
+    if (readConsent()) hideBanner()
+  })
+
+  /* ─── Init ─── */
+  var existing = readConsent()
+  if (!existing) {
+    showBanner()
+  } else {
+    syncGoogle(existing)
+    if (existing.advertising) loadAdSense()
+  }
+})()
+</script>

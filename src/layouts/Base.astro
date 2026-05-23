@@ -1,0 +1,284 @@
+---
+import '../styles/global.css'
+import Header from '../components/layout/Header.astro'
+import Footer from '../components/layout/Footer.astro'
+import CookieBanner from '../components/ui/CookieBanner.astro'
+import type { Lang } from '../types'
+
+interface Props {
+  title: string
+  description?: string
+  lang: Lang
+  ogImage?: string
+}
+
+const { title, description = 'Entertainment news, curated by AI', lang, ogImage } = Astro.props
+const base = import.meta.env.BASE_URL
+---
+
+<!doctype html>
+<html lang={lang} data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;1,14..32,400&family=Lora:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet" />
+    <title>{title} — WeCult News</title>
+    <!-- Restore theme before paint to avoid flash -->
+    <script is:inline>
+      (function() {
+        try {
+          const t = localStorage.getItem('wcn-theme') || 'dark';
+          document.documentElement.setAttribute('data-theme', t);
+        } catch(e) {}
+      })();
+    </script>
+    <!-- Google Consent Mode v2 — deny all by default before AdSense loads -->
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ window.dataLayer.push(arguments); }
+      window.gtag = gtag;
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        wait_for_update: 500
+      });
+    </script>
+  </head>
+  <body>
+    <Header lang={lang} />
+    <main>
+      <slot />
+    </main>
+    <Footer lang={lang} />
+
+    <!-- App pill -->
+    <!-- App promo card -->
+    <div class="app-pill" id="app-pill">
+      <button class="app-pill-inner" id="app-pill-open" aria-label="WeCult uygulamasını keşfet">
+        <div class="mini-phone">
+          <div class="mini-phone-pill"></div>
+          <div class="mini-phone-screen">
+            <img class="mini-screen-slide is-active" src={`${base}screenshots/home.jpg`} alt="" aria-hidden="true" />
+            <img class="mini-screen-slide" src={`${base}screenshots/social-kesfet.jpg`} alt="" aria-hidden="true" />
+            <img class="mini-screen-slide" src={`${base}screenshots/tracking-active.jpg`} alt="" aria-hidden="true" />
+            <img class="mini-screen-slide" src={`${base}screenshots/profile.jpg`} alt="" aria-hidden="true" />
+          </div>
+          <div class="mini-phone-nav">
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="app-pill-copy">
+          <span class="app-pill-label">WeCult</span>
+          <span class="app-pill-sub">Film · Dizi · Oyun · Kitap</span>
+          <span class="app-pill-rating">
+            <span class="app-pill-stars">★★★★★</span>
+            <span class="app-pill-rating-text">4.9 · Ücretsiz</span>
+          </span>
+          <span class="app-pill-cta">İncele →</span>
+        </div>
+      </button>
+      <button class="app-pill-close" id="app-pill-close" aria-label="Kapat">✕</button>
+    </div>
+
+    <!-- App modal -->
+    <div class="app-modal-backdrop" id="app-modal-backdrop" aria-hidden="true">
+      <div class="app-modal" id="app-modal" role="dialog" aria-modal="true" aria-label="WeCult Uygulaması">
+        <div class="app-modal-header">
+          <div class="app-modal-brand">
+            <svg width="28" height="28" viewBox="0 0 18 18" fill="none">
+              <rect x="0" y="0" width="3" height="18" rx="1.5" fill="var(--accent)"/>
+              <rect x="6" y="4" width="3" height="14" rx="1.5" fill="var(--accent)" opacity="0.6"/>
+              <rect x="12" y="8" width="3" height="10" rx="1.5" fill="var(--accent)" opacity="0.25"/>
+            </svg>
+            <div>
+              <p class="app-modal-name">WeCult</p>
+              <p class="app-modal-sub">Film · Dizi · Oyun · Kitap</p>
+            </div>
+          </div>
+          <button class="app-modal-close" id="app-modal-close" aria-label="Kapat">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="app-modal-body">
+
+          <!-- Interactive phone mockup -->
+          <div class="app-phone-col">
+            <p class="app-phone-hint">
+              <svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M5.5 1v1.5M5.5 8.5V10M1 5.5h1.5M8.5 5.5H10M2.4 2.4l1.05 1.05M7.55 7.55l1.05 1.05M2.4 8.6l1.05-1.05M7.55 3.45l1.05-1.05" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><circle cx="5.5" cy="5.5" r="1.75" fill="currentColor" opacity="0.7"/></svg>
+              Sekmelere dokun, keşfet
+            </p>
+            <div class="app-phone" id="app-phone">
+              <div class="app-phone-pill"></div>
+              <div class="app-phone-screens">
+                <div class="app-screen is-active" data-screen="home">
+                  <img src={`${base}screenshots/home.jpg`} alt="Ana Sayfa" loading="lazy" />
+                </div>
+                <div class="app-screen" data-screen="social">
+                  <img src={`${base}screenshots/social-kesfet.jpg`} alt="Sosyal" loading="lazy" />
+                </div>
+                <div class="app-screen" data-screen="tracking">
+                  <img src={`${base}screenshots/tracking-active.jpg`} alt="Takip" loading="lazy" />
+                </div>
+                <div class="app-screen" data-screen="profile">
+                  <img src={`${base}screenshots/profile.jpg`} alt="Profil" loading="lazy" />
+                </div>
+              </div>
+              <nav class="app-phone-nav">
+                <button class="app-pnav-btn is-active" data-target="home" aria-label="Ana Sayfa">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 6.5L8 2l6 4.5V14h-4v-3.5H6V14H2V6.5z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+                  <span>Ana Sayfa</span>
+                </button>
+                <button class="app-pnav-btn" data-target="social" aria-label="Sosyal">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="6" cy="5" r="2.5" stroke="currentColor" stroke-width="1.4"/><path d="M1 13c0-2.76 2.24-5 5-5s5 2.24 5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="12.5" cy="5" r="2" stroke="currentColor" stroke-width="1.2"/><path d="M15 13c0-2.21-1.34-3.97-3-4.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+                  <span>Sosyal</span>
+                </button>
+                <button class="app-pnav-btn" data-target="tracking" aria-label="Takip">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 2h8a1 1 0 011 1v10l-5-3-5 3V3a1 1 0 011-1z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+                  <span>Takip</span>
+                </button>
+                <button class="app-pnav-btn" data-target="profile" aria-label="Profil">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="5.5" r="3" stroke="currentColor" stroke-width="1.4"/><path d="M2 14c0-3.31 2.69-6 6-6s6 2.69 6 6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                  <span>Profil</span>
+                </button>
+              </nav>
+            </div>
+          </div>
+
+          <!-- Info column -->
+          <div class="app-info-col">
+            <p class="app-modal-tagline">Haberleri burada oku.<br/>Hayatını orada takip et.</p>
+
+            <div class="app-modal-features">
+              <div class="app-modal-feature">
+                <span class="app-modal-feature-icon">📚</span>
+                <span>Kişisel Kütüphane</span>
+              </div>
+              <div class="app-modal-feature">
+                <span class="app-modal-feature-icon">✦</span>
+                <span>Match Twin</span>
+              </div>
+              <div class="app-modal-feature">
+                <span class="app-modal-feature-icon">👥</span>
+                <span>Topluluk</span>
+              </div>
+              <div class="app-modal-feature">
+                <span class="app-modal-feature-icon">🔔</span>
+                <span>Yeni Bölüm Takibi</span>
+              </div>
+            </div>
+
+            <div class="app-modal-actions">
+              <a href="#" class="app-modal-btn app-modal-btn--primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                App Store
+              </a>
+              <a href="#" class="app-modal-btn app-modal-btn--ghost">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.3.17.63.24.97.2l13.5-7.79-2.79-2.79-11.68 10.38zM.54 1.2C.2 1.57 0 2.12 0 2.83v18.34c0 .71.2 1.26.54 1.63l.09.09 10.27-10.27v-.24L.63 1.11l-.09.09zM22.17 10.5l-2.88-1.66-3.18 3.18 3.18 3.17 2.9-1.67c.83-.48.83-1.54-.02-2.02zM4.15.24l13.5 7.79-2.79 2.79L3.18.44c.3-.17.63-.24.97-.2z"/></svg>
+                Google Play
+              </a>
+            </div>
+            <p class="app-modal-note">Ücretsiz · iOS & Android</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <CookieBanner />
+
+    <!-- Back to top -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path d="M8 12V4M4 8l4-4 4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+
+    <script is:inline>
+      (function() {
+        var pill = document.getElementById('app-pill')
+        var pillClose = document.getElementById('app-pill-close')
+        var pillOpen = document.getElementById('app-pill-open')
+        var backdrop = document.getElementById('app-modal-backdrop')
+        var modalClose = document.getElementById('app-modal-close')
+
+        function openModal() {
+          if (backdrop) { backdrop.classList.add('is-open'); document.body.style.overflow = 'hidden' }
+        }
+        function closeModal() {
+          if (backdrop) { backdrop.classList.remove('is-open'); document.body.style.overflow = '' }
+        }
+
+        if (pill) {
+          window.addEventListener('scroll', function() {
+            pill.classList.toggle('is-visible', window.scrollY > 300)
+          }, { passive: true })
+        }
+        if (pillClose) {
+          pillClose.addEventListener('click', function(e) {
+            e.stopPropagation()
+            pill.classList.remove('is-visible')
+            pill.classList.add('is-hidden')
+          })
+        }
+        if (pillOpen) pillOpen.addEventListener('click', openModal)
+        if (modalClose) modalClose.addEventListener('click', closeModal)
+        if (backdrop) backdrop.addEventListener('click', function(e) {
+          if (e.target === backdrop) closeModal()
+        })
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') closeModal()
+        })
+
+        // Mini pill phone auto-cycle
+        var miniSlides = document.querySelectorAll('.mini-screen-slide')
+        var miniDots = document.querySelectorAll('.mini-phone-nav span')
+        var miniIdx = 0
+        if (miniSlides.length > 1) {
+          setInterval(function() {
+            miniSlides[miniIdx].classList.remove('is-active')
+            miniDots[miniIdx] && miniDots[miniIdx].removeAttribute('data-active')
+            miniIdx = (miniIdx + 1) % miniSlides.length
+            miniSlides[miniIdx].classList.add('is-active')
+            miniDots[miniIdx] && miniDots[miniIdx].setAttribute('data-active', '1')
+          }, 2200)
+        }
+
+        // Phone tab switching
+        var pnavBtns = document.querySelectorAll('.app-pnav-btn')
+        var appScreens = document.querySelectorAll('.app-screen')
+        pnavBtns.forEach(function(btn) {
+          btn.addEventListener('click', function() {
+            var target = btn.getAttribute('data-target')
+            pnavBtns.forEach(function(b) { b.classList.remove('is-active') })
+            appScreens.forEach(function(s) { s.classList.remove('is-active') })
+            btn.classList.add('is-active')
+            var screen = document.querySelector('.app-screen[data-screen="' + target + '"]')
+            if (screen) screen.classList.add('is-active')
+          })
+        })
+      })();
+      (function() {
+        var btn = document.getElementById('back-to-top')
+        if (!btn) return
+        window.addEventListener('scroll', function() {
+          btn.classList.toggle('is-visible', window.scrollY > 500)
+        }, { passive: true })
+        btn.addEventListener('click', function() {
+          window.scrollTo({ top: 0, behavior: 'smooth' })
+        })
+      })()
+    </script>
+  </body>
+</html>

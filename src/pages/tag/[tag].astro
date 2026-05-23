@@ -1,0 +1,180 @@
+---
+import Base from '../../layouts/Base.astro'
+import ArticleCard from '../../components/article/ArticleCard.astro'
+import { getLocalizedPath } from '../../lib/i18n'
+import { mockArticles, getByTag } from '../../lib/mock-articles'
+import type { Lang } from '../../types'
+
+export async function getStaticPaths() {
+  const allTags = [...new Set(mockArticles.flatMap(a => a.tags))]
+  return allTags.map(tag => ({
+    params: { tag: tag.toLowerCase().replace(/\s+/g, '-') },
+    props: { originalTag: tag },
+  }))
+}
+
+const { tag } = Astro.params
+const { originalTag } = Astro.props as { originalTag: string }
+const lang: Lang = 'en'
+
+const articles = getByTag(originalTag)
+
+const catCount: Record<string, number> = {}
+articles.forEach(a => { catCount[a.category] = (catCount[a.category] ?? 0) + 1 })
+const catColors: Record<string, string> = {
+  games: 'var(--cat-games)', film: 'var(--cat-film)',
+  tv: 'var(--cat-tv)', books: 'var(--cat-books)',
+}
+const catLabels: Record<string, string> = { games: 'Games', film: 'Film', tv: 'TV', books: 'Books' }
+---
+
+<Base title={`#${originalTag} — WeCult News`} lang={lang}>
+  <div class="tag-page">
+
+    <!-- Banner -->
+    <div class="tag-banner">
+      <div class="container">
+        <div class="tag-banner-inner">
+          <div class="tag-breadcrumb">
+            <a href="/">WeCult News</a>
+            <span>›</span>
+            <span>Topics</span>
+            <span>›</span>
+            <span class="tag-breadcrumb-current">#{originalTag}</span>
+          </div>
+          <div class="tag-heading-row">
+            <span class="tag-hash-large">#</span>
+            <h1 class="tag-heading">{originalTag}</h1>
+          </div>
+          <div class="tag-meta-row">
+            <span class="tag-count-badge">{articles.length} {articles.length === 1 ? 'article' : 'articles'}</span>
+            {Object.entries(catCount).map(([cat, count]) => (
+              <span class="tag-cat-chip" style={`--c:${catColors[cat]}`}>
+                {catLabels[cat]} · {count}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div class="tag-banner-line"></div>
+    </div>
+
+    <div class="container">
+      <div class="tag-body">
+
+        {articles.length > 0 ? (
+          <div class="cards-grid tag-grid">
+            {articles.map(a => <ArticleCard article={a} lang={lang} size="default" />)}
+          </div>
+        ) : (
+          <div class="tag-empty">
+            <p>No articles found for this topic yet.</p>
+            <a href="/" class="back-link">← Back to Home</a>
+          </div>
+        )}
+
+        <a href="/" class="back-link tag-back">← All Stories</a>
+
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style is:global>
+  .tag-page { padding-bottom: 5rem; }
+
+  .tag-banner {
+    padding: 2rem 0 1.75rem;
+    border-bottom: 1px solid var(--border-subtle);
+    margin-bottom: 2.5rem;
+    position: relative;
+    background: var(--bg);
+  }
+  .tag-banner-inner { max-width: 640px; }
+
+  .tag-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+  }
+  .tag-breadcrumb a:hover { color: var(--text-secondary); }
+  .tag-breadcrumb-current { color: var(--accent); font-weight: 600; }
+
+  .tag-heading-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.125rem;
+    margin-bottom: 1rem;
+  }
+  .tag-hash-large {
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: var(--accent);
+    line-height: 1;
+    font-family: var(--font-serif);
+  }
+  .tag-heading {
+    font-size: 2.25rem;
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    color: var(--text);
+    line-height: 1;
+    font-family: var(--font-serif);
+  }
+
+  .tag-meta-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .tag-count-badge {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    background: var(--bg-raised);
+    border: 1px solid var(--border-subtle);
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+  .tag-cat-chip {
+    font-size: 0.625rem;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--c);
+    background: color-mix(in srgb, var(--c) 10%, transparent);
+    border: 1px solid color-mix(in srgb, var(--c) 22%, transparent);
+    padding: 3px 9px;
+    border-radius: 20px;
+  }
+
+  .tag-banner-line {
+    position: absolute;
+    bottom: 0; left: 1.5rem;
+    width: 48px; height: 2px;
+    border-radius: 2px;
+    background: var(--accent);
+    opacity: 0.7;
+  }
+
+  .tag-body { padding-top: 0.5rem; }
+  .tag-grid { margin-bottom: 2rem; }
+  .tag-back {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    transition: color 0.15s;
+    margin-top: 1rem;
+  }
+  .tag-back:hover { color: var(--text-secondary); }
+
+  .tag-empty {
+    text-align: center;
+    padding: 5rem 0;
+    color: var(--text-muted);
+  }
+</style>

@@ -1,0 +1,26 @@
+{
+  "site_name": "WeCult News",
+  "tagline": "AIがキュレートするエンターテインメントニュース",
+  "nav": {
+    "home": "ホーム",
+    "games": "ゲーム",
+    "film": "映画",
+    "tv": "ドラマ",
+    "books": "本"
+  },
+  "article": {
+    "ai_summary": "AIサマリー",
+    "ai_analysis": "分析",
+    "source": "ソース",
+    "read_original": "元記事を読む",
+    "compiled_from": "{{count}}件のソースから集約",
+    "published": "公開日"
+  },
+  "ui": {
+    "latest": "最新ニュース",
+    "trending": "トレンド",
+    "load_more": "もっと読む",
+    "back": "戻る",
+    "search": "検索"
+  }
+}

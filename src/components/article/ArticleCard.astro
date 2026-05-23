@@ -1,0 +1,639 @@
+---
+import type { Article, Lang } from '../../types'
+import { t, getLocalizedPath } from '../../lib/i18n'
+import { isBreaking, isFresh } from '../../lib/mock-articles'
+
+interface Props {
+  article: Article
+  lang: Lang
+  size?: 'hero' | 'featured' | 'default' | 'compact' | 'mini'
+}
+
+const { article, lang, size = 'default' } = Astro.props
+const tr = article.translations[lang] ?? article.translations['en']
+
+const catColor: Record<string, string> = {
+  games: 'var(--cat-games)',
+  film:  'var(--cat-film)',
+  tv:    'var(--cat-tv)',
+  books: 'var(--cat-books)',
+}
+const color = catColor[article.category]
+const href = getLocalizedPath(lang, `/article/${article.slug}`)
+const label = t(lang, `nav.${article.category}`)
+
+const typeLabel: Record<string, string> = {
+  news: 'News', review: 'Review', feature: 'Feature', opinion: 'Opinion', guide: 'Guide',
+}
+const typeColor: Record<string, string> = {
+  news: 'var(--text-muted)', review: '#f59e0b', feature: '#818cf8', opinion: '#f472b6', guide: '#34d399',
+}
+
+const breaking = isBreaking(article)
+const fresh = isFresh(article)
+
+const timeAgo = (() => {
+  const ms = Date.now() - new Date(article.published_at).getTime()
+  const h = Math.floor(ms / 3600000)
+  if (h < 1) return 'Just now'
+  if (h < 24) return `${h}h ago`
+  const d = Math.floor(h / 24)
+  return d === 1 ? '1d ago' : `${d}d ago`
+})()
+---
+
+<!-- ─── Hero Card ─────────────────────────────────── -->
+{size === 'hero' && (
+  <a href={href} class="hero-card">
+    <div class="hero-img-wrap">
+      {article.cover_image
+        ? <img src={article.cover_image} alt={tr?.title} loading="eager" />
+        : <div class="hero-img-placeholder" style={`background: color-mix(in srgb, ${color} 8%, var(--bg-card))`}></div>
+      }
+      <div class="hero-gradient"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tags">
+        {breaking && <span class="breaking-badge">⬤ Breaking</span>}
+        <span class="cat-pill" style={`--c:${color}`}>{label}</span>
+        <span class="type-badge" style={`color:${typeColor[article.article_type]}`}>{typeLabel[article.article_type]}</span>
+      </div>
+      <h2 class="hero-title">{tr?.title}</h2>
+      {tr?.summary && <p class="hero-summary">{tr.summary}</p>}
+      <div class="hero-meta">
+        <span class="hero-source">{article.source_name}</span>
+        <span class="hero-sep">·</span>
+        <span class="hero-time">{timeAgo}</span>
+        <span class="hero-sep">·</span>
+        <span class="hero-read">
+          <svg width="11" height="11" viewBox="0 0 11 11" fill="none" style="opacity:.6"><circle cx="5.5" cy="5.5" r="4.5" stroke="currentColor" stroke-width="1.2"/><path d="M5.5 3v2.5l1.5 1.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+          {article.reading_time_minutes} min
+        </span>
+      </div>
+    </div>
+  </a>
+)}
+
+<!-- ─── Featured Card (wide horizontal) ──────────── -->
+{size === 'featured' && (
+  <a href={href} class="featured-card">
+    <div class="featured-img-wrap">
+      {article.cover_image
+        ? <img src={article.cover_image} alt={tr?.title} loading="lazy" />
+        : <div class="featured-img-placeholder" style={`background:color-mix(in srgb, ${color} 8%, var(--bg-card))`}></div>
+      }
+      <span class="featured-cat-pill" style={`--c:${color}`}>{label}</span>
+      {breaking && <span class="breaking-overlay-badge">⬤ Breaking</span>}
+    </div>
+    <div class="featured-body">
+      <div class="default-type-row">
+        <span class="type-badge" style={`color:${typeColor[article.article_type]}`}>{typeLabel[article.article_type]}</span>
+        {fresh && !breaking && <span class="fresh-dot" title="Published recently"></span>}
+      </div>
+      <h2 class="featured-title">{tr?.title}</h2>
+      {tr?.summary && <p class="featured-excerpt">{tr.summary}</p>}
+      <div class="featured-footer">
+        <span class="featured-read-time">
+          <svg width="11" height="11" viewBox="0 0 11 11" fill="none"><circle cx="5.5" cy="5.5" r="4.5" stroke="currentColor" stroke-width="1.2"/><path d="M5.5 3v2.5l1.5 1.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+          {article.reading_time_minutes} min
+        </span>
+        <span class="featured-meta">{article.source_name} · {timeAgo}</span>
+      </div>
+    </div>
+  </a>
+)}
+
+<!-- ─── Default Card ──────────────────────────────── -->
+{size === 'default' && (
+  <a href={href} class="default-card" style={`--card-accent:${color}`}>
+    <div class="default-img-wrap">
+      {article.cover_image
+        ? <img src={article.cover_image} alt={tr?.title} loading="lazy" />
+        : <div class="default-img-placeholder" style={`background:color-mix(in srgb, ${color} 6%, var(--bg-card))`}></div>
+      }
+      <span class="default-cat-pill" style={`--c:${color}`}>{label}</span>
+      {breaking && <span class="breaking-overlay-badge">⬤ Breaking</span>}
+    </div>
+    <div class="default-body">
+      <div class="default-type-row">
+        <span class="type-badge" style={`color:${typeColor[article.article_type]}`}>{typeLabel[article.article_type]}</span>
+        {fresh && !breaking && <span class="fresh-dot" title="Published recently"></span>}
+      </div>
+      <h3 class="default-title">{tr?.title}</h3>
+      {tr?.summary && <p class="default-excerpt">{tr.summary}</p>}
+      <div class="default-footer">
+        <span class="default-read-time">
+          <svg width="11" height="11" viewBox="0 0 11 11" fill="none"><circle cx="5.5" cy="5.5" r="4.5" stroke="currentColor" stroke-width="1.2"/><path d="M5.5 3v2.5l1.5 1.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+          {article.reading_time_minutes} min
+        </span>
+        <span class="default-meta">{article.source_name} · {timeAgo}</span>
+      </div>
+    </div>
+  </a>
+)}
+
+<!-- ─── Compact Card ──────────────────────────────── -->
+{size === 'compact' && (
+  <a href={href} class="compact-card">
+    {article.cover_image && (
+      <div class="compact-img-wrap">
+        <img src={article.cover_image} alt="" loading="lazy" />
+      </div>
+    )}
+    <div class="compact-body">
+      <div class="compact-meta-row">
+        <span class="compact-cat" style={`color:${color}`}>{label}</span>
+        {breaking && <span class="breaking-mini">BREAKING</span>}
+      </div>
+      <h4 class="compact-title">{tr?.title}</h4>
+      <span class="compact-time">
+        {timeAgo} ·
+        <svg width="10" height="10" viewBox="0 0 11 11" fill="none" style="display:inline;vertical-align:middle"><circle cx="5.5" cy="5.5" r="4.5" stroke="currentColor" stroke-width="1.2"/><path d="M5.5 3v2.5l1.5 1.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+        {article.reading_time_minutes} min
+      </span>
+    </div>
+  </a>
+)}
+
+<!-- ─── Mini / Trending ───────────────────────────── -->
+{size === 'mini' && (
+  <a href={href} class="mini-card">
+    <span class="mini-num"></span>
+    <div class="mini-body">
+      <span class="mini-cat" style={`color:${color}`}>{label}</span>
+      <h4 class="mini-title">{tr?.title}</h4>
+      <span class="mini-time">{timeAgo}</span>
+    </div>
+    {article.cover_image && (
+      <div class="mini-thumb">
+        <img src={article.cover_image} alt="" loading="lazy" />
+      </div>
+    )}
+  </a>
+)}
+
+<style is:global>
+/* ─── Hero ─────────────────────────────────────── */
+.hero-card {
+  display: block;
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  aspect-ratio: 16/9;
+  background: var(--bg-card);
+}
+.hero-img-wrap { position: absolute; inset: 0; }
+.hero-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: scale 0.6s ease; scale: 1.04; }
+.hero-card:hover .hero-img-wrap img { scale: 1.07; }
+
+@supports (animation-timeline: scroll()) {
+  .hero-img-wrap img {
+    animation: hero-parallax linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0px 520px;
+  }
+  @keyframes hero-parallax {
+    from { translate: 0 0; }
+    to   { translate: 0 -7%; }
+  }
+}
+.hero-img-placeholder { width: 100%; height: 100%; }
+.hero-gradient {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(to top,
+      rgba(0,0,0,0.97) 0%,
+      rgba(0,0,0,0.65) 35%,
+      rgba(0,0,0,0.18) 65%,
+      rgba(0,0,0,0) 100%),
+    linear-gradient(to right,
+      rgba(0,0,0,0.3) 0%,
+      transparent 45%);
+}
+.hero-content {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 2rem 1.875rem 1.625rem;
+}
+.hero-tags {
+  display: flex; align-items: center; gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.hero-title {
+  font-size: clamp(1.375rem, 2.8vw, 1.875rem);
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.5);
+  font-family: var(--font-serif);
+}
+.hero-summary {
+  font-size: 0.875rem;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.55;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.hero-meta {
+  display: flex; align-items: center; gap: 0.375rem;
+  font-size: 0.8125rem; color: rgba(255,255,255,0.4);
+}
+.hero-sep { opacity: 0.35; }
+.hero-source {
+  font-weight: 700;
+  color: rgba(255,255,255,0.85);
+  background: rgba(0,0,0,0.28);
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  backdrop-filter: blur(4px);
+}
+.hero-read { display: flex; align-items: center; gap: 3px; }
+
+/* ─── Featured ─────────────────────────────────── */
+.featured-card {
+  display: flex;
+  background: var(--bg-card);
+  border: 1px solid color-mix(in srgb, var(--card-accent, var(--accent)) 18%, var(--border-subtle));
+  border-left: 3px solid var(--card-accent, var(--accent));
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.5), 0 8px 28px rgba(0,0,0,0.3);
+  transition: box-shadow 0.25s, transform 0.25s, border-color 0.25s;
+  min-height: 180px;
+  max-height: 210px;
+}
+.featured-card:hover {
+  border-color: color-mix(in srgb, var(--card-accent, var(--accent)) 35%, var(--border));
+  box-shadow:
+    -8px 0 32px color-mix(in srgb, var(--card-accent, var(--accent)) 25%, transparent),
+    0 12px 40px rgba(0,0,0,0.6),
+    0 4px 16px rgba(0,0,0,0.35);
+  transform: translateY(-2px);
+}
+.featured-img-wrap {
+  position: relative;
+  width: 42%;
+  flex-shrink: 0;
+  overflow: hidden;
+  background: var(--bg-raised);
+}
+.featured-img-wrap img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 0.35s ease;
+}
+.featured-card:hover .featured-img-wrap img { transform: scale(1.04); }
+.featured-img-placeholder { width: 100%; height: 100%; }
+.featured-cat-pill {
+  position: absolute;
+  top: 10px; left: 10px;
+  font-size: 0.5625rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--c);
+  background: color-mix(in srgb, var(--c) 14%, rgba(0,0,0,0.55));
+  border: 1px solid color-mix(in srgb, var(--c) 28%, transparent);
+  padding: 3px 7px;
+  border-radius: 4px;
+  backdrop-filter: blur(4px);
+}
+.featured-body {
+  flex: 1;
+  padding: 1.25rem 1.375rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.featured-title {
+  font-size: 1.125rem;
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.featured-excerpt {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+  margin-bottom: 1rem;
+}
+.featured-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-subtle);
+}
+.featured-read-time { font-size: 0.75rem; color: var(--text-muted); }
+.featured-meta { font-size: 0.75rem; color: var(--text-muted); }
+
+/* ─── Default ──────────────────────────────────── */
+.default-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--card-accent, var(--accent)) 12%, var(--border-subtle));
+  box-shadow:
+    0 0 0 0 transparent,
+    0 2px 12px rgba(0,0,0,0.5),
+    0 8px 32px rgba(0,0,0,0.35);
+  transition: box-shadow 0.25s, transform 0.25s, border-color 0.25s;
+  position: relative;
+}
+.default-card::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: var(--card-accent, transparent);
+  opacity: 0.35;
+  transition: opacity 0.25s;
+}
+.default-card:hover {
+  border-color: color-mix(in srgb, var(--card-accent, var(--accent)) 30%, var(--border));
+  box-shadow:
+    0 0 24px color-mix(in srgb, var(--card-accent, var(--accent)) 18%, transparent),
+    0 8px 40px rgba(0,0,0,0.6),
+    0 2px 12px rgba(0,0,0,0.4);
+  transform: translateY(-3px);
+}
+.default-card:hover::after { opacity: 1; }
+.default-img-wrap {
+  position: relative;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  background: var(--bg-raised);
+}
+.default-img-wrap img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: scale 0.5s ease;
+}
+.default-img-wrap::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 52px;
+  background: linear-gradient(to top, rgba(0,0,0,0.65), transparent);
+  pointer-events: none;
+  z-index: 1;
+}
+.default-card:hover .default-img-wrap img { scale: 1.06; }
+.default-img-placeholder { width: 100%; height: 100%; }
+.default-cat-pill {
+  position: absolute;
+  bottom: 8px; left: 10px;
+  z-index: 2;
+  font-size: 0.5625rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--c);
+  background: color-mix(in srgb, var(--c) 18%, rgba(0,0,0,0.55));
+  border: 1px solid color-mix(in srgb, var(--c) 32%, transparent);
+  padding: 3px 7px;
+  border-radius: 4px;
+}
+.default-body {
+  padding: 1rem 1.125rem 1rem;
+  display: flex; flex-direction: column; flex: 1;
+  background: linear-gradient(to bottom, color-mix(in srgb, var(--card-accent, var(--accent)) 9%, var(--bg-card)) 0%, var(--bg-card) 55%);
+}
+.default-title {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.default-excerpt {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.58;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 0.875rem;
+  flex: 1;
+}
+.default-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: 1px solid color-mix(in srgb, var(--card-accent, var(--border-subtle)) 20%, var(--border-subtle));
+}
+.default-meta { font-size: 0.75rem; color: var(--text-secondary); }
+.default-read-time { font-size: 0.75rem; color: var(--text-secondary); display: flex; align-items: center; gap: 3px; }
+.featured-read-time { font-size: 0.75rem; color: var(--text-muted); display: flex; align-items: center; gap: 3px; }
+
+/* ─── Compact ──────────────────────────────────── */
+.compact-card {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+  align-items: flex-start;
+  transition: opacity 0.15s;
+}
+.compact-card:hover { opacity: 0.75; }
+.compact-card:last-child { border-bottom: none; }
+.compact-img-wrap {
+  width: 76px; height: 52px;
+  border-radius: var(--radius-sm);
+  overflow: hidden; flex-shrink: 0;
+  background: var(--bg-raised);
+}
+.compact-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+.compact-body { flex: 1; min-width: 0; }
+.compact-cat {
+  font-size: 0.5625rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: block;
+}
+.compact-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.38;
+  color: var(--text);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0.125rem 0 0.25rem;
+}
+.compact-time { font-size: 0.6875rem; color: var(--text-muted); }
+
+/* ─── Mini / Trending ──────────────────────────── */
+.mini-card {
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+  padding: 0.625rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+  counter-increment: trending-counter;
+  transition: opacity 0.15s;
+}
+.mini-card:hover { opacity: 0.75; }
+.mini-card:last-child { border-bottom: none; }
+.mini-num {
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--text-muted);
+  line-height: 1;
+  flex-shrink: 0;
+  width: 20px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  align-self: flex-start;
+  margin-top: 3px;
+  letter-spacing: -0.03em;
+}
+.mini-num::before { content: counter(trending-counter, decimal-leading-zero); }
+.mini-body { flex: 1; min-width: 0; }
+.mini-cat {
+  font-size: 0.5625rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: block;
+}
+.mini-title {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.38;
+  color: var(--text);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: 0.125rem;
+}
+.mini-time {
+  font-size: 0.625rem;
+  color: var(--text-muted);
+  display: block;
+  margin-top: 0.25rem;
+}
+.mini-thumb {
+  width: 62px; height: 44px;
+  border-radius: 5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: var(--bg-raised);
+}
+.mini-thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ─── Breaking / Type / Fresh badges ──────────── */
+.breaking-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.5625rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ef4444;
+  background: rgba(239,68,68,0.15);
+  border: 1px solid rgba(239,68,68,0.3);
+  padding: 3px 7px;
+  border-radius: 4px;
+  animation: breaking-pulse 1.8s ease-in-out infinite;
+}
+@keyframes breaking-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+.breaking-overlay-badge {
+  position: absolute;
+  top: 10px; right: 10px;
+  font-size: 0.5rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ef4444;
+  background: rgba(239,68,68,0.15);
+  border: 1px solid rgba(239,68,68,0.35);
+  padding: 2px 6px;
+  border-radius: 4px;
+  backdrop-filter: blur(4px);
+  animation: breaking-pulse 1.8s ease-in-out infinite;
+}
+.breaking-mini {
+  font-size: 0.4375rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ef4444;
+  background: rgba(239,68,68,0.12);
+  border: 1px solid rgba(239,68,68,0.25);
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+.type-badge {
+  font-size: 0.5625rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.fresh-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #34d399;
+  flex-shrink: 0;
+  box-shadow: 0 0 6px rgba(52,211,153,0.6);
+}
+.default-type-row {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  margin-bottom: 0.375rem;
+}
+.compact-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  margin-bottom: 0.125rem;
+}
+
+/* ─── Shared ───────────────────────────────────── */
+.cat-pill {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.5625rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--c);
+  background: color-mix(in srgb, var(--c) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--c) 28%, transparent);
+  padding: 3px 7px;
+  border-radius: 4px;
+}
+</style>

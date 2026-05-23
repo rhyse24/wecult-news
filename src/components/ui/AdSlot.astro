@@ -1,0 +1,132 @@
+---
+/**
+ * AdSlot — Google AdSense birimi.
+ * - Consent kontrolü: wcn-consent.advertising olmadan push() çağrılmaz
+ * - Lazy load: IntersectionObserver ile viewport'a girince yüklenir (CLS önlemi)
+ * - Duplicate guard: aynı slot iki kez push edilmez
+ * - AdSense script yüklenene kadar polling ile bekler (max 6s)
+ * - Slot boş kalırsa wrapper collapse olur
+ */
+
+interface Props {
+  type?: 'horizontal' | 'rectangle' | 'fluid'
+  class?: string
+}
+
+const { type = 'fluid', class: cls = '' } = Astro.props
+
+// Her instance için benzersiz ID
+const slotId = `wcn-ad-${Math.random().toString(36).slice(2, 9)}`
+
+// TODO: AdSense hesabından gerçek slot ID'leri al ve aşağıya ekle
+// AdSense Dashboard → Ads → Ad units → "By ad unit" → slot ID (10 haneli sayı)
+const configs = {
+  horizontal: { format: 'auto',  layout: null,         minH: '90px',  label: 'Reklam' },
+  rectangle:  { format: 'auto',  layout: null,         minH: '250px', label: 'Reklam' },
+  fluid:      { format: 'fluid', layout: 'in-article', minH: '80px',  label: 'Reklam' },
+}
+const cfg = configs[type]
+---
+
+<div
+  class={`ad-slot-wrap ad-slot--${type} ${cls}`}
+  id={slotId}
+  data-pushed="false"
+  aria-label="Reklam alanı"
+>
+  <div class="ad-slot-header">
+    <span class="ad-slot-label">{cfg.label}</span>
+    <a
+      href="https://adssettings.google.com/authenticated"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="ad-slot-why"
+      title="Bu reklamı neden görüyorsunuz?"
+      aria-label="Bu reklamı neden görüyorsunuz?"
+    >i</a>
+  </div>
+
+  <div class="ad-slot-body" style={`min-height:${cfg.minH}`}>
+    <ins
+      class="adsbygoogle"
+      style="display:block;width:100%"
+      data-ad-client="ca-pub-3306856150955594"
+      data-ad-slot="auto"
+      data-ad-format={cfg.format}
+      data-ad-layout={cfg.layout ?? undefined}
+      data-full-width-responsive="true"
+    ></ins>
+  </div>
+
+  <div class="ad-slot-footer">
+    <span class="ad-slot-upgrade-text">
+      Reklamları kaldır →
+      <a href={`${import.meta.env.BASE_URL}settings`} class="ad-slot-upgrade-link">CULT+</a>
+    </span>
+  </div>
+</div>
+
+<script is:inline define:vars={{ slotId }}>
+(function() {
+  var wrap = document.getElementById(slotId)
+  if (!wrap) return
+
+  /* ── helpers ── */
+  function hasConsent() {
+    try {
+      var c = JSON.parse(localStorage.getItem('wecult-consent') || 'null')
+      return !!(c && c.advertising)
+    } catch(e) { return false }
+  }
+
+  function doPush() {
+    if (wrap.dataset.pushed === 'true') return
+    wrap.dataset.pushed = 'true'
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({})
+    } catch(e) {}
+  }
+
+  /* Wait for AdSense JS to be available (max 6 s) then push */
+  function waitAndPush() {
+    if (!hasConsent()) return
+    if (window.adsbygoogle) { doPush(); return }
+    var elapsed = 0
+    var timer = setInterval(function() {
+      elapsed += 150
+      if (window.adsbygoogle) { clearInterval(timer); doPush() }
+      else if (elapsed >= 6000) clearInterval(timer)
+    }, 150)
+  }
+
+  /* Collapse wrapper if ad stays empty after 3 s */
+  function scheduleCollapse() {
+    setTimeout(function() {
+      var ins = wrap.querySelector('.adsbygoogle')
+      if (ins && ins.innerHTML.trim() === '') {
+        wrap.style.display = 'none'
+      }
+    }, 3000)
+  }
+
+  /* Consent may arrive later (user clicks "Kabul Et") */
+  window.addEventListener('wcn-consent-granted', function() {
+    waitAndPush()
+  })
+
+  /* Lazy load: push only when slot enters viewport (+200 px margin) */
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) {
+        obs.disconnect()
+        waitAndPush()
+        scheduleCollapse()
+      }
+    }, { rootMargin: '200px 0px' })
+    obs.observe(wrap)
+  } else {
+    waitAndPush()
+    scheduleCollapse()
+  }
+})()
+</script>

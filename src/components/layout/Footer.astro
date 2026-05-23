@@ -1,0 +1,224 @@
+---
+import type { Lang } from '../../types'
+import { t, getLocalizedPath } from '../../lib/i18n'
+
+interface Props { lang: Lang }
+const { lang } = Astro.props
+
+const categories = [
+  { key: 'games', icon: '🎮', color: 'var(--cat-games)' },
+  { key: 'film',  icon: '🎬', color: 'var(--cat-film)'  },
+  { key: 'tv',    icon: '📺', color: 'var(--cat-tv)'    },
+  { key: 'books', icon: '📚', color: 'var(--cat-books)' },
+] as const
+
+const popularTags = ['Rockstar Games', 'HBO', 'Neil Gaiman', 'Denis Villeneuve', 'FromSoftware', 'Tolkien']
+---
+
+<footer class="site-footer">
+  <div class="container">
+
+    <!-- Main footer grid -->
+    <div class="footer-grid">
+
+      <!-- Brand col -->
+      <div class="footer-brand-col">
+        <div class="footer-logo-row">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <rect x="0" y="0" width="3" height="18" rx="1.5" fill="#c9a84c"/>
+            <rect x="6" y="4" width="3" height="14" rx="1.5" fill="#c9a84c" opacity="0.6"/>
+            <rect x="12" y="8" width="3" height="10" rx="1.5" fill="#c9a84c" opacity="0.25"/>
+          </svg>
+          <span class="footer-logo">WeCult<span class="footer-logo-accent">News</span></span>
+        </div>
+        <p class="footer-tagline">Film, dizi, oyun ve kitap dünyasından<br/>AI destekli haber ve analizler.</p>
+        <div class="footer-langs">
+          {(['en','tr','es','pt','ja'] as const).map(l => (
+            <a href={l === 'en' ? '/' : `/${l}`} class={`footer-lang${l === lang ? ' is-active' : ''}`}>
+              {l.toUpperCase()}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- Categories col -->
+      <div class="footer-col">
+        <p class="footer-col-title">Categories</p>
+        {categories.map(cat => (
+          <a href={getLocalizedPath(lang, `/${cat.key}`)} class="footer-nav-link">
+            <span>{cat.icon}</span>
+            {t(lang, `nav.${cat.key}`)}
+          </a>
+        ))}
+      </div>
+
+      <!-- Topics col -->
+      <div class="footer-col">
+        <p class="footer-col-title">Popular Topics</p>
+        {popularTags.map(tag => (
+          <a
+            href={getLocalizedPath(lang, `/tag/${tag.toLowerCase().replace(/\s+/g, '-')}`)}
+            class="footer-nav-link footer-tag-link"
+          >
+            #{tag}
+          </a>
+        ))}
+      </div>
+
+      <!-- About col -->
+      <div class="footer-col">
+        <p class="footer-col-title">Daha Fazlası</p>
+        <a href="#" class="footer-nav-link">WeCult News Hakkında</a>
+        <a href="#" class="footer-nav-link footer-app-link">
+          <svg width="12" height="12" viewBox="0 0 18 18" fill="none"><rect x="0" y="0" width="3" height="18" rx="1.5" fill="#c9a84c"/><rect x="6" y="4" width="3" height="14" rx="1.5" fill="#c9a84c" opacity="0.6"/><rect x="12" y="8" width="3" height="10" rx="1.5" fill="#c9a84c" opacity="0.25"/></svg>
+          WeCult Uygulaması
+        </a>
+        <a href={`${import.meta.env.BASE_URL}privacy`} class="footer-nav-link">Gizlilik Politikası</a>
+        <a href="#" class="footer-nav-link">Kullanım Koşulları</a>
+        <button onclick="window.dispatchEvent(new Event('wecult:consent-open'))" class="footer-nav-link footer-cookie-btn">Çerez tercihleri</button>
+      </div>
+
+    </div>
+
+    <!-- Footer bottom bar -->
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        © {new Date().getFullYear()} WeCult News · Entertainment intelligence powered by AI
+      </p>
+      <p class="footer-copy footer-copy-right">
+        Content sourced from public media. AI curated & summarized.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+<style is:global>
+  .site-footer {
+    background: color-mix(in srgb, #000 40%, var(--bg));
+    border-top: 1px solid transparent;
+    background-clip: padding-box;
+    position: relative;
+    margin-top: 0;
+    padding: 0 0 1.75rem;
+  }
+  .site-footer::before {
+    content: '';
+    display: block;
+    height: 1px;
+    background: linear-gradient(to right, transparent 0%, color-mix(in srgb, var(--accent) 40%, var(--border-subtle)) 30%, color-mix(in srgb, var(--accent) 40%, var(--border-subtle)) 70%, transparent 100%);
+    margin-bottom: 3rem;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  /* Brand col */
+  .footer-brand-col {}
+  .footer-logo-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.875rem;
+  }
+  .footer-logo {
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--text);
+  }
+  .footer-logo-accent { color: var(--accent); }
+  .footer-tagline {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+  }
+  .footer-langs {
+    display: flex;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+  }
+  .footer-lang {
+    font-size: 0.625rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    padding: 3px 7px;
+    border-radius: 4px;
+    border: 1px solid var(--border-subtle);
+    transition: all 0.15s;
+  }
+  .footer-lang:hover { color: var(--text-secondary); border-color: var(--border); }
+  .footer-lang.is-active {
+    color: var(--accent);
+    border-color: color-mix(in srgb, var(--accent) 30%, transparent);
+    background: color-mix(in srgb, var(--accent) 8%, transparent);
+  }
+
+  /* Nav cols */
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+  }
+  .footer-col-title {
+    font-size: 0.625rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 0.625rem;
+  }
+  .footer-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    padding: 0.25rem 0;
+    transition: color 0.15s;
+  }
+  .footer-nav-link:hover { color: var(--text); }
+  .footer-tag-link { font-size: 0.75rem; color: var(--text-muted); }
+  .footer-tag-link:hover { color: var(--accent); }
+  .footer-app-link { color: var(--accent) !important; font-weight: 600; }
+  .footer-cookie-btn {
+    background: none; border: none; cursor: pointer;
+    font-family: inherit; text-align: left; padding: 0.25rem 0;
+    font-size: 0.8125rem; color: var(--text-secondary);
+    transition: color 0.15s;
+  }
+  .footer-cookie-btn:hover { color: var(--text); }
+
+
+  /* Bottom bar */
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--border-subtle);
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .footer-copy {
+    font-size: 0.6875rem;
+    color: var(--text-muted);
+  }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    .footer-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+    .footer-brand-col { grid-column: 1 / -1; }
+    .footer-bottom { flex-direction: column; align-items: flex-start; }
+    .footer-copy-right { display: none; }
+  }
+</style>

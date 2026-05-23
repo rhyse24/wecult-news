@@ -1,0 +1,26 @@
+{
+  "site_name": "WeCult News",
+  "tagline": "Eğlence haberleri, yapay zeka ile derlendi",
+  "nav": {
+    "home": "Ana Sayfa",
+    "games": "Oyun",
+    "film": "Film",
+    "tv": "Dizi",
+    "books": "Kitap"
+  },
+  "article": {
+    "ai_summary": "Yapay Zeka Özeti",
+    "ai_analysis": "Analiz",
+    "source": "Kaynak",
+    "read_original": "Kaynağa Git",
+    "compiled_from": "{{count}} kaynaktan derlendi",
+    "published": "Yayınlandı"
+  },
+  "ui": {
+    "latest": "Son Haberler",
+    "trending": "Trend",
+    "load_more": "Daha fazla",
+    "back": "Geri",
+    "search": "Ara"
+  }
+}

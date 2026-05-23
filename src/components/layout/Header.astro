@@ -1,0 +1,480 @@
+---
+import type { Lang } from '../../types'
+import { t, SUPPORTED_LANGS, getLocalizedPath } from '../../lib/i18n'
+
+interface Props { lang: Lang }
+const { lang } = Astro.props
+
+const rawPath = Astro.url.pathname
+const base = import.meta.env.BASE_URL.replace(/\/$/, '') // '/news'
+const pathWithoutBase = rawPath.startsWith(base) ? rawPath.slice(base.length) || '/' : rawPath
+const cleanPath = pathWithoutBase.replace(/^\/(tr|es|pt|ja)(\/|$)/, '/')
+const activeCategory = (['games','film','tv','books'] as const).find(
+  c => cleanPath === `/${c}` || cleanPath.startsWith(`/${c}/`)
+) ?? null
+
+const langMeta: Record<string, { label: string; flag: string }> = {
+  en: { label: 'English',   flag: '🇬🇧' },
+  tr: { label: 'Türkçe',    flag: '🇹🇷' },
+  es: { label: 'Español',   flag: '🇪🇸' },
+  pt: { label: 'Português', flag: '🇧🇷' },
+  ja: { label: '日本語',     flag: '🇯🇵' },
+}
+
+const categories = [
+  { key: 'games', color: 'var(--cat-games)' },
+  { key: 'film',  color: 'var(--cat-film)'  },
+  { key: 'tv',    color: 'var(--cat-tv)'    },
+  { key: 'books', color: 'var(--cat-books)' },
+] as const
+---
+
+<header class="site-header" id="site-header">
+  <div class="container">
+    <div class="header-inner">
+
+      <!-- Logo -->
+      <a href={getLocalizedPath(lang, '/')} class="logo">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <rect x="0" y="2" width="3.5" height="16" rx="1.75" fill="var(--accent)"/>
+          <rect x="6.5" y="6" width="3.5" height="12" rx="1.75" fill="var(--accent)" opacity="0.55"/>
+          <rect x="13" y="10" width="3.5" height="8" rx="1.75" fill="var(--accent)" opacity="0.25"/>
+        </svg>
+        <span class="logo-wordmark">WeCult<em>News</em></span>
+      </a>
+
+      <!-- Desktop category nav -->
+      <nav class="cat-nav" aria-label="Categories">
+        {categories.map(({ key, color }) => (
+          <a href={getLocalizedPath(lang, `/${key}`)} class={`cat-link${key === activeCategory ? ' is-active' : ''}`} style={`--c:${color}`}>
+            <span class="cat-dot"></span>
+            {t(lang, `nav.${key}`)}
+          </a>
+        ))}
+      </nav>
+
+      <!-- Desktop controls -->
+      <div class="header-controls">
+        <button class="icon-btn" id="search-btn" aria-label="Search">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button class="icon-btn theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <svg class="icon-sun" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <circle cx="8" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M8 1v1.5M8 13.5V15M1 8h1.5M13.5 8H15M3.05 3.05l1.06 1.06M11.89 11.89l1.06 1.06M11.89 4.11l1.06-1.06M3.05 12.95l1.06-1.06" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <svg class="icon-moon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M13.5 9.5A6 6 0 016.5 2.5a6 6 0 100 11 6 6 0 007-4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <div class="lang-picker" id="lang-picker">
+          <button class="lang-current" id="lang-btn" aria-haspopup="listbox" aria-expanded="false">
+            <span class="lang-flag">{langMeta[lang].flag}</span>
+            <span class="lang-code">{lang.toUpperCase()}</span>
+            <svg class="lang-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none">
+              <path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="lang-dropdown" id="lang-dropdown" role="listbox">
+            {SUPPORTED_LANGS.map(l => (
+              <a href={getLocalizedPath(l, '/')} class={`lang-option ${l === lang ? 'is-active' : ''}`} role="option" aria-selected={l === lang}>
+                <span class="lang-option-flag">{langMeta[l].flag}</span>
+                <span class="lang-option-label">{langMeta[l].label}</span>
+                {l === lang && (
+                  <svg class="lang-check" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M2 6l3 3 5-5" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                )}
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile right: search + hamburger -->
+      <div class="mobile-controls">
+        <button class="icon-btn" id="search-btn-mobile" aria-label="Search">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <button class="icon-btn hamburger-btn" id="hamburger-btn" aria-label="Open menu" aria-expanded="false">
+          <svg class="ham-open" width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <path d="M2 5h14M2 9h14M2 13h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <svg class="ham-close" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<!-- Mobile drawer -->
+<div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+  <nav class="drawer-cats">
+    {categories.map(({ key, color }) => (
+      <a href={getLocalizedPath(lang, `/${key}`)} class="drawer-cat-link" style={`--c:${color}`}>
+        <span class="drawer-cat-dot"></span>
+        {t(lang, `nav.${key}`)}
+      </a>
+    ))}
+  </nav>
+
+  <div class="drawer-divider"></div>
+
+  <div class="drawer-controls">
+    <button class="drawer-theme-btn" id="drawer-theme-btn">
+      <svg class="icon-sun" width="15" height="15" viewBox="0 0 16 16" fill="none">
+        <circle cx="8" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M8 1v1.5M8 13.5V15M1 8h1.5M13.5 8H15M3.05 3.05l1.06 1.06M11.89 11.89l1.06 1.06M11.89 4.11l1.06-1.06M3.05 12.95l1.06-1.06" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <svg class="icon-moon" width="15" height="15" viewBox="0 0 16 16" fill="none">
+        <path d="M13.5 9.5A6 6 0 016.5 2.5a6 6 0 100 11 6 6 0 007-4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+      </svg>
+      <span class="drawer-theme-label">Switch theme</span>
+    </button>
+  </div>
+
+  <div class="drawer-divider"></div>
+
+  <div class="drawer-langs">
+    <p class="drawer-langs-label">Language</p>
+    <div class="drawer-langs-grid">
+      {SUPPORTED_LANGS.map(l => (
+        <a href={getLocalizedPath(l, '/')} class={`drawer-lang-item ${l === lang ? 'is-active' : ''}`}>
+          <span>{langMeta[l].flag}</span>
+          <span>{langMeta[l].label}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+<!-- Search overlay -->
+<div class="search-overlay" id="search-overlay">
+  <div class="container">
+    <div class="search-inner">
+      <svg width="18" height="18" viewBox="0 0 16 16" fill="none">
+        <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <input type="search" id="search-input" placeholder="Search games, films, TV shows, books..." class="search-input" autocomplete="off" />
+      <button class="search-close" id="search-close" aria-label="Close">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ── Theme ─────────────────────────────────────────
+  function applyTheme(theme: string) {
+    document.documentElement.setAttribute('data-theme', theme)
+    try { localStorage.setItem('wcn-theme', theme) } catch(e) {}
+  }
+  function toggleTheme() {
+    const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'
+    applyTheme(next)
+  }
+  document.getElementById('theme-toggle')?.addEventListener('click', toggleTheme)
+  document.getElementById('drawer-theme-btn')?.addEventListener('click', toggleTheme)
+
+  // ── Lang dropdown ─────────────────────────────────
+  const langBtn = document.getElementById('lang-btn')!
+  const langPicker = document.getElementById('lang-picker')!
+  langBtn?.addEventListener('click', (e) => {
+    e.stopPropagation()
+    const open = langPicker.classList.toggle('is-open')
+    langBtn.setAttribute('aria-expanded', String(open))
+  })
+  document.addEventListener('click', (e) => {
+    if (!langPicker?.contains(e.target as Node)) {
+      langPicker?.classList.remove('is-open')
+      langBtn?.setAttribute('aria-expanded', 'false')
+    }
+  })
+
+  // ── Hamburger / drawer ────────────────────────────
+  const hamBtn = document.getElementById('hamburger-btn')!
+  const drawer = document.getElementById('mobile-drawer')!
+  const backdrop = document.getElementById('drawer-backdrop')!
+
+  function openDrawer() {
+    drawer.classList.add('is-open')
+    backdrop.classList.add('is-visible')
+    hamBtn.classList.add('is-open')
+    hamBtn.setAttribute('aria-expanded', 'true')
+    document.body.style.overflow = 'hidden'
+  }
+  function closeDrawer() {
+    drawer.classList.remove('is-open')
+    backdrop.classList.remove('is-visible')
+    hamBtn.classList.remove('is-open')
+    hamBtn.setAttribute('aria-expanded', 'false')
+    document.body.style.overflow = ''
+  }
+  hamBtn?.addEventListener('click', () => {
+    drawer.classList.contains('is-open') ? closeDrawer() : openDrawer()
+  })
+  backdrop?.addEventListener('click', closeDrawer)
+
+  // ── Search ────────────────────────────────────────
+  const searchOverlay = document.getElementById('search-overlay')!
+  const searchInput = document.getElementById('search-input') as HTMLInputElement
+  const searchClose = document.getElementById('search-close')!
+
+  function openSearch() {
+    searchOverlay.classList.add('is-open')
+    document.body.style.overflow = 'hidden'
+    setTimeout(() => searchInput?.focus(), 50)
+  }
+  function closeSearch() {
+    searchOverlay.classList.remove('is-open')
+    document.body.style.overflow = ''
+  }
+
+  document.getElementById('search-btn')?.addEventListener('click', openSearch)
+  document.getElementById('search-btn-mobile')?.addEventListener('click', openSearch)
+  searchClose?.addEventListener('click', closeSearch)
+  searchOverlay?.addEventListener('click', (e) => { if (e.target === searchOverlay) closeSearch() })
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { closeSearch(); closeDrawer(); langPicker?.classList.remove('is-open') }
+    if (e.key === '/' && document.activeElement?.tagName !== 'INPUT') { e.preventDefault(); openSearch() }
+  })
+
+  // ── Scroll shadow + hide-on-scroll ───────────────
+  const header = document.getElementById('site-header')!
+  let lastY = 0
+  let ticking = false
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      requestAnimationFrame(() => {
+        const y = window.scrollY
+        header?.classList.toggle('is-scrolled', y > 8)
+        if (y > 80) {
+          header?.classList.toggle('is-hidden', y > lastY)
+        } else {
+          header?.classList.remove('is-hidden')
+        }
+        lastY = y
+        ticking = false
+      })
+      ticking = true
+    }
+  }, { passive: true })
+</script>
+
+<style is:global>
+/* ── Header ───────────────────────────────────────── */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  border-bottom: 1px solid var(--border-subtle);
+  backdrop-filter: blur(20px) saturate(1.4);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
+  transition: box-shadow 0.2s, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.site-header.is-scrolled {
+  box-shadow: 0 1px 24px color-mix(in srgb, var(--text) 6%, transparent);
+  border-bottom-color: color-mix(in srgb, var(--accent) 22%, var(--border-subtle));
+}
+.site-header.is-hidden {
+  transform: translateY(-100%);
+}
+.header-inner {
+  display: flex; align-items: center; height: 54px; gap: 1.5rem;
+}
+
+/* Logo */
+.logo { display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0; }
+.logo-wordmark { font-size: 0.9375rem; font-weight: 800; letter-spacing: -0.03em; font-style: normal; }
+.logo-wordmark em { color: var(--accent); font-style: normal; }
+
+/* Desktop nav */
+.cat-nav { display: flex; align-items: center; gap: 0.125rem; flex: 1; }
+.cat-link {
+  display: inline-flex; align-items: center; gap: 0.375rem;
+  padding: 0.3125rem 0.75rem; border-radius: 999px;
+  font-size: 0.8125rem; font-weight: 500; color: var(--text-secondary);
+  transition: color 0.15s, background 0.15s; white-space: nowrap;
+}
+.cat-link:hover { color: var(--c); background: color-mix(in srgb, var(--c) 10%, transparent); }
+.cat-link.is-active {
+  color: var(--c);
+  background: color-mix(in srgb, var(--c) 14%, transparent);
+  font-weight: 700;
+}
+.cat-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--c); opacity: 0.6; flex-shrink: 0; }
+
+/* Desktop controls */
+.header-controls { display: flex; align-items: center; gap: 0.375rem; flex-shrink: 0; }
+.mobile-controls { display: none; align-items: center; gap: 0.25rem; }
+
+/* Icon btn */
+.icon-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; border: none; border-radius: var(--radius-sm);
+  background: transparent; color: var(--text-muted);
+  transition: color 0.15s, background 0.15s;
+}
+.icon-btn:hover { color: var(--text); background: var(--bg-raised); }
+
+/* Theme icons */
+.icon-sun  { display: block; }
+.icon-moon { display: none; }
+[data-theme="light"] .icon-sun  { display: none; }
+[data-theme="light"] .icon-moon { display: block; }
+
+/* Hamburger state */
+.hamburger-btn .ham-close { display: none; }
+.hamburger-btn.is-open .ham-open  { display: none; }
+.hamburger-btn.is-open .ham-close { display: block; }
+
+/* ── Lang picker ──────────────────────────────────── */
+.lang-picker { position: relative; }
+.lang-current {
+  display: inline-flex; align-items: center; gap: 0.375rem;
+  height: 34px; padding: 0 0.625rem; border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle); background: var(--bg-raised);
+  color: var(--text-secondary); font-size: 0.75rem; font-weight: 700;
+  transition: border-color 0.15s, background 0.15s; white-space: nowrap;
+}
+.lang-current:hover { border-color: var(--border); background: var(--bg-card-hover); }
+.lang-picker.is-open .lang-current { border-color: var(--accent); color: var(--text); }
+.lang-flag { font-size: 0.875rem; line-height: 1; }
+.lang-code { letter-spacing: 0.04em; }
+.lang-chevron { color: var(--text-muted); transition: transform 0.2s; margin-left: 1px; }
+.lang-picker.is-open .lang-chevron { transform: rotate(180deg); }
+
+.lang-dropdown {
+  position: absolute; top: calc(100% + 6px); right: 0; min-width: 160px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow), 0 8px 32px rgba(0,0,0,0.15);
+  padding: 0.375rem;
+  opacity: 0; transform: translateY(-6px) scale(0.97);
+  pointer-events: none; transition: opacity 0.15s, transform 0.15s; z-index: 200;
+}
+.lang-picker.is-open .lang-dropdown { opacity: 1; transform: translateY(0) scale(1); pointer-events: auto; }
+.lang-option {
+  display: flex; align-items: center; gap: 0.625rem;
+  padding: 0.5rem 0.625rem; border-radius: var(--radius-sm);
+  font-size: 0.8125rem; color: var(--text-secondary); transition: background 0.12s, color 0.12s;
+}
+.lang-option:hover { background: var(--bg-raised); color: var(--text); }
+.lang-option.is-active { color: var(--text); font-weight: 600; background: var(--accent-dim); }
+.lang-option-flag { font-size: 1rem; line-height: 1; }
+.lang-option-label { flex: 1; }
+.lang-check { flex-shrink: 0; }
+
+/* ── Mobile drawer ────────────────────────────────── */
+.mobile-drawer {
+  position: fixed; top: 54px; left: 0; right: 0; bottom: 0;
+  background: var(--bg); border-top: 1px solid var(--border-subtle);
+  z-index: 99; padding: 1.25rem 1.5rem 2rem;
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-drawer.is-open { transform: translateX(0); }
+
+.drawer-backdrop {
+  position: fixed; inset: 0; z-index: 98;
+  background: rgba(0,0,0,0.5);
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.25s;
+}
+.drawer-backdrop.is-visible { opacity: 1; pointer-events: auto; }
+
+.drawer-cats { display: flex; flex-direction: column; gap: 0.25rem; margin-bottom: 0.5rem; }
+.drawer-cat-link {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.75rem 0.875rem; border-radius: var(--radius-md);
+  font-size: 1rem; font-weight: 600; color: var(--text-secondary);
+  transition: background 0.15s, color 0.15s;
+}
+.drawer-cat-link:hover { color: var(--c); background: color-mix(in srgb, var(--c) 8%, transparent); }
+.drawer-cat-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--c); flex-shrink: 0;
+}
+
+.drawer-divider { height: 1px; background: var(--border-subtle); margin: 1rem 0; }
+
+.drawer-controls { padding: 0 0.25rem; }
+.drawer-theme-btn {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.75rem 0.625rem; border: none; background: transparent;
+  color: var(--text-secondary); font-size: 0.9375rem; font-weight: 500;
+  border-radius: var(--radius-md); width: 100%; cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.drawer-theme-btn:hover { background: var(--bg-raised); color: var(--text); }
+.drawer-theme-label { flex: 1; text-align: left; }
+
+.drawer-langs-label {
+  font-size: 0.6875rem; font-weight: 800; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.75rem;
+  padding: 0 0.25rem;
+}
+.drawer-langs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+.drawer-lang-item {
+  display: flex; align-items: center; gap: 0.5rem;
+  padding: 0.625rem 0.75rem; border-radius: var(--radius-md);
+  font-size: 0.875rem; color: var(--text-secondary);
+  background: var(--bg-raised); border: 1px solid var(--border-subtle);
+  transition: border-color 0.15s, color 0.15s;
+}
+.drawer-lang-item.is-active {
+  color: var(--accent); border-color: color-mix(in srgb, var(--accent) 30%, transparent);
+  background: var(--accent-dim); font-weight: 600;
+}
+
+/* ── Search overlay ───────────────────────────────── */
+.search-overlay {
+  position: fixed; inset: 0; z-index: 200;
+  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
+  display: flex; align-items: flex-start; padding-top: 5rem;
+  opacity: 0; pointer-events: none; transition: opacity 0.2s;
+}
+.search-overlay.is-open { opacity: 1; pointer-events: auto; }
+.search-inner {
+  display: flex; align-items: center; gap: 0.875rem;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-xl); padding: 0.875rem 1.25rem;
+  box-shadow: var(--shadow), 0 16px 48px rgba(0,0,0,0.2);
+}
+.search-inner svg { color: var(--text-muted); flex-shrink: 0; }
+.search-input {
+  flex: 1; background: transparent; border: none; outline: none;
+  font-size: 1.0625rem; font-family: var(--font-sans); color: var(--text); width: 100%;
+}
+.search-input::placeholder { color: var(--text-muted); }
+.search-close {
+  display: flex; align-items: center; justify-content: center;
+  width: 28px; height: 28px; border: none;
+  background: var(--bg-raised); border-radius: var(--radius-sm);
+  color: var(--text-muted); flex-shrink: 0; transition: color 0.15s;
+}
+.search-close:hover { color: var(--text); }
+
+/* ── Mobile breakpoint ────────────────────────────── */
+@media (max-width: 768px) {
+  .cat-nav       { display: none; }
+  .header-controls { display: none; }
+  .mobile-controls { display: flex; margin-left: auto; }
+}
+</style>

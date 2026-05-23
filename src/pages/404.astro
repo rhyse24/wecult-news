@@ -1,0 +1,133 @@
+---
+import Base from '../layouts/Base.astro'
+import type { Lang } from '../types'
+
+const lang: Lang = 'en'
+---
+
+<Base title="404 — Not Found" lang={lang}>
+  <div class="nf-page">
+    <div class="container">
+      <div class="nf-inner">
+
+        <div class="nf-eyebrow">
+          <span class="nf-code">404</span>
+          <span class="nf-sep">·</span>
+          <span class="nf-label">Page not found</span>
+        </div>
+
+        <h1 class="nf-title">Lost in the feed?</h1>
+        <p class="nf-desc">
+          The article, category, or page you're looking for doesn't exist
+          or may have been moved. Try one of these instead:
+        </p>
+
+        <div class="nf-cats">
+          <a href="/games" class="nf-cat" style="--c:var(--cat-games)">
+            <span class="nf-cat-icon">🎮</span>
+            <span>Games</span>
+          </a>
+          <a href="/film" class="nf-cat" style="--c:var(--cat-film)">
+            <span class="nf-cat-icon">🎬</span>
+            <span>Film</span>
+          </a>
+          <a href="/tv" class="nf-cat" style="--c:var(--cat-tv)">
+            <span class="nf-cat-icon">📺</span>
+            <span>TV</span>
+          </a>
+          <a href="/books" class="nf-cat" style="--c:var(--cat-books)">
+            <span class="nf-cat-icon">📚</span>
+            <span>Books</span>
+          </a>
+        </div>
+
+        <a href="/" class="nf-home-btn">← Back to Home</a>
+
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style is:global>
+  .nf-page {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 5rem 0;
+  }
+  .nf-inner {
+    max-width: 520px;
+  }
+  .nf-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    margin-bottom: 1.5rem;
+  }
+  .nf-code {
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    background: var(--accent-dim);
+    border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+    padding: 3px 10px;
+    border-radius: 4px;
+  }
+  .nf-sep { color: var(--border); }
+  .nf-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+  }
+  .nf-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    color: var(--text);
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    font-family: var(--font-serif);
+  }
+  .nf-desc {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+  }
+  .nf-cats {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  .nf-cat {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1rem;
+    background: color-mix(in srgb, var(--c) 8%, var(--bg-card));
+    border: 1px solid color-mix(in srgb, var(--c) 20%, var(--border-subtle));
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    transition: background 0.15s, color 0.15s, transform 0.15s;
+  }
+  .nf-cat:hover {
+    color: var(--c);
+    background: color-mix(in srgb, var(--c) 14%, var(--bg-card));
+    transform: translateY(-2px);
+  }
+  .nf-cat-icon { font-size: 1.125rem; line-height: 1; }
+  .nf-home-btn {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    transition: color 0.15s;
+  }
+  .nf-home-btn:hover { color: var(--text-secondary); }
+</style>
