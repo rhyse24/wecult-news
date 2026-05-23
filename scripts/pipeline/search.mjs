@@ -39,12 +39,20 @@ export async function searchInlineImage(article) {
 
 function extractSubject(title, category) {
   // Strip common prefixes
-  title = title.replace(/^(Review:|Preview:|How to|Guide:|Opinion:|Feature:|Watch:)\s*/i, '');
-  // Extract quoted title if present (e.g. 'Kingdom Come: Deliverance 3' Confirmed)
-  const quoted = title.match(/['"]([^'"]{4,})['"]/);
-  if (quoted) return quoted[1];
-  // Otherwise first 4 words
-  return title.split(/\s+/).slice(0, 4).join(' ');
+  title = title.replace(/^(Review:|Preview:|How to|Guide:|Opinion:|Feature:|Watch:|Analysis:)\s*/i, '');
+  // Extract quoted title — most reliable (e.g. 'Kingdom Come: Deliverance 3' Confirmed)
+  const quoted = title.match(/['""]([^'""]{4,40})['""]/)
+  if (quoted) return `${quoted[1]} ${category}`;
+  // Stop at action verbs that follow the subject name
+  const stopWords = /^(dev|developer|confirms?|says|reveals?|announces?|review|gets|is|are|has|will|could|might|new|next|first|last|best|star|actor|director)$/i;
+  const words = title.split(/\s+/);
+  const subject = [];
+  for (const word of words) {
+    if (stopWords.test(word) && subject.length >= 2) break;
+    subject.push(word);
+    if (subject.length >= 4) break;
+  }
+  return `${subject.join(' ')} ${category}`;
 }
 
 function isImageUrl(url) {

@@ -55,9 +55,9 @@ Return ONLY valid JSON (no markdown, no code block):
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.7, maxOutputTokens: 5000 },
+      generationConfig: { temperature: 0.7, maxOutputTokens: 4000 },
     }),
-    signal: AbortSignal.timeout(30000),
+    signal: AbortSignal.timeout(90000),
   });
 
   if (!res.ok) {

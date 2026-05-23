@@ -137,8 +137,8 @@ const shareUrl = encodeURIComponent(pageUrl)
             </button>
           </div>
 
-          <!-- AI Summary — only show if different from body start -->
-          {tr?.summary && tr.summary !== tr?.body?.slice(0, tr.summary.length) && (
+          <!-- AI Summary -->
+          {tr?.summary && (
             <div class="ai-summary-box">
               <div class="ai-summary-header">
                 <span class="ai-section-label">✦ {t(lang, 'article.ai_summary')}</span>
