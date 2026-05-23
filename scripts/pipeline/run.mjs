@@ -76,7 +76,7 @@ for (const article of toProcess) {
       ai_analysis: ai.ai_analysis,
       translations: ai.translations,
       tags: inferTags(article),
-      image_url: '',
+      image_url: article.image_url || '',
     };
 
     writeFileSync(`${ARTICLES_DIR}/${filename}.json`, JSON.stringify(json, null, 2));

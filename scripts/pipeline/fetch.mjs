@@ -1,9 +1,5 @@
 import { parseStringPromise } from 'xml2js';
 
-/**
- * Fetch and parse a single RSS feed.
- * Returns array of { title, link, pubDate, content, source_name, category }
- */
 export async function fetchFeed(source, maxItems = 3) {
   const res = await fetch(source.url, {
     headers: { 'User-Agent': 'WeCultNews/1.0 (+https://wecult.app/news)' },
@@ -21,22 +17,64 @@ export async function fetchFeed(source, maxItems = 3) {
   const channel = parsed?.rss?.channel || parsed?.feed;
   if (!channel) return [];
 
-  // Handle both RSS 2.0 and Atom
   const items = channel.item
     ? Array.isArray(channel.item) ? channel.item : [channel.item]
     : channel.entry
     ? Array.isArray(channel.entry) ? channel.entry : [channel.entry]
     : [];
 
-  return items.slice(0, maxItems).map(item => ({
-    title: item.title?._ || item.title || '',
-    link: item.link?.href || item.link || item.guid?._ || item.guid || '',
-    pubDate: item.pubDate || item.published || item.updated || new Date().toISOString(),
-    content: strip(item['content:encoded'] || item.content?._ || item.description || item.summary || ''),
-    source_name: source.name,
-    source_url: source.url,
-    category: source.category,
-  })).filter(a => a.title && a.link);
+  return items.slice(0, maxItems).map(item => {
+    const rawHtml = item['content:encoded'] || item.content?._ || item.description || item.summary || '';
+    return {
+      title: item.title?._ || item.title || '',
+      link: item.link?.href || item.link || item.guid?._ || item.guid || '',
+      pubDate: item.pubDate || item.published || item.updated || new Date().toISOString(),
+      content: strip(rawHtml),
+      image_url: extractImage(item, rawHtml),
+      source_name: source.name,
+      source_url: source.url,
+      category: source.category,
+    };
+  }).filter(a => a.title && a.link);
+}
+
+/**
+ * Extract image URL from RSS item — tries multiple common locations.
+ */
+function extractImage(item, rawHtml) {
+  // 1. media:content (most common in game/entertainment RSS)
+  const mc = item['media:content'];
+  if (mc) {
+    const url = mc?.$ ? mc.$.url : (Array.isArray(mc) ? mc[0]?.$.url : mc?.url);
+    if (url && isImageUrl(url)) return url;
+  }
+
+  // 2. media:thumbnail
+  const mt = item['media:thumbnail'];
+  if (mt) {
+    const url = mt?.$ ? mt.$.url : (Array.isArray(mt) ? mt[0]?.$.url : mt?.url);
+    if (url && isImageUrl(url)) return url;
+  }
+
+  // 3. enclosure (podcasts use this too, check type)
+  const enc = item.enclosure;
+  if (enc) {
+    const url = enc?.$ ? enc.$.url : enc?.url;
+    const type = enc?.$ ? enc.$.type : enc?.type;
+    if (url && (!type || type.startsWith('image/'))) return url;
+  }
+
+  // 4. First <img> tag in HTML content
+  const imgMatch = rawHtml.match(/<img[^>]+src=["']([^"']+)["']/i);
+  if (imgMatch?.[1] && isImageUrl(imgMatch[1])) return imgMatch[1];
+
+  return '';
+}
+
+function isImageUrl(url) {
+  if (!url || typeof url !== 'string') return false;
+  if (url.startsWith('data:')) return false;
+  return /\.(jpe?g|png|webp|gif|avif)(\?|$)/i.test(url) || url.includes('image') || url.includes('img');
 }
 
 function strip(html) {
