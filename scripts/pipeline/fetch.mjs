@@ -100,5 +100,24 @@ function isImageUrl(url) {
 }
 
 function strip(html) {
-  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 3000);
+  return html
+    // Remove script and style blocks entirely
+    .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, ' ')
+    // Remove HTML tags
+    .replace(/<[^>]*>/g, ' ')
+    // Remove CSS rules like .class { ... }
+    .replace(/\.[a-z-]+\s*\{[^}]*\}/gi, ' ')
+    // Remove inline styles and data attributes leftovers
+    .replace(/\b(margin|padding|display|font|color|background)[^;]+;/gi, ' ')
+    // Remove URLs
+    .replace(/https?:\/\/\S+/g, ' ')
+    // Remove Reddit-style artifacts (u/username, r/subreddit)
+    .replace(/\b[ur]\/\w+/g, ' ')
+    // Decode common HTML entities
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+    // Clean up whitespace
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 3000);
 }
