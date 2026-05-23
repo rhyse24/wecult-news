@@ -43,5 +43,6 @@ jobs:
           else
             ARTICLE_COUNT=$(git diff --staged --name-only | grep -c '\.json' || true)
             git commit -m "feat(articles): pipeline added ${ARTICLE_COUNT} new article(s)"
+            git pull --rebase origin master
             git push
           fi
