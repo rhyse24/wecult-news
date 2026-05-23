@@ -15,12 +15,16 @@ export async function summarizeArticle(article, apiKey) {
 
   const prompt = `You are ${voice} working for WeCult — a premium dark-themed entertainment platform.
 
-Your job is to REWRITE the article below in WeCult's editorial style:
+Your job is to REWRITE the article below in WeCult's editorial style.
+IMPORTANT: Always write a MINIMUM of 500 words for the body. If the source content is brief, expand using your knowledge of the topic, the franchise, the industry context, and what fans care about. Never produce a short stub.
+
+Rules:
 - Hook the reader in the first sentence (don't start with the source name or "According to")
 - Write like you're talking directly to a fan, not reporting for a newspaper
 - Keep it punchy, specific, and opinionated — avoid generic filler phrases
 - Highlight what actually matters to the audience (impact, excitement, controversy)
-- The body should read like a short engaging article, NOT a press release summary
+- If source content is thin, add background context, fan expectations, industry analysis
+- The body must always be a full, satisfying article read — never a stub
 
 Article title: ${article.title}
 Source: ${article.source_name}

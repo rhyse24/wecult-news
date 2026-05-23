@@ -52,7 +52,7 @@ const LOW_QUALITY_PATTERNS = [
 ];
 
 function isQuality(article) {
-  if (article.content.length < 120) return false;
+  if (article.content.length < 300) return false;
   const title = article.title.toLowerCase();
   for (const pattern of LOW_QUALITY_PATTERNS) {
     if (pattern.test(title)) return false;
