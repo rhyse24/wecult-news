@@ -150,33 +150,25 @@ const shareUrl = encodeURIComponent(pageUrl)
           <!-- Article body -->
           {tr?.body && (
             <div class="article-content">
-              {(() => {
-                const blocks = tr.body
-                  .split(/\n\n+/)
-                  .flatMap(para => para.trim().length > 0 ? [para.trim()] : [])
-                let inlineInserted = false
-                return blocks.map((para, i) => {
-                  const isFullStory = para.startsWith('## The Full Story') || para.startsWith('## Tüm Hikaye')
-                  const nodes = []
-                  if (para.startsWith('## ')) {
-                    nodes.push(<h2 class="article-section-heading">{para.slice(3)}</h2>)
-                  } else if (para.startsWith('> ')) {
-                    nodes.push(<blockquote class="article-pullquote">{para.slice(2)}</blockquote>)
-                  } else {
-                    nodes.push(<p>{para}</p>)
-                  }
-                  // Insert inline image after "The Full Story" heading
-                  if (isFullStory && !inlineInserted && article.inline_image_url) {
-                    inlineInserted = true
-                    nodes.push(
+              {tr.body
+                .split(/\n\n+/)
+                .flatMap(b => b.trim().length > 0 ? [b.trim()] : [])
+                .map((para, i) => (
+                  <>
+                    {para.startsWith('## ')
+                      ? <h2 class="article-section-heading">{para.slice(3)}</h2>
+                      : para.startsWith('> ')
+                      ? <blockquote class="article-pullquote">{para.slice(2)}</blockquote>
+                      : <p>{para}</p>
+                    }
+                    {i === 2 && article.inline_image_url && (
                       <figure class="article-inline-figure">
                         <img src={article.inline_image_url} alt={tr?.title} loading="lazy" />
                       </figure>
-                    )
-                  }
-                  return nodes
-                })
-              })()}
+                    )}
+                  </>
+                ))
+              }
             </div>
           )}
 

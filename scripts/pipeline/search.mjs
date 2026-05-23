@@ -38,21 +38,21 @@ export async function searchInlineImage(article) {
 }
 
 function extractSubject(title, category) {
-  // Strip common prefixes
   title = title.replace(/^(Review:|Preview:|How to|Guide:|Opinion:|Feature:|Watch:|Analysis:)\s*/i, '');
-  // Extract quoted title — most reliable (e.g. 'Kingdom Come: Deliverance 3' Confirmed)
+  // Quoted title is most reliable: 'Kingdom Come: Deliverance' Confirmed...
   const quoted = title.match(/['""]([^'""]{4,40})['""]/)
-  if (quoted) return `${quoted[1]} ${category}`;
-  // Stop at action verbs that follow the subject name
-  const stopWords = /^(dev|developer|confirms?|says|reveals?|announces?|review|gets|is|are|has|will|could|might|new|next|first|last|best|star|actor|director)$/i;
+  if (quoted) return quoted[1];
+  // Stop before action verbs to isolate the subject name
+  const stopWords = /^(dev|developer|devs|studio|confirms?|says|reveals?|announces?|review|gets|is|are|has|will|could|might|new|next|first|last|best|star|stars|actor|director|writer|creator|cast|team|sequel|prequel|reboot|remake|season|episode|trailer|teaser)$/i;
   const words = title.split(/\s+/);
   const subject = [];
   for (const word of words) {
-    if (stopWords.test(word) && subject.length >= 2) break;
-    subject.push(word);
-    if (subject.length >= 4) break;
+    const clean = word.replace(/[^a-zA-Z0-9:'-]/g, '');
+    if (stopWords.test(clean) && subject.length >= 2) break;
+    subject.push(clean);
+    if (subject.length >= 5) break;
   }
-  return `${subject.join(' ')} ${category}`;
+  return subject.join(' ');
 }
 
 function isImageUrl(url) {
