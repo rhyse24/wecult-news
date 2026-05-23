@@ -4,7 +4,7 @@ const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemi
  * Call Gemini Flash to rewrite an article in WeCult's editorial voice.
  * Returns { summary_en, ai_analysis, translations: { en, tr, es, pt, ja } }
  */
-export async function summarizeArticle(article, apiKey) {
+export async function summarizeArticle(article, apiKey, webContext = '') {
   const categoryVoice = {
     games: 'a passionate gaming journalist writing for hardcore and casual gamers alike',
     film:  'an enthusiastic film critic writing for cinephiles and casual moviegoers',
@@ -29,7 +29,8 @@ Rules:
 Article title: ${article.title}
 Source: ${article.source_name}
 Category: ${article.category}
-Raw content: ${article.content}
+RSS content: ${article.content}
+${webContext ? `\nAdditional web research:\n${webContext}` : ''}
 
 Return ONLY valid JSON (no markdown, no code block):
 {

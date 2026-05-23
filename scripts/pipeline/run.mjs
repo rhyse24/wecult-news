@@ -3,9 +3,11 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
 import { summarizeArticle } from './summarize.mjs';
+import { searchContext } from './search.mjs';
 import { SOURCES, MAX_PER_SOURCE, MAX_PER_CATEGORY, MAX_TOTAL } from './sources.mjs';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const TAVILY_API_KEY = process.env.TAVILY_API_KEY;
 if (!GEMINI_API_KEY) {
   console.error('GEMINI_API_KEY env var required');
   process.exit(1);
@@ -91,9 +93,16 @@ console.log(`[pipeline] Processing ${toProcess.length} articles (${dist}) with G
 let saved = 0;
 for (const article of toProcess) {
   try {
+    // Web search for richer context
+    let webContext = '';
+    if (TAVILY_API_KEY) {
+      webContext = await searchContext(article, TAVILY_API_KEY);
+      if (webContext) console.log(`    [search] context found (${webContext.length} chars)`);
+    }
+
     let ai;
     try {
-      ai = await summarizeArticle(article, GEMINI_API_KEY);
+      ai = await summarizeArticle(article, GEMINI_API_KEY, webContext);
     } catch (geminiErr) {
       // Gemini quota/rate error → fallback to raw content
       console.warn(`  [gemini-fallback] ${geminiErr.message.slice(0, 60)}`);
