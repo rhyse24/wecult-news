@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro'
 import ArticleCard from '../../components/article/ArticleCard.astro'
 import WeCultCTA from '../../components/ui/WeCultCTA.astro'
 import { t, getLocalizedPath } from '../../lib/i18n'
-import { mockArticles, getRelated } from '../../lib/mock-articles'
+import { articles as mockArticles, getRelated } from '../../lib/articles'
 import type { Lang } from '../../types'
 
 export async function getStaticPaths() {
@@ -15,7 +15,7 @@ const lang: Lang = 'en'
 
 const article = mockArticles.find(a => a.slug === slug) ?? mockArticles[0]
 const tr = article.translations[lang] ?? article.translations['en']
-const related = getRelated(article, 3)
+const related = getRelated(mockArticles, article, 3)
 
 const catColors: Record<string, string> = {
   games: 'var(--cat-games)', film: 'var(--cat-film)',

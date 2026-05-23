@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro'
 import ArticleCard from '../../components/article/ArticleCard.astro'
 import { getLocalizedPath } from '../../lib/i18n'
-import { mockArticles, getByTag } from '../../lib/mock-articles'
+import { articles as mockArticles, getByTag } from '../../lib/articles'
 import type { Lang } from '../../types'
 
 export async function getStaticPaths() {
@@ -17,7 +17,7 @@ const { tag } = Astro.params
 const { originalTag } = Astro.props as { originalTag: string }
 const lang: Lang = 'en'
 
-const articles = getByTag(originalTag)
+const articles = getByTag(mockArticles, originalTag)
 
 const catCount: Record<string, number> = {}
 articles.forEach(a => { catCount[a.category] = (catCount[a.category] ?? 0) + 1 })

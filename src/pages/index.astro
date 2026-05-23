@@ -4,7 +4,7 @@ import ArticleCard from '../components/article/ArticleCard.astro'
 import NewsletterHook from '../components/ui/NewsletterHook.astro'
 import AdSlot from '../components/ui/AdSlot.astro'
 import { t, getLangFromUrl, getLocalizedPath } from '../lib/i18n'
-import { mockArticles, getByLang } from '../lib/mock-articles'
+import { articles as mockArticles, getByLang } from '../lib/articles'
 import type { Lang } from '../types'
 
 const lang: Lang = getLangFromUrl(Astro.url)

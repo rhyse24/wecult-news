@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro'
 import ArticleCard from '../components/article/ArticleCard.astro'
 import AdSlot from '../components/ui/AdSlot.astro'
 import { t } from '../lib/i18n'
-import { mockArticles, getByCategory } from '../lib/mock-articles'
+import { articles as mockArticles, getByCategory } from '../lib/articles'
 import type { Lang } from '../types'
 
 export function getStaticPaths() {
@@ -28,7 +28,7 @@ const catMeta: Record<string, { color: string; label: string; desc: string; icon
 const typeFilters = ['All', 'News', 'Review', 'Feature', 'Opinion', 'Guide']
 
 const meta = catMeta[category!]
-const articles = getByCategory(category!)
+const articles = getByCategory(mockArticles, category! as import('../types').Category)
 const [hero, featured, ...rest] = articles
 const allOtherArticles = mockArticles.filter(a => a.category !== category).slice(0, 4)
 ---
