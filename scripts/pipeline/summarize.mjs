@@ -46,21 +46,6 @@ Return ONLY valid JSON (no markdown, no code block):
       "title": "Türkçe başlık",
       "summary": "İki cümlelik Türkçe hook",
       "body": "900-1200 kelime yapılandırılmış Türkçe makale. Her blok arasında \\n\\n kullan:\\n\\nHook paragrafı\\n\\n## Neden Önemli\\n\\n1-2 paragraf\\n\\n## Tüm Hikaye\\n\\n2-3 paragraf\\n\\n## Topluluk Ne Diyor\\n\\n1-2 paragraf\\n\\n> Güçlü bir alıntı cümlesi\\n\\n## Büyük Resim\\n\\n1-2 paragraf\\n\\n## Sırada Ne Var\\n\\n1 paragraf sonuç"
-    },
-    "es": {
-      "title": "Título en español",
-      "summary": "Dos frases gancho en español",
-      "body": "Artículo estructurado de 900-1200 palabras. Usar \\n\\n entre bloques:\\n\\nPárrafo gancho\\n\\n## Por Qué Importa\\n\\n## La Historia Completa\\n\\n## Qué Dice la Comunidad\\n\\n> Cita destacada\\n\\n## El Panorama General\\n\\n## Qué Sigue"
-    },
-    "pt": {
-      "title": "Título em português",
-      "summary": "Duas frases gancho em português",
-      "body": "Artigo estruturado de 900-1200 palavras em português. Usar \\n\\n entre blocos:\\n\\nParágrafo gancho\\n\\n## Por Que Importa\\n\\n## A História Completa\\n\\n## O Que a Comunidade Está Dizendo\\n\\n> Citação em destaque\\n\\n## O Quadro Maior\\n\\n## O Que Vem a Seguir"
-    },
-    "ja": {
-      "title": "日本語タイトル",
-      "summary": "2文の日本語フック",
-      "body": "900〜1200語の構造化された日本語記事。\\n\\nで区切り:\\n\\nフック段落\\n\\n## なぜ重要か\\n\\n## 全体像\\n\\n## コミュニティの反応\\n\\n> 印象的な引用\\n\\n## 業界への影響\\n\\n## 今後の展開"
     }
   }
 }`;

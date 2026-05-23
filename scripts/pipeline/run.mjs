@@ -107,15 +107,13 @@ for (const article of toProcess) {
       // Gemini quota/rate error → fallback to raw content
       console.warn(`  [gemini-fallback] ${geminiErr.message.slice(0, 60)}`);
       const snippet = article.content.slice(0, 500);
+      const body = article.content;
       ai = {
         summary_en: snippet,
         ai_analysis: '',
         translations: {
-          en: { title: article.title, summary: snippet },
-          tr: { title: article.title, summary: snippet },
-          es: { title: article.title, summary: snippet },
-          pt: { title: article.title, summary: snippet },
-          ja: { title: article.title, summary: snippet },
+          en: { title: article.title, summary: snippet, body },
+          tr: { title: article.title, summary: snippet, body },
         },
       };
     }
