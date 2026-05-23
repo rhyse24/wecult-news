@@ -11,6 +11,7 @@ export interface Article {
   article_type: ArticleType
   published_at: string
   cover_image: string | null
+  inline_image_url: string
   source_url: string
   source_name: string
   tags: string[]

@@ -66,6 +66,7 @@ function normalizeArticle(raw: Record<string, unknown>): Article {
     article_type: 'news',
     published_at: raw.published_at as string,
     cover_image: (raw.image_url as string) || FALLBACK_IMAGES[category],
+    inline_image_url: (raw.inline_image_url as string) || '',
     source_url: raw.source_url as string,
     source_name: raw.source_name as string,
     tags: (raw.tags as string[]) ?? [category],
