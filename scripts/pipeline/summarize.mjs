@@ -40,27 +40,27 @@ Return ONLY valid JSON (no markdown, no code block):
     "en": {
       "title": "Engaging English title (can be slightly reworded for impact)",
       "summary": "One punchy 2-sentence hook that makes you want to read the full article",
-      "body": "900-1200 word editorial article in English. 8-10 paragraphs separated by \\n\\n. Structure: hook → background & franchise history → main news details → community/fan reaction → deeper analysis → industry context → what this means for the future → conclusion. Write like a long-form Polygon or Eurogamer feature — engaging, specific, rich with context, no fluff."
+      "body": "900-1200 word structured editorial article in English. Use this EXACT format with \\n\\n between every block:\\n\\nHook paragraph (2-3 sentences, grabs attention immediately)\\n\\n## Why This Matters\\n\\n1-2 paragraphs on why this news is significant to fans\\n\\n## The Full Story\\n\\n2-3 paragraphs with all the details, background, franchise history\\n\\n## What the Community Is Saying\\n\\n1-2 paragraphs on fan reaction, community response, social buzz\\n\\n> A powerful pull quote — one memorable sentence from the story or your analysis\\n\\n## The Bigger Picture\\n\\n1-2 paragraphs on industry context and implications\\n\\n## What's Next\\n\\n1 paragraph forward-looking conclusion. Write like a long-form Polygon or Eurogamer feature — engaging, opinionated, rich with context."
     },
     "tr": {
       "title": "Türkçe başlık",
       "summary": "İki cümlelik Türkçe hook",
-      "body": "900-1200 kelime Türkçe makale. 8-10 paragraf, her biri \\n\\n ile ayrılmış. Türk okuyucuya doğrudan hitap eden, franchise geçmişi ve fan tepkileriyle zenginleştirilmiş editorial ton."
+      "body": "900-1200 kelime yapılandırılmış Türkçe makale. Her blok arasında \\n\\n kullan:\\n\\nHook paragrafı\\n\\n## Neden Önemli\\n\\n1-2 paragraf\\n\\n## Tüm Hikaye\\n\\n2-3 paragraf\\n\\n## Topluluk Ne Diyor\\n\\n1-2 paragraf\\n\\n> Güçlü bir alıntı cümlesi\\n\\n## Büyük Resim\\n\\n1-2 paragraf\\n\\n## Sırada Ne Var\\n\\n1 paragraf sonuç"
     },
     "es": {
       "title": "Título en español",
       "summary": "Dos frases gancho en español",
-      "body": "Artículo editorial de 900-1200 palabras en español. 8-10 párrafos separados por \\n\\n. Con historia del tema, reacción de fans y análisis profundo."
+      "body": "Artículo estructurado de 900-1200 palabras. Usar \\n\\n entre bloques:\\n\\nPárrafo gancho\\n\\n## Por Qué Importa\\n\\n## La Historia Completa\\n\\n## Qué Dice la Comunidad\\n\\n> Cita destacada\\n\\n## El Panorama General\\n\\n## Qué Sigue"
     },
     "pt": {
       "title": "Título em português",
       "summary": "Duas frases gancho em português",
-      "body": "Artigo editorial de 900-1200 palavras em português. 8-10 parágrafos separados por \\n\\n."
+      "body": "Artigo estruturado de 900-1200 palavras em português. Usar \\n\\n entre blocos:\\n\\nParágrafo gancho\\n\\n## Por Que Importa\\n\\n## A História Completa\\n\\n## O Que a Comunidade Está Dizendo\\n\\n> Citação em destaque\\n\\n## O Quadro Maior\\n\\n## O Que Vem a Seguir"
     },
     "ja": {
       "title": "日本語タイトル",
       "summary": "2文の日本語フック",
-      "body": "900〜1200語の日本語記事。8〜10段落、\\n\\nで区切り。背景、ファンの反応、業界分析を含む。"
+      "body": "900〜1200語の構造化された日本語記事。\\n\\nで区切り:\\n\\nフック段落\\n\\n## なぜ重要か\\n\\n## 全体像\\n\\n## コミュニティの反応\\n\\n> 印象的な引用\\n\\n## 業界への影響\\n\\n## 今後の展開"
     }
   }
 }`;

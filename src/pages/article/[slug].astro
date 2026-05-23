@@ -153,7 +153,15 @@ const shareUrl = encodeURIComponent(pageUrl)
               {tr.body
                 .split(/\n\n+/)
                 .flatMap(para => para.trim().length > 0 ? [para.trim()] : [])
-                .map(para => <p>{para}</p>)
+                .map(para => {
+                  if (para.startsWith('## ')) {
+                    return <h2 class="article-section-heading">{para.slice(3)}</h2>
+                  }
+                  if (para.startsWith('> ')) {
+                    return <blockquote class="article-pullquote">{para.slice(2)}</blockquote>
+                  }
+                  return <p>{para}</p>
+                })
               }
             </div>
           )}
@@ -584,7 +592,7 @@ const shareUrl = encodeURIComponent(pageUrl)
     font-size: 1.0625rem;
     color: var(--text-secondary);
     line-height: 1.85;
-    margin-bottom: 1.625em;
+    margin-bottom: 1.5em;
     letter-spacing: 0.01em;
   }
   .article-content p:first-child {
@@ -593,6 +601,33 @@ const shareUrl = encodeURIComponent(pageUrl)
     font-weight: 400;
   }
   .article-content p:last-child { margin-bottom: 0; }
+
+  /* Section headings */
+  .article-section-heading {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.02em;
+    margin-top: 2.25rem;
+    margin-bottom: 0.875rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-subtle);
+    font-family: var(--font-serif);
+  }
+
+  /* Pull quote */
+  .article-pullquote {
+    margin: 2rem 0;
+    padding: 1.125rem 1.5rem;
+    border-left: 3px solid var(--accent);
+    background: color-mix(in srgb, var(--accent) 6%, transparent);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    font-size: 1.125rem;
+    font-style: italic;
+    color: var(--text);
+    line-height: 1.65;
+    font-family: var(--font-serif);
+  }
 
   /* Tags */
   .article-tags {
