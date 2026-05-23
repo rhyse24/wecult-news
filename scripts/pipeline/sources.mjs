@@ -12,6 +12,6 @@ export const SOURCES = [
 ];
 
 // Max articles per source per run
-export const MAX_PER_SOURCE = 3;
-// Max total articles per run (Gemini free tier: 1500 req/day)
-export const MAX_TOTAL = 20;
+export const MAX_PER_SOURCE = 2;
+// Max total articles per run (Gemini free tier: 15 RPM, 1500 RPD)
+export const MAX_TOTAL = 10;

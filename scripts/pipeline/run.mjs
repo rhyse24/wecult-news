@@ -39,7 +39,25 @@ console.log(`[pipeline] Processing ${toProcess.length} articles with Gemini...`)
 let saved = 0;
 for (const article of toProcess) {
   try {
-    const ai = await summarizeArticle(article, GEMINI_API_KEY);
+    let ai;
+    try {
+      ai = await summarizeArticle(article, GEMINI_API_KEY);
+    } catch (geminiErr) {
+      // Gemini quota/rate error → fallback to raw content
+      console.warn(`  [gemini-fallback] ${geminiErr.message.slice(0, 60)}`);
+      const snippet = article.content.slice(0, 300);
+      ai = {
+        summary_en: snippet,
+        ai_analysis: '',
+        translations: {
+          en: { title: article.title, summary: snippet },
+          tr: { title: article.title, summary: snippet },
+          es: { title: article.title, summary: snippet },
+          pt: { title: article.title, summary: snippet },
+          ja: { title: article.title, summary: snippet },
+        },
+      };
+    }
 
     const slug = slugify(article.title);
     const id = createHash('md5').update(article.link).digest('hex').slice(0, 8);
@@ -66,8 +84,8 @@ for (const article of toProcess) {
     saved++;
     console.log(`  ✓ ${article.title.slice(0, 60)}`);
 
-    // Rate limit: ~40 req/min on free tier
-    await sleep(1600);
+    // Rate limit: 15 RPM free tier → 1 req / 5s = 12 RPM
+    await sleep(5000);
   } catch (err) {
     console.warn(`  [skip] ${article.title.slice(0, 50)}: ${err.message}`);
   }
