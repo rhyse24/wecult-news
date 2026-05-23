@@ -45,7 +45,7 @@ for (const article of toProcess) {
     } catch (geminiErr) {
       // Gemini quota/rate error → fallback to raw content
       console.warn(`  [gemini-fallback] ${geminiErr.message.slice(0, 60)}`);
-      const snippet = article.content.slice(0, 300);
+      const snippet = article.content.slice(0, 500);
       ai = {
         summary_en: snippet,
         ai_analysis: '',
@@ -75,6 +75,7 @@ for (const article of toProcess) {
       summary_en: ai.summary_en,
       ai_analysis: ai.ai_analysis,
       translations: ai.translations,
+      content_raw: article.content,
       tags: inferTags(article),
       image_url: article.image_url || '',
     };

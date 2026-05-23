@@ -17,11 +17,11 @@ Return ONLY valid JSON (no markdown, no code block) with this exact structure:
   "summary_en": "2-3 sentence English summary",
   "ai_analysis": "1 sentence insight or why this matters to fans",
   "translations": {
-    "en": { "title": "English title", "summary": "2-3 sentence summary" },
-    "tr": { "title": "Turkish title", "summary": "2-3 sentence summary in Turkish" },
-    "es": { "title": "Spanish title", "summary": "2-3 sentence summary in Spanish" },
-    "pt": { "title": "Portuguese title", "summary": "2-3 sentence summary in Portuguese" },
-    "ja": { "title": "Japanese title", "summary": "2-3 sentence summary in Japanese" }
+    "en": { "title": "English title", "summary": "2-3 sentence summary", "body": "3-5 sentence expanded article body in English" },
+    "tr": { "title": "Turkish title", "summary": "2-3 sentence summary in Turkish", "body": "3-5 sentence expanded article body in Turkish" },
+    "es": { "title": "Spanish title", "summary": "2-3 sentence summary in Spanish", "body": "3-5 sentence expanded article body in Spanish" },
+    "pt": { "title": "Portuguese title", "summary": "2-3 sentence summary in Portuguese", "body": "3-5 sentence expanded article body in Portuguese" },
+    "ja": { "title": "Japanese title", "summary": "2-3 sentence summary in Japanese", "body": "3-5 sentence expanded article body in Japanese" }
   }
 }`;
 
@@ -30,7 +30,7 @@ Return ONLY valid JSON (no markdown, no code block) with this exact structure:
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.3, maxOutputTokens: 1024 },
+      generationConfig: { temperature: 0.3, maxOutputTokens: 1800 },
     }),
     signal: AbortSignal.timeout(30000),
   });

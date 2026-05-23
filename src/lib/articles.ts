@@ -30,15 +30,16 @@ function normalizeArticle(raw: Record<string, unknown>): Article {
   const category = (raw.category as Category) ?? 'games'
   const translations = raw.translations as Record<string, { title: string; summary: string } | null>
 
+  const contentRaw = decodeEntities((raw.content_raw as string) ?? '')
   const normalizedTranslations = {} as Article['translations']
   for (const lang of ['en', 'tr', 'es', 'pt', 'ja'] as Lang[]) {
-    const t = translations?.[lang]
+    const t = translations?.[lang] as { title?: string; summary?: string; body?: string } | null
     normalizedTranslations[lang] = t
       ? {
           title: decodeEntities(t.title ?? ''),
           summary: decodeEntities(t.summary ?? ''),
           ai_analysis: (raw.ai_analysis as string) ?? '',
-          body: '',
+          body: t.body ? decodeEntities(t.body) : contentRaw,
         }
       : null
   }
