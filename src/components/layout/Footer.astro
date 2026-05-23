@@ -73,7 +73,7 @@ const popularTags = ['Rockstar Games', 'HBO', 'Neil Gaiman', 'Denis Villeneuve',
           <svg width="12" height="12" viewBox="0 0 18 18" fill="none"><rect x="0" y="0" width="3" height="18" rx="1.5" fill="#c9a84c"/><rect x="6" y="4" width="3" height="14" rx="1.5" fill="#c9a84c" opacity="0.6"/><rect x="12" y="8" width="3" height="10" rx="1.5" fill="#c9a84c" opacity="0.25"/></svg>
           WeCult Uygulaması
         </a>
-        <a href={`${import.meta.env.BASE_URL}privacy`} class="footer-nav-link">Gizlilik Politikası</a>
+        <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/privacy`} class="footer-nav-link">Gizlilik Politikası</a>
         <a href="#" class="footer-nav-link">Kullanım Koşulları</a>
         <button onclick="window.dispatchEvent(new Event('wecult:consent-open'))" class="footer-nav-link footer-cookie-btn">Çerez tercihleri</button>
       </div>

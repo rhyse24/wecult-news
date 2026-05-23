@@ -14,7 +14,7 @@
           Sitenin çalışması için temel çerezler kullanıyoruz. Onayın ile ayrıca analiz çerezleri
           (kullanımı anlamak için) ve reklam çerezleri (ilgili reklamları göstermek için) kullanıyoruz.
           Seçimini istediğin zaman değiştirebilirsin.
-          <a href={`${import.meta.env.BASE_URL}cookies`} class="cb-policy-link">Çerez politikası</a>
+          <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/cookies`} class="cb-policy-link">Çerez politikası</a>
         </p>
       </div>
       <!-- GDPR: 3 eşit önem düzeyinde buton -->
@@ -114,7 +114,7 @@
     </div>
 
     <div class="cb-read-policy">
-      <a href={`${import.meta.env.BASE_URL}cookies`} class="cb-policy-link">Politikayı oku</a>
+      <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/cookies`} class="cb-policy-link">Politikayı oku</a>
     </div>
   </div>
 </div>

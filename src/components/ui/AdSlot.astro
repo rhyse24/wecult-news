@@ -61,7 +61,7 @@ const cfg = configs[type]
   <div class="ad-slot-footer">
     <span class="ad-slot-upgrade-text">
       Reklamları kaldır →
-      <a href={`${import.meta.env.BASE_URL}settings`} class="ad-slot-upgrade-link">CULT+</a>
+      <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/settings`} class="ad-slot-upgrade-link">CULT+</a>
     </span>
   </div>
 </div>
