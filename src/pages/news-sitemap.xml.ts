@@ -27,14 +27,19 @@ export const GET: APIRoute = () => {
 
   const base = 'https://wecult.app/news'
 
-  const items = articles.map(a => {
-    const translations = a.translations as Record<string, { title?: string } | null> | undefined
-    const title = escapeXml(
-      (a.original_title as string) || translations?.en?.title || ''
-    )
-    const pubDate = new Date(a.published_at as string).toISOString()
-    return `  <url>
+  const items = articles
+    .filter(a => {
+      const translations = a.translations as Record<string, { title?: string } | null> | undefined
+      const title = (a.original_title as string) || translations?.en?.title || ''
+      return title.trim().length > 0 // skip articles with no title
+    })
+    .map(a => {
+      const translations = a.translations as Record<string, { title?: string } | null> | undefined
+      const title = escapeXml((a.original_title as string) || translations?.en?.title || '')
+      const pubDate = new Date(a.published_at as string).toISOString()
+      return `  <url>
     <loc>${base}/article/${a.slug}</loc>
+    <lastmod>${pubDate}</lastmod>
     <news:news>
       <news:publication>
         <news:name>WeCult News</news:name>
@@ -44,8 +49,9 @@ export const GET: APIRoute = () => {
       <news:title>${title}</news:title>
     </news:news>
   </url>`
-  }).join('\n')
+    }).join('\n')
 
+  // Return empty but valid sitemap when no recent articles exist
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
