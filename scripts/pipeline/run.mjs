@@ -100,15 +100,16 @@ for (const article of toProcess) {
       if (webContext) console.log(`    [search] context found (${webContext.length} chars)`);
     }
 
+    // Truncation markers from RSS teasers — articles containing these are useless without expansion
+    const RSS_TRUNCATED = (s) => ['[…]', '[&#8230;]', '...Read more', '…]', '[&hellip;]'].some(m => s.includes(m));
+
     let ai;
     try {
       ai = await summarizeArticle(article, GEMINI_API_KEY, webContext);
     } catch (geminiErr) {
       console.warn(`  [gemini-fail] ${geminiErr.message.slice(0, 60)}`);
-      // Only use raw fallback when RSS gave us substantial content (>= 600 chars).
-      // Short teasers ("...Read more") without Gemini expansion are useless — skip them.
-      if (article.content.length < 600) {
-        console.warn(`  [skip] ${article.title.slice(0, 50)} — Gemini failed + content too short`);
+      if (article.content.length < 600 || RSS_TRUNCATED(article.content)) {
+        console.warn(`  [skip] ${article.title.slice(0, 50)} — Gemini failed + content too short/truncated`);
         continue;
       }
       const snippet = article.content.slice(0, 300);
@@ -120,6 +121,13 @@ for (const article of toProcess) {
           tr: null,
         },
       };
+    }
+
+    // Even when Gemini "succeeds", it sometimes parrots back the RSS teaser — reject those
+    const enBody = ai.translations?.en?.body ?? '';
+    if (enBody.length < 400 || RSS_TRUNCATED(enBody)) {
+      console.warn(`  [skip] ${article.title.slice(0, 50)} — Gemini returned teaser/short body (${enBody.length} chars)`);
+      continue;
     }
 
     const slug = slugify(article.title);
