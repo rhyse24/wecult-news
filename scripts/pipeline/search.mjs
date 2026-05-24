@@ -61,6 +61,75 @@ function isImageUrl(url) {
 }
 
 /**
+ * Search TMDB for a poster image — film and TV categories.
+ * Uses the v4 read-access Bearer token (read-only, safe for server use).
+ */
+export async function searchTmdbImage(title, category, bearerToken) {
+  if (!bearerToken) return '';
+  const endpoint = category === 'tv' ? 'tv' : 'movie';
+  const query = encodeURIComponent(
+    title.replace(/^(Review:|Preview:|Opinion:)\s*/i, '').replace(/\s*[\|–—]\s*.+$/, '').trim().slice(0, 80)
+  );
+  try {
+    const res = await fetch(`https://api.themoviedb.org/3/search/${endpoint}?query=${query}&page=1`, {
+      headers: { Authorization: `Bearer ${bearerToken}`, Accept: 'application/json' },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) return '';
+    const data = await res.json();
+    const poster = data.results?.[0]?.poster_path;
+    if (poster) {
+      console.log(`    [tmdb-image] found poster for "${title.slice(0, 45)}"`);
+      return `https://image.tmdb.org/t/p/w780${poster}`;
+    }
+    return '';
+  } catch {
+    return '';
+  }
+}
+
+/**
+ * Search IGDB for a game cover image.
+ * Fetches a short-lived OAuth token from Twitch on each call.
+ */
+export async function searchIgdbImage(title, clientId, clientSecret) {
+  if (!clientId || !clientSecret) return '';
+  try {
+    // Step 1: Get Twitch OAuth token
+    const tokenRes = await fetch(
+      `https://id.twitch.tv/oauth2/token?client_id=${clientId}&client_secret=${clientSecret}&grant_type=client_credentials`,
+      { method: 'POST', signal: AbortSignal.timeout(8000) }
+    );
+    if (!tokenRes.ok) return '';
+    const { access_token } = await tokenRes.json();
+    if (!access_token) return '';
+
+    // Step 2: Search IGDB for the game
+    const cleanTitle = title.replace(/^(Review:|Preview:)\s*/i, '').trim().slice(0, 60);
+    const res = await fetch('https://api.igdb.com/v4/games', {
+      method: 'POST',
+      headers: {
+        'Client-ID': clientId,
+        Authorization: `Bearer ${access_token}`,
+        'Content-Type': 'text/plain',
+      },
+      body: `search "${cleanTitle}"; fields name,cover.image_id; limit 1;`,
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) return '';
+    const games = await res.json();
+    const imageId = games[0]?.cover?.image_id;
+    if (imageId) {
+      console.log(`    [igdb-image] found cover for "${title.slice(0, 45)}"`);
+      return `https://images.igdb.com/igdb/image/upload/t_cover_big/${imageId}.jpg`;
+    }
+    return '';
+  } catch {
+    return '';
+  }
+}
+
+/**
  * Scrape og:image from the original article URL when RSS doesn't provide one.
  * No API key required — direct HTTP fetch.
  */

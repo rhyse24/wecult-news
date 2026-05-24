@@ -3,11 +3,14 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
 import { summarizeArticle, validateArticle, isTruncated, titleEntityPresent } from './summarize.mjs';
-import { searchContext, scrapeOgImage } from './search.mjs';
+import { searchContext, scrapeOgImage, searchTmdbImage, searchIgdbImage, searchInlineImage } from './search.mjs';
 import { SOURCES, MAX_PER_SOURCE, MAX_PER_CATEGORY, MAX_TOTAL } from './sources.mjs';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const TAVILY_API_KEY = process.env.TAVILY_API_KEY;
+const TMDB_TOKEN = process.env.TMDB_READ_ACCESS_TOKEN || '';
+const TWITCH_CLIENT_ID = process.env.TWITCH_CLIENT_ID || '';
+const TWITCH_CLIENT_SECRET = process.env.TWITCH_CLIENT_SECRET || '';
 if (!GEMINI_API_KEY) {
   console.error('GEMINI_API_KEY env var required');
   process.exit(1);
@@ -105,9 +108,18 @@ console.log(`[pipeline] Processing ${toProcess.length} articles (${dist}) with G
 let saved = 0;
 for (const article of toProcess) {
   try {
-    // Scrape og:image from source if RSS didn't provide one
+    // Image fallback chain: RSS → og:image → TMDB/IGDB → Wikipedia
     if (!article.image_url) {
       article.image_url = await scrapeOgImage(article.link);
+    }
+    if (!article.image_url && (article.category === 'film' || article.category === 'tv') && TMDB_TOKEN) {
+      article.image_url = await searchTmdbImage(article.title, article.category, TMDB_TOKEN);
+    }
+    if (!article.image_url && article.category === 'games' && TWITCH_CLIENT_ID) {
+      article.image_url = await searchIgdbImage(article.title, TWITCH_CLIENT_ID, TWITCH_CLIENT_SECRET);
+    }
+    if (!article.image_url) {
+      article.image_url = await searchInlineImage(article);
     }
 
     // Web search for richer context
