@@ -54,6 +54,39 @@ const shareUrl = encodeURIComponent(pageUrl)
 const summaryIsBodyDup = tr?.summary && tr?.body &&
   tr.body.slice(0, Math.min(tr.summary.length + 80, 400)).includes(tr.summary.slice(0, 60))
 const showSummary = !!(tr?.summary && !summaryIsBodyDup)
+
+type Block = { type: 'h2' | 'quote' | 'list' | 'p'; content: string; items?: string[] }
+
+function renderInline(text: string): string {
+  return text
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/_(.+?)_/g, '<em>$1</em>')
+}
+
+function parseBody(body: string): Block[] {
+  const blocks: Block[] = []
+  for (const raw of body.split(/\n\n+/)) {
+    const b = raw.trim()
+    if (!b) continue
+    if (b.startsWith('## ')) {
+      blocks.push({ type: 'h2', content: b.slice(3).trim() })
+    } else if (b.startsWith('> ')) {
+      blocks.push({ type: 'quote', content: renderInline(b.slice(2).trim()) })
+    } else {
+      const lines = b.split('\n')
+      if (lines.length > 0 && lines.every(l => /^[-*•]\s/.test(l.trim()))) {
+        blocks.push({ type: 'list', content: '', items: lines.map(l => renderInline(l.replace(/^[-*•]\s/, '').trim())) })
+      } else {
+        blocks.push({ type: 'p', content: renderInline(b.replace(/\n/g, ' ')) })
+      }
+    }
+  }
+  return blocks
+}
+
+const bodyBlocks = tr?.body ? parseBody(tr.body) : []
 ---
 
 <Base title={tr?.title ?? ''} lang={lang} ogImage={article.cover_image ?? undefined}>
@@ -135,27 +168,31 @@ const showSummary = !!(tr?.summary && !summaryIsBodyDup)
             </div>
           )}
 
-          {tr?.body && (
+          {bodyBlocks.length > 0 && (
             <div class="article-content">
-              {tr.body
-                .split(/\n\n+/)
-                .flatMap(b => b.trim().length > 0 ? [b.trim()] : [])
-                .map((para, i) => (
-                  <>
-                    {para.startsWith('## ')
-                      ? <h2 class="article-section-heading">{para.slice(3)}</h2>
-                      : para.startsWith('> ')
-                      ? <blockquote class="article-pullquote">{para.slice(2)}</blockquote>
-                      : <p>{para}</p>
-                    }
-                    {i === 2 && article.inline_image_url && (
-                      <figure class="article-inline-figure">
-                        <img src={article.inline_image_url} alt={tr?.title} loading="lazy" />
-                      </figure>
-                    )}
-                  </>
-                ))
-              }
+              {bodyBlocks.map((block, i) => (
+                <>
+                  {block.type === 'h2' && (
+                    <h2 class="article-section-heading">{block.content}</h2>
+                  )}
+                  {block.type === 'quote' && (
+                    <blockquote class="article-pullquote" set:html={block.content} />
+                  )}
+                  {block.type === 'list' && (
+                    <ul class="article-list">
+                      {block.items?.map(item => <li set:html={item} />)}
+                    </ul>
+                  )}
+                  {block.type === 'p' && (
+                    <p set:html={block.content} />
+                  )}
+                  {i === 2 && article.inline_image_url && (
+                    <figure class="article-inline-figure">
+                      <img src={article.inline_image_url} alt={tr?.title} loading="lazy" />
+                    </figure>
+                  )}
+                </>
+              ))}
             </div>
           )}
 
@@ -560,26 +597,98 @@ const showSummary = !!(tr?.summary && !summaryIsBodyDup)
     margin: 0;
   }
 
+  /* ── Article body ──────────────────────────────────── */
   .article-content {
-    margin-bottom: 1.75rem;
-    max-width: 680px;
+    margin-bottom: 2rem;
+  }
+  .article-content p:first-of-type {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    color: #edeae0;
+    font-weight: 400;
+    margin-bottom: 1.75em;
+    letter-spacing: -0.005em;
   }
   .article-content p {
-    font-size: 1.125rem;
-    color: var(--text);
-    line-height: 1.9;
-    margin-bottom: 1.6em;
-    letter-spacing: 0.01em;
+    font-size: 1.1rem;
+    color: #d8d4ca;
+    line-height: 1.85;
+    margin-bottom: 1.5em;
+    letter-spacing: 0.005em;
+    word-spacing: 0.02em;
   }
-  .article-content p:first-child {
-    font-size: 1.1875rem;
-    color: var(--text);
-    font-weight: 400;
+  .article-content p:last-of-type { margin-bottom: 0; }
+  .article-content strong { color: #f0ece4; font-weight: 700; }
+  .article-content em { font-style: italic; color: #c5c1b5; }
+
+  .article-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.75em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    border-left: 2px solid color-mix(in srgb, var(--accent) 30%, var(--border-subtle));
+    padding-left: 1.25rem;
   }
-  .article-content p:last-child { margin-bottom: 0; }
+  .article-list li {
+    font-size: 1.075rem;
+    color: #d8d4ca;
+    line-height: 1.75;
+    padding-left: 0.125rem;
+    position: relative;
+  }
+  .article-list li::before {
+    content: '✦';
+    position: absolute;
+    left: -1.375rem;
+    font-size: 0.4rem;
+    color: var(--accent);
+    top: 0.55em;
+    opacity: 0.7;
+  }
+
+  .article-section-heading {
+    font-size: 1.3125rem;
+    font-weight: 700;
+    color: #edeae0;
+    letter-spacing: -0.02em;
+    margin-top: 2.75rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-serif);
+    padding-left: 0.75rem;
+    border-left: 3px solid var(--accent);
+    line-height: 1.35;
+  }
+
+  .article-pullquote {
+    margin: 2.25rem 0;
+    padding: 1.25rem 1.5rem 1.25rem 1.625rem;
+    border-left: 3px solid var(--accent);
+    background: color-mix(in srgb, var(--accent) 7%, var(--bg-card));
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    font-size: 1.175rem;
+    font-style: italic;
+    color: #e8e4da;
+    line-height: 1.65;
+    font-family: var(--font-serif);
+    position: relative;
+  }
+  .article-pullquote::before {
+    content: '\201C';
+    position: absolute;
+    top: -0.2rem;
+    left: 1rem;
+    font-size: 3rem;
+    color: var(--accent);
+    opacity: 0.35;
+    font-family: var(--font-serif);
+    line-height: 1;
+    pointer-events: none;
+  }
 
   .article-inline-figure {
-    margin: 1.75rem 0;
+    margin: 2rem 0;
     border-radius: var(--radius-md);
     overflow: hidden;
     border: 1px solid var(--border-subtle);
@@ -589,31 +698,6 @@ const showSummary = !!(tr?.summary && !summaryIsBodyDup)
     max-height: 420px;
     object-fit: cover;
     display: block;
-  }
-
-  .article-section-heading {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--text);
-    letter-spacing: -0.02em;
-    margin-top: 2.25rem;
-    margin-bottom: 0.875rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--border-subtle);
-    font-family: var(--font-serif);
-  }
-
-  .article-pullquote {
-    margin: 2rem 0;
-    padding: 1.125rem 1.5rem;
-    border-left: 3px solid var(--accent);
-    background: color-mix(in srgb, var(--accent) 6%, transparent);
-    border-radius: 0 var(--radius-md) var(--radius-md) 0;
-    font-size: 1.125rem;
-    font-style: italic;
-    color: var(--text);
-    line-height: 1.65;
-    font-family: var(--font-serif);
   }
 
   .article-tags {

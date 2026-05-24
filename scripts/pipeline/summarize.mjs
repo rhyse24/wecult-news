@@ -19,11 +19,17 @@ Source: ${article.source_name}
 RSS content: ${article.content.slice(0, 2000)}
 ${webContext ? `\nWeb research:\n${webContext.slice(0, 1500)}` : ''}
 
-Write a structured English article. The body MUST use \\n\\n between blocks:
-Hook paragraph\\n\\n## Why This Matters\\n\\nParagraph\\n\\n## The Full Story\\n\\nParagraph 1\\n\\nParagraph 2\\n\\n## What Fans Are Saying\\n\\nParagraph\\n\\n> Pull quote\\n\\n## What's Next\\n\\nClosing paragraph
+Write a rich, engaging article. BODY FORMATTING RULES (strictly follow):
+- Separate every block with \\n\\n
+- Use **Name** for bold on key people, titles, products (e.g. **Zach Cregger**, **Resident Evil**)
+- Use *word* for emphasis where natural
+- Use ## Heading for section titles (translate headings to match tone)
+- Use > "Quote here" for direct quotes from people
+- Use bullet lists (- item) when listing multiple things (e.g. features, characters, platforms)
+- Minimum 5 paragraphs. Section structure: Hook\\n\\n## Why It Matters\\n\\nParagraph\\n\\n## The Full Story\\n\\nParagraph\\n\\nParagraph\\n\\n> Direct quote if available\\n\\n## What Fans Think\\n\\nParagraph\\n\\n## What's Next\\n\\nClosing paragraph
 
 Return this JSON (nothing else):
-{"summary_en":"2-sentence English hook","ai_analysis":"1-sentence insight for fans","title":"Reworded engaging title","summary":"2-sentence English hook","body":"[full structured article in English, min 500 words]"}`;
+{"summary_en":"2-sentence English hook","ai_analysis":"1-sentence insight for fans","title":"Reworded engaging title","summary":"2-sentence English hook","body":"[full article with markdown bold/italic/headers/quotes/lists, min 600 words]"}`;
 
   let enData = null;
   for (let attempt = 1; attempt <= 2; attempt++) {
