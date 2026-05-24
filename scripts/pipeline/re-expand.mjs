@@ -90,19 +90,60 @@ console.log(`[re-expand] Done — fixed: ${fixed}, skipped: ${skipped}, failed: 
 
 async function expandArticle(article, rawContent) {
   const voice = categoryVoice[article.category] || 'an entertainment journalist';
+  const hookExamples = {
+    games: 'e.g. "After years of speculation, the studio behind [X] just changed everything..."',
+    film:  'e.g. "Few directors arrive at Cannes with a story like [X]\'s — and what happened next surprised everyone."',
+    tv:    'e.g. "Fans of [X] spent the weekend convinced the show was cancelled. They were wrong."',
+    books: 'e.g. "The debut novel that quietly sold 200,000 copies before a publisher even touched it..."',
+  }[article.category] ?? '';
+
   const prompt = `You are ${voice} at WeCult — a premium entertainment platform.
 
-CRITICAL: Return ONLY a single valid JSON object. No markdown, no code blocks, no extra text.
+═══════ SOURCE MATERIAL ═══════
+ARTICLE TITLE: ${article.original_title}
+SOURCE OUTLET: ${article.source_name}
 
-Article title: ${article.original_title}
-Source: ${article.source_name}
-RSS content: ${rawContent.slice(0, 1500)}
+RSS TEASER (⚠ SHORT PREVIEW — do NOT reproduce this verbatim, use it as context only):
+${rawContent.slice(0, 1500)}
+═══════════════════════════════
 
-Write a full structured English article with minimum 500 words. Body MUST use \\n\\n between blocks:
-Hook paragraph\\n\\n## Why This Matters\\n\\nParagraph\\n\\n## The Full Story\\n\\nParagraph 1\\n\\nParagraph 2\\n\\n## What Fans Are Saying\\n\\nParagraph\\n\\n> Pull quote\\n\\n## What's Next\\n\\nClosing paragraph
+MANDATORY RULES — violating ANY = invalid output:
+✗ NEVER copy the RSS teaser word-for-word — write original prose using your knowledge
+✗ NEVER write "[...]", "[Read more]", "..." at sentence end, or leave thoughts incomplete
+✗ NEVER invent specific quotes not in source material
+✗ NEVER write fewer than 600 words in body
+✗ NEVER use generic openers like "In a surprising turn of events..."
 
-Return this JSON (nothing else):
-{"title":"Engaging reworded title","summary":"2-sentence English hook","ai_analysis":"1-sentence insight for fans","body":"[full structured article in English, min 500 words]"}`;
+✓ Open with a SPECIFIC hook tied to this exact story (${hookExamples})
+✓ Use **Name** for bold on key people/titles, *word* for emphasis
+✓ Use ## Heading for section titles — make them specific, not generic
+✓ Use > "Quote" — Person for real direct quotes
+✓ Use bullet lists (- item) for 3+ items
+✓ Separate every block with \\n\\n
+
+STRUCTURE:
+[Vivid 2–3 sentence hook]
+
+## [Specific section title]
+
+[2 paragraphs: background and context]
+
+## [Specific section title]
+
+[2–3 paragraphs: main story details]
+
+> "[Quote if available]" — Name
+
+## [Fan/Community angle section]
+
+[1–2 paragraphs]
+
+## What's Next
+
+[1 closing paragraph]
+
+Return ONLY this JSON (no markdown wrapper, no extra text):
+{"title":"[Engaging reworded headline]","summary":"[2-sentence hook]","ai_analysis":"[1-sentence fan insight]","body":"[Full article — all sections, \\\\n\\\\n between blocks, 600–850 words]"}`;
 
   for (let attempt = 1; attempt <= 2; attempt++) {
     try {
@@ -141,19 +182,28 @@ Return this JSON (nothing else):
 }
 
 async function translateToTurkish(enData) {
-  const prompt = `Translate this entertainment article to Turkish (Türkçe).
+  const prompt = `Translate this entertainment news article to Turkish for WeCult — a premium Turkish entertainment platform.
 
-CRITICAL: ALL output fields MUST be in Turkish. Return ONLY a valid JSON object. No markdown.
+═══════ ENGLISH ARTICLE ═══════
+TITLE: ${enData.title}
+SUMMARY: ${enData.summary}
 
-English title: ${enData.title}
-English summary: ${enData.summary}
-English body:
-${enData.body.slice(0, 2500)}
+BODY:
+${enData.body}
+═══════════════════════════════
 
-Translate everything to Turkish. Keep the same ## section structure but translate headings too.
+TRANSLATION RULES — violating ANY rule = invalid output:
+✗ NEVER leave English words except: proper nouns (person names, film/game/book titles, brands, places)
+✗ NEVER copy the English text — write natural Turkish, not word-for-word
+✗ NEVER write fewer than 400 words in the Turkish body
 
-Return this JSON (all values in Turkish, NOT English):
-{"title":"[Türkçe başlık]","summary":"[Türkçe 2 cümle özet]","body":"[Türkçe makale, minimum 400 kelime]"}`;
+✓ Translate ALL ## section headings to Turkish
+✓ Keep ALL markdown: **bold**, *italic*, ## headings, > quotes, - lists, \\n\\n spacing
+✓ Use natural Turkish journalism style
+✓ Keep > quotes in original language but translate surrounding context
+
+Return ONLY this JSON (no code blocks, no extra text):
+{"title":"[Türkçe başlık]","summary":"[Türkçe 2 cümle özet]","body":"[Türkçe makale — tüm bölümler, \\\\n\\\\n ayrımlarıyla, minimum 400 kelime]"}`;
 
   for (let attempt = 1; attempt <= 2; attempt++) {
     try {

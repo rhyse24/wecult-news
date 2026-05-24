@@ -65,7 +65,21 @@ function isImageUrl(url) {
  * Returns a combined string of search results to feed into Gemini.
  */
 export async function searchContext(article, apiKey) {
-  const query = `${article.title} ${article.category === 'games' ? 'game' : article.category}`;
+  // Build a precise query: strip clickbait phrases, add category context and year
+  const cleanTitle = article.title
+    .replace(/^(Review:|Preview:|Opinion:|Feature:|Guide:|Watch:)\s*/i, '')
+    .replace(/\s*[\|–—]\s*.+$/, '') // remove source suffix after | or —
+    .trim()
+    .slice(0, 100);
+
+  const categoryTerms = {
+    games: 'video game',
+    film: 'film movie',
+    tv: 'TV series show',
+    books: 'book author',
+  }[article.category] ?? '';
+
+  const query = `${cleanTitle} ${categoryTerms} 2026`.trim();
 
   try {
     const res = await fetch(TAVILY_URL, {
@@ -75,28 +89,35 @@ export async function searchContext(article, apiKey) {
         api_key: apiKey,
         query,
         search_depth: 'basic',
-        max_results: 5,
+        max_results: 6,
         include_answer: true,
         include_raw_content: false,
       }),
-      signal: AbortSignal.timeout(10000),
+      signal: AbortSignal.timeout(12000),
     });
 
     if (!res.ok) {
-      console.warn(`  [tavily] ${res.status} for "${query.slice(0, 50)}"`);
+      console.warn(`  [tavily] ${res.status} for "${query.slice(0, 60)}"`);
       return '';
     }
 
     const data = await res.json();
     const parts = [];
 
-    if (data.answer) parts.push(`Web summary: ${data.answer}`);
-
-    for (const r of (data.results ?? []).slice(0, 4)) {
-      if (r.content) parts.push(`[${r.title}]: ${r.content.slice(0, 400)}`);
+    // Tavily's own AI answer — put first as the most distilled context
+    if (data.answer) {
+      parts.push(`TOPIC SUMMARY (from web research):\n${data.answer}`);
     }
 
-    return parts.join('\n\n');
+    // Individual search results — keep good snippets, skip empty ones
+    const results = (data.results ?? []).slice(0, 5);
+    for (const r of results) {
+      if (!r.content || r.content.length < 80) continue;
+      const snippet = r.content.slice(0, 500).replace(/\s+/g, ' ').trim();
+      parts.push(`SOURCE: ${r.title}\n${snippet}`);
+    }
+
+    return parts.join('\n\n---\n\n');
   } catch (err) {
     console.warn(`  [tavily] failed: ${err.message.slice(0, 60)}`);
     return '';
