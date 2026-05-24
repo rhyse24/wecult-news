@@ -53,6 +53,9 @@ const shareTitle = encodeURIComponent(tr?.title ?? '')
 const shareUrl = encodeURIComponent(pageUrl)
 
 const isShortContent = !tr?.body || tr.body.length < 400
+const summaryIsBodyDup = tr?.summary && tr?.body &&
+  tr.body.slice(0, Math.min(tr.summary.length + 80, 400)).includes(tr.summary.slice(0, 60))
+const showSummary = !!(tr?.summary && !isShortContent && !summaryIsBodyDup)
 ---
 
 <Base title={tr?.title ?? ''} lang={lang} ogImage={article.cover_image ?? undefined}>
@@ -139,8 +142,8 @@ const isShortContent = !tr?.body || tr.body.length < 400
             </button>
           </div>
 
-          <!-- AI Summary (only when content is rich) -->
-          {tr?.summary && !isShortContent && (
+          <!-- AI Summary (only when genuinely different from body) -->
+          {showSummary && (
             <div class="ai-summary-box">
               <div class="ai-summary-header">
                 <span class="ai-section-label">✦ {t(lang, 'article.ai_summary')}</span>

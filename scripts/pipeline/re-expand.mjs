@@ -12,6 +12,7 @@ if (!GEMINI_API_KEY) { console.error('GEMINI_API_KEY required'); process.exit(1)
 const ARTICLES_DIR = 'src/content/articles';
 const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
 const MIN_BODY_LENGTH = 400;
+const SENTENCE_ENDS = /[.!?"»]$/;
 
 const categoryVoice = {
   games: 'a passionate gaming journalist writing for hardcore and casual gamers alike',
@@ -30,10 +31,14 @@ for (const file of files) {
   const article = JSON.parse(readFileSync(path, 'utf8'));
 
   const enBody = article.translations?.en?.body || '';
-  if (enBody.length >= MIN_BODY_LENGTH) {
+  const isTooShort = enBody.length < MIN_BODY_LENGTH;
+  const isCutoff = enBody.length >= 2900 && !SENTENCE_ENDS.test(enBody.trim());
+  if (!isTooShort && !isCutoff) {
     skipped++;
     continue;
   }
+  if (isCutoff) console.log(`  [cutoff] ${file.slice(0, 50)} (${enBody.length} chars)`);
+
 
   const title = article.original_title || article.translations?.en?.title || '';
   const rawContent = article.content_raw || enBody;
@@ -103,7 +108,7 @@ Return this JSON (nothing else):
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: { temperature: 0.6, maxOutputTokens: 3000 },
+          generationConfig: { temperature: 0.6, maxOutputTokens: 8192 },
         }),
         signal: AbortSignal.timeout(90000),
       });
@@ -154,7 +159,7 @@ Return this JSON (all values in Turkish, NOT English):
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: { temperature: 0.4, maxOutputTokens: 3000 },
+          generationConfig: { temperature: 0.4, maxOutputTokens: 8192 },
         }),
         signal: AbortSignal.timeout(90000),
       });

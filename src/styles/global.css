@@ -739,6 +739,26 @@ label.cb-cat-title { cursor: pointer; }
   border-color: var(--accent);
 }
 
+/* ─── Article reading typography (global) ────────── */
+.article-content {
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  text-rendering: optimizeLegibility;
+}
+.article-content p {
+  orphans: 3;
+  widows: 3;
+}
+/* Dark mode: prevent pure-black halation effect under article text */
+[data-theme="dark"] .article-body {
+  background: transparent;
+}
+[data-theme="dark"] .article-content p {
+  color: #dedad0;
+}
+[data-theme="dark"] .article-section-heading {
+  color: #edeae0;
+}
+
 /* ─── Mobile responsive: shared layouts ──────────── */
 @media (max-width: 768px) {
   .container { padding: 0 1rem; }

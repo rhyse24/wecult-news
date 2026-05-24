@@ -33,7 +33,7 @@ Return this JSON (nothing else):
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           contents: [{ parts: [{ text: enPrompt }] }],
-          generationConfig: { temperature: 0.6, maxOutputTokens: 3000 },
+          generationConfig: { temperature: 0.6, maxOutputTokens: 8192 },
         }),
         signal: AbortSignal.timeout(90000),
       });
@@ -104,7 +104,7 @@ Return this JSON (all values must be in Turkish, NOT English):
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           contents: [{ parts: [{ text: trPrompt }] }],
-          generationConfig: { temperature: 0.4, maxOutputTokens: 3000 },
+          generationConfig: { temperature: 0.4, maxOutputTokens: 8192 },
         }),
         signal: AbortSignal.timeout(90000),
       });
