@@ -1,77 +1,152 @@
 const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
 
+// ── WeCult News Content Rules (approved 2026-05-24) ───────────────────────
+// Rule 1: EN body ≥ 600 words, TR body ≥ 400 words, ≥2 ## headings, no truncation
+// Rule 2: Hook → Context → Main Story → Fan Angle → What's Next
+// Rule 3: No hallucinated quotes, dates, cast, numbers — if unknown write "yet to be announced"
+// Rule 4: TR keeps proper nouns, translates headings, natural style, ≠ EN copy
+// Rule 5: RSS is a teaser — Gemini must write original content using knowledge + Tavily
+// Rule 6: Source bar shown on every article (handled in Astro pages)
+// Rule 7: Category-specific tone (games/film/tv/books)
+// Rule 8: Quality gate — article rejected if any minimum fails
+// ─────────────────────────────────────────────────────────────────────────
+
+const PLATFORM_CONTEXT = `WeCult News is the editorial arm of WeCult — a global premium entertainment platform covering film, TV, games, and books. Our readers are smart, passionate fans from around the world who consume content on mobile. We write in both English and Turkish. Our voice is enthusiastic but credible — never clickbait, never dry.`;
+
+const TONE_BY_CATEGORY = {
+  games:  'passionate gaming journalist — knowledgeable about franchise history, platforms, developer track records; writes for both hardcore and casual gamers',
+  film:   'enthusiastic film critic — comfortable with cinematic language but always accessible; writes for cinephiles and casual moviegoers alike',
+  tv:     'engaging TV writer — focused on narrative arcs, showrunner decisions, renewal/cancellation stakes; writes for binge-watchers and series fans',
+  books:  'literary journalist — excited about storytelling craft, genre trends, debut authors; writes for avid readers and curious newcomers',
+};
+
+const HOOK_EXAMPLE_BY_CATEGORY = {
+  games: '"After five years of silence, the studio behind [X] just confirmed what fans feared — and what they hoped for."',
+  film:  '"Few directors arrive at Cannes carrying a career like [X]\'s. What happened at the closing ceremony rewrote the story."',
+  tv:    '"Fans spent the weekend convinced [X] was cancelled. The network just proved them wrong — and then some."',
+  books: '"The debut novel that sold 200,000 copies before a major publisher touched it is finally getting its moment."',
+};
+
+const TRUNCATION_MARKERS = ['[…]', '[&#8230;]', '...Read more', '…]', '[&hellip;]', '[...]', 'read more →'];
+
+export function isTruncated(text) {
+  return TRUNCATION_MARKERS.some(m => text.toLowerCase().includes(m.toLowerCase()));
+}
+
+function wordCount(text) {
+  return text.trim().split(/\s+/).filter(Boolean).length;
+}
+
+function countHeadings(text) {
+  return (text.match(/^##\s+.+/gm) || []).length;
+}
+
+function endsCleanly(text) {
+  return /[.!?»"')\]]+\s*$/.test(text.trim());
+}
+
+// Rule 8 — quality gate applied to Gemini output before saving
+export function validateArticle(ai) {
+  const enBody = ai?.translations?.en?.body ?? '';
+  const trBody = ai?.translations?.tr?.body ?? null;
+  const enTitle = ai?.translations?.en?.title ?? '';
+  const trTitle = ai?.translations?.tr?.title ?? null;
+
+  const errors = [];
+
+  // EN checks
+  const enWords = wordCount(enBody);
+  if (enWords < 600) errors.push(`EN body too short: ${enWords} words (need ≥600)`);
+  if (isTruncated(enBody)) errors.push('EN body contains truncation marker');
+  if (countHeadings(enBody) < 2) errors.push(`EN body has fewer than 2 ## headings (found ${countHeadings(enBody)})`);
+  if (!endsCleanly(enBody)) errors.push('EN body ends mid-sentence');
+
+  // TR checks (null is allowed — EN shown as fallback)
+  if (trBody !== null) {
+    const trWords = wordCount(trBody);
+    if (trWords < 400) errors.push(`TR body too short: ${trWords} words (need ≥400)`);
+    if (trTitle && trTitle === enTitle) errors.push('TR title is identical to EN title (not translated)');
+    if (trBody.slice(0, 120).toLowerCase() === enBody.slice(0, 120).toLowerCase()) {
+      errors.push('TR body appears to be EN copy (first 120 chars identical)');
+    }
+  }
+
+  return { valid: errors.length === 0, errors };
+}
+
 export async function summarizeArticle(article, apiKey, webContext = '') {
-  const voice = {
-    games: 'a passionate gaming journalist at WeCult, writing for hardcore and casual gamers',
-    film:  'an enthusiastic film critic at WeCult, writing for cinephiles and casual moviegoers',
-    tv:    'an engaging TV writer at WeCult, writing for binge-watchers and series fans',
-    books: 'a literary journalist at WeCult, writing for avid readers and book lovers',
-  }[article.category] ?? 'an entertainment journalist at WeCult';
+  const voice = TONE_BY_CATEGORY[article.category] ?? 'entertainment journalist';
+  const hookExample = HOOK_EXAMPLE_BY_CATEGORY[article.category] ?? '';
 
-  const hookExamples = {
-    games: 'e.g. "After five years of silence, the studio behind [X] just dropped a bombshell..."',
-    film:  'e.g. "Few directors can claim a Cannes career like [X]\'s — but what happened next surprised everyone."',
-    tv:    'e.g. "Fans of [X] spent the weekend convinced the show was cancelled. They were wrong."',
-    books: 'e.g. "The debut novel that quietly sold 200,000 copies before a publisher even touched it..."',
-  }[article.category] ?? 'e.g. "The story everyone in [category] is talking about — and why it matters."';
-
-  // ── Step 1: Generate English article ─────────────────────────────────
-  const rssContent = article.content.slice(0, 1800);
   const webBlock = webContext
-    ? `\nWEB RESEARCH — Facts gathered from the internet (use these to enrich the article):\n${webContext.slice(0, 2000)}`
-    : '\nWEB RESEARCH: None available — rely on your training knowledge.';
+    ? `WEB RESEARCH — facts gathered from the internet to enrich the article:\n${webContext.slice(0, 2000)}`
+    : 'WEB RESEARCH: None available — use your training knowledge about this topic.';
 
-  const enPrompt = `You are ${voice}. Your task: write a COMPLETE, ORIGINAL article for WeCult readers.
+  // ── Step 1: English article ───────────────────────────────────────────
+  const enPrompt = `${PLATFORM_CONTEXT}
+
+You are a ${voice}. Write a COMPLETE, ORIGINAL article for WeCult News readers.
 
 ═══════ SOURCE MATERIAL ═══════
-ARTICLE TITLE: ${article.title}
+TITLE: ${article.title}
 SOURCE OUTLET: ${article.source_name}
 
-RSS TEASER (⚠ this is a SHORT PREVIEW, not the full article — do NOT reproduce it verbatim):
-${rssContent}
+RSS TEASER — ⚠ this is a SHORT PREVIEW only, NOT the full article:
+${article.content.slice(0, 1800)}
+
 ${webBlock}
 ═══════════════════════════════
 
-MANDATORY RULES — violating ANY rule = invalid output:
-✗ NEVER copy the RSS teaser word-for-word — write original prose using your knowledge
-✗ NEVER write "[...]", "[Read more]", "..." at the end of a sentence, or leave thoughts unfinished
-✗ NEVER invent quotes that are not in the source material — only use real attributable quotes
-✗ NEVER write fewer than 650 words in the "body" field
-✗ NEVER use a generic opener like "In a surprising turn of events..." or "The entertainment world..."
-✗ NEVER skip the ## section headings — they are mandatory
+CONTENT RULES (WeCult Editorial Standard — ALL are mandatory):
 
-✓ Open with a SPECIFIC, vivid hook tied to this exact story (${hookExamples})
-✓ Bold key names/titles with **Name** (e.g. **Park Chan-wook**, **Resident Evil 9**)
-✓ Use *word* for natural emphasis
-✓ Use ## Heading for every section title — make them SPECIFIC to the story, not generic
-✓ Use > "Quote text" — Person Name for any real direct quote
-✓ Use bullet lists (- item) when listing 3 or more things
-✓ Separate EVERY paragraph and block with \\n\\n (double newline)
-✓ Target 700–900 words in the body
+RULE 1 — MINIMUMS:
+• Body must be 700–900 words (NEVER fewer than 600)
+• Include at least 3 paragraphs and at least 2 ## section headings
+• Every sentence must be complete — NEVER end with "[...]", "Read more", "…" or mid-thought
 
-ARTICLE STRUCTURE (follow exactly):
-[Hook: 2–3 vivid, specific sentences that pull readers in]
+RULE 2 — STRUCTURE (follow this exact order):
+[Hook: 2–3 vivid, specific sentences — grab the reader immediately]
+Example of a good hook: ${hookExample}
 
-## [Section 1 title — specific to this story, e.g. "Why Park Chan-wook's Take Shocked Cannes"]
+## [Section title specific to this story — NOT "Introduction"]
+[2 paragraphs: background context fans need to understand the story — franchise history, who the person is, why this outlet matters]
 
-[2 paragraphs: background and context that fans need to understand the story]
+## [Section title specific to this story — NOT "Main Story"]
+[2–3 paragraphs: what actually happened — key details, timeline, who said/did what]
+[> "Direct quote if available" — Person Name]
 
-## [Section 2 title — e.g. "What Actually Happened at the Press Conference"]
-
-[2–3 paragraphs: the main news — what happened, key details, who said/did what]
-
-> "[Direct quote if available]" — Person Name
-
-## [Section 3 title — community/fan angle, e.g. "How Fans Are Reacting"]
-
-[1–2 paragraphs: fan or community perspective, why this resonates]
+## [Fan or community angle — e.g. "What Fans Are Saying" or specific to story]
+[1–2 paragraphs: why this resonates with fans, community reaction, stakes]
 
 ## What's Next
-
 [1 closing paragraph: upcoming dates, what to watch for, forward-looking angle]
 
-Return ONLY this JSON (no markdown code blocks, no extra text before or after):
-{"title":"[Engaging reworded headline — not clickbait, not the RSS title verbatim]","summary":"[2-sentence hook for article previews — compelling, specific]","ai_analysis":"[1-sentence insight tailored specifically for ${article.category} fans]","body":"[Full article — all sections with \\\\n\\\\n between every block, 700–900 words]"}`;
+RULE 3 — NO HALLUCINATION:
+• NEVER invent quotes — only use quotes clearly present in source material or web research
+• NEVER fabricate release dates, box office numbers, ratings, or cast members
+• NEVER invent statistics — if a number is not in your sources, do not write it
+• If information is unknown: write "details have not yet been announced" or omit it
+• You may reference well-known facts from your training (franchise history, a director's filmography) — that is fine
+
+RULE 4 — VOICE AND TONE:
+• NEVER open with "In a surprising turn of events...", "The world of [X] is buzzing...", or similar generic phrases
+• Write with specific details — name the director, the game engine, the book imprint
+• Bold key names and titles: **Park Chan-wook**, **Resident Evil 9**, **The Handmaiden**
+• Use *word* for natural emphasis — sparingly
+• Use bullet lists (- item) only when listing 3+ discrete things
+
+RULE 5 — RSS TEASER HANDLING:
+• The RSS snippet above is a TEASER — it is incomplete by design
+• Do NOT reproduce it verbatim — write original prose
+• Use it only to understand the topic, then write from your knowledge + web research
+
+FORMATTING (mandatory):
+• ## before every section heading
+• \\n\\n between every paragraph and block
+• > "Quote" — Person Name format for all direct quotes
+
+Return ONLY this JSON — no markdown wrapper, no text before or after:
+{"title":"[Engaging headline — specific, not clickbait, not the RSS title verbatim]","summary":"[2-sentence hook for article previews — compelling and specific]","ai_analysis":"[1-sentence insight tailored for ${article.category} fans]","body":"[Full article body — all sections with \\\\n\\\\n between blocks, 700–900 words]"}`;
 
   let enData = null;
   for (let attempt = 1; attempt <= 3; attempt++) {
@@ -87,72 +162,75 @@ Return ONLY this JSON (no markdown code blocks, no extra text before or after):
       });
 
       if (!res.ok) {
-        const err = await res.text();
-        console.warn(`  [gemini-en attempt ${attempt}] ${res.status}: ${err.slice(0, 120)}`);
-        if (attempt < 3) { await sleep(attempt * 6000); continue; }
-        throw new Error(`Gemini ${res.status}`);
+        const errText = await res.text();
+        console.warn(`  [gemini-en attempt ${attempt}] ${res.status}: ${errText.slice(0, 100)}`);
+        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        throw new Error(`Gemini EN ${res.status}`);
       }
 
       const data = await res.json();
       const raw = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
-      const cleaned = raw
-        .replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/, '').trim();
+      const cleaned = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/, '').trim();
 
       let parsed;
       try {
         parsed = JSON.parse(cleaned);
       } catch {
-        // Sometimes Gemini wraps the body with extra escaping — try to salvage
         const match = cleaned.match(/\{[\s\S]*\}/);
-        if (match) parsed = JSON.parse(match[0]);
-        else throw new Error('JSON parse failed');
+        if (match) { try { parsed = JSON.parse(match[0]); } catch { throw new Error('JSON parse failed'); } }
+        else throw new Error('No JSON found in response');
       }
 
       const body = parsed?.body ?? '';
-      const TRUNCATION = ['[…]', '[&#8230;]', '...Read more', '…]', '[&hellip;]', '[...]'];
-      const isTruncated = TRUNCATION.some(m => body.includes(m));
+      const words = wordCount(body);
+      const truncated = isTruncated(body);
 
-      if (!body || body.length < 400) {
-        console.warn(`  [gemini-en attempt ${attempt}] body too short (${body.length} chars)`);
-        if (attempt < 3) { await sleep(attempt * 6000); continue; }
+      if (words < 400) {
+        console.warn(`  [gemini-en attempt ${attempt}] body too short: ${words} words`);
+        if (attempt < 3) { await sleep(attempt * 7000); continue; }
         throw new Error('EN body too short after all attempts');
       }
-      if (isTruncated) {
+      if (truncated) {
         console.warn(`  [gemini-en attempt ${attempt}] truncation marker in body — retrying`);
-        if (attempt < 3) { await sleep(attempt * 6000); continue; }
+        if (attempt < 3) { await sleep(attempt * 7000); continue; }
         throw new Error('EN body contains truncation markers');
       }
 
       enData = parsed;
+      console.log(`  [gemini-en] ${words} words, ${countHeadings(body)} headings`);
       break;
     } catch (err) {
       console.warn(`  [gemini-en attempt ${attempt}] ${err.message}`);
-      if (attempt < 3) { await sleep(attempt * 6000); continue; }
+      if (attempt < 3) { await sleep(attempt * 7000); continue; }
       throw err;
     }
   }
 
-  // ── Step 2: Translate to Turkish ─────────────────────────────────────
+  // ── Step 2: Turkish translation ───────────────────────────────────────
   await sleep(5000);
-  const trData = await translateToTurkish(enData, apiKey);
+  const trData = await translateToTurkish(enData, apiKey, article.category);
 
   return {
     summary_en: enData.summary_en || enData.summary,
     ai_analysis: enData.ai_analysis,
     translations: {
-      en: {
-        title:   enData.title,
-        summary: enData.summary,
-        body:    enData.body,
-      },
+      en: { title: enData.title, summary: enData.summary, body: enData.body },
       tr: trData,
     },
   };
 }
 
-async function translateToTurkish(enData, apiKey) {
-  // Send full body — no truncation
-  const trPrompt = `Translate this entertainment news article to Turkish for WeCult — a premium Turkish entertainment platform.
+async function translateToTurkish(enData, apiKey, category) {
+  const categoryNote = {
+    games: 'gaming terms like "open world", "DLC", "early access" can stay in English if they are standard in Turkish gaming culture',
+    film:  'cinema terms like "box office", "premiere", "Palme d\'Or" can stay as-is',
+    tv:    'TV terms like "showrunner", "season finale", "streaming" can stay as-is',
+    books: 'publishing terms like "bestseller", "debut novel" can stay as-is',
+  }[category] ?? '';
+
+  const trPrompt = `${PLATFORM_CONTEXT}
+
+Translate this entertainment news article to Turkish for WeCult News readers.
 
 ═══════ ENGLISH ARTICLE ═══════
 TITLE: ${enData.title}
@@ -162,20 +240,31 @@ BODY:
 ${enData.body}
 ═══════════════════════════════
 
-TRANSLATION RULES — violating ANY rule = invalid output:
-✗ NEVER leave any English words except: proper nouns (person names, film/game/book titles, brand names, place names)
-✗ NEVER copy the English text — this must be a real translation into natural Turkish
-✗ NEVER translate proper nouns (keep "Park Chan-wook", "Palme d'Or", "Cannes", "Netflix" as-is)
-✗ NEVER write fewer than 400 words in the Turkish body
+TRANSLATION RULES (WeCult Editorial Standard — ALL mandatory):
 
-✓ Translate ALL ## section headings to Turkish (e.g. "## Why This Matters" → "## Bu Neden Önemli")
-✓ Keep ALL markdown formatting: **bold**, *italic*, ## headings, > quotes, - lists, \\n\\n spacing
-✓ Use natural, engaging Turkish journalism style — not word-for-word translation
-✓ Maintain the same tone: enthusiastic, fan-focused, premium
-✓ Keep > quotes in original language but add Turkish attribution context if needed
+RULE 1 — LANGUAGE:
+• ALL output must be in Turkish — title, summary, body, section headings
+• Keep proper nouns as-is: person names (Park Chan-wook), film/game/book titles, brand names (Netflix, Steam), place names (Cannes, Hollywood)
+• ${categoryNote}
+• NEVER leave full sentences or paragraphs in English
 
-Return ONLY this JSON (no markdown code blocks, no extra text):
-{"title":"[Türkçe başlık — çekici, doğal]","summary":"[Türkçe 2 cümle özet]","body":"[Türkçe makale — tüm bölümler dahil, \\\\n\\\\n ayrımlarıyla, minimum 400 kelime]"}`;
+RULE 2 — QUALITY:
+• Write natural Turkish journalism — NOT word-for-word translation
+• Use the engaging tone of Turkish entertainment media (excited but credible)
+• Body must be at least 400 words in Turkish
+• NEVER shorten or remove sections — translate the full article
+
+RULE 3 — FORMATTING (keep all markdown):
+• Translate all ## section headings to Turkish (e.g. "## Why This Matters" → "## Bu Neden Önemli")
+• Keep **bold**, *italic*, > quotes, - bullet lists exactly as formatted
+• Keep \\n\\n spacing between all blocks
+
+RULE 4 — QUOTES:
+• Keep direct quotes (> "...") in the original language
+• Add Turkish attribution context around them if helpful
+
+Return ONLY this JSON — no markdown wrapper, no extra text:
+{"title":"[Türkçe başlık — çekici, doğal Türkçe]","summary":"[Türkçe 2 cümle özet — okuyucuyu çeken]","body":"[Türkçe makale — tüm bölümler dahil, \\\\n\\\\n ayrımlarıyla, minimum 400 kelime]"}`;
 
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
@@ -191,45 +280,47 @@ Return ONLY this JSON (no markdown code blocks, no extra text):
 
       if (!res.ok) {
         console.warn(`  [gemini-tr attempt ${attempt}] ${res.status}`);
-        if (attempt < 3) { await sleep(attempt * 6000); continue; }
+        if (attempt < 3) { await sleep(attempt * 7000); continue; }
         return null;
       }
 
       const data = await res.json();
       const raw = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
-      const cleaned = raw
-        .replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/, '').trim();
+      const cleaned = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/, '').trim();
 
       let parsed;
       try {
         parsed = JSON.parse(cleaned);
       } catch {
         const match = cleaned.match(/\{[\s\S]*\}/);
-        if (match) parsed = JSON.parse(match[0]);
-        else throw new Error('JSON parse failed');
+        if (match) { try { parsed = JSON.parse(match[0]); } catch { throw new Error('JSON parse failed'); } }
+        else throw new Error('No JSON found in TR response');
       }
 
       const body = parsed?.body ?? '';
+      const words = wordCount(body);
 
-      if (!body || body.length < 200) {
-        console.warn(`  [gemini-tr attempt ${attempt}] body too short`);
-        if (attempt < 3) { await sleep(attempt * 6000); continue; }
+      if (words < 200) {
+        console.warn(`  [gemini-tr attempt ${attempt}] body too short: ${words} words`);
+        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        return null;
+      }
+      if (parsed.title === enData.title) {
+        console.warn(`  [gemini-tr attempt ${attempt}] TR title = EN title — not translated`);
+        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        return null;
+      }
+      if (body.slice(0, 120).toLowerCase() === enData.body.slice(0, 120).toLowerCase()) {
+        console.warn(`  [gemini-tr attempt ${attempt}] TR body is EN copy — retrying`);
+        if (attempt < 3) { await sleep(attempt * 7000); continue; }
         return null;
       }
 
-      // Detect if Gemini just copied English — title and first 120 chars
-      const titleSame = parsed.title === enData.title;
-      const bodySame = body.slice(0, 120).toLowerCase() === enData.body.slice(0, 120).toLowerCase();
-      if (titleSame || bodySame) {
-        console.warn(`  [gemini-tr attempt ${attempt}] TR is English copy — retrying`);
-        if (attempt < 3) { await sleep(attempt * 6000); continue; }
-        return null;
-      }
-
+      console.log(`  [gemini-tr] ${words} words`);
       return parsed;
     } catch (err) {
       console.warn(`  [gemini-tr attempt ${attempt}] ${err.message}`);
-      if (attempt < 3) { await sleep(attempt * 6000); continue; }
+      if (attempt < 3) { await sleep(attempt * 7000); continue; }
       return null;
     }
   }

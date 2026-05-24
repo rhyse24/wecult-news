@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
-import { summarizeArticle } from './summarize.mjs';
+import { summarizeArticle, validateArticle, isTruncated } from './summarize.mjs';
 import { searchContext } from './search.mjs';
 import { SOURCES, MAX_PER_SOURCE, MAX_PER_CATEGORY, MAX_TOTAL } from './sources.mjs';
 
@@ -100,18 +100,17 @@ for (const article of toProcess) {
       if (webContext) console.log(`    [search] context found (${webContext.length} chars)`);
     }
 
-    // Truncation markers from RSS teasers — articles containing these are useless without expansion
-    const RSS_TRUNCATED = (s) => ['[…]', '[&#8230;]', '...Read more', '…]', '[&hellip;]'].some(m => s.includes(m));
-
     let ai;
     try {
       ai = await summarizeArticle(article, GEMINI_API_KEY, webContext);
     } catch (geminiErr) {
-      console.warn(`  [gemini-fail] ${geminiErr.message.slice(0, 60)}`);
-      if (article.content.length < 600 || RSS_TRUNCATED(article.content)) {
-        console.warn(`  [skip] ${article.title.slice(0, 50)} — Gemini failed + content too short/truncated`);
+      console.warn(`  [gemini-fail] ${geminiErr.message.slice(0, 80)}`);
+      // Rule 5: RSS teaser without Gemini expansion = useless, skip
+      if (article.content.length < 600 || isTruncated(article.content)) {
+        console.warn(`  [skip] ${article.title.slice(0, 50)} — Gemini failed + RSS too short/truncated`);
         continue;
       }
+      // Fallback only when RSS gave substantial content (≥600 chars, no truncation)
       const snippet = article.content.slice(0, 300);
       ai = {
         summary_en: snippet,
@@ -123,12 +122,15 @@ for (const article of toProcess) {
       };
     }
 
-    // Even when Gemini "succeeds", it sometimes parrots back the RSS teaser — reject those
-    const enBody = ai.translations?.en?.body ?? '';
-    if (enBody.length < 400 || RSS_TRUNCATED(enBody)) {
-      console.warn(`  [skip] ${article.title.slice(0, 50)} — Gemini returned teaser/short body (${enBody.length} chars)`);
+    // Rule 8 — Quality Gate: reject articles that fail editorial minimums
+    const qc = validateArticle(ai);
+    if (!qc.valid) {
+      console.warn(`  [quality-gate] ${article.title.slice(0, 50)}`);
+      for (const e of qc.errors) console.warn(`    ✗ ${e}`);
+      console.warn(`  [skip] article did not meet WeCult editorial standards`);
       continue;
     }
+    console.log(`  [quality-gate] ✓ passed`);
 
     const slug = slugify(article.title);
     const id = createHash('md5').update(article.link).digest('hex').slice(0, 8);
