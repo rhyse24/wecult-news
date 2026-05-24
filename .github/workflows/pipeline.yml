@@ -55,3 +55,15 @@ jobs:
             git pull --rebase origin master
             git push
           fi
+
+      - name: Trigger Vercel deploy
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
+            curl -sS -X POST "$VERCEL_DEPLOY_HOOK" \
+              -H "Content-Type: application/json" \
+              --max-time 10 --retry 2 || echo "Deploy hook failed (non-fatal)"
+          else
+            echo "No VERCEL_DEPLOY_HOOK secret set, skipping"
+          fi
