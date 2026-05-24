@@ -1,0 +1,40 @@
+name: Re-expand Short Articles (EN+TR)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  re-expand:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run re-expand script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/pipeline/re-expand.mjs
+
+      - name: Commit expanded articles
+        run: |
+          git config user.name "wecult-pipeline[bot]"
+          git config user.email "kaptankaptanim19@gmail.com"
+          git add src/content/articles/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            COUNT=$(git diff --staged --name-only | grep -c '\.json' || true)
+            git commit -m "fix(articles): ${COUNT} makale Gemini ile genişletildi (EN+TR)"
+            git pull --rebase origin master
+            git push
+          fi
