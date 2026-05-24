@@ -601,20 +601,36 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
     line-height: 1.75;
     color: #edeae0;
     font-weight: 400;
-    margin-bottom: 1.75em;
+    margin-bottom: 2em;
     letter-spacing: -0.005em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .article-content p:first-of-type::first-letter {
+    float: left;
+    font-size: 4rem;
+    font-family: var(--font-serif);
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 0.8;
+    margin-right: 0.1em;
+    margin-top: 0.05em;
   }
   .article-content p {
     font-size: 1.1rem;
-    color: #d8d4ca;
-    line-height: 1.85;
-    margin-bottom: 1.5em;
-    letter-spacing: 0.005em;
-    word-spacing: 0.02em;
+    color: #d4d0c6;
+    line-height: 1.9;
+    margin-bottom: 1.625em;
+    letter-spacing: 0.003em;
   }
   .article-content p:last-of-type { margin-bottom: 0; }
+  .article-content p:nth-of-type(4n+1):not(:first-of-type) {
+    margin-top: 0.5em;
+    padding-top: 1.5em;
+    border-top: 1px solid var(--border-subtle);
+  }
   .article-content strong { color: #f0ece4; font-weight: 700; }
-  .article-content em { font-style: italic; color: #c5c1b5; }
+  .article-content em { font-style: italic; color: #c0bcb0; }
 
   .article-list {
     list-style: none;

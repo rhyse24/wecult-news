@@ -631,26 +631,46 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
     margin-bottom: 2rem;
   }
 
-  /* Lead paragraph — first paragraph is larger, draws reader in */
+  /* Lead paragraph — large, bright, serif drop cap */
   .article-content p:first-of-type {
     font-size: 1.25rem;
     line-height: 1.75;
     color: #edeae0;
     font-weight: 400;
-    margin-bottom: 1.75em;
+    margin-bottom: 2em;
     letter-spacing: -0.005em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  /* Drop cap — first letter of article */
+  .article-content p:first-of-type::first-letter {
+    float: left;
+    font-size: 4rem;
+    font-family: var(--font-serif);
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 0.8;
+    margin-right: 0.1em;
+    margin-top: 0.05em;
   }
 
   /* Body paragraphs */
   .article-content p {
     font-size: 1.1rem;
-    color: #d8d4ca;
-    line-height: 1.85;
-    margin-bottom: 1.5em;
-    letter-spacing: 0.005em;
-    word-spacing: 0.02em;
+    color: #d4d0c6;
+    line-height: 1.9;
+    margin-bottom: 1.625em;
+    letter-spacing: 0.003em;
   }
   .article-content p:last-of-type { margin-bottom: 0; }
+
+  /* Auto visual break every 4 paragraphs to split the wall of text */
+  .article-content p:nth-of-type(4n+1):not(:first-of-type) {
+    margin-top: 0.5em;
+    padding-top: 1.5em;
+    border-top: 1px solid var(--border-subtle);
+  }
 
   /* Bold & italic inside body */
   .article-content strong {
@@ -659,7 +679,7 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
   }
   .article-content em {
     font-style: italic;
-    color: #c5c1b5;
+    color: #c0bcb0;
   }
 
   /* Bullet lists — clean, spaced */
