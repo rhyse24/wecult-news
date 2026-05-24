@@ -121,7 +121,7 @@ for (const file of files) {
     failed++;
   }
 
-  await sleep(4000);
+  await sleep(8000); // Rate limit buffer — Gemini free tier 15 RPM
 }
 
 console.log(`\n[re-expand] Done — fixed: ${fixed} | skipped (ok): ${skipped} | failed: ${failed}`);
@@ -194,26 +194,47 @@ Return ONLY this JSON (no markdown wrapper):
       });
 
       if (!res.ok) {
+        const errText = await res.text().catch(() => '');
+        console.warn(`    [gemini attempt ${attempt}] HTTP ${res.status}: ${errText.slice(0, 150)}`);
         if (attempt < 3) { await sleep(attempt * 7000); continue; }
         return null;
       }
 
       const data = await res.json();
       const raw = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      if (!raw) {
+        const reason = data.candidates?.[0]?.finishReason || data.promptFeedback?.blockReason || 'empty response';
+        console.warn(`    [gemini attempt ${attempt}] empty response — ${reason}`);
+        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        return null;
+      }
+
       const cleaned = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/, '').trim();
 
       let parsed;
       try { parsed = JSON.parse(cleaned); }
-      catch { const m = cleaned.match(/\{[\s\S]*\}/); if (m) { try { parsed = JSON.parse(m[0]); } catch { throw new Error('JSON parse failed'); } } else throw new Error('No JSON'); }
+      catch {
+        const m = cleaned.match(/\{[\s\S]*\}/);
+        if (m) { try { parsed = JSON.parse(m[0]); } catch (e2) { console.warn(`    [gemini attempt ${attempt}] JSON parse failed: ${e2.message}`); throw e2; } }
+        else { console.warn(`    [gemini attempt ${attempt}] no JSON in response (${cleaned.slice(0, 80)})`); throw new Error('No JSON'); }
+      }
 
       const body = parsed?.body ?? '';
-      if (wordCount(body) < 400 || isTruncated(body)) {
+      const words = wordCount(body);
+      if (words < 400) {
+        console.warn(`    [gemini attempt ${attempt}] body too short: ${words} words`);
+        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        return null;
+      }
+      if (isTruncated(body)) {
+        console.warn(`    [gemini attempt ${attempt}] truncation marker in body`);
         if (attempt < 3) { await sleep(attempt * 7000); continue; }
         return null;
       }
 
       return parsed;
     } catch (err) {
+      console.warn(`    [gemini attempt ${attempt}] exception: ${err.message}`);
       if (attempt < 3) { await sleep(attempt * 7000); continue; }
       return null;
     }
