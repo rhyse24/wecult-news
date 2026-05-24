@@ -55,6 +55,14 @@ const categories = [
 
       <!-- Desktop controls -->
       <div class="header-controls">
+        <a href="https://wecult.app" class="app-pill" target="_blank" rel="noopener noreferrer">
+          <svg width="12" height="12" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <rect x="0" y="0" width="3" height="18" rx="1.5" fill="currentColor"/>
+            <rect x="6" y="4" width="3" height="14" rx="1.5" fill="currentColor" opacity="0.6"/>
+            <rect x="12" y="8" width="3" height="10" rx="1.5" fill="currentColor" opacity="0.3"/>
+          </svg>
+          WeCult
+        </a>
         <button class="icon-btn" id="search-btn" aria-label="Search">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
             <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.5"/>
@@ -317,6 +325,20 @@ const categories = [
   font-weight: 700;
 }
 .cat-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--c); opacity: 0.6; flex-shrink: 0; }
+
+/* App pill */
+.app-pill {
+  display: inline-flex; align-items: center; gap: 0.375rem;
+  height: 28px; padding: 0 0.625rem; border-radius: 999px;
+  font-size: 0.75rem; font-weight: 700; letter-spacing: -0.01em;
+  color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  transition: background 0.15s, border-color 0.15s; white-space: nowrap;
+}
+.app-pill:hover {
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  border-color: color-mix(in srgb, var(--accent) 50%, transparent);
+}
 
 /* Desktop controls */
 .header-controls { display: flex; align-items: center; gap: 0.375rem; flex-shrink: 0; }
