@@ -32,7 +32,12 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-        run: node scripts/pipeline/run.mjs
+        run: |
+          node scripts/pipeline/run.mjs
+          SAVED=$(ls src/content/articles/*.json 2>/dev/null | wc -l || echo 0)
+          if [ "$SAVED" = "0" ]; then
+            echo "::warning::Pipeline saved 0 articles — check Gemini quota or API key."
+          fi
 
       - name: Commit new articles
         run: |

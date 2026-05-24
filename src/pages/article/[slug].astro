@@ -48,9 +48,29 @@ const nextColor = { games:'var(--cat-games)', film:'var(--cat-film)', tv:'var(--
 const base = import.meta.env.BASE_URL.replace(/\/$/, '')
 const nextHref = `${base}/${lang !== 'en' ? lang + '/' : ''}article/${nextArticle.slug}`
 
-const pageUrl = `https://wecult.news/article/${article.slug}`
+const siteBase = 'https://wecult.app/news'
+const pageUrl = `${siteBase}/article/${article.slug}`
+const trPageUrl = `${siteBase}/tr/article/${article.slug}`
 const shareTitle = encodeURIComponent(tr?.title ?? '')
 const shareUrl = encodeURIComponent(pageUrl)
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: tr?.title ?? '',
+  description: tr?.summary ?? '',
+  image: article.cover_image || undefined,
+  datePublished: article.published_at,
+  dateModified: article.published_at,
+  url: pageUrl,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+  author: { '@type': 'Organization', name: 'WeCult News', url: siteBase },
+  publisher: {
+    '@type': 'Organization',
+    name: 'WeCult News',
+    logo: { '@type': 'ImageObject', url: `${siteBase}/favicon.svg` },
+  },
+}
 
 const summaryIsBodyDup = tr?.summary && tr?.body &&
   tr.body.slice(0, Math.min(tr.summary.length + 80, 400)).includes(tr.summary.slice(0, 60))
@@ -91,7 +111,15 @@ function parseBody(body: string): Block[] {
 const bodyBlocks = tr?.body ? parseBody(tr.body) : []
 ---
 
-<Base title={tr?.title ?? ''} lang={lang} ogImage={article.cover_image ?? undefined}>
+<Base
+  title={tr?.title ?? ''}
+  description={tr?.summary ?? ''}
+  lang={lang}
+  ogImage={article.cover_image ?? undefined}
+  canonicalUrl={pageUrl}
+  hreflang={{ en: pageUrl, tr: trPageUrl }}
+  schema={articleSchema}
+>
 
   <!-- Scroll progress bar (category color) -->
   <div id="scroll-progress" class="scroll-progress-bar" style={`--progress-color:${color}`}></div>
