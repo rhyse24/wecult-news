@@ -31,9 +31,26 @@ const meta = catMeta[category!]
 const articles = getByCategory(mockArticles, category! as import('../types').Category)
 const [hero, featured, ...rest] = articles
 const allOtherArticles = mockArticles.filter(a => a.category !== category).slice(0, 4)
+
+const siteBase = 'https://wecult.app/news'
+const catUrl = `${siteBase}/${category}`
+const catSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${meta.label} — WeCult News`,
+  description: meta.desc,
+  url: catUrl,
+  publisher: { '@type': 'Organization', name: 'WeCult News', url: siteBase },
+}
 ---
 
-<Base title={meta.label} lang={lang}>
+<Base
+  title={`${meta.label} News`}
+  description={meta.desc}
+  lang={lang}
+  canonicalUrl={catUrl}
+  schema={catSchema}
+>
   <div class="cat-page">
 
     <!-- ── Category hero banner ───────────────────── -->

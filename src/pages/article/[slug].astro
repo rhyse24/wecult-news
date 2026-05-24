@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro'
 import ArticleCard from '../../components/article/ArticleCard.astro'
 import WeCultCTA from '../../components/ui/WeCultCTA.astro'
 import { t, getLocalizedPath } from '../../lib/i18n'
-import { articles as mockArticles, getRelated } from '../../lib/articles'
+import { articles as mockArticles, getRelated, isBreaking } from '../../lib/articles'
 import type { Lang } from '../../types'
 
 export async function getStaticPaths() {
@@ -142,6 +142,9 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
 
           <!-- Breadcrumb / meta top -->
           <div class="article-meta-top">
+            {isBreaking(article) && (
+              <span class="breaking-badge">⚡ BREAKING</span>
+            )}
             <a href={getLocalizedPath(lang, `/${article.category}`)} class="cat-pill-link" style={`color:${color}; background:color-mix(in srgb, ${color} 10%, transparent); border-color:color-mix(in srgb, ${color} 22%, transparent)`}>
               {t(lang, `nav.${article.category}`)}
             </a>
@@ -547,6 +550,24 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+  }
+  .breaking-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2em;
+    font-size: 0.6rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #ef4444;
+    padding: 0.2em 0.55em;
+    border-radius: 4px;
+    animation: breaking-pulse 1.8s ease-in-out infinite;
+  }
+  @keyframes breaking-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
   }
   .meta-dot { color: var(--text-muted); font-size: 0.75rem; }
   .meta-text { font-size: 0.8125rem; color: var(--text-muted); }
