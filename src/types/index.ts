@@ -16,6 +16,7 @@ export interface Article {
   source_name: string
   tags: string[]
   reading_time_minutes: number
+  trending_score: number
   translations: Record<Lang, ArticleTranslation | null>
 }
 

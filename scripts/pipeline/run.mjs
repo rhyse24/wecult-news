@@ -188,6 +188,7 @@ for (const article of toProcess) {
       content_raw: article.content,
       tags: inferTags(article),
       image_url: article.image_url || '',
+      trending_score: scoreArticle(article),
     };
 
     writeFileSync(`${ARTICLES_DIR}/${filename}.json`, JSON.stringify(json, null, 2));

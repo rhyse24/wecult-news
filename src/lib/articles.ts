@@ -71,6 +71,7 @@ function normalizeArticle(raw: Record<string, unknown>): Article {
     source_name: raw.source_name as string,
     tags: (raw.tags as string[]) ?? [category],
     reading_time_minutes: readingTime(enBody),
+    trending_score: (raw.trending_score as number) ?? 0,
     translations: normalizedTranslations,
   }
 }
@@ -107,4 +108,8 @@ export function isBreaking(article: Article): boolean {
 
 export function isFresh(article: Article): boolean {
   return Date.now() - new Date(article.published_at).getTime() < 24 * 60 * 60 * 1000
+}
+
+export function isTrending(article: Article): boolean {
+  return article.trending_score >= 5
 }

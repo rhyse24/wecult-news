@@ -1,7 +1,7 @@
 ---
 import type { Article, Lang } from '../../types'
 import { t, getLocalizedPath } from '../../lib/i18n'
-import { isBreaking, isFresh } from '../../lib/articles'
+import { isBreaking, isFresh, isTrending } from '../../lib/articles'
 
 interface Props {
   article: Article
@@ -31,6 +31,7 @@ const typeColor: Record<string, string> = {
 
 const breaking = isBreaking(article)
 const fresh = isFresh(article)
+const trending = !breaking && isTrending(article)
 
 const timeAgo = (() => {
   const ms = Date.now() - new Date(article.published_at).getTime()
@@ -55,6 +56,7 @@ const timeAgo = (() => {
     <div class="hero-content">
       <div class="hero-tags">
         {breaking && <span class="breaking-badge">⬤ Breaking</span>}
+        {trending && <span class="trending-badge">🔥 Trending</span>}
         <span class="cat-pill" style={`--c:${color}`}>{label}</span>
         <span class="type-badge" style={`color:${typeColor[article.article_type]}`}>{typeLabel[article.article_type]}</span>
       </div>
@@ -84,6 +86,7 @@ const timeAgo = (() => {
       }
       <span class="featured-cat-pill" style={`--c:${color}`}>{label}</span>
       {breaking && <span class="breaking-overlay-badge">⬤ Breaking</span>}
+      {trending && <span class="trending-overlay-badge">🔥</span>}
     </div>
     <div class="featured-body">
       <div class="default-type-row">
@@ -113,6 +116,7 @@ const timeAgo = (() => {
       }
       <span class="default-cat-pill" style={`--c:${color}`}>{label}</span>
       {breaking && <span class="breaking-overlay-badge">⬤ Breaking</span>}
+      {trending && <span class="trending-overlay-badge">🔥</span>}
     </div>
     <div class="default-body">
       <div class="default-type-row">
@@ -565,6 +569,28 @@ const timeAgo = (() => {
   padding: 3px 7px;
   border-radius: 4px;
   animation: breaking-pulse 1.8s ease-in-out infinite;
+}
+.trending-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.5625rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #f97316;
+  background: rgba(249,115,22,0.12);
+  border: 1px solid rgba(249,115,22,0.28);
+  padding: 3px 7px;
+  border-radius: 4px;
+}
+.trending-overlay-badge {
+  position: absolute;
+  bottom: 10px; right: 10px;
+  font-size: 0.875rem;
+  line-height: 1;
+  z-index: 2;
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,0.5));
 }
 @keyframes breaking-pulse {
   0%, 100% { opacity: 1; }
