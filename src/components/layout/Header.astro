@@ -139,6 +139,20 @@ const categories = [
 
   <div class="drawer-divider"></div>
 
+  <a href="https://wecult.app" class="drawer-app-link" target="_blank" rel="noopener noreferrer">
+    <svg width="14" height="14" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+      <rect x="0" y="0" width="3" height="18" rx="1.5" fill="currentColor"/>
+      <rect x="6" y="4" width="3" height="14" rx="1.5" fill="currentColor" opacity="0.6"/>
+      <rect x="12" y="8" width="3" height="10" rx="1.5" fill="currentColor" opacity="0.3"/>
+    </svg>
+    WeCult
+    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true" style="margin-left:auto;opacity:0.5">
+      <path d="M2 8L8 2M8 2H4M8 2V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+
+  <div class="drawer-divider"></div>
+
   <div class="drawer-controls">
     <button class="drawer-theme-btn" id="drawer-theme-btn">
       <svg class="icon-sun" width="15" height="15" viewBox="0 0 16 16" fill="none">
@@ -434,6 +448,16 @@ const categories = [
 }
 
 .drawer-divider { height: 1px; background: var(--border-subtle); margin: 1rem 0; }
+
+.drawer-app-link {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.75rem 0.875rem; border-radius: var(--radius-md);
+  font-size: 1rem; font-weight: 700; color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+  transition: background 0.15s;
+}
+.drawer-app-link:hover { background: color-mix(in srgb, var(--accent) 14%, transparent); }
 
 .drawer-controls { padding: 0 0.25rem; }
 .drawer-theme-btn {

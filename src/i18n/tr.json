@@ -22,5 +22,8 @@
     "load_more": "Daha fazla",
     "back": "Geri",
     "search": "Ara"
+  },
+  "footer": {
+    "wecultApp": "WeCult Uygulaması"
   }
 }
