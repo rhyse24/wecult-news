@@ -14,7 +14,14 @@
     "source": "Kaynak",
     "read_original": "Kaynağa Git",
     "compiled_from": "{{count}} kaynaktan derlendi",
-    "published": "Yayınlandı"
+    "published": "Yayınlandı",
+    "type": {
+      "news": "Haber",
+      "review": "İnceleme",
+      "feature": "Özel",
+      "opinion": "Yorum",
+      "guide": "Rehber"
+    }
   },
   "ui": {
     "latest": "Son Haberler",

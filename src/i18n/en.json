@@ -14,7 +14,14 @@
     "source": "Source",
     "read_original": "Read Original",
     "compiled_from": "Compiled from {{count}} sources",
-    "published": "Published"
+    "published": "Published",
+    "type": {
+      "news": "News",
+      "review": "Review",
+      "feature": "Feature",
+      "opinion": "Opinion",
+      "guide": "Guide"
+    }
   },
   "ui": {
     "latest": "Latest",

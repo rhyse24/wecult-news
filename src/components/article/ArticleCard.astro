@@ -23,7 +23,11 @@ const href = getLocalizedPath(lang, `/article/${article.slug}`)
 const label = t(lang, `nav.${article.category}`)
 
 const typeLabel: Record<string, string> = {
-  news: 'News', review: 'Review', feature: 'Feature', opinion: 'Opinion', guide: 'Guide',
+  news:    t(lang, 'article.type.news'),
+  review:  t(lang, 'article.type.review'),
+  feature: t(lang, 'article.type.feature'),
+  opinion: t(lang, 'article.type.opinion'),
+  guide:   t(lang, 'article.type.guide'),
 }
 const typeColor: Record<string, string> = {
   news: 'var(--text-muted)', review: '#f59e0b', feature: '#818cf8', opinion: '#f472b6', guide: '#34d399',

@@ -14,11 +14,8 @@ const activeCategory = (['games','film','tv','books'] as const).find(
 ) ?? null
 
 const langMeta: Record<string, { label: string; flag: string }> = {
-  en: { label: 'English',   flag: '🇬🇧' },
-  tr: { label: 'Türkçe',    flag: '🇹🇷' },
-  es: { label: 'Español',   flag: '🇪🇸' },
-  pt: { label: 'Português', flag: '🇧🇷' },
-  ja: { label: '日本語',     flag: '🇯🇵' },
+  en: { label: 'English', flag: '🇬🇧' },
+  tr: { label: 'Türkçe',  flag: '🇹🇷' },
 }
 
 const categories = [

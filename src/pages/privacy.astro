@@ -1,0 +1,97 @@
+---
+import Base from '../layouts/Base.astro'
+import type { Lang } from '../types'
+
+const lang: Lang = 'en'
+---
+
+<Base title="Privacy Policy — WeCult News" lang={lang}>
+  <div class="legal-page">
+    <div class="container">
+      <div class="legal-inner">
+        <div class="legal-eyebrow">Privacy Policy</div>
+        <h1 class="legal-title">Privacy Policy</h1>
+        <p class="legal-meta">Last updated: May 2025</p>
+
+        <div class="legal-body">
+          <p>WeCult News is operated by WeCult. This privacy policy explains how we handle information when you visit <strong>news.wecult.app</strong>.</p>
+
+          <h2>Information We Collect</h2>
+          <p>WeCult News is a read-only news and analysis site. We do not require account registration and do not collect personal information directly.</p>
+          <p>We may collect anonymous usage analytics (page views, referrer, browser type) through standard web analytics tools. This data is aggregated and not linked to individual users.</p>
+
+          <h2>Cookies</h2>
+          <p>We use minimal cookies for site functionality (such as cookie consent preferences). We may serve third-party advertisements that use cookies. You can manage your cookie preferences using the Cookie Preferences option in our footer.</p>
+
+          <h2>Third-Party Services</h2>
+          <p>WeCult News may display content sourced from or linking to third-party sites. We are not responsible for the privacy practices of those sites.</p>
+
+          <h2>WeCult App</h2>
+          <p>For the privacy policy of the WeCult mobile application and main platform, please visit <a href="https://wecult.app" target="_blank" rel="noopener noreferrer">wecult.app</a>.</p>
+
+          <h2>Contact</h2>
+          <p>For privacy-related inquiries, contact us through <a href="https://wecult.app" target="_blank" rel="noopener noreferrer">wecult.app</a>.</p>
+        </div>
+
+        <a href="/" class="legal-back">← Back to Home</a>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style is:global>
+  .legal-page {
+    padding: 4rem 0 6rem;
+    min-height: 70vh;
+  }
+  .legal-inner {
+    max-width: 680px;
+  }
+  .legal-eyebrow {
+    font-size: 0.625rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1rem;
+  }
+  .legal-title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    color: var(--text);
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-serif);
+  }
+  .legal-meta {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    margin-bottom: 2.5rem;
+  }
+  .legal-body {
+    color: var(--text-secondary);
+    line-height: 1.75;
+    font-size: 0.9375rem;
+  }
+  .legal-body h2 {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: var(--text);
+    margin: 2rem 0 0.625rem;
+    letter-spacing: -0.01em;
+  }
+  .legal-body p { margin-bottom: 1rem; }
+  .legal-body a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+  .legal-body strong { color: var(--text); font-weight: 600; }
+  .legal-back {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    transition: color 0.15s;
+  }
+  .legal-back:hover { color: var(--text-secondary); }
+</style>

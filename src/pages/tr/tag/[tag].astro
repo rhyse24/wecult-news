@@ -1,0 +1,81 @@
+---
+import Base from '../../../layouts/Base.astro'
+import ArticleCard from '../../../components/article/ArticleCard.astro'
+import { getLocalizedPath } from '../../../lib/i18n'
+import { articles as mockArticles, getByTag } from '../../../lib/articles'
+import type { Lang } from '../../../types'
+
+export async function getStaticPaths() {
+  const allTags = [...new Set(mockArticles.flatMap(a => a.tags))]
+  return allTags.map(tag => ({
+    params: { tag: tag.toLowerCase().replace(/\s+/g, '-') },
+    props: { originalTag: tag },
+  }))
+}
+
+const { tag } = Astro.params
+const { originalTag } = Astro.props as { originalTag: string }
+const lang: Lang = 'tr'
+
+const articles = getByTag(mockArticles, originalTag)
+
+const catCount: Record<string, number> = {}
+articles.forEach(a => { catCount[a.category] = (catCount[a.category] ?? 0) + 1 })
+const catColors: Record<string, string> = {
+  games: 'var(--cat-games)', film: 'var(--cat-film)',
+  tv: 'var(--cat-tv)', books: 'var(--cat-books)',
+}
+const catLabels: Record<string, string> = { games: 'Oyun', film: 'Film', tv: 'Dizi', books: 'Kitap' }
+---
+
+<Base title={`#${originalTag} — WeCult News`} lang={lang}>
+  <div class="tag-page">
+
+    <!-- Banner -->
+    <div class="tag-banner">
+      <div class="container">
+        <div class="tag-banner-inner">
+          <div class="tag-breadcrumb">
+            <a href={getLocalizedPath(lang, '/')}>WeCult News</a>
+            <span>›</span>
+            <span>Konular</span>
+            <span>›</span>
+            <span class="tag-breadcrumb-current">#{originalTag}</span>
+          </div>
+          <div class="tag-heading-row">
+            <span class="tag-hash-large">#</span>
+            <h1 class="tag-heading">{originalTag}</h1>
+          </div>
+          <div class="tag-meta-row">
+            <span class="tag-count-badge">{articles.length} {articles.length === 1 ? 'haber' : 'haber'}</span>
+            {Object.entries(catCount).map(([cat, count]) => (
+              <span class="tag-cat-chip" style={`--c:${catColors[cat]}`}>
+                {catLabels[cat]} · {count}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div class="tag-banner-line"></div>
+    </div>
+
+    <div class="container">
+      <div class="tag-body">
+
+        {articles.length > 0 ? (
+          <div class="cards-grid tag-grid">
+            {articles.map(a => <ArticleCard article={a} lang={lang} size="default" />)}
+          </div>
+        ) : (
+          <div class="tag-empty">
+            <p>Bu konuda henüz haber bulunmuyor.</p>
+            <a href={getLocalizedPath(lang, '/')} class="back-link">← Ana Sayfaya Dön</a>
+          </div>
+        )}
+
+        <a href={getLocalizedPath(lang, '/')} class="back-link tag-back">← Tüm Haberler</a>
+
+      </div>
+    </div>
+  </div>
+</Base>
