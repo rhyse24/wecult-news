@@ -138,6 +138,8 @@ const catColors: Record<string, string> = {
   if (carousel) {
     const slides = carousel.querySelectorAll<HTMLElement>('.carousel-slide')
     const dots   = carousel.querySelectorAll<HTMLButtonElement>('.carousel-dot')
+    if (!slides.length) { /* no articles yet */ }
+    else {
     let current = 0
     let timer: ReturnType<typeof setInterval>
 
@@ -158,6 +160,7 @@ const catColors: Record<string, string> = {
     carousel.addEventListener('mouseenter', stop)
     carousel.addEventListener('mouseleave', start)
     start()
+    } // end slides.length check
   }
 </script>
 

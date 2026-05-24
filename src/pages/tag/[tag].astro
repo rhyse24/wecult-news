@@ -36,7 +36,7 @@ const catLabels: Record<string, string> = { games: 'Games', film: 'Film', tv: 'T
       <div class="container">
         <div class="tag-banner-inner">
           <div class="tag-breadcrumb">
-            <a href="/">WeCult News</a>
+            <a href={getLocalizedPath(lang, '/')}>WeCult News</a>
             <span>›</span>
             <span>Topics</span>
             <span>›</span>
@@ -69,11 +69,11 @@ const catLabels: Record<string, string> = { games: 'Games', film: 'Film', tv: 'T
         ) : (
           <div class="tag-empty">
             <p>No articles found for this topic yet.</p>
-            <a href="/" class="back-link">← Back to Home</a>
+            <a href={getLocalizedPath(lang, '/')} class="back-link">← Back to Home</a>
           </div>
         )}
 
-        <a href="/" class="back-link tag-back">← All Stories</a>
+        <a href={getLocalizedPath(lang, '/')} class="back-link tag-back">← All Stories</a>
 
       </div>
     </div>

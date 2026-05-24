@@ -13,10 +13,11 @@ if (!GEMINI_API_KEY) { console.error('GEMINI_API_KEY required'); process.exit(1)
 const ARTICLES_DIR = 'src/content/articles';
 const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
 
+const BATCH_LIMIT = parseInt(process.env.BATCH_LIMIT || '10', 10);
 const files = readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.json'));
-console.log(`[retranslate] Found ${files.length} articles`);
+console.log(`[retranslate] Found ${files.length} articles (batch limit: ${BATCH_LIMIT})`);
 
-let fixed = 0, skipped = 0, failed = 0;
+let fixed = 0, skipped = 0, failed = 0, processed = 0;
 
 for (const file of files) {
   const path = join(ARTICLES_DIR, file);
@@ -36,6 +37,12 @@ for (const file of files) {
     skipped++;
     continue;
   }
+
+  if (processed >= BATCH_LIMIT) {
+    console.log(`  [batch-limit] reached ${BATCH_LIMIT} — stopping. Run again for the rest.`);
+    break;
+  }
+  processed++;
 
   console.log(`  Translating: ${en.title.slice(0, 60)}...`);
 

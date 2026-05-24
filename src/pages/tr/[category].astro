@@ -26,6 +26,7 @@ const catMeta: Record<string, { color: string; label: string; desc: string; icon
 }
 
 const typeFilters = ['Hepsi', 'Haber', 'İnceleme', 'Röportaj', 'Köşe Yazısı', 'Rehber']
+const typeFilterKeys = ['all', 'news', 'review', 'feature', 'opinion', 'guide']
 
 const meta = catMeta[category!]
 const articles = getByCategory(mockArticles, category! as import('../../types').Category)
@@ -82,7 +83,7 @@ const allOtherArticles = mockArticles.filter(a => a.category !== category).slice
           {typeFilters.map((f, i) => (
             <button
               class={`filter-tab${i === 0 ? ' is-active' : ''}`}
-              data-filter={i === 0 ? 'all' : f.toLowerCase()}
+              data-filter={typeFilterKeys[i]}
             >
               {f}
             </button>
