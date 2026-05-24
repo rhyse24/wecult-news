@@ -51,11 +51,23 @@ const LOW_QUALITY_PATTERNS = [
   /\b(gallery|photos?|pictures?|video:|podcast:|listen:)\b/i,
 ];
 
+// Off-topic content that slips through entertainment RSS feeds
+const OFF_TOPIC_PATTERNS = [
+  /\b(white house|secret service|pentagon|cia|fbi|nsa)\b/i,
+  /\b(gunfire exchange|suspect dead|officer involved|shooting near)\b/i,
+  /\b(peace (agreement|deal|talks?|treaty)|ceasefire|war (ends?|over))\b/i,
+  /\b(trump|biden|harris|obama|putin)\b.*\b(says?|announces?|signs?|threatens?|calls?|urges?)\b/i,
+  /\b(congressional|senate (bill|vote|hearing)|election (results?|fraud))\b/i,
+];
+
 function isQuality(article) {
   if (article.content.length < 300) return false;
   const title = article.title.toLowerCase();
   for (const pattern of LOW_QUALITY_PATTERNS) {
     if (pattern.test(title)) return false;
+  }
+  for (const pattern of OFF_TOPIC_PATTERNS) {
+    if (pattern.test(article.title)) return false;
   }
   return true;
 }

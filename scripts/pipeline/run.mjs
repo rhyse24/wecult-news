@@ -15,6 +15,7 @@ if (!GEMINI_API_KEY) {
 
 const ARTICLES_DIR = 'src/content/articles';
 const SEEN_FILE = 'scripts/pipeline/.seen-urls.json';
+const MAX_ARTICLE_AGE_HOURS = 48;
 
 mkdirSync(ARTICLES_DIR, { recursive: true });
 
@@ -69,7 +70,12 @@ const allArticles = [];
 for (const source of SOURCES) {
   try {
     const items = await fetchFeed(source, MAX_PER_SOURCE);
-    const fresh = items.filter(a => !seen.has(a.link));
+    const fresh = items.filter(a => {
+      if (seen.has(a.link)) return false;
+      const ageHours = (Date.now() - new Date(a.pubDate).getTime()) / 3600000;
+      if (ageHours > MAX_ARTICLE_AGE_HOURS) return false;
+      return true;
+    });
     console.log(`  ${source.name}: ${fresh.length} new / ${items.length} total`);
     allArticles.push(...fresh);
   } catch (err) {
@@ -77,12 +83,18 @@ for (const source of SOURCES) {
   }
 }
 
+// Deduplicate by title — same story from multiple sources
+const deduped = deduplicateByTitle(allArticles);
+if (deduped.length < allArticles.length) {
+  console.log(`[pipeline] Dedup: ${allArticles.length} → ${deduped.length} articles (removed ${allArticles.length - deduped.length} near-duplicates)`);
+}
+
 // Score and sort — trending articles bubble to top
-allArticles.sort((a, b) => scoreArticle(b) - scoreArticle(a));
+deduped.sort((a, b) => scoreArticle(b) - scoreArticle(a));
 
 // Equal distribution across categories (top-scored articles per category)
 const byCategory = {};
-for (const a of allArticles) {
+for (const a of deduped) {
   if (!byCategory[a.category]) byCategory[a.category] = [];
   if (byCategory[a.category].length < MAX_PER_CATEGORY) byCategory[a.category].push(a);
 }
@@ -197,4 +209,40 @@ function inferTags(article) {
 
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
+}
+
+const TITLE_STOP_WORDS = new Set(['the','and','for','with','from','that','this','have','will','what','when','your','their','about','more','into','over','after','then','them','some','these','than','been','were','said','also','just','like','very','only','also','even','such','both','here']);
+
+function normalizeTitle(title) {
+  return title.toLowerCase()
+    .replace(/[^a-z0-9\s]/g, '')
+    .split(/\s+/)
+    .filter(w => w.length > 3 && !TITLE_STOP_WORDS.has(w));
+}
+
+function jaccardSimilarity(wordsA, wordsB) {
+  const setA = new Set(wordsA);
+  const setB = new Set(wordsB);
+  const intersection = [...setA].filter(x => setB.has(x)).length;
+  const union = new Set([...setA, ...setB]).size;
+  return union === 0 ? 0 : intersection / union;
+}
+
+function deduplicateByTitle(articles) {
+  const kept = [];
+  for (const article of articles) {
+    const wordsA = normalizeTitle(article.title);
+    const isDup = kept.some(b => {
+      if (b.category !== article.category) return false;
+      const timeDiff = Math.abs(new Date(article.pubDate) - new Date(b.pubDate));
+      if (timeDiff > 12 * 3600000) return false; // published >12h apart → different story
+      return jaccardSimilarity(wordsA, normalizeTitle(b.title)) > 0.65;
+    });
+    if (isDup) {
+      console.log(`  [dedup] skipped "${article.title.slice(0, 55)}" — similar story exists`);
+    } else {
+      kept.push(article);
+    }
+  }
+  return kept;
 }
