@@ -5,7 +5,7 @@
  */
 import { readdirSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
-import { validateArticle, isTruncated } from './summarize.mjs';
+import { validateArticle, isTruncated, titleEntityPresent } from './summarize.mjs';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 if (!GEMINI_API_KEY) { console.error('GEMINI_API_KEY required'); process.exit(1); }
@@ -116,6 +116,12 @@ for (const file of files) {
     if (!qc.valid) {
       console.warn(`  [quality-gate] still failing after expansion:`);
       for (const e of qc.errors) console.warn(`    ✗ ${e}`);
+      failed++; continue;
+    }
+
+    // Hallucination guard
+    if (!titleEntityPresent(title, enData.body)) {
+      console.warn(`  [hallucination-guard] title keywords missing from expanded body — skip`);
       failed++; continue;
     }
 

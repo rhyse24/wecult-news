@@ -9,6 +9,7 @@ const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemi
 // Rule 6: Source bar shown on every article (handled in Astro pages)
 // Rule 7: Category-specific tone (games/film/tv/books)
 // Rule 8: Quality gate — article rejected if any minimum fails
+// Rule 9: Hallucination guard — key title words must appear in expanded body
 // ─────────────────────────────────────────────────────────────────────────
 
 const PLATFORM_CONTEXT = `WeCult News is the editorial arm of WeCult — a global premium entertainment platform covering film, TV, games, and books. Our readers are smart, passionate fans from around the world who consume content on mobile. We write in both English and Turkish. Our voice is enthusiastic but credible — never clickbait, never dry.`;
@@ -43,6 +44,42 @@ function countHeadings(text) {
 
 function endsCleanly(text) {
   return /[.!?»"')\]]+\s*$/.test(text.trim());
+}
+
+const HALLUCINATION_STOP_WORDS = new Set([
+  'the','and','for','with','from','that','this','have','will','what','when','your',
+  'they','them','about','more','into','over','after','then','some','these','than',
+  'been','were','said','also','just','like','very','only','even','such','both',
+  'says','gets','gets','new','next','best','how','why','who','its','but','not',
+  'his','her','their','our','can','could','would','should','may','might',
+]);
+
+/**
+ * Rule 9 — Hallucination guard: key words from the original RSS title must
+ * appear in the expanded EN body. Catches cases where Gemini writes about
+ * a completely different subject than the source.
+ */
+export function titleEntityPresent(originalTitle, enBody) {
+  if (!originalTitle || !enBody) return true;
+
+  // Prefer the quoted subject if present ("Game Title" or 'Film Name')
+  const quoted = originalTitle.match(/['""]([^'""]{3,35})['""]/) ;
+  const subject = quoted ? quoted[1] : originalTitle;
+
+  const keyWords = subject
+    .replace(/^(Review:|Preview:|Opinion:|Guide:|Analysis:|Watch:)\s*/i, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, '')
+    .split(/\s+/)
+    .filter(w => w.length > 3 && !HALLUCINATION_STOP_WORDS.has(w));
+
+  if (keyWords.length < 2) return true; // too few words to check reliably
+
+  const bodyLower = enBody.toLowerCase();
+  const found = keyWords.filter(w => bodyLower.includes(w));
+  const ratio = found.length / keyWords.length;
+
+  return ratio >= 0.4; // at least 40% of key title words must appear in body
 }
 
 // Rule 8 — quality gate applied to Gemini output before saving

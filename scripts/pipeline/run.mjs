@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
-import { summarizeArticle, validateArticle, isTruncated } from './summarize.mjs';
+import { summarizeArticle, validateArticle, isTruncated, titleEntityPresent } from './summarize.mjs';
 import { searchContext, scrapeOgImage } from './search.mjs';
 import { SOURCES, MAX_PER_SOURCE, MAX_PER_CATEGORY, MAX_TOTAL } from './sources.mjs';
 
@@ -148,6 +148,14 @@ for (const article of toProcess) {
       continue;
     }
     console.log(`  [quality-gate] ✓ passed`);
+
+    // Rule 9 — Hallucination guard
+    const enBody = ai.translations?.en?.body ?? '';
+    if (!titleEntityPresent(article.title, enBody)) {
+      console.warn(`  [hallucination-guard] title keywords missing from body — skip`);
+      console.warn(`    title: "${article.title.slice(0, 65)}"`);
+      continue;
+    }
 
     const slug = slugify(article.title);
     const id = createHash('md5').update(article.link).digest('hex').slice(0, 8);
