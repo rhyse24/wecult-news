@@ -114,7 +114,7 @@ for (const article of toProcess) {
         ai_analysis: '',
         translations: {
           en: { title: article.title, summary: snippet, body },
-          tr: { title: article.title, summary: snippet, body },
+          tr: null,
         },
       };
     }
