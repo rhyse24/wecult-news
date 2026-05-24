@@ -105,15 +105,19 @@ for (const article of toProcess) {
     try {
       ai = await summarizeArticle(article, GEMINI_API_KEY, webContext);
     } catch (geminiErr) {
-      // Gemini quota/rate error → fallback to raw content
-      console.warn(`  [gemini-fallback] ${geminiErr.message.slice(0, 60)}`);
-      const snippet = article.content.slice(0, 500);
-      const body = article.content;
+      console.warn(`  [gemini-fail] ${geminiErr.message.slice(0, 60)}`);
+      // Only use raw fallback when RSS gave us substantial content (>= 600 chars).
+      // Short teasers ("...Read more") without Gemini expansion are useless — skip them.
+      if (article.content.length < 600) {
+        console.warn(`  [skip] ${article.title.slice(0, 50)} — Gemini failed + content too short`);
+        continue;
+      }
+      const snippet = article.content.slice(0, 300);
       ai = {
         summary_en: snippet,
         ai_analysis: '',
         translations: {
-          en: { title: article.title, summary: snippet, body },
+          en: { title: article.title, summary: snippet, body: article.content },
           tr: null,
         },
       };
