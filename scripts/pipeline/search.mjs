@@ -61,6 +61,34 @@ function isImageUrl(url) {
 }
 
 /**
+ * Scrape og:image from the original article URL when RSS doesn't provide one.
+ * No API key required — direct HTTP fetch.
+ */
+export async function scrapeOgImage(url) {
+  if (!url) return '';
+  try {
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'WeCultNews/1.0 (+https://wecult.app/news)' },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) return '';
+    const html = await res.text();
+    // Try og:image in both attribute orders
+    const m = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
+           || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i)
+           || html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i);
+    const imgUrl = m?.[1]?.trim() || '';
+    if (imgUrl && isImageUrl(imgUrl)) {
+      console.log(`    [og-image] scraped from source`);
+      return imgUrl;
+    }
+    return '';
+  } catch {
+    return '';
+  }
+}
+
+/**
  * Search the web for additional context on an article topic.
  * Returns a combined string of search results to feed into Gemini.
  */

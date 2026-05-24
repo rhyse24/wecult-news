@@ -3,7 +3,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
 import { summarizeArticle, validateArticle, isTruncated } from './summarize.mjs';
-import { searchContext } from './search.mjs';
+import { searchContext, scrapeOgImage } from './search.mjs';
 import { SOURCES, MAX_PER_SOURCE, MAX_PER_CATEGORY, MAX_TOTAL } from './sources.mjs';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
@@ -105,6 +105,11 @@ console.log(`[pipeline] Processing ${toProcess.length} articles (${dist}) with G
 let saved = 0;
 for (const article of toProcess) {
   try {
+    // Scrape og:image from source if RSS didn't provide one
+    if (!article.image_url) {
+      article.image_url = await scrapeOgImage(article.link);
+    }
+
     // Web search for richer context
     let webContext = '';
     if (TAVILY_API_KEY) {
