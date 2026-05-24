@@ -2,7 +2,7 @@ name: News Pipeline
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # Her 6 saatte bir: 00:00, 06:00, 12:00, 18:00 UTC
+    - cron: '0 0-11 * * *'  # Her saat 1 makale — 00:00–11:00 UTC (12 saat aktif, 12 saat dinlenme)
   workflow_dispatch:          # Manuel tetikleme (Actions sekmesinden "Run workflow")
 
 jobs:

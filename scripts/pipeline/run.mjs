@@ -3,7 +3,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
 import { summarizeArticle } from './summarize.mjs';
-import { searchContext, searchInlineImage } from './search.mjs';
+import { searchContext } from './search.mjs';
 import { SOURCES, MAX_PER_SOURCE, MAX_PER_CATEGORY, MAX_TOTAL } from './sources.mjs';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
@@ -93,13 +93,12 @@ console.log(`[pipeline] Processing ${toProcess.length} articles (${dist}) with G
 let saved = 0;
 for (const article of toProcess) {
   try {
-    // Web search for richer context + inline image
+    // Web search for richer context
     let webContext = '';
     if (TAVILY_API_KEY) {
       webContext = await searchContext(article, TAVILY_API_KEY);
       if (webContext) console.log(`    [search] context found (${webContext.length} chars)`);
     }
-    const inlineImageUrl = await searchInlineImage(article);
 
     let ai;
     try {
@@ -142,7 +141,6 @@ for (const article of toProcess) {
       content_raw: article.content,
       tags: inferTags(article),
       image_url: article.image_url || '',
-      inline_image_url: inlineImageUrl,
     };
 
     writeFileSync(`${ARTICLES_DIR}/${filename}.json`, JSON.stringify(json, null, 2));

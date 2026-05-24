@@ -22,11 +22,11 @@ export const SOURCES = [
   { url: 'https://bookriot.com/feed/',                  category: 'books', name: 'Book Riot' },
 ];
 
-// Max articles fetched per source per run
-export const MAX_PER_SOURCE = 3;
+// Max articles fetched per source per run (pool for scoring)
+export const MAX_PER_SOURCE = 2;
 
-// Max articles saved per CATEGORY per run → equal distribution (3 × 4 = 12 total)
-export const MAX_PER_CATEGORY = 3;
+// Max articles in pool per category (ensures variety in selection)
+export const MAX_PER_CATEGORY = 2;
 
-// Hard cap on total articles processed (Gemini free tier: ~1500 RPD)
-export const MAX_TOTAL = 12;
+// 1 article per run — pipeline runs hourly, 12 runs/day = 12 articles/day
+export const MAX_TOTAL = 1;

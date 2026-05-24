@@ -186,11 +186,6 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
                   {block.type === 'p' && (
                     <p set:html={block.content} />
                   )}
-                  {i === 2 && article.inline_image_url && (
-                    <figure class="article-inline-figure">
-                      <img src={article.inline_image_url} alt={tr?.title} loading="lazy" />
-                    </figure>
-                  )}
                 </>
               ))}
             </div>
