@@ -25,7 +25,7 @@ export const GET: APIRoute = () => {
       new Date(b.published_at as string).getTime() - new Date(a.published_at as string).getTime()
     )
 
-  const base = 'https://wecult.app/news'
+  const base = 'https://news.wecult.app'
 
   const items = articles
     .filter(a => {

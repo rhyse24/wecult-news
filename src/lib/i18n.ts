@@ -12,7 +12,7 @@ export const SUPPORTED_LANGS: Lang[] = ['en', 'tr']
 export const DEFAULT_LANG: Lang = 'en'
 
 export function getLangFromUrl(url: URL): Lang {
-  const base = import.meta.env.BASE_URL // '/news/'
+  const base = import.meta.env.BASE_URL // '/'
   const withoutBase = url.pathname.startsWith(base)
     ? url.pathname.slice(base.length - 1) // keep leading slash
     : url.pathname
@@ -36,7 +36,7 @@ export function t(lang: Lang, key: string, vars?: Record<string, string | number
 }
 
 export function getLocalizedPath(lang: Lang, path: string): string {
-  const base = import.meta.env.BASE_URL.replace(/\/$/, '') // '/news'
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '') // ''
   if (lang === DEFAULT_LANG) return `${base}${path}`
   return `${base}/${lang}${path}`
 }

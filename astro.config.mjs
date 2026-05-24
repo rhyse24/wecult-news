@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   output: 'static',
-  base: '/news',
+  base: '/',
   compressHTML: true,
   image: {
     remotePatterns: [

@@ -4,10 +4,6 @@
   "framework": null,
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
-    { "source": "/news", "destination": "/" },
-    { "source": "/news/:path(.*)", "destination": "/:path" }
-  ],
   "headers": [
     {
       "source": "/(.*\\.html|.*\\.astro|[^.]*)",
