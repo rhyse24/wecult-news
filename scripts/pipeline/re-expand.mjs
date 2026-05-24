@@ -47,7 +47,7 @@ function needsExpansion(article) {
   if (!SENTENCE_ENDS.test(enBody.trim())) return 'EN body ends mid-sentence (cutoff)';
   if (countHeadings(enBody) < 2) return `EN body has ${countHeadings(enBody)} headings (need ≥2)`;
 
-  const trBody = article.translations?.tr?.body || null;
+  const trBody = article.translations?.tr?.body ?? null;
   if (trBody !== null) {
     const trWords = wordCount(trBody);
     if (trWords < 400) return `TR body too short: ${trWords} words`;

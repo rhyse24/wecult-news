@@ -132,13 +132,14 @@ if (deduped.length < allArticles.length) {
 // Score and sort — trending articles bubble to top
 deduped.sort((a, b) => scoreArticle(b) - scoreArticle(a));
 
-// Equal distribution across categories (top-scored articles per category)
+// Equal distribution across categories — pick the top-scored article from each category
 const byCategory = {};
 for (const a of deduped) {
   if (!byCategory[a.category]) byCategory[a.category] = [];
   if (byCategory[a.category].length < MAX_PER_CATEGORY) byCategory[a.category].push(a);
 }
-const toProcess = Object.values(byCategory).flat().slice(0, MAX_TOTAL);
+// One article per category ensures variety across runs (not all games/film)
+const toProcess = Object.values(byCategory).map(arr => arr[0]).filter(Boolean).slice(0, MAX_TOTAL);
 const dist = Object.entries(byCategory).map(([c, arr]) => `${c}:${arr.length}`).join(' ');
 console.log(`[pipeline] Processing ${toProcess.length} articles (${dist}) with Gemini...`);
 

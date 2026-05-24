@@ -29,7 +29,7 @@ export const SOURCES = [
   { url: 'https://www.theguardian.com/books/rss',       category: 'books', name: 'The Guardian Books' },
   { url: 'https://bookriot.com/feed/',                  category: 'books', name: 'Book Riot' },
   { url: 'https://lithub.com/feed/',                    category: 'books', name: 'Literary Hub' },
-  { url: 'https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/books/review/rss.xml', category: 'books', name: 'NY Times Books' },
+  { url: 'https://rss.nytimes.com/services/xml/rss/nyt/Books.xml', category: 'books', name: 'NY Times Books' },
 ];
 
 // Max articles fetched per source per run (pool for scoring)
@@ -38,5 +38,6 @@ export const MAX_PER_SOURCE = 2;
 // Max articles in pool per category (ensures variety in selection)
 export const MAX_PER_CATEGORY = 2;
 
-// 1 article per run — pipeline runs hourly, 12 runs/day = 12 articles/day
-export const MAX_TOTAL = 1;
+// 1 article per category per run — 4 categories × 12 runs/day = up to 48 articles/day
+// Gemini usage: 4 articles × 2 calls (EN+TR) = 8 calls/run × 12 = 96/day (well under 1500 RPD)
+export const MAX_TOTAL = 4;

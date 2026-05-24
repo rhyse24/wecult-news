@@ -248,7 +248,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
   const trData = await translateToTurkish(enData, apiKey, article.category);
 
   return {
-    summary_en: enData.summary_en || enData.summary,
+    summary_en: enData.summary,
     ai_analysis: enData.ai_analysis,
     translations: {
       en: { title: enData.title, summary: enData.summary, body: enData.body },
