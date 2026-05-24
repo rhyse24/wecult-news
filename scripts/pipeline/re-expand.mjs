@@ -56,10 +56,12 @@ function needsExpansion(article) {
   return null; // article is fine
 }
 
-const files = readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.json'));
-console.log(`[re-expand] Found ${files.length} articles — checking quality...`);
+const BATCH_LIMIT = parseInt(process.env.BATCH_LIMIT || '10', 10);
 
-let fixed = 0, skipped = 0, failed = 0;
+const files = readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.json'));
+console.log(`[re-expand] Found ${files.length} articles — checking quality... (batch limit: ${BATCH_LIMIT})`);
+
+let fixed = 0, skipped = 0, failed = 0, processed = 0;
 
 for (const file of files) {
   const path = join(ARTICLES_DIR, file);
@@ -70,6 +72,12 @@ for (const file of files) {
     skipped++;
     continue;
   }
+
+  if (processed >= BATCH_LIMIT) {
+    console.log(`  [batch-limit] reached ${BATCH_LIMIT} articles — stopping. Run again tomorrow for the rest.`);
+    break;
+  }
+  processed++;
 
   const title = article.original_title || article.translations?.en?.title || '';
   const rawContent = article.content_raw || article.translations?.en?.body || '';
@@ -196,6 +204,11 @@ Return ONLY this JSON (no markdown wrapper):
       if (!res.ok) {
         const errText = await res.text().catch(() => '');
         console.warn(`    [gemini attempt ${attempt}] HTTP ${res.status}: ${errText.slice(0, 150)}`);
+        if (res.status === 429) {
+          if (attempt < 3) { console.warn(`    [rate-limit] waiting 65s before retry...`); await sleep(65000); continue; }
+          console.warn(`    [rate-limit] quota exhausted — skipping this article`);
+          return null;
+        }
         if (attempt < 3) { await sleep(attempt * 7000); continue; }
         return null;
       }
@@ -288,6 +301,10 @@ Return ONLY this JSON:
       });
 
       if (!res.ok) {
+        if (res.status === 429) {
+          if (attempt < 3) { console.warn(`    [tr rate-limit] waiting 65s...`); await sleep(65000); continue; }
+          return null;
+        }
         if (attempt < 3) { await sleep(attempt * 7000); continue; }
         return null;
       }
