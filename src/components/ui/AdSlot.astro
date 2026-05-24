@@ -21,9 +21,9 @@ const slotId = `wcn-ad-${Math.random().toString(36).slice(2, 9)}`
 // TODO: AdSense hesabından gerçek slot ID'leri al ve aşağıya ekle
 // AdSense Dashboard → Ads → Ad units → "By ad unit" → slot ID (10 haneli sayı)
 const configs = {
-  horizontal: { format: 'auto',  layout: null,         minH: '90px',  label: 'Reklam' },
-  rectangle:  { format: 'auto',  layout: null,         minH: '250px', label: 'Reklam' },
-  fluid:      { format: 'fluid', layout: 'in-article', minH: '80px',  label: 'Reklam' },
+  horizontal: { format: 'auto',  layout: null,         slot: '2246499351', minH: '90px',  label: 'Reklam' },
+  rectangle:  { format: 'auto',  layout: null,         slot: '2002956777', minH: '250px', label: 'Reklam' },
+  fluid:      { format: 'fluid', layout: 'in-article', slot: '3316038449', minH: '80px',  label: 'Reklam' },
 }
 const cfg = configs[type]
 ---
@@ -51,7 +51,7 @@ const cfg = configs[type]
       class="adsbygoogle"
       style="display:block;width:100%"
       data-ad-client="ca-pub-3306856150955594"
-      data-ad-slot="auto"
+      data-ad-slot={cfg.slot}
       data-ad-format={cfg.format}
       data-ad-layout={cfg.layout ?? undefined}
       data-full-width-responsive="true"
@@ -130,3 +130,29 @@ const cfg = configs[type]
   }
 })()
 </script>
+
+<style is:global>
+  /* Article page ad spacing */
+  .article-ad-top  { margin: 1.5rem 0 2rem; }
+  .article-ad-mid  { margin: 2rem 0; }
+  .article-ad-bottom { margin: 2rem 0; }
+
+  /* Sidebar ad — sticky with article column, desktop only */
+  .article-sidebar-ad { margin-bottom: 1.5rem; }
+
+  /* Category grid ad — spans full row */
+  .cat-grid-ad {
+    grid-column: 1 / -1;
+    margin: 0.5rem 0;
+  }
+
+  /* Home grid ad — spans 2 cols like other wide items */
+  .story-grid-ad {
+    grid-column: span 2;
+  }
+  @media (max-width: 768px) {
+    .story-grid-ad { grid-column: 1 / -1; }
+    /* Hide sidebar ad on mobile */
+    .article-sidebar-ad { display: none !important; }
+  }
+</style>

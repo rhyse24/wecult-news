@@ -117,10 +117,13 @@ const catSchema = {
         </div>
       ) : (
         <div class="cat-grid cards-grid" id="cat-grid">
-          {articles.map(a => (
-            <div class="cat-grid-item" data-type={a.article_type}>
-              <ArticleCard article={a} lang={lang} size="default" />
-            </div>
+          {articles.map((a, i) => (
+            <>
+              {i === 8 && <AdSlot type="fluid" class="cat-grid-ad" />}
+              <div class="cat-grid-item" data-type={a.article_type}>
+                <ArticleCard article={a} lang={lang} size="default" />
+              </div>
+            </>
           ))}
         </div>
       )}

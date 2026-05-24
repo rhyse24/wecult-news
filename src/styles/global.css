@@ -797,3 +797,50 @@ label.cb-cat-title { cursor: pointer; }
   .cards-grid { grid-template-columns: 1fr 1fr !important; }
   .cat-more-grid { grid-template-columns: 1fr 1fr !important; }
 }
+
+/* ─── Side rail ads ───────────────────────────────── */
+.side-rail {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 40;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  display: none;
+}
+.side-rail.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.side-rail--right { right: 8px; }
+.side-rail--left  { left: 8px; }
+
+.side-rail-close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--bg-raised);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+  font-size: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s;
+  z-index: 1;
+}
+.side-rail-close:hover { color: var(--text); }
+
+/* Right rail only: 1600px — (1240px container + 2*160px + 2*20px gap) = 1600px */
+@media (min-width: 1600px) {
+  .side-rail--right { display: block; }
+}
+/* Both rails: 1840px — enough space for both sides */
+@media (min-width: 1840px) {
+  .side-rail--left { display: block; }
+}

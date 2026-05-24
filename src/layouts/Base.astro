@@ -72,6 +72,37 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
         wait_for_update: 500
       });
     </script>
+    <!-- AdSense — consent-gated, loaded once per page -->
+    <script is:inline>
+      (function() {
+        var CLIENT = 'ca-pub-3306856150955594';
+        var loaded = false;
+        function loadAds() {
+          if (loaded) return;
+          loaded = true;
+          var s = document.createElement('script');
+          s.async = true;
+          s.crossOrigin = 'anonymous';
+          s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + CLIENT;
+          document.head.appendChild(s);
+          // Update Consent Mode to granted
+          if (window.gtag) {
+            window.gtag('consent', 'update', {
+              ad_storage: 'granted',
+              ad_user_data: 'granted',
+              ad_personalization: 'granted'
+            });
+          }
+        }
+        // Check if consent already stored
+        try {
+          var c = JSON.parse(localStorage.getItem('wecult-consent') || 'null');
+          if (c && c.advertising) loadAds();
+        } catch(e) {}
+        // Or wait for consent event
+        window.addEventListener('wcn-consent-granted', loadAds);
+      })();
+    </script>
   </head>
   <body>
     <Header lang={lang} />
@@ -218,6 +249,26 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
 
     <CookieBanner />
 
+    <!-- Side rail ads — desktop 1600px+ only, uses empty side space -->
+    <div class="side-rail side-rail--right" id="side-rail-right" aria-hidden="true">
+      <button class="side-rail-close" id="side-rail-close-r" aria-label="Kapat">✕</button>
+      <ins
+        class="adsbygoogle side-rail-ins"
+        style="display:inline-block;width:160px;height:600px"
+        data-ad-client="ca-pub-3306856150955594"
+        data-ad-slot="2002956777"
+      ></ins>
+    </div>
+    <div class="side-rail side-rail--left" id="side-rail-left" aria-hidden="true">
+      <button class="side-rail-close" id="side-rail-close-l" aria-label="Kapat">✕</button>
+      <ins
+        class="adsbygoogle side-rail-ins"
+        style="display:inline-block;width:160px;height:600px"
+        data-ad-client="ca-pub-3306856150955594"
+        data-ad-slot="2246499351"
+      ></ins>
+    </div>
+
     <!-- Back to top -->
     <button id="back-to-top" class="back-to-top" aria-label="Back to top">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -297,6 +348,48 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
         }, { passive: true })
         btn.addEventListener('click', function() {
           window.scrollTo({ top: 0, behavior: 'smooth' })
+        })
+      })()
+    </script>
+
+    <script is:inline>
+      (function() {
+        var railR = document.getElementById('side-rail-right')
+        var railL = document.getElementById('side-rail-left')
+        var pushed = false
+
+        function pushRails() {
+          if (pushed) return
+          pushed = true
+          var ins = document.querySelectorAll('.side-rail-ins')
+          ins.forEach(function(el) {
+            try { (window.adsbygoogle = window.adsbygoogle || []).push({}) } catch(e) {}
+          })
+          // Show after short delay so content renders first
+          setTimeout(function() {
+            if (railR) railR.classList.add('is-visible')
+            if (railL) railL.classList.add('is-visible')
+          }, 1500)
+        }
+
+        // Consent check
+        function hasConsent() {
+          try {
+            var c = JSON.parse(localStorage.getItem('wecult-consent') || 'null')
+            return !!(c && c.advertising)
+          } catch(e) { return false }
+        }
+        if (hasConsent()) pushRails()
+        window.addEventListener('wcn-consent-granted', pushRails)
+
+        // Dismiss buttons
+        var closeR = document.getElementById('side-rail-close-r')
+        var closeL = document.getElementById('side-rail-close-l')
+        if (closeR) closeR.addEventListener('click', function() {
+          if (railR) railR.classList.remove('is-visible')
+        })
+        if (closeL) closeL.addEventListener('click', function() {
+          if (railL) railL.classList.remove('is-visible')
         })
       })()
     </script>

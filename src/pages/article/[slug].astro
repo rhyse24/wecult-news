@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro'
 import ArticleCard from '../../components/article/ArticleCard.astro'
 import WeCultCTA from '../../components/ui/WeCultCTA.astro'
+import AdSlot from '../../components/ui/AdSlot.astro'
 import { t, getLocalizedPath } from '../../lib/i18n'
 import { articles as mockArticles, getRelated, isBreaking } from '../../lib/articles'
 import type { Lang } from '../../types'
@@ -40,13 +41,6 @@ const timeAgo = (() => {
   return `${Math.floor(h / 24)}d ago`
 })()
 
-// Next article for sticky bar
-const currentIndex = mockArticles.findIndex(a => a.slug === article.slug)
-const nextArticle = mockArticles[(currentIndex + 1) % mockArticles.length]
-const nextTr = nextArticle.translations[lang] ?? nextArticle.translations['en']
-const nextColor = { games:'var(--cat-games)', film:'var(--cat-film)', tv:'var(--cat-tv)', books:'var(--cat-books)' }[nextArticle.category]
-const base = import.meta.env.BASE_URL.replace(/\/$/, '')
-const nextHref = `${base}/${lang !== 'en' ? lang + '/' : ''}article/${nextArticle.slug}`
 
 const siteBase = 'https://wecult.app/news'
 const pageUrl = `${siteBase}/article/${article.slug}`
@@ -216,6 +210,9 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
             </div>
           )}
 
+          <!-- Ad 1: after summary, before body — high viewability -->
+          <AdSlot type="fluid" class="article-ad-top" />
+
           <!-- Article body -->
           {bodyBlocks.length > 0 && (
             <div class="article-content">
@@ -283,6 +280,9 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
           <!-- WeCult App CTA -->
           <WeCultCTA lang={lang} category={article.category} articleTitle={tr?.title} />
 
+          <!-- Ad 3: after CTA, before related — user finished reading -->
+          <AdSlot type="horizontal" class="article-ad-bottom" />
+
           <!-- Related articles (inline, below CTA) -->
           {related.length > 0 && (
             <div class="related-section">
@@ -302,6 +302,8 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
         <!-- Sidebar -->
         <aside class="article-sidebar">
           <div class="sticky-sidebar">
+            <!-- Ad 4: sticky sidebar rectangle — desktop only -->
+            <AdSlot type="rectangle" class="article-sidebar-ad" />
             {related.length > 0 && (
               <div>
                 <div class="section-header">
@@ -319,27 +321,6 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
   </div>
 </Base>
 
-<!-- ── Read Next sticky bar ─────────────────── -->
-<div id="read-next-bar" class="read-next-bar" aria-hidden="true">
-  <a href={nextHref} class="read-next-inner">
-    {nextArticle.cover_image && (
-      <div class="read-next-img">
-        <img src={nextArticle.cover_image} alt="" loading="lazy" />
-      </div>
-    )}
-    <div class="read-next-content">
-      <span class="read-next-eyebrow">Up next</span>
-      <p class="read-next-title">{nextTr?.title}</p>
-    </div>
-    <div class="read-next-cta">
-      <span class="read-next-cat" style={`color:${nextColor}`}>
-        {t(lang, `nav.${nextArticle.category}`)}
-      </span>
-      <span class="read-next-btn">Read →</span>
-    </div>
-  </a>
-  <button id="read-next-close" class="read-next-close" aria-label="Dismiss">✕</button>
-</div>
 
 <script>
   // Scroll progress bar
@@ -354,24 +335,6 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
     update()
   }
 
-  // Read Next bar
-  const readNextBar = document.getElementById('read-next-bar')
-  const closeBtn = document.getElementById('read-next-close')
-  let barDismissed = false
-  if (readNextBar) {
-    const showBar = () => {
-      const scrolled = document.documentElement.scrollTop
-      const total = document.documentElement.scrollHeight - document.documentElement.clientHeight
-      if (!barDismissed && total > 0 && scrolled / total > 0.3) {
-        readNextBar.classList.add('is-visible')
-      }
-    }
-    window.addEventListener('scroll', showBar, { passive: true })
-    closeBtn?.addEventListener('click', () => {
-      barDismissed = true
-      readNextBar.classList.remove('is-visible')
-    })
-  }
 
   // Copy link button
   const copyBtn = document.getElementById('copy-link-btn')
@@ -395,101 +358,6 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
 </script>
 
 <style is:global>
-  /* Read Next sticky bar */
-  .read-next-bar {
-    position: fixed;
-    bottom: 0; left: 0; right: 0;
-    z-index: 200;
-    transform: translateY(100%);
-    transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
-    pointer-events: none;
-  }
-  .read-next-bar.is-visible {
-    transform: translateY(0);
-    pointer-events: auto;
-  }
-  .read-next-inner {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    background: var(--bg-card);
-    border-top: 1px solid var(--border);
-    padding: 0.875rem 1.25rem 0.875rem 1rem;
-    max-width: 760px;
-    margin: 0 auto;
-    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-    box-shadow: 0 -4px 24px rgba(0,0,0,0.18);
-    text-decoration: none;
-    transition: background 0.15s;
-  }
-  .read-next-inner:hover { background: var(--bg-card-hover); }
-  .read-next-img {
-    width: 52px; height: 36px;
-    border-radius: var(--radius-sm);
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .read-next-img img { width: 100%; height: 100%; object-fit: cover; }
-  .read-next-content { flex: 1; min-width: 0; }
-  .read-next-eyebrow {
-    display: block;
-    font-size: 0.5625rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin-bottom: 2px;
-  }
-  .read-next-title {
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: var(--text);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    line-height: 1.3;
-  }
-  .read-next-cta {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 4px;
-    flex-shrink: 0;
-  }
-  .read-next-cat {
-    font-size: 0.5625rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-  .read-next-btn {
-    font-size: 0.8125rem;
-    font-weight: 700;
-    color: var(--accent);
-    white-space: nowrap;
-  }
-  .read-next-close {
-    position: absolute;
-    top: 50%;
-    right: calc((100% - 760px) / 2 + 0.5rem);
-    transform: translateY(-50%);
-    width: 24px; height: 24px;
-    border-radius: 50%;
-    background: var(--bg-raised);
-    border: 1px solid var(--border-subtle);
-    color: var(--text-muted);
-    cursor: pointer;
-    font-size: 0.625rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: color 0.15s;
-    z-index: 1;
-  }
-  .read-next-close:hover { color: var(--text); }
-  @media (max-width: 860px) {
-    .read-next-close { right: 0.5rem; }
-  }
 
   .scroll-progress-bar {
     position: fixed;
