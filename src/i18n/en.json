@@ -24,6 +24,14 @@
     "search": "Search"
   },
   "footer": {
-    "wecultApp": "WeCult App"
+    "tagline": "Film, series, games and books — AI-powered news and analysis.",
+    "categoriesTitle": "Categories",
+    "topicsTitle": "Popular Topics",
+    "moreTitle": "More",
+    "about": "About WeCult News",
+    "wecultApp": "WeCult App",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookie Preferences"
   }
 }

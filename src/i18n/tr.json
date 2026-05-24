@@ -24,6 +24,14 @@
     "search": "Ara"
   },
   "footer": {
-    "wecultApp": "WeCult Uygulaması"
+    "tagline": "Film, dizi, oyun ve kitap dünyasından AI destekli haber ve analizler.",
+    "categoriesTitle": "Kategoriler",
+    "topicsTitle": "Popüler Konular",
+    "moreTitle": "Daha Fazlası",
+    "about": "WeCult News Hakkında",
+    "wecultApp": "WeCult Uygulaması",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "cookies": "Çerez Tercihleri"
   }
 }
