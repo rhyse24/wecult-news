@@ -6,6 +6,43 @@ import { summarizeArticle, validateArticle, isTruncated, titleEntityPresent } fr
 import { searchContext, scrapeOgImage, searchTmdbImage, searchIgdbImage, searchInlineImage } from './search.mjs';
 import { SOURCES, MAX_PER_SOURCE, MAX_PER_CATEGORY, MAX_TOTAL } from './sources.mjs';
 
+// ── Title dedup helpers (must be before first use) ──────────────────
+const TITLE_STOP_WORDS = new Set(['the','and','for','with','from','that','this','have','will','what','when','your','their','about','more','into','over','after','then','them','some','these','than','been','were','said','also','just','like','very','only','even','such','both','here']);
+
+function normalizeTitle(title) {
+  return title.toLowerCase()
+    .replace(/[^a-z0-9\s]/g, '')
+    .split(/\s+/)
+    .filter(w => w.length > 3 && !TITLE_STOP_WORDS.has(w));
+}
+
+function jaccardSimilarity(wordsA, wordsB) {
+  const setA = new Set(wordsA);
+  const setB = new Set(wordsB);
+  const intersection = [...setA].filter(x => setB.has(x)).length;
+  const union = new Set([...setA, ...setB]).size;
+  return union === 0 ? 0 : intersection / union;
+}
+
+function deduplicateByTitle(articles) {
+  const kept = [];
+  for (const article of articles) {
+    const wordsA = normalizeTitle(article.title);
+    const isDup = kept.some(b => {
+      if (b.category !== article.category) return false;
+      const timeDiff = Math.abs(new Date(article.pubDate) - new Date(b.pubDate));
+      if (timeDiff > 12 * 3600000) return false;
+      return jaccardSimilarity(wordsA, normalizeTitle(b.title)) > 0.65;
+    });
+    if (isDup) {
+      console.log(`  [dedup] skipped "${article.title.slice(0, 55)}" — similar story exists`);
+    } else {
+      kept.push(article);
+    }
+  }
+  return kept;
+}
+
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const TAVILY_API_KEY = process.env.TAVILY_API_KEY;
 const TMDB_TOKEN = process.env.TMDB_READ_ACCESS_TOKEN || '';
@@ -237,38 +274,3 @@ function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
-const TITLE_STOP_WORDS = new Set(['the','and','for','with','from','that','this','have','will','what','when','your','their','about','more','into','over','after','then','them','some','these','than','been','were','said','also','just','like','very','only','also','even','such','both','here']);
-
-function normalizeTitle(title) {
-  return title.toLowerCase()
-    .replace(/[^a-z0-9\s]/g, '')
-    .split(/\s+/)
-    .filter(w => w.length > 3 && !TITLE_STOP_WORDS.has(w));
-}
-
-function jaccardSimilarity(wordsA, wordsB) {
-  const setA = new Set(wordsA);
-  const setB = new Set(wordsB);
-  const intersection = [...setA].filter(x => setB.has(x)).length;
-  const union = new Set([...setA, ...setB]).size;
-  return union === 0 ? 0 : intersection / union;
-}
-
-function deduplicateByTitle(articles) {
-  const kept = [];
-  for (const article of articles) {
-    const wordsA = normalizeTitle(article.title);
-    const isDup = kept.some(b => {
-      if (b.category !== article.category) return false;
-      const timeDiff = Math.abs(new Date(article.pubDate) - new Date(b.pubDate));
-      if (timeDiff > 12 * 3600000) return false; // published >12h apart → different story
-      return jaccardSimilarity(wordsA, normalizeTitle(b.title)) > 0.65;
-    });
-    if (isDup) {
-      console.log(`  [dedup] skipped "${article.title.slice(0, 55)}" — similar story exists`);
-    } else {
-      kept.push(article);
-    }
-  }
-  return kept;
-}

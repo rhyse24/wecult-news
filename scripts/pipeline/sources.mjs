@@ -19,7 +19,6 @@ export const SOURCES = [
 
   // ── TV (6 sources) ──────────────────────────────────────────────
   { url: 'https://tvline.com/feed/',                    category: 'tv',    name: 'TVLine' },
-  { url: 'https://www.avclub.com/tv/rss',               category: 'tv',    name: 'AV Club' },
   { url: 'https://www.denofgeek.com/feed/',             category: 'tv',    name: 'Den of Geek' },
   { url: 'https://collider.com/feed/',                  category: 'tv',    name: 'Collider' },
   { url: 'https://www.slashfilm.com/feed/',             category: 'tv',    name: 'Slash Film' },
@@ -30,7 +29,6 @@ export const SOURCES = [
   { url: 'https://www.theguardian.com/books/rss',       category: 'books', name: 'The Guardian Books' },
   { url: 'https://bookriot.com/feed/',                  category: 'books', name: 'Book Riot' },
   { url: 'https://lithub.com/feed/',                    category: 'books', name: 'Literary Hub' },
-  { url: 'https://www.publishersweekly.com/pw/feeds/rss/pw_industry.xml', category: 'books', name: 'Publishers Weekly' },
   { url: 'https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/books/review/rss.xml', category: 'books', name: 'NY Times Books' },
 ];
 
