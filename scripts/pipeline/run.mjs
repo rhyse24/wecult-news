@@ -243,8 +243,8 @@ for (const article of candidatePool) {
     saved++;
     console.log(`  ✓ ${article.title.slice(0, 60)}`);
 
-    // Rate limit: 15 RPM free tier → 1 req / 5s = 12 RPM
-    await sleep(5000);
+    // Rate limit: 5 RPM (2.5-flash-lite free tier) → min 12s between calls
+    await sleep(15000);
   } catch (err) {
     console.warn(`  [skip] ${article.title.slice(0, 50)}: ${err.message}`);
   }

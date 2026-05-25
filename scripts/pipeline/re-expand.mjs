@@ -11,7 +11,7 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 if (!GEMINI_API_KEY) { console.error('GEMINI_API_KEY required'); process.exit(1); }
 
 const ARTICLES_DIR = 'src/content/articles';
-const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent';
 const MIN_BODY_WORDS = 600;
 const SENTENCE_ENDS = /[.!?"»]+\s*$/;
 
@@ -135,7 +135,7 @@ for (const file of files) {
     failed++;
   }
 
-  await sleep(8000); // Rate limit buffer — Gemini free tier 15 RPM
+  await sleep(15000); // 5 RPM free tier → min 12s between calls
 }
 
 console.log(`\n[re-expand] Done — fixed: ${fixed} | skipped (ok): ${skipped} | failed: ${failed}`);
@@ -215,7 +215,7 @@ Return ONLY this JSON (no markdown wrapper):
           console.warn(`    [rate-limit] quota exhausted — skipping this article`);
           return null;
         }
-        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
 
@@ -224,7 +224,7 @@ Return ONLY this JSON (no markdown wrapper):
       if (!raw) {
         const reason = data.candidates?.[0]?.finishReason || data.promptFeedback?.blockReason || 'empty response';
         console.warn(`    [gemini attempt ${attempt}] empty response — ${reason}`);
-        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
 
@@ -242,12 +242,12 @@ Return ONLY this JSON (no markdown wrapper):
       const words = wordCount(body);
       if (words < 400) {
         console.warn(`    [gemini attempt ${attempt}] body too short: ${words} words`);
-        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
       if (isTruncated(body)) {
         console.warn(`    [gemini attempt ${attempt}] truncation marker in body`);
-        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
 
@@ -311,7 +311,7 @@ Return ONLY this JSON:
           if (attempt < 3) { console.warn(`    [tr rate-limit] waiting 65s...`); await sleep(65000); continue; }
           return null;
         }
-        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
 

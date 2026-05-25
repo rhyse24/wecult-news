@@ -49,8 +49,11 @@ jobs:
           else
             ARTICLE_COUNT=$(git diff --staged --name-only | grep -c '\.json' || true)
             git commit -m "feat(articles): pipeline added ${ARTICLE_COUNT} new article(s)"
-            git pull --rebase origin master
-            git push
+            for i in 1 2 3; do
+              git pull --rebase origin master && git push && break
+              echo "Push attempt $i failed, retrying in 10s..."
+              sleep 10
+            done
           fi
 
       - name: Trigger Vercel deploy

@@ -11,7 +11,7 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 if (!GEMINI_API_KEY) { console.error('GEMINI_API_KEY required'); process.exit(1); }
 
 const ARTICLES_DIR = 'src/content/articles';
-const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent';
 
 const BATCH_LIMIT = parseInt(process.env.BATCH_LIMIT || '10', 10);
 const files = readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.json'));
@@ -63,8 +63,8 @@ for (const file of files) {
     failed++;
   }
 
-  // Rate limit: 15 RPM → 4s between calls
-  await sleep(4000);
+  // Rate limit: 5 RPM (2.5-flash-lite free tier) → min 12s between calls
+  await sleep(15000);
 }
 
 console.log(`[retranslate] Done — fixed: ${fixed}, skipped: ${skipped}, failed: ${failed}`);
@@ -97,7 +97,7 @@ Return this JSON (all values in Turkish, NOT English):
       });
 
       if (!res.ok) {
-        if (attempt < 2) { await sleep(8000); continue; }
+        if (attempt < 2) { await sleep(15000); continue; }
         return null;
       }
 
@@ -107,17 +107,17 @@ Return this JSON (all values in Turkish, NOT English):
       const parsed = JSON.parse(cleaned);
 
       if (!parsed?.body || parsed.body.length < 200) {
-        if (attempt < 2) { await sleep(8000); continue; }
+        if (attempt < 2) { await sleep(15000); continue; }
         return null;
       }
       if (parsed.title === en.title || parsed.body.slice(0, 80) === en.body.slice(0, 80)) {
-        if (attempt < 2) { await sleep(8000); continue; }
+        if (attempt < 2) { await sleep(15000); continue; }
         return null;
       }
 
       return parsed;
     } catch (err) {
-      if (attempt < 2) { await sleep(8000); continue; }
+      if (attempt < 2) { await sleep(15000); continue; }
       return null;
     }
   }

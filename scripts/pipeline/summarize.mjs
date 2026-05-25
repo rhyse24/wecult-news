@@ -1,4 +1,4 @@
-const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent';
 
 // ── WeCult News Content Rules (approved 2026-05-24) ───────────────────────
 // Rule 1: EN body ≥ 600 words, TR body ≥ 400 words, ≥2 ## headings, no truncation
@@ -202,7 +202,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
         const errText = await res.text();
         console.warn(`  [gemini-en attempt ${attempt}] ${res.status}: ${errText.slice(0, 100)}`);
         if (res.status === 429) throw new Error(`Gemini EN 429`); // quota exceeded — no point retrying
-        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
         throw new Error(`Gemini EN ${res.status}`);
       }
 
@@ -245,7 +245,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
   }
 
   // ── Step 2: Turkish translation ───────────────────────────────────────
-  await sleep(5000);
+  await sleep(15000); // 5 RPM limit → min 12s between calls
   const trData = await translateToTurkish(enData, apiKey, article.category);
 
   return {
@@ -319,7 +319,7 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
       if (!res.ok) {
         console.warn(`  [gemini-tr attempt ${attempt}] ${res.status}`);
         if (res.status === 429) return null; // quota exceeded — skip TR, EN will show as fallback
-        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
 
@@ -341,17 +341,17 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
 
       if (words < 200) {
         console.warn(`  [gemini-tr attempt ${attempt}] body too short: ${words} words`);
-        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
       if (parsed.title === enData.title) {
         console.warn(`  [gemini-tr attempt ${attempt}] TR title = EN title — not translated`);
-        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
       if (body.slice(0, 120).toLowerCase() === enData.body.slice(0, 120).toLowerCase()) {
         console.warn(`  [gemini-tr attempt ${attempt}] TR body is EN copy — retrying`);
-        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
 
