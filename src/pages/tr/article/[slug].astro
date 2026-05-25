@@ -168,7 +168,7 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
           <div class="article-byline">
             <div class="source-avatar">{article.source_name.charAt(0)}</div>
             <div class="byline-authorship">
-              <span class="author-name">{article.author}</span>
+              <a href="/author/wecult-editorial" class="author-name author-name--link">{article.author}</a>
               <span class="source-via">{article.source_name} aracılığıyla</span>
             </div>
             <span class="byline-sep">·</span>
@@ -474,6 +474,8 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
   }
   .byline-authorship { display: flex; flex-direction: column; gap: 0.1rem; }
   .author-name { font-size: 0.875rem; font-weight: 600; color: var(--text-secondary); }
+  .author-name--link { transition: color 0.15s; }
+  .author-name--link:hover { color: var(--accent); }
   .source-via { font-size: 0.75rem; color: var(--text-muted); }
   .byline-sep { color: var(--text-muted); font-size: 0.75rem; }
   .clock-icon { color: var(--text-muted); flex-shrink: 0; }
