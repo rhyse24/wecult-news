@@ -57,6 +57,9 @@ function extractSubject(title, category) {
 
 function isImageUrl(url) {
   if (!url || typeof url !== 'string') return false;
+  if (url.length < 10) return false;
+  // Reject tracking pixels, icons, logos, avatars, ads
+  if (/\b(pixel|tracker|beacon|favicon|icon|logo|avatar|placeholder|blank|spacer|1x1|ad[_-]?\d)/i.test(url)) return false;
   return /\.(jpe?g|png|webp|gif|svg)(\?|$)/i.test(url) || url.includes('upload.wikimedia');
 }
 
@@ -142,14 +145,41 @@ export async function scrapeOgImage(url) {
     });
     if (!res.ok) return '';
     const html = await res.text();
-    // Try og:image in both attribute orders
-    const m = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
-           || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i)
-           || html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i);
-    const imgUrl = m?.[1]?.trim() || '';
-    if (imgUrl && isImageUrl(imgUrl)) {
+    const candidates = [
+      html.match(/<meta[^>]+property=["']og:image:secure_url["'][^>]+content=["']([^"']+)["']/i)?.[1],
+      html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image:secure_url["']/i)?.[1],
+      html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)?.[1],
+      html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i)?.[1],
+      html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i)?.[1],
+    ];
+    const imgUrl = candidates.find(u => u && isImageUrl(u.trim()))?.trim() || '';
+    if (imgUrl) {
       console.log(`    [og-image] scraped from source`);
       return imgUrl;
+    }
+    return '';
+  } catch {
+    return '';
+  }
+}
+
+/**
+ * Search Open Library for a book cover image — books category only.
+ * Free API, no key required.
+ */
+export async function searchOpenLibraryImage(title) {
+  try {
+    const query = encodeURIComponent(title.replace(/^(Review:|Preview:)\s*/i, '').trim().slice(0, 80));
+    const res = await fetch(`https://openlibrary.org/search.json?q=${query}&limit=1&fields=cover_i`, {
+      headers: { 'User-Agent': 'WeCultNews/1.0 (+https://wecult.app/news)' },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) return '';
+    const data = await res.json();
+    const coverId = data.docs?.[0]?.cover_i;
+    if (coverId) {
+      console.log(`    [openlibrary-image] found cover for "${title.slice(0, 45)}"`);
+      return `https://covers.openlibrary.org/b/id/${coverId}-L.jpg`;
     }
     return '';
   } catch {

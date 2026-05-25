@@ -3,7 +3,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
 import { summarizeArticle, validateArticle, isTruncated, titleEntityPresent } from './summarize.mjs';
-import { searchContext, scrapeOgImage, searchTmdbImage, searchIgdbImage, searchInlineImage } from './search.mjs';
+import { searchContext, scrapeOgImage, searchTmdbImage, searchIgdbImage, searchInlineImage, searchOpenLibraryImage } from './search.mjs';
 import { SOURCES, MAX_PER_SOURCE, MAX_PER_CATEGORY, MAX_TOTAL } from './sources.mjs';
 
 // ── Title dedup helpers (must be before first use) ──────────────────
@@ -245,7 +245,7 @@ for (const article of candidatePool) {
   if (saved >= MAX_TOTAL) break;
   if (quotaExhausted) break;
   try {
-    // Image fallback chain: RSS → og:image → TMDB/IGDB → Wikipedia
+    // Image fallback chain: RSS → og:image → TMDB/IGDB/OpenLibrary → Wikipedia
     if (!article.image_url) {
       article.image_url = await scrapeOgImage(article.link);
     }
@@ -254,6 +254,9 @@ for (const article of candidatePool) {
     }
     if (!article.image_url && article.category === 'games' && TWITCH_CLIENT_ID) {
       article.image_url = await searchIgdbImage(article.title, TWITCH_CLIENT_ID, TWITCH_CLIENT_SECRET);
+    }
+    if (!article.image_url && article.category === 'books') {
+      article.image_url = await searchOpenLibraryImage(article.title);
     }
     if (!article.image_url) {
       article.image_url = await searchInlineImage(article);
@@ -353,8 +356,8 @@ for (const article of candidatePool) {
   }
 }
 
-// Persist seen URLs (keep last 500)
-const seenArr = [...seen].slice(-500);
+// Persist seen URLs (keep last 2000)
+const seenArr = [...seen].slice(-2000);
 writeFileSync(SEEN_FILE, JSON.stringify(seenArr, null, 2));
 
 // Write pipeline run log
