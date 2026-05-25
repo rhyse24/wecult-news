@@ -55,7 +55,6 @@ const LOW_QUALITY_PATTERNS = [
   /\b(best of|top \d+|ranked|roundup|gift guide)\b/i,
   /\b(giveaway|contest|sweepstakes|sponsored|advertisement)\b/i,
   /\b(gallery|photos?|pictures?|video:|podcast:|listen:)\b/i,
-  /^(review:|opinion:|guide:|interview:|hands.on:|feature:|essay:|analysis:|watch:|listen:|podcast:)/i,
   /\bhow (to (watch|stream|see|find|get|play)|you can watch)\b/i,
   /\bwhere (to watch|to stream|can (i|you) watch)\b/i,
   /\b(streaming guide|watch guide|viewing guide)\b/i,

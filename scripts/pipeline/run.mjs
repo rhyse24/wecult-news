@@ -133,6 +133,88 @@ const sourceTierMap = new Map(SOURCES.map(s => [s.name, s.tier ?? 2]));
 
 const NEWS_SIGNALS = ['announced', 'confirms', 'reveals', 'acquired', 'renewed', 'cancelled', 'trailer', 'release date', 'launches', 'officially', 'exclusive', 'breaking'];
 
+// Franchise/IP önemi — A-tier büyük kültürel IP'ler, B-tier yerleşik markalar
+const FRANCHISE_A = new Set([
+  // Games
+  'grand theft auto','gta vi','gta 6','call of duty','minecraft','fortnite','zelda','pokemon',
+  'god of war','last of us','cyberpunk','elden ring','dark souls','halo','resident evil',
+  'final fantasy','assassin\'s creed','red dead','diablo','overwatch','baldur\'s gate',
+  'elder scrolls','skyrim','fallout','league of legends','valorant','apex legends',
+  'starfield','dragon age','mass effect','metroid','mario','donkey kong','kirby',
+  'street fighter','mortal kombat','tekken','metal gear',
+  // Film
+  'marvel','mcu','spider-man','spiderman','batman','superman','star wars','disney','pixar',
+  'avatar','dune','mission impossible','james bond','007','john wick','avengers','x-men',
+  'deadpool','indiana jones','jurassic','transformers','lord of the rings','hobbit',
+  'fast and furious','godzilla','king kong','alien','predator','terminator',
+  // TV
+  'game of thrones','house of the dragon','stranger things','breaking bad','succession',
+  'the bear','wednesday addams','the boys','squid game','andor','mandalorian',
+  'yellowstone','peaky blinders','the crown','ozark','euphoria','white lotus',
+  'severance','ted lasso','abbott elementary','last of us',
+  // Books
+  'harry potter','hunger games','twilight','percy jackson','wheel of time','witcher',
+]);
+
+const FRANCHISE_B = new Set([
+  'netflix original','hbo max','apple tv+','amazon prime','paramount+','disney+',
+  'playstation','xbox','nintendo switch','steam deck','epic games',
+  'activision','ubisoft','ea sports','rockstar','bethesda','naughty dog',
+  'christopher nolan','spielberg','tarantino','scorsese','villeneuve',
+  'a24','blumhouse','legendary','lionsgate',
+]);
+
+// TMDB trending bugün — film & TV
+let tmdbTrendingTitles = [];
+if (TMDB_TOKEN) {
+  try {
+    const res = await fetch('https://api.themoviedb.org/3/trending/all/day?language=en-US', {
+      headers: { 'Authorization': `Bearer ${TMDB_TOKEN}`, 'Accept': 'application/json' },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (res.ok) {
+      const data = await res.json();
+      tmdbTrendingTitles = (data.results || [])
+        .map(r => (r.title || r.name || '').toLowerCase())
+        .filter(t => t.length > 2);
+      console.log(`[pipeline] TMDB trending today: ${tmdbTrendingTitles.length} titles`);
+    }
+  } catch {
+    console.warn('[pipeline] TMDB trending: fetch failed (non-critical)');
+  }
+}
+
+// IGDB trending — bugün popüler oyunlar
+let igdbTrendingTitles = [];
+if (TWITCH_CLIENT_ID && TWITCH_CLIENT_SECRET) {
+  try {
+    const tokenRes = await fetch(
+      `https://id.twitch.tv/oauth2/token?client_id=${TWITCH_CLIENT_ID}&client_secret=${TWITCH_CLIENT_SECRET}&grant_type=client_credentials`,
+      { method: 'POST', signal: AbortSignal.timeout(8000) }
+    );
+    if (tokenRes.ok) {
+      const { access_token } = await tokenRes.json();
+      const gamesRes = await fetch('https://api.igdb.com/v4/games', {
+        method: 'POST',
+        headers: {
+          'Client-ID': TWITCH_CLIENT_ID,
+          'Authorization': `Bearer ${access_token}`,
+          'Content-Type': 'text/plain',
+        },
+        body: 'fields name; sort popularity desc; limit 20; where popularity > 1;',
+        signal: AbortSignal.timeout(8000),
+      });
+      if (gamesRes.ok) {
+        const games = await gamesRes.json();
+        igdbTrendingTitles = games.map(g => (g.name || '').toLowerCase()).filter(Boolean);
+        console.log(`[pipeline] IGDB trending: ${igdbTrendingTitles.length} games`);
+      }
+    }
+  } catch {
+    console.warn('[pipeline] IGDB trending: fetch failed (non-critical)');
+  }
+}
+
 function scoreArticle(article) {
   let score = 0;
   const titleLower = article.title.toLowerCase();
@@ -178,6 +260,26 @@ function scoreArticle(article) {
   if (sourceCount >= 4) score += 4;
   else if (sourceCount >= 3) score += 3;
   else if (sourceCount >= 2) score += 2;
+  // Franchise/IP importance — büyük kültürel IP'ler öne çıksın
+  const fullText = (article.title + ' ' + article.content).toLowerCase();
+  for (const ip of FRANCHISE_A) {
+    if (fullText.includes(ip)) { score += 5; break; }
+  }
+  for (const ip of FRANCHISE_B) {
+    if (fullText.includes(ip)) { score += 2; break; }
+  }
+  // TMDB trending today — bugün popüler olan film/dizi
+  if (tmdbTrendingTitles.length > 0) {
+    for (const tmdbTitle of tmdbTrendingTitles) {
+      if (tmdbTitle.length > 3 && titleLower.includes(tmdbTitle)) { score += 5; break; }
+    }
+  }
+  // IGDB trending — bugün popüler oyunlar
+  if (igdbTrendingTitles.length > 0) {
+    for (const igdbTitle of igdbTrendingTitles) {
+      if (igdbTitle.length > 3 && titleLower.includes(igdbTitle)) { score += 5; break; }
+    }
+  }
   return score;
 }
 
