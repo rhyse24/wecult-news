@@ -132,19 +132,26 @@ if (deduped.length < allArticles.length) {
 // Score and sort — trending articles bubble to top
 deduped.sort((a, b) => scoreArticle(b) - scoreArticle(a));
 
-// Equal distribution across categories — pick the top-scored article from each category
+// Equal distribution across categories — keep up to 2 candidates per category for fallback
+const CANDIDATES_PER_CATEGORY = 2;
 const byCategory = {};
 for (const a of deduped) {
   if (!byCategory[a.category]) byCategory[a.category] = [];
-  if (byCategory[a.category].length < MAX_PER_CATEGORY) byCategory[a.category].push(a);
+  if (byCategory[a.category].length < CANDIDATES_PER_CATEGORY) byCategory[a.category].push(a);
 }
-// One article per category ensures variety across runs (not all games/film)
-const toProcess = Object.values(byCategory).map(arr => arr[0]).filter(Boolean).slice(0, MAX_TOTAL);
+// Build candidate pool: up to 2 per category, ordered so categories alternate (variety across runs)
+const candidatePool = [];
+for (let i = 0; i < CANDIDATES_PER_CATEGORY; i++) {
+  for (const arr of Object.values(byCategory)) {
+    if (arr[i]) candidatePool.push(arr[i]);
+  }
+}
 const dist = Object.entries(byCategory).map(([c, arr]) => `${c}:${arr.length}`).join(' ');
-console.log(`[pipeline] Processing ${toProcess.length} articles (${dist}) with Gemini...`);
+console.log(`[pipeline] Candidate pool: ${candidatePool.length} articles (${dist}), target: ${MAX_TOTAL}`);
 
 let saved = 0;
-for (const article of toProcess) {
+for (const article of candidatePool) {
+  if (saved >= MAX_TOTAL) break;
   try {
     // Image fallback chain: RSS → og:image → TMDB/IGDB → Wikipedia
     if (!article.image_url) {
