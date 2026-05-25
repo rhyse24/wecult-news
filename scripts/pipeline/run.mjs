@@ -154,6 +154,11 @@ function scoreArticle(article) {
   for (const signal of NEWS_SIGNALS) {
     if (titleLower.includes(signal)) { score += 2; break; }
   }
+  // Story velocity — covered by multiple sources = important story
+  const sourceCount = article._sourceCount ?? 1;
+  if (sourceCount >= 4) score += 4;
+  else if (sourceCount >= 3) score += 3;
+  else if (sourceCount >= 2) score += 2;
   return score;
 }
 
@@ -180,6 +185,18 @@ for (const source of SOURCES) {
 const deduped = deduplicateByTitle(allArticles);
 if (deduped.length < allArticles.length) {
   console.log(`[pipeline] Dedup: ${allArticles.length} → ${deduped.length} articles (removed ${allArticles.length - deduped.length} near-duplicates)`);
+}
+
+// Story velocity — how many sources covered the same story before dedup
+for (const article of deduped) {
+  const wordsA = normalizeTitle(article.title);
+  article._sourceCount = allArticles.filter(a =>
+    a.category === article.category &&
+    jaccardSimilarity(wordsA, normalizeTitle(a.title)) > 0.5
+  ).length;
+  if (article._sourceCount > 1) {
+    console.log(`  [velocity] "${article.title.slice(0, 55)}" — ${article._sourceCount} sources`);
+  }
 }
 
 // Score and sort — trending articles bubble to top
