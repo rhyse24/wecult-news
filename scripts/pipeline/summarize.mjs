@@ -196,7 +196,7 @@ FORMATTING (mandatory):
 • > "Quote" — Person Name format for all direct quotes
 
 Return ONLY this JSON — no markdown wrapper, no text before or after:
-{"title":"[Engaging headline — specific, not clickbait, not the RSS title verbatim]","summary":"[2-sentence hook for article previews — compelling and specific]","ai_analysis":"[1-sentence insight tailored for ${article.category} fans]","body":"[Full article body — all sections with \\\\n\\\\n between blocks, 700–900 words]"}`;
+{"title":"[Engaging headline — specific, not clickbait, not the RSS title verbatim]","summary":"[2-sentence hook for article previews — compelling and specific]","ai_analysis":"[1-sentence insight tailored for ${article.category} fans]","body":"[Full article body — all sections with \\\\n\\\\n between blocks, 700–900 words]","story_type":"[one of: breaking | exclusive | rumor | analysis | release | event | other]"}`;
 
   let enData = null;
   for (let attempt = 1; attempt <= 3; attempt++) {
@@ -268,9 +268,13 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
   await sleep(15000); // 5 RPM limit → min 12s between calls
   const trData = await translateToTurkish(enData, apiKey, article.category);
 
+  const VALID_STORY_TYPES = new Set(['breaking', 'exclusive', 'rumor', 'analysis', 'release', 'event', 'other']);
+  const story_type = VALID_STORY_TYPES.has(enData.story_type) ? enData.story_type : 'other';
+
   return {
     summary_en: enData.summary,
     ai_analysis: enData.ai_analysis,
+    story_type,
     translations: {
       en: { title: enData.title, summary: enData.summary, body: enData.body },
       tr: trData,

@@ -75,9 +75,10 @@ mkdirSync(ARTICLES_DIR, { recursive: true });
 // Load seen URLs to avoid reprocessing
 const seen = new Set(existsSync(SEEN_FILE) ? JSON.parse(readFileSync(SEEN_FILE, 'utf8')) : []);
 
-// Fetch Reddit hot keywords per category for popularity scoring
+// Fetch Reddit hot keywords + velocity per category for popularity scoring
 const REDDIT_SUBS = { games: 'gaming', film: 'movies', tv: 'television', books: 'books' };
 const redditKeywords = {};
+const redditVelocity = {}; // keyword → upvotes/hour for rising posts
 console.log('[pipeline] Fetching Reddit trending signals...');
 for (const [cat, sub] of Object.entries(REDDIT_SUBS)) {
   try {
@@ -87,10 +88,21 @@ for (const [cat, sub] of Object.entries(REDDIT_SUBS)) {
     });
     if (res.ok) {
       const data = await res.json();
-      redditKeywords[cat] = data.data.children
-        .map(p => p.data.title.toLowerCase())
-        .join(' ');
-      console.log(`  r/${sub}: ${data.data.children.length} hot posts loaded`);
+      const posts = data.data.children.map(p => p.data);
+      redditKeywords[cat] = posts.map(p => p.title.toLowerCase()).join(' ');
+      // Velocity: upvotes per hour for posts < 6 hours old
+      const velocityWords = [];
+      for (const p of posts) {
+        const ageHours = (Date.now() / 1000 - p.created_utc) / 3600;
+        if (ageHours < 6 && p.ups > 50) {
+          const velocity = p.ups / Math.max(ageHours, 0.1);
+          if (velocity > 100) {
+            velocityWords.push(...p.title.toLowerCase().split(/\s+/).filter(w => w.length > 4));
+          }
+        }
+      }
+      redditVelocity[cat] = velocityWords;
+      console.log(`  r/${sub}: ${posts.length} hot posts, ${velocityWords.length} velocity keywords`);
     }
   } catch {
     console.warn(`  [skip] Reddit r/${sub}`);
@@ -126,9 +138,16 @@ function scoreArticle(article) {
   const titleLower = article.title.toLowerCase();
   const titleWords = titleLower.split(/\s+/).filter(w => w.length > 4);
   const trending = redditKeywords[article.category] || '';
-  // Reddit trending match — biggest signal
+  // Reddit trending match
   for (const word of titleWords) {
     if (trending.includes(word)) score += 2;
+  }
+  // Reddit velocity match — post rising fast right now = +4
+  const velWords = redditVelocity[article.category] || [];
+  if (velWords.length > 0) {
+    for (const word of titleWords) {
+      if (velWords.includes(word)) { score += 4; break; }
+    }
   }
   // Google Trends match — fuzzy: any title word appears in any trending phrase
   if (googleTrendsText) {
@@ -308,6 +327,7 @@ for (const article of candidatePool) {
       fetched_at: new Date().toISOString(),
       summary_en: ai.summary_en,
       ai_analysis: ai.ai_analysis,
+      story_type: ai.story_type || 'other',
       translations: ai.translations,
       content_raw: article.content,
       tags: inferTags(article),
