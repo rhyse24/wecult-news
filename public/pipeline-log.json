@@ -1,6 +1,24 @@
 {
-  "totalArticles": 3,
+  "totalArticles": 4,
   "runs": [
+    {
+      "timestamp": "2026-05-25T19:48:50.515Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 229,
+      "totalCandidates": 6,
+      "written": [
+        {
+          "title": "Perfect 'Toy Story 5' Casting Confirms Bullseye Speaks in Disney/Pixar Sequel",
+          "category": "film",
+          "source": "MovieWeb",
+          "score": 8,
+          "slug": "8edb8d0e-perfect-toy-story-5-casting-confirms-bullseye-speaks-in-disn"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-25T19:45:15.262Z",
       "status": "success",
@@ -77,5 +95,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-25T19:45:15.262Z"
+  "lastUpdated": "2026-05-25T19:48:50.515Z"
 }
