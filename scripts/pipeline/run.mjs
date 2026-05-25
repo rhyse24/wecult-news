@@ -55,7 +55,20 @@ if (!GEMINI_API_KEY) {
 
 const ARTICLES_DIR = 'src/content/articles';
 const SEEN_FILE = 'scripts/pipeline/.seen-urls.json';
+const LOG_FILE = 'public/pipeline-log.json';
 const MAX_ARTICLE_AGE_HOURS = 48;
+
+// Run log — filled during pipeline execution, written at the end
+const runLog = {
+  timestamp: new Date().toISOString(),
+  status: 'filtered',
+  articlesWritten: 0,
+  quotaExhausted: false,
+  totalFetched: 0,
+  totalCandidates: 0,
+  written: [],
+  rejected: [],
+};
 
 mkdirSync(ARTICLES_DIR, { recursive: true });
 
@@ -169,6 +182,8 @@ for (const a of deduped) {
 const candidatePool = Object.values(byCategory).map(arr => arr[0]).filter(Boolean);
 const dist = Object.entries(byCategory).map(([c, arr]) => `${c}:${arr.length}`).join(' ');
 console.log(`[pipeline] Candidate pool: ${candidatePool.length} articles (${dist}), target: ${MAX_TOTAL}`);
+runLog.totalFetched = allArticles.length;
+runLog.totalCandidates = candidatePool.length;
 
 let saved = 0;
 let quotaExhausted = false;
@@ -205,11 +220,13 @@ for (const article of candidatePool) {
       if (geminiErr.message.includes('429')) {
         console.warn(`  [quota] Gemini quota exhausted — stopping pipeline early`);
         quotaExhausted = true;
+        runLog.quotaExhausted = true;
         break;
       }
       // Rule 5: RSS teaser without Gemini expansion = useless, skip
       if (article.content.length < 600 || isTruncated(article.content)) {
         console.warn(`  [skip] ${article.title.slice(0, 50)} — Gemini failed + RSS too short/truncated`);
+        runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), reason: 'gemini_fail_short' });
         continue;
       }
       // Fallback only when RSS gave substantial content (≥600 chars, no truncation)
@@ -230,6 +247,7 @@ for (const article of candidatePool) {
       console.warn(`  [quality-gate] ${article.title.slice(0, 50)}`);
       for (const e of qc.errors) console.warn(`    ✗ ${e}`);
       console.warn(`  [skip] article did not meet WeCult editorial standards`);
+      runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), reason: 'quality_gate', errors: qc.errors });
       continue;
     }
     console.log(`  [quality-gate] ✓ passed`);
@@ -239,6 +257,7 @@ for (const article of candidatePool) {
     if (!titleEntityPresent(article.title, enBody)) {
       console.warn(`  [hallucination-guard] title keywords missing from body — skip`);
       console.warn(`    title: "${article.title.slice(0, 65)}"`);
+      runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), reason: 'hallucination_guard' });
       continue;
     }
 
@@ -268,18 +287,35 @@ for (const article of candidatePool) {
     writeFileSync(`${ARTICLES_DIR}/${filename}.json`, JSON.stringify(json, null, 2));
     seen.add(article.link);
     saved++;
+    runLog.written.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), slug: filename });
     console.log(`  ✓ ${article.title.slice(0, 60)}`);
 
     // Rate limit: 5 RPM (2.5-flash-lite free tier) → min 12s between calls
     await sleep(15000);
   } catch (err) {
     console.warn(`  [skip] ${article.title.slice(0, 50)}: ${err.message}`);
+    runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), reason: 'error', error: err.message?.slice(0, 100) });
   }
 }
 
 // Persist seen URLs (keep last 500)
 const seenArr = [...seen].slice(-500);
 writeFileSync(SEEN_FILE, JSON.stringify(seenArr, null, 2));
+
+// Write pipeline run log
+runLog.articlesWritten = saved;
+runLog.quotaExhausted = quotaExhausted;
+runLog.status = quotaExhausted ? 'quota' : saved > 0 ? 'success' : 'filtered';
+
+let existingLog = { totalArticles: 0, runs: [] };
+try {
+  if (existsSync(LOG_FILE)) existingLog = JSON.parse(readFileSync(LOG_FILE, 'utf8'));
+} catch {}
+existingLog.totalArticles = (existingLog.totalArticles || 0) + saved;
+existingLog.lastUpdated = runLog.timestamp;
+existingLog.runs = [runLog, ...(existingLog.runs || [])].slice(0, 72);
+writeFileSync(LOG_FILE, JSON.stringify(existingLog, null, 2));
+console.log(`[pipeline] Log written to ${LOG_FILE}`);
 
 console.log(`[pipeline] Done — ${saved} articles saved to ${ARTICLES_DIR}/`);
 
