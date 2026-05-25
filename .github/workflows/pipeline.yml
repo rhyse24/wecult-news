@@ -2,14 +2,14 @@ name: News Pipeline
 
 on:
   schedule:
-    - cron: '0 0-11 * * *'  # Her saat 1 makale — 00:00–11:00 UTC (12 saat aktif, 12 saat dinlenme)
-  workflow_dispatch:          # Manuel tetikleme (Actions sekmesinden "Run workflow")
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
     permissions:
-      contents: write         # git commit + push için
+      contents: write
 
     steps:
       - name: Checkout
@@ -20,13 +20,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Install pipeline deps
-        run: npm install --no-save xml2js
 
       - name: Run pipeline
         env:
@@ -35,35 +32,17 @@ jobs:
           TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
-        run: |
-          node scripts/pipeline/run.mjs
-          SAVED=$(ls src/content/articles/*.json 2>/dev/null | wc -l || echo 0)
-          if [ "$SAVED" = "0" ]; then
-            echo "::warning::Pipeline saved 0 articles — check Gemini quota or API key."
-          fi
+        run: node scripts/pipeline/run.mjs
 
       - name: Commit new articles
         run: |
           git config user.name "wecult-pipeline[bot]"
-          git config user.email "kaptankaptanim19@gmail.com"
+          git config user.email "pipeline@wecult.app"
           git add src/content/articles/ scripts/pipeline/.seen-urls.json
           if git diff --staged --quiet; then
             echo "No new articles, skipping commit"
           else
             ARTICLE_COUNT=$(git diff --staged --name-only | grep -c '\.json' || true)
             git commit -m "feat(articles): pipeline added ${ARTICLE_COUNT} new article(s)"
-            git pull --rebase origin master
             git push
-          fi
-
-      - name: Trigger Vercel deploy
-        env:
-          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
-        run: |
-          if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
-            curl -sS -X POST "$VERCEL_DEPLOY_HOOK" \
-              -H "Content-Type: application/json" \
-              --max-time 10 --retry 2 || echo "Deploy hook failed (non-fatal)"
-          else
-            echo "No VERCEL_DEPLOY_HOOK secret set, skipping"
           fi
