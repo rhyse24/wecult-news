@@ -35,7 +35,7 @@ export const SOURCES = [
 
   // Tier 2 — Standard film news
   { url: 'https://thewrap.com/feed/',                              category: 'film',  name: 'The Wrap',           tier: 2 },
-  { url: 'https://www.cinemablend.com/rss/all',                    category: 'film',  name: 'CinemaBlend',        tier: 2 },
+  { url: 'https://www.rogerebert.com/feed',                        category: 'film',  name: 'RogerEbert',         tier: 3 },
   { url: 'https://movieweb.com/feed/',                             category: 'film',  name: 'MovieWeb',           tier: 2 },
   { url: 'https://www.comingsoon.net/feed',                        category: 'film',  name: 'ComingSoon',         tier: 2 },
   { url: 'https://www.firstshowing.net/feed/',                     category: 'film',  name: 'FirstShowing',       tier: 2 },
@@ -50,8 +50,8 @@ export const SOURCES = [
   { url: 'https://variety.com/v/tv/feed/',                         category: 'tv',    name: 'Variety TV',         tier: 1 },
 
   // Tier 2 — Standard TV news
-  { url: 'https://www.vulture.com/feed/all.xml',                   category: 'tv',    name: 'Vulture',            tier: 2 },
-  { url: 'https://ew.com/feed/',                                   category: 'tv',    name: 'Entertainment Weekly', tier: 2 },
+  { url: 'https://www.rollingstone.com/tv-movies/feed/',            category: 'tv',    name: 'Rolling Stone TV',   tier: 2 },
+  { url: 'https://www.hollywoodreporter.com/c/tv/feed/',           category: 'tv',    name: 'THR TV',             tier: 1 },
   { url: 'https://www.tvinsider.com/feed/',                        category: 'tv',    name: 'TV Insider',         tier: 2 },
   { url: 'https://www.whats-on-netflix.com/feed/',                 category: 'tv',    name: "What's on Netflix",  tier: 2 },
   { url: 'https://collider.com/feed/',                             category: 'tv',    name: 'Collider',           tier: 2 },
@@ -69,7 +69,7 @@ export const SOURCES = [
 
   // Tier 2 — Standard book news
   { url: 'https://www.theguardian.com/books/rss',                  category: 'books', name: 'The Guardian Books', tier: 2 },
-  { url: 'https://feeds.npr.org/1032.rss',                         category: 'books', name: 'NPR Books',          tier: 2 },
+  { url: 'https://crimereads.com/feed/',                           category: 'books', name: 'CrimeReads',         tier: 2 },
   { url: 'https://reactormag.com/feed/',                           category: 'books', name: 'Reactor Mag',        tier: 2 },
 
   // Tier 3 — Analysis/recommendation heavy
