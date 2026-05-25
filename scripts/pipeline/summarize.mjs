@@ -225,12 +225,12 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
 
       if (words < 400) {
         console.warn(`  [gemini-en attempt ${attempt}] body too short: ${words} words`);
-        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
         throw new Error('EN body too short after all attempts');
       }
       if (truncated) {
         console.warn(`  [gemini-en attempt ${attempt}] truncation marker in body — retrying`);
-        if (attempt < 3) { await sleep(attempt * 7000); continue; }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
         throw new Error('EN body contains truncation markers');
       }
 
@@ -239,7 +239,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
       break;
     } catch (err) {
       console.warn(`  [gemini-en attempt ${attempt}] ${err.message}`);
-      if (attempt < 3) { await sleep(attempt * 7000); continue; }
+      if (attempt < 3) { await sleep(attempt * 15000); continue; }
       throw err;
     }
   }
@@ -359,7 +359,7 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
       return parsed;
     } catch (err) {
       console.warn(`  [gemini-tr attempt ${attempt}] ${err.message}`);
-      if (attempt < 3) { await sleep(attempt * 7000); continue; }
+      if (attempt < 3) { await sleep(attempt * 15000); continue; }
       return null;
     }
   }

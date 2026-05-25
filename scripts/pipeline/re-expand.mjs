@@ -97,7 +97,7 @@ for (const file of files) {
       failed++; continue;
     }
 
-    await sleep(5000);
+    await sleep(15000);
     const trData = await translateToTurkish(enData, article.category);
 
     const updated = {
@@ -254,7 +254,7 @@ Return ONLY this JSON (no markdown wrapper):
       return parsed;
     } catch (err) {
       console.warn(`    [gemini attempt ${attempt}] exception: ${err.message}`);
-      if (attempt < 3) { await sleep(attempt * 7000); continue; }
+      if (attempt < 3) { await sleep(attempt * 15000); continue; }
       return null;
     }
   }
@@ -324,13 +324,13 @@ Return ONLY this JSON:
       catch { const m = cleaned.match(/\{[\s\S]*\}/); if (m) { try { parsed = JSON.parse(m[0]); } catch { throw new Error('JSON parse failed'); } } else throw new Error('No JSON'); }
 
       const body = parsed?.body ?? '';
-      if (wordCount(body) < 200) { if (attempt < 3) { await sleep(attempt * 7000); continue; } return null; }
-      if (parsed.title === enData.title) { if (attempt < 3) { await sleep(attempt * 7000); continue; } return null; }
-      if (body.slice(0, 100).toLowerCase() === enData.body.slice(0, 100).toLowerCase()) { if (attempt < 3) { await sleep(attempt * 7000); continue; } return null; }
+      if (wordCount(body) < 200) { if (attempt < 3) { await sleep(attempt * 15000); continue; } return null; }
+      if (parsed.title === enData.title) { if (attempt < 3) { await sleep(attempt * 15000); continue; } return null; }
+      if (body.slice(0, 100).toLowerCase() === enData.body.slice(0, 100).toLowerCase()) { if (attempt < 3) { await sleep(attempt * 15000); continue; } return null; }
 
       return parsed;
     } catch (err) {
-      if (attempt < 3) { await sleep(attempt * 7000); continue; }
+      if (attempt < 3) { await sleep(attempt * 15000); continue; }
       return null;
     }
   }
