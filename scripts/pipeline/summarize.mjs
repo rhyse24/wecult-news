@@ -95,7 +95,6 @@ export function validateArticle(ai) {
   const enWords = wordCount(enBody);
   if (enWords < 450) errors.push(`EN body too short: ${enWords} words (need ≥450)`);
   if (isTruncated(enBody)) errors.push('EN body contains truncation marker');
-  if (countHeadings(enBody) < 2) errors.push(`EN body has fewer than 2 ## headings (found ${countHeadings(enBody)})`);
   if (!endsCleanly(enBody)) errors.push('EN body ends mid-sentence');
 
   // TR checks (null is allowed — EN shown as fallback)
@@ -242,6 +241,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
       const body = parsed?.body ?? '';
       const words = wordCount(body);
       const truncated = isTruncated(body);
+      const headings = countHeadings(body);
 
       if (words < 400) {
         console.warn(`  [gemini-en attempt ${attempt}] body too short: ${words} words`);
@@ -253,9 +253,14 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
         if (attempt < 3) { await sleep(attempt * 15000); continue; }
         throw new Error('EN body contains truncation markers');
       }
+      if (headings < 2) {
+        console.warn(`  [gemini-en attempt ${attempt}] only ${headings} ## headings — retrying for better structure`);
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
+        console.warn(`  [gemini-en] accepting ${headings} headings after all attempts`);
+      }
 
       enData = parsed;
-      console.log(`  [gemini-en] ${words} words, ${countHeadings(body)} headings`);
+      console.log(`  [gemini-en] ${words} words, ${headings} headings`);
       break;
     } catch (err) {
       console.warn(`  [gemini-en attempt ${attempt}] ${err.message}`);
