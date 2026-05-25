@@ -117,9 +117,14 @@ try {
   console.warn(`[pipeline] Google Trends: fetch failed (non-critical, continuing)`);
 }
 
+const sourceTierMap = new Map(SOURCES.map(s => [s.name, s.tier ?? 2]));
+
+const NEWS_SIGNALS = ['announced', 'confirms', 'reveals', 'acquired', 'renewed', 'cancelled', 'trailer', 'release date', 'launches', 'officially', 'exclusive', 'breaking'];
+
 function scoreArticle(article) {
   let score = 0;
-  const titleWords = article.title.toLowerCase().split(/\s+/).filter(w => w.length > 4);
+  const titleLower = article.title.toLowerCase();
+  const titleWords = titleLower.split(/\s+/).filter(w => w.length > 4);
   const trending = redditKeywords[article.category] || '';
   // Reddit trending match — biggest signal
   for (const word of titleWords) {
@@ -140,6 +145,14 @@ function scoreArticle(article) {
   if (article.image_url) score += 1;
   // Substantial content
   if (article.content.length > 500) score += 1;
+  // Source tier bonus — premium trade publications rank higher
+  const tier = sourceTierMap.get(article.source_name) ?? 2;
+  if (tier === 1) score += 2;
+  else if (tier === 3) score -= 1;
+  // News signal bonus — hard news over opinion/analysis
+  for (const signal of NEWS_SIGNALS) {
+    if (titleLower.includes(signal)) { score += 2; break; }
+  }
   return score;
 }
 
