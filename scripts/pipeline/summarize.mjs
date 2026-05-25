@@ -201,6 +201,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
       if (!res.ok) {
         const errText = await res.text();
         console.warn(`  [gemini-en attempt ${attempt}] ${res.status}: ${errText.slice(0, 100)}`);
+        if (res.status === 429) throw new Error(`Gemini EN 429`); // quota exceeded — no point retrying
         if (attempt < 3) { await sleep(attempt * 7000); continue; }
         throw new Error(`Gemini EN ${res.status}`);
       }
@@ -317,6 +318,7 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
 
       if (!res.ok) {
         console.warn(`  [gemini-tr attempt ${attempt}] ${res.status}`);
+        if (res.status === 429) return null; // quota exceeded — skip TR, EN will show as fallback
         if (attempt < 3) { await sleep(attempt * 7000); continue; }
         return null;
       }
