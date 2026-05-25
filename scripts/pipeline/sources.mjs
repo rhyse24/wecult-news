@@ -57,7 +57,7 @@ export const SOURCES = [
   { url: 'https://collider.com/feed/',                             category: 'tv',    name: 'Collider',           tier: 2 },
   { url: 'https://www.denofgeek.com/feed/',                        category: 'tv',    name: 'Den of Geek',        tier: 2 },
   { url: 'https://www.theguardian.com/tv-and-radio/rss',          category: 'tv',    name: 'Guardian TV',        tier: 2 },
-  { url: 'https://screenrant.com/feed/',                           category: 'tv',    name: 'Screen Rant TV',     tier: 2 },
+  { url: 'https://www.radiotimes.com/news/feed/',                  category: 'tv',    name: 'Radio Times',        tier: 2 },
 
   // Tier 3 — Analysis heavy
   { url: 'https://www.avclub.com/rss',                             category: 'tv',    name: 'AV Club',            tier: 3 },

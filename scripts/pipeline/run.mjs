@@ -348,8 +348,8 @@ for (const article of candidatePool) {
     runLog.written.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), slug: filename });
     console.log(`  ✓ ${article.title.slice(0, 60)}`);
 
-    // Rate limit: 5 RPM (2.5-flash-lite free tier) → min 12s between calls
-    await sleep(15000);
+    // Rate limit: 5 RPM — only sleep if we need to process more candidates
+    if (saved < MAX_TOTAL) await sleep(15000);
   } catch (err) {
     console.warn(`  [skip] ${article.title.slice(0, 50)}: ${err.message}`);
     runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), reason: 'error', error: err.message?.slice(0, 100) });
