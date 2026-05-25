@@ -38,6 +38,6 @@ export const MAX_PER_SOURCE = 2;
 // Max articles in pool per category (ensures variety in selection)
 export const MAX_PER_CATEGORY = 2;
 
-// 1 article per category per run — 4 categories × 12 runs/day = up to 48 articles/day
-// Gemini usage: 4 articles × 2 calls (EN+TR) = 8 calls/run × 12 = 96/day (well under 1500 RPD)
-export const MAX_TOTAL = 4;
+// 1 article per run — 12 runs/day = 12 articles/day
+// Gemini usage: 1 article × 2 calls (EN+TR) = 2 calls/run × 12 = 24/day
+export const MAX_TOTAL = 1;

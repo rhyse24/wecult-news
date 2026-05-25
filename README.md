@@ -40,8 +40,7 @@ Saat başı tetiklenir (00:00–11:00 UTC)
 → Site yeniden build olur
 ```
 
-**Günde 12 run × 4 makale = 48 makale/gün maksimum**  
-(her kategoriden 1 makale per run)
+**Günde 12 run × 1 makale = 12 makale/gün**
 
 ---
 
@@ -179,7 +178,7 @@ scripts/pipeline/
 | TV | TVLine, Den of Geek, Collider, Slash Film, Guardian TV |
 | Books | Tor.com, Guardian Books, Book Riot, Literary Hub, NY Times Books |
 
-**MAX_PER_SOURCE = 2, MAX_PER_CATEGORY = 2, MAX_TOTAL = 4**
+**MAX_PER_SOURCE = 2, MAX_PER_CATEGORY = 2, MAX_TOTAL = 1**
 
 ---
 
