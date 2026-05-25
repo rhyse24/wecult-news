@@ -347,7 +347,17 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
 
       if (!res.ok) {
         console.warn(`  [gemini-tr attempt ${attempt}] ${res.status}`);
-        if (res.status === 429) return null; // quota exceeded — skip TR, EN will show as fallback
+        if (res.status === 429) {
+          if (attempt < 3) {
+            const retryAfter = parseInt(res.headers.get('Retry-After') || '0') * 1000;
+            const backoff = retryAfter || Math.min(15000 * Math.pow(2, attempt - 1), 60000);
+            const jitter = Math.random() * 3000;
+            console.warn(`  [gemini-tr] 429 — ${Math.round((backoff + jitter) / 1000)}s bekle`);
+            await sleep(backoff + jitter);
+            continue;
+          }
+          return null;
+        }
         if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }

@@ -5,6 +5,9 @@ on:
 
 jobs:
   run-pipeline:
+    concurrency:
+      group: news-pipeline
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     permissions:
       contents: write
