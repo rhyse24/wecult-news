@@ -58,6 +58,8 @@ const LOW_QUALITY_PATTERNS = [
   /\bhow (to (watch|stream|see|find|get|play)|you can watch)\b/i,
   /\bwhere (to watch|to stream|can (i|you) watch)\b/i,
   /\b(streaming guide|watch guide|viewing guide)\b/i,
+  /\b(must.watch|can't miss|cant miss|unmissable|essential guide|definitive ranking)\b/i,
+  /\b(celebrities? react|you won't believe|won't believe|fans react)\b/i,
 ];
 
 // Off-topic content that slips through entertainment RSS feeds
