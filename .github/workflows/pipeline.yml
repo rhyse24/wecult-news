@@ -43,18 +43,27 @@ jobs:
         run: |
           git config user.name "wecult-pipeline[bot]"
           git config user.email "kaptankaptanim19@gmail.com"
-          git add src/content/articles/ scripts/pipeline/.seen-urls.json public/pipeline-log.json
+          git add src/content/articles/ scripts/pipeline/.seen-urls.json
           if git diff --staged --quiet; then
-            echo "No new articles, skipping commit"
+            echo "No new articles"
           else
             ARTICLE_COUNT=$(git diff --staged --name-only | grep -c '\.json' || true)
             git commit -m "feat(articles): pipeline added ${ARTICLE_COUNT} new article(s)"
-            for i in 1 2 3; do
-              git pull --rebase origin master && git push && break
-              echo "Push attempt $i failed, retrying in 10s..."
-              sleep 10
-            done
           fi
+
+      - name: Commit pipeline log
+        run: |
+          git add public/pipeline-log.json
+          if git diff --staged --quiet; then
+            echo "Log unchanged, skipping"
+          else
+            git commit -m "chore(log): pipeline run kaydedildi"
+          fi
+          for i in 1 2 3; do
+            git pull --rebase origin master && git push && break
+            echo "Push attempt $i failed, retrying in 10s..."
+            sleep 10
+          done
 
       - name: Trigger Vercel deploy
         env:
