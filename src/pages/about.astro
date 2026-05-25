@@ -1,0 +1,73 @@
+---
+import Base from '../layouts/Base.astro'
+import type { Lang } from '../types'
+
+const lang: Lang = 'en'
+const siteBase = 'https://news.wecult.app'
+const pageUrl = `${siteBase}/about`
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  url: pageUrl,
+  name: 'About WeCult News',
+  description: 'WeCult News is the editorial arm of WeCult — an AI-powered entertainment news site covering film, TV, games, and books.',
+  publisher: {
+    '@type': 'Organization',
+    name: 'WeCult News',
+    url: siteBase,
+    logo: { '@type': 'ImageObject', url: `${siteBase}/favicon.svg` },
+  },
+}
+---
+
+<Base
+  title="About WeCult News"
+  description="WeCult News is the editorial arm of WeCult — AI-powered entertainment news covering film, TV, games, and books."
+  lang={lang}
+  canonicalUrl={pageUrl}
+  schema={schema}
+>
+  <div class="legal-page">
+    <div class="container">
+      <div class="legal-inner">
+        <div class="legal-eyebrow">About</div>
+        <h1 class="legal-title">About WeCult News</h1>
+
+        <div class="legal-body">
+          <p><strong>WeCult News</strong> is the editorial arm of <a href="https://wecult.app" target="_blank" rel="noopener noreferrer">WeCult</a> — a global premium entertainment platform for film, TV, games, and books fans. We publish daily news and in-depth analysis across all four categories.</p>
+
+          <h2>Our Mission</h2>
+          <p>We believe great entertainment journalism should be fast, honest, and fan-first. WeCult News exists to surface the stories that matter to passionate fans — not sponsored listicles, not viral clickbait — real coverage of the franchises, creators, and titles you care about.</p>
+
+          <h2>How We Work</h2>
+          <p>Our editorial pipeline combines trusted RSS feeds from established publications with AI-assisted writing. Here is how each article is made:</p>
+          <ul>
+            <li><strong>Source selection</strong> — Our pipeline monitors 20+ top entertainment outlets (IGN, The Hollywood Reporter, The Verge, and more) and selects the most relevant and timely stories each day.</li>
+            <li><strong>AI writing</strong> — A large language model (Google Gemini) expands each story into a full editorial article, drawing on both the source material and its broader knowledge of the franchise, creator, or topic.</li>
+            <li><strong>Editorial standards</strong> — Every article passes an automated quality gate: minimum word count, structured sections, no truncation, no hallucinated quotes or fabricated statistics.</li>
+            <li><strong>Byline</strong> — Articles are published under the <em>WeCult Editorial</em> byline to reflect the AI-assisted nature of the process.</li>
+            <li><strong>Source bar</strong> — Every article links directly back to the original source outlet so readers can verify and read further.</li>
+          </ul>
+
+          <h2>What We Cover</h2>
+          <ul>
+            <li>🎮 <strong>Games</strong> — New releases, developer announcements, reviews, industry news</li>
+            <li>🎬 <strong>Film</strong> — Box office, trailers, awards season, director and cast news</li>
+            <li>📺 <strong>TV</strong> — Renewals, cancellations, streaming platform moves, season news</li>
+            <li>📚 <strong>Books</strong> — Bestsellers, debuts, adaptations, author news</li>
+          </ul>
+
+          <h2>Languages</h2>
+          <p>WeCult News publishes in both <strong>English</strong> and <strong>Turkish</strong>. All articles are available in both languages — switch using the language selector at the top of any page.</p>
+
+          <h2>Corrections &amp; Transparency</h2>
+          <p>If you find an error or have a concern about a specific article, please <a href="/contact">contact us</a>. We take factual accuracy seriously and will issue corrections when warranted.</p>
+
+          <h2>About WeCult</h2>
+          <p>WeCult is a premium mobile entertainment platform where users track their film, TV, game, and book experiences, discover new content through taste-based matching, and connect with a global community of fans. <a href="https://wecult.app" target="_blank" rel="noopener noreferrer">Download the app →</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Base>

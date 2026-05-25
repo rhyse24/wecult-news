@@ -84,6 +84,26 @@ for (const [cat, sub] of Object.entries(REDDIT_SUBS)) {
   }
 }
 
+// Fetch Google Trends daily trending searches (US) — no auth required
+let googleTrendsText = '';
+try {
+  const res = await fetch('https://trends.google.com/trends/trendingsearches/daily/rss?geo=US', {
+    headers: { 'User-Agent': 'WeCultNews/1.0 (+https://wecult.app/news)' },
+    signal: AbortSignal.timeout(8000),
+  });
+  if (res.ok) {
+    const xml = await res.text();
+    const titles = [...xml.matchAll(/<title[^>]*>(.*?)<\/title>/gi)]
+      .map(m => m[1].replace(/<!\[CDATA\[|\]\]>/g, '').replace(/&amp;/g, '&').trim())
+      .filter(t => t && !t.toLowerCase().includes('google trends') && t.length > 3)
+      .slice(0, 40);
+    googleTrendsText = titles.join(' ').toLowerCase();
+    console.log(`[pipeline] Google Trends: ${titles.length} trending topics loaded`);
+  }
+} catch {
+  console.warn(`[pipeline] Google Trends: fetch failed (non-critical, continuing)`);
+}
+
 function scoreArticle(article) {
   let score = 0;
   const titleWords = article.title.toLowerCase().split(/\s+/).filter(w => w.length > 4);
@@ -91,6 +111,12 @@ function scoreArticle(article) {
   // Reddit trending match — biggest signal
   for (const word of titleWords) {
     if (trending.includes(word)) score += 2;
+  }
+  // Google Trends match — cross-platform popularity signal
+  if (googleTrendsText) {
+    for (const word of titleWords) {
+      if (googleTrendsText.includes(word)) score += 3;
+    }
   }
   // Recency bonus
   const ageHours = (Date.now() - new Date(article.pubDate).getTime()) / 3600000;
@@ -224,6 +250,7 @@ for (const article of candidatePool) {
       id: filename,
       slug: filename,
       category: article.category,
+      author: 'WeCult Editorial',
       source_name: article.source_name,
       source_url: article.link,
       original_title: article.title,

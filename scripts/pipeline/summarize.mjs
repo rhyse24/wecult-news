@@ -177,6 +177,19 @@ RULE 5 — RSS TEASER HANDLING:
 • Do NOT reproduce it verbatim — write original prose
 • Use it only to understand the topic, then write from your knowledge + web research
 
+RULE 6 — HEADLINE (high-CTR mandatory):
+• Optimal length: 6–10 words — short enough to scan, long enough to be specific
+• Always include the main subject name (franchise, film title, game title, person)
+• Use active verbs: "Confirms", "Reveals", "Announces", "Explains", "Finally", "Officially"
+• Numbers add clicks when relevant: "5 Things We Know About...", "First Look At..."
+• Questions work for analysis: "Is [X] Really...", "Why [X] Matters..."
+• NEVER use vague filler: "Amazing", "Shocking", "Breaking News", "You Won't Believe"
+• NEVER copy the RSS title verbatim — rewrite it with stronger language
+• Examples of strong headlines:
+  - "Rockstar Confirms GTA 6 PC Release Window After Fan Outcry"
+  - "Netflix Renews Stranger Things for Final Season, Sets 2026 Premiere"
+  - "Denis Villeneuve's Dune 3 Casts Its Biggest Villain Yet"
+
 FORMATTING (mandatory):
 • ## before every section heading
 • \\n\\n between every paragraph and block

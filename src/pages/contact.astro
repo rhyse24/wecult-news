@@ -1,0 +1,85 @@
+---
+import Base from '../layouts/Base.astro'
+import type { Lang } from '../types'
+
+const lang: Lang = 'en'
+const siteBase = 'https://news.wecult.app'
+const pageUrl = `${siteBase}/contact`
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  url: pageUrl,
+  name: 'Contact WeCult News',
+  description: 'Get in touch with WeCult News — report errors, submit tips, or ask questions about our editorial process.',
+  publisher: {
+    '@type': 'Organization',
+    name: 'WeCult News',
+    url: siteBase,
+    contactPoint: {
+      '@type': 'ContactPoint',
+      email: 'news@wecult.app',
+      contactType: 'editorial',
+    },
+  },
+}
+---
+
+<Base
+  title="Contact — WeCult News"
+  description="Get in touch with WeCult News. Report errors, submit story tips, or ask about our editorial process."
+  lang={lang}
+  canonicalUrl={pageUrl}
+  schema={schema}
+>
+  <div class="legal-page">
+    <div class="container">
+      <div class="legal-inner">
+        <div class="legal-eyebrow">Contact</div>
+        <h1 class="legal-title">Contact WeCult News</h1>
+
+        <div class="legal-body">
+          <p>We are a small, AI-assisted editorial operation. Response times may vary, but we read every message.</p>
+
+          <h2>Editorial &amp; Corrections</h2>
+          <p>Found a factual error in an article? Notice something that does not look right? Please let us know — we take accuracy seriously and will issue corrections promptly.</p>
+          <p>
+            <a href="mailto:news@wecult.app" class="contact-email-link">
+              news@wecult.app
+            </a>
+          </p>
+
+          <h2>Story Tips</h2>
+          <p>Have a tip about an upcoming game, film, or TV announcement? Reach out at the same address. We focus on entertainment (film, TV, games, books) and do not cover politics, sports, or general news.</p>
+
+          <h2>WeCult App</h2>
+          <p>For questions about the WeCult mobile app, membership, or account issues, please visit <a href="https://wecult.app" target="_blank" rel="noopener noreferrer">wecult.app</a> or use the in-app support.</p>
+
+          <h2>Advertising</h2>
+          <p>WeCult News is monetized through Google AdSense. We do not offer direct ad placements or sponsored content. For partnership inquiries contact <a href="mailto:news@wecult.app">news@wecult.app</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .contact-email-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.625rem 1rem;
+    border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+    border-radius: var(--radius-md);
+    background: color-mix(in srgb, var(--accent) 8%, transparent);
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .contact-email-link:hover {
+    background: color-mix(in srgb, var(--accent) 14%, transparent);
+    border-color: color-mix(in srgb, var(--accent) 50%, transparent);
+  }
+</style>

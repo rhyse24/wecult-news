@@ -9,6 +9,7 @@ export interface Article {
   slug: string
   category: Category
   article_type: ArticleType
+  author: string
   published_at: string
   cover_image: string | null
   inline_image_url: string

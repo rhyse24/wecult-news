@@ -64,6 +64,7 @@ function normalizeArticle(raw: Record<string, unknown>): Article {
     slug: raw.slug as string,
     category,
     article_type: 'news',
+    author: (raw.author as string) || 'WeCult Editorial',
     published_at: raw.published_at as string,
     cover_image: (raw.image_url as string) || FALLBACK_IMAGES[category],
     inline_image_url: (raw.inline_image_url as string) || '',
@@ -97,9 +98,15 @@ export function getByTag(list: Article[], tag: string): Article[] {
 }
 
 export function getRelated(list: Article[], article: Article, limit = 3): Article[] {
-  return list
-    .filter(a => a.id !== article.id && a.category === article.category)
-    .slice(0, limit)
+  const articleTags = new Set(article.tags.map(t => t.toLowerCase()))
+  const candidates = list.filter(a => a.id !== article.id && a.category === article.category)
+  // Score by tag overlap — same-category articles sharing tags rank first
+  const scored = candidates.map(a => {
+    const tagOverlap = a.tags.filter(t => articleTags.has(t.toLowerCase())).length
+    return { a, score: tagOverlap }
+  })
+  scored.sort((a, b) => b.score - a.score)
+  return scored.slice(0, limit).map(s => s.a)
 }
 
 export function isBreaking(article: Article): boolean {

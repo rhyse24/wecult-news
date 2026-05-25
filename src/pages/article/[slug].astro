@@ -59,7 +59,10 @@ const articleSchema = {
   url: pageUrl,
   inLanguage: 'en',
   mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
-  author: { '@type': 'Organization', name: 'WeCult News', url: siteBase },
+  author: [
+    { '@type': 'Person', name: article.author || 'WeCult Editorial', url: `${siteBase}/about` },
+    { '@type': 'Organization', name: 'WeCult News', url: siteBase },
+  ],
   publisher: {
     '@type': 'Organization',
     name: 'WeCult News',
@@ -159,7 +162,10 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
           <!-- Byline -->
           <div class="article-byline">
             <div class="source-avatar">{article.source_name.charAt(0)}</div>
-            <span class="source-name">{article.source_name}</span>
+            <div class="byline-authorship">
+              <span class="author-name">{article.author}</span>
+              <span class="source-via">via {article.source_name}</span>
+            </div>
             <span class="byline-sep">·</span>
             <svg class="clock-icon" width="13" height="13" viewBox="0 0 13 13" fill="none">
               <circle cx="6.5" cy="6.5" r="5.5" stroke="currentColor" stroke-width="1.3"/>
@@ -475,7 +481,9 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
     color: var(--text-secondary);
     flex-shrink: 0;
   }
-  .source-name { font-size: 0.875rem; font-weight: 600; color: var(--text-secondary); }
+  .byline-authorship { display: flex; flex-direction: column; gap: 0.1rem; }
+  .author-name { font-size: 0.875rem; font-weight: 600; color: var(--text-secondary); }
+  .source-via { font-size: 0.75rem; color: var(--text-muted); }
   .byline-sep { color: var(--text-muted); font-size: 0.75rem; }
   .clock-icon { color: var(--text-muted); flex-shrink: 0; }
   .read-time { font-size: 0.8125rem; color: var(--text-muted); }

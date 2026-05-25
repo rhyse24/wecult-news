@@ -68,7 +68,8 @@ const popularTags = ['Rockstar Games', 'HBO', 'Neil Gaiman', 'Denis Villeneuve',
       <!-- About col -->
       <div class="footer-col">
         <p class="footer-col-title">{t(lang, 'footer.moreTitle')}</p>
-        <a href="https://wecult.app" target="_blank" rel="noopener noreferrer" class="footer-nav-link">{t(lang, 'footer.about')}</a>
+        <a href={getLocalizedPath('en', '/about')} class="footer-nav-link">{t(lang, 'footer.about')}</a>
+        <a href={getLocalizedPath('en', '/contact')} class="footer-nav-link">{t(lang, 'footer.contact')}</a>
         <a href="https://wecult.app" class="footer-nav-link footer-app-link" target="_blank" rel="noopener noreferrer">
           <svg width="12" height="12" viewBox="0 0 18 18" fill="none"><rect x="0" y="0" width="3" height="18" rx="1.5" fill="#c9a84c"/><rect x="6" y="4" width="3" height="14" rx="1.5" fill="#c9a84c" opacity="0.6"/><rect x="12" y="8" width="3" height="10" rx="1.5" fill="#c9a84c" opacity="0.25"/></svg>
           {t(lang, 'footer.wecultApp')}
