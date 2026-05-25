@@ -176,7 +176,7 @@ const categories = [
 <div class="drawer-backdrop" id="drawer-backdrop"></div>
 
 <!-- Search overlay -->
-<div class="search-overlay" id="search-overlay">
+<div class="search-overlay" id="search-overlay" data-lang={lang}>
   <div class="container">
     <div class="search-inner">
       <svg width="18" height="18" viewBox="0 0 16 16" fill="none">
@@ -190,6 +190,7 @@ const categories = [
         </svg>
       </button>
     </div>
+    <p class="search-hint">Press Enter to see all results</p>
   </div>
 </div>
 
@@ -264,6 +265,14 @@ const categories = [
   document.getElementById('search-btn-mobile')?.addEventListener('click', openSearch)
   searchClose?.addEventListener('click', closeSearch)
   searchOverlay?.addEventListener('click', (e) => { if (e.target === searchOverlay) closeSearch() })
+  searchInput?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      const q = searchInput.value.trim()
+      const lang = searchOverlay?.getAttribute('data-lang') ?? 'en'
+      const path = lang === 'tr' ? '/tr/search' : '/search'
+      window.location.href = q ? `${path}?q=${encodeURIComponent(q)}` : path
+    }
+  })
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') { closeSearch(); closeDrawer(); langPicker?.classList.remove('is-open') }
     if (e.key === '/' && document.activeElement?.tagName !== 'INPUT') { e.preventDefault(); openSearch() }
@@ -510,6 +519,11 @@ const categories = [
   color: var(--text-muted); flex-shrink: 0; transition: color 0.15s;
 }
 .search-close:hover { color: var(--text); }
+.search-hint {
+  font-size: 0.6875rem; color: var(--text-muted);
+  text-align: center; margin-top: 0.625rem; pointer-events: none;
+  opacity: 0.7;
+}
 
 /* ── Mobile breakpoint ────────────────────────────── */
 @media (max-width: 768px) {

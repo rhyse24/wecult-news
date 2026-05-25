@@ -61,6 +61,14 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
         logo: { '@type': 'ImageObject', url: 'https://news.wecult.app/favicon.svg' },
       },
       inLanguage: lang,
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: 'https://news.wecult.app/search?q={search_term_string}',
+        },
+        'query-input': 'required name=search_term_string',
+      },
     })} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

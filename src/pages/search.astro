@@ -1,0 +1,287 @@
+---
+import Base from '../layouts/Base.astro'
+import ArticleCard from '../components/article/ArticleCard.astro'
+import { articles as allArticles, getByLang } from '../lib/articles'
+import type { Lang } from '../types'
+
+const lang: Lang = 'en'
+const siteBase = 'https://news.wecult.app'
+const pageUrl = `${siteBase}/search`
+
+const langArticles = getByLang(allArticles, lang)
+
+const catColors: Record<string, string> = {
+  games: 'var(--cat-games)',
+  film:  'var(--cat-film)',
+  tv:    'var(--cat-tv)',
+  books: 'var(--cat-books)',
+}
+
+const catChips = [
+  { key: 'all',   label: 'All' },
+  { key: 'games', label: '🎮 Games' },
+  { key: 'film',  label: '🎬 Film'  },
+  { key: 'tv',    label: '📺 TV'    },
+  { key: 'books', label: '📚 Books' },
+]
+---
+
+<Base
+  title="Search"
+  description="Search WeCult News — find articles on games, film, TV, and books."
+  lang={lang}
+  canonicalUrl={pageUrl}
+  hreflang={{ en: pageUrl, tr: `${siteBase}/tr/search` }}
+>
+  <div class="sp-page">
+
+    <!-- ── Search banner ─────────────────────────── -->
+    <div class="sp-banner">
+      <div class="container">
+        <div class="sp-banner-inner">
+          <h1 class="sp-title">Search</h1>
+          <div class="sp-bar">
+            <svg width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <input
+              id="sp-input"
+              type="search"
+              placeholder="Search articles, games, films, shows, books..."
+              class="sp-input"
+              autocomplete="off"
+              autofocus
+            />
+            <button id="sp-clear" class="sp-clear" aria-label="Clear search" style="display:none">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M1 1l10 10M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </button>
+          </div>
+          <div class="sp-chips">
+            {catChips.map((c, i) => (
+              <button
+                class={`sp-chip${i === 0 ? ' is-active' : ''}`}
+                data-cat={c.key}
+                style={c.key !== 'all' ? `--chip-color:${catColors[c.key]}` : ''}
+              >
+                {c.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Results ────────────────────────────────── -->
+    <div class="container sp-results-wrap">
+      <div class="sp-meta">
+        <span id="sp-count" class="sp-count"></span>
+      </div>
+
+      <div id="sp-empty" class="sp-empty" hidden>
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <circle cx="18" cy="18" r="12" stroke="currentColor" stroke-width="2" opacity="0.25"/>
+          <path d="M27 27L36 36" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+        </svg>
+        <p>No results for "<strong id="sp-query-text"></strong>"</p>
+        <span>Try a different keyword or category</span>
+      </div>
+
+      <div class="sp-grid" id="sp-grid">
+        {langArticles.map(a => (
+          <div
+            class="sp-item"
+            data-title={(a.translations.en?.title ?? '').toLowerCase()}
+            data-tags={a.tags.join(' ').toLowerCase()}
+            data-cat={a.category}
+          >
+            <ArticleCard article={a} lang={lang} size="default" />
+          </div>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</Base>
+
+<script>
+  const input   = document.getElementById('sp-input') as HTMLInputElement
+  const grid    = document.getElementById('sp-grid')!
+  const countEl = document.getElementById('sp-count')!
+  const emptyEl = document.getElementById('sp-empty')!
+  const queryTextEl = document.getElementById('sp-query-text')!
+  const clearBtn    = document.getElementById('sp-clear')!
+  const chips   = document.querySelectorAll<HTMLButtonElement>('.sp-chip')
+  const items   = Array.from(grid.querySelectorAll<HTMLElement>('.sp-item'))
+
+  let currentQuery = ''
+  let currentCat   = 'all'
+
+  // Pre-fill from ?q= param
+  const params   = new URLSearchParams(location.search)
+  const initialQ = params.get('q') ?? ''
+  if (initialQ) {
+    input.value  = initialQ
+    currentQuery = initialQ.toLowerCase().trim()
+  }
+
+  function filter() {
+    let visible = 0
+    for (const item of items) {
+      const title = item.dataset.title ?? ''
+      const tags  = item.dataset.tags  ?? ''
+      const cat   = item.dataset.cat   ?? ''
+      const matchQ   = !currentQuery || title.includes(currentQuery) || tags.includes(currentQuery)
+      const matchCat = currentCat === 'all' || cat === currentCat
+      const show = matchQ && matchCat
+      item.style.display = show ? '' : 'none'
+      if (show) visible++
+    }
+
+    if (currentQuery || currentCat !== 'all') {
+      countEl.textContent = `${visible} result${visible !== 1 ? 's' : ''}`
+    } else {
+      countEl.textContent = `${items.length} articles`
+    }
+
+    emptyEl.hidden = visible > 0
+    queryTextEl.textContent = currentQuery
+
+    clearBtn.style.display = currentQuery ? '' : 'none'
+
+    const url = new URL(location.href)
+    if (currentQuery) url.searchParams.set('q', currentQuery)
+    else url.searchParams.delete('q')
+    history.replaceState(null, '', url)
+  }
+
+  input.addEventListener('input', () => {
+    currentQuery = input.value.trim().toLowerCase()
+    filter()
+  })
+
+  clearBtn.addEventListener('click', () => {
+    input.value  = ''
+    currentQuery = ''
+    filter()
+    input.focus()
+  })
+
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('is-active'))
+      chip.classList.add('is-active')
+      currentCat = chip.dataset.cat ?? 'all'
+      filter()
+    })
+  })
+
+  filter()
+</script>
+
+<style is:global>
+  .sp-page { padding-bottom: 5rem; }
+
+  /* ── Banner ──────────────────────────────────── */
+  .sp-banner {
+    padding: 2.25rem 0 1.75rem;
+    border-bottom: 1px solid var(--border-subtle);
+    margin-bottom: 2rem;
+    background: radial-gradient(ellipse at 50% 0%, color-mix(in srgb, var(--accent) 5%, transparent) 0%, transparent 60%);
+  }
+  .sp-banner-inner { max-width: 680px; }
+  .sp-title {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+
+  /* ── Search bar ──────────────────────────────── */
+  .sp-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 0.75rem 1rem;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+    margin-bottom: 1rem;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .sp-bar:focus-within {
+    border-color: color-mix(in srgb, var(--accent) 50%, var(--border));
+    box-shadow: 0 2px 24px rgba(0,0,0,0.25), 0 0 0 2px color-mix(in srgb, var(--accent) 15%, transparent);
+  }
+  .sp-bar > svg { color: var(--text-muted); flex-shrink: 0; }
+  .sp-input {
+    flex: 1; background: transparent; border: none; outline: none;
+    font-size: 1rem; font-family: var(--font-sans); color: var(--text);
+  }
+  .sp-input::placeholder { color: var(--text-muted); }
+  .sp-clear {
+    display: flex; align-items: center; justify-content: center;
+    width: 24px; height: 24px; border: none; border-radius: 50%;
+    background: var(--bg-raised); color: var(--text-muted); flex-shrink: 0;
+    transition: color 0.15s, background 0.15s;
+  }
+  .sp-clear:hover { color: var(--text); background: var(--border); }
+
+  /* ── Category chips ──────────────────────────── */
+  .sp-chips { display: flex; flex-wrap: wrap; gap: 0.375rem; }
+  .sp-chip {
+    font-size: 0.75rem; font-weight: 600; font-family: var(--font-sans);
+    color: var(--text-muted); background: transparent;
+    border: 1px solid transparent;
+    padding: 0.3125rem 0.875rem; border-radius: 20px; cursor: pointer;
+    transition: all 0.15s;
+  }
+  .sp-chip:hover { color: var(--text-secondary); background: var(--bg-card); }
+  .sp-chip.is-active {
+    color: var(--text); background: var(--bg-card);
+    border-color: var(--border);
+  }
+
+  /* ── Meta row ────────────────────────────────── */
+  .sp-results-wrap { padding-top: 0; }
+  .sp-meta {
+    display: flex; align-items: center;
+    padding: 0.625rem 0 1rem;
+  }
+  .sp-count {
+    font-size: 0.75rem; font-weight: 600;
+    color: var(--text-secondary);
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    padding: 2px 9px; border-radius: 20px;
+  }
+
+  /* ── Empty state ─────────────────────────────── */
+  .sp-empty {
+    display: flex; flex-direction: column; align-items: center;
+    gap: 0.5rem; padding: 5rem 0; text-align: center;
+    color: var(--text-muted);
+  }
+  .sp-empty p { font-size: 1rem; color: var(--text-secondary); margin: 0; }
+  .sp-empty span { font-size: 0.875rem; }
+
+  /* ── Results grid ────────────────────────────── */
+  .sp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+  }
+
+  /* ── Mobile ──────────────────────────────────── */
+  @media (max-width: 768px) {
+    .sp-grid { grid-template-columns: 1fr; }
+    .sp-title { font-size: 1.5rem; }
+  }
+  @media (min-width: 480px) and (max-width: 768px) {
+    .sp-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>

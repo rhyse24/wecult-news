@@ -1,0 +1,181 @@
+---
+import Base from '../../layouts/Base.astro'
+import ArticleCard from '../../components/article/ArticleCard.astro'
+import { articles as allArticles, getByLang } from '../../lib/articles'
+import type { Lang } from '../../types'
+
+const lang: Lang = 'tr'
+const siteBase = 'https://news.wecult.app'
+const pageUrl = `${siteBase}/tr/search`
+
+const langArticles = getByLang(allArticles, lang)
+
+const catColors: Record<string, string> = {
+  games: 'var(--cat-games)',
+  film:  'var(--cat-film)',
+  tv:    'var(--cat-tv)',
+  books: 'var(--cat-books)',
+}
+
+const catChips = [
+  { key: 'all',   label: 'Tümü'      },
+  { key: 'games', label: '🎮 Oyun'   },
+  { key: 'film',  label: '🎬 Film'   },
+  { key: 'tv',    label: '📺 Dizi'   },
+  { key: 'books', label: '📚 Kitap'  },
+]
+---
+
+<Base
+  title="Arama"
+  description="WeCult News'de ara — oyun, film, dizi ve kitap haberlerini bul."
+  lang={lang}
+  canonicalUrl={pageUrl}
+  hreflang={{ en: `${siteBase}/search`, tr: pageUrl }}
+>
+  <div class="sp-page">
+
+    <!-- ── Search banner ─────────────────────────── -->
+    <div class="sp-banner">
+      <div class="container">
+        <div class="sp-banner-inner">
+          <h1 class="sp-title">Arama</h1>
+          <div class="sp-bar">
+            <svg width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <input
+              id="sp-input"
+              type="search"
+              placeholder="Makale, oyun, film, dizi, kitap ara..."
+              class="sp-input"
+              autocomplete="off"
+              autofocus
+            />
+            <button id="sp-clear" class="sp-clear" aria-label="Temizle" style="display:none">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M1 1l10 10M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </button>
+          </div>
+          <div class="sp-chips">
+            {catChips.map((c, i) => (
+              <button
+                class={`sp-chip${i === 0 ? ' is-active' : ''}`}
+                data-cat={c.key}
+                style={c.key !== 'all' ? `--chip-color:${catColors[c.key]}` : ''}
+              >
+                {c.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Results ────────────────────────────────── -->
+    <div class="container sp-results-wrap">
+      <div class="sp-meta">
+        <span id="sp-count" class="sp-count"></span>
+      </div>
+
+      <div id="sp-empty" class="sp-empty" hidden>
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <circle cx="18" cy="18" r="12" stroke="currentColor" stroke-width="2" opacity="0.25"/>
+          <path d="M27 27L36 36" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+        </svg>
+        <p>"<strong id="sp-query-text"></strong>" için sonuç bulunamadı</p>
+        <span>Farklı bir arama terimi veya kategori deneyin</span>
+      </div>
+
+      <div class="sp-grid" id="sp-grid">
+        {langArticles.map(a => (
+          <div
+            class="sp-item"
+            data-title={(a.translations.tr?.title ?? a.translations.en?.title ?? '').toLowerCase()}
+            data-tags={a.tags.join(' ').toLowerCase()}
+            data-cat={a.category}
+          >
+            <ArticleCard article={a} lang={lang} size="default" />
+          </div>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</Base>
+
+<script>
+  const input   = document.getElementById('sp-input') as HTMLInputElement
+  const grid    = document.getElementById('sp-grid')!
+  const countEl = document.getElementById('sp-count')!
+  const emptyEl = document.getElementById('sp-empty')!
+  const queryTextEl = document.getElementById('sp-query-text')!
+  const clearBtn    = document.getElementById('sp-clear')!
+  const chips   = document.querySelectorAll<HTMLButtonElement>('.sp-chip')
+  const items   = Array.from(grid.querySelectorAll<HTMLElement>('.sp-item'))
+
+  let currentQuery = ''
+  let currentCat   = 'all'
+
+  const params   = new URLSearchParams(location.search)
+  const initialQ = params.get('q') ?? ''
+  if (initialQ) {
+    input.value  = initialQ
+    currentQuery = initialQ.toLowerCase().trim()
+  }
+
+  function filter() {
+    let visible = 0
+    for (const item of items) {
+      const title = item.dataset.title ?? ''
+      const tags  = item.dataset.tags  ?? ''
+      const cat   = item.dataset.cat   ?? ''
+      const matchQ   = !currentQuery || title.includes(currentQuery) || tags.includes(currentQuery)
+      const matchCat = currentCat === 'all' || cat === currentCat
+      const show = matchQ && matchCat
+      item.style.display = show ? '' : 'none'
+      if (show) visible++
+    }
+
+    if (currentQuery || currentCat !== 'all') {
+      countEl.textContent = `${visible} sonuç`
+    } else {
+      countEl.textContent = `${items.length} makale`
+    }
+
+    emptyEl.hidden = visible > 0
+    queryTextEl.textContent = currentQuery
+
+    clearBtn.style.display = currentQuery ? '' : 'none'
+
+    const url = new URL(location.href)
+    if (currentQuery) url.searchParams.set('q', currentQuery)
+    else url.searchParams.delete('q')
+    history.replaceState(null, '', url)
+  }
+
+  input.addEventListener('input', () => {
+    currentQuery = input.value.trim().toLowerCase()
+    filter()
+  })
+
+  clearBtn.addEventListener('click', () => {
+    input.value  = ''
+    currentQuery = ''
+    filter()
+    input.focus()
+  })
+
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('is-active'))
+      chip.classList.add('is-active')
+      currentCat = chip.dataset.cat ?? 'all'
+      filter()
+    })
+  })
+
+  filter()
+</script>

@@ -15,6 +15,8 @@ const STATIC_PAGES = [
   { loc: `${BASE}/tr/film`,    priority: '0.7', changefreq: 'hourly'  },
   { loc: `${BASE}/tr/tv`,      priority: '0.7', changefreq: 'hourly'  },
   { loc: `${BASE}/tr/books`,   priority: '0.7', changefreq: 'hourly'  },
+  { loc: `${BASE}/search`,     priority: '0.6', changefreq: 'daily'   },
+  { loc: `${BASE}/tr/search`,  priority: '0.5', changefreq: 'daily'   },
   { loc: `${BASE}/about`,      priority: '0.5', changefreq: 'monthly' },
   { loc: `${BASE}/contact`,    priority: '0.5', changefreq: 'monthly' },
   { loc: `${BASE}/privacy`,    priority: '0.3', changefreq: 'monthly' },
