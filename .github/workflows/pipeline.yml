@@ -2,7 +2,7 @@ name: News Pipeline
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Her saat 1 makale — 7/24, günde max 48 Gemini çağrısı (limitin %4.8)
+    - cron: '17 * * * *'  # Her saat 1 makale — saat başı değil (GitHub yoğunluğundan kaçınmak için)
   workflow_dispatch:          # Manuel tetikleme (Actions sekmesinden "Run workflow")
 
 jobs:

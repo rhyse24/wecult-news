@@ -3,7 +3,7 @@ import { parseStringPromise } from 'xml2js';
 export async function fetchFeed(source, maxItems = 3) {
   const res = await fetch(source.url, {
     headers: { 'User-Agent': 'WeCultNews/1.0 (+https://wecult.app/news)' },
-    signal: AbortSignal.timeout(10000),
+    signal: AbortSignal.timeout(50000),
   });
 
   if (!res.ok) {
@@ -23,7 +23,7 @@ export async function fetchFeed(source, maxItems = 3) {
     ? Array.isArray(channel.entry) ? channel.entry : [channel.entry]
     : [];
 
-  return items.slice(0, maxItems * 3).map(item => {
+  return items.slice(0, maxItems * 5).map(item => {
     const rawHtml = item['content:encoded'] || item.content?._ || item.description || item.summary || '';
     return {
       title: item.title?._ || item.title || '',
