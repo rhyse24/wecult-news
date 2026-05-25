@@ -78,6 +78,8 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: `${siteBase}/favicon.svg` },
   },
   inLanguage: 'tr',
+  articleSection: article.category.charAt(0).toUpperCase() + article.category.slice(1),
+  keywords: article.tags.join(', '),
 }
 
 const summaryIsBodyDup = tr?.summary && tr?.body &&
@@ -134,7 +136,7 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
 
     {article.cover_image && (
       <div class="article-hero">
-        <img src={article.cover_image} alt={tr?.title} />
+        <img src={article.cover_image} alt={tr?.title} fetchpriority="high" decoding="async" width="1200" height="630" />
         <div class="article-hero-overlay"></div>
       </div>
     )}

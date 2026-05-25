@@ -37,6 +37,10 @@ export const GET: APIRoute = () => {
       const translations = a.translations as Record<string, { title?: string } | null> | undefined
       const title = escapeXml((a.original_title as string) || translations?.en?.title || '')
       const pubDate = new Date(a.published_at as string).toISOString()
+      const imageUrl = (a.image_url as string) || ''
+      const imageTag = imageUrl
+        ? `\n    <image:image>\n      <image:loc>${imageUrl}</image:loc>\n    </image:image>`
+        : ''
       return `  <url>
     <loc>${base}/article/${a.slug}</loc>
     <lastmod>${pubDate}</lastmod>
@@ -47,14 +51,15 @@ export const GET: APIRoute = () => {
       </news:publication>
       <news:publication_date>${pubDate}</news:publication_date>
       <news:title>${title}</news:title>
-    </news:news>
+    </news:news>${imageTag}
   </url>`
     }).join('\n')
 
   // Return empty but valid sitemap when no recent articles exist
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${items}
 </urlset>`
 

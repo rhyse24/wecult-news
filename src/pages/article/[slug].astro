@@ -68,6 +68,8 @@ const articleSchema = {
   dateModified: article.published_at,
   url: pageUrl,
   inLanguage: 'en',
+  articleSection: article.category.charAt(0).toUpperCase() + article.category.slice(1),
+  keywords: article.tags.join(', '),
   mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
   author: [
     { '@type': 'Person', name: article.author || 'WeCult Editorial', url: `${siteBase}/about` },
@@ -137,7 +139,7 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
     <!-- Hero image -->
     {article.cover_image && (
       <div class="article-hero">
-        <img src={article.cover_image} alt={tr?.title} />
+        <img src={article.cover_image} alt={tr?.title} fetchpriority="high" decoding="async" width="1200" height="630" />
         <div class="article-hero-overlay"></div>
       </div>
     )}
