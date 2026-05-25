@@ -72,13 +72,17 @@ const articleSchema = {
   keywords: article.tags.join(', '),
   mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
   author: [
-    { '@type': 'Person', name: article.author || 'WeCult Editorial', url: `${siteBase}/about` },
+    { '@type': 'Person', name: article.author || 'WeCult Editorial', url: `${siteBase}/author/wecult-editorial` },
     { '@type': 'Organization', name: 'WeCult News', url: siteBase },
   ],
   publisher: {
     '@type': 'Organization',
     name: 'WeCult News',
     logo: { '@type': 'ImageObject', url: `${siteBase}/favicon.svg` },
+  },
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1.article-title', '.article-content p:first-of-type'],
   },
 }
 
@@ -126,6 +130,7 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
   description={tr?.summary ?? ''}
   lang={lang}
   ogImage={article.cover_image ?? undefined}
+  preloadImage={article.cover_image ?? undefined}
   canonicalUrl={pageUrl}
   hreflang={{ en: pageUrl, tr: trPageUrl }}
   schema={[breadcrumbSchema, articleSchema]}
