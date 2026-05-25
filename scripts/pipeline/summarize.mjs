@@ -243,7 +243,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
       const truncated = isTruncated(body);
       const headings = countHeadings(body);
 
-      if (words < 400) {
+      if (words < 450) {
         console.warn(`  [gemini-en attempt ${attempt}] body too short: ${words} words`);
         if (attempt < 3) { await sleep(attempt * 15000); continue; }
         throw new Error('EN body too short after all attempts');
