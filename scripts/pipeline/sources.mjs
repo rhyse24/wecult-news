@@ -64,7 +64,7 @@ export const SOURCES = [
 
   // ── Books ─────────────────────────────────────────────────────────────
   // Tier 1 — Trade publications
-  { url: 'https://www.publishersweekly.com/pw/feeds/rss/pw_publishing_news.xml', category: 'books', name: 'Publishers Weekly', tier: 1 },
+  { url: 'https://electricliterature.com/feed/',                                  category: 'books', name: 'Electric Literature', tier: 2 },
   { url: 'https://rss.nytimes.com/services/xml/rss/nyt/Books.xml',               category: 'books', name: 'NY Times Books',    tier: 1 },
 
   // Tier 2 — Standard book news

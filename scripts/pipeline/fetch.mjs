@@ -12,7 +12,13 @@ export async function fetchFeed(source, maxItems = 3) {
   }
 
   const xml = await res.text();
-  const parsed = await parseStringPromise(xml, { explicitArray: false });
+  let parsed;
+  try {
+    parsed = await parseStringPromise(xml, { explicitArray: false });
+  } catch {
+    console.warn(`[fetch] ${source.name} — malformed XML, skipping`);
+    return [];
+  }
 
   const channel = parsed?.rss?.channel || parsed?.feed;
   if (!channel) return [];
