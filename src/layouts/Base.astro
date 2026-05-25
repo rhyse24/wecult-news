@@ -25,6 +25,8 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="sitemap" href="/news-sitemap.xml" />
     {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
     {hreflang && <>
       <link rel="alternate" hreflang="en" href={hreflang.en} />
