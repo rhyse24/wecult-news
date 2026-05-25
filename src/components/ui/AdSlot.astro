@@ -33,6 +33,7 @@ const cfg = configs[type]
   id={slotId}
   data-pushed="false"
   aria-label="Reklam alanı"
+  style="display:none"
 >
   <div class="ad-slot-header">
     <span class="ad-slot-label">{cfg.label}</span>
@@ -82,6 +83,7 @@ const cfg = configs[type]
   function doPush() {
     if (wrap.dataset.pushed === 'true') return
     wrap.dataset.pushed = 'true'
+    wrap.style.display = ''
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({})
     } catch(e) {}
