@@ -48,6 +48,16 @@ const trPageUrl = `${siteBase}/tr/article/${article.slug}`
 const shareTitle = encodeURIComponent(tr?.title ?? '')
 const shareUrl = encodeURIComponent(pageUrl)
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteBase },
+    { '@type': 'ListItem', position: 2, name: article.category.charAt(0).toUpperCase() + article.category.slice(1), item: `${siteBase}/${article.category}` },
+    { '@type': 'ListItem', position: 3, name: tr?.title ?? '', item: pageUrl },
+  ],
+}
+
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'NewsArticle',
@@ -116,7 +126,7 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
   ogImage={article.cover_image ?? undefined}
   canonicalUrl={pageUrl}
   hreflang={{ en: pageUrl, tr: trPageUrl }}
-  schema={articleSchema}
+  schema={[breadcrumbSchema, articleSchema]}
 >
 
   <!-- Scroll progress bar (category color) -->

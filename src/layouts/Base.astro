@@ -12,7 +12,7 @@ interface Props {
   ogImage?: string
   canonicalUrl?: string
   hreflang?: { en: string; tr: string }
-  schema?: Record<string, unknown>
+  schema?: Record<string, unknown> | Record<string, unknown>[]
 }
 
 const { title, description = 'Entertainment news, curated by AI', lang, ogImage, canonicalUrl, hreflang, schema } = Astro.props
@@ -26,7 +26,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <link rel="sitemap" href="/news-sitemap.xml" />
+    <link rel="sitemap" href="/sitemap.xml" />
     {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
     {hreflang && <>
       <link rel="alternate" hreflang="en" href={hreflang.en} />
@@ -37,13 +37,31 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     <meta property="og:description" content={description} />
     {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
     {ogImage && <meta property="og:image" content={ogImage} />}
+    {ogImage && <meta property="og:image:width" content="1200" />}
+    {ogImage && <meta property="og:image:height" content="630" />}
+    {ogImage && <meta property="og:image:type" content="image/jpeg" />}
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="WeCult News" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@wecultapp" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     {ogImage && <meta name="twitter:image" content={ogImage} />}
     {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: 'WeCult News',
+      url: 'https://news.wecult.app',
+      description: 'Entertainment news covering film, TV, games, and books — curated by AI.',
+      publisher: {
+        '@type': 'Organization',
+        name: 'WeCult News',
+        url: 'https://news.wecult.app',
+        logo: { '@type': 'ImageObject', url: 'https://news.wecult.app/favicon.svg' },
+      },
+      inLanguage: lang,
+    })} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://images.unsplash.com" />

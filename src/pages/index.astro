@@ -25,7 +25,13 @@ const catColors: Record<string, string> = {
 }
 ---
 
-<Base title="Home" lang={lang}>
+<Base
+  title="Home"
+  lang={lang}
+  canonicalUrl="https://news.wecult.app/"
+  hreflang={{ en: 'https://news.wecult.app/', tr: 'https://news.wecult.app/tr/' }}
+  description={t(lang, 'tagline')}
+>
 <div class="hp-page">
 
   <!-- ── Hero: carousel + latest sidebar ─── -->
