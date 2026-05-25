@@ -1,9 +1,6 @@
 name: News Pipeline
 
 on:
-  schedule:
-    - cron: '17 * * * *'  # Birincil — GitHub'ın skip etmesine karşı yedekli
-    - cron: '47 * * * *'  # Yedek — biri atlanırsa diğeri çalışır
   workflow_dispatch:          # Manuel tetikleme (Actions sekmesinden "Run workflow")
 
 jobs:
