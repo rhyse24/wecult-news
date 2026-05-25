@@ -181,23 +181,26 @@ function scoreArticle(article) {
   return score;
 }
 
-console.log('[pipeline] Fetching RSS feeds...');
-const allArticles = [];
+console.log('[pipeline] Fetching RSS feeds (parallel)...');
+const feedResults = await Promise.allSettled(
+  SOURCES.map(source => fetchFeed(source, MAX_PER_SOURCE).then(items => ({ source, items })))
+);
 
-for (const source of SOURCES) {
-  try {
-    const items = await fetchFeed(source, MAX_PER_SOURCE);
-    const fresh = items.filter(a => {
-      if (seen.has(a.link)) return false;
-      const ageHours = (Date.now() - new Date(a.pubDate).getTime()) / 3600000;
-      if (ageHours > MAX_ARTICLE_AGE_HOURS) return false;
-      return true;
-    });
-    console.log(`  ${source.name}: ${fresh.length} new / ${items.length} total`);
-    allArticles.push(...fresh);
-  } catch (err) {
-    console.warn(`  [skip] ${source.name}: ${err.message}`);
+const allArticles = [];
+for (const result of feedResults) {
+  if (result.status === 'rejected') {
+    console.warn(`  [skip] feed error: ${result.reason?.message?.slice(0, 60)}`);
+    continue;
   }
+  const { source, items } = result.value;
+  const fresh = items.filter(a => {
+    if (seen.has(a.link)) return false;
+    const ageHours = (Date.now() - new Date(a.pubDate).getTime()) / 3600000;
+    if (ageHours > MAX_ARTICLE_AGE_HOURS) return false;
+    return true;
+  });
+  console.log(`  ${source.name}: ${fresh.length} new / ${items.length} total`);
+  allArticles.push(...fresh);
 }
 
 // Deduplicate by title — same story from multiple sources
