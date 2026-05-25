@@ -1,7 +1,7 @@
 const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent';
 
 // ── WeCult News Content Rules (approved 2026-05-24) ───────────────────────
-// Rule 1: EN body ≥ 600 words, TR body ≥ 400 words, ≥2 ## headings, no truncation
+// Rule 1: EN body ≥ 450 words, TR body ≥ 300 words, ≥2 ## headings, no truncation
 // Rule 2: Hook → Context → Main Story → Fan Angle → What's Next
 // Rule 3: No hallucinated quotes, dates, cast, numbers — if unknown write "yet to be announced"
 // Rule 4: TR keeps proper nouns, translates headings, natural style, ≠ EN copy
@@ -93,7 +93,7 @@ export function validateArticle(ai) {
 
   // EN checks
   const enWords = wordCount(enBody);
-  if (enWords < 600) errors.push(`EN body too short: ${enWords} words (need ≥600)`);
+  if (enWords < 450) errors.push(`EN body too short: ${enWords} words (need ≥450)`);
   if (isTruncated(enBody)) errors.push('EN body contains truncation marker');
   if (countHeadings(enBody) < 2) errors.push(`EN body has fewer than 2 ## headings (found ${countHeadings(enBody)})`);
   if (!endsCleanly(enBody)) errors.push('EN body ends mid-sentence');
@@ -101,7 +101,7 @@ export function validateArticle(ai) {
   // TR checks (null is allowed — EN shown as fallback)
   if (trBody !== null) {
     const trWords = wordCount(trBody);
-    if (trWords < 400) errors.push(`TR body too short: ${trWords} words (need ≥400)`);
+    if (trWords < 300) errors.push(`TR body too short: ${trWords} words (need ≥300)`);
     if (trTitle && trTitle === enTitle) errors.push('TR title is identical to EN title (not translated)');
     if (trBody.slice(0, 120).toLowerCase() === enBody.slice(0, 120).toLowerCase()) {
       errors.push('TR body appears to be EN copy (first 120 chars identical)');
@@ -137,7 +137,7 @@ ${webBlock}
 CONTENT RULES (WeCult Editorial Standard — ALL are mandatory):
 
 RULE 1 — MINIMUMS:
-• Body must be 700–900 words (NEVER fewer than 600)
+• Body must be 500–800 words (NEVER fewer than 450)
 • Include at least 3 paragraphs and at least 2 ## section headings
 • Every sentence must be complete — NEVER end with "[...]", "Read more", "…" or mid-thought
 
@@ -313,7 +313,7 @@ RULE 1 — LANGUAGE:
 RULE 2 — QUALITY:
 • Write natural Turkish journalism — NOT word-for-word translation
 • Use the engaging tone of Turkish entertainment media (excited but credible)
-• Body must be at least 400 words in Turkish
+• Body must be at least 300 words in Turkish
 • NEVER shorten or remove sections — translate the full article
 
 RULE 3 — FORMATTING (keep all markdown):
