@@ -61,7 +61,7 @@ const OFF_TOPIC_PATTERNS = [
 ];
 
 function isQuality(article) {
-  if (article.content.length < 300) return false;
+  if (article.content.length < 80) return false; // Gemini+Tavily fills the gaps, just need topic identification
   const title = article.title.toLowerCase();
   for (const pattern of LOW_QUALITY_PATTERNS) {
     if (pattern.test(title)) return false;

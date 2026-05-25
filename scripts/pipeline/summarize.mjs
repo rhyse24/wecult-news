@@ -208,6 +208,13 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
 
       const data = await res.json();
       const raw = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      if (!raw) {
+        const reason = data.candidates?.[0]?.finishReason || data.promptFeedback?.blockReason || 'empty';
+        console.warn(`  [gemini-en attempt ${attempt}] empty response — ${reason}`);
+        if (reason === 'SAFETY') throw new Error('Gemini EN blocked by safety filter');
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
+        throw new Error('Gemini EN empty response');
+      }
       const cleaned = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/, '').trim();
 
       let parsed;
@@ -325,6 +332,12 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
 
       const data = await res.json();
       const raw = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      if (!raw) {
+        const reason = data.candidates?.[0]?.finishReason || data.promptFeedback?.blockReason || 'empty';
+        console.warn(`  [gemini-tr attempt ${attempt}] empty response — ${reason}`);
+        if (reason === 'SAFETY' || attempt >= 3) return null;
+        await sleep(attempt * 15000); continue;
+      }
       const cleaned = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/, '').trim();
 
       let parsed;
