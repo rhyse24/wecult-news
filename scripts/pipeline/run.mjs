@@ -133,25 +133,22 @@ if (deduped.length < allArticles.length) {
 deduped.sort((a, b) => scoreArticle(b) - scoreArticle(a));
 
 // Equal distribution across categories — keep up to 2 candidates per category for fallback
-const CANDIDATES_PER_CATEGORY = 2;
+// One top article per category, then pick the highest-scored one
 const byCategory = {};
 for (const a of deduped) {
   if (!byCategory[a.category]) byCategory[a.category] = [];
-  if (byCategory[a.category].length < CANDIDATES_PER_CATEGORY) byCategory[a.category].push(a);
+  if (byCategory[a.category].length < 1) byCategory[a.category].push(a);
 }
-// Build candidate pool: up to 2 per category, ordered so categories alternate (variety across runs)
-const candidatePool = [];
-for (let i = 0; i < CANDIDATES_PER_CATEGORY; i++) {
-  for (const arr of Object.values(byCategory)) {
-    if (arr[i]) candidatePool.push(arr[i]);
-  }
-}
+// Candidate pool: 1 per category (max 4 total) — if first fails, try next category's pick
+const candidatePool = Object.values(byCategory).map(arr => arr[0]).filter(Boolean);
 const dist = Object.entries(byCategory).map(([c, arr]) => `${c}:${arr.length}`).join(' ');
 console.log(`[pipeline] Candidate pool: ${candidatePool.length} articles (${dist}), target: ${MAX_TOTAL}`);
 
 let saved = 0;
+let quotaExhausted = false;
 for (const article of candidatePool) {
   if (saved >= MAX_TOTAL) break;
+  if (quotaExhausted) break;
   try {
     // Image fallback chain: RSS → og:image → TMDB/IGDB → Wikipedia
     if (!article.image_url) {
@@ -179,6 +176,11 @@ for (const article of candidatePool) {
       ai = await summarizeArticle(article, GEMINI_API_KEY, webContext);
     } catch (geminiErr) {
       console.warn(`  [gemini-fail] ${geminiErr.message.slice(0, 80)}`);
+      if (geminiErr.message.includes('429')) {
+        console.warn(`  [quota] Gemini quota exhausted — stopping pipeline early`);
+        quotaExhausted = true;
+        break;
+      }
       // Rule 5: RSS teaser without Gemini expansion = useless, skip
       if (article.content.length < 600 || isTruncated(article.content)) {
         console.warn(`  [skip] ${article.title.slice(0, 50)} — Gemini failed + RSS too short/truncated`);
