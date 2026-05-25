@@ -307,6 +307,19 @@ runLog.articlesWritten = saved;
 runLog.quotaExhausted = quotaExhausted;
 runLog.status = quotaExhausted ? 'quota' : saved > 0 ? 'success' : 'filtered';
 
+// Açıklama: neden makale yazılmadı
+if (saved === 0 && !quotaExhausted) {
+  if (allArticles.length === 0) {
+    runLog.filterNote = 'RSS kaynaklarında yeni içerik bulunamadı';
+  } else if (candidatePool.length === 0) {
+    runLog.filterNote = `${allArticles.length} RSS içeriği bulundu ancak tümü daha önce görülmüş veya çok eski`;
+  } else if (runLog.rejected.length > 0) {
+    runLog.filterNote = `${candidatePool.length} aday işlendi, tümü kalite/hallüsinasyon kontrolünden geçemedi`;
+  } else {
+    runLog.filterNote = `${allArticles.length} RSS içeriği bulundu, ${candidatePool.length} aday değerlendirildi`;
+  }
+}
+
 let existingLog = { totalArticles: 0, runs: [] };
 try {
   if (existsSync(LOG_FILE)) existingLog = JSON.parse(readFileSync(LOG_FILE, 'utf8'));
