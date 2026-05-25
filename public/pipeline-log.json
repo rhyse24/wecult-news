@@ -1,0 +1,45 @@
+{
+  "totalArticles": 1,
+  "runs": [
+    {
+      "timestamp": "2026-05-25T14:27:57.552Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 32,
+      "totalCandidates": 4,
+      "written": [
+        {
+          "title": "Lebanese Comic John Achkar’s Special at L’Olympia Hall Acquired by Arabic Streamer MBC Shahid in ‘Milestone’ for Arabic Stand-Up",
+          "category": "film",
+          "source": "Variety",
+          "score": 5,
+          "slug": "729ba738-lebanese-comic-john-achkars-special-at-lolympia-hall-acquire"
+        }
+      ],
+      "rejected": [
+        {
+          "title": " Helldivers 2 begins the long march back into the community's good books with a technical patch that represents the 'opening salvo' in a battle for better performance ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 6,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body has fewer than 2 ## headings (found 0)"
+          ]
+        },
+        {
+          "title": "Spider-Noir Review: Spider-Man Does Whatever Bogie Can",
+          "category": "tv",
+          "source": "Den of Geek",
+          "score": 6,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body has fewer than 2 ## headings (found 0)"
+          ]
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2026-05-25T14:27:57.552Z"
+}
