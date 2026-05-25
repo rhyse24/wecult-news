@@ -130,10 +130,11 @@ function scoreArticle(article) {
   for (const word of titleWords) {
     if (trending.includes(word)) score += 2;
   }
-  // Google Trends match — cross-platform popularity signal
+  // Google Trends match — fuzzy: any title word appears in any trending phrase
   if (googleTrendsText) {
+    const trendsWords = googleTrendsText.split(/\s+/).filter(w => w.length > 4);
     for (const word of titleWords) {
-      if (googleTrendsText.includes(word)) score += 3;
+      if (trendsWords.some(tw => tw.includes(word) || word.includes(tw))) { score += 3; break; }
     }
   }
   // Recency bonus
@@ -182,18 +183,18 @@ if (deduped.length < allArticles.length) {
 }
 
 // Score and sort — trending articles bubble to top
-deduped.sort((a, b) => scoreArticle(b) - scoreArticle(a));
+const MIN_SCORE = 2;
+const scored = deduped.map(a => ({ ...a, _score: scoreArticle(a) }));
+const aboveThreshold = scored.filter(a => a._score >= MIN_SCORE);
+const pool = (aboveThreshold.length > 0 ? aboveThreshold : scored).sort((a, b) => b._score - a._score);
 
-// Equal distribution across categories — keep up to 2 candidates per category for fallback
-// One top article per category, then pick the highest-scored one
-const byCategory = {};
-for (const a of deduped) {
-  if (!byCategory[a.category]) byCategory[a.category] = [];
-  if (byCategory[a.category].length < 1) byCategory[a.category].push(a);
+if (aboveThreshold.length === 0) {
+  console.log(`[pipeline] No articles above score threshold (${MIN_SCORE}), using top scored as fallback`);
 }
-// Candidate pool: 1 per category (max 4 total) — if first fails, try next category's pick
-const candidatePool = Object.values(byCategory).map(arr => arr[0]).filter(Boolean);
-const dist = Object.entries(byCategory).map(([c, arr]) => `${c}:${arr.length}`).join(' ');
+
+// Top 6 by score globally — no category cap, best article wins
+const candidatePool = pool.slice(0, 6);
+const dist = candidatePool.map(a => `${a.category}:${a._score}`).join(' ');
 console.log(`[pipeline] Candidate pool: ${candidatePool.length} articles (${dist}), target: ${MAX_TOTAL}`);
 runLog.totalFetched = allArticles.length;
 runLog.totalCandidates = candidatePool.length;
