@@ -47,7 +47,7 @@ export const SOURCES = [
   // ── TV ────────────────────────────────────────────────────────────────
   // Tier 1 — Premium trade/news-first
   { url: 'https://tvline.com/feed/',                               category: 'tv',    name: 'TVLine',             tier: 1 },
-  { url: 'https://deadline.com/feed/',                             category: 'tv',    name: 'Deadline TV',        tier: 1 },
+  { url: 'https://variety.com/v/tv/feed/',                         category: 'tv',    name: 'Variety TV',         tier: 1 },
 
   // Tier 2 — Standard TV news
   { url: 'https://www.vulture.com/feed/all.xml',                   category: 'tv',    name: 'Vulture',            tier: 2 },

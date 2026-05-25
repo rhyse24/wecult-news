@@ -4,7 +4,7 @@ import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
 import { summarizeArticle, validateArticle, isTruncated, titleEntityPresent } from './summarize.mjs';
 import { searchContext, scrapeOgImage, searchTmdbImage, searchIgdbImage, searchInlineImage, searchOpenLibraryImage } from './search.mjs';
-import { SOURCES, MAX_PER_SOURCE, MAX_PER_CATEGORY, MAX_TOTAL } from './sources.mjs';
+import { SOURCES, MAX_PER_SOURCE, MAX_TOTAL } from './sources.mjs';
 
 // ── Title dedup helpers (must be before first use) ──────────────────
 const TITLE_STOP_WORDS = new Set(['the','and','for','with','from','that','this','have','will','what','when','your','their','about','more','into','over','after','then','them','some','these','than','been','were','said','also','just','like','very','only','even','such','both','here']);
