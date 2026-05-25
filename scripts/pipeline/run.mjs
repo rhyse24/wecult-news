@@ -228,8 +228,12 @@ if (aboveThreshold.length === 0) {
   console.log(`[pipeline] No articles above score threshold (${MIN_SCORE}), using top scored as fallback`);
 }
 
-// Top 6 by score globally — no category cap, best article wins
-const candidatePool = pool.slice(0, 6);
+// Category reserve: top 1 per category guaranteed, then fill with global top scorers
+const categories = ['games', 'film', 'tv', 'books'];
+const reserved = categories.map(cat => pool.find(a => a.category === cat)).filter(Boolean);
+const reservedLinks = new Set(reserved.map(a => a.link));
+const globalTop = pool.filter(a => !reservedLinks.has(a.link)).slice(0, 2);
+const candidatePool = [...reserved, ...globalTop].sort((a, b) => b._score - a._score);
 const dist = candidatePool.map(a => `${a.category}:${a._score}`).join(' ');
 console.log(`[pipeline] Candidate pool: ${candidatePool.length} articles (${dist}), target: ${MAX_TOTAL}`);
 runLog.totalFetched = allArticles.length;
