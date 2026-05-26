@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro'
+import HomeStyles from '../components/layout/HomeStyles.astro'
 import ArticleCard from '../components/article/ArticleCard.astro'
 import AdSlot from '../components/ui/AdSlot.astro'
 import { t, getLangFromUrl, getLocalizedPath } from '../lib/i18n'
@@ -168,10 +169,9 @@ const catColors: Record<string, string> = {
   }
 </script>
 
-<style is:global>
-  .hp-page { padding-bottom: 0; }
+<HomeStyles />
 
-  /* ── Hero ─────────────────────────────────── */
+<style is:global>
   .hp-hero {
     display: grid;
     grid-template-columns: 1fr 272px;

@@ -1,141 +1,7 @@
----
-import Base from '../../layouts/Base.astro'
-import HomeStyles from '../../components/layout/HomeStyles.astro'
-import ArticleCard from '../../components/article/ArticleCard.astro'
-import AdSlot from '../../components/ui/AdSlot.astro'
-import { t, getLocalizedPath } from '../../lib/i18n'
-import { articles as mockArticles, getByLang } from '../../lib/articles'
-import type { Lang } from '../../types'
-
-const lang: Lang = 'es'
-const langArticles = getByLang(mockArticles, lang)
-const articles = langArticles.length >= 3 ? langArticles : mockArticles
-
-const sorted = [...articles].sort(
-  (a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
-)
-
-const carouselArticles = sorted.slice(0, 3)
-const gridArticles     = sorted
-const trendingArticles = sorted.slice(0, 5)
-const tickerTags       = [...new Set(mockArticles.flatMap(a => a.tags))].slice(0, 14)
-
-const catColors: Record<string, string> = {
-  games: 'var(--cat-games)', film: 'var(--cat-film)',
-  tv: 'var(--cat-tv)', books: 'var(--cat-books)',
-}
----
-
-<Base
-  title="Inicio"
-  lang={lang}
-  canonicalUrl="https://news.wecult.app/es/"
-  hreflang={{ en: 'https://news.wecult.app/', tr: 'https://news.wecult.app/tr/' }}
-  description={t(lang, 'tagline')}
->
-<div class="hp-page">
-
-  <div class="container">
-    <div class="hp-hero">
-
-      <div class="hp-hero-main">
-        <div class="carousel" id="hero-carousel">
-          {carouselArticles.map((a, i) => (
-            <div class={`carousel-slide${i === 0 ? ' is-active' : ''}`} data-index={i}>
-              <ArticleCard article={a} lang={lang} size="hero" />
-            </div>
-          ))}
-          <div class="carousel-controls">
-            <div class="carousel-dots">
-              {carouselArticles.map((_, i) => (
-                <button class={`carousel-dot${i === 0 ? ' is-active' : ''}`} data-index={i} aria-label={`Diapositiva ${i + 1}`}></button>
-              ))}
-            </div>
-            <div class="carousel-arrows">
-              <button class="carousel-arrow" id="prev-btn" aria-label="Anterior">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <path d="M9 11L5 7l4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </button>
-              <button class="carousel-arrow" id="next-btn" aria-label="Siguiente">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <path d="M5 3l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <aside class="hp-hero-sidebar">
-        <div class="hs-label">
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1l1.2 2.4L10 3.9l-2 1.95.47 2.75L6 7.4l-2.47 1.2L4 5.85 2 3.9l2.8-.5L6 1z" fill="#c9a84c"/></svg>
-          Tendencias
-        </div>
-        <ol class="hs-trending-list">
-          {trendingArticles.map(a => (
-            <ArticleCard article={a} lang={lang} size="mini" />
-          ))}
-        </ol>
-      </aside>
-
-    </div>
-  </div>
-
-  <div class="ticker-wrap" aria-hidden="true">
-    <div class="ticker-inner">
-      {tickerTags.map(tag => (
-        <a href={getLocalizedPath(lang, `/tag/${tag.toLowerCase().replace(/\s+/g, '-')}`)} class="ticker-tag">
-          <span class="ticker-sep">✦</span>{tag}
-        </a>
-      ))}
-      {tickerTags.map(tag => (
-        <a href={getLocalizedPath(lang, `/tag/${tag.toLowerCase().replace(/\s+/g, '-')}`)} class="ticker-tag" tabindex="-1">
-          <span class="ticker-sep">✦</span>{tag}
-        </a>
-      ))}
-    </div>
-  </div>
-
-  <div class="hp-body-section">
-  <div class="hp-body-fade"></div>
-  <div class="container">
-
-    <div class="section-header">
-      <div class="section-header-left">
-        <h2 class="section-title">Todas las Noticias</h2>
-        <p class="section-subtitle">Noticias de entretenimiento curadas por IA</p>
-      </div>
-      <span class="story-count">{gridArticles.length} noticias</span>
-    </div>
-
-    <div class="story-grid">
-      {gridArticles.map((a, i) => {
-        if (i === 0) return (
-          <div class="story-lead" style={`--card-accent:${catColors[a.category]}`}>
-            <ArticleCard article={a} lang={lang} size="featured" />
-          </div>
-        )
-        if (i === 5) return (
-          <Fragment>
-            <AdSlot type="rectangle" class="story-grid-ad" />
-            <ArticleCard article={a} lang={lang} size="default" />
-          </Fragment>
-        )
-        return <ArticleCard article={a} lang={lang} size="default" />
-      })}
-    </div>
-
-    <AdSlot type="horizontal" class="story-bottom-ad" />
-
-  </div>
-  </div>
-
-</div>
-</Base>
-
 <style is:global>
   .hp-page { padding-bottom: 0; }
+
+  /* ── Hero ─────────────────────────────────── */
   .hp-hero {
     display: grid;
     grid-template-columns: 1fr 272px;
@@ -177,6 +43,8 @@ const catColors: Record<string, string> = {
     margin-bottom: 0.125rem;
   }
   .hs-trending-list { counter-reset: trending-counter; list-style: none; padding: 0; margin: 0; }
+
+  /* ── Carousel ─────────────────────────────── */
   .carousel {
     position: relative;
     border-radius: var(--radius-xl);
@@ -184,7 +52,9 @@ const catColors: Record<string, string> = {
     aspect-ratio: 16/9;
     background: var(--bg-card);
     border: 1px solid color-mix(in srgb, var(--accent) 14%, var(--border-subtle));
-    box-shadow: 0 4px 32px rgba(0,0,0,0.65), 0 16px 56px rgba(0,0,0,0.4);
+    box-shadow:
+      0 4px 32px rgba(0,0,0,0.65),
+      0 16px 56px rgba(0,0,0,0.4);
   }
   .carousel-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 0.6s ease; pointer-events: none; }
   .carousel-slide.is-active { opacity: 1; pointer-events: auto; }
@@ -214,6 +84,8 @@ const catColors: Record<string, string> = {
     transition: background 0.15s;
   }
   .carousel-arrow:hover { background: rgba(255,255,255,0.24); }
+
+  /* ── Ticker ───────────────────────────────── */
   .ticker-wrap {
     overflow: hidden;
     border-top: 1px solid color-mix(in srgb, var(--accent) 12%, var(--border-subtle));
@@ -234,6 +106,8 @@ const catColors: Record<string, string> = {
   .ticker-tag:hover { color: var(--text-secondary); }
   .ticker-sep { color: var(--accent); font-size: 0.4375rem; opacity: 0.6; }
   @keyframes ticker-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+  /* ── Body section wrapper ────────────────── */
   .hp-body-section {
     background: var(--bg);
     border-top: none;
@@ -259,6 +133,8 @@ const catColors: Record<string, string> = {
   .section-header-left { display: flex; flex-direction: column; gap: 0.25rem; }
   .section-subtitle { font-size: 0.6875rem; color: var(--text-muted); font-weight: 400; letter-spacing: 0.01em; }
   .hp-body-section .section-title { font-size: 1rem; }
+
+  /* ── Body grid ────────────────────────────── */
   .story-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -278,6 +154,8 @@ const catColors: Record<string, string> = {
     padding: 2px 9px; border-radius: 20px;
   }
   .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+
+  /* ── Mobile ───────────────────────────────── */
   @media (max-width: 768px) {
     .hp-hero { grid-template-columns: 1fr !important; }
     .hp-hero-sidebar { display: none !important; }
@@ -291,34 +169,3 @@ const catColors: Record<string, string> = {
   @media (min-width: 480px) and (max-width: 768px) { .story-grid { grid-template-columns: 1fr 1fr !important; } }
   @media (min-width: 768px) and (max-width: 1024px) { .story-grid { grid-template-columns: repeat(3, 1fr) !important; } }
 </style>
-
-<script>
-  const carousel = document.getElementById('hero-carousel')
-  if (carousel) {
-    const slides = carousel.querySelectorAll<HTMLElement>('.carousel-slide')
-    const dots   = carousel.querySelectorAll<HTMLButtonElement>('.carousel-dot')
-    if (!slides.length) { /* no articles yet */ }
-    else {
-    let current = 0
-    let timer: ReturnType<typeof setInterval>
-
-    function goTo(n: number) {
-      slides[current].classList.remove('is-active')
-      dots[current]?.classList.remove('is-active')
-      current = ((n % slides.length) + slides.length) % slides.length
-      slides[current].classList.add('is-active')
-      dots[current]?.classList.add('is-active')
-    }
-
-    const start = () => { timer = setInterval(() => goTo(current + 1), 5500) }
-    const stop  = () => clearInterval(timer)
-
-    dots.forEach(d => d.addEventListener('click', () => { stop(); goTo(+d.dataset.index!); start() }))
-    document.getElementById('prev-btn')?.addEventListener('click', () => { stop(); goTo(current - 1); start() })
-    document.getElementById('next-btn')?.addEventListener('click', () => { stop(); goTo(current + 1); start() })
-    carousel.addEventListener('mouseenter', stop)
-    carousel.addEventListener('mouseleave', start)
-    start()
-    }
-  }
-</script>
