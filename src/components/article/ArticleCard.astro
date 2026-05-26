@@ -55,7 +55,7 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
   <a href={href} class="hero-card">
     <div class="hero-img-wrap">
       {article.cover_image
-        ? <img src={article.cover_image} alt={tr?.title} loading="eager" />
+        ? <img src={article.cover_image} alt={tr?.title} loading="eager" fetchpriority="high" />
         : <div class="hero-img-placeholder" style={`background: color-mix(in srgb, ${color} 8%, var(--bg-card))`}></div>
       }
       <div class="hero-gradient"></div>
