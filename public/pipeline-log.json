@@ -2,6 +2,16 @@
   "totalArticles": 7,
   "runs": [
     {
+      "timestamp": "2026-05-26T00:00:59.791Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 224,
+      "totalCandidates": 6,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-05-25T23:00:59.474Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -159,5 +169,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-25T23:00:59.474Z"
+  "lastUpdated": "2026-05-26T00:00:59.791Z"
 }
