@@ -59,7 +59,7 @@ for (const { file, data, needsTR, needsES } of candidates) {
   }
 
   if (needsES) {
-    await sleep(60000);
+    await sleep(65000);
     const es = await translateToSpanish(enData, GROQ_API_KEY || GEMINI_API_KEY, data.category, !!GROQ_API_KEY, GROQ_TRANSLATE_MODEL);
     if (es) {
       data.translations.es = es;

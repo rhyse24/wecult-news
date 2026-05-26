@@ -422,24 +422,10 @@ for (const article of candidatePool) {
         runLog.quotaExhausted = true;
         break;
       }
-      // Rule 5: RSS teaser without Gemini expansion = useless, skip
-      if (article.content.length < 600 || isTruncated(article.content)) {
-        console.warn(`  [skip] ${article.title.slice(0, 50)} — Gemini failed + RSS too short/truncated`);
-        runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), reason: 'gemini_fail_short' });
-        continue;
-      }
-      // Fallback only when RSS gave substantial content (≥600 chars, no truncation)
-      const snippet = article.content.slice(0, 300);
-      ai = {
-        summary_en: snippet,
-        ai_analysis: '',
-        story_type: 'other',
-        translations: {
-          en: { title: article.title, summary: snippet, body: article.content },
-          tr: null,
-          es: null,
-        },
-      };
+      // Without Gemini expansion the RSS teaser is always too short — skip
+      console.warn(`  [skip] ${article.title.slice(0, 50)} — Gemini failed`);
+      runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), reason: 'gemini_fail' });
+      continue;
     }
 
     // Rule 8 — Quality Gate: reject articles that fail editorial minimums
