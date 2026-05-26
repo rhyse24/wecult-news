@@ -383,8 +383,12 @@ CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\
       if (!res.ok) {
         console.warn(`  [${provider} attempt ${attempt}] ${res.status}`);
         if (res.status === 429) {
+          const retryAfter = parseInt(res.headers.get('Retry-After') || '0') * 1000;
+          if (retryAfter > 30000) {
+            console.warn(`  [${provider}] 429 — Retry-After too long (${Math.round(retryAfter/1000)}s) — skipping translation`);
+            return null;
+          }
           if (attempt < 3) {
-            const retryAfter = parseInt(res.headers.get('Retry-After') || '0') * 1000;
             const backoff = retryAfter || Math.min(15000 * Math.pow(2, attempt - 1), 60000);
             const jitter = Math.random() * 3000;
             console.warn(`  [${provider}] 429 — ${Math.round((backoff + jitter) / 1000)}s bekle`);
@@ -524,8 +528,12 @@ CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\
       if (!res.ok) {
         console.warn(`  [${provider} attempt ${attempt}] ${res.status}`);
         if (res.status === 429) {
+          const retryAfter = parseInt(res.headers.get('Retry-After') || '0') * 1000;
+          if (retryAfter > 30000) {
+            console.warn(`  [${provider}] 429 — Retry-After too long (${Math.round(retryAfter/1000)}s) — skipping translation`);
+            return null;
+          }
           if (attempt < 3) {
-            const retryAfter = parseInt(res.headers.get('Retry-After') || '0') * 1000;
             const backoff = retryAfter || Math.min(15000 * Math.pow(2, attempt - 1), 60000);
             const jitter = Math.random() * 3000;
             console.warn(`  [${provider}] 429 — ${Math.round((backoff + jitter) / 1000)}s bekle`);
