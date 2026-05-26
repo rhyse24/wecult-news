@@ -47,7 +47,7 @@ for (const { file, data, needsTR, needsES } of candidates) {
   let changed = false;
 
   if (needsTR) {
-    await sleep(3000);
+    await sleep(65000);
     const tr = await translateToTurkish(enData, GROQ_API_KEY || GEMINI_API_KEY, data.category, !!GROQ_API_KEY);
     if (tr) {
       data.translations.tr = tr;
