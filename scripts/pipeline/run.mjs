@@ -44,6 +44,7 @@ function deduplicateByTitle(articles) {
 }
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const GROQ_API_KEY   = process.env.GROQ_API_KEY || '';
 const TAVILY_API_KEY = process.env.TAVILY_API_KEY;
 const TMDB_TOKEN = process.env.TMDB_READ_ACCESS_TOKEN || '';
 const TWITCH_CLIENT_ID = process.env.TWITCH_CLIENT_ID || '';
@@ -51,6 +52,11 @@ const TWITCH_CLIENT_SECRET = process.env.TWITCH_CLIENT_SECRET || '';
 if (!GEMINI_API_KEY) {
   console.error('GEMINI_API_KEY env var required');
   process.exit(1);
+}
+if (GROQ_API_KEY) {
+  console.log('[pipeline] Groq key found — TR/ES translations via Groq (Llama 3.3 70B)');
+} else {
+  console.warn('[pipeline] No GROQ_API_KEY — TR/ES will use Gemini (quota risk)');
 }
 
 const ARTICLES_DIR = 'src/content/articles';
@@ -376,7 +382,7 @@ for (const article of candidatePool) {
 
     let ai;
     try {
-      ai = await summarizeArticle(article, GEMINI_API_KEY, webContext);
+      ai = await summarizeArticle(article, GEMINI_API_KEY, webContext, GROQ_API_KEY);
     } catch (geminiErr) {
       console.warn(`  [gemini-fail] ${geminiErr.message.slice(0, 80)}`);
       if (geminiErr.message.includes('429')) {

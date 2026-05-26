@@ -1,4 +1,6 @@
 const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent';
+const GROQ_URL   = 'https://api.groq.com/openai/v1/chat/completions';
+const GROQ_MODEL = 'llama-3.3-70b-versatile';
 
 // ── WeCult News Content Rules (approved 2026-05-24) ───────────────────────
 // Rule 1: EN body ≥ 450 words, TR body ≥ 300 words, ≥2 ## headings, no truncation
@@ -110,7 +112,7 @@ export function validateArticle(ai) {
   return { valid: errors.length === 0, errors };
 }
 
-export async function summarizeArticle(article, apiKey, webContext = '') {
+export async function summarizeArticle(article, apiKey, webContext = '', groqKey = '') {
   const voice = TONE_BY_CATEGORY[article.category] ?? 'entertainment journalist';
   const hookExample = HOOK_EXAMPLE_BY_CATEGORY[article.category] ?? '';
 
@@ -279,13 +281,11 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
     }
   }
 
-  // ── Step 2: Turkish translation ───────────────────────────────────────
-  await sleep(15000); // 5 RPM limit → min 12s between calls
-  const trData = await translateToTurkish(enData, apiKey, article.category);
+  // ── Step 2: Turkish translation (Groq) ───────────────────────────────
+  const trData = await translateToTurkish(enData, groqKey || apiKey, article.category, !!groqKey);
 
-  // ── Step 3: Spanish translation ───────────────────────────────────────
-  await sleep(15000);
-  const esData = await translateToSpanish(enData, apiKey, article.category);
+  // ── Step 3: Spanish translation (Groq) ───────────────────────────────
+  const esData = await translateToSpanish(enData, groqKey || apiKey, article.category, !!groqKey);
 
   const VALID_STORY_TYPES = new Set(['breaking', 'exclusive', 'rumor', 'analysis', 'release', 'event', 'other']);
   const story_type = VALID_STORY_TYPES.has(enData.story_type) ? enData.story_type : 'other';
@@ -302,7 +302,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
   };
 }
 
-async function translateToTurkish(enData, apiKey, category) {
+async function translateToTurkish(enData, apiKey, category, useGroq = false) {
   const categoryNote = {
     games: 'gaming terms like "open world", "DLC", "early access" can stay in English if they are standard in Turkish gaming culture',
     film:  'cinema terms like "box office", "premiere", "Palme d\'Or" can stay as-is',
@@ -348,26 +348,42 @@ RULE 4 — QUOTES:
 Return ONLY this JSON — no markdown wrapper, no extra text:
 {"title":"[Türkçe başlık — çekici, doğal Türkçe]","summary":"[Türkçe 2 cümle özet — okuyucuyu çeken]","body":"[Türkçe makale — tüm bölümler dahil, \\\\n\\\\n ayrımlarıyla, minimum 400 kelime]"}`;
 
+  const provider = useGroq ? 'groq-tr' : 'gemini-tr';
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      const res = await fetch(`${GEMINI_URL}?key=${apiKey}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: trPrompt }] }],
-          generationConfig: { temperature: 0.45, maxOutputTokens: 8192 },
-        }),
-        signal: AbortSignal.timeout(90000),
-      });
+      let res;
+      if (useGroq) {
+        res = await fetch(GROQ_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
+          body: JSON.stringify({
+            model: GROQ_MODEL,
+            messages: [{ role: 'user', content: trPrompt }],
+            temperature: 0.45,
+            max_tokens: 8192,
+          }),
+          signal: AbortSignal.timeout(90000),
+        });
+      } else {
+        res = await fetch(`${GEMINI_URL}?key=${apiKey}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: trPrompt }] }],
+            generationConfig: { temperature: 0.45, maxOutputTokens: 8192 },
+          }),
+          signal: AbortSignal.timeout(90000),
+        });
+      }
 
       if (!res.ok) {
-        console.warn(`  [gemini-tr attempt ${attempt}] ${res.status}`);
+        console.warn(`  [${provider} attempt ${attempt}] ${res.status}`);
         if (res.status === 429) {
           if (attempt < 3) {
             const retryAfter = parseInt(res.headers.get('Retry-After') || '0') * 1000;
             const backoff = retryAfter || Math.min(15000 * Math.pow(2, attempt - 1), 60000);
             const jitter = Math.random() * 3000;
-            console.warn(`  [gemini-tr] 429 — ${Math.round((backoff + jitter) / 1000)}s bekle`);
+            console.warn(`  [${provider}] 429 — ${Math.round((backoff + jitter) / 1000)}s bekle`);
             await sleep(backoff + jitter);
             continue;
           }
@@ -378,11 +394,12 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
       }
 
       const data = await res.json();
-      const raw = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      const raw = useGroq
+        ? (data.choices?.[0]?.message?.content || '')
+        : (data.candidates?.[0]?.content?.parts?.[0]?.text || '');
       if (!raw) {
-        const reason = data.candidates?.[0]?.finishReason || data.promptFeedback?.blockReason || 'empty';
-        console.warn(`  [gemini-tr attempt ${attempt}] empty response — ${reason}`);
-        if (reason === 'SAFETY' || attempt >= 3) return null;
+        console.warn(`  [${provider} attempt ${attempt}] empty response`);
+        if (attempt >= 3) return null;
         await sleep(attempt * 15000); continue;
       }
       const cleaned = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/, '').trim();
@@ -400,22 +417,22 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
       const words = wordCount(body);
 
       if (words < 200) {
-        console.warn(`  [gemini-tr attempt ${attempt}] body too short: ${words} words`);
+        console.warn(`  [${provider} attempt ${attempt}] body too short: ${words} words`);
         if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
       if (parsed.title === enData.title) {
-        console.warn(`  [gemini-tr attempt ${attempt}] TR title = EN title — not translated`);
+        console.warn(`  [${provider} attempt ${attempt}] TR title = EN title — not translated`);
         if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
       if (body.slice(0, 120).toLowerCase() === enData.body.slice(0, 120).toLowerCase()) {
-        console.warn(`  [gemini-tr attempt ${attempt}] TR body is EN copy — retrying`);
+        console.warn(`  [${provider} attempt ${attempt}] TR body is EN copy — retrying`);
         if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
 
-      console.log(`  [gemini-tr] ${words} words`);
+      console.log(`  [${provider}] ${words} words`);
       return parsed;
     } catch (err) {
       console.warn(`  [gemini-tr attempt ${attempt}] ${err.message}`);
@@ -426,7 +443,7 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
   return null;
 }
 
-async function translateToSpanish(enData, apiKey, category) {
+async function translateToSpanish(enData, apiKey, category, useGroq = false) {
   const categoryNote = {
     games: 'gaming terms like "open world", "DLC", "early access", "battle royale" can stay in English as they are standard in Spanish gaming culture',
     film:  'cinema terms like "box office", "premiere", "streaming" can stay as-is',
@@ -472,26 +489,42 @@ RULE 4 — QUOTES:
 Return ONLY this JSON — no markdown wrapper, no extra text:
 {"title":"[Título en español — atractivo, natural]","summary":"[Resumen en español — 2 frases que enganchan al lector]","body":"[Artículo completo en español — todas las secciones incluidas, con \\\\n\\\\n entre bloques, mínimo 400 palabras]"}`;
 
+  const provider = useGroq ? 'groq-es' : 'gemini-es';
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      const res = await fetch(`${GEMINI_URL}?key=${apiKey}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: esPrompt }] }],
-          generationConfig: { temperature: 0.45, maxOutputTokens: 8192 },
-        }),
-        signal: AbortSignal.timeout(90000),
-      });
+      let res;
+      if (useGroq) {
+        res = await fetch(GROQ_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
+          body: JSON.stringify({
+            model: GROQ_MODEL,
+            messages: [{ role: 'user', content: esPrompt }],
+            temperature: 0.45,
+            max_tokens: 8192,
+          }),
+          signal: AbortSignal.timeout(90000),
+        });
+      } else {
+        res = await fetch(`${GEMINI_URL}?key=${apiKey}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: esPrompt }] }],
+            generationConfig: { temperature: 0.45, maxOutputTokens: 8192 },
+          }),
+          signal: AbortSignal.timeout(90000),
+        });
+      }
 
       if (!res.ok) {
-        console.warn(`  [gemini-es attempt ${attempt}] ${res.status}`);
+        console.warn(`  [${provider} attempt ${attempt}] ${res.status}`);
         if (res.status === 429) {
           if (attempt < 3) {
             const retryAfter = parseInt(res.headers.get('Retry-After') || '0') * 1000;
             const backoff = retryAfter || Math.min(15000 * Math.pow(2, attempt - 1), 60000);
             const jitter = Math.random() * 3000;
-            console.warn(`  [gemini-es] 429 — ${Math.round((backoff + jitter) / 1000)}s bekle`);
+            console.warn(`  [${provider}] 429 — ${Math.round((backoff + jitter) / 1000)}s bekle`);
             await sleep(backoff + jitter);
             continue;
           }
@@ -502,11 +535,12 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
       }
 
       const data = await res.json();
-      const raw = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      const raw = useGroq
+        ? (data.choices?.[0]?.message?.content || '')
+        : (data.candidates?.[0]?.content?.parts?.[0]?.text || '');
       if (!raw) {
-        const reason = data.candidates?.[0]?.finishReason || data.promptFeedback?.blockReason || 'empty';
-        console.warn(`  [gemini-es attempt ${attempt}] empty response — ${reason}`);
-        if (reason === 'SAFETY' || attempt >= 3) return null;
+        console.warn(`  [${provider} attempt ${attempt}] empty response`);
+        if (attempt >= 3) return null;
         await sleep(attempt * 15000); continue;
       }
       const cleaned = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/, '').trim();
@@ -524,22 +558,22 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
       const words = wordCount(body);
 
       if (words < 200) {
-        console.warn(`  [gemini-es attempt ${attempt}] body too short: ${words} words`);
+        console.warn(`  [${provider} attempt ${attempt}] body too short: ${words} words`);
         if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
       if (parsed.title === enData.title) {
-        console.warn(`  [gemini-es attempt ${attempt}] ES title = EN title — not translated`);
+        console.warn(`  [${provider} attempt ${attempt}] ES title = EN title — not translated`);
         if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
       if (body.slice(0, 120).toLowerCase() === enData.body.slice(0, 120).toLowerCase()) {
-        console.warn(`  [gemini-es attempt ${attempt}] ES body is EN copy — retrying`);
+        console.warn(`  [${provider} attempt ${attempt}] ES body is EN copy — retrying`);
         if (attempt < 3) { await sleep(attempt * 15000); continue; }
         return null;
       }
 
-      console.log(`  [gemini-es] ${words} words`);
+      console.log(`  [${provider}] ${words} words`);
       return parsed;
     } catch (err) {
       console.warn(`  [gemini-es attempt ${attempt}] ${err.message}`);
