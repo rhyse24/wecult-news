@@ -93,3 +93,6 @@ jobs:
           else
             echo "No VERCEL_DEPLOY_HOOK secret set, skipping"
           fi
+
+      - name: Submit to IndexNow (Bing/Yandex)
+        run: node scripts/pipeline/indexnow.mjs || true

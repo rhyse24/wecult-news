@@ -28,20 +28,20 @@ export const GET: APIRoute = () => {
   const base = 'https://news.wecult.app'
 
   const items = articles
-    .filter(a => {
+    .flatMap(a => {
       const translations = a.translations as Record<string, { title?: string } | null> | undefined
-      const title = (a.original_title as string) || translations?.en?.title || ''
-      return title.trim().length > 0 // skip articles with no title
-    })
-    .map(a => {
-      const translations = a.translations as Record<string, { title?: string } | null> | undefined
-      const title = escapeXml((a.original_title as string) || translations?.en?.title || '')
-      const pubDate = new Date(a.published_at as string).toISOString()
+      const pubDate  = new Date(a.published_at as string).toISOString()
       const imageUrl = (a.image_url as string) || ''
       const imageTag = imageUrl
         ? `\n    <image:image>\n      <image:loc>${imageUrl}</image:loc>\n    </image:image>`
         : ''
-      return `  <url>
+
+      const entries: string[] = []
+
+      // EN entry
+      const enTitle = escapeXml((a.original_title as string) || translations?.en?.title || '')
+      if (enTitle.trim()) {
+        entries.push(`  <url>
     <loc>${base}/article/${a.slug}</loc>
     <lastmod>${pubDate}</lastmod>
     <news:news>
@@ -50,9 +50,46 @@ export const GET: APIRoute = () => {
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>${pubDate}</news:publication_date>
-      <news:title>${title}</news:title>
+      <news:title>${enTitle}</news:title>
     </news:news>${imageTag}
-  </url>`
+  </url>`)
+      }
+
+      // TR entry — only when translation exists
+      const trTitle = escapeXml(translations?.tr?.title || '')
+      if (trTitle.trim()) {
+        entries.push(`  <url>
+    <loc>${base}/tr/article/${a.slug}</loc>
+    <lastmod>${pubDate}</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>WeCult News</news:name>
+        <news:language>tr</news:language>
+      </news:publication>
+      <news:publication_date>${pubDate}</news:publication_date>
+      <news:title>${trTitle}</news:title>
+    </news:news>${imageTag}
+  </url>`)
+      }
+
+      // ES entry — only when translation exists
+      const esTitle = escapeXml(translations?.es?.title || '')
+      if (esTitle.trim()) {
+        entries.push(`  <url>
+    <loc>${base}/es/article/${a.slug}</loc>
+    <lastmod>${pubDate}</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>WeCult News</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>${pubDate}</news:publication_date>
+      <news:title>${esTitle}</news:title>
+    </news:news>${imageTag}
+  </url>`)
+      }
+
+      return entries
     }).join('\n')
 
   // Return empty but valid sitemap when no recent articles exist
