@@ -35,9 +35,8 @@ jobs:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
         run: |
-          node scripts/pipeline/run.mjs
-          SAVED=$(ls src/content/articles/*.json 2>/dev/null | wc -l || echo 0)
-          if [ "$SAVED" = "0" ]; then
+          node scripts/pipeline/run.mjs 2>&1 | tee /tmp/pipeline-output.txt
+          if grep -q "0 articles saved" /tmp/pipeline-output.txt || grep -q "Done — 0 articles" /tmp/pipeline-output.txt; then
             echo "::warning::Pipeline saved 0 articles — check Gemini quota or API key."
           fi
 

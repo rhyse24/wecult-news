@@ -407,9 +407,11 @@ for (const article of candidatePool) {
       ai = {
         summary_en: snippet,
         ai_analysis: '',
+        story_type: 'other',
         translations: {
           en: { title: article.title, summary: snippet, body: article.content },
           tr: null,
+          es: null,
         },
       };
     }
