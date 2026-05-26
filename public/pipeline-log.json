@@ -1,6 +1,24 @@
 {
-  "totalArticles": 11,
+  "totalArticles": 12,
   "runs": [
+    {
+      "timestamp": "2026-05-26T13:03:52.305Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 290,
+      "totalCandidates": 109,
+      "written": [
+        {
+          "title": "New video from Elden Ring movie set seemingly confirms the presence of early game foes and a familiar castle",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 17,
+          "slug": "6705cc35-new-video-from-elden-ring-movie-set-seemingly-confirms-the-p"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-26T10:00:57.206Z",
       "status": "success",
@@ -259,5 +277,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-26T10:00:57.206Z"
+  "lastUpdated": "2026-05-26T13:03:52.305Z"
 }
