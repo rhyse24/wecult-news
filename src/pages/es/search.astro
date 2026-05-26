@@ -1,0 +1,108 @@
+---
+import Base from '../../layouts/Base.astro'
+import ArticleCard from '../../components/article/ArticleCard.astro'
+import { articles as allArticles, getByLang } from '../../lib/articles'
+import type { Lang } from '../../types'
+
+const lang: Lang = 'es'
+const siteBase = 'https://news.wecult.app'
+const pageUrl = `${siteBase}/es/search`
+
+const langArticles = getByLang(allArticles, lang)
+
+const catColors: Record<string, string> = {
+  games: 'var(--cat-games)',
+  film:  'var(--cat-film)',
+  tv:    'var(--cat-tv)',
+  books: 'var(--cat-books)',
+}
+
+const catChips = [
+  { key: 'all',   label: 'Todos'       },
+  { key: 'games', label: '🎮 Juegos'   },
+  { key: 'film',  label: '🎬 Cine'     },
+  { key: 'tv',    label: '📺 Series'   },
+  { key: 'books', label: '📚 Libros'   },
+]
+---
+
+<Base
+  title="Buscar"
+  lang={lang}
+  canonicalUrl={pageUrl}
+  description="Busca noticias de entretenimiento en WeCult News."
+>
+  <div class="search-page">
+    <div class="container">
+
+      <div class="search-header">
+        <h1 class="search-title">Buscar</h1>
+        <div class="search-input-wrap">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <input
+            id="search-input"
+            type="search"
+            class="search-input"
+            placeholder="Buscar noticias..."
+            autocomplete="off"
+            autofocus
+          />
+        </div>
+        <div class="search-cats">
+          {catChips.map(c => (
+            <button class={`search-cat-btn${c.key === 'all' ? ' is-active' : ''}`} data-cat={c.key}>
+              {c.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div id="search-results" class="search-results-grid">
+        {langArticles.map(a => (
+          <div class="search-result-item" data-cat={a.category} data-title={(a.translations.es?.title || a.translations.en?.title || '').toLowerCase()} data-summary={(a.translations.es?.summary || a.translations.en?.summary || '').toLowerCase()}>
+            <ArticleCard article={a} lang={lang} size="default" />
+          </div>
+        ))}
+      </div>
+
+      <p id="search-empty" class="search-empty" style="display:none">No se encontraron resultados para tu búsqueda.</p>
+
+    </div>
+  </div>
+</Base>
+
+<script>
+  const input = document.getElementById('search-input') as HTMLInputElement
+  const items = document.querySelectorAll<HTMLElement>('.search-result-item')
+  const empty = document.getElementById('search-empty')
+  const catBtns = document.querySelectorAll<HTMLButtonElement>('.search-cat-btn')
+
+  let activeCat = 'all'
+
+  function filter() {
+    const q = input?.value.toLowerCase().trim() ?? ''
+    let visible = 0
+    items.forEach(item => {
+      const matchCat = activeCat === 'all' || item.dataset.cat === activeCat
+      const matchQ = !q || (item.dataset.title?.includes(q) || item.dataset.summary?.includes(q))
+      const show = matchCat && matchQ
+      item.style.display = show ? '' : 'none'
+      if (show) visible++
+    })
+    if (empty) empty.style.display = visible === 0 ? '' : 'none'
+  }
+
+  input?.addEventListener('input', filter)
+
+  catBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      catBtns.forEach(b => b.classList.remove('is-active'))
+      btn.classList.add('is-active')
+      activeCat = btn.dataset.cat ?? 'all'
+      filter()
+    })
+  })
+</script>

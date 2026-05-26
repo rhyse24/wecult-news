@@ -1,0 +1,358 @@
+---
+import Base from '../../../layouts/Base.astro'
+import ArticleCard from '../../../components/article/ArticleCard.astro'
+import WeCultCTA from '../../../components/ui/WeCultCTA.astro'
+import AdSlot from '../../../components/ui/AdSlot.astro'
+import { t, getLocalizedPath } from '../../../lib/i18n'
+import { articles as mockArticles, getRelated, isBreaking } from '../../../lib/articles'
+import type { Lang } from '../../../types'
+
+export async function getStaticPaths() {
+  return mockArticles.map(a => ({ params: { slug: a.slug } }))
+}
+
+const { slug } = Astro.params
+const lang: Lang = 'es'
+
+const article = mockArticles.find(a => a.slug === slug) ?? mockArticles[0]
+const content = article.translations[lang] ?? article.translations['en']
+const related = getRelated(mockArticles, article, 3)
+
+const catColors: Record<string, string> = {
+  games: 'var(--cat-games)', film: 'var(--cat-film)',
+  tv: 'var(--cat-tv)', books: 'var(--cat-books)',
+}
+const color = catColors[article.category]
+
+const typeLabel: Record<string, string> = {
+  news: 'Noticia', review: 'Reseña', feature: 'Entrevista', opinion: 'Opinión', guide: 'Guía',
+}
+const typeColor: Record<string, string> = {
+  news: 'var(--text-muted)', review: '#f59e0b', feature: '#818cf8', opinion: '#f472b6', guide: '#34d399',
+}
+
+const date = new Date(article.published_at).toLocaleDateString('es-ES', {
+  year: 'numeric', month: 'long', day: 'numeric',
+})
+const timeAgo = (() => {
+  const h = Math.floor((Date.now() - new Date(article.published_at).getTime()) / 3600000)
+  if (h < 1) return 'Ahora mismo'
+  if (h < 24) return `hace ${h}h`
+  return `hace ${Math.floor(h / 24)}d`
+})()
+
+const siteBase = 'https://news.wecult.app'
+const pageUrl = `${siteBase}/es/article/${article.slug}`
+const enPageUrl = `${siteBase}/article/${article.slug}`
+const shareTitle = encodeURIComponent(content?.title ?? '')
+const shareUrl = encodeURIComponent(pageUrl)
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteBase },
+    { '@type': 'ListItem', position: 2, name: article.category.charAt(0).toUpperCase() + article.category.slice(1), item: `${siteBase}/es/${article.category}` },
+    { '@type': 'ListItem', position: 3, name: content?.title ?? '', item: pageUrl },
+  ],
+}
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: content?.title ?? '',
+  description: content?.summary ?? '',
+  image: article.cover_image || undefined,
+  datePublished: article.published_at,
+  dateModified: article.published_at,
+  url: pageUrl,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+  author: [
+    { '@type': 'Person', name: article.author || 'WeCult Editorial', url: `${siteBase}/author/wecult-editorial` },
+    { '@type': 'Organization', name: 'WeCult News', url: siteBase },
+  ],
+  publisher: {
+    '@type': 'Organization',
+    name: 'WeCult News',
+    logo: { '@type': 'ImageObject', url: `${siteBase}/favicon.svg` },
+  },
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1.article-title', '.article-content p:first-of-type'],
+  },
+  inLanguage: 'es',
+  articleSection: article.category.charAt(0).toUpperCase() + article.category.slice(1),
+  keywords: article.tags.join(', '),
+}
+
+const summaryIsBodyDup = content?.summary && content?.body &&
+  content.body.slice(0, Math.min(content.summary.length + 80, 400)).includes(content.summary.slice(0, 60))
+const showSummary = !!(content?.summary && !summaryIsBodyDup)
+
+type Block = { type: 'h2' | 'quote' | 'list' | 'p'; content: string; items?: string[] }
+
+function renderInline(text: string): string {
+  return text
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/_(.+?)_/g, '<em>$1</em>')
+}
+
+function parseBody(body: string): Block[] {
+  const blocks: Block[] = []
+  for (const raw of body.split(/\n\n+/)) {
+    const b = raw.trim()
+    if (!b) continue
+    if (b.startsWith('## ')) {
+      blocks.push({ type: 'h2', content: b.slice(3).trim() })
+    } else if (b.startsWith('> ')) {
+      blocks.push({ type: 'quote', content: renderInline(b.slice(2).trim()) })
+    } else {
+      const lines = b.split('\n')
+      if (lines.length > 0 && lines.every(l => /^[-*•]\s/.test(l.trim()))) {
+        blocks.push({ type: 'list', content: '', items: lines.map(l => renderInline(l.replace(/^[-*•]\s/, '').trim())) })
+      } else {
+        blocks.push({ type: 'p', content: renderInline(b.replace(/\n/g, ' ')) })
+      }
+    }
+  }
+  return blocks
+}
+
+const bodyBlocks = content?.body ? parseBody(content.body) : []
+---
+
+<Base
+  title={content?.title ?? ''}
+  description={content?.summary ?? ''}
+  lang={lang}
+  ogImage={article.cover_image ?? undefined}
+  preloadImage={article.cover_image ?? undefined}
+  canonicalUrl={pageUrl}
+  hreflang={{ en: enPageUrl, tr: `${siteBase}/tr/article/${article.slug}` }}
+  schema={[breadcrumbSchema, articleSchema]}
+>
+
+  <div id="scroll-progress" class="scroll-progress-bar" style={`--progress-color:${color}`}></div>
+
+  <div class="article-page">
+
+    {article.cover_image && (
+      <div class="article-hero">
+        <img src={article.cover_image} alt={content?.title} fetchpriority="high" decoding="async" width="1200" height="630" />
+        <div class="article-hero-overlay"></div>
+      </div>
+    )}
+
+    <div class="container">
+      <div class="article-layout">
+
+        <article class="article-body">
+
+          <div class="article-meta-top">
+            {isBreaking(article) && (
+              <span class="breaking-badge">⚡ ÚLTIMA HORA</span>
+            )}
+            <a href={getLocalizedPath(lang, `/${article.category}`)} class="cat-pill-link" style={`color:${color}; background:color-mix(in srgb, ${color} 10%, transparent); border-color:color-mix(in srgb, ${color} 22%, transparent)`}>
+              {t(lang, `nav.${article.category}`)}
+            </a>
+            <span class="meta-dot">·</span>
+            <span class="art-type-label" style={`color:${typeColor[article.article_type]}`}>
+              {typeLabel[article.article_type]}
+            </span>
+            <span class="meta-dot">·</span>
+            <span class="meta-text">{date}</span>
+            <span class="meta-dot">·</span>
+            <span class="meta-text">{timeAgo}</span>
+          </div>
+
+          <h1 class="article-title">{content?.title}</h1>
+
+          <div class="article-byline">
+            <div class="source-avatar">{article.source_name.charAt(0)}</div>
+            <div class="byline-authorship">
+              <a href="/author/wecult-editorial" class="author-name author-name--link">{article.author}</a>
+              <span class="source-via">vía {article.source_name}</span>
+            </div>
+            <span class="byline-sep">·</span>
+            <svg class="clock-icon" width="13" height="13" viewBox="0 0 13 13" fill="none">
+              <circle cx="6.5" cy="6.5" r="5.5" stroke="currentColor" stroke-width="1.3"/>
+              <path d="M6.5 3.5v3l2 1.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+            </svg>
+            <span class="read-time">{article.reading_time_minutes} min de lectura</span>
+          </div>
+
+          <div class="share-bar">
+            <span class="share-label">Compartir</span>
+            <a href={`https://twitter.com/intent/tweet?text=${shareTitle}&url=${shareUrl}`}
+               target="_blank" rel="noopener noreferrer" class="share-btn share-x" aria-label="Compartir en X">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor">
+                <path d="M10.93 1.5H12.7L8.84 5.93 13.4 12.5H9.82L7.05 8.78 3.87 12.5H2.1L6.24 7.74 1.86 1.5H5.53L8.04 4.88 10.93 1.5ZM10.3 11.43H11.28L5.01 2.5H3.96L10.3 11.43Z"/>
+              </svg>
+            </a>
+            <a href={`https://www.reddit.com/submit?url=${shareUrl}&title=${shareTitle}`}
+               target="_blank" rel="noopener noreferrer" class="share-btn share-reddit" aria-label="Compartir en Reddit">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor">
+                <circle cx="7" cy="7" r="6.25" stroke="currentColor" stroke-width="1.3" fill="none"/>
+                <path d="M10.7 7a.9.9 0 0 0-.9-.9c-.23 0-.44.09-.6.23A4.42 4.42 0 0 0 7 5.8l.4-1.87 1.27.27a.65.65 0 1 0 .07-.5l-1.43-.3L6.9 5.8a4.43 4.43 0 0 0-2.2.53.88.88 0 0 0-.6-.23.9.9 0 0 0-.35 1.73c0 .1-.01.2-.01.3 0 1.52 1.77 2.75 3.96 2.75s3.96-1.23 3.96-2.76c0-.09 0-.19-.02-.28.27-.15.46-.44.46-.77ZM5.17 7.73a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2.8 1.33c-.35.35-1.04.37-1.22.37-.18 0-.87-.02-1.22-.37a.13.13 0 0 1 .18-.18c.22.22.7.29 1.04.29s.82-.07 1.04-.29a.13.13 0 0 1 .18.18Zm-.1-1.33a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Z"/>
+              </svg>
+            </a>
+            <a href={`https://wa.me/?text=${shareTitle}%20${shareUrl}`}
+               target="_blank" rel="noopener noreferrer" class="share-btn share-wa" aria-label="Compartir en WhatsApp">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor">
+                <path d="M7 1C3.69 1 1 3.69 1 7c0 1.07.28 2.07.77 2.93L1 13l3.17-.74A6 6 0 0 0 7 13c3.31 0 6-2.69 6-6s-2.69-6-6-6Zm3.3 8.43c-.14.38-.79.73-1.08.77-.27.04-.6.05-.97-.06-.22-.07-.5-.17-.87-.34-1.52-.66-2.5-2.2-2.58-2.3-.08-.1-.63-.84-.63-1.61s.4-1.14.56-1.3c.14-.16.32-.2.42-.2h.3c.1 0 .23-.03.35.27.13.3.44 1.08.48 1.16.04.08.07.17.01.27-.05.1-.08.16-.16.24-.08.08-.17.18-.24.24-.08.08-.16.17-.07.33.1.17.43.7.92 1.13.63.57 1.16.74 1.33.82.17.08.26.07.36-.04.1-.11.41-.48.52-.64.11-.16.22-.13.37-.08.15.05.96.45 1.12.53.17.08.28.12.32.19.04.06.04.37-.1.75Z"/>
+              </svg>
+            </a>
+            <button id="copy-link-btn" class="share-btn share-copy" aria-label="Copiar enlace">
+              <svg id="copy-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4.5" y="4.5" width="7" height="7" rx="1.5"/>
+                <path d="M1.5 8.5V2A1.5 1.5 0 0 1 3 .5h6.5"/>
+              </svg>
+              <svg id="copied-icon" style="display:none" width="13" height="13" viewBox="0 0 13 13" fill="none" stroke="#34d399" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 7l3.5 3.5L11 4"/>
+              </svg>
+            </button>
+          </div>
+
+          {showSummary && (
+            <div class="ai-summary-box">
+              <div class="ai-summary-header">
+                <span class="ai-section-label">✦ {t(lang, 'article.ai_summary')}</span>
+              </div>
+              <p class="ai-summary-text">{content.summary}</p>
+            </div>
+          )}
+
+          <AdSlot type="fluid" class="article-ad-top" />
+
+          {bodyBlocks.length > 0 && (
+            <div class="article-content">
+              {bodyBlocks.map((block, i) => (
+                <>
+                  {block.type === 'h2' && (
+                    <h2 class="article-section-heading">{block.content}</h2>
+                  )}
+                  {block.type === 'quote' && (
+                    <blockquote class="article-pullquote" set:html={block.content} />
+                  )}
+                  {block.type === 'list' && (
+                    <ul class="article-list">
+                      {block.items?.map(item => <li set:html={item} />)}
+                    </ul>
+                  )}
+                  {block.type === 'p' && (
+                    <p set:html={block.content} />
+                  )}
+                </>
+              ))}
+            </div>
+          )}
+
+          {article.tags.length > 0 && (
+            <div class="article-tags">
+              <span class="tags-label">Temas</span>
+              {article.tags.map(tag => (
+                <a href={getLocalizedPath(lang, `/tag/${tag.toLowerCase().replace(/\s+/g, '-')}`)} class="tag-pill">
+                  {tag}
+                </a>
+              ))}
+            </div>
+          )}
+
+          {content?.ai_analysis && (
+            <div class="ai-analysis-box">
+              <div class="ai-analysis-header">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <circle cx="7" cy="7" r="6" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M7 4v3.5l2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <span>{t(lang, 'article.ai_analysis')}</span>
+              </div>
+              <p class="ai-analysis-text">{content.ai_analysis}</p>
+            </div>
+          )}
+
+          <div class="source-bar">
+            <div class="source-bar-left">
+              <p class="source-bar-label">{t(lang, 'article.source')}</p>
+              <p class="source-bar-name">{article.source_name}</p>
+            </div>
+            <a href={article.source_url} target="_blank" rel="noopener noreferrer" class="source-btn">
+              {t(lang, 'article.read_original')}
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M2 10L10 2M10 2H5M10 2V7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <WeCultCTA lang={lang} category={article.category} articleTitle={content?.title} />
+
+          <AdSlot type="horizontal" class="article-ad-bottom" />
+
+          {related.length > 0 && (
+            <div class="related-section">
+              <div class="section-header">
+                <h3 class="section-title" style={`color:${color}`}>Artículos Relacionados</h3>
+              </div>
+              <div class="related-grid">
+                {related.map(a => <ArticleCard article={a} lang={lang} size="default" />)}
+              </div>
+            </div>
+          )}
+
+          <a href={getLocalizedPath(lang, '/')} class="back-link">← {t(lang, 'ui.back')}</a>
+
+        </article>
+
+        <aside class="article-sidebar">
+          <div class="sticky-sidebar">
+            <AdSlot type="rectangle" class="article-sidebar-ad" />
+            {related.length > 0 && (
+              <div>
+                <div class="section-header">
+                  <h3 class="section-title" style={`color:${color}`}>Relacionados</h3>
+                </div>
+                {related.map(a => <ArticleCard article={a} lang={lang} size="compact" />)}
+              </div>
+            )}
+          </div>
+        </aside>
+
+      </div>
+    </div>
+
+  </div>
+</Base>
+
+<script>
+  const bar = document.getElementById('scroll-progress')
+  if (bar) {
+    const update = () => {
+      const scrolled = document.documentElement.scrollTop
+      const total = document.documentElement.scrollHeight - document.documentElement.clientHeight
+      bar.style.width = total > 0 ? `${(scrolled / total) * 100}%` : '0%'
+    }
+    window.addEventListener('scroll', update, { passive: true })
+    update()
+  }
+
+  const copyBtn = document.getElementById('copy-link-btn')
+  if (copyBtn) {
+    copyBtn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(window.location.href)
+        const copyIcon = document.getElementById('copy-icon')
+        const copiedIcon = document.getElementById('copied-icon')
+        if (copyIcon && copiedIcon) {
+          copyIcon.style.display = 'none'
+          copiedIcon.style.display = 'block'
+          setTimeout(() => {
+            copyIcon.style.display = 'block'
+            copiedIcon.style.display = 'none'
+          }, 2000)
+        }
+      } catch {}
+    })
+  }
+</script>

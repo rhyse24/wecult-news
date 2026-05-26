@@ -45,7 +45,7 @@ function normalizeArticle(raw: Record<string, unknown>): Article {
 
   const contentRaw = splitIntoParagraphs(decodeEntities((raw.content_raw as string) ?? ''))
   const normalizedTranslations = {} as Article['translations']
-  for (const lang of ['en', 'tr'] as Lang[]) {
+  for (const lang of ['en', 'tr', 'es'] as Lang[]) {
     const t = translations?.[lang] as { title?: string; summary?: string; body?: string } | null
     normalizedTranslations[lang] = t
       ? {

@@ -1,0 +1,109 @@
+---
+import Base from '../../layouts/Base.astro'
+import ArticleCard from '../../components/article/ArticleCard.astro'
+import AdSlot from '../../components/ui/AdSlot.astro'
+import { t, getLocalizedPath } from '../../lib/i18n'
+import { articles as mockArticles, getByCategory } from '../../lib/articles'
+import type { Lang } from '../../types'
+
+export function getStaticPaths() {
+  return [
+    { params: { category: 'games' } },
+    { params: { category: 'film'  } },
+    { params: { category: 'tv'    } },
+    { params: { category: 'books' } },
+  ]
+}
+
+const { category } = Astro.params
+const lang: Lang = 'es'
+
+const catMeta: Record<string, { color: string; label: string; desc: string; icon: string }> = {
+  games: { color: 'var(--cat-games)', label: 'Juegos',   icon: '🎮', desc: 'Las últimas noticias, análisis y lanzamientos del mundo de los videojuegos.' },
+  film:  { color: 'var(--cat-film)',  label: 'Cine',     icon: '🎬', desc: 'Noticias de cine, taquilla, tráilers y críticas.' },
+  tv:    { color: 'var(--cat-tv)',    label: 'Series',   icon: '📺', desc: 'Noticias de series, elenco, nuevas temporadas y cancelaciones.' },
+  books: { color: 'var(--cat-books)', label: 'Libros',   icon: '📚', desc: 'Nuevos libros, noticias de autores y novedades del mundo literario.' },
+}
+
+const typeFilters = ['Todos', 'Noticias', 'Reseña', 'Entrevista', 'Opinión', 'Guía']
+const typeFilterKeys = ['all', 'news', 'review', 'feature', 'opinion', 'guide']
+
+const meta = catMeta[category!]
+const articles = getByCategory(mockArticles, category! as import('../../types').Category)
+const [hero, featured, ...rest] = articles
+const allOtherArticles = mockArticles.filter(a => a.category !== category).slice(0, 4)
+---
+
+<Base title={meta.label} lang={lang}>
+  <div class="cat-page">
+
+    <div class="cat-banner" style={`--cat-color:${meta.color}`}>
+      <div class="container">
+        <div class="cat-banner-inner">
+          <div class="cat-breadcrumb">
+            <a href={getLocalizedPath(lang, '/')}>WeCult News</a>
+            <span>›</span>
+            <span style={`color:${meta.color}`}>{meta.label}</span>
+          </div>
+          <div class="cat-banner-title-row">
+            <span class="cat-banner-icon">{meta.icon}</span>
+            <h1 class="cat-banner-title">{meta.label}</h1>
+          </div>
+          <p class="cat-banner-desc">{meta.desc}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container cat-body">
+
+      <div class="cat-type-filters">
+        {typeFilters.map((label, i) => (
+          <button class={`type-filter-btn${i === 0 ? ' is-active' : ''}`} data-key={typeFilterKeys[i]}>
+            {label}
+          </button>
+        ))}
+      </div>
+
+      {hero && (
+        <div class="cat-hero-card">
+          <ArticleCard article={hero} lang={lang} size="featured" />
+        </div>
+      )}
+
+      <AdSlot type="horizontal" class="cat-grid-ad" />
+
+      <div class="cat-grid">
+        {articles.slice(1).map(a => (
+          <ArticleCard article={a} lang={lang} size="default" />
+        ))}
+      </div>
+
+      {allOtherArticles.length > 0 && (
+        <div class="cat-more-section">
+          <div class="section-header">
+            <h2 class="section-title">Más Noticias</h2>
+          </div>
+          <div class="cat-more-grid">
+            {allOtherArticles.map(a => <ArticleCard article={a} lang={lang} size="compact" />)}
+          </div>
+        </div>
+      )}
+
+    </div>
+  </div>
+</Base>
+
+<script>
+  const filterBtns = document.querySelectorAll<HTMLButtonElement>('.type-filter-btn')
+  const cards = document.querySelectorAll<HTMLElement>('[data-article-type]')
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('is-active'))
+      btn.classList.add('is-active')
+      const key = btn.dataset.key
+      cards.forEach(card => {
+        card.style.display = (key === 'all' || card.dataset.articleType === key) ? '' : 'none'
+      })
+    })
+  })
+</script>

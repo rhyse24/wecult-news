@@ -273,6 +273,10 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
   await sleep(15000); // 5 RPM limit → min 12s between calls
   const trData = await translateToTurkish(enData, apiKey, article.category);
 
+  // ── Step 3: Spanish translation ───────────────────────────────────────
+  await sleep(15000);
+  const esData = await translateToSpanish(enData, apiKey, article.category);
+
   const VALID_STORY_TYPES = new Set(['breaking', 'exclusive', 'rumor', 'analysis', 'release', 'event', 'other']);
   const story_type = VALID_STORY_TYPES.has(enData.story_type) ? enData.story_type : 'other';
 
@@ -283,6 +287,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
     translations: {
       en: { title: enData.title, summary: enData.summary, body: enData.body },
       tr: trData,
+      es: esData,
     },
   };
 }
@@ -404,6 +409,130 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
       return parsed;
     } catch (err) {
       console.warn(`  [gemini-tr attempt ${attempt}] ${err.message}`);
+      if (attempt < 3) { await sleep(attempt * 15000); continue; }
+      return null;
+    }
+  }
+  return null;
+}
+
+async function translateToSpanish(enData, apiKey, category) {
+  const categoryNote = {
+    games: 'gaming terms like "open world", "DLC", "early access", "battle royale" can stay in English as they are standard in Spanish gaming culture',
+    film:  'cinema terms like "box office", "premiere", "streaming" can stay as-is',
+    tv:    'TV terms like "showrunner", "season finale", "streaming", "spin-off" can stay as-is',
+    books: 'publishing terms like "bestseller", "debut novel" can stay as-is',
+  }[category] ?? '';
+
+  const esPrompt = `${PLATFORM_CONTEXT}
+
+Translate this entertainment news article to Spanish (Castilian/Latin American neutral) for WeCult News readers.
+
+═══════ ENGLISH ARTICLE ═══════
+TITLE: ${enData.title}
+SUMMARY: ${enData.summary}
+
+BODY:
+${enData.body}
+═══════════════════════════════
+
+TRANSLATION RULES (WeCult Editorial Standard — ALL mandatory):
+
+RULE 1 — LANGUAGE:
+• ALL output must be in Spanish — title, summary, body, section headings
+• Keep proper nouns as-is: person names, film/game/book titles, brand names (Netflix, Steam), place names
+• ${categoryNote}
+• NEVER leave full sentences or paragraphs in English
+
+RULE 2 — QUALITY:
+• Write natural Spanish journalism — NOT word-for-word translation
+• Use neutral Spanish understood by both Spain and Latin America
+• Body must be at least 300 words in Spanish
+• NEVER shorten or remove sections — translate the full article
+
+RULE 3 — FORMATTING (keep all markdown):
+• Translate all ## section headings to Spanish (e.g. "## What's Next" → "## Próximos Pasos")
+• Keep **bold**, *italic*, > quotes, - bullet lists exactly as formatted
+• Keep \\n\\n spacing between all blocks
+
+RULE 4 — QUOTES:
+• Keep direct quotes (> "...") in the original language
+• Add Spanish attribution context around them if helpful
+
+Return ONLY this JSON — no markdown wrapper, no extra text:
+{"title":"[Título en español — atractivo, natural]","summary":"[Resumen en español — 2 frases que enganchan al lector]","body":"[Artículo completo en español — todas las secciones incluidas, con \\\\n\\\\n entre bloques, mínimo 400 palabras]"}`;
+
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await fetch(`${GEMINI_URL}?key=${apiKey}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: esPrompt }] }],
+          generationConfig: { temperature: 0.45, maxOutputTokens: 8192 },
+        }),
+        signal: AbortSignal.timeout(90000),
+      });
+
+      if (!res.ok) {
+        console.warn(`  [gemini-es attempt ${attempt}] ${res.status}`);
+        if (res.status === 429) {
+          if (attempt < 3) {
+            const retryAfter = parseInt(res.headers.get('Retry-After') || '0') * 1000;
+            const backoff = retryAfter || Math.min(15000 * Math.pow(2, attempt - 1), 60000);
+            const jitter = Math.random() * 3000;
+            console.warn(`  [gemini-es] 429 — ${Math.round((backoff + jitter) / 1000)}s bekle`);
+            await sleep(backoff + jitter);
+            continue;
+          }
+          return null;
+        }
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
+        return null;
+      }
+
+      const data = await res.json();
+      const raw = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      if (!raw) {
+        const reason = data.candidates?.[0]?.finishReason || data.promptFeedback?.blockReason || 'empty';
+        console.warn(`  [gemini-es attempt ${attempt}] empty response — ${reason}`);
+        if (reason === 'SAFETY' || attempt >= 3) return null;
+        await sleep(attempt * 15000); continue;
+      }
+      const cleaned = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/, '').trim();
+
+      let parsed;
+      try {
+        parsed = JSON.parse(cleaned);
+      } catch {
+        const match = cleaned.match(/\{[\s\S]*\}/);
+        if (match) { try { parsed = JSON.parse(match[0]); } catch { throw new Error('JSON parse failed'); } }
+        else throw new Error('No JSON found in ES response');
+      }
+
+      const body = parsed?.body ?? '';
+      const words = wordCount(body);
+
+      if (words < 200) {
+        console.warn(`  [gemini-es attempt ${attempt}] body too short: ${words} words`);
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
+        return null;
+      }
+      if (parsed.title === enData.title) {
+        console.warn(`  [gemini-es attempt ${attempt}] ES title = EN title — not translated`);
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
+        return null;
+      }
+      if (body.slice(0, 120).toLowerCase() === enData.body.slice(0, 120).toLowerCase()) {
+        console.warn(`  [gemini-es attempt ${attempt}] ES body is EN copy — retrying`);
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
+        return null;
+      }
+
+      console.log(`  [gemini-es] ${words} words`);
+      return parsed;
+    } catch (err) {
+      console.warn(`  [gemini-es attempt ${attempt}] ${err.message}`);
       if (attempt < 3) { await sleep(attempt * 15000); continue; }
       return null;
     }

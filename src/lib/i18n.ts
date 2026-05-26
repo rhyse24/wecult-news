@@ -8,7 +8,7 @@ const translations: Record<Lang, Record<string, any>> = {
   ja: (await import('../i18n/ja.json')).default,
 }
 
-export const SUPPORTED_LANGS: Lang[] = ['en', 'tr']
+export const SUPPORTED_LANGS: Lang[] = ['en', 'tr', 'es']
 export const DEFAULT_LANG: Lang = 'en'
 
 export function getLangFromUrl(url: URL): Lang {

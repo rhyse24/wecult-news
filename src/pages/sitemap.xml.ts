@@ -15,8 +15,14 @@ const STATIC_PAGES = [
   { loc: `${BASE}/tr/film`,    priority: '0.7', changefreq: 'hourly'  },
   { loc: `${BASE}/tr/tv`,      priority: '0.7', changefreq: 'hourly'  },
   { loc: `${BASE}/tr/books`,   priority: '0.7', changefreq: 'hourly'  },
+  { loc: `${BASE}/es`,         priority: '0.8', changefreq: 'hourly'  },
+  { loc: `${BASE}/es/games`,   priority: '0.7', changefreq: 'hourly'  },
+  { loc: `${BASE}/es/film`,    priority: '0.7', changefreq: 'hourly'  },
+  { loc: `${BASE}/es/tv`,      priority: '0.7', changefreq: 'hourly'  },
+  { loc: `${BASE}/es/books`,   priority: '0.7', changefreq: 'hourly'  },
   { loc: `${BASE}/search`,     priority: '0.6', changefreq: 'daily'   },
   { loc: `${BASE}/tr/search`,  priority: '0.5', changefreq: 'daily'   },
+  { loc: `${BASE}/es/search`,  priority: '0.5', changefreq: 'daily'   },
   { loc: `${BASE}/about`,      priority: '0.5', changefreq: 'monthly' },
   { loc: `${BASE}/contact`,    priority: '0.5', changefreq: 'monthly' },
   { loc: `${BASE}/privacy`,    priority: '0.3', changefreq: 'monthly' },
@@ -49,6 +55,12 @@ export const GET: APIRoute = () => {
   </url>
   <url>
     <loc>${BASE}/tr/article/${a.slug}</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>${BASE}/es/article/${a.slug}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>

@@ -1,0 +1,71 @@
+---
+import Base from '../../../layouts/Base.astro'
+import ArticleCard from '../../../components/article/ArticleCard.astro'
+import { getLocalizedPath } from '../../../lib/i18n'
+import { articles as mockArticles, getByTag } from '../../../lib/articles'
+import type { Lang } from '../../../types'
+
+export async function getStaticPaths() {
+  const allTags = [...new Set(mockArticles.flatMap(a => a.tags))]
+  return allTags.map(tag => ({
+    params: { tag: tag.toLowerCase().replace(/\s+/g, '-') },
+    props: { originalTag: tag },
+  }))
+}
+
+const { tag } = Astro.params
+const { originalTag } = Astro.props as { originalTag: string }
+const lang: Lang = 'es'
+
+const articles = getByTag(mockArticles, originalTag)
+
+const catCount: Record<string, number> = {}
+articles.forEach(a => { catCount[a.category] = (catCount[a.category] ?? 0) + 1 })
+const catColors: Record<string, string> = {
+  games: 'var(--cat-games)', film: 'var(--cat-film)',
+  tv: 'var(--cat-tv)', books: 'var(--cat-books)',
+}
+const catLabels: Record<string, string> = { games: 'Juegos', film: 'Cine', tv: 'Series', books: 'Libros' }
+---
+
+<Base title={`#${originalTag} — WeCult News`} lang={lang}>
+  <div class="tag-page">
+
+    <div class="tag-banner">
+      <div class="container">
+        <div class="tag-banner-inner">
+          <div class="tag-breadcrumb">
+            <a href={getLocalizedPath(lang, '/')}>WeCult News</a>
+            <span>›</span>
+            <span class="tag-breadcrumb-current">#{originalTag}</span>
+          </div>
+          <h1 class="tag-title">#{originalTag}</h1>
+          <p class="tag-count">{articles.length} {articles.length === 1 ? 'artículo' : 'artículos'}</p>
+          {Object.keys(catCount).length > 0 && (
+            <div class="tag-cat-pills">
+              {Object.entries(catCount).map(([cat, count]) => (
+                <span class="tag-cat-pill" style={`color:${catColors[cat]};background:color-mix(in srgb,${catColors[cat]} 10%,transparent);border-color:color-mix(in srgb,${catColors[cat]} 22%,transparent)`}>
+                  {catLabels[cat]} · {count}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+
+    <div class="container tag-body">
+      {articles.length > 0 ? (
+        <div class="tag-grid">
+          {articles.map(a => <ArticleCard article={a} lang={lang} size="default" />)}
+        </div>
+      ) : (
+        <div class="tag-empty">
+          <p>No se encontraron artículos para este tema.</p>
+          <a href={getLocalizedPath(lang, '/')}>← Volver al inicio</a>
+        </div>
+      )}
+    </div>
+
+  </div>
+</Base>

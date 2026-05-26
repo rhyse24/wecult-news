@@ -1,0 +1,49 @@
+---
+import Base from '../../layouts/Base.astro'
+import type { Lang } from '../../types'
+
+const lang: Lang = 'es'
+---
+
+<Base title="404 — Página no encontrada" lang={lang}>
+  <div class="nf-page">
+    <div class="container">
+      <div class="nf-inner">
+
+        <div class="nf-eyebrow">
+          <span class="nf-code">404</span>
+          <span class="nf-sep">·</span>
+          <span class="nf-label">Página no encontrada</span>
+        </div>
+
+        <h1 class="nf-title">¿Te perdiste en el streaming?</h1>
+        <p class="nf-desc">
+          El artículo, categoría o página que buscas no existe o fue movido.
+          Prueba con una de estas opciones:
+        </p>
+
+        <div class="nf-cats">
+          <a href="/es/games" class="nf-cat" style="--c:var(--cat-games)">
+            <span class="nf-cat-icon">🎮</span>
+            <span>Juegos</span>
+          </a>
+          <a href="/es/film" class="nf-cat" style="--c:var(--cat-film)">
+            <span class="nf-cat-icon">🎬</span>
+            <span>Cine</span>
+          </a>
+          <a href="/es/tv" class="nf-cat" style="--c:var(--cat-tv)">
+            <span class="nf-cat-icon">📺</span>
+            <span>Series</span>
+          </a>
+          <a href="/es/books" class="nf-cat" style="--c:var(--cat-books)">
+            <span class="nf-cat-icon">📚</span>
+            <span>Libros</span>
+          </a>
+        </div>
+
+        <a href="/es" class="nf-home-btn">← Volver al Inicio</a>
+
+      </div>
+    </div>
+  </div>
+</Base>
