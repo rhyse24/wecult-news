@@ -347,7 +347,7 @@ RULE 4 — QUOTES:
 • Keep direct quotes (> "...") in the original language
 • Add Turkish attribution context around them if helpful
 
-Return ONLY this JSON — no markdown wrapper, no extra text:
+CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\`json, no explanation text before or after. Start your response with { and end with }.
 {"title":"[Türkçe başlık — çekici, doğal Türkçe]","summary":"[Türkçe 2 cümle özet — okuyucuyu çeken]","body":"[Türkçe makale — tüm bölümler dahil, \\\\n\\\\n ayrımlarıyla, minimum 400 kelime]"}`;
 
   const provider = useGroq ? 'groq-tr' : 'gemini-tr';
@@ -488,7 +488,7 @@ RULE 4 — QUOTES:
 • Keep direct quotes (> "...") in the original language
 • Add Spanish attribution context around them if helpful
 
-Return ONLY this JSON — no markdown wrapper, no extra text:
+CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\`json, no explanation text before or after. Start your response with { and end with }.
 {"title":"[Título en español — atractivo, natural]","summary":"[Resumen en español — 2 frases que enganchan al lector]","body":"[Artículo completo en español — todas las secciones incluidas, con \\\\n\\\\n entre bloques, mínimo 400 palabras]"}`;
 
   const provider = useGroq ? 'groq-es' : 'gemini-es';
