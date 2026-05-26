@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'fs';
-import { translateToTurkish, translateToSpanish } from './summarize.mjs';
+import { translateToTurkish, translateToSpanish, GROQ_TRANSLATE_MODEL } from './summarize.mjs';
 
 const ARTICLES_DIR = 'src/content/articles';
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
@@ -48,7 +48,7 @@ for (const { file, data, needsTR, needsES } of candidates) {
 
   if (needsTR) {
     await sleep(65000);
-    const tr = await translateToTurkish(enData, GROQ_API_KEY || GEMINI_API_KEY, data.category, !!GROQ_API_KEY);
+    const tr = await translateToTurkish(enData, GROQ_API_KEY || GEMINI_API_KEY, data.category, !!GROQ_API_KEY, GROQ_TRANSLATE_MODEL);
     if (tr) {
       data.translations.tr = tr;
       changed = true;
@@ -60,7 +60,7 @@ for (const { file, data, needsTR, needsES } of candidates) {
 
   if (needsES) {
     await sleep(60000);
-    const es = await translateToSpanish(enData, GROQ_API_KEY || GEMINI_API_KEY, data.category, !!GROQ_API_KEY);
+    const es = await translateToSpanish(enData, GROQ_API_KEY || GEMINI_API_KEY, data.category, !!GROQ_API_KEY, GROQ_TRANSLATE_MODEL);
     if (es) {
       data.translations.es = es;
       changed = true;

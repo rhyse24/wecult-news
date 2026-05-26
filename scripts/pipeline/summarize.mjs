@@ -1,6 +1,7 @@
 const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent';
-const GROQ_URL   = 'https://api.groq.com/openai/v1/chat/completions';
-const GROQ_MODEL = 'llama-3.3-70b-versatile';
+const GROQ_URL                     = 'https://api.groq.com/openai/v1/chat/completions';
+const GROQ_MODEL                   = 'llama-3.3-70b-versatile'; // main pipeline — 12K TPM, 100K TPD
+export const GROQ_TRANSLATE_MODEL  = 'llama-3.1-8b-instant';   // patch step    —  6K TPM, 500K TPD
 
 // ── WeCult News Content Rules (approved 2026-05-24) ───────────────────────
 // Rule 1: EN body ≥ 450 words, TR body ≥ 300 words, ≥1 ## heading, no truncation
@@ -324,7 +325,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
   };
 }
 
-export async function translateToTurkish(enData, apiKey, category, useGroq = false) {
+export async function translateToTurkish(enData, apiKey, category, useGroq = false, groqModel = GROQ_MODEL) {
   const categoryNote = {
     games: 'gaming terms like "open world", "DLC", "early access" can stay in English if they are standard in Turkish gaming culture',
     film:  'cinema terms like "box office", "premiere", "Palme d\'Or" can stay as-is',
@@ -379,7 +380,7 @@ CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
           body: JSON.stringify({
-            model: GROQ_MODEL,
+            model: groqModel,
             messages: [{ role: 'user', content: trPrompt }],
             temperature: 0.45,
             max_tokens: 3000,
@@ -472,7 +473,7 @@ CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\
   return null;
 }
 
-export async function translateToSpanish(enData, apiKey, category, useGroq = false) {
+export async function translateToSpanish(enData, apiKey, category, useGroq = false, groqModel = GROQ_MODEL) {
   const categoryNote = {
     games: 'gaming terms like "open world", "DLC", "early access", "battle royale" can stay in English as they are standard in Spanish gaming culture',
     film:  'cinema terms like "box office", "premiere", "streaming" can stay as-is',
@@ -527,7 +528,7 @@ CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
           body: JSON.stringify({
-            model: GROQ_MODEL,
+            model: groqModel,
             messages: [{ role: 'user', content: esPrompt }],
             temperature: 0.45,
             max_tokens: 3000,
