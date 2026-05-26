@@ -61,8 +61,16 @@ if (GROQ_API_KEY) {
 
 const ARTICLES_DIR = 'src/content/articles';
 const SEEN_FILE = 'scripts/pipeline/.seen-urls.json';
+const ROTATION_FILE = 'scripts/pipeline/.rotation-index.json';
 const LOG_FILE = 'public/pipeline-log.json';
 const MAX_ARTICLE_AGE_HOURS = 48;
+
+// Category rotation: film×4, tv×4, games×3, books×1 per 12-run cycle
+const ROTATION = ['games','film','tv','film','games','tv','film','tv','games','film','tv','books'];
+const rotationIndex = existsSync(ROTATION_FILE) ? JSON.parse(readFileSync(ROTATION_FILE, 'utf8')).index ?? 0 : 0;
+const targetCategory = ROTATION[rotationIndex % ROTATION.length];
+const nextIndex = (rotationIndex + 1) % ROTATION.length;
+console.log(`[pipeline] Rotation index ${rotationIndex} → category: ${targetCategory} (next: ${ROTATION[nextIndex]})`);
 
 // Run log — filled during pipeline execution, written at the end
 const runLog = {
@@ -339,13 +347,10 @@ if (aboveThreshold.length === 0) {
   console.log(`[pipeline] No articles above score threshold (${MIN_SCORE}), using top scored as fallback`);
 }
 
-// Category reserve: top 1 per category guaranteed, then fill with global top scorers
-const categories = ['games', 'film', 'tv', 'books'];
-const reserved = categories.map(cat => pool.find(a => a.category === cat)).filter(Boolean);
-const reservedLinks = new Set(reserved.map(a => a.link));
-const globalTop = pool.filter(a => !reservedLinks.has(a.link)).slice(0, 2);
-const candidatePool = [...reserved, ...globalTop].sort((a, b) => b._score - a._score);
-const dist = candidatePool.map(a => `${a.category}:${a._score}`).join(' ');
+// Category rotation: pick best article from targetCategory, fallback to any category
+const rotationPool = pool.filter(a => a.category === targetCategory);
+const candidatePool = rotationPool.length > 0 ? rotationPool : pool;
+const dist = candidatePool.slice(0, 4).map(a => `${a.category}:${a._score}`).join(' ');
 console.log(`[pipeline] Candidate pool: ${candidatePool.length} articles (${dist}), target: ${MAX_TOTAL}`);
 runLog.totalFetched = allArticles.length;
 runLog.totalCandidates = candidatePool.length;
@@ -470,6 +475,9 @@ for (const article of candidatePool) {
 // Persist seen URLs (keep last 2000)
 const seenArr = [...seen].slice(-2000);
 writeFileSync(SEEN_FILE, JSON.stringify(seenArr, null, 2));
+
+// Persist rotation index
+writeFileSync(ROTATION_FILE, JSON.stringify({ index: nextIndex }, null, 2));
 
 // Write pipeline run log
 runLog.articlesWritten = saved;
