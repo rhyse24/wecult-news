@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
 import { summarizeArticle, validateArticle, isTruncated, titleEntityPresent } from './summarize.mjs';
@@ -85,6 +85,20 @@ const runLog = {
 };
 
 mkdirSync(ARTICLES_DIR, { recursive: true });
+
+// Load titles of articles written in the last 48h for cross-run topic dedup
+const recentTitles = [];
+try {
+  const cutoff = Date.now() - 48 * 3600000;
+  for (const file of readdirSync(ARTICLES_DIR)) {
+    if (!file.endsWith('.json')) continue;
+    const data = JSON.parse(readFileSync(`${ARTICLES_DIR}/${file}`, 'utf8'));
+    if (new Date(data.published_at).getTime() > cutoff) {
+      recentTitles.push({ title: data.original_title || data.translations?.en?.title || '', category: data.category });
+    }
+  }
+} catch { /* empty dir on first run */ }
+console.log(`[pipeline] Cross-run dedup: ${recentTitles.length} recent articles loaded`);
 
 // Load seen URLs to avoid reprocessing
 const seen = new Set(existsSync(SEEN_FILE) ? JSON.parse(readFileSync(SEEN_FILE, 'utf8')) : []);
@@ -361,6 +375,18 @@ for (const article of candidatePool) {
   if (saved >= MAX_TOTAL) break;
   if (quotaExhausted) break;
   try {
+    // Cross-run topic dedup: skip if same topic was already covered in the last 48h
+    const candidateWords = normalizeTitle(article.title);
+    const topicDup = recentTitles.find(r =>
+      r.category === article.category &&
+      jaccardSimilarity(candidateWords, normalizeTitle(r.title)) > 0.55
+    );
+    if (topicDup) {
+      console.log(`  [topic-dedup] skipped "${article.title.slice(0, 55)}" — similar to recent: "${topicDup.title.slice(0, 45)}"`);
+      runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: article._score, reason: 'topic_dedup_recent' });
+      continue;
+    }
+
     // Image fallback chain: RSS → og:image → TMDB/IGDB/OpenLibrary → Wikipedia
     if (!article.image_url) {
       article.image_url = await scrapeOgImage(article.link);
