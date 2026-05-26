@@ -213,7 +213,17 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
       if (!res.ok) {
         const errText = await res.text();
         console.warn(`  [gemini-en attempt ${attempt}] ${res.status}: ${errText.slice(0, 100)}`);
-        if (res.status === 429) throw new Error(`Gemini EN 429`); // quota exceeded — no point retrying
+        if (res.status === 429) {
+          if (attempt < 3) {
+            const retryAfter = parseInt(res.headers.get('Retry-After') || '0') * 1000;
+            const backoff = retryAfter || Math.min(15000 * Math.pow(2, attempt - 1), 60000);
+            const jitter = Math.random() * 3000;
+            console.warn(`  [gemini-en] 429 — ${Math.round((backoff + jitter) / 1000)}s bekle`);
+            await sleep(backoff + jitter);
+            continue;
+          }
+          throw new Error(`Gemini EN 429 — tüm denemeler tükendi`);
+        }
         if (attempt < 3) { await sleep(attempt * 15000); continue; }
         throw new Error(`Gemini EN ${res.status}`);
       }
