@@ -1,6 +1,24 @@
 {
-  "totalArticles": 15,
+  "totalArticles": 16,
   "runs": [
+    {
+      "timestamp": "2026-05-26T22:02:49.847Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 316,
+      "totalCandidates": 66,
+      "written": [
+        {
+          "title": "‘Marshals’ Stars Reveal Their Fates After Season One Finale Cliffhanger Ending",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 17,
+          "slug": "0dc0d453-marshals-stars-reveal-their-fates-after-season-one-finale-cl"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-26T20:02:25.373Z",
       "status": "success",
@@ -331,5 +349,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-26T20:02:25.373Z"
+  "lastUpdated": "2026-05-26T22:02:49.847Z"
 }
