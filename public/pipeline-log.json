@@ -1,6 +1,24 @@
 {
-  "totalArticles": 9,
+  "totalArticles": 10,
   "runs": [
+    {
+      "timestamp": "2026-05-26T08:00:55.848Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 237,
+      "totalCandidates": 12,
+      "written": [
+        {
+          "title": "From Gilead to Ladyland: how the rebellious women of literature offer hope in dark times",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 7,
+          "slug": "4af3222f-from-gilead-to-ladyland-how-the-rebellious-women-of-literatu"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-26T06:00:56.265Z",
       "status": "quota",
@@ -223,5 +241,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-26T06:00:56.265Z"
+  "lastUpdated": "2026-05-26T08:00:55.848Z"
 }
