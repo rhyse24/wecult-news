@@ -66,7 +66,7 @@ const LOG_FILE = 'public/pipeline-log.json';
 const MAX_ARTICLE_AGE_HOURS = 48;
 
 // Category rotation: film×4, tv×4, games×3, books×1 per 12-run cycle
-const ROTATION = ['games','film','tv','film','games','tv','film','tv','games','film','tv','books'];
+const ROTATION = ['games','film','tv','books','film','games','tv','film','games','tv','film','tv'];
 const rotationIndex = existsSync(ROTATION_FILE) ? JSON.parse(readFileSync(ROTATION_FILE, 'utf8')).index ?? 0 : 0;
 const targetCategory = ROTATION[rotationIndex % ROTATION.length];
 const nextIndex = (rotationIndex + 1) % ROTATION.length;
