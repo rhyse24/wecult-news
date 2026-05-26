@@ -294,7 +294,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
 
   // If TR failed but ES succeeded, TPM window has partially reset — retry TR once
   if (!trData && esData) {
-    console.warn('  [groq-tr] initial attempt failed but ES succeeded — retrying TR after 10s');
+    console.warn('  [groq-tr] initial attempt failed but ES succeeded — retrying TR after 65s');
     await sleep(65000);
     trData = await translateToTurkish(enData, groqKey || apiKey, article.category, !!groqKey);
     if (trData) console.log('  [groq-tr] retry succeeded');
@@ -303,7 +303,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
 
   // If ES failed but TR succeeded, retry ES once
   if (!esData && trData) {
-    console.warn('  [groq-es] initial attempt failed but TR succeeded — retrying ES after 10s');
+    console.warn('  [groq-es] initial attempt failed but TR succeeded — retrying ES after 65s');
     await sleep(65000);
     esData = await translateToSpanish(enData, groqKey || apiKey, article.category, !!groqKey);
     if (esData) console.log('  [groq-es] retry succeeded');
