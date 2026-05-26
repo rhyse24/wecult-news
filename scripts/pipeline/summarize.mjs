@@ -288,7 +288,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
   let trData = await translateToTurkish(enData, groqKey || apiKey, article.category, !!groqKey);
 
   // ── Step 3: Spanish translation (Groq) ───────────────────────────────
-  await sleep(15000); // gap to avoid TPM burst
+  await sleep(65000); // wait >1 min so Groq TPM window resets between TR and ES
   let esData = await translateToSpanish(enData, groqKey || apiKey, article.category, !!groqKey);
 
   // If TR failed but ES succeeded, TPM window has partially reset — retry TR once
