@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro'
+import ArticleStyles from '../../../components/layout/ArticleStyles.astro'
 import ArticleCard from '../../../components/article/ArticleCard.astro'
 import WeCultCTA from '../../../components/ui/WeCultCTA.astro'
 import AdSlot from '../../../components/ui/AdSlot.astro'
@@ -356,3 +357,5 @@ const bodyBlocks = content?.body ? parseBody(content.body) : []
     })
   }
 </script>
+
+<ArticleStyles />
