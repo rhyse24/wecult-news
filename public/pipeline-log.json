@@ -1,6 +1,24 @@
 {
-  "totalArticles": 7,
+  "totalArticles": 8,
   "runs": [
+    {
+      "timestamp": "2026-05-26T02:00:55.176Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 237,
+      "totalCandidates": 93,
+      "written": [
+        {
+          "title": "Tekken Director Katsuhiro Harada Finally Takes a Trip to Waffle House",
+          "category": "games",
+          "source": "IGN",
+          "score": 13,
+          "slug": "d5be0cff-tekken-director-katsuhiro-harada-finally-takes-a-trip-to-waf"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-26T00:00:59.791Z",
       "status": "quota",
@@ -169,5 +187,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-26T00:00:59.791Z"
+  "lastUpdated": "2026-05-26T02:00:55.176Z"
 }
