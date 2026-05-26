@@ -46,6 +46,7 @@ const timeAgo = (() => {
 const siteBase = 'https://news.wecult.app'
 const pageUrl = `${siteBase}/tr/article/${article.slug}`
 const enPageUrl = `${siteBase}/article/${article.slug}`
+const esPageUrl = `${siteBase}/es/article/${article.slug}`
 const shareTitle = encodeURIComponent(tr?.title ?? '')
 const shareUrl = encodeURIComponent(pageUrl)
 
@@ -82,6 +83,7 @@ const articleSchema = {
     '@type': 'SpeakableSpecification',
     cssSelector: ['h1.article-title', '.article-content p:first-of-type'],
   },
+  isAccessibleForFree: true,
   inLanguage: 'tr',
   articleSection: article.category.charAt(0).toUpperCase() + article.category.slice(1),
   keywords: article.tags.join(', '),
@@ -132,7 +134,7 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
   ogImage={article.cover_image ?? undefined}
   preloadImage={article.cover_image ?? undefined}
   canonicalUrl={pageUrl}
-  hreflang={{ en: enPageUrl, tr: pageUrl }}
+  hreflang={{ en: enPageUrl, tr: pageUrl, es: esPageUrl }}
   schema={[breadcrumbSchema, articleSchema]}
 >
 

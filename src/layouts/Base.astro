@@ -12,7 +12,7 @@ interface Props {
   ogImage?: string
   preloadImage?: string
   canonicalUrl?: string
-  hreflang?: { en: string; tr: string }
+  hreflang?: { en: string; tr: string; es?: string }
   schema?: Record<string, unknown> | Record<string, unknown>[]
 }
 
@@ -33,6 +33,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     {hreflang && <>
       <link rel="alternate" hreflang="en" href={hreflang.en} />
       <link rel="alternate" hreflang="tr" href={hreflang.tr} />
+      {hreflang.es && <link rel="alternate" hreflang="es" href={hreflang.es} />}
       <link rel="alternate" hreflang="x-default" href={hreflang.en} />
     </>}
     <meta property="og:title" content={title} />

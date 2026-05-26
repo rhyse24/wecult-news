@@ -81,6 +81,7 @@ const articleSchema = {
     '@type': 'SpeakableSpecification',
     cssSelector: ['h1.article-title', '.article-content p:first-of-type'],
   },
+  isAccessibleForFree: true,
   inLanguage: 'es',
   articleSection: article.category.charAt(0).toUpperCase() + article.category.slice(1),
   keywords: article.tags.join(', '),
@@ -131,7 +132,7 @@ const bodyBlocks = content?.body ? parseBody(content.body) : []
   ogImage={article.cover_image ?? undefined}
   preloadImage={article.cover_image ?? undefined}
   canonicalUrl={pageUrl}
-  hreflang={{ en: enPageUrl, tr: `${siteBase}/tr/article/${article.slug}` }}
+  hreflang={{ en: enPageUrl, tr: `${siteBase}/tr/article/${article.slug}`, es: pageUrl }}
   schema={[breadcrumbSchema, articleSchema]}
 >
 
