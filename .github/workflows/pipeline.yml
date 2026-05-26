@@ -60,11 +60,19 @@ jobs:
           else
             git commit -m "chore(log): pipeline run kaydedildi"
           fi
+          pushed=false
           for i in 1 2 3; do
-            git pull --rebase origin master && git push && break
+            if git pull --rebase origin master && git push; then
+              pushed=true
+              break
+            fi
             echo "Push attempt $i failed, retrying in 10s..."
             sleep 10
           done
+          if [ "$pushed" = "false" ]; then
+            echo "::error::All 3 push attempts failed — articles may not be deployed"
+            exit 1
+          fi
 
       - name: Trigger Vercel deploy
         env:

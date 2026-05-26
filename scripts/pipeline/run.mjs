@@ -478,8 +478,9 @@ for (const article of candidatePool) {
 const seenArr = [...seen].slice(-2000);
 writeFileSync(SEEN_FILE, JSON.stringify(seenArr, null, 2));
 
-// Persist rotation index
-writeFileSync(ROTATION_FILE, JSON.stringify({ index: nextIndex }, null, 2));
+// Persist rotation index — only advance when an article was actually written
+// (prevents coverage gaps if pipeline saves 0 articles multiple runs in a row)
+writeFileSync(ROTATION_FILE, JSON.stringify({ index: saved > 0 ? nextIndex : rotationIndex }, null, 2));
 
 // Write pipeline run log
 runLog.articlesWritten = saved;
