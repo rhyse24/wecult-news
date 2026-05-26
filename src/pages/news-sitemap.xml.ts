@@ -33,7 +33,7 @@ export const GET: APIRoute = () => {
       const pubDate  = new Date(a.published_at as string).toISOString()
       const imageUrl = (a.image_url as string) || ''
       const imageTag = imageUrl
-        ? `\n    <image:image>\n      <image:loc>${imageUrl}</image:loc>\n    </image:image>`
+        ? `\n    <image:image>\n      <image:loc>${escapeXml(imageUrl)}</image:loc>\n    </image:image>`
         : ''
 
       const entries: string[] = []
