@@ -285,11 +285,20 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
 
   // ── Step 2: Turkish translation (Groq) ───────────────────────────────
   if (!groqKey) await sleep(15000); // Gemini RPM limit — Groq doesn't need this
-  const trData = await translateToTurkish(enData, groqKey || apiKey, article.category, !!groqKey);
+  let trData = await translateToTurkish(enData, groqKey || apiKey, article.category, !!groqKey);
 
   // ── Step 3: Spanish translation (Groq) ───────────────────────────────
-  await sleep(groqKey ? 15000 : 15000); // Groq: 15s gap to avoid TPM limit
+  await sleep(15000); // gap to avoid TPM burst
   const esData = await translateToSpanish(enData, groqKey || apiKey, article.category, !!groqKey);
+
+  // If TR failed but ES succeeded, TPM window has partially reset — retry TR once
+  if (!trData && esData) {
+    console.warn('  [groq-tr] initial attempt failed but ES succeeded — retrying TR after 10s');
+    await sleep(10000);
+    trData = await translateToTurkish(enData, groqKey || apiKey, article.category, !!groqKey);
+    if (trData) console.log('  [groq-tr] retry succeeded');
+    else console.warn('  [groq-tr] retry also failed — saving without TR');
+  }
 
   const VALID_STORY_TYPES = new Set(['breaking', 'exclusive', 'rumor', 'analysis', 'release', 'event', 'other']);
   const story_type = VALID_STORY_TYPES.has(enData.story_type) ? enData.story_type : 'other';
