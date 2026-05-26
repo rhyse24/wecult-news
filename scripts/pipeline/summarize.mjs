@@ -210,7 +210,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           contents: [{ parts: [{ text: enPrompt }] }],
-          generationConfig: { temperature: 0.65, maxOutputTokens: 8192 },
+          generationConfig: { temperature: 0.65, maxOutputTokens: 8192, responseMimeType: 'application/json' },
         }),
         signal: AbortSignal.timeout(90000),
       });
@@ -295,7 +295,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
   // If TR failed but ES succeeded, TPM window has partially reset — retry TR once
   if (!trData && esData) {
     console.warn('  [groq-tr] initial attempt failed but ES succeeded — retrying TR after 10s');
-    await sleep(10000);
+    await sleep(65000);
     trData = await translateToTurkish(enData, groqKey || apiKey, article.category, !!groqKey);
     if (trData) console.log('  [groq-tr] retry succeeded');
     else console.warn('  [groq-tr] retry also failed — saving without TR');
@@ -304,7 +304,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
   // If ES failed but TR succeeded, retry ES once
   if (!esData && trData) {
     console.warn('  [groq-es] initial attempt failed but TR succeeded — retrying ES after 10s');
-    await sleep(10000);
+    await sleep(65000);
     esData = await translateToSpanish(enData, groqKey || apiKey, article.category, !!groqKey);
     if (esData) console.log('  [groq-es] retry succeeded');
     else console.warn('  [groq-es] retry also failed — saving without ES');
@@ -384,6 +384,7 @@ CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\
             messages: [{ role: 'user', content: trPrompt }],
             temperature: 0.45,
             max_tokens: 3000,
+            response_format: { type: 'json_object' },
           }),
           signal: AbortSignal.timeout(90000),
         });
@@ -393,7 +394,7 @@ CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             contents: [{ parts: [{ text: trPrompt }] }],
-            generationConfig: { temperature: 0.45, maxOutputTokens: 8192 },
+            generationConfig: { temperature: 0.45, maxOutputTokens: 8192, responseMimeType: 'application/json' },
           }),
           signal: AbortSignal.timeout(90000),
         });
@@ -532,6 +533,7 @@ CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\
             messages: [{ role: 'user', content: esPrompt }],
             temperature: 0.45,
             max_tokens: 3000,
+            response_format: { type: 'json_object' },
           }),
           signal: AbortSignal.timeout(90000),
         });
@@ -541,7 +543,7 @@ CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             contents: [{ parts: [{ text: esPrompt }] }],
-            generationConfig: { temperature: 0.45, maxOutputTokens: 8192 },
+            generationConfig: { temperature: 0.45, maxOutputTokens: 8192, responseMimeType: 'application/json' },
           }),
           signal: AbortSignal.timeout(90000),
         });
