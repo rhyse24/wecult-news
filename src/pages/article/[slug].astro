@@ -63,7 +63,7 @@ const breadcrumbSchema = {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'NewsArticle',
-  headline: tr?.title ?? '',
+  headline: (tr?.title ?? '').slice(0, 110),
   description: tr?.summary ?? '',
   image: article.cover_image || undefined,
   datePublished: article.published_at,
@@ -80,7 +80,7 @@ const articleSchema = {
   publisher: {
     '@type': 'Organization',
     name: 'WeCult News',
-    logo: { '@type': 'ImageObject', url: `${siteBase}/favicon.svg` },
+    logo: { '@type': 'ImageObject', url: `${siteBase}/logo.png`, width: 1024, height: 1024 },
   },
   speakable: {
     '@type': 'SpeakableSpecification',
