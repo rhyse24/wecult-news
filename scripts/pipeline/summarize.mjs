@@ -289,7 +289,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
 
   // ── Step 3: Spanish translation (Groq) ───────────────────────────────
   await sleep(15000); // gap to avoid TPM burst
-  const esData = await translateToSpanish(enData, groqKey || apiKey, article.category, !!groqKey);
+  let esData = await translateToSpanish(enData, groqKey || apiKey, article.category, !!groqKey);
 
   // If TR failed but ES succeeded, TPM window has partially reset — retry TR once
   if (!trData && esData) {
@@ -298,6 +298,15 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
     trData = await translateToTurkish(enData, groqKey || apiKey, article.category, !!groqKey);
     if (trData) console.log('  [groq-tr] retry succeeded');
     else console.warn('  [groq-tr] retry also failed — saving without TR');
+  }
+
+  // If ES failed but TR succeeded, retry ES once
+  if (!esData && trData) {
+    console.warn('  [groq-es] initial attempt failed but TR succeeded — retrying ES after 10s');
+    await sleep(10000);
+    esData = await translateToSpanish(enData, groqKey || apiKey, article.category, !!groqKey);
+    if (esData) console.log('  [groq-es] retry succeeded');
+    else console.warn('  [groq-es] retry also failed — saving without ES');
   }
 
   const VALID_STORY_TYPES = new Set(['breaking', 'exclusive', 'rumor', 'analysis', 'release', 'event', 'other']);
