@@ -288,7 +288,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
   const trData = await translateToTurkish(enData, groqKey || apiKey, article.category, !!groqKey);
 
   // ── Step 3: Spanish translation (Groq) ───────────────────────────────
-  await sleep(groqKey ? 3000 : 15000); // Groq: small gap for TPM safety
+  await sleep(groqKey ? 15000 : 15000); // Groq: 15s gap to avoid TPM limit
   const esData = await translateToSpanish(enData, groqKey || apiKey, article.category, !!groqKey);
 
   const VALID_STORY_TYPES = new Set(['breaking', 'exclusive', 'rumor', 'analysis', 'release', 'event', 'other']);
@@ -364,7 +364,7 @@ CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\
             model: GROQ_MODEL,
             messages: [{ role: 'user', content: trPrompt }],
             temperature: 0.45,
-            max_tokens: 8192,
+            max_tokens: 3000,
           }),
           signal: AbortSignal.timeout(90000),
         });
@@ -509,7 +509,7 @@ CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\
             model: GROQ_MODEL,
             messages: [{ role: 'user', content: esPrompt }],
             temperature: 0.45,
-            max_tokens: 8192,
+            max_tokens: 3000,
           }),
           signal: AbortSignal.timeout(90000),
         });
