@@ -40,11 +40,14 @@ const trending = !breaking && isTrending(article)
 const timeAgo = (() => {
   const ms = Date.now() - new Date(article.published_at).getTime()
   const h = Math.floor(ms / 3600000)
-  if (h < 1) return 'Just now'
-  if (h < 24) return `${h}h ago`
+  if (h < 1) return t(lang, 'ui.just_now')
+  if (h < 24) return t(lang, 'ui.time_h', { h })
   const d = Math.floor(h / 24)
-  return d === 1 ? '1d ago' : `${d}d ago`
+  return t(lang, 'ui.time_d', { d })
 })()
+
+const breakingLabel  = t(lang, 'ui.breaking')
+const trendingLabel  = t(lang, 'ui.trending_badge')
 ---
 
 <!-- ─── Hero Card ─────────────────────────────────── -->
@@ -59,8 +62,8 @@ const timeAgo = (() => {
     </div>
     <div class="hero-content">
       <div class="hero-tags">
-        {breaking && <span class="breaking-badge">⬤ Breaking</span>}
-        {trending && <span class="trending-badge">🔥 Trending</span>}
+        {breaking && <span class="breaking-badge">⬤ {breakingLabel}</span>}
+        {trending && <span class="trending-badge">{trendingLabel}</span>}
         <span class="cat-pill" style={`--c:${color}`}>{label}</span>
         <span class="type-badge" style={`color:${typeColor[article.article_type]}`}>{typeLabel[article.article_type]}</span>
       </div>
@@ -89,7 +92,7 @@ const timeAgo = (() => {
         : <div class="featured-img-placeholder" style={`background:color-mix(in srgb, ${color} 8%, var(--bg-card))`}></div>
       }
       <span class="featured-cat-pill" style={`--c:${color}`}>{label}</span>
-      {breaking && <span class="breaking-overlay-badge">⬤ Breaking</span>}
+      {breaking && <span class="breaking-overlay-badge">⬤ {breakingLabel}</span>}
       {trending && <span class="trending-overlay-badge">🔥</span>}
     </div>
     <div class="featured-body">
@@ -119,7 +122,7 @@ const timeAgo = (() => {
         : <div class="default-img-placeholder" style={`background:color-mix(in srgb, ${color} 6%, var(--bg-card))`}></div>
       }
       <span class="default-cat-pill" style={`--c:${color}`}>{label}</span>
-      {breaking && <span class="breaking-overlay-badge">⬤ Breaking</span>}
+      {breaking && <span class="breaking-overlay-badge">⬤ {breakingLabel}</span>}
       {trending && <span class="trending-overlay-badge">🔥</span>}
     </div>
     <div class="default-body">
@@ -151,7 +154,7 @@ const timeAgo = (() => {
     <div class="compact-body">
       <div class="compact-meta-row">
         <span class="compact-cat" style={`color:${color}`}>{label}</span>
-        {breaking && <span class="breaking-mini">BREAKING</span>}
+        {breaking && <span class="breaking-mini">{breakingLabel.toUpperCase()}</span>}
       </div>
       <h4 class="compact-title">{tr?.title}</h4>
       <span class="compact-time">

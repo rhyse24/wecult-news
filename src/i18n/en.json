@@ -28,7 +28,12 @@
     "trending": "Trending",
     "load_more": "Load more",
     "back": "Back",
-    "search": "Search"
+    "search": "Search",
+    "just_now": "Just now",
+    "time_h": "{{h}}h ago",
+    "time_d": "{{d}}d ago",
+    "breaking": "Breaking",
+    "trending_badge": "🔥 Trending"
   },
   "footer": {
     "tagline": "Film, series, games and books — AI-powered news and analysis.",

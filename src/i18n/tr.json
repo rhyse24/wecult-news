@@ -28,7 +28,12 @@
     "trending": "Trend",
     "load_more": "Daha fazla",
     "back": "Geri",
-    "search": "Ara"
+    "search": "Ara",
+    "just_now": "Az önce",
+    "time_h": "{{h}} sa önce",
+    "time_d": "{{d}} gün önce",
+    "breaking": "Son Dakika",
+    "trending_badge": "🔥 Trend"
   },
   "footer": {
     "tagline": "Film, dizi, oyun ve kitap dünyasından AI destekli haber ve analizler.",

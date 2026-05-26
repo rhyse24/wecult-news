@@ -14,13 +14,37 @@
     "source": "Fuente",
     "read_original": "Leer original",
     "compiled_from": "Compilado de {{count}} fuentes",
-    "published": "Publicado"
+    "published": "Publicado",
+    "type": {
+      "news":    "Noticia",
+      "review":  "Reseña",
+      "feature": "Especial",
+      "opinion": "Opinión",
+      "guide":   "Guía"
+    }
   },
   "ui": {
     "latest": "Últimas noticias",
     "trending": "Tendencias",
     "load_more": "Cargar más",
     "back": "Volver",
-    "search": "Buscar"
+    "search": "Buscar",
+    "just_now": "Ahora mismo",
+    "time_h": "hace {{h}}h",
+    "time_d": "hace {{d}}d",
+    "breaking": "Última Hora",
+    "trending_badge": "🔥 Tendencia"
+  },
+  "footer": {
+    "tagline": "Noticias y análisis de cine, series, videojuegos y libros, con inteligencia artificial.",
+    "categoriesTitle": "Categorías",
+    "topicsTitle": "Temas Populares",
+    "moreTitle": "Más",
+    "about": "Sobre WeCult News",
+    "contact": "Contacto",
+    "wecultApp": "App WeCult",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "cookies": "Preferencias de Cookies"
   }
 }
