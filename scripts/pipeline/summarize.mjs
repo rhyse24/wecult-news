@@ -282,9 +282,11 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
   }
 
   // ── Step 2: Turkish translation (Groq) ───────────────────────────────
+  if (!groqKey) await sleep(15000); // Gemini RPM limit — Groq doesn't need this
   const trData = await translateToTurkish(enData, groqKey || apiKey, article.category, !!groqKey);
 
   // ── Step 3: Spanish translation (Groq) ───────────────────────────────
+  await sleep(groqKey ? 3000 : 15000); // Groq: small gap for TPM safety
   const esData = await translateToSpanish(enData, groqKey || apiKey, article.category, !!groqKey);
 
   const VALID_STORY_TYPES = new Set(['breaking', 'exclusive', 'rumor', 'analysis', 'release', 'event', 'other']);
@@ -435,7 +437,7 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
       console.log(`  [${provider}] ${words} words`);
       return parsed;
     } catch (err) {
-      console.warn(`  [gemini-tr attempt ${attempt}] ${err.message}`);
+      console.warn(`  [${provider} attempt ${attempt}] ${err.message}`);
       if (attempt < 3) { await sleep(attempt * 15000); continue; }
       return null;
     }
@@ -576,7 +578,7 @@ Return ONLY this JSON — no markdown wrapper, no extra text:
       console.log(`  [${provider}] ${words} words`);
       return parsed;
     } catch (err) {
-      console.warn(`  [gemini-es attempt ${attempt}] ${err.message}`);
+      console.warn(`  [${provider} attempt ${attempt}] ${err.message}`);
       if (attempt < 3) { await sleep(attempt * 15000); continue; }
       return null;
     }
