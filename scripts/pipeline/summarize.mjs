@@ -324,7 +324,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
   };
 }
 
-async function translateToTurkish(enData, apiKey, category, useGroq = false) {
+export async function translateToTurkish(enData, apiKey, category, useGroq = false) {
   const categoryNote = {
     games: 'gaming terms like "open world", "DLC", "early access" can stay in English if they are standard in Turkish gaming culture',
     film:  'cinema terms like "box office", "premiere", "Palme d\'Or" can stay as-is',
@@ -472,7 +472,7 @@ CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\
   return null;
 }
 
-async function translateToSpanish(enData, apiKey, category, useGroq = false) {
+export async function translateToSpanish(enData, apiKey, category, useGroq = false) {
   const categoryNote = {
     games: 'gaming terms like "open world", "DLC", "early access", "battle royale" can stay in English as they are standard in Spanish gaming culture',
     film:  'cinema terms like "box office", "premiere", "streaming" can stay as-is',
