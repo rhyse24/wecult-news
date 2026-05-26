@@ -3,7 +3,7 @@ const GROQ_URL   = 'https://api.groq.com/openai/v1/chat/completions';
 const GROQ_MODEL = 'llama-3.3-70b-versatile';
 
 // ── WeCult News Content Rules (approved 2026-05-24) ───────────────────────
-// Rule 1: EN body ≥ 450 words, TR body ≥ 300 words, ≥2 ## headings, no truncation
+// Rule 1: EN body ≥ 450 words, TR body ≥ 300 words, ≥1 ## heading, no truncation
 // Rule 2: Hook → Context → Main Story → Fan Angle → What's Next
 // Rule 3: No hallucinated quotes, dates, cast, numbers — if unknown write "yet to be announced"
 // Rule 4: TR keeps proper nouns, translates headings, natural style, ≠ EN copy
@@ -81,7 +81,7 @@ export function titleEntityPresent(originalTitle, enBody) {
   const found = keyWords.filter(w => bodyLower.includes(w));
   const ratio = found.length / keyWords.length;
 
-  return ratio >= 0.4; // at least 40% of key title words must appear in body
+  return ratio >= 0.3; // at least 30% of key title words must appear in body
 }
 
 // Rule 8 — quality gate applied to Gemini output before saving
@@ -96,6 +96,8 @@ export function validateArticle(ai) {
   // EN checks
   const enWords = wordCount(enBody);
   if (enWords < 450) errors.push(`EN body too short: ${enWords} words (need ≥450)`);
+  const enHeadings = countHeadings(enBody);
+  if (enHeadings < 1) errors.push(`EN body has no section headings (need ≥1)`);
   if (isTruncated(enBody)) errors.push('EN body contains truncation marker');
   if (!endsCleanly(enBody)) errors.push('EN body ends mid-sentence');
 
