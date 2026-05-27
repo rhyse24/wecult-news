@@ -387,10 +387,9 @@ for (const article of candidatePool) {
       continue;
     }
 
-    // Image fallback chain: RSS → og:image → TMDB/IGDB/OpenLibrary → Wikipedia
-    if (!article.image_url) {
-      article.image_url = await scrapeOgImage(article.link);
-    }
+    // Image fallback chain: content-centric CDNs first (no hotlink protection),
+    // og:image last (news sites often block cross-origin requests via wsrv.nl).
+    // RSS feed image is kept if present — it's usually already a direct CDN URL.
     if (!article.image_url && (article.category === 'film' || article.category === 'tv') && TMDB_TOKEN) {
       article.image_url = await searchTmdbImage(article.title, article.category, TMDB_TOKEN);
     }
@@ -402,6 +401,11 @@ for (const article of candidatePool) {
     }
     if (!article.image_url) {
       article.image_url = await searchInlineImage(article);
+    }
+    // og:image fallback — only if no content-centric image found, since many
+    // news sites (Variety, THR, IGN, etc.) use hotlink protection that breaks wsrv.nl.
+    if (!article.image_url) {
+      article.image_url = await scrapeOgImage(article.link);
     }
 
     // Web search for richer context
