@@ -1,6 +1,24 @@
 {
-  "totalArticles": 24,
+  "totalArticles": 25,
   "runs": [
+    {
+      "timestamp": "2026-05-27T16:00:56.937Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 320,
+      "totalCandidates": 65,
+      "written": [
+        {
+          "title": "‘Euphoria’ Star’s New Shudder Thriller Gets First Look Ahead of June Release",
+          "category": "tv",
+          "source": "Collider",
+          "score": 18,
+          "slug": "afeef657-euphoria-stars-new-shudder-thriller-gets-first-look-ahead-of"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-27T14:00:55.887Z",
       "status": "success",
@@ -493,5 +511,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T14:00:55.887Z"
+  "lastUpdated": "2026-05-27T16:00:56.937Z"
 }
