@@ -1,6 +1,24 @@
 {
-  "totalArticles": 25,
+  "totalArticles": 26,
   "runs": [
+    {
+      "timestamp": "2026-05-27T17:20:38.400Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 318,
+      "totalCandidates": 80,
+      "written": [
+        {
+          "title": "Disclosure Day Final Trailer Offers First Look at Alien Creature in Steven Spielberg UFO Movie",
+          "category": "film",
+          "source": "ComingSoon",
+          "score": 20,
+          "slug": "acd95001-disclosure-day-final-trailer-offers-first-look-at-alien-crea"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-27T16:00:56.937Z",
       "status": "success",
@@ -511,5 +529,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T16:00:56.937Z"
+  "lastUpdated": "2026-05-27T17:20:38.400Z"
 }
