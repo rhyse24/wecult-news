@@ -101,7 +101,8 @@ html {
   transition: background 0.2s ease, color 0.2s ease;
 }
 
-body { min-height: 100vh; }
+body { min-height: 100vh; overflow-x: hidden; }
+html { overflow-x: hidden; }
 a { color: inherit; text-decoration: none; }
 img { display: block; max-width: 100%; }
 button { font-family: inherit; cursor: pointer; }
