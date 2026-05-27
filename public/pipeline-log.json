@@ -1,6 +1,24 @@
 {
-  "totalArticles": 26,
+  "totalArticles": 27,
   "runs": [
+    {
+      "timestamp": "2026-05-27T18:00:54.533Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 318,
+      "totalCandidates": 120,
+      "written": [
+        {
+          "title": "Dragon Quest 12 Development Restarted From Scratch After “A Lot Of Hurdles”",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 17,
+          "slug": "dcb097dc-dragon-quest-12-development-restarted-from-scratch-after-a-l"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-27T17:20:38.400Z",
       "status": "success",
@@ -529,5 +547,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T17:20:38.400Z"
+  "lastUpdated": "2026-05-27T18:00:54.533Z"
 }
