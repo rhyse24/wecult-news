@@ -1,6 +1,24 @@
 {
-  "totalArticles": 27,
+  "totalArticles": 28,
   "runs": [
+    {
+      "timestamp": "2026-05-27T20:00:52.035Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 316,
+      "totalCandidates": 58,
+      "written": [
+        {
+          "title": "Nicolas Cage on Finally Playing a Superhero That Matches His Freak in ‘Spider-Noir,’ How Watching ‘Breaking Bad’ Led Him to TV and Whether He’s Doing Season 5 of ‘True Detective’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "slug": "eec253aa-nicolas-cage-on-finally-playing-a-superhero-that-matches-his"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-27T18:00:54.533Z",
       "status": "success",
@@ -547,5 +565,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T18:00:54.533Z"
+  "lastUpdated": "2026-05-27T20:00:52.035Z"
 }
