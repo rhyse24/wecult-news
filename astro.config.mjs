@@ -6,6 +6,9 @@ export default defineConfig({
   output: 'static',
   base: '/',
   compressHTML: true,
+  build: {
+    inlineStylesheets: 'always',
+  },
   image: {
     remotePatterns: [
       { protocol: 'https', hostname: 'images.unsplash.com' },

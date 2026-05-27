@@ -602,9 +602,13 @@ async function downloadArticleImage(imageUrl, articleId) {
   if (!imageUrl || isTrustedCdn(imageUrl)) return imageUrl;
   const dir = 'public/article-images';
   if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
-  const filename = `${articleId}.webp`;
+  // Save as AVIF (30-50% smaller than WebP) — ArticleCard uses <picture> with WebP fallback
+  const filename = `${articleId}.avif`;
   const filepath = `${dir}/${filename}`;
   if (existsSync(filepath)) return `/article-images/${filename}`;
+  // Also check legacy .webp (already downloaded before AVIF switch)
+  const legacyWebp = `${dir}/${articleId}.webp`;
+  if (existsSync(legacyWebp)) return `/article-images/${articleId}.webp`;
   try {
     const res = await fetch(imageUrl, {
       headers: { 'User-Agent': 'WeCultNews/1.0 (+https://news.wecult.app)' },
@@ -616,10 +620,10 @@ async function downloadArticleImage(imageUrl, articleId) {
     if (buffer.byteLength < 5000) return ''; // too small = error page
     const compressed = await sharp(Buffer.from(buffer))
       .resize({ width: 900, withoutEnlargement: true })
-      .webp({ quality: 82 })
+      .avif({ quality: 72 })
       .toBuffer();
     await writeFile(filepath, compressed);
-    console.log(`    [image-dl] ${filename} ${(buffer.byteLength / 1024).toFixed(0)}KB → ${(compressed.byteLength / 1024).toFixed(0)}KB`);
+    console.log(`    [image-dl] ${filename} ${(buffer.byteLength / 1024).toFixed(0)}KB → ${(compressed.byteLength / 1024).toFixed(0)}KB (avif)`);
     return `/article-images/${filename}`;
   } catch {
     return '';

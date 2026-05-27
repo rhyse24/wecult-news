@@ -4,6 +4,7 @@ import Header from '../components/layout/Header.astro'
 import Footer from '../components/layout/Footer.astro'
 import CookieBanner from '../components/ui/CookieBanner.astro'
 import type { Lang } from '../types'
+import interFontUrl from '@fontsource-variable/inter/files/inter-latin-opsz-normal.woff2?url'
 
 interface Props {
   title: string
@@ -35,10 +36,14 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <link rel="sitemap" href="/sitemap.xml" />
+    <link rel="preload" as="font" type="font/woff2" crossorigin href={interFontUrl} />
     {preloadImage && avifHref && (
       <link rel="preload" as="image" type="image/avif" href={avifHref} fetchpriority="high" imagesrcset={avifSrcset} imagesizes={preloadSizes} />
     )}
-    {preloadImage && !avifHref && (
+    {preloadImage && !avifHref && preloadImage.endsWith('.avif') && (
+      <link rel="preload" as="image" type="image/avif" href={preloadImage} fetchpriority="high" />
+    )}
+    {preloadImage && !avifHref && !preloadImage.endsWith('.avif') && (
       <link rel="preload" as="image" href={preloadImage} fetchpriority="high" imagesrcset={preloadImageSrcset} imagesizes={preloadImageSrcset ? preloadSizes : undefined} />
     )}
     {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
