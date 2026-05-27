@@ -28,7 +28,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <link rel="sitemap" href="/sitemap.xml" />
-    {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />}
+    {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" type={preloadImage.includes('wsrv.nl') || preloadImage.includes('output=webp') ? 'image/webp' : undefined} />}
     {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
     {hreflang && <>
       <link rel="alternate" hreflang="en" href={hreflang.en} />
@@ -73,9 +73,11 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
         'query-input': 'required name=search_term_string',
       },
     })} />
+    <link rel="preconnect" href="https://wsrv.nl" />
     <link rel="preconnect" href="https://images.unsplash.com" />
     <link rel="preconnect" href="https://image.tmdb.org" />
     <link rel="dns-prefetch" href="https://images.igdb.com" />
+    <link rel="dns-prefetch" href="https://wsrv.nl" />
     <link rel="alternate" type="application/rss+xml" title="WeCult News RSS" href="https://news.wecult.app/feed.xml" />
     <link rel="alternate" type="application/rss+xml" title="WeCult News RSS (Türkçe)" href="https://news.wecult.app/tr/feed.xml" />
     <link rel="alternate" type="application/rss+xml" title="WeCult News RSS (Español)" href="https://news.wecult.app/es/feed.xml" />
