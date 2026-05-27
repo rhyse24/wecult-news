@@ -31,7 +31,10 @@ export const GET: APIRoute = () => {
     .flatMap(a => {
       const translations = a.translations as Record<string, { title?: string } | null> | undefined
       const pubDate  = new Date(a.published_at as string).toISOString()
-      const imageUrl = (a.image_url as string) || ''
+      const rawImageUrl = (a.image_url as string) || ''
+      const imageUrl = rawImageUrl.startsWith('/')
+        ? `https://news.wecult.app${rawImageUrl}`
+        : rawImageUrl
       const imageTag = imageUrl
         ? `\n    <image:image>\n      <image:loc>${escapeXml(imageUrl)}</image:loc>\n    </image:image>`
         : ''
