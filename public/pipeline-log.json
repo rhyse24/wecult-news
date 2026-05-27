@@ -1,6 +1,24 @@
 {
-  "totalArticles": 19,
+  "totalArticles": 20,
   "runs": [
+    {
+      "timestamp": "2026-05-27T06:01:06.365Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 315,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Everything We Know About ‘The Boys’ Prequel Series ‘Vought Rising’ So Far",
+          "category": "film",
+          "source": "Deadline",
+          "score": 15,
+          "slug": "4c3c43ab-everything-we-know-about-the-boys-prequel-series-vought-risi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-27T04:01:05.155Z",
       "status": "success",
@@ -403,5 +421,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T04:01:05.155Z"
+  "lastUpdated": "2026-05-27T06:01:06.365Z"
 }
