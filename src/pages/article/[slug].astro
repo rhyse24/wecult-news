@@ -147,7 +147,7 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
     <!-- Hero image -->
     {article.cover_image && (
       <div class="article-hero">
-        <img src={article.cover_image} alt={tr?.title} fetchpriority="high" decoding="async" width="1200" height="630" />
+        <img src={article.cover_image} alt={tr?.title} fetchpriority="high" decoding="async" width="1200" height="630" onerror="this.closest('.article-hero').style.display='none'" />
         <div class="article-hero-overlay"></div>
       </div>
     )}
