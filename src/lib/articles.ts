@@ -39,6 +39,22 @@ function readingTime(text: string): number {
   return Math.max(1, Math.round(words / 200))
 }
 
+function optimizeImageUrl(url: string): string {
+  if (!url) return url
+  // TMDB: /t/p/original/ veya /t/p/w500/ → /t/p/w780/ (daha küçük, yeterli kalite)
+  if (url.includes('image.tmdb.org')) {
+    return url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w780/')
+  }
+  // IGDB: t_thumb/t_cover_small → t_720p (haber hero için yeterli)
+  if (url.includes('images.igdb.com')) {
+    return url.replace(/\/t_[a-z_]+\//, '/t_720p/')
+  }
+  // Unsplash: zaten ?w=900&q=80 var, dokunma
+  if (url.includes('unsplash.com')) return url
+  // Diğer haber CDN'leri: wsrv.nl ile WebP + yeniden boyutlandır
+  return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=900&output=webp&q=80`
+}
+
 function normalizeArticle(raw: Record<string, unknown>): Article {
   const category = (raw.category as Category) ?? 'games'
   const translations = raw.translations as Record<string, { title: string; summary: string } | null>
@@ -66,7 +82,7 @@ function normalizeArticle(raw: Record<string, unknown>): Article {
     article_type: 'news',
     author: (raw.author as string) || 'WeCult Editorial',
     published_at: raw.published_at as string,
-    cover_image: (raw.image_url as string) || FALLBACK_IMAGES[category],
+    cover_image: optimizeImageUrl((raw.image_url as string) || FALLBACK_IMAGES[category]),
     inline_image_url: (raw.inline_image_url as string) || '',
     source_url: raw.source_url as string,
     source_name: raw.source_name as string,

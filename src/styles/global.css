@@ -1,3 +1,9 @@
+@import '@fontsource-variable/inter/opsz.css';
+@import '@fontsource-variable/inter/opsz-italic.css';
+@import '@fontsource/lora/600.css';
+@import '@fontsource/lora/700.css';
+@import '@fontsource/lora/600-italic.css';
+@import '@fontsource/lora/700-italic.css';
 @import "tailwindcss";
 
 /* ─── Light theme ─────────────────────────────────── */
@@ -47,7 +53,7 @@
   --radius-md: 10px;
   --radius-lg: 14px;
   --radius-xl: 18px;
-  --font-sans:  'Inter', system-ui, -apple-system, sans-serif;
+  --font-sans:  'Inter Variable', system-ui, -apple-system, sans-serif;
   --font-serif: 'Lora', Georgia, 'Cambria', serif;
 }
 
