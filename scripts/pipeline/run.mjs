@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, unlinkSync } from 'fs';
 import { writeFile } from 'fs/promises';
+import sharp from 'sharp';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
 import { summarizeArticle, validateArticle, isTruncated, titleEntityPresent } from './summarize.mjs';
@@ -600,12 +601,12 @@ function pruneOldImages() {
 
 // Download og:image to public/article-images/ so it's served from our own domain.
 // Avoids hotlink protection entirely — no wsrv.nl proxy needed for these images.
+// Images are resized to max 900px wide and converted to WebP (quality 82) for fast mobile load.
 async function downloadArticleImage(imageUrl, articleId) {
   if (!imageUrl || isTrustedCdn(imageUrl)) return imageUrl;
   const dir = 'public/article-images';
   if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
-  const ext = imageUrl.match(/\.(jpe?g|png|webp)/i)?.[1]?.toLowerCase() ?? 'jpg';
-  const filename = `${articleId}.${ext === 'jpeg' ? 'jpg' : ext}`;
+  const filename = `${articleId}.webp`;
   const filepath = `${dir}/${filename}`;
   if (existsSync(filepath)) return `/article-images/${filename}`;
   try {
@@ -617,8 +618,12 @@ async function downloadArticleImage(imageUrl, articleId) {
     if (!res.ok) return '';
     const buffer = await res.arrayBuffer();
     if (buffer.byteLength < 5000) return ''; // too small = error page
-    await writeFile(filepath, Buffer.from(buffer));
-    console.log(`    [image-dl] ${filename} (${(buffer.byteLength / 1024).toFixed(0)}KB)`);
+    const compressed = await sharp(Buffer.from(buffer))
+      .resize({ width: 900, withoutEnlargement: true })
+      .webp({ quality: 82 })
+      .toBuffer();
+    await writeFile(filepath, compressed);
+    console.log(`    [image-dl] ${filename} ${(buffer.byteLength / 1024).toFixed(0)}KB → ${(compressed.byteLength / 1024).toFixed(0)}KB`);
     return `/article-images/${filename}`;
   } catch {
     return '';
