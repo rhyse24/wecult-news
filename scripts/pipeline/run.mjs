@@ -562,14 +562,10 @@ function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
-// CDNs that serve images without hotlink protection — no download needed
+// Already-local or Unsplash fallback — skip download
 function isTrustedCdn(url) {
   if (!url) return false;
   return (
-    url.includes('image.tmdb.org') ||
-    url.includes('images.igdb.com') ||
-    url.includes('upload.wikimedia.org') ||
-    url.includes('covers.openlibrary.org') ||
     url.includes('unsplash.com') ||
     url.startsWith('/article-images/')
   );
