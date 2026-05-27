@@ -2,6 +2,27 @@
   "totalArticles": 28,
   "runs": [
     {
+      "timestamp": "2026-05-27T20:21:36.797Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 314,
+      "totalCandidates": 80,
+      "written": [],
+      "rejected": [
+        {
+          "title": "One More Major Trailer for Spielberg's 'Disclosure Day' Sci-Fi Thriller",
+          "category": "film",
+          "source": "FirstShowing",
+          "score": 20,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body has no section headings (need ≥1)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-05-27T20:00:52.035Z",
       "status": "success",
       "articlesWritten": 1,
@@ -565,5 +586,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T20:00:52.035Z"
+  "lastUpdated": "2026-05-27T20:21:36.797Z"
 }
