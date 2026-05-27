@@ -1,6 +1,42 @@
 {
-  "totalArticles": 22,
+  "totalArticles": 24,
   "runs": [
+    {
+      "timestamp": "2026-05-27T14:00:55.887Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 319,
+      "totalCandidates": 117,
+      "written": [
+        {
+          "title": "Spider-Noir director reveals the iconic noir actor who inspired Nicolas Cage's performance",
+          "category": "games",
+          "source": "Polygon",
+          "score": 17,
+          "slug": "ebd7ec72-spider-noir-director-reveals-the-iconic-noir-actor-who-inspi"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "timestamp": "2026-05-27T12:55:22.887Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 314,
+      "totalCandidates": 83,
+      "written": [
+        {
+          "title": "Enola Holmes 3 Teaser Trailer Sets Millie Bobby Brown’s Post-Stranger Things Netflix Return",
+          "category": "film",
+          "source": "ComingSoon",
+          "score": 15,
+          "slug": "9be27b71-enola-holmes-3-teaser-trailer-sets-millie-bobby-browns-post-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-27T09:56:14.003Z",
       "status": "success",
@@ -457,5 +493,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T09:56:14.003Z"
+  "lastUpdated": "2026-05-27T14:00:55.887Z"
 }
