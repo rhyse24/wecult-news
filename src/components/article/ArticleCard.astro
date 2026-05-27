@@ -10,6 +10,22 @@ interface Props {
 }
 
 const { article, lang, size = 'default' } = Astro.props
+
+function buildSrcSet(url: string): string | undefined {
+  if (!url) return undefined
+  if (url.includes('wsrv.nl')) {
+    const s400 = url.replace(/([?&]w=)\d+/, '$1400')
+    const s700 = url.replace(/([?&]w=)\d+/, '$1700')
+    return `${s400} 400w, ${s700} 700w, ${url} 900w`
+  }
+  if (url.includes('image.tmdb.org')) {
+    const w342 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w342/')
+    const w500 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w500/')
+    const w780 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w780/')
+    return `${w342} 342w, ${w500} 500w, ${w780} 780w`
+  }
+  return undefined
+}
 const tr = article.translations[lang] ?? article.translations['en']
 
 const catColor: Record<string, string> = {
@@ -55,7 +71,14 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
   <a href={href} class="hero-card">
     <div class="hero-img-wrap">
       {article.cover_image
-        ? <img src={article.cover_image} alt={tr?.title} loading="eager" fetchpriority="high" />
+        ? <img
+            src={article.cover_image}
+            srcset={buildSrcSet(article.cover_image)}
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
+            alt={tr?.title}
+            loading="eager"
+            fetchpriority="high"
+          />
         : <div class="hero-img-placeholder" style={`background: color-mix(in srgb, ${color} 8%, var(--bg-card))`}></div>
       }
       <div class="hero-gradient"></div>
@@ -194,8 +217,8 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
   background: var(--bg-card);
 }
 .hero-img-wrap { position: absolute; inset: 0; }
-.hero-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: scale 0.6s ease; scale: 1.04; }
-.hero-card:hover .hero-img-wrap img { scale: 1.07; }
+.hero-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: scale 0.6s ease; }
+.hero-card:hover .hero-img-wrap img { scale: 1.04; }
 
 @supports (animation-timeline: scroll()) {
   .hero-img-wrap img {
