@@ -70,7 +70,8 @@ jobs:
           fi
           pushed=false
           for i in 1 2 3; do
-            if git pull --rebase origin master && git push; then
+            git rebase --abort 2>/dev/null || true
+            if git pull -X theirs origin master && git push; then
               pushed=true
               break
             fi
