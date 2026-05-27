@@ -78,26 +78,27 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
 {size === 'hero' && (
   <a href={href} class="hero-card">
     <div class="hero-img-wrap">
-      {article.cover_image
-        ? <picture>
-            {buildAvifSrcSet(article.cover_image) && (
-              <source
-                type="image/avif"
-                srcset={buildAvifSrcSet(article.cover_image)}
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
-              />
-            )}
-            <img
-              src={article.cover_image}
-              srcset={buildSrcSet(article.cover_image)}
+      <div class="hero-img-placeholder" style={`background: color-mix(in srgb, ${color} 8%, var(--bg-card))`}></div>
+      {article.cover_image && (
+        <picture class="hero-picture">
+          {buildAvifSrcSet(article.cover_image) && (
+            <source
+              type="image/avif"
+              srcset={buildAvifSrcSet(article.cover_image)}
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
-              alt={tr?.title}
-              loading="eager"
-              fetchpriority="high"
             />
-          </picture>
-        : <div class="hero-img-placeholder" style={`background: color-mix(in srgb, ${color} 8%, var(--bg-card))`}></div>
-      }
+          )}
+          <img
+            src={article.cover_image}
+            srcset={buildSrcSet(article.cover_image)}
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
+            alt={tr?.title}
+            loading="eager"
+            fetchpriority="high"
+            onerror="this.closest('.hero-picture').style.display='none'"
+          />
+        </picture>
+      )}
       <div class="hero-gradient"></div>
     </div>
     <div class="hero-content">
@@ -128,7 +129,7 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
   <a href={href} class="featured-card">
     <div class="featured-img-wrap">
       {article.cover_image
-        ? <img src={article.cover_image} alt={tr?.title} loading="lazy" />
+        ? <img src={article.cover_image} alt={tr?.title} loading="lazy" onerror="this.style.display='none'" />
         : <div class="featured-img-placeholder" style={`background:color-mix(in srgb, ${color} 8%, var(--bg-card))`}></div>
       }
       <span class="featured-cat-pill" style={`--c:${color}`}>{label}</span>
@@ -158,7 +159,7 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
   <a href={href} class="default-card" style={`--card-accent:${color}`}>
     <div class="default-img-wrap">
       {article.cover_image
-        ? <img src={article.cover_image} alt={tr?.title} loading="lazy" />
+        ? <img src={article.cover_image} alt={tr?.title} loading="lazy" onerror="this.style.display='none'" />
         : <div class="default-img-placeholder" style={`background:color-mix(in srgb, ${color} 6%, var(--bg-card))`}></div>
       }
       <span class="default-cat-pill" style={`--c:${color}`}>{label}</span>
@@ -188,7 +189,7 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
   <a href={href} class="compact-card">
     {article.cover_image && (
       <div class="compact-img-wrap">
-        <img src={article.cover_image} alt="" loading="lazy" />
+        <img src={article.cover_image} alt="" loading="lazy" onerror="this.closest('.compact-img-wrap').style.display='none'" />
       </div>
     )}
     <div class="compact-body">
@@ -217,7 +218,7 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
     </div>
     {article.cover_image && (
       <div class="mini-thumb">
-        <img src={article.cover_image} alt="" loading="lazy" />
+        <img src={article.cover_image} alt="" loading="lazy" onerror="this.closest('.mini-thumb').style.display='none'" />
       </div>
     )}
   </a>
@@ -234,6 +235,7 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
   background: var(--bg-card);
 }
 .hero-img-wrap { position: absolute; inset: 0; }
+.hero-picture { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
 .hero-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: scale 0.6s ease; }
 .hero-card:hover .hero-img-wrap img { scale: 1.04; }
 
