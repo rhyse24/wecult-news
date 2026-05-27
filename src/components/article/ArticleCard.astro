@@ -26,6 +26,14 @@ function buildSrcSet(url: string): string | undefined {
   }
   return undefined
 }
+
+function buildAvifSrcSet(url: string): string | undefined {
+  if (!url || !url.includes('wsrv.nl')) return undefined
+  const avif = (u: string) => u.replace('output=webp', 'output=avif')
+  const s400 = avif(url.replace(/([?&]w=)\d+/, '$1400'))
+  const s700 = avif(url.replace(/([?&]w=)\d+/, '$1700'))
+  return `${s400} 400w, ${s700} 700w, ${avif(url)} 900w`
+}
 const tr = article.translations[lang] ?? article.translations['en']
 
 const catColor: Record<string, string> = {
@@ -71,14 +79,23 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
   <a href={href} class="hero-card">
     <div class="hero-img-wrap">
       {article.cover_image
-        ? <img
-            src={article.cover_image}
-            srcset={buildSrcSet(article.cover_image)}
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
-            alt={tr?.title}
-            loading="eager"
-            fetchpriority="high"
-          />
+        ? <picture>
+            {buildAvifSrcSet(article.cover_image) && (
+              <source
+                type="image/avif"
+                srcset={buildAvifSrcSet(article.cover_image)}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
+              />
+            )}
+            <img
+              src={article.cover_image}
+              srcset={buildSrcSet(article.cover_image)}
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
+              alt={tr?.title}
+              loading="eager"
+              fetchpriority="high"
+            />
+          </picture>
         : <div class="hero-img-placeholder" style={`background: color-mix(in srgb, ${color} 8%, var(--bg-card))`}></div>
       }
       <div class="hero-gradient"></div>

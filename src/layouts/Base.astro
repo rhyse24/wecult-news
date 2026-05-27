@@ -19,6 +19,12 @@ interface Props {
 
 const { title, description = 'Entertainment news, curated by AI', lang, ogImage, preloadImage, preloadImageSrcset, canonicalUrl, hreflang, schema } = Astro.props
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/'
+
+// AVIF preload for wsrv.nl images (Chrome/modern browsers), WebP fallback for others
+const isWsrv = preloadImage?.includes('wsrv.nl') && preloadImageSrcset?.includes('output=webp')
+const avifHref = isWsrv ? preloadImage!.replace('output=webp', 'output=avif') : undefined
+const avifSrcset = isWsrv ? preloadImageSrcset!.replace(/output=webp/g, 'output=avif') : undefined
+const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
 ---
 
 <!doctype html>
@@ -29,7 +35,12 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <link rel="sitemap" href="/sitemap.xml" />
-    {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" imagesrcset={preloadImageSrcset} imagesizes={preloadImageSrcset ? "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px" : undefined} />}
+    {preloadImage && avifHref && (
+      <link rel="preload" as="image" type="image/avif" href={avifHref} fetchpriority="high" imagesrcset={avifSrcset} imagesizes={preloadSizes} />
+    )}
+    {preloadImage && !avifHref && (
+      <link rel="preload" as="image" href={preloadImage} fetchpriority="high" imagesrcset={preloadImageSrcset} imagesizes={preloadImageSrcset ? preloadSizes : undefined} />
+    )}
     {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
     {hreflang && <>
       <link rel="alternate" hreflang="en" href={hreflang.en} />
