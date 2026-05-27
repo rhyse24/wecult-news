@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, unlinkSync } from 'fs';
 import { writeFile } from 'fs/promises';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
@@ -86,6 +86,7 @@ const runLog = {
 };
 
 mkdirSync(ARTICLES_DIR, { recursive: true });
+pruneOldImages();
 
 // Load titles of articles written in the last 48h for cross-run topic dedup
 const recentTitles = [];
@@ -388,9 +389,12 @@ for (const article of candidatePool) {
       continue;
     }
 
-    // Image fallback chain: content-centric CDNs first (no hotlink protection),
-    // og:image last (news sites often block cross-origin requests via wsrv.nl).
-    // RSS feed image is kept if present — it's usually already a direct CDN URL.
+    // Image fallback chain: og:image first (most relevant — chosen by the article author),
+    // then content-centric CDNs (TMDB/IGDB/Wikipedia) as fallbacks.
+    // Hotlink protection is handled by the download step below, not by reordering.
+    if (!article.image_url) {
+      article.image_url = await scrapeOgImage(article.link);
+    }
     if (!article.image_url && (article.category === 'film' || article.category === 'tv') && TMDB_TOKEN) {
       article.image_url = await searchTmdbImage(article.title, article.category, TMDB_TOKEN);
     }
@@ -402,11 +406,6 @@ for (const article of candidatePool) {
     }
     if (!article.image_url) {
       article.image_url = await searchInlineImage(article);
-    }
-    // og:image fallback — only if no content-centric image found, since many
-    // news sites (Variety, THR, IGN, etc.) use hotlink protection that breaks wsrv.nl.
-    if (!article.image_url) {
-      article.image_url = await scrapeOgImage(article.link);
     }
 
     // Download og:images locally — serves from our own domain, no hotlink issues ever.
@@ -573,6 +572,30 @@ function isTrustedCdn(url) {
     url.includes('unsplash.com') ||
     url.startsWith('/article-images/')
   );
+}
+
+// Remove images for articles older than 90 days to keep repo size under control.
+// ~90 days × 15 articles × 100KB ≈ 135MB, well within Vercel's 500MB deploy limit.
+function pruneOldImages() {
+  const dir = 'public/article-images';
+  if (!existsSync(dir)) return;
+  const cutoff = Date.now() - 90 * 24 * 60 * 60 * 1000;
+  const recentIds = new Set();
+  for (const file of readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.json'))) {
+    try {
+      const art = JSON.parse(readFileSync(`${ARTICLES_DIR}/${file}`, 'utf8'));
+      if (new Date(art.published_at).getTime() > cutoff) {
+        recentIds.add(art.id.slice(0, 8));
+      }
+    } catch {}
+  }
+  let pruned = 0;
+  for (const file of readdirSync(dir)) {
+    if (!recentIds.has(file.slice(0, 8))) {
+      try { unlinkSync(`${dir}/${file}`); pruned++; } catch {}
+    }
+  }
+  if (pruned > 0) console.log(`[prune] removed ${pruned} old image(s)`);
 }
 
 // Download og:image to public/article-images/ so it's served from our own domain.

@@ -154,14 +154,6 @@ export async function scrapeOgImage(url) {
     ];
     const imgUrl = candidates.find(u => u && isImageUrl(u.trim()))?.trim() || '';
     if (!imgUrl) return '';
-
-    // Skip images from CDNs that block cross-origin proxying (hotlink protection).
-    // These would work in a browser with the right Referer but fail via wsrv.nl.
-    if (isHotlinkProtected(imgUrl)) {
-      console.log(`    [og-image] skipped — hotlink-protected domain`);
-      return '';
-    }
-
     console.log(`    [og-image] scraped from source`);
     return imgUrl;
   } catch {
@@ -169,23 +161,6 @@ export async function scrapeOgImage(url) {
   }
 }
 
-function isHotlinkProtected(url) {
-  const hotlinkDomains = [
-    'variety.com', 'hollywoodreporter.com', 'deadline.com', 'thewrap.com',
-    'indiewire.com', 'screendaily.com', 'empireonline.com', 'totalfilm.com',
-    'ign.com', 'gamespot.com', 'polygon.com', 'eurogamer.net', 'rockpapershotgun.com',
-    'pcgamer.com', 'kotaku.com', 'gamesradar.com', 'vg247.com',
-    'theguardian.com', 'nytimes.com', 'washingtonpost.com', 'forbes.com',
-    'rollingstone.com', 'vulture.com', 'slashfilm.com', 'collider.com',
-    'screenrant.com', 'cbr.com', 'comingsoon.net',
-  ];
-  try {
-    const host = new URL(url).hostname.replace(/^www\./, '');
-    return hotlinkDomains.some(d => host === d || host.endsWith('.' + d));
-  } catch {
-    return false;
-  }
-}
 
 /**
  * Search Open Library for a book cover image — books category only.
