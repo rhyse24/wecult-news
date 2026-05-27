@@ -72,6 +72,14 @@ const timeAgo = (() => {
 
 const breakingLabel  = t(lang, 'ui.breaking')
 const trendingLabel  = t(lang, 'ui.trending_badge')
+
+const fallbackImages: Record<string, string> = {
+  games: 'https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=900&q=80',
+  film:  'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=900&q=80',
+  tv:    'https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=900&q=80',
+  books: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=900&q=80',
+}
+const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
 ---
 
 <!-- ─── Hero Card ─────────────────────────────────── -->
@@ -95,7 +103,8 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
             alt={tr?.title}
             loading="eager"
             fetchpriority="high"
-            onerror="this.closest('.hero-picture').style.display='none'"
+            data-fallback={fallbackImg}
+            onerror="this.onerror=null;this.srcset='';this.closest('picture').querySelectorAll('source').forEach(s=>s.srcset='');this.src=this.dataset.fallback"
           />
         </picture>
       )}
@@ -129,7 +138,7 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
   <a href={href} class="featured-card">
     <div class="featured-img-wrap">
       {article.cover_image
-        ? <img src={article.cover_image} alt={tr?.title} loading="lazy" onerror="this.style.display='none'" />
+        ? <img src={article.cover_image} alt={tr?.title} loading="lazy" data-fallback={fallbackImg} onerror="this.onerror=null;this.srcset='';this.src=this.dataset.fallback" />
         : <div class="featured-img-placeholder" style={`background:color-mix(in srgb, ${color} 8%, var(--bg-card))`}></div>
       }
       <span class="featured-cat-pill" style={`--c:${color}`}>{label}</span>
@@ -159,7 +168,7 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
   <a href={href} class="default-card" style={`--card-accent:${color}`}>
     <div class="default-img-wrap">
       {article.cover_image
-        ? <img src={article.cover_image} alt={tr?.title} loading="lazy" onerror="this.style.display='none'" />
+        ? <img src={article.cover_image} alt={tr?.title} loading="lazy" data-fallback={fallbackImg} onerror="this.onerror=null;this.srcset='';this.src=this.dataset.fallback" />
         : <div class="default-img-placeholder" style={`background:color-mix(in srgb, ${color} 6%, var(--bg-card))`}></div>
       }
       <span class="default-cat-pill" style={`--c:${color}`}>{label}</span>
@@ -189,7 +198,7 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
   <a href={href} class="compact-card">
     {article.cover_image && (
       <div class="compact-img-wrap">
-        <img src={article.cover_image} alt="" loading="lazy" onerror="this.closest('.compact-img-wrap').style.display='none'" />
+        <img src={article.cover_image} alt="" loading="lazy" data-fallback={fallbackImg} onerror="this.onerror=null;this.srcset='';this.src=this.dataset.fallback" />
       </div>
     )}
     <div class="compact-body">
@@ -218,7 +227,7 @@ const trendingLabel  = t(lang, 'ui.trending_badge')
     </div>
     {article.cover_image && (
       <div class="mini-thumb">
-        <img src={article.cover_image} alt="" loading="lazy" onerror="this.closest('.mini-thumb').style.display='none'" />
+        <img src={article.cover_image} alt="" loading="lazy" data-fallback={fallbackImg} onerror="this.onerror=null;this.srcset='';this.src=this.dataset.fallback" />
       </div>
     )}
   </a>

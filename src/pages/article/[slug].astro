@@ -25,6 +25,14 @@ const catColors: Record<string, string> = {
 }
 const color = catColors[article.category]
 
+const fallbackImages: Record<string, string> = {
+  games: 'https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=900&q=80',
+  film:  'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=900&q=80',
+  tv:    'https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=900&q=80',
+  books: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=900&q=80',
+}
+const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
+
 const typeLabel: Record<string, string> = {
   news: 'News', review: 'Review', feature: 'Feature', opinion: 'Opinion', guide: 'Guide',
 }
@@ -147,7 +155,7 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
     <!-- Hero image -->
     {article.cover_image && (
       <div class="article-hero">
-        <img src={article.cover_image} alt={tr?.title} fetchpriority="high" decoding="async" width="1200" height="630" onerror="this.closest('.article-hero').style.display='none'" />
+        <img src={article.cover_image} alt={tr?.title} fetchpriority="high" decoding="async" width="1200" height="630" data-fallback={fallbackImg} onerror="this.onerror=null;this.src=this.dataset.fallback" />
         <div class="article-hero-overlay"></div>
       </div>
     )}
