@@ -1,6 +1,24 @@
 {
-  "totalArticles": 16,
+  "totalArticles": 17,
   "runs": [
+    {
+      "timestamp": "2026-05-27T00:01:03.604Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 307,
+      "totalCandidates": 83,
+      "written": [
+        {
+          "title": "Toy Story 5’s Final Trailer Review: Even Skeptical Fans Are Won Over by Pixar Charm",
+          "category": "film",
+          "source": "ComingSoon",
+          "score": 18,
+          "slug": "6285b847-toy-story-5s-final-trailer-review-even-skeptical-fans-are-wo"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-26T22:02:49.847Z",
       "status": "success",
@@ -349,5 +367,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-26T22:02:49.847Z"
+  "lastUpdated": "2026-05-27T00:01:03.604Z"
 }
