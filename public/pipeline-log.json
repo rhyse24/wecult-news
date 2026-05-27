@@ -1,6 +1,24 @@
 {
-  "totalArticles": 20,
+  "totalArticles": 21,
   "runs": [
+    {
+      "timestamp": "2026-05-27T08:00:51.172Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 316,
+      "totalCandidates": 65,
+      "written": [
+        {
+          "title": "Disney+’s $40M Action Fantasy Series Is Aging Like Fine Wine",
+          "category": "tv",
+          "source": "Collider",
+          "score": 13,
+          "slug": "1435e35c-disneys-40m-action-fantasy-series-is-aging-like-fine-wine"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-27T06:01:06.365Z",
       "status": "success",
@@ -421,5 +439,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T06:01:06.365Z"
+  "lastUpdated": "2026-05-27T08:00:51.172Z"
 }
