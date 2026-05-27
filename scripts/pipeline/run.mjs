@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
+import { writeFile } from 'fs/promises';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
 import { summarizeArticle, validateArticle, isTruncated, titleEntityPresent } from './summarize.mjs';
@@ -408,6 +409,11 @@ for (const article of candidatePool) {
       article.image_url = await scrapeOgImage(article.link);
     }
 
+    // Download og:images locally — serves from our own domain, no hotlink issues ever.
+    // TMDB/IGDB/Wikipedia are already trusted CDNs, skipped automatically.
+    const imgId = createHash('md5').update(article.link).digest('hex').slice(0, 8);
+    article.image_url = await downloadArticleImage(article.image_url, imgId);
+
     // Web search for richer context
     let webContext = '';
     if (TAVILY_API_KEY) {
@@ -554,5 +560,45 @@ function inferTags(article) {
 
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
+}
+
+// CDNs that serve images without hotlink protection — no download needed
+function isTrustedCdn(url) {
+  if (!url) return false;
+  return (
+    url.includes('image.tmdb.org') ||
+    url.includes('images.igdb.com') ||
+    url.includes('upload.wikimedia.org') ||
+    url.includes('covers.openlibrary.org') ||
+    url.includes('unsplash.com') ||
+    url.startsWith('/article-images/')
+  );
+}
+
+// Download og:image to public/article-images/ so it's served from our own domain.
+// Avoids hotlink protection entirely — no wsrv.nl proxy needed for these images.
+async function downloadArticleImage(imageUrl, articleId) {
+  if (!imageUrl || isTrustedCdn(imageUrl)) return imageUrl;
+  const dir = 'public/article-images';
+  if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+  const ext = imageUrl.match(/\.(jpe?g|png|webp)/i)?.[1]?.toLowerCase() ?? 'jpg';
+  const filename = `${articleId}.${ext === 'jpeg' ? 'jpg' : ext}`;
+  const filepath = `${dir}/${filename}`;
+  if (existsSync(filepath)) return `/article-images/${filename}`;
+  try {
+    const res = await fetch(imageUrl, {
+      headers: { 'User-Agent': 'WeCultNews/1.0 (+https://news.wecult.app)' },
+      signal: AbortSignal.timeout(12000),
+      redirect: 'follow',
+    });
+    if (!res.ok) return '';
+    const buffer = await res.arrayBuffer();
+    if (buffer.byteLength < 5000) return ''; // too small = error page
+    await writeFile(filepath, Buffer.from(buffer));
+    console.log(`    [image-dl] ${filename} (${(buffer.byteLength / 1024).toFixed(0)}KB)`);
+    return `/article-images/${filename}`;
+  } catch {
+    return '';
+  }
 }
 

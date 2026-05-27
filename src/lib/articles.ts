@@ -41,17 +41,21 @@ function readingTime(text: string): number {
 
 function optimizeImageUrl(url: string): string {
   if (!url) return url
-  // TMDB: /t/p/original/ veya /t/p/w500/ → /t/p/w780/ (daha küçük, yeterli kalite)
+  // Local downloads — served from our own domain, no proxy needed
+  if (url.startsWith('/article-images/')) return url
+  // TMDB: /t/p/original/ veya /t/p/w500/ → /t/p/w780/
   if (url.includes('image.tmdb.org')) {
     return url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w780/')
   }
-  // IGDB: t_thumb/t_cover_small → t_720p (haber hero için yeterli)
+  // IGDB: t_thumb/t_cover_small → t_720p
   if (url.includes('images.igdb.com')) {
     return url.replace(/\/t_[a-z_]+\//, '/t_720p/')
   }
-  // Unsplash: zaten ?w=900&q=80 var, dokunma
+  // Wikipedia / OpenLibrary — open CDNs, no proxy needed
+  if (url.includes('upload.wikimedia.org') || url.includes('covers.openlibrary.org')) return url
+  // Unsplash: zaten optimize
   if (url.includes('unsplash.com')) return url
-  // Diğer haber CDN'leri: wsrv.nl ile WebP + yeniden boyutlandır
+  // Fallback: wsrv.nl proxy (only reached if pipeline download failed)
   return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=900&output=webp&q=80`
 }
 

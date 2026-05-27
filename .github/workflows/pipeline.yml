@@ -52,7 +52,7 @@ jobs:
         run: |
           git config user.name "wecult-pipeline[bot]"
           git config user.email "kaptankaptanim19@gmail.com"
-          git add src/content/articles/ scripts/pipeline/.seen-urls.json scripts/pipeline/.rotation-index.json
+          git add src/content/articles/ scripts/pipeline/.seen-urls.json scripts/pipeline/.rotation-index.json public/article-images/
           if git diff --staged --quiet; then
             echo "No new articles"
           else
