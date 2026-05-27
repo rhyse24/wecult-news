@@ -322,119 +322,131 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
 
     <script is:inline>
       (function() {
-        var pill = document.getElementById('app-pill')
-        var pillClose = document.getElementById('app-pill-close')
-        var pillOpen = document.getElementById('app-pill-open')
-        var backdrop = document.getElementById('app-modal-backdrop')
-        var modalClose = document.getElementById('app-modal-close')
+        function initAppPill() {
+          var pill = document.getElementById('app-pill')
+          var pillClose = document.getElementById('app-pill-close')
+          var pillOpen = document.getElementById('app-pill-open')
+          var backdrop = document.getElementById('app-modal-backdrop')
+          var modalClose = document.getElementById('app-modal-close')
 
-        function openModal() {
-          if (backdrop) { backdrop.classList.add('is-open'); document.body.style.overflow = 'hidden' }
-        }
-        function closeModal() {
-          if (backdrop) { backdrop.classList.remove('is-open'); document.body.style.overflow = '' }
+          function openModal() {
+            if (backdrop) { backdrop.classList.add('is-open'); document.body.style.overflow = 'hidden' }
+          }
+          function closeModal() {
+            if (backdrop) { backdrop.classList.remove('is-open'); document.body.style.overflow = '' }
+          }
+
+          if (pill) {
+            window.addEventListener('scroll', function() {
+              pill.classList.toggle('is-visible', window.scrollY > 300)
+            }, { passive: true })
+          }
+          if (pillClose) {
+            pillClose.addEventListener('click', function(e) {
+              e.stopPropagation()
+              pill.classList.remove('is-visible')
+              pill.classList.add('is-hidden')
+            })
+          }
+          if (pillOpen) pillOpen.addEventListener('click', openModal)
+          if (modalClose) modalClose.addEventListener('click', closeModal)
+          if (backdrop) backdrop.addEventListener('click', function(e) {
+            if (e.target === backdrop) closeModal()
+          })
+          document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeModal()
+          })
+
+          var miniSlides = document.querySelectorAll('.mini-screen-slide')
+          var miniDots = document.querySelectorAll('.mini-phone-nav span')
+          var miniIdx = 0
+          if (miniSlides.length > 1) {
+            setInterval(function() {
+              miniSlides[miniIdx].classList.remove('is-active')
+              miniDots[miniIdx] && miniDots[miniIdx].removeAttribute('data-active')
+              miniIdx = (miniIdx + 1) % miniSlides.length
+              miniSlides[miniIdx].classList.add('is-active')
+              miniDots[miniIdx] && miniDots[miniIdx].setAttribute('data-active', '1')
+            }, 2200)
+          }
+
+          var pnavBtns = document.querySelectorAll('.app-pnav-btn')
+          var appScreens = document.querySelectorAll('.app-screen')
+          pnavBtns.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+              var target = btn.getAttribute('data-target')
+              pnavBtns.forEach(function(b) { b.classList.remove('is-active') })
+              appScreens.forEach(function(s) { s.classList.remove('is-active') })
+              btn.classList.add('is-active')
+              var screen = document.querySelector('.app-screen[data-screen="' + target + '"]')
+              if (screen) screen.classList.add('is-active')
+            })
+          })
         }
 
-        if (pill) {
+        function initBackToTop() {
+          var btn = document.getElementById('back-to-top')
+          if (!btn) return
           window.addEventListener('scroll', function() {
-            pill.classList.toggle('is-visible', window.scrollY > 300)
+            btn.classList.toggle('is-visible', window.scrollY > 500)
           }, { passive: true })
-        }
-        if (pillClose) {
-          pillClose.addEventListener('click', function(e) {
-            e.stopPropagation()
-            pill.classList.remove('is-visible')
-            pill.classList.add('is-hidden')
-          })
-        }
-        if (pillOpen) pillOpen.addEventListener('click', openModal)
-        if (modalClose) modalClose.addEventListener('click', closeModal)
-        if (backdrop) backdrop.addEventListener('click', function(e) {
-          if (e.target === backdrop) closeModal()
-        })
-        document.addEventListener('keydown', function(e) {
-          if (e.key === 'Escape') closeModal()
-        })
-
-        // Mini pill phone auto-cycle
-        var miniSlides = document.querySelectorAll('.mini-screen-slide')
-        var miniDots = document.querySelectorAll('.mini-phone-nav span')
-        var miniIdx = 0
-        if (miniSlides.length > 1) {
-          setInterval(function() {
-            miniSlides[miniIdx].classList.remove('is-active')
-            miniDots[miniIdx] && miniDots[miniIdx].removeAttribute('data-active')
-            miniIdx = (miniIdx + 1) % miniSlides.length
-            miniSlides[miniIdx].classList.add('is-active')
-            miniDots[miniIdx] && miniDots[miniIdx].setAttribute('data-active', '1')
-          }, 2200)
-        }
-
-        // Phone tab switching
-        var pnavBtns = document.querySelectorAll('.app-pnav-btn')
-        var appScreens = document.querySelectorAll('.app-screen')
-        pnavBtns.forEach(function(btn) {
           btn.addEventListener('click', function() {
-            var target = btn.getAttribute('data-target')
-            pnavBtns.forEach(function(b) { b.classList.remove('is-active') })
-            appScreens.forEach(function(s) { s.classList.remove('is-active') })
-            btn.classList.add('is-active')
-            var screen = document.querySelector('.app-screen[data-screen="' + target + '"]')
-            if (screen) screen.classList.add('is-active')
+            window.scrollTo({ top: 0, behavior: 'smooth' })
           })
-        })
-      })();
-      (function() {
-        var btn = document.getElementById('back-to-top')
-        if (!btn) return
-        window.addEventListener('scroll', function() {
-          btn.classList.toggle('is-visible', window.scrollY > 500)
-        }, { passive: true })
-        btn.addEventListener('click', function() {
-          window.scrollTo({ top: 0, behavior: 'smooth' })
-        })
+        }
+
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(function() { initAppPill(); initBackToTop(); }, { timeout: 3000 })
+        } else {
+          window.addEventListener('load', function() { initAppPill(); initBackToTop(); })
+        }
       })()
     </script>
 
     <script is:inline>
       (function() {
-        var railR = document.getElementById('side-rail-right')
-        var railL = document.getElementById('side-rail-left')
-        var pushed = false
+        function initSideRails() {
+          var railR = document.getElementById('side-rail-right')
+          var railL = document.getElementById('side-rail-left')
+          var pushed = false
 
-        function pushRails() {
-          if (pushed) return
-          pushed = true
-          var ins = document.querySelectorAll('.side-rail-ins')
-          ins.forEach(function(el) {
-            try { (window.adsbygoogle = window.adsbygoogle || []).push({}) } catch(e) {}
+          function pushRails() {
+            if (pushed) return
+            pushed = true
+            var ins = document.querySelectorAll('.side-rail-ins')
+            ins.forEach(function() {
+              try { (window.adsbygoogle = window.adsbygoogle || []).push({}) } catch(e) {}
+            })
+            setTimeout(function() {
+              if (railR) railR.classList.add('is-visible')
+              if (railL) railL.classList.add('is-visible')
+            }, 1500)
+          }
+
+          function hasConsent() {
+            try {
+              var c = JSON.parse(localStorage.getItem('wecult-consent') || 'null')
+              return !!(c && c.advertising)
+            } catch(e) { return false }
+          }
+          if (hasConsent()) pushRails()
+          window.addEventListener('wcn-consent-granted', pushRails)
+
+          var closeR = document.getElementById('side-rail-close-r')
+          var closeL = document.getElementById('side-rail-close-l')
+          if (closeR) closeR.addEventListener('click', function() {
+            if (railR) railR.classList.remove('is-visible')
           })
-          // Show after short delay so content renders first
-          setTimeout(function() {
-            if (railR) railR.classList.add('is-visible')
-            if (railL) railL.classList.add('is-visible')
-          }, 1500)
+          if (closeL) closeL.addEventListener('click', function() {
+            if (railL) railL.classList.remove('is-visible')
+          })
         }
 
-        // Consent check
-        function hasConsent() {
-          try {
-            var c = JSON.parse(localStorage.getItem('wecult-consent') || 'null')
-            return !!(c && c.advertising)
-          } catch(e) { return false }
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(initSideRails, { timeout: 3000 })
+        } else {
+          window.addEventListener('load', initSideRails)
         }
-        if (hasConsent()) pushRails()
-        window.addEventListener('wcn-consent-granted', pushRails)
-
-        // Dismiss buttons
-        var closeR = document.getElementById('side-rail-close-r')
-        var closeL = document.getElementById('side-rail-close-l')
-        if (closeR) closeR.addEventListener('click', function() {
-          if (railR) railR.classList.remove('is-visible')
-        })
-        if (closeL) closeL.addEventListener('click', function() {
-          if (railL) railL.classList.remove('is-visible')
-        })
       })()
     </script>
   </body>
