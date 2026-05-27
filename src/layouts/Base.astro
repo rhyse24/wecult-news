@@ -11,12 +11,13 @@ interface Props {
   lang: Lang
   ogImage?: string
   preloadImage?: string
+  preloadImageSrcset?: string
   canonicalUrl?: string
   hreflang?: { en: string; tr: string; es?: string }
   schema?: Record<string, unknown> | Record<string, unknown>[]
 }
 
-const { title, description = 'Entertainment news, curated by AI', lang, ogImage, preloadImage, canonicalUrl, hreflang, schema } = Astro.props
+const { title, description = 'Entertainment news, curated by AI', lang, ogImage, preloadImage, preloadImageSrcset, canonicalUrl, hreflang, schema } = Astro.props
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/'
 ---
 
@@ -28,7 +29,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <link rel="sitemap" href="/sitemap.xml" />
-    {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" type={preloadImage.includes('wsrv.nl') || preloadImage.includes('output=webp') ? 'image/webp' : undefined} />}
+    {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" imagesrcset={preloadImageSrcset} imagesizes={preloadImageSrcset ? "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px" : undefined} />}
     {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
     {hreflang && <>
       <link rel="alternate" hreflang="en" href={hreflang.en} />

@@ -24,6 +24,23 @@ const catColors: Record<string, string> = {
   games: 'var(--cat-games)', film: 'var(--cat-film)',
   tv: 'var(--cat-tv)', books: 'var(--cat-books)',
 }
+
+function buildHeroSrcSet(url: string | undefined): string | undefined {
+  if (!url) return undefined
+  if (url.includes('wsrv.nl')) {
+    const s400 = url.replace(/([?&]w=)\d+/, '$1400')
+    const s700 = url.replace(/([?&]w=)\d+/, '$1700')
+    return `${s400} 400w, ${s700} 700w, ${url} 900w`
+  }
+  if (url.includes('image.tmdb.org')) {
+    const w342 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w342/')
+    const w500 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w500/')
+    const w780 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w780/')
+    return `${w342} 342w, ${w500} 500w, ${w780} 780w`
+  }
+  return undefined
+}
+const heroImage = carouselArticles[0]?.cover_image
 ---
 
 <Base
@@ -32,7 +49,8 @@ const catColors: Record<string, string> = {
   canonicalUrl="https://news.wecult.app/"
   hreflang={{ en: 'https://news.wecult.app/', tr: 'https://news.wecult.app/tr/', es: 'https://news.wecult.app/es/' }}
   description={t(lang, 'tagline')}
-  preloadImage={carouselArticles[0]?.cover_image}
+  preloadImage={heroImage}
+  preloadImageSrcset={buildHeroSrcSet(heroImage)}
 >
 <div class="hp-page">
 
