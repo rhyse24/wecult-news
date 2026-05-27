@@ -1,6 +1,24 @@
 {
-  "totalArticles": 21,
+  "totalArticles": 22,
   "runs": [
+    {
+      "timestamp": "2026-05-27T09:56:14.003Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 316,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "Ey! Toy Story 5  Features Bad Bunny as Pizza & Alan Cumming as Evil Bullseye",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "slug": "50e2e55b-ey-toy-story-5-features-bad-bunny-as-pizza-alan-cumming-as-e"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-27T08:00:51.172Z",
       "status": "success",
@@ -439,5 +457,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T08:00:51.172Z"
+  "lastUpdated": "2026-05-27T09:56:14.003Z"
 }
