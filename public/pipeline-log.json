@@ -1,6 +1,24 @@
 {
-  "totalArticles": 22,
+  "totalArticles": 23,
   "runs": [
+    {
+      "timestamp": "2026-05-27T12:55:22.887Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 314,
+      "totalCandidates": 83,
+      "written": [
+        {
+          "title": "Enola Holmes 3 Teaser Trailer Sets Millie Bobby Brown’s Post-Stranger Things Netflix Return",
+          "category": "film",
+          "source": "ComingSoon",
+          "score": 15,
+          "slug": "9be27b71-enola-holmes-3-teaser-trailer-sets-millie-bobby-browns-post-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-27T09:56:14.003Z",
       "status": "success",
@@ -457,5 +475,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T09:56:14.003Z"
+  "lastUpdated": "2026-05-27T12:55:22.887Z"
 }
