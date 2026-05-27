@@ -15,15 +15,31 @@ const sorted = [...articles].sort(
   (a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
 )
 
-const carouselArticles = sorted.slice(0, 3)
-const gridArticles     = sorted
-const trendingArticles = sorted.slice(0, 5)
-const tickerTags       = [...new Set(mockArticles.flatMap(a => a.tags))].slice(0, 14)
+const heroArticles  = sorted.slice(0, 4)
+const gridArticles  = sorted.slice(4)
+const tickerTags    = [...new Set(mockArticles.flatMap(a => a.tags))].slice(0, 14)
 
 const catColors: Record<string, string> = {
   games: 'var(--cat-games)', film: 'var(--cat-film)',
   tv: 'var(--cat-tv)', books: 'var(--cat-books)',
 }
+
+function buildHeroSrcSet(url: string | undefined): string | undefined {
+  if (!url) return undefined
+  if (url.includes('wsrv.nl')) {
+    const s400 = url.replace(/([?&]w=)\d+/, '$1400')
+    const s700 = url.replace(/([?&]w=)\d+/, '$1700')
+    return `${s400} 400w, ${s700} 700w, ${url} 900w`
+  }
+  if (url.includes('image.tmdb.org')) {
+    const w342 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w342/')
+    const w500 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w500/')
+    const w780 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w780/')
+    return `${w342} 342w, ${w500} 500w, ${w780} 780w`
+  }
+  return undefined
+}
+const heroImage = heroArticles[0]?.cover_image
 ---
 
 <Base
@@ -32,52 +48,30 @@ const catColors: Record<string, string> = {
   canonicalUrl="https://news.wecult.app/tr/"
   hreflang={{ en: 'https://news.wecult.app/', tr: 'https://news.wecult.app/tr/', es: 'https://news.wecult.app/es/' }}
   description={t(lang, 'tagline')}
+  preloadImage={heroImage}
+  preloadImageSrcset={buildHeroSrcSet(heroImage)}
 >
 <div class="hp-page">
 
-  <!-- ── Hero: carousel + latest sidebar ─── -->
+  <!-- ── Hero: static grid (1 büyük + 3 side) ─── -->
   <div class="container">
-    <div class="hp-hero">
+    <div class="hp-hero-grid">
 
       <div class="hp-hero-main">
-        <div class="carousel" id="hero-carousel">
-          {carouselArticles.map((a, i) => (
-            <div class={`carousel-slide${i === 0 ? ' is-active' : ''}`} data-index={i}>
-              <ArticleCard article={a} lang={lang} size="hero" />
-            </div>
-          ))}
-          <div class="carousel-controls">
-            <div class="carousel-dots">
-              {carouselArticles.map((_, i) => (
-                <button class={`carousel-dot${i === 0 ? ' is-active' : ''}`} data-index={i} aria-label={`Slayt ${i + 1}`}></button>
-              ))}
-            </div>
-            <div class="carousel-arrows">
-              <button class="carousel-arrow" id="prev-btn" aria-label="Önceki">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <path d="M9 11L5 7l4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </button>
-              <button class="carousel-arrow" id="next-btn" aria-label="Sonraki">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <path d="M5 3l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
+        {heroArticles[0] && <ArticleCard article={heroArticles[0]} lang={lang} size="hero" />}
       </div>
 
-      <aside class="hp-hero-sidebar">
+      <aside class="hp-hero-side">
         <div class="hs-label">
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1l1.2 2.4L10 3.9l-2 1.95.47 2.75L6 7.4l-2.47 1.2L4 5.85 2 3.9l2.8-.5L6 1z" fill="#c9a84c"/></svg>
-          Gündemde
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+            <circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/>
+            <path d="M6 3.5v2.7l1.8 1.1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Son Dakika
         </div>
-        <ol class="hs-trending-list">
-          {trendingArticles.map(a => (
-            <ArticleCard article={a} lang={lang} size="mini" />
-          ))}
-        </ol>
+        {heroArticles.slice(1).map(a => (
+          <ArticleCard article={a} lang={lang} size="compact" />
+        ))}
       </aside>
 
     </div>
@@ -136,36 +130,5 @@ const catColors: Record<string, string> = {
 
 </div>
 </Base>
-
-<script>
-  const carousel = document.getElementById('hero-carousel')
-  if (carousel) {
-    const slides = carousel.querySelectorAll<HTMLElement>('.carousel-slide')
-    const dots   = carousel.querySelectorAll<HTMLButtonElement>('.carousel-dot')
-    if (!slides.length) { /* no articles yet */ }
-    else {
-    let current = 0
-    let timer: ReturnType<typeof setInterval>
-
-    function goTo(n: number) {
-      slides[current].classList.remove('is-active')
-      dots[current]?.classList.remove('is-active')
-      current = ((n % slides.length) + slides.length) % slides.length
-      slides[current].classList.add('is-active')
-      dots[current]?.classList.add('is-active')
-    }
-
-    const start = () => { timer = setInterval(() => goTo(current + 1), 5500) }
-    const stop  = () => clearInterval(timer)
-
-    dots.forEach(d => d.addEventListener('click', () => { stop(); goTo(+d.dataset.index!); start() }))
-    document.getElementById('prev-btn')?.addEventListener('click', () => { stop(); goTo(current - 1); start() })
-    document.getElementById('next-btn')?.addEventListener('click', () => { stop(); goTo(current + 1); start() })
-    carousel.addEventListener('mouseenter', stop)
-    carousel.addEventListener('mouseleave', start)
-    start()
-    } // end slides.length check
-  }
-</script>
 
 <HomeStyles />

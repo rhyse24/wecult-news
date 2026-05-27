@@ -1,17 +1,17 @@
 <style is:global>
   .hp-page { padding-bottom: 0; }
 
-  /* ── Hero ─────────────────────────────────── */
-  .hp-hero {
+  /* ── Hero Grid ────────────────────────────── */
+  .hp-hero-grid {
     display: grid;
-    grid-template-columns: 1fr 272px;
+    grid-template-columns: 1fr 288px;
     gap: 1.25rem;
     padding-top: 2rem;
     margin-bottom: 2.5rem;
     align-items: start;
     position: relative;
   }
-  .hp-hero::before {
+  .hp-hero-grid::before {
     content: '';
     position: absolute;
     top: -60px; left: -10%; right: -10%;
@@ -20,13 +20,25 @@
     pointer-events: none;
     z-index: 0;
   }
-  .hp-hero-main { min-width: 0; }
-  .hp-hero-sidebar {
+  .hp-hero-main {
+    min-width: 0;
+    position: relative;
+    z-index: 1;
+  }
+  .hp-hero-side {
     display: flex;
     flex-direction: column;
     border-left: 1px solid var(--border-subtle);
     padding-left: 1.25rem;
     min-width: 0;
+    position: relative;
+    z-index: 1;
+  }
+  .hp-hero-side .compact-card {
+    padding: 0.875rem 0;
+  }
+  .hp-hero-side .compact-card:first-of-type {
+    padding-top: 0.25rem;
   }
   .hs-label {
     display: flex;
@@ -42,48 +54,6 @@
     border-bottom: 1px solid color-mix(in srgb, var(--accent) 15%, var(--border-subtle));
     margin-bottom: 0.125rem;
   }
-  .hs-trending-list { counter-reset: trending-counter; list-style: none; padding: 0; margin: 0; }
-
-  /* ── Carousel ─────────────────────────────── */
-  .carousel {
-    position: relative;
-    border-radius: var(--radius-xl);
-    overflow: hidden;
-    aspect-ratio: 16/9;
-    background: var(--bg-card);
-    border: 1px solid color-mix(in srgb, var(--accent) 14%, var(--border-subtle));
-    box-shadow:
-      0 4px 32px rgba(0,0,0,0.65),
-      0 16px 56px rgba(0,0,0,0.4);
-  }
-  .carousel-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 0.6s ease; pointer-events: none; }
-  .carousel-slide.is-active { opacity: 1; pointer-events: auto; }
-  .carousel-slide .hero-card { border-radius: 0; aspect-ratio: unset; height: 100%; width: 100%; }
-  .carousel-controls {
-    position: absolute;
-    bottom: 1.125rem; left: 1.5rem; right: 1.5rem;
-    display: flex; align-items: center; justify-content: space-between;
-    pointer-events: none; z-index: 10;
-  }
-  .carousel-dots { display: flex; gap: 5px; pointer-events: auto; }
-  .carousel-dot {
-    width: 22px; height: 4px; border-radius: 2px;
-    background: rgba(255,255,255,0.4);
-    border: none; cursor: pointer; padding: 0;
-    transition: background 0.25s, width 0.25s;
-  }
-  .carousel-dot.is-active { background: #fff; width: 36px; }
-  .carousel-arrows { display: flex; gap: 0.375rem; pointer-events: auto; }
-  .carousel-arrow {
-    width: 30px; height: 30px; border-radius: 50%;
-    background: rgba(255,255,255,0.12);
-    border: 1px solid rgba(255,255,255,0.2);
-    color: #fff; cursor: pointer;
-    display: flex; align-items: center; justify-content: center;
-    backdrop-filter: blur(6px);
-    transition: background 0.15s;
-  }
-  .carousel-arrow:hover { background: rgba(255,255,255,0.24); }
 
   /* ── Ticker ───────────────────────────────── */
   .ticker-wrap {
@@ -157,8 +127,14 @@
 
   /* ── Mobile ───────────────────────────────── */
   @media (max-width: 768px) {
-    .hp-hero { grid-template-columns: 1fr !important; }
-    .hp-hero-sidebar { display: none !important; }
+    .hp-hero-grid { grid-template-columns: 1fr !important; }
+    .hp-hero-side {
+      border-left: none;
+      border-top: 1px solid var(--border-subtle);
+      padding-left: 0;
+      padding-top: 0.75rem;
+      margin-top: 0.25rem;
+    }
     .story-grid { grid-template-columns: 1fr !important; }
     .story-lead { grid-column: 1 / -1 !important; }
     .story-grid > :nth-child(6) { grid-column: 1 / -1 !important; }
