@@ -1,6 +1,32 @@
 {
-  "totalArticles": 29,
+  "totalArticles": 30,
   "runs": [
+    {
+      "timestamp": "2026-05-27T23:18:51.954Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 321,
+      "totalCandidates": 67,
+      "written": [
+        {
+          "title": "Spider-Noir Is the Ultimate Nicolas Cage Highlight Reel",
+          "category": "tv",
+          "source": "Den of Geek",
+          "score": 14,
+          "slug": "5c8ab153-spider-noir-is-the-ultimate-nicolas-cage-highlight-reel"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Tom Hardy Fans Officially Turn on Paramount+’s Hit Crime Thriller After 'Peaky Blinders' Star's Firing",
+          "category": "tv",
+          "source": "Collider",
+          "score": 15,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-27T22:00:50.589Z",
       "status": "success",
@@ -604,5 +630,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T22:00:50.589Z"
+  "lastUpdated": "2026-05-27T23:18:51.954Z"
 }
