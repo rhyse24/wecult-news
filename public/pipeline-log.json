@@ -1,6 +1,114 @@
 {
-  "totalArticles": 16,
+  "totalArticles": 22,
   "runs": [
+    {
+      "timestamp": "2026-05-27T09:56:14.003Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 316,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "Ey! Toy Story 5  Features Bad Bunny as Pizza & Alan Cumming as Evil Bullseye",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "slug": "50e2e55b-ey-toy-story-5-features-bad-bunny-as-pizza-alan-cumming-as-e"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "timestamp": "2026-05-27T08:00:51.172Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 316,
+      "totalCandidates": 65,
+      "written": [
+        {
+          "title": "Disney+’s $40M Action Fantasy Series Is Aging Like Fine Wine",
+          "category": "tv",
+          "source": "Collider",
+          "score": 13,
+          "slug": "1435e35c-disneys-40m-action-fantasy-series-is-aging-like-fine-wine"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "timestamp": "2026-05-27T06:01:06.365Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 315,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Everything We Know About ‘The Boys’ Prequel Series ‘Vought Rising’ So Far",
+          "category": "film",
+          "source": "Deadline",
+          "score": 15,
+          "slug": "4c3c43ab-everything-we-know-about-the-boys-prequel-series-vought-risi"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "timestamp": "2026-05-27T04:01:05.155Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 317,
+      "totalCandidates": 115,
+      "written": [
+        {
+          "title": "The Mandalorian and Grogu’s quietest sequence should be the template Star Wars' future",
+          "category": "games",
+          "source": "Polygon",
+          "score": 14,
+          "slug": "31574f28-the-mandalorian-and-grogus-quietest-sequence-should-be-the-t"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "timestamp": "2026-05-27T02:01:05.551Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 316,
+      "totalCandidates": 66,
+      "written": [
+        {
+          "title": "Keegan-Michael Key, Tom Brady Among Guests Set for Tubi’s ‘The Other Football,’ Hosted by Rob Gronkowski and Jameis Winston (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "1aedd952-keegan-michael-key-tom-brady-among-guests-set-for-tubis-the-"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "timestamp": "2026-05-27T00:01:03.604Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 307,
+      "totalCandidates": 83,
+      "written": [
+        {
+          "title": "Toy Story 5’s Final Trailer Review: Even Skeptical Fans Are Won Over by Pixar Charm",
+          "category": "film",
+          "source": "ComingSoon",
+          "score": 18,
+          "slug": "6285b847-toy-story-5s-final-trailer-review-even-skeptical-fans-are-wo"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-26T22:02:49.847Z",
       "status": "success",
@@ -349,5 +457,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-26T22:02:49.847Z"
+  "lastUpdated": "2026-05-27T09:56:14.003Z"
 }
