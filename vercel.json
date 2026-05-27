@@ -6,9 +6,15 @@
   "trailingSlash": false,
   "headers": [
     {
+      "source": "/article-images/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
       "source": "/(.*\\.html|.*\\.astro|[^.]*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+        { "key": "Cache-Control", "value": "public, s-maxage=300, stale-while-revalidate=3600" }
       ]
     },
     {
