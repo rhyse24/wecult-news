@@ -1,6 +1,24 @@
 {
-  "totalArticles": 17,
+  "totalArticles": 18,
   "runs": [
+    {
+      "timestamp": "2026-05-27T02:01:05.551Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 316,
+      "totalCandidates": 66,
+      "written": [
+        {
+          "title": "Keegan-Michael Key, Tom Brady Among Guests Set for Tubi’s ‘The Other Football,’ Hosted by Rob Gronkowski and Jameis Winston (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "1aedd952-keegan-michael-key-tom-brady-among-guests-set-for-tubis-the-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-27T00:01:03.604Z",
       "status": "success",
@@ -367,5 +385,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T00:01:03.604Z"
+  "lastUpdated": "2026-05-27T02:01:05.551Z"
 }
