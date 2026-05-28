@@ -15,31 +15,14 @@ const sorted = [...articles].sort(
   (a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
 )
 
-const heroArticles  = sorted.slice(0, 4)
-const gridArticles  = sorted.slice(4)
-const tickerTags    = [...new Set(mockArticles.flatMap(a => a.tags))].slice(0, 14)
+const gridArticles = sorted
+const tickerTags   = [...new Set(mockArticles.flatMap(a => a.tags))].slice(0, 14)
+const heroImage    = sorted[0]?.cover_image
 
 const catColors: Record<string, string> = {
   games: 'var(--cat-games)', film: 'var(--cat-film)',
   tv: 'var(--cat-tv)', books: 'var(--cat-books)',
 }
-
-function buildHeroSrcSet(url: string | undefined): string | undefined {
-  if (!url) return undefined
-  if (url.includes('wsrv.nl')) {
-    const s400 = url.replace(/([?&]w=)\d+/, '$1400')
-    const s700 = url.replace(/([?&]w=)\d+/, '$1700')
-    return `${s400} 400w, ${s700} 700w, ${url} 900w`
-  }
-  if (url.includes('image.tmdb.org')) {
-    const w342 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w342/')
-    const w500 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w500/')
-    const w780 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w780/')
-    return `${w342} 342w, ${w500} 500w, ${w780} 780w`
-  }
-  return undefined
-}
-const heroImage = heroArticles[0]?.cover_image
 ---
 
 <Base
@@ -49,33 +32,8 @@ const heroImage = heroArticles[0]?.cover_image
   hreflang={{ en: 'https://news.wecult.app/', tr: 'https://news.wecult.app/tr/', es: 'https://news.wecult.app/es/' }}
   description={t(lang, 'tagline')}
   preloadImage={heroImage}
-  preloadImageSrcset={buildHeroSrcSet(heroImage)}
 >
 <div class="hp-page">
-
-  <!-- ── Hero: static grid (1 grande + 3 lado) ─── -->
-  <div class="container">
-    <div class="hp-hero-grid">
-
-      <div class="hp-hero-main">
-        {heroArticles[0] && <ArticleCard article={heroArticles[0]} lang={lang} size="hero" />}
-      </div>
-
-      <aside class="hp-hero-side">
-        <div class="hs-label">
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-            <circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/>
-            <path d="M6 3.5v2.7l1.8 1.1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          Últimas
-        </div>
-        {heroArticles.slice(1).map(a => (
-          <ArticleCard article={a} lang={lang} size="compact" />
-        ))}
-      </aside>
-
-    </div>
-  </div>
 
   <!-- ── Ticker strip ──────────────────────── -->
   <div class="ticker-wrap" aria-hidden="true">
@@ -95,7 +53,6 @@ const heroImage = heroArticles[0]?.cover_image
 
   <!-- ── Main grid ────────────────────────── -->
   <div class="hp-body-section">
-  <div class="hp-body-fade"></div>
   <div class="container">
 
     <div class="section-header">
@@ -110,7 +67,7 @@ const heroImage = heroArticles[0]?.cover_image
       {gridArticles.map((a, i) => {
         if (i === 0) return (
           <div class="story-lead" style={`--card-accent:${catColors[a.category]}`}>
-            <ArticleCard article={a} lang={lang} size="featured" />
+            <ArticleCard article={a} lang={lang} size="featured" eager={true} />
           </div>
         )
         if (i === 5) return (

@@ -7,9 +7,10 @@ interface Props {
   article: Article
   lang: Lang
   size?: 'hero' | 'featured' | 'default' | 'compact' | 'mini'
+  eager?: boolean
 }
 
-const { article, lang, size = 'default' } = Astro.props
+const { article, lang, size = 'default', eager = false } = Astro.props
 
 function buildSrcSet(url: string): string | undefined {
   if (!url) return undefined
@@ -138,7 +139,7 @@ const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
   <a href={href} class="featured-card">
     <div class="featured-img-wrap">
       {article.cover_image
-        ? <img src={article.cover_image} alt={tr?.title} loading="lazy" data-fallback={fallbackImg} onerror="this.onerror=null;this.srcset='';this.src=this.dataset.fallback" />
+        ? <img src={article.cover_image} alt={tr?.title} loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : undefined} data-fallback={fallbackImg} onerror="this.onerror=null;this.srcset='';this.src=this.dataset.fallback" />
         : <div class="featured-img-placeholder" style={`background:color-mix(in srgb, ${color} 8%, var(--bg-card))`}></div>
       }
       <span class="featured-cat-pill" style={`--c:${color}`}>{label}</span>
