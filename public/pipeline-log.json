@@ -1,6 +1,24 @@
 {
-  "totalArticles": 32,
+  "totalArticles": 33,
   "runs": [
+    {
+      "timestamp": "2026-05-28T08:01:17.380Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 316,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "Phoebe Bridgers Joins Robert Pattinson’s Surveillance Team in ‘Primetime’ Trailer",
+          "category": "tv",
+          "source": "Rolling Stone TV",
+          "score": 11,
+          "slug": "7e5b80da-phoebe-bridgers-joins-robert-pattinsons-surveillance-team-in"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-28T06:01:18.609Z",
       "status": "quota",
@@ -694,5 +712,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-28T06:01:18.609Z"
+  "lastUpdated": "2026-05-28T08:01:17.380Z"
 }
