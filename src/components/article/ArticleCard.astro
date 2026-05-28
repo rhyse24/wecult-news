@@ -692,6 +692,13 @@ const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
   margin-bottom: 0.125rem;
 }
 
+/* ─── Mobile tweaks ────────────────────────────── */
+@media (max-width: 640px) {
+  .hero-content { padding: 1.25rem 1rem 1rem; }
+  .hero-summary { display: none; }
+  .hero-card { aspect-ratio: 3/2; }
+}
+
 /* ─── Shared ───────────────────────────────────── */
 .cat-pill {
   display: inline-flex;
