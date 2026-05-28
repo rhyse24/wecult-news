@@ -1,6 +1,24 @@
 {
-  "totalArticles": 39,
+  "totalArticles": 40,
   "runs": [
+    {
+      "timestamp": "2026-05-28T18:01:25.992Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 327,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "Save The Dates: New Simpsons On Disney+, Agatha Christie's Tommy & Tuppence, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "ad9f0ebc-save-the-dates-new-simpsons-on-disney-agatha-christies-tommy"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-28T17:35:20.464Z",
       "status": "success",
@@ -839,5 +857,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-28T17:35:20.464Z"
+  "lastUpdated": "2026-05-28T18:01:25.992Z"
 }
