@@ -24,11 +24,7 @@ const popularTags = ['Rockstar Games', 'HBO', 'Neil Gaiman', 'Denis Villeneuve',
       <!-- Brand col -->
       <div class="footer-brand-col">
         <div class="footer-logo-row">
-          <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-            <rect x="0" y="0" width="3" height="18" rx="1.5" fill="#c9a84c"/>
-            <rect x="6" y="4" width="3" height="14" rx="1.5" fill="#c9a84c" opacity="0.6"/>
-            <rect x="12" y="8" width="3" height="10" rx="1.5" fill="#c9a84c" opacity="0.25"/>
-          </svg>
+          <span class="footer-logo-badge" aria-hidden="true">WN</span>
           <span class="footer-logo">WeCult<span class="footer-logo-accent">News</span></span>
         </div>
         <p class="footer-tagline">{t(lang, 'footer.tagline')}</p>
@@ -71,7 +67,7 @@ const popularTags = ['Rockstar Games', 'HBO', 'Neil Gaiman', 'Denis Villeneuve',
         <a href={getLocalizedPath('en', '/about')} class="footer-nav-link">{t(lang, 'footer.about')}</a>
         <a href={getLocalizedPath('en', '/contact')} class="footer-nav-link">{t(lang, 'footer.contact')}</a>
         <a href="https://wecult.app" class="footer-nav-link footer-app-link" target="_blank" rel="noopener noreferrer">
-          <svg width="12" height="12" viewBox="0 0 18 18" fill="none"><rect x="0" y="0" width="3" height="18" rx="1.5" fill="#c9a84c"/><rect x="6" y="4" width="3" height="14" rx="1.5" fill="#c9a84c" opacity="0.6"/><rect x="12" y="8" width="3" height="10" rx="1.5" fill="#c9a84c" opacity="0.25"/></svg>
+          <img src="/logo.png" alt="" width="14" height="14" style="border-radius:3px;display:block;flex-shrink:0" aria-hidden="true" />
           {t(lang, 'footer.wecultApp')}
         </a>
         <a href={getLocalizedPath('en', '/privacy')} class="footer-nav-link">{t(lang, 'footer.privacy')}</a>
@@ -123,8 +119,15 @@ const popularTags = ['Rockstar Games', 'HBO', 'Neil Gaiman', 'Denis Villeneuve',
   .footer-logo-row {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.625rem;
     margin-bottom: 0.875rem;
+  }
+  .footer-logo-badge {
+    display: flex; align-items: center; justify-content: center;
+    width: 26px; height: 26px; border-radius: 6px;
+    background: var(--accent); color: #0f0a04;
+    font-size: 0.625rem; font-weight: 900; letter-spacing: -0.01em;
+    flex-shrink: 0; line-height: 1;
   }
   .footer-logo {
     font-size: 1rem;
