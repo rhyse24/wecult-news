@@ -1,6 +1,32 @@
 {
-  "totalArticles": 37,
+  "totalArticles": 38,
   "runs": [
+    {
+      "timestamp": "2026-05-28T16:01:26.842Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 324,
+      "totalCandidates": 61,
+      "written": [
+        {
+          "title": "‘Hoppers’ Sets Disney+ Streaming Release Date",
+          "category": "film",
+          "source": "Variety",
+          "score": 16,
+          "slug": "2598f22a-hoppers-sets-disney-streaming-release-date"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Why Fans Think Spielberg’s Disclosure Day Is Teasing a Real Alien Reveal",
+          "category": "film",
+          "source": "ComingSoon",
+          "score": 18,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-28T14:01:20.899Z",
       "status": "success",
@@ -784,5 +810,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-28T14:01:20.899Z"
+  "lastUpdated": "2026-05-28T16:01:26.842Z"
 }
