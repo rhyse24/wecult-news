@@ -338,6 +338,17 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
       ></ins>
     </div>
 
+    <!-- Mobile sticky bottom banner (320x50) — consent-gated, mobile only -->
+    <div class="mob-sticky-ad" id="mob-sticky-ad">
+      <button class="mob-sticky-close" id="mob-sticky-close" aria-label="Kapat">✕</button>
+      <ins
+        class="adsbygoogle"
+        style="display:inline-block;width:320px;height:50px"
+        data-ad-client="ca-pub-3306856150955594"
+        data-ad-slot="3316038449"
+      ></ins>
+    </div>
+
     <!-- Back to top -->
     <button id="back-to-top" class="back-to-top" aria-label="Back to top">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -472,6 +483,44 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
         } else {
           window.addEventListener('load', initSideRails)
         }
+      })()
+    </script>
+
+    <script is:inline>
+      (function() {
+        var ad = document.getElementById('mob-sticky-ad')
+        var closeBtn = document.getElementById('mob-sticky-close')
+        if (!ad) return
+
+        function hasConsent() {
+          try {
+            var c = JSON.parse(localStorage.getItem('wecult-consent') || 'null')
+            return !!(c && c.advertising)
+          } catch(e) { return false }
+        }
+
+        function showAd() {
+          if (sessionStorage.getItem('mob-sticky-closed')) return
+          if (!hasConsent()) return
+          try { (window.adsbygoogle = window.adsbygoogle || []).push({}) } catch(e) {}
+          setTimeout(function() { ad.classList.add('is-visible') }, 1500)
+        }
+
+        if (closeBtn) {
+          closeBtn.addEventListener('click', function() {
+            ad.classList.remove('is-visible')
+            sessionStorage.setItem('mob-sticky-closed', '1')
+          })
+        }
+
+        if (hasConsent()) {
+          if ('requestIdleCallback' in window) {
+            requestIdleCallback(showAd, { timeout: 3000 })
+          } else {
+            window.addEventListener('load', showAd)
+          }
+        }
+        window.addEventListener('wcn-consent-granted', showAd)
       })()
     </script>
   </body>
