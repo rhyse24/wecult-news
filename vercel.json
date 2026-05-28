@@ -1,5 +1,8 @@
 {
   "buildCommand": "npm run build",
+  "redirects": [
+    { "source": "/cookies", "destination": "/privacy", "permanent": false }
+  ],
   "outputDirectory": "dist",
   "framework": null,
   "cleanUrls": true,
