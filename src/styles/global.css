@@ -595,6 +595,9 @@ button { font-family: inherit; cursor: pointer; }
   .story-grid-ad { grid-column: 1 / -1 !important; }
 }
 
+/* Prevent hidden attribute from being overridden by author CSS animations */
+[hidden] { display: none !important; }
+
 /* ─── Cookie consent (ported from wecult-web) ────────── */
 @keyframes cb-in {
   from { transform: translateY(32px); opacity: 0; }
