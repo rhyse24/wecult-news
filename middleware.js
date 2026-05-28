@@ -6,12 +6,18 @@ function parseLangCookie(request) {
   return match ? match[1] : null;
 }
 
+function redirect(url, lang, setCookie) {
+  const headers = { Location: url };
+  if (setCookie) {
+    headers['Set-Cookie'] = `wcn_lang=${lang}; Path=/; Max-Age=2592000; SameSite=Lax`;
+  }
+  return new Response(null, { status: 302, headers });
+}
+
 export default function middleware(request) {
-  // If user already has a language preference cookie, respect it
   const langCookie = parseLangCookie(request);
   if (langCookie === 'tr' || langCookie === 'es') {
-    const target = new URL(`/${langCookie}`, request.url);
-    return Response.redirect(target, 302);
+    return redirect(new URL(`/${langCookie}`, request.url).href, langCookie, false);
   }
 
   const acceptLang = (request.headers.get('accept-language') || '').toLowerCase();
@@ -20,13 +26,7 @@ export default function middleware(request) {
   if (/\btr\b/.test(acceptLang)) lang = 'tr';
   else if (/\bes\b/.test(acceptLang)) lang = 'es';
 
-  if (!lang) return; // English or unknown → stay on /
+  if (!lang) return;
 
-  const target = new URL(`/${lang}`, request.url);
-  const res = Response.redirect(target, 302);
-  res.headers.set(
-    'Set-Cookie',
-    `wcn_lang=${lang}; Path=/; Max-Age=2592000; SameSite=Lax`
-  );
-  return res;
+  return redirect(new URL(`/${lang}`, request.url).href, lang, true);
 }
