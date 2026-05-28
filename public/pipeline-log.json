@@ -1,6 +1,24 @@
 {
-  "totalArticles": 34,
+  "totalArticles": 35,
   "runs": [
+    {
+      "timestamp": "2026-05-28T12:01:17.266Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 315,
+      "totalCandidates": 59,
+      "written": [
+        {
+          "title": "'Spider-Noir' Wastes Absolutely No Time Clearing up Its Marvel Status",
+          "category": "film",
+          "source": "MovieWeb",
+          "score": 16,
+          "slug": "b05244cd-spider-noir-wastes-absolutely-no-time-clearing-up-its-marvel"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-28T10:01:20.981Z",
       "status": "success",
@@ -730,5 +748,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-28T10:01:20.981Z"
+  "lastUpdated": "2026-05-28T12:01:17.266Z"
 }
