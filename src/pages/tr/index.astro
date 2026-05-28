@@ -74,7 +74,7 @@ const catColors: Record<string, string> = {
         if (i === 5) return (
           <Fragment>
             <AdSlot type="rectangle" class="story-grid-ad" />
-            <ArticleCard article={a} lang={lang} size="default" />
+            <div class="story-wide"><ArticleCard article={a} lang={lang} size="default" /></div>
           </Fragment>
         )
         return <ArticleCard article={a} lang={lang} size="default" />

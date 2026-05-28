@@ -20,6 +20,7 @@ interface Props {
 
 const { title, description = 'Entertainment news, curated by AI', lang, ogImage, preloadImage, preloadImageSrcset, canonicalUrl, hreflang, schema } = Astro.props
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/'
+const ogImageType = ogImage?.endsWith('.avif') ? 'image/avif' : ogImage?.endsWith('.webp') ? 'image/webp' : ogImage?.endsWith('.png') ? 'image/png' : 'image/jpeg'
 
 // AVIF preload for wsrv.nl images (Chrome/modern browsers), WebP fallback for others
 const isWsrv = preloadImage?.includes('wsrv.nl') && preloadImageSrcset?.includes('output=webp')
@@ -64,7 +65,7 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
     {ogImage && <meta property="og:image" content={ogImage} />}
     {ogImage && <meta property="og:image:width" content="1200" />}
     {ogImage && <meta property="og:image:height" content="630" />}
-    {ogImage && <meta property="og:image:type" content="image/jpeg" />}
+    {ogImage && <meta property="og:image:type" content={ogImageType} />}
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="WeCult News" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -150,6 +151,7 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
           if (loaded) return;
           loaded = true;
           var s = document.createElement('script');
+          s.id = 'adsense-script';
           s.async = true;
           s.crossOrigin = 'anonymous';
           s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + CLIENT;
@@ -499,10 +501,11 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
           } catch(e) { return false }
         }
 
+        var pushed = false
         function showAd() {
           if (sessionStorage.getItem('mob-sticky-closed')) return
           if (!hasConsent()) return
-          try { (window.adsbygoogle = window.adsbygoogle || []).push({}) } catch(e) {}
+          if (!pushed) { pushed = true; try { (window.adsbygoogle = window.adsbygoogle || []).push({}) } catch(e) {} }
           setTimeout(function() { ad.classList.add('is-visible') }, 1500)
         }
 

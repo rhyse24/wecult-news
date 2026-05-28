@@ -1,4 +1,4 @@
-import type { Article, Category, Lang } from '../types'
+import type { Article, ArticleType, Category, Lang } from '../types'
 
 // Astro build-time glob — tüm article JSON'larını okur
 const rawArticles = import.meta.glob('../content/articles/*.json', { eager: true })
@@ -83,7 +83,7 @@ function normalizeArticle(raw: Record<string, unknown>): Article {
     id: raw.id as string,
     slug: raw.slug as string,
     category,
-    article_type: 'news',
+    article_type: (['news','review','feature','opinion','guide'].includes(raw.story_type as string) ? raw.story_type as ArticleType : 'news'),
     author: (raw.author as string) || 'WeCult Editorial',
     published_at: raw.published_at as string,
     cover_image: optimizeImageUrl((raw.image_url as string) || FALLBACK_IMAGES[category]),

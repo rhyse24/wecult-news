@@ -51,7 +51,10 @@ function deduplicateByTitle(articles) {
   for (const article of articles) {
     const isDup = kept.some(b => {
       if (b.category !== article.category) return false;
-      const timeDiff = Math.abs(new Date(article.pubDate) - new Date(b.pubDate));
+      const dateA = new Date(article.pubDate);
+      const dateB = new Date(b.pubDate);
+      if (isNaN(dateA.getTime()) || isNaN(dateB.getTime())) return false;
+      const timeDiff = Math.abs(dateA - dateB);
       if (timeDiff > 24 * 3600000) return false;
       return isSameStory(article.title, b.title);
     });
@@ -452,7 +455,7 @@ for (const article of candidatePool) {
       }
       // Without Gemini expansion the RSS teaser is always too short — skip
       console.warn(`  [skip] ${article.title.slice(0, 50)} — Gemini failed`);
-      runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), reason: 'gemini_fail' });
+      runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: article._score, reason: 'gemini_fail' });
       continue;
     }
 
@@ -462,7 +465,7 @@ for (const article of candidatePool) {
       console.warn(`  [quality-gate] ${article.title.slice(0, 50)}`);
       for (const e of qc.errors) console.warn(`    ✗ ${e}`);
       console.warn(`  [skip] article did not meet WeCult editorial standards`);
-      runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), reason: 'quality_gate', errors: qc.errors });
+      runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: article._score, reason: 'quality_gate', errors: qc.errors });
       continue;
     }
     console.log(`  [quality-gate] ✓ passed`);
@@ -472,7 +475,7 @@ for (const article of candidatePool) {
     if (!titleEntityPresent(article.title, enBody)) {
       console.warn(`  [hallucination-guard] title keywords missing from body — skip`);
       console.warn(`    title: "${article.title.slice(0, 65)}"`);
-      runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), reason: 'hallucination_guard' });
+      runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: article._score, reason: 'hallucination_guard' });
       continue;
     }
 
@@ -498,7 +501,7 @@ for (const article of candidatePool) {
       content_raw: article.content,
       tags: inferTags(article),
       image_url: article.image_url || '',
-      trending_score: scoreArticle(article),
+      trending_score: article._score ?? scoreArticle(article),
     };
 
     writeFileSync(`${ARTICLES_DIR}/${filename}.json`, JSON.stringify(json, null, 2));
@@ -506,14 +509,14 @@ for (const article of candidatePool) {
     // Add to recentTitles immediately so later articles in this run are checked against it
     recentTitles.push({ title: article.title, category: article.category });
     saved++;
-    runLog.written.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), slug: filename });
+    runLog.written.push({ title: article.title, category: article.category, source: article.source_name, score: article._score, slug: filename });
     console.log(`  ✓ ${article.title.slice(0, 60)}`);
 
     // Rate limit: 5 RPM — only sleep if we need to process more candidates
     if (saved < MAX_TOTAL) await sleep(15000);
   } catch (err) {
     console.warn(`  [skip] ${article.title.slice(0, 50)}: ${err.message}`);
-    runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), reason: 'error', error: err.message?.slice(0, 100) });
+    runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: article._score, reason: 'error', error: err.message?.slice(0, 100) });
   }
 }
 

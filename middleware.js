@@ -1,8 +1,14 @@
 export const config = { matcher: '/' };
 
+function parseLangCookie(request) {
+  const cookieHeader = request.headers.get('cookie') || '';
+  const match = cookieHeader.match(/(?:^|;\s*)wcn_lang=([^;]+)/);
+  return match ? match[1] : null;
+}
+
 export default function middleware(request) {
   // If user already has a language preference cookie, respect it
-  const langCookie = request.cookies.get('wcn_lang')?.value;
+  const langCookie = parseLangCookie(request);
   if (langCookie === 'tr' || langCookie === 'es') {
     const target = new URL(`/${langCookie}`, request.url);
     return Response.redirect(target, 302);

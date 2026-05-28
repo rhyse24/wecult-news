@@ -218,8 +218,8 @@
 
   /* ─── Actions ─── */
   function acceptAll() {
-    var c = writeConsent(true, true)
-    if (c.advertising) { syncGoogle(c); loadAdSense(); window.dispatchEvent(new Event('wcn-consent-granted')) }
+    var c = writeConsent(true, true) // writeConsent already calls syncGoogle internally
+    if (c.advertising) { loadAdSense(); window.dispatchEvent(new Event('wcn-consent-granted')) }
     hideBanner(); closeModal()
   }
   function rejectAll() {
@@ -262,7 +262,12 @@
   // Cross-tab sync
   window.addEventListener('storage', function(e) {
     if (e.key !== STORAGE_KEY) return
-    if (readConsent()) hideBanner()
+    var synced = readConsent()
+    if (synced) {
+      hideBanner()
+      syncGoogle(synced)
+      if (synced.advertising) { loadAdSense(); window.dispatchEvent(new Event('wcn-consent-granted')) }
+    }
   })
 
   /* ─── Init ─── */
