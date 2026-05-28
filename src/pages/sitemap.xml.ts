@@ -23,10 +23,11 @@ const STATIC_PAGES = [
   { loc: `${BASE}/search`,     priority: '0.6', changefreq: 'daily'   },
   { loc: `${BASE}/tr/search`,  priority: '0.5', changefreq: 'daily'   },
   { loc: `${BASE}/es/search`,  priority: '0.5', changefreq: 'daily'   },
-  { loc: `${BASE}/about`,      priority: '0.5', changefreq: 'monthly' },
-  { loc: `${BASE}/contact`,    priority: '0.5', changefreq: 'monthly' },
-  { loc: `${BASE}/privacy`,    priority: '0.3', changefreq: 'monthly' },
-  { loc: `${BASE}/terms`,      priority: '0.3', changefreq: 'monthly' },
+  { loc: `${BASE}/about`,               priority: '0.5', changefreq: 'monthly' },
+  { loc: `${BASE}/contact`,             priority: '0.5', changefreq: 'monthly' },
+  { loc: `${BASE}/editorial-standards`, priority: '0.4', changefreq: 'monthly' },
+  { loc: `${BASE}/privacy`,             priority: '0.3', changefreq: 'monthly' },
+  { loc: `${BASE}/terms`,               priority: '0.3', changefreq: 'monthly' },
 ]
 
 export const GET: APIRoute = () => {
