@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <!-- Dark warm background — visible on any browser chrome -->
   <rect width="32" height="32" rx="7" fill="#150e05"/>
-  <!-- Bold W lettermark in WeCult gold -->
-  <path d="M5 7.5 L10.5 24.5 L16 14.5 L21.5 24.5 L27 7.5"
-        stroke="#c9983a" stroke-width="3.5"
+  <!-- WN monogram: W + N tek sürekli çizgi -->
+  <path d="M3 6 L7 26 L11 15 L15 26 L19 6 L19 26 L26 6 L26 26"
+        stroke="#c9983a" stroke-width="2.8"
         stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

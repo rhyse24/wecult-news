@@ -3,13 +3,9 @@
 import sharp from 'sharp'
 import { writeFileSync } from 'fs'
 
-// The favicon design as an inline SVG (matches public/favicon.svg)
-const svg = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <rect width="32" height="32" rx="7" fill="#150e05"/>
-  <path d="M5 7.5 L10.5 24.5 L16 14.5 L21.5 24.5 L27 7.5"
-        stroke="#c9983a" stroke-width="3.5"
-        stroke-linecap="round" stroke-linejoin="round"/>
-</svg>`)
+// Always reads from the source file — stays in sync automatically
+import { readFileSync } from 'fs'
+const svg = readFileSync('public/favicon.svg')
 
 // 32x32 PNG (for <link rel="icon" type="image/png">)
 const png32 = await sharp(svg).resize(32, 32).png().toBuffer()
