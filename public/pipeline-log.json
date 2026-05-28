@@ -2,6 +2,24 @@
   "totalArticles": 30,
   "runs": [
     {
+      "timestamp": "2026-05-28T00:00:53.466Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 311,
+      "totalCandidates": 122,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Spider-Noir officially brings back the best part of Sam Raimi's Spider-Man movies",
+          "category": "games",
+          "source": "Polygon",
+          "score": 17,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-05-27T23:18:51.954Z",
       "status": "success",
       "articlesWritten": 1,
@@ -630,5 +648,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-27T23:18:51.954Z"
+  "lastUpdated": "2026-05-28T00:00:53.466Z"
 }
