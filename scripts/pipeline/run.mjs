@@ -577,18 +577,19 @@ function pruneOldImages() {
   const dir = 'public/article-images';
   if (!existsSync(dir)) return;
   const cutoff = Date.now() - 90 * 24 * 60 * 60 * 1000;
-  const recentIds = new Set();
+  const recentFiles = new Set();
   for (const file of readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.json'))) {
     try {
       const art = JSON.parse(readFileSync(`${ARTICLES_DIR}/${file}`, 'utf8'));
-      if (new Date(art.published_at).getTime() > cutoff) {
-        recentIds.add(art.id.slice(0, 8));
+      if (new Date(art.published_at).getTime() > cutoff && art.image_url) {
+        const imgFile = art.image_url.split('/').pop();
+        if (imgFile) recentFiles.add(imgFile);
       }
     } catch {}
   }
   let pruned = 0;
   for (const file of readdirSync(dir)) {
-    if (!recentIds.has(file.slice(0, 8))) {
+    if (!recentFiles.has(file)) {
       try { unlinkSync(`${dir}/${file}`); pruned++; } catch {}
     }
   }
