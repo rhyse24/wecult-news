@@ -1,6 +1,32 @@
 {
-  "totalArticles": 40,
+  "totalArticles": 41,
   "runs": [
+    {
+      "timestamp": "2026-05-28T20:01:18.708Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 327,
+      "totalCandidates": 66,
+      "written": [
+        {
+          "title": "Tom Hanks Teases “One of the Most Heartbreaking Scenes I’ve Seen” in ‘Toy Story 5’ as Cast Reunites for U.K. Launch",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 18,
+          "slug": "1f44d228-tom-hanks-teases-one-of-the-most-heartbreaking-scenes-ive-se"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Everything We Know About Steven Spielberg’s ‘Disclosure Day’ So Far",
+          "category": "film",
+          "source": "Deadline",
+          "score": 19,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-28T18:01:25.992Z",
       "status": "success",
@@ -857,5 +883,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-28T18:01:25.992Z"
+  "lastUpdated": "2026-05-28T20:01:18.708Z"
 }
