@@ -1,0 +1,112 @@
+---
+import Base from '../layouts/Base.astro'
+import type { Lang } from '../types'
+
+const lang: Lang = 'en'
+const siteBase = 'https://news.wecult.app'
+const pageUrl = `${siteBase}/editorial-standards`
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'NewsMediaOrganization',
+    name: 'WeCult News',
+    url: siteBase,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${siteBase}/favicon.svg`,
+      width: 32,
+      height: 32,
+    },
+    foundingDate: '2026',
+    description: 'AI-assisted entertainment news covering film, TV, games, and books.',
+    publishingPrinciples: pageUrl,
+    actionableFeedbackPolicy: `${siteBase}/contact`,
+    correctionsPolicy: `${siteBase}/contact`,
+    ethicsPolicy: pageUrl,
+    diversityPolicy: pageUrl,
+    masthead: `${siteBase}/about`,
+    verificationFactCheckingPolicy: pageUrl,
+    isAccessibleForFree: true,
+    inLanguage: ['en', 'tr', 'es'],
+    sameAs: ['https://wecult.app'],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'editorial',
+      email: 'news@wecult.app',
+      url: `${siteBase}/contact`,
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    url: pageUrl,
+    name: 'Editorial Standards — WeCult News',
+    description: 'How WeCult News produces content, our AI disclosure, accuracy standards, and corrections policy.',
+    isPartOf: { '@type': 'WebSite', url: siteBase, name: 'WeCult News' },
+  },
+]
+---
+
+<Base
+  title="Editorial Standards"
+  description="How WeCult News produces content, our AI disclosure, accuracy standards, and corrections policy."
+  lang={lang}
+  canonicalUrl={pageUrl}
+  schema={schema}
+>
+  <div class="legal-page">
+    <div class="container">
+      <div class="legal-inner">
+        <div class="legal-eyebrow">Editorial</div>
+        <h1 class="legal-title">Editorial Standards</h1>
+        <p class="legal-updated">Last updated: May 2026</p>
+
+        <div class="legal-body">
+
+          <h2>Our Editorial Mission</h2>
+          <p>WeCult News publishes daily entertainment news covering film, TV, games, and books. Our goal is fast, accurate, and fan-first coverage — not sponsored content, not clickbait, not aggregated noise.</p>
+
+          <h2>AI Disclosure</h2>
+          <p>WeCult News uses artificial intelligence throughout its content pipeline. We believe in full transparency about how this works:</p>
+          <ul>
+            <li><strong>Source monitoring</strong> — An automated pipeline monitors 20+ established entertainment outlets (IGN, The Hollywood Reporter, Variety, The Verge, GameSpot, and others) and selects newsworthy stories based on timeliness and relevance signals.</li>
+            <li><strong>AI writing</strong> — Each article is written by a large language model (Google Gemini) using the source story as a factual foundation. The model expands the story into a structured editorial article with context, analysis, and clearly labeled sections.</li>
+            <li><strong>AI translation</strong> — Turkish and Spanish versions are produced by Llama 3.3 (via Groq) with Gemini as a fallback. Translations are not human-reviewed.</li>
+            <li><strong>No hallucinated sources</strong> — The pipeline enforces a hard rule: no fabricated quotes, no invented statistics, no unnamed sources. All factual claims trace back to the original source article.</li>
+            <li><strong>Byline</strong> — All AI-generated articles are published under the <em>WeCult Editorial</em> byline to clearly indicate the AI-assisted process.</li>
+          </ul>
+
+          <h2>Quality Standards</h2>
+          <p>Every article published by WeCult News must pass the following automated checks before publication:</p>
+          <ul>
+            <li>Minimum 600 words of editorial content</li>
+            <li>Structured sections (lead, context, analysis, community angle)</li>
+            <li>No truncated sentences or incomplete paragraphs</li>
+            <li>Direct link to the original source publication</li>
+            <li>Relevant category tag (Film, TV, Games, or Books)</li>
+            <li>A cover image from a trusted source</li>
+          </ul>
+
+          <h2>Source Policy</h2>
+          <p>WeCult News does not republish press releases verbatim or run sponsored editorial content. Every article is based on news reported by an established publication. A source bar at the bottom of each article links directly to the original report so readers can verify information independently.</p>
+          <p>We do not accept paid placements, sponsored articles, or affiliate-driven editorial coverage.</p>
+
+          <h2>Accuracy &amp; Corrections</h2>
+          <p>Despite automated quality controls, errors can occur — especially in AI-generated content. If you find a factual error in an article, please <a href="/contact">contact us</a> with the article URL and the specific claim in question. We will review and issue a correction promptly.</p>
+          <p>Corrected articles are updated in place with a correction notice at the top of the article body.</p>
+
+          <h2>Independence</h2>
+          <p>WeCult News is the editorial arm of <a href="https://wecult.app" target="_blank" rel="noopener noreferrer">WeCult</a>, an entertainment platform. Editorial coverage is independent of WeCult's commercial interests — we do not give preferential coverage to WeCult's partners or sponsors.</p>
+
+          <h2>Accessibility</h2>
+          <p>All content on WeCult News is free to read. No paywalls, no registration required. Content is available in English, Turkish, and Spanish.</p>
+
+          <h2>Contact</h2>
+          <p>For editorial inquiries, corrections, or feedback: <a href="/contact">contact page</a> or <a href="mailto:news@wecult.app">news@wecult.app</a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</Base>

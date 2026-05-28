@@ -75,6 +75,21 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
     {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org',
+      '@type': 'NewsMediaOrganization',
+      name: 'WeCult News',
+      url: 'https://news.wecult.app',
+      logo: { '@type': 'ImageObject', url: 'https://news.wecult.app/favicon.svg', width: 32, height: 32 },
+      foundingDate: '2026',
+      publishingPrinciples: 'https://news.wecult.app/editorial-standards',
+      actionableFeedbackPolicy: 'https://news.wecult.app/contact',
+      correctionsPolicy: 'https://news.wecult.app/contact',
+      ethicsPolicy: 'https://news.wecult.app/editorial-standards',
+      masthead: 'https://news.wecult.app/about',
+      isAccessibleForFree: true,
+      inLanguage: ['en', 'tr', 'es'],
+    })} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: 'WeCult News',
       url: 'https://news.wecult.app',
