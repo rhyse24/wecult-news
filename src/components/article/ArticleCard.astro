@@ -115,7 +115,7 @@ const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
       <div class="hero-tags">
         {breaking && <span class="breaking-badge">⬤ {breakingLabel}</span>}
         {trending && <span class="trending-badge">{trendingLabel}</span>}
-        <span class="cat-pill" style={`--c:${color}`}>{label}</span>
+        <span class="cat-pill" style={`--c:${color}`} aria-hidden="true"></span>
         <span class="type-badge" style={`color:${typeColor[article.article_type]}`}>{typeLabel[article.article_type]}</span>
       </div>
       <h2 class="hero-title">{tr?.title}</h2>
@@ -142,7 +142,7 @@ const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
         ? <img src={article.cover_image} alt={tr?.title} loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : undefined} data-fallback={fallbackImg} onerror="this.onerror=null;this.srcset='';this.src=this.dataset.fallback" />
         : <div class="featured-img-placeholder" style={`background:color-mix(in srgb, ${color} 8%, var(--bg-card))`}></div>
       }
-      <span class="featured-cat-pill" style={`--c:${color}`}>{label}</span>
+      <span class="featured-cat-pill" style={`--c:${color}`} aria-hidden="true"></span>
       {breaking && <span class="breaking-overlay-badge">⬤ {breakingLabel}</span>}
       {trending && <span class="trending-overlay-badge">🔥</span>}
     </div>
@@ -172,7 +172,7 @@ const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
         ? <img src={article.cover_image} alt={tr?.title} loading="lazy" data-fallback={fallbackImg} onerror="this.onerror=null;this.srcset='';this.src=this.dataset.fallback" />
         : <div class="default-img-placeholder" style={`background:color-mix(in srgb, ${color} 6%, var(--bg-card))`}></div>
       }
-      <span class="default-cat-pill" style={`--c:${color}`}>{label}</span>
+      <span class="default-cat-pill" style={`--c:${color}`} aria-hidden="true"></span>
       {breaking && <span class="breaking-overlay-badge">⬤ {breakingLabel}</span>}
       {trending && <span class="trending-overlay-badge">🔥</span>}
     </div>
@@ -343,15 +343,10 @@ const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
 .featured-cat-pill {
   position: absolute;
   top: 10px; left: 10px;
-  font-size: 0.5625rem;
-  font-weight: 800;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--c);
-  background: rgba(0,0,0,0.62);
-  border: 1px solid color-mix(in srgb, var(--c) 28%, transparent);
-  padding: 3px 7px;
-  border-radius: 4px;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--c);
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.5);
 }
 .featured-body {
   flex: 1;
@@ -451,15 +446,10 @@ const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
   position: absolute;
   bottom: 8px; left: 10px;
   z-index: 2;
-  font-size: 0.5625rem;
-  font-weight: 800;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--c);
-  background: color-mix(in srgb, var(--c) 18%, rgba(0,0,0,0.55));
-  border: 1px solid color-mix(in srgb, var(--c) 32%, transparent);
-  padding: 3px 7px;
-  border-radius: 4px;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--c);
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.45);
 }
 .default-body {
   padding: 1rem 1.125rem 1rem;
@@ -702,16 +692,10 @@ const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
 
 /* ─── Shared ───────────────────────────────────── */
 .cat-pill {
-  display: inline-flex;
-  align-items: center;
-  font-size: 0.5625rem;
-  font-weight: 800;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--c);
-  background: color-mix(in srgb, var(--c) 14%, transparent);
-  border: 1px solid color-mix(in srgb, var(--c) 28%, transparent);
-  padding: 3px 7px;
-  border-radius: 4px;
+  display: inline-block;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--c);
+  flex-shrink: 0;
 }
 </style>
