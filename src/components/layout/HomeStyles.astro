@@ -61,8 +61,10 @@
     .story-lead .featured-title { font-size: 1.125rem !important; }
     .story-grid > :nth-child(6) { grid-column: 1 / -1 !important; }
     .story-grid > :nth-child(6) .default-img-wrap { aspect-ratio: 16/9 !important; }
-    .featured-card { flex-direction: column; max-height: none; }
-    .featured-img-wrap { width: 100%; aspect-ratio: 16/9; }
+    .featured-card { flex-direction: column !important; max-height: none !important; border-left-width: 1px !important; }
+    .featured-img-wrap { width: 100% !important; aspect-ratio: 16/9 !important; flex-shrink: 0 !important; }
+    .story-lead .featured-title { font-size: 1rem !important; font-family: var(--font-sans) !important; }
+    .story-lead .featured-body { padding: 1rem 1.125rem !important; }
   }
   @media (min-width: 480px) and (max-width: 768px) { .story-grid { grid-template-columns: 1fr 1fr !important; } }
   @media (min-width: 768px) and (max-width: 1024px) { .story-grid { grid-template-columns: repeat(3, 1fr) !important; } }
