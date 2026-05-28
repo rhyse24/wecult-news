@@ -16,6 +16,7 @@ function redirect(url, lang, setCookie) {
 
 export default function middleware(request) {
   const langCookie = parseLangCookie(request);
+  if (langCookie === 'en') return; // user explicitly chose English, don't redirect
   if (langCookie === 'tr' || langCookie === 'es') {
     return redirect(new URL(`/${langCookie}`, request.url).href, langCookie, false);
   }

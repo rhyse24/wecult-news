@@ -82,7 +82,7 @@ const categories = [
           </button>
           <div class="lang-dropdown" id="lang-dropdown" role="listbox">
             {SUPPORTED_LANGS.map(l => (
-              <a href={getLocalizedPath(l, '/')} class={`lang-option ${l === lang ? 'is-active' : ''}`} role="option" aria-selected={l === lang}>
+              <a href={getLocalizedPath(l, '/')} class={`lang-option ${l === lang ? 'is-active' : ''}`} role="option" aria-selected={l === lang} data-lang={l}>
                 <span class="lang-option-flag">{langMeta[l].flag}</span>
                 <span class="lang-option-label">{langMeta[l].label}</span>
                 {l === lang && (
@@ -160,7 +160,7 @@ const categories = [
     <p class="drawer-langs-label">Language</p>
     <div class="drawer-langs-grid">
       {SUPPORTED_LANGS.map(l => (
-        <a href={getLocalizedPath(l, '/')} class={`drawer-lang-item ${l === lang ? 'is-active' : ''}`}>
+        <a href={getLocalizedPath(l, '/')} class={`drawer-lang-item ${l === lang ? 'is-active' : ''}`} data-lang={l}>
           <span>{langMeta[l].flag}</span>
           <span>{langMeta[l].label}</span>
         </a>
@@ -201,6 +201,14 @@ const categories = [
   }
   document.getElementById('theme-toggle')?.addEventListener('click', toggleTheme)
   document.getElementById('drawer-theme-btn')?.addEventListener('click', toggleTheme)
+
+  // ── Lang cookie helper — middleware'in cookie'yi okuyabilmesi için
+  function setLangCookie(lang: string) {
+    document.cookie = `wcn_lang=${lang}; path=/; max-age=2592000; samesite=lax`
+  }
+  document.querySelectorAll<HTMLAnchorElement>('[data-lang]').forEach(link => {
+    link.addEventListener('click', () => setLangCookie(link.dataset.lang!))
+  })
 
   // ── Lang dropdown ─────────────────────────────────
   const langBtn = document.getElementById('lang-btn')!

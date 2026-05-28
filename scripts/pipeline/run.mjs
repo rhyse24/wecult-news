@@ -567,19 +567,34 @@ function slugify(str) {
 }
 
 function inferTags(article) {
-  const text = (article.title + ' ' + article.content).toLowerCase();
-  const tags = [article.category];
+  const text = (article.title + ' ' + (article.content || '')).toLowerCase();
+
+  // All keyword groups checked regardless of source category
   const keywords = {
-    games: ['playstation', 'xbox', 'nintendo', 'pc', 'steam', 'gta', 'zelda', 'indie'],
-    film: ['marvel', 'dc', 'disney', 'netflix', 'box office', 'trailer', 'oscar'],
-    tv: ['hbo', 'streaming', 'season', 'episode', 'renewed', 'cancelled'],
-    books: ['novel', 'fantasy', 'sci-fi', 'author', 'bestseller', 'series'],
+    games:  ['playstation', 'xbox', 'nintendo', 'steam', 'gta', 'zelda', 'indie', 'gaming', 'esports', 'dlc', 'console'],
+    film:   ['marvel', 'dc', 'disney', 'box office', 'trailer', 'oscar', 'premiere', 'sequel', 'reboot'],
+    tv:     ['hbo', 'streaming', 'season', 'episode', 'renewed', 'cancelled', 'finale', 'spinoff'],
+    books:  ['novel', 'fantasy', 'sci-fi', 'author', 'bestseller', 'memoir', 'adaptation'],
   };
-  const extra = keywords[article.category] || [];
-  for (const kw of extra) {
-    if (text.includes(kw)) tags.push(kw);
+  const kwTags = [];
+  for (const kwList of Object.values(keywords)) {
+    for (const kw of kwList) {
+      if (text.includes(kw)) kwTags.push(kw);
+    }
   }
-  return [...new Set(tags)].slice(0, 5);
+
+  // Named entities from title — capitalized proper nouns (e.g. "Netflix", "Spielberg")
+  const STOPWORDS = new Set(['this','that','with','from','they','what','when','where','will','have',
+    'been','says','said','just','first','last','next','show','film','game','book','best',
+    'more','most','even','after','every','about','there','their','which','series','finally','reveals']);
+  const entities = article.title
+    .split(/\s+/)
+    .filter(w => /^[A-Z]/.test(w) && w.replace(/[^a-zA-Z]/g, '').length > 3)
+    .map(w => w.toLowerCase().replace(/[^a-z0-9]/g, ''))
+    .filter(w => !STOPWORDS.has(w));
+
+  // Entities first (specific), then keyword matches; category always included
+  return [...new Set([article.category, ...entities, ...kwTags])].slice(0, 6);
 }
 
 function sleep(ms) {
