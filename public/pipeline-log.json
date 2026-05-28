@@ -1,6 +1,24 @@
 {
-  "totalArticles": 42,
+  "totalArticles": 43,
   "runs": [
+    {
+      "timestamp": "2026-05-28T22:01:18.091Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 331,
+      "totalCandidates": 78,
+      "written": [
+        {
+          "title": "Scary Movie launches website where fans can make Ghostface act like Kai Cenat and hawk tuah",
+          "category": "games",
+          "source": "Dexerto",
+          "score": 17,
+          "slug": "77d3cff8-scary-movie-launches-website-where-fans-can-make-ghostface-a"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-28T20:26:27.691Z",
       "status": "success",
@@ -901,5 +919,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-28T20:26:27.691Z"
+  "lastUpdated": "2026-05-28T22:01:18.091Z"
 }
