@@ -41,11 +41,13 @@
     margin-bottom: 0.5rem;
   }
   .story-lead { grid-column: 1 / -1; }
-  /* Desktop: ilk kart geniş aspect-ratio + büyük başlık */
-  .story-lead .default-card { border-radius: var(--radius-xl); }
-  .story-lead .default-img-wrap { aspect-ratio: 21/9; }
-  .story-lead .default-title { font-size: 1.375rem; font-family: var(--font-serif); -webkit-line-clamp: 2; }
-  .story-lead .default-excerpt { -webkit-line-clamp: 2; font-size: 0.9375rem; }
+  .story-lead-mobile { display: none; }
+  .story-lead-desktop { display: block; }
+  /* Desktop: featured kart stili */
+  .story-lead .featured-card { min-height: 280px; max-height: 320px; border-radius: var(--radius-xl); }
+  .story-lead .featured-img-wrap { width: 48%; }
+  .story-lead .featured-title { font-size: 1.375rem; -webkit-line-clamp: 3; font-family: var(--font-serif); }
+  .story-lead .featured-excerpt { -webkit-line-clamp: 3; font-size: 0.9375rem; }
   .story-grid > :nth-child(6) { grid-column: span 2; }
   .story-grid > :nth-child(6) .default-img-wrap { aspect-ratio: 21/9; }
   .story-count {
@@ -59,8 +61,9 @@
   @media (max-width: 768px) {
     .story-grid { grid-template-columns: 1fr !important; }
     .story-lead { grid-column: 1 / -1 !important; }
-    .story-lead .default-img-wrap { aspect-ratio: 16/9 !important; }
-    .story-lead .default-title { font-size: 1rem !important; font-family: var(--font-sans) !important; }
+    /* Mobilde: featured'ı gizle, default'u göster */
+    .story-lead-desktop { display: none; }
+    .story-lead-mobile { display: block; }
     .story-grid > :nth-child(6) { grid-column: 1 / -1 !important; }
     .story-grid > :nth-child(6) .default-img-wrap { aspect-ratio: 16/9 !important; }
   }
