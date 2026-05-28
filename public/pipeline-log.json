@@ -1,6 +1,24 @@
 {
-  "totalArticles": 43,
+  "totalArticles": 44,
   "runs": [
+    {
+      "timestamp": "2026-05-28T23:19:42.937Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 330,
+      "totalCandidates": 61,
+      "written": [
+        {
+          "title": "Cecilia Vega, Fired From  ‘60 Minutes,’ Says She Fears ‘For The Future of the Legendary Broadcast’",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "dff68354-cecilia-vega-fired-from-60-minutes-says-she-fears-for-the-fu"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-28T22:01:18.091Z",
       "status": "success",
@@ -919,5 +937,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-28T22:01:18.091Z"
+  "lastUpdated": "2026-05-28T23:19:42.937Z"
 }
