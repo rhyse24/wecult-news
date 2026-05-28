@@ -41,10 +41,11 @@
     margin-bottom: 0.5rem;
   }
   .story-lead { grid-column: 1 / -1; }
-  .story-lead .featured-card { min-height: 280px; max-height: 320px; border-radius: var(--radius-xl); }
-  .story-lead .featured-img-wrap { width: 48%; }
-  .story-lead .featured-title { font-size: 1.375rem; -webkit-line-clamp: 3; font-family: var(--font-serif); }
-  .story-lead .featured-excerpt { -webkit-line-clamp: 3; font-size: 0.9375rem; }
+  /* Desktop: ilk kart geniş aspect-ratio + büyük başlık */
+  .story-lead .default-card { border-radius: var(--radius-xl); }
+  .story-lead .default-img-wrap { aspect-ratio: 21/9; }
+  .story-lead .default-title { font-size: 1.375rem; font-family: var(--font-serif); -webkit-line-clamp: 2; }
+  .story-lead .default-excerpt { -webkit-line-clamp: 2; font-size: 0.9375rem; }
   .story-grid > :nth-child(6) { grid-column: span 2; }
   .story-grid > :nth-child(6) .default-img-wrap { aspect-ratio: 21/9; }
   .story-count {
@@ -58,13 +59,10 @@
   @media (max-width: 768px) {
     .story-grid { grid-template-columns: 1fr !important; }
     .story-lead { grid-column: 1 / -1 !important; }
-    .story-lead .featured-title { font-size: 1.125rem !important; }
+    .story-lead .default-img-wrap { aspect-ratio: 16/9 !important; }
+    .story-lead .default-title { font-size: 1rem !important; font-family: var(--font-sans) !important; }
     .story-grid > :nth-child(6) { grid-column: 1 / -1 !important; }
     .story-grid > :nth-child(6) .default-img-wrap { aspect-ratio: 16/9 !important; }
-    .featured-card { flex-direction: column !important; max-height: none !important; border-left-width: 1px !important; }
-    .featured-img-wrap { width: 100% !important; aspect-ratio: 16/9 !important; flex-shrink: 0 !important; }
-    .story-lead .featured-title { font-size: 1rem !important; font-family: var(--font-sans) !important; }
-    .story-lead .featured-body { padding: 1rem 1.125rem !important; }
   }
   @media (min-width: 480px) and (max-width: 768px) { .story-grid { grid-template-columns: 1fr 1fr !important; } }
   @media (min-width: 768px) and (max-width: 1024px) { .story-grid { grid-template-columns: repeat(3, 1fr) !important; } }

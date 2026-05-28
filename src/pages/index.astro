@@ -67,7 +67,7 @@ const catColors: Record<string, string> = {
       {gridArticles.map((a, i) => {
         if (i === 0) return (
           <div class="story-lead" style={`--card-accent:${catColors[a.category]}`}>
-            <ArticleCard article={a} lang={lang} size="featured" eager={true} />
+            <ArticleCard article={a} lang={lang} size="default" eager={true} />
           </div>
         )
         if (i === 5) return (
