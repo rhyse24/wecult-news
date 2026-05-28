@@ -1,6 +1,24 @@
 {
-  "totalArticles": 35,
+  "totalArticles": 36,
   "runs": [
+    {
+      "timestamp": "2026-05-28T13:54:50.577Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 319,
+      "totalCandidates": 87,
+      "written": [
+        {
+          "title": "Activision Teases Imminent Call of Duty Modern Warfare Reveal With Video Showing Korean Setting",
+          "category": "games",
+          "source": "IGN",
+          "score": 15,
+          "slug": "6d289456-activision-teases-imminent-call-of-duty-modern-warfare-revea"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-28T12:01:17.266Z",
       "status": "success",
@@ -748,5 +766,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-28T12:01:17.266Z"
+  "lastUpdated": "2026-05-28T13:54:50.577Z"
 }
