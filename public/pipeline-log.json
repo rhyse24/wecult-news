@@ -1,6 +1,24 @@
 {
-  "totalArticles": 36,
+  "totalArticles": 37,
   "runs": [
+    {
+      "timestamp": "2026-05-28T14:01:20.899Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 318,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Disney CEO Josh D’Amaro, Sony Boss Hiroki Totoki Among New Paley Center Board of Trustees Members; Brian Grazer Added to L.A. Board of Governors (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "86280377-disney-ceo-josh-damaro-sony-boss-hiroki-totoki-among-new-pal"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-28T13:54:50.577Z",
       "status": "success",
@@ -766,5 +784,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-28T13:54:50.577Z"
+  "lastUpdated": "2026-05-28T14:01:20.899Z"
 }
