@@ -26,15 +26,34 @@ function jaccardSimilarity(wordsA, wordsB) {
   return union === 0 ? 0 : intersection / union;
 }
 
+// Capitalized "named" words (entities: movie/show/game titles, people)
+function namedWords(title) {
+  return new Set(
+    title.split(/\s+/)
+      .filter(w => /^[A-Z]/.test(w) && w.replace(/[^a-z]/gi,'').length > 3)
+      .map(w => w.toLowerCase().replace(/[^a-z0-9]/g,''))
+  );
+}
+
+function isSameStory(titleA, titleB) {
+  const wA = normalizeTitle(titleA);
+  const wB = normalizeTitle(titleB);
+  if (jaccardSimilarity(wA, wB) > 0.50) return true;
+  // Entity overlap: 2+ shared named words = same story
+  const nA = namedWords(titleA);
+  const nB = namedWords(titleB);
+  const sharedEntities = [...nA].filter(w => nB.has(w));
+  return sharedEntities.length >= 2;
+}
+
 function deduplicateByTitle(articles) {
   const kept = [];
   for (const article of articles) {
-    const wordsA = normalizeTitle(article.title);
     const isDup = kept.some(b => {
       if (b.category !== article.category) return false;
       const timeDiff = Math.abs(new Date(article.pubDate) - new Date(b.pubDate));
-      if (timeDiff > 12 * 3600000) return false;
-      return jaccardSimilarity(wordsA, normalizeTitle(b.title)) > 0.65;
+      if (timeDiff > 24 * 3600000) return false;
+      return isSameStory(article.title, b.title);
     });
     if (isDup) {
       console.log(`  [dedup] skipped "${article.title.slice(0, 55)}" — similar story exists`);
@@ -379,10 +398,9 @@ for (const article of candidatePool) {
   if (quotaExhausted) break;
   try {
     // Cross-run topic dedup: skip if same topic was already covered in the last 48h
-    const candidateWords = normalizeTitle(article.title);
     const topicDup = recentTitles.find(r =>
       r.category === article.category &&
-      jaccardSimilarity(candidateWords, normalizeTitle(r.title)) > 0.55
+      isSameStory(article.title, r.title)
     );
     if (topicDup) {
       console.log(`  [topic-dedup] skipped "${article.title.slice(0, 55)}" — similar to recent: "${topicDup.title.slice(0, 45)}"`);
@@ -484,6 +502,8 @@ for (const article of candidatePool) {
 
     writeFileSync(`${ARTICLES_DIR}/${filename}.json`, JSON.stringify(json, null, 2));
     seen.add(article.link);
+    // Add to recentTitles immediately so later articles in this run are checked against it
+    recentTitles.push({ title: article.title, category: article.category });
     saved++;
     runLog.written.push({ title: article.title, category: article.category, source: article.source_name, score: scoreArticle(article), slug: filename });
     console.log(`  ✓ ${article.title.slice(0, 60)}`);
