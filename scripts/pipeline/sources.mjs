@@ -44,7 +44,8 @@ export const SOURCES = [
   { url: 'https://movieweb.com/feed/',                             category: 'film',  name: 'MovieWeb',           tier: 2 },
   { url: 'https://www.comingsoon.net/feed',                        category: 'film',  name: 'ComingSoon',         tier: 2 },
   { url: 'https://www.firstshowing.net/feed/',                     category: 'film',  name: 'FirstShowing',       tier: 2 },
-  { url: 'https://www.slashfilm.com/feed/',                        category: 'film',  name: 'Slash Film',         tier: 2 },
+  { url: 'https://www.slashfilm.com/feed/category/movies/',        category: 'film',  name: 'Slash Film',         tier: 2 },
+  { url: 'https://www.slashfilm.com/feed/category/tv/',            category: 'tv',    name: 'Slash Film TV',      tier: 2 },
 
   // Tier 3 — Analysis/fan coverage
   { url: 'https://screenrant.com/feed/',                           category: 'film',  name: 'Screen Rant',        tier: 3 },
