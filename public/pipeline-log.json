@@ -1,6 +1,24 @@
 {
-  "totalArticles": 44,
+  "totalArticles": 45,
   "runs": [
+    {
+      "timestamp": "2026-05-29T02:01:16.020Z",
+      "status": "success",
+      "articlesWritten": 1,
+      "quotaExhausted": false,
+      "totalFetched": 328,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "‘The White Lotus’ Recreates Dramatic Cannes Closing Night With Laura Dern, Steve Coogan, Ari Graynor and Max Greenfield",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "0776c49f-the-white-lotus-recreates-dramatic-cannes-closing-night-with"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-29T00:01:17.003Z",
       "status": "quota",
@@ -958,5 +976,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-29T00:01:17.003Z"
+  "lastUpdated": "2026-05-29T02:01:16.020Z"
 }
