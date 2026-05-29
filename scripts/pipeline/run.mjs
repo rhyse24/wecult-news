@@ -333,6 +333,8 @@ function scoreArticle(article) {
       if (igdbTitle.length > 3 && titleLower.includes(igdbTitle)) { score += 5; break; }
     }
   }
+  // List article boost — high-engagement evergreen content
+  if (isListArticle(article.title)) score += 5;
   return score;
 }
 

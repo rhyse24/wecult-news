@@ -122,10 +122,26 @@ export function validateArticle(ai) {
 
 // ── List article detection ────────────────────────────────────────────────
 const LIST_TITLE_PATTERNS = [
-  /^\d{1,2}\s+(best|top|worst|must|greatest|essential|iconic|underrated|scariest|funniest|biggest)/i,
+  // "10 Best X", "7 Top X", "5 Must-Play X"
+  /^\d{1,2}\s+(best|top|worst|must|greatest|essential|iconic|underrated|overrated|scariest|funniest|biggest|hardest|easiest|rarest|strongest|weakest|darkest|saddest|weirdest|strangest|coolest|longest|shortest|craziest|surprising|shocking|disappointing|memorable|underappreciated)/i,
+  // "Best 10 X", "Top 5 X"
   /^(best|top|worst|greatest|essential)\s+\d{1,2}/i,
-  /\b\d{1,2}\s+(games?|shows?|series|movies?|films?|books?|reasons?|things?|ways?)\s+(you|to|that|worth|every|we)/i,
-  /^(the\s+)?\d{1,2}\s+(most|least|biggest|scariest|funniest|powerful|iconic)/i,
+  // "X games/movies/books you should..." — content nouns expanded
+  /\b\d{1,2}\s+(games?|shows?|series|movies?|films?|books?|reasons?|things?|ways?|episodes?|seasons?|characters?|moments?|scenes?|villains?|heroes?|bosses?|levels?|endings?|twists?|sequels?|prequels?|adaptations?|franchises?|authors?|directors?)\s+(you|to|that|worth|every|we|fans?|should|must|need)/i,
+  // "The 5 Most/Least..."
+  /^(the\s+)?\d{1,2}\s+(most|least|biggest|scariest|funniest|powerful|iconic|underrated|overrated|shocking|surprising|disappointing|overlooked|beloved|hated|celebrated)/i,
+  // "Only 3 Zelda Games...", "Just 5 Films..."
+  /^(only|just)\s+\d{1,2}\s+\w/i,
+  // "Every X Ranked", "Every X Explained"
+  /^every\s+.{3,30}\s+(ranked|explained|listed|reviewed|compared|rated)/i,
+  // "Ranked: X" / "Listed:" headers
+  /^(ranked|listed|rating|countdown)[\s:]/i,
+  // "X Things/Reasons We Love/Need/Want"
+  /\b\d{1,2}\s+(things?|reasons?|ways?|facts?)\s+(we|you|fans?)\s+(love|hate|need|want|miss|remember|forget)/i,
+  // "X surpass/beat Y" with a number (like "Only 3 Zelda Games Surpass...")
+  /\b\d{1,2}\s+\w[\w\s]{2,25}\s+(surpass|beat|rival|top|outshine|exceed)/i,
+  // "The X Games/Movies That..." — definite "The N" list form
+  /^the\s+\d{1,2}\s+(games?|shows?|series|movies?|films?|books?|characters?|episodes?)\s+that\b/i,
 ];
 
 export function isListArticle(title) {

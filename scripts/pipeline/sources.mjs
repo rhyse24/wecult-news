@@ -34,6 +34,8 @@ export const SOURCES = [
   { url: 'https://gamerant.com/feed/category/gaming/',                category: 'games', name: 'Game Rant',          tier: 2 },
   { url: 'https://www.thegamer.com/feed/',                            category: 'games', name: 'TheGamer',           tier: 2 },
   { url: 'https://www.cbr.com/category/games/feed/',                  category: 'games', name: 'CBR Games',          tier: 3 },
+  { url: 'https://whatculture.com/gaming/feed',                       category: 'games', name: 'WhatCulture Games',  tier: 3 },
+  { url: 'https://www.gamesradar.com/rss/best-games.xml',             category: 'games', name: 'GamesRadar Best',    tier: 2 },
 
   // ── Film ──────────────────────────────────────────────────────────────
   // Tier 1 — Premium trade publications (film-specific feeds)
@@ -54,9 +56,12 @@ export const SOURCES = [
   { url: 'https://gamerant.com/feed/category/movies/',                category: 'film',  name: 'Game Rant Film',     tier: 3 },
   { url: 'https://www.cbr.com/category/movies/feed/',                 category: 'film',  name: 'CBR Film',           tier: 3 },
 
-  // Tier 3 — Analysis/fan coverage
+  // Tier 3 — Analysis/fan coverage + list-heavy
   { url: 'https://screenrant.com/category/movies/feed/',              category: 'film',  name: 'Screen Rant',        tier: 3 },
   { url: 'https://www.denofgeek.com/movies/feed/',                    category: 'film',  name: 'Den of Geek Film',   tier: 3 },
+  { url: 'https://whatculture.com/film/feed',                         category: 'film',  name: 'WhatCulture Film',   tier: 3 },
+  { url: 'https://www.looper.com/feed/',                              category: 'film',  name: 'Looper',             tier: 3 },
+  { url: 'https://www.tasteocinema.com/feed/',                        category: 'film',  name: 'Taste of Cinema',    tier: 3 },
 
   // ── TV ────────────────────────────────────────────────────────────────
   // Tier 1 — Premium trade/news-first (TV-specific feeds)
@@ -78,10 +83,12 @@ export const SOURCES = [
   { url: 'https://gamerant.com/feed/category/tv-shows/',              category: 'tv',    name: 'Game Rant TV',       tier: 3 },
   { url: 'https://www.cbr.com/category/tv/feed/',                     category: 'tv',    name: 'CBR TV',             tier: 3 },
 
-  // Tier 3 — Analysis heavy
+  // Tier 3 — Analysis heavy + list-heavy
   { url: 'https://www.avclub.com/rss',                                category: 'tv',    name: 'AV Club',            tier: 3 },
   { url: 'https://screenrant.com/category/tv-shows/feed/',            category: 'tv',    name: 'Screen Rant TV',     tier: 3 },
   { url: 'https://www.denofgeek.com/tv/feed/',                        category: 'tv',    name: 'Den of Geek TV',     tier: 3 },
+  { url: 'https://whatculture.com/tv/feed',                           category: 'tv',    name: 'WhatCulture TV',     tier: 3 },
+  { url: 'https://www.looper.com/category/tv/feed/',                  category: 'tv',    name: 'Looper TV',          tier: 3 },
 
   // List-focused sources
   { url: 'https://www.whattowatch.com/feeds.xml',                     category: 'tv',    name: 'What to Watch',      tier: 2 },
