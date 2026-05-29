@@ -374,7 +374,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
     else console.warn('  [groq-es] retry also failed — saving without ES');
   }
 
-  const VALID_STORY_TYPES = new Set(['breaking', 'exclusive', 'rumor', 'analysis', 'release', 'event', 'other']);
+  const VALID_STORY_TYPES = new Set(['breaking', 'exclusive', 'rumor', 'analysis', 'release', 'event', 'other', 'list']);
   const story_type = VALID_STORY_TYPES.has(enData.story_type) ? enData.story_type : 'other';
 
   return {

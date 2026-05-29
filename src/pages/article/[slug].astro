@@ -34,10 +34,10 @@ const fallbackImages: Record<string, string> = {
 const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
 
 const typeLabel: Record<string, string> = {
-  news: 'News', review: 'Review', feature: 'Feature', opinion: 'Opinion', guide: 'Guide',
+  news: 'News', review: 'Review', feature: 'Feature', opinion: 'Opinion', guide: 'Guide', list: 'List',
 }
 const typeColor: Record<string, string> = {
-  news: 'var(--text-muted)', review: '#f59e0b', feature: '#818cf8', opinion: '#f472b6', guide: '#34d399',
+  news: 'var(--text-muted)', review: '#f59e0b', feature: '#818cf8', opinion: '#f472b6', guide: '#34d399', list: '#f59e0b',
 }
 
 const date = new Date(article.published_at).toLocaleDateString('en-US', {
