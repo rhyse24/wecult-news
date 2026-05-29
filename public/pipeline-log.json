@@ -1,6 +1,38 @@
 {
-  "totalArticles": 47,
+  "totalArticles": 50,
   "runs": [
+    {
+      "timestamp": "2026-05-29T07:59:56.573Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 350,
+      "totalCandidates": 66,
+      "written": [
+        {
+          "title": "‘Project Hail Mary’ Tops Golden Trailer Awards With 5 Prizes",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "1af4c466-project-hail-mary-tops-golden-trailer-awards-with-5-prizes"
+        },
+        {
+          "title": "Let The ‘Backrooms’ Bonanza Begin: Previews For Kane Parsons Movie At $9M – Late Thursday Box Office",
+          "category": "film",
+          "source": "Deadline",
+          "score": 14,
+          "slug": "901866dc-let-the-backrooms-bonanza-begin-previews-for-kane-parsons-mo"
+        },
+        {
+          "title": "Joy Behar Reveals Why She Is Taking a Break From The View",
+          "category": "film",
+          "source": "ComingSoon",
+          "score": 13,
+          "slug": "4628e92d-joy-behar-reveals-why-she-is-taking-a-break-from-the-view"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-29T06:01:23.192Z",
       "status": "quota",
@@ -1037,5 +1069,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-29T06:01:23.192Z"
+  "lastUpdated": "2026-05-29T07:59:56.573Z"
 }
