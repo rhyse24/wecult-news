@@ -9,6 +9,14 @@
   "trailingSlash": false,
   "headers": [
     {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin",  "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" },
+        { "key": "Cache-Control", "value": "public, s-maxage=300, stale-while-revalidate=3600" }
+      ]
+    },
+    {
       "source": "/article-images/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, s-maxage=31536000, immutable" }
