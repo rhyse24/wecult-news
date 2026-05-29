@@ -15,7 +15,8 @@ const sorted = [...articles].sort(
   (a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
 )
 
-const gridArticles = sorted
+const listArticles = sorted.filter(a => a.article_type === 'list').slice(0, 4)
+const gridArticles = sorted.filter(a => a.article_type !== 'list')
 const tickerTags   = [...new Set(mockArticles.flatMap(a => a.tags))].slice(0, 14)
 const heroImage    = sorted[0]?.cover_image
 
@@ -50,6 +51,25 @@ const catColors: Record<string, string> = {
       ))}
     </div>
   </div>
+
+  <!-- ── List articles section ────────────── -->
+  {listArticles.length > 0 && (
+    <div class="hp-body-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-header-left">
+          <h2 class="section-title">Listeler</h2>
+          <p class="section-subtitle">En iyi içerikler, sıralanmış ve hazır</p>
+        </div>
+      </div>
+      <div class="list-articles-grid">
+        {listArticles.map(a => (
+          <ArticleCard article={a} lang={lang} size="list" />
+        ))}
+      </div>
+    </div>
+    </div>
+  )}
 
   <!-- ── Main grid ────────────────────────── -->
   <div class="hp-body-section">

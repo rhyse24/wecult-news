@@ -62,6 +62,13 @@ const breaking = isBreaking(article)
 const fresh = isFresh(article)
 const trending = !breaking && isTrending(article)
 
+const listItems: string[] = (() => {
+  if (article.article_type !== 'list') return []
+  const body = tr?.body ?? ''
+  const matches = [...body.matchAll(/^## \d+\.\s+(.+)$/gm)]
+  return matches.map(m => m[1].trim())
+})()
+
 const timeAgo = (() => {
   const ms = Date.now() - new Date(article.published_at).getTime()
   const h = Math.floor(ms / 3600000)
@@ -231,6 +238,36 @@ const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
         <img src={article.cover_image} alt="" loading="lazy" data-fallback={fallbackImg} onerror="this.onerror=null;this.srcset='';this.src=this.dataset.fallback" />
       </div>
     )}
+  </a>
+)}
+
+<!-- ─── List Card ────────────────────────────────── -->
+{size === 'list' && (
+  <a href={href} class="list-card" style={`--card-accent:${color}`}>
+    <div class="list-img-wrap">
+      {article.cover_image
+        ? <img src={article.cover_image} alt={tr?.title} loading="lazy" data-fallback={fallbackImg} onerror="this.onerror=null;this.srcset='';this.src=this.dataset.fallback" />
+        : <div class="list-img-placeholder" style={`background:color-mix(in srgb, ${color} 6%, var(--bg-card))`}></div>
+      }
+      <span class="list-cat-dot" style={`--c:${color}`} aria-hidden="true"></span>
+      <span class="list-badge">LIST</span>
+    </div>
+    <div class="list-body">
+      <h3 class="list-title">{tr?.title}</h3>
+      {listItems.length > 0 && (
+        <ol class="list-preview">
+          {listItems.slice(0, 3).map((item) => (
+            <li class="list-preview-item">{item}</li>
+          ))}
+        </ol>
+      )}
+      {listItems.length > 3 && (
+        <span class="list-more">+{listItems.length - 3} more →</span>
+      )}
+      <div class="list-footer">
+        <span class="list-meta">{article.source_name} · {timeAgo}</span>
+      </div>
+    </div>
   </a>
 )}
 
@@ -697,5 +734,105 @@ const fallbackImg = fallbackImages[article.category] ?? fallbackImages.film
   border-radius: 50%;
   background: var(--c);
   flex-shrink: 0;
+}
+
+/* ─── List Card ─────────────────────────────────── */
+.list-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, transform 0.2s;
+  border-left: 3px solid var(--card-accent);
+}
+.list-card:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--card-accent) 40%, var(--border)); }
+
+.list-img-wrap {
+  position: relative;
+  aspect-ratio: 16/7;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.list-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: scale 0.5s ease; }
+.list-card:hover .list-img-wrap img { scale: 1.03; }
+.list-img-placeholder { width: 100%; height: 100%; }
+
+.list-badge {
+  position: absolute;
+  top: 10px; left: 10px;
+  background: var(--card-accent);
+  color: #000;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 2px 7px;
+  border-radius: 4px;
+  line-height: 1.6;
+}
+.list-cat-dot {
+  position: absolute;
+  top: 10px; right: 10px;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--c);
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.5);
+}
+
+.list-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px 16px 12px;
+  flex: 1;
+}
+.list-title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--text-primary);
+  margin: 0;
+}
+.list-preview {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.list-preview-item {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  padding-left: 16px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list-preview-item::before {
+  content: counter(list-item) ".";
+  counter-increment: list-item;
+  position: absolute;
+  left: 0;
+  color: var(--card-accent);
+  font-weight: 600;
+  font-size: 11px;
+}
+.list-preview { counter-reset: list-item; }
+.list-more {
+  font-size: 11px;
+  color: var(--card-accent);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.list-footer { margin-top: auto; }
+.list-meta {
+  font-size: 11px;
+  color: var(--text-muted);
 }
 </style>
