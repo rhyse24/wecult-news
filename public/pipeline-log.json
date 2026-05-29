@@ -1,6 +1,183 @@
 {
-  "totalArticles": 45,
+  "totalArticles": 59,
   "runs": [
+    {
+      "timestamp": "2026-05-29T12:01:22.014Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 327,
+      "totalCandidates": 66,
+      "written": [
+        {
+          "title": "Is For All Mankind Canceled or Has Apple TV Renewed It for Season 6?",
+          "category": "film",
+          "source": "ComingSoon",
+          "score": 13,
+          "slug": "81d3f26b-is-for-all-mankind-canceled-or-has-apple-tv-renewed-it-for-s"
+        },
+        {
+          "title": "‘Game of Thrones’ Play ‘The Mad King’ Unveils Full Cast for Royal Shakespeare Company World Premiere",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "1398cf00-game-of-thrones-play-the-mad-king-unveils-full-cast-for-roya"
+        },
+        {
+          "title": "Why Star City Is Secretly An Origin Story For The Best Villain In For All Mankind [Exclusive]",
+          "category": "film",
+          "source": "Slash Film",
+          "score": 12,
+          "slug": "e19ed3d5-why-star-city-is-secretly-an-origin-story-for-the-best-villa"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Golden Trailer Awards: ‘Project Hail Mary’ Scores Best In Show & Leads Field; Disney Tops Studios – Full List",
+          "category": "film",
+          "source": "Deadline",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-29T11:38:11.176Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 331,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "New on Netflix UK This Week: Vinnie Jones and Rafael Nadal Documentaries Plus ‘The Four Seasons’ Return",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "34ade82d-new-on-netflix-uk-this-week-vinnie-jones-and-rafael-nadal-do"
+        },
+        {
+          "title": "15 Actors Who Fumbled the Project of a Lifetime, and Never Got Back",
+          "category": "tv",
+          "source": "Den of Geek",
+          "score": 13,
+          "slug": "c011bc97-15-actors-who-fumbled-the-project-of-a-lifetime-and-never-go"
+        },
+        {
+          "title": "Only 3 Fantasy Video Games Are Better Than 'The Legend of Zelda: Ocarina of Time'",
+          "category": "tv",
+          "source": "Collider",
+          "score": 11,
+          "slug": "4887e5af-only-3-fantasy-video-games-are-better-than-the-legend-of-zel"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘The Boys’ Officially Returns in Less Than 2 Weeks",
+          "category": "tv",
+          "source": "Collider",
+          "score": 18,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-29T10:01:26.279Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 336,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Cypher removed from Valorant as powerful Spycam bug returns",
+          "category": "games",
+          "source": "Dexerto",
+          "score": 15,
+          "slug": "6fa12192-cypher-removed-from-valorant-as-powerful-spycam-bug-returns"
+        },
+        {
+          "title": "Rambo Prequel Gets Summer 2027 Release Date",
+          "category": "games",
+          "source": "IGN",
+          "score": 13,
+          "slug": "d053c39d-rambo-prequel-gets-summer-2027-release-date"
+        },
+        {
+          "title": " Acer's Predator Atlas 8 handheld gaming PC with new Intel G-series chips looks a lot like a beefier Lenovo Legion Go S  ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "615780ce-acers-predator-atlas-8-handheld-gaming-pc-with-new-intel-g-s"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "timestamp": "2026-05-29T07:59:56.573Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 350,
+      "totalCandidates": 66,
+      "written": [
+        {
+          "title": "‘Project Hail Mary’ Tops Golden Trailer Awards With 5 Prizes",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "1af4c466-project-hail-mary-tops-golden-trailer-awards-with-5-prizes"
+        },
+        {
+          "title": "Let The ‘Backrooms’ Bonanza Begin: Previews For Kane Parsons Movie At $9M – Late Thursday Box Office",
+          "category": "film",
+          "source": "Deadline",
+          "score": 14,
+          "slug": "901866dc-let-the-backrooms-bonanza-begin-previews-for-kane-parsons-mo"
+        },
+        {
+          "title": "Joy Behar Reveals Why She Is Taking a Break From The View",
+          "category": "film",
+          "source": "ComingSoon",
+          "score": 13,
+          "slug": "4628e92d-joy-behar-reveals-why-she-is-taking-a-break-from-the-view"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "timestamp": "2026-05-29T06:01:23.192Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 351,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "I’m Back From Maternity Leave, and Here’s What I Watched",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 13,
+          "slug": "9304daf9-im-back-from-maternity-leave-and-heres-what-i-watched"
+        },
+        {
+          "title": "Sugar Season 2 Trailer: Colin Farrell Finds Romance (and Conspiracy) on a Missing Persons Case",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "628fbb31-sugar-season-2-trailer-colin-farrell-finds-romance-and-consp"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "X-Men ’97 Season 2 Trailer Takes Us to a Vulnerable Time: The 1990s",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-29T04:01:17.428Z",
       "status": "quota",
@@ -1004,5 +1181,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-29T04:01:17.428Z"
+  "lastUpdated": "2026-05-29T12:01:22.014Z"
 }
