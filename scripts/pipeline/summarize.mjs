@@ -97,10 +97,15 @@ export function validateArticle(ai) {
   // EN checks
   const enWords = wordCount(enBody);
   if (enWords < 320) errors.push(`EN body too short: ${enWords} words (need ≥320)`);
+  if (enWords > 580) errors.push(`EN body too long: ${enWords} words (max 580)`);
   const enHeadings = countHeadings(enBody);
   if (enHeadings < 1) errors.push(`EN body has no section headings (need ≥1)`);
   if (isTruncated(enBody)) errors.push('EN body contains truncation marker');
   if (!endsCleanly(enBody)) errors.push('EN body ends mid-sentence');
+  // Headline length — BuzzSumo optimal: 8–12 words
+  const titleWordCount = enTitle.trim().split(/\s+/).filter(Boolean).length;
+  if (titleWordCount > 12) errors.push(`Headline too long: ${titleWordCount} words (max 12)`);
+  if (titleWordCount < 5) errors.push(`Headline too short: ${titleWordCount} words (min 5)`);
 
   // TR checks (null is allowed — EN shown as fallback)
   if (trBody !== null) {
@@ -318,7 +323,9 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
       }
 
       const body = parsed?.body ?? '';
+      const title = parsed?.title ?? '';
       const words = wordCount(body);
+      const titleWc = title.trim().split(/\s+/).filter(Boolean).length;
       const truncated = isTruncated(body);
       const headings = countHeadings(body);
 
@@ -326,6 +333,16 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
         console.warn(`  [gemini-en attempt ${attempt}] body too short: ${words} words`);
         if (attempt < 3) { await sleep(attempt * 15000); continue; }
         throw new Error('EN body too short after all attempts');
+      }
+      if (words > 580) {
+        console.warn(`  [gemini-en attempt ${attempt}] body too long: ${words} words — retrying`);
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
+        console.warn(`  [gemini-en] accepting ${words} words after all attempts`);
+      }
+      if (titleWc > 12) {
+        console.warn(`  [gemini-en attempt ${attempt}] headline too long: ${titleWc} words — retrying`);
+        if (attempt < 3) { await sleep(attempt * 15000); continue; }
+        console.warn(`  [gemini-en] accepting ${titleWc}-word headline after all attempts`);
       }
       if (truncated) {
         console.warn(`  [gemini-en attempt ${attempt}] truncation marker in body — retrying`);
@@ -339,7 +356,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
       }
 
       enData = parsed;
-      console.log(`  [gemini-en] ${words} words, ${headings} headings`);
+      console.log(`  [gemini-en] ${words} words, ${headings} headings, ${titleWc}-word headline`);
       break;
     } catch (err) {
       console.warn(`  [gemini-en attempt ${attempt}] ${err.message}`);
