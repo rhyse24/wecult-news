@@ -15,9 +15,8 @@ const sorted = [...articles].sort(
   (a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
 )
 
-const listArticles = sorted.filter(a => a.article_type === 'list').slice(0, 4)
 const gridArticles = sorted
-const featuredArticle = sorted.find(a => a.article_type !== 'list')
+const featuredArticle = sorted[0]
 const tickerTags   = [...new Set(mockArticles.flatMap(a => a.tags))].slice(0, 14)
 const heroImage    = sorted[0]?.cover_image
 
@@ -53,27 +52,6 @@ const catColors: Record<string, string> = {
     </div>
   </div>
 
-  <!-- ── List articles section (desktop only) ─ -->
-  <div class="list-section-wrap">
-  {listArticles.length > 0 && (
-    <div class="hp-body-section">
-    <div class="container">
-      <div class="section-header">
-        <div class="section-header-left">
-          <h2 class="section-title">Listas</h2>
-          <p class="section-subtitle">Las mejores selecciones, clasificadas y listas</p>
-        </div>
-      </div>
-      <div class="list-articles-grid">
-        {listArticles.map(a => (
-          <ArticleCard article={a} lang={lang} size="list" />
-        ))}
-      </div>
-    </div>
-    </div>
-  )}
-  </div>
-
   <!-- ── Main grid ────────────────────────── -->
   <div class="hp-body-section">
   <div class="container">
@@ -88,11 +66,6 @@ const catColors: Record<string, string> = {
 
     <div class="story-grid">
       {gridArticles.map((a, i) => {
-        if (a.article_type === 'list') return (
-          <div class="story-grid-list-item">
-            <ArticleCard article={a} lang={lang} size="default" />
-          </div>
-        )
         if (a.id === featuredArticle?.id) return (
           <div class="story-lead" style={`--card-accent:${catColors[a.category]}`}>
             <span class="story-lead-desktop"><ArticleCard article={a} lang={lang} size="featured" eager={true} /></span>
