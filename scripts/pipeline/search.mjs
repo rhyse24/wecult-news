@@ -83,7 +83,7 @@ export async function searchTmdbImage(title, category, bearerToken) {
     const poster = data.results?.[0]?.poster_path;
     if (poster) {
       console.log(`    [tmdb-image] found poster for "${title.slice(0, 45)}"`);
-      return `https://image.tmdb.org/t/p/w780${poster}`;
+      return `https://image.tmdb.org/t/p/w1280${poster}`;
     }
     return '';
   } catch {

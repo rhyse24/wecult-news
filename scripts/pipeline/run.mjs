@@ -637,7 +637,7 @@ function pruneOldImages() {
 
 // Download og:image to public/article-images/ so it's served from our own domain.
 // Avoids hotlink protection entirely — no wsrv.nl proxy needed for these images.
-// Images are resized to max 900px wide and converted to WebP (quality 82) for fast mobile load.
+// Images are resized to 1200px wide (Google Discover min requirement) and converted to AVIF for fast load.
 async function downloadArticleImage(imageUrl, articleId) {
   if (!imageUrl || isTrustedCdn(imageUrl)) return imageUrl;
   const dir = 'public/article-images';
@@ -659,7 +659,7 @@ async function downloadArticleImage(imageUrl, articleId) {
     const buffer = await res.arrayBuffer();
     if (buffer.byteLength < 5000) return ''; // too small = error page
     const compressed = await sharp(Buffer.from(buffer))
-      .resize({ width: 900, withoutEnlargement: true })
+      .resize({ width: 1200, withoutEnlargement: true })
       .avif({ quality: 72 })
       .toBuffer();
     await writeFile(filepath, compressed);
