@@ -119,7 +119,7 @@ const summaryIsBodyDup = tr?.summary && tr?.body &&
   tr.body.slice(0, Math.min(tr.summary.length + 80, 400)).includes(tr.summary.slice(0, 60))
 const showSummary = !!(tr?.summary && !summaryIsBodyDup)
 
-type Block = { type: 'h2' | 'quote' | 'list' | 'p'; content: string; items?: string[] }
+type Block = { type: 'h2' | 'quote' | 'list' | 'p' | 'listitem'; content: string; title?: string; num?: string; items?: string[] }
 
 function renderInline(text: string): string {
   return text
@@ -129,13 +129,33 @@ function renderInline(text: string): string {
     .replace(/_(.+?)_/g, '<em>$1</em>')
 }
 
-function parseBody(body: string): Block[] {
+function parseBody(body: string, isListMode = false): Block[] {
   const blocks: Block[] = []
-  for (const raw of body.split(/\n\n+/)) {
-    const b = raw.trim()
+  const rawBlocks = body.split(/\n\n+/)
+  for (let i = 0; i < rawBlocks.length; i++) {
+    const b = rawBlocks[i].trim()
     if (!b) continue
     if (b.startsWith('## ')) {
-      blocks.push({ type: 'h2', content: b.slice(3).trim() })
+      const raw = b.slice(3).trim()
+      const nlIdx = raw.indexOf('\n')
+      const heading = nlIdx !== -1 ? raw.slice(0, nlIdx).trim() : raw
+      let descFromMerge = nlIdx !== -1 ? raw.slice(nlIdx + 1).trim().replace(/\n/g, ' ') : ''
+      let descFromNext = ''
+      if (!descFromMerge && isListMode && i + 1 < rawBlocks.length) {
+        const next = rawBlocks[i + 1].trim()
+        if (next && !next.startsWith('## ') && !next.startsWith('> ')) {
+          descFromNext = next.replace(/\n/g, ' ')
+          i++
+        }
+      }
+      const desc = descFromMerge || descFromNext
+      const numMatch = isListMode && heading.match(/^(\d+)\.\s+(.+)$/)
+      if (numMatch) {
+        blocks.push({ type: 'listitem', num: numMatch[1], title: renderInline(numMatch[2]), content: desc ? renderInline(desc) : '' })
+      } else {
+        blocks.push({ type: 'h2', content: heading })
+        if (desc) blocks.push({ type: 'p', content: renderInline(desc) })
+      }
     } else if (b.startsWith('> ')) {
       blocks.push({ type: 'quote', content: renderInline(b.slice(2).trim()) })
     } else {
@@ -150,7 +170,8 @@ function parseBody(body: string): Block[] {
   return blocks
 }
 
-const bodyBlocks = tr?.body ? parseBody(tr.body) : []
+const isListMode = article.article_type === 'list'
+const bodyBlocks = tr?.body ? parseBody(tr.body, isListMode) : []
 ---
 
 <Base
@@ -258,9 +279,18 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
           <AdSlot type="fluid" class="article-ad-top" />
 
           {bodyBlocks.length > 0 && (
-            <div class="article-content">
+            <div class={`article-content${isListMode ? ' article-content--list' : ''}`}>
               {bodyBlocks.map((block, i) => (
                 <>
+                  {block.type === 'listitem' && (
+                    <div class="list-item-card">
+                      <span class="list-item-num">{block.num}</span>
+                      <div class="list-item-body">
+                        <h3 class="list-item-title" set:html={block.title} />
+                        {block.content && <p class="list-item-desc" set:html={block.content} />}
+                      </div>
+                    </div>
+                  )}
                   {block.type === 'h2' && (
                     <h2 class="article-section-heading">{block.content}</h2>
                   )}
