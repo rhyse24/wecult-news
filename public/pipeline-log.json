@@ -1,6 +1,53 @@
 {
-  "totalArticles": 59,
+  "totalArticles": 62,
   "runs": [
+    {
+      "timestamp": "2026-05-29T14:01:22.815Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 72,
+      "written": [
+        {
+          "title": "007 First Light Sells 1.5 Million Copies in First 24 Hours, Faster Than Any Hitman Game From IO Interactive",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "c6aa7e4f-007-first-light-sells-15-million-copies-in-first-24-hours-fa"
+        },
+        {
+          "title": "\"We're determined to win justice for the 31 fired workers\" - Rockstar Games workers publicly launch union, as legal battle with the GTA 6 maker rages on",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 12,
+          "slug": "b38f2ace-were-determined-to-win-justice-for-the-31-fired-workers---ro"
+        },
+        {
+          "title": "San Francisco Giants unveil Pokemon Worlds Night with exclusive Pikachu jersey",
+          "category": "games",
+          "source": "Dexerto",
+          "score": 12,
+          "slug": "8e7f886d-san-francisco-giants-unveil-pokemon-worlds-night-with-exclus"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Rayman Legends Remake Leaks Reveal Release Date, Price, and a Clair Obscur Crossover",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Witcher 3 surpasses 65m lifetime sales as CD Projekt announces third expansion",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-29T12:01:22.014Z",
       "status": "success",
@@ -1181,5 +1228,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-29T12:01:22.014Z"
+  "lastUpdated": "2026-05-29T14:01:22.815Z"
 }
