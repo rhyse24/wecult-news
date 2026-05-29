@@ -26,6 +26,11 @@ export const SOURCES = [
   // Tier 3 — Opinion/analysis heavy
   { url: 'https://kotaku.com/rss',                                 category: 'games', name: 'Kotaku',             tier: 3 },
 
+  // List-focused sources
+  { url: 'https://gamerant.com/feed/',                             category: 'games', name: 'Game Rant',          tier: 2 },
+  { url: 'https://www.thegamer.com/feed/',                         category: 'games', name: 'TheGamer',           tier: 2 },
+  { url: 'https://www.cbr.com/feed/',                              category: 'games', name: 'CBR Games',          tier: 3 },
+
   // ── Film ──────────────────────────────────────────────────────────────
   // Tier 1 — Premium trade publications
   { url: 'https://variety.com/feed/',                              category: 'film',  name: 'Variety',            tier: 1 },
@@ -61,6 +66,9 @@ export const SOURCES = [
 
   // Tier 3 — Analysis heavy
   { url: 'https://www.avclub.com/rss',                             category: 'tv',    name: 'AV Club',            tier: 3 },
+
+  // List-focused sources
+  { url: 'https://www.whattowatch.com/feeds.xml',                  category: 'tv',    name: 'What to Watch',      tier: 2 },
 
   // ── Books ─────────────────────────────────────────────────────────────
   // Tier 1 — Trade publications
