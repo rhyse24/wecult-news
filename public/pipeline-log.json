@@ -1,6 +1,46 @@
 {
-  "totalArticles": 56,
+  "totalArticles": 59,
   "runs": [
+    {
+      "timestamp": "2026-05-29T12:01:22.014Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 327,
+      "totalCandidates": 66,
+      "written": [
+        {
+          "title": "Is For All Mankind Canceled or Has Apple TV Renewed It for Season 6?",
+          "category": "film",
+          "source": "ComingSoon",
+          "score": 13,
+          "slug": "81d3f26b-is-for-all-mankind-canceled-or-has-apple-tv-renewed-it-for-s"
+        },
+        {
+          "title": "‘Game of Thrones’ Play ‘The Mad King’ Unveils Full Cast for Royal Shakespeare Company World Premiere",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "1398cf00-game-of-thrones-play-the-mad-king-unveils-full-cast-for-roya"
+        },
+        {
+          "title": "Why Star City Is Secretly An Origin Story For The Best Villain In For All Mankind [Exclusive]",
+          "category": "film",
+          "source": "Slash Film",
+          "score": 12,
+          "slug": "e19ed3d5-why-star-city-is-secretly-an-origin-story-for-the-best-villa"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Golden Trailer Awards: ‘Project Hail Mary’ Scores Best In Show & Leads Field; Disney Tops Studios – Full List",
+          "category": "film",
+          "source": "Deadline",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-29T11:38:11.176Z",
       "status": "success",
@@ -1141,5 +1181,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-29T11:38:11.176Z"
+  "lastUpdated": "2026-05-29T12:01:22.014Z"
 }
