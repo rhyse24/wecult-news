@@ -115,7 +115,20 @@ export function validateArticle(ai) {
   return { valid: errors.length === 0, errors };
 }
 
-export async function summarizeArticle(article, apiKey, webContext = '', groqKey = '') {
+// ── List article detection ────────────────────────────────────────────────
+const LIST_TITLE_PATTERNS = [
+  /^\d{1,2}\s+(best|top|worst|must|greatest|essential|iconic|underrated|scariest|funniest|biggest)/i,
+  /^(best|top|worst|greatest|essential)\s+\d{1,2}/i,
+  /\b\d{1,2}\s+(games?|shows?|series|movies?|films?|books?|reasons?|things?|ways?)\s+(you|to|that|worth|every|we)/i,
+  /^(the\s+)?\d{1,2}\s+(most|least|biggest|scariest|funniest|powerful|iconic)/i,
+];
+
+export function isListArticle(title) {
+  return LIST_TITLE_PATTERNS.some(p => p.test(title));
+}
+// ─────────────────────────────────────────────────────────────────────────
+
+export async function summarizeArticle(article, apiKey, webContext = '', groqKey = '', isListMode = false) {
   const voice = TONE_BY_CATEGORY[article.category] ?? 'entertainment journalist';
   const hookExample = HOOK_EXAMPLE_BY_CATEGORY[article.category] ?? '';
 
@@ -124,7 +137,51 @@ export async function summarizeArticle(article, apiKey, webContext = '', groqKey
     : 'WEB RESEARCH: None available — use your training knowledge about this topic.';
 
   // ── Step 1: English article ───────────────────────────────────────────
-  const enPrompt = `${PLATFORM_CONTEXT}
+  const listPrompt = `${PLATFORM_CONTEXT}
+
+You are a ${voice}. Rewrite this list article for WeCult News readers in an original, engaging way.
+
+═══════ SOURCE ═══════
+TITLE: ${article.title}
+SOURCE OUTLET: ${article.source_name}
+CONTENT: ${article.content.slice(0, 2000)}
+${webBlock}
+═══════════════════════
+
+RULES — ALL MANDATORY:
+
+RULE 1 — FORMAT (follow exactly):
+• 1-2 sentence intro: why this list matters NOW — no fluff, no "In today's world..."
+• 7-10 numbered items, each using this structure:
+  ## [N]. [Item Name]
+  [2-3 sentences: what it is + WHY it belongs on this list + one concrete specific detail]
+• Final line: one punchy "Bottom Line:" sentence summing up the list (no ## heading)
+• Total: 380–520 words
+
+RULE 2 — QUALITY:
+• Use items from the source — write your own fresh descriptions for each
+• Every item must have a specific reason WHY it earned its spot (not just "it's great")
+• Include at least 1 concrete detail per item (year, studio, developer, author, score, platform)
+• If source has fewer than 7 items, expand thoughtfully using web research or your knowledge
+• NEVER invent items that are clearly not related to the source topic
+
+RULE 3 — HEADLINE:
+• 8-12 words, number is prominent
+• Style: "7 Games That Defined 2026 — One of Them Will Surprise You"
+• Avoid generic: "Top 7 Games of 2026" is too flat
+
+RULE 4 — NO HALLUCINATION:
+• Only use items present in source or web research
+• NEVER fabricate release dates, scores, or cast
+
+FORMATTING:
+• ## before every item heading (## 1. Item Name)
+• \\n\\n between every item block
+
+Return ONLY this JSON — no markdown wrapper, no text before or after:
+{"title":"[List headline — number prominent, 8-12 words]","summary":"[1-2 sentence hook for card preview — what's in the list and why it matters]","ai_analysis":"[1-sentence insight for ${article.category} fans]","body":"[Full list body, ## per item, 380–520 words]","story_type":"list"}`;
+
+  const enPrompt = isListMode ? listPrompt : `${PLATFORM_CONTEXT}
 
 You are a ${voice}. Write a COMPLETE, ORIGINAL article for WeCult News readers.
 

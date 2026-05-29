@@ -4,7 +4,7 @@ import { writeFile } from 'fs/promises';
 import sharp from 'sharp';
 import { createHash } from 'crypto';
 import { fetchFeed } from './fetch.mjs';
-import { summarizeArticle, validateArticle, isTruncated, titleEntityPresent } from './summarize.mjs';
+import { summarizeArticle, validateArticle, isTruncated, titleEntityPresent, isListArticle } from './summarize.mjs';
 import { searchContext, scrapeOgImage, searchTmdbImage, searchIgdbImage, searchInlineImage, searchOpenLibraryImage } from './search.mjs';
 import { SOURCES, MAX_PER_SOURCE, MAX_TOTAL } from './sources.mjs';
 
@@ -442,9 +442,11 @@ for (const article of candidatePool) {
       if (webContext) console.log(`    [search] context found (${webContext.length} chars)`);
     }
 
+    const listMode = isListArticle(article.title);
+    if (listMode) console.log(`    [list-mode] liste makalesi tespit edildi`);
     let ai;
     try {
-      ai = await summarizeArticle(article, GEMINI_API_KEY, webContext, GROQ_API_KEY);
+      ai = await summarizeArticle(article, GEMINI_API_KEY, webContext, GROQ_API_KEY, listMode);
     } catch (geminiErr) {
       console.warn(`  [gemini-fail] ${geminiErr.message.slice(0, 80)}`);
       if (geminiErr.message.includes('429')) {
