@@ -22,8 +22,8 @@ function buildSrcSet(url: string): string | undefined {
   if (url.includes('image.tmdb.org')) {
     const w342 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w342/')
     const w500 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w500/')
-    const w780 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w780/')
-    return `${w342} 342w, ${w500} 500w, ${w780} 780w`
+    const w1280 = url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w1280/')
+    return `${w342} 342w, ${w500} 500w, ${w1280} 1280w`
   }
   return undefined
 }

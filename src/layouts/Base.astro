@@ -73,6 +73,7 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     {ogImage && <meta name="twitter:image" content={ogImage} />}
+    {ogImage && <meta name="twitter:image:alt" content={title} />}
     {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org',

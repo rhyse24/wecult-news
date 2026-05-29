@@ -43,9 +43,9 @@ function optimizeImageUrl(url: string): string {
   if (!url) return url
   // Local downloads — served from our own domain, no proxy needed
   if (url.startsWith('/article-images/')) return url
-  // TMDB: /t/p/original/ veya /t/p/w500/ → /t/p/w780/
+  // TMDB: her boyutu → w1280 (Discover 1200px şartı)
   if (url.includes('image.tmdb.org')) {
-    return url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w780/')
+    return url.replace(/\/t\/p\/[a-z0-9]+\//, '/t/p/w1280/')
   }
   // IGDB: t_thumb/t_cover_small → t_720p
   if (url.includes('images.igdb.com')) {
@@ -56,7 +56,7 @@ function optimizeImageUrl(url: string): string {
   // Unsplash: zaten optimize
   if (url.includes('unsplash.com')) return url
   // Fallback: wsrv.nl proxy (only reached if pipeline download failed)
-  return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=900&output=webp&q=80`
+  return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=1200&output=webp&q=80`
 }
 
 function normalizeArticle(raw: Record<string, unknown>): Article {
