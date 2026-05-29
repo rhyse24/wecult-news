@@ -170,6 +170,7 @@ function parseBody(body: string, isListMode = false): Block[] {
 
 const isListMode = article.article_type === 'list'
 const bodyBlocks = content?.body ? parseBody(content.body, isListMode) : []
+const listItems = isListMode ? bodyBlocks.filter(b => b.type === 'listitem') : []
 ---
 
 <Base
@@ -273,6 +274,29 @@ const bodyBlocks = content?.body ? parseBody(content.body, isListMode) : []
             </div>
           )}
 
+          <!-- TOC: list articles only, min 3 items -->
+          {isListMode && listItems.length >= 3 && (
+            <nav class="list-toc" aria-label="En esta lista">
+              <div class="list-toc-header">
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                  <line x1="1" y1="3" x2="12" y2="3"/><line x1="1" y1="6.5" x2="12" y2="6.5"/><line x1="1" y1="10" x2="12" y2="10"/>
+                </svg>
+                <span>En esta lista</span>
+                <span class="list-toc-count">{listItems.length} elementos</span>
+              </div>
+              <ol class="list-toc-items">
+                {listItems.map(item => (
+                  <li>
+                    <a href={`#item-${item.num}`} class="list-toc-link">
+                      <span class="list-toc-num">{item.num}</span>
+                      <span class="list-toc-title" set:html={item.title} />
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
+
           <AdSlot type="fluid" class="article-ad-top" />
 
           {bodyBlocks.length > 0 && (
@@ -280,7 +304,7 @@ const bodyBlocks = content?.body ? parseBody(content.body, isListMode) : []
               {bodyBlocks.map((block, i) => (
                 <>
                   {block.type === 'listitem' && (
-                    <div class="list-item-card">
+                    <div class="list-item-card" id={`item-${block.num}`}>
                       <span class="list-item-num">{block.num}</span>
                       <div class="list-item-body">
                         <h3 class="list-item-title" set:html={block.title} />
