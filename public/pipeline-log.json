@@ -1,6 +1,38 @@
 {
-  "totalArticles": 65,
+  "totalArticles": 68,
   "runs": [
+    {
+      "timestamp": "2026-05-29T21:52:56.927Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "Dutton Ranch Episode 4 Sees Beth And Rip In Full Yellowstone Mode After A Devastating Loss: 'They're A Powerhouse,' Cole Hauser Says",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "64eac3ac-dutton-ranch-episode-4-sees-beth-and-rip-in-full-yellowstone"
+        },
+        {
+          "title": "How Martin Scorsese’s Radical Self-Honesty Shaped ‘Mr. Scorsese’",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 13,
+          "slug": "ae822beb-how-martin-scorseses-radical-self-honesty-shaped-mr-scorsese"
+        },
+        {
+          "title": "Every Manga Adaptation Coming to Netflix in 2026 and Beyond",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "4e771f00-every-manga-adaptation-coming-to-netflix-in-2026-and-beyond"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-29T20:00:24.584Z",
       "status": "quota",
@@ -1340,5 +1372,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-29T20:00:24.584Z"
+  "lastUpdated": "2026-05-29T21:52:56.927Z"
 }
