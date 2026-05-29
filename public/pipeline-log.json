@@ -1,6 +1,38 @@
 {
-  "totalArticles": 50,
+  "totalArticles": 53,
   "runs": [
+    {
+      "timestamp": "2026-05-29T10:01:26.279Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 336,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Cypher removed from Valorant as powerful Spycam bug returns",
+          "category": "games",
+          "source": "Dexerto",
+          "score": 15,
+          "slug": "6fa12192-cypher-removed-from-valorant-as-powerful-spycam-bug-returns"
+        },
+        {
+          "title": "Rambo Prequel Gets Summer 2027 Release Date",
+          "category": "games",
+          "source": "IGN",
+          "score": 13,
+          "slug": "d053c39d-rambo-prequel-gets-summer-2027-release-date"
+        },
+        {
+          "title": " Acer's Predator Atlas 8 handheld gaming PC with new Intel G-series chips looks a lot like a beefier Lenovo Legion Go S  ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "615780ce-acers-predator-atlas-8-handheld-gaming-pc-with-new-intel-g-s"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-29T07:59:56.573Z",
       "status": "success",
@@ -1069,5 +1101,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-29T07:59:56.573Z"
+  "lastUpdated": "2026-05-29T10:01:26.279Z"
 }
