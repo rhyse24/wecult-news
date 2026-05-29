@@ -20,7 +20,8 @@
       "review": "Review",
       "feature": "Feature",
       "opinion": "Opinion",
-      "guide": "Guide"
+      "guide": "Guide",
+      "list": "List"
     }
   },
   "ui": {

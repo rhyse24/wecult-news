@@ -6,7 +6,7 @@ import { isBreaking, isFresh, isTrending } from '../../lib/articles'
 interface Props {
   article: Article
   lang: Lang
-  size?: 'hero' | 'featured' | 'default' | 'compact' | 'mini'
+  size?: 'hero' | 'featured' | 'default' | 'compact' | 'mini' | 'list'
   eager?: boolean
 }
 
@@ -53,7 +53,7 @@ const typeLabel: Record<string, string> = {
   feature: t(lang, 'article.type.feature'),
   opinion: t(lang, 'article.type.opinion'),
   guide:   t(lang, 'article.type.guide'),
-  list:    'List',
+  list:    t(lang, 'article.type.list'),
 }
 const typeColor: Record<string, string> = {
   news: 'var(--text-muted)', review: '#f59e0b', feature: '#818cf8', opinion: '#f472b6', guide: '#34d399', list: '#f59e0b',

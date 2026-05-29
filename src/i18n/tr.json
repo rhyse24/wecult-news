@@ -20,7 +20,8 @@
       "review": "İnceleme",
       "feature": "Özel",
       "opinion": "Yorum",
-      "guide": "Rehber"
+      "guide": "Rehber",
+      "list": "Liste"
     }
   },
   "ui": {

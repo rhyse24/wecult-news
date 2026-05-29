@@ -20,7 +20,8 @@
       "review":  "Reseña",
       "feature": "Especial",
       "opinion": "Opinión",
-      "guide":   "Guía"
+      "guide":   "Guía",
+      "list":    "Lista"
     }
   },
   "ui": {
