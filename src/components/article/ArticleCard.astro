@@ -48,18 +48,20 @@ const href = getLocalizedPath(lang, `/article/${article.slug}`)
 const label = t(lang, `nav.${article.category}`)
 
 const typeLabel: Record<string, string> = {
-  news:    t(lang, 'article.type.news'),
-  review:  t(lang, 'article.type.review'),
-  feature: t(lang, 'article.type.feature'),
-  opinion: t(lang, 'article.type.opinion'),
-  guide:   t(lang, 'article.type.guide'),
-  list:    t(lang, 'article.type.list'),
+  news:     t(lang, 'article.type.news'),
+  review:   t(lang, 'article.type.review'),
+  feature:  t(lang, 'article.type.feature'),
+  opinion:  t(lang, 'article.type.opinion'),
+  guide:    t(lang, 'article.type.guide'),
+  list:     t(lang, 'article.type.list'),
+  analysis: t(lang, 'article.type.analysis'),
 }
 const typeColor: Record<string, string> = {
-  news: 'var(--text-muted)', review: '#f59e0b', feature: '#818cf8', opinion: '#f472b6', guide: '#34d399', list: '#f59e0b',
+  news: 'var(--text-muted)', review: '#f59e0b', feature: '#818cf8', opinion: '#f472b6', guide: '#34d399', list: '#f59e0b', analysis: '#818cf8',
 }
 
-const breaking = isBreaking(article)
+const NEWS_TYPES = new Set(['news'])
+const breaking = isBreaking(article) && NEWS_TYPES.has(article.article_type)
 const fresh = isFresh(article)
 const trending = !breaking && isTrending(article)
 

@@ -21,7 +21,8 @@
       "feature": "Especial",
       "opinion": "Opinión",
       "guide":   "Guía",
-      "list":    "Lista"
+      "list":    "Lista",
+      "analysis": "Análisis"
     }
   },
   "ui": {

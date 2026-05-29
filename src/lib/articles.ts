@@ -83,7 +83,7 @@ function normalizeArticle(raw: Record<string, unknown>): Article {
     id: raw.id as string,
     slug: raw.slug as string,
     category,
-    article_type: (['news','review','feature','opinion','guide','list'].includes(raw.story_type as string) ? raw.story_type as ArticleType : 'news'),
+    article_type: (['news','review','feature','opinion','guide','list','analysis'].includes(raw.story_type as string) ? raw.story_type as ArticleType : 'news'),
     author: (raw.author as string) || 'WeCult Editorial',
     published_at: raw.published_at as string,
     cover_image: optimizeImageUrl((raw.image_url as string) || FALLBACK_IMAGES[category]),

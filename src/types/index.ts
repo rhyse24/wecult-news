@@ -2,7 +2,7 @@ export type Category = 'games' | 'film' | 'tv' | 'books'
 
 export type Lang = 'en' | 'tr' | 'es' | 'pt' | 'ja'
 
-export type ArticleType = 'news' | 'review' | 'feature' | 'opinion' | 'guide' | 'list'
+export type ArticleType = 'news' | 'review' | 'feature' | 'opinion' | 'guide' | 'list' | 'analysis'
 
 export interface Article {
   id: string

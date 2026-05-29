@@ -21,7 +21,8 @@
       "feature": "Özel",
       "opinion": "Yorum",
       "guide": "Rehber",
-      "list": "Liste"
+      "list": "Liste",
+      "analysis": "Analiz"
     }
   },
   "ui": {
