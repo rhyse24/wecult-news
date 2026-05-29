@@ -84,6 +84,6 @@ export const MAX_PER_SOURCE = 8;
 // Max candidates per category before Gemini selection
 export const MAX_PER_CATEGORY = 2;
 
-// 1 article per run — 7/24 = up to 24 articles/day
-// Gemini usage: 1 call/run × 24 = 24/day = ~2.4% of 1000 RPD free tier
-export const MAX_TOTAL = 1;
+// 3 articles per run × 12 runs/day = up to 36 articles/day
+// Gemini usage: 3 calls/run × 12 = 36/day = ~2.4% of 1500 RPD free tier
+export const MAX_TOTAL = 3;
