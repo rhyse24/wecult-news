@@ -4,7 +4,7 @@ const GROQ_MODEL                   = 'llama-3.3-70b-versatile'; // main pipeline
 export const GROQ_TRANSLATE_MODEL  = 'llama-3.1-8b-instant';   // patch step    —  6K TPM, 500K TPD
 
 // ── WeCult News Content Rules (approved 2026-05-24) ───────────────────────
-// Rule 1: EN body ≥ 450 words, TR body ≥ 300 words, ≥1 ## heading, no truncation
+// Rule 1: EN body ≥ 320 words, TR body ≥ 220 words, ES body ≥ 220 words, ≥1 ## heading, no truncation
 // Rule 2: Hook → Context → Main Story → Fan Angle → What's Next
 // Rule 3: No hallucinated quotes, dates, cast, numbers — if unknown write "yet to be announced"
 // Rule 4: TR keeps proper nouns, translates headings, natural style, ≠ EN copy
@@ -265,7 +265,7 @@ Return ONLY this JSON — no markdown wrapper, no text before or after:
       const truncated = isTruncated(body);
       const headings = countHeadings(body);
 
-      if (words < 450) {
+      if (words < 320) {
         console.warn(`  [gemini-en attempt ${attempt}] body too short: ${words} words`);
         if (attempt < 3) { await sleep(attempt * 15000); continue; }
         throw new Error('EN body too short after all attempts');
@@ -363,7 +363,7 @@ RULE 1 — LANGUAGE:
 RULE 2 — QUALITY:
 • Write natural Turkish journalism — NOT word-for-word translation
 • Use the engaging tone of Turkish entertainment media (excited but credible)
-• Body must be at least 300 words in Turkish
+• Body must be at least 220 words in Turkish — keep it concise, mobile-first
 • NEVER shorten or remove sections — translate the full article
 
 RULE 3 — FORMATTING (keep all markdown):
@@ -376,7 +376,7 @@ RULE 4 — QUOTES:
 • Add Turkish attribution context around them if helpful
 
 CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\`json, no explanation text before or after. Start your response with { and end with }.
-{"title":"[Türkçe başlık — çekici, doğal Türkçe]","summary":"[Türkçe 2 cümle özet — okuyucuyu çeken]","body":"[Türkçe makale — tüm bölümler dahil, \\\\n\\\\n ayrımlarıyla, minimum 400 kelime]"}`;
+{"title":"[Türkçe başlık — çekici, doğal Türkçe]","summary":"[Türkçe 2 cümle özet — okuyucuyu çeken]","body":"[Türkçe makale — tüm bölümler dahil, \\\\n\\\\n ayrımlarıyla, 280–380 kelime]"}`;
 
   const provider = useGroq ? 'groq-tr' : 'gemini-tr';
   for (let attempt = 1; attempt <= 3; attempt++) {
@@ -512,7 +512,7 @@ RULE 1 — LANGUAGE:
 RULE 2 — QUALITY:
 • Write natural Spanish journalism — NOT word-for-word translation
 • Use neutral Spanish understood by both Spain and Latin America
-• Body must be at least 300 words in Spanish
+• Body must be at least 220 words in Spanish — keep it concise, mobile-first
 • NEVER shorten or remove sections — translate the full article
 
 RULE 3 — FORMATTING (keep all markdown):
@@ -525,7 +525,7 @@ RULE 4 — QUOTES:
 • Add Spanish attribution context around them if helpful
 
 CRITICAL: Respond with ONLY a raw JSON object. No markdown code blocks, no \`\`\`json, no explanation text before or after. Start your response with { and end with }.
-{"title":"[Título en español — atractivo, natural]","summary":"[Resumen en español — 2 frases que enganchan al lector]","body":"[Artículo completo en español — todas las secciones incluidas, con \\\\n\\\\n entre bloques, mínimo 400 palabras]"}`;
+{"title":"[Título en español — atractivo, natural]","summary":"[Resumen en español — 2 frases que enganchan al lector]","body":"[Artículo completo en español — todas las secciones incluidas, con \\\\n\\\\n entre bloques, 280–380 palabras]"}`;
 
   const provider = useGroq ? 'groq-es' : 'gemini-es';
   for (let attempt = 1; attempt <= 3; attempt++) {
