@@ -30,6 +30,10 @@ export const SOURCES = [
   // Tier 3 — Opinion/analysis heavy
   { url: 'https://kotaku.com/rss',                                    category: 'games', name: 'Kotaku',             tier: 3 },
 
+  // Tier 2 — In-depth/technical
+  { url: 'https://feeds.arstechnica.com/arstechnica/gaming',          category: 'games', name: 'Ars Technica',       tier: 2 },
+  { url: 'https://gamingbolt.com/feed',                               category: 'games', name: 'GamingBolt',         tier: 2 },
+
   // List-focused sources
   { url: 'https://gamerant.com/feed/category/gaming/',                category: 'games', name: 'Game Rant',          tier: 2 },
   { url: 'https://www.thegamer.com/feed/',                            category: 'games', name: 'TheGamer',           tier: 2 },
@@ -46,10 +50,8 @@ export const SOURCES = [
   // Tier 2 — Standard film news
   { url: 'https://thewrap.com/category/film/feed/',                   category: 'film',  name: 'The Wrap',           tier: 2 },
   { url: 'https://www.rogerebert.com/feed',                           category: 'film',  name: 'RogerEbert',         tier: 3 },
-  { url: 'https://movieweb.com/feed/',                                category: 'film',  name: 'MovieWeb',           tier: 2 },
-  { url: 'https://www.comingsoon.net/feed',                           category: 'film',  name: 'ComingSoon',         tier: 2 },
-  { url: 'https://www.firstshowing.net/feed/',                        category: 'film',  name: 'FirstShowing',       tier: 2 },
   { url: 'https://www.slashfilm.com/feed/category/movies/',           category: 'film',  name: 'Slash Film',         tier: 2 },
+  { url: 'https://thefilmstage.com/feed/',                            category: 'film',  name: 'The Film Stage',     tier: 3 },
   { url: 'https://www.gamesradar.com/rss/film.xml',                   category: 'film',  name: 'GamesRadar Film',    tier: 2 },
   { url: 'https://collider.com/feed/category/movie/',                 category: 'film',  name: 'Collider Film',      tier: 2 },
   { url: 'https://gamerant.com/feed/category/movies/',                category: 'film',  name: 'Game Rant Film',     tier: 3 },
@@ -104,6 +106,7 @@ export const SOURCES = [
   { url: 'https://bookriot.com/feed/',                                category: 'books', name: 'Book Riot',           tier: 3 },
   { url: 'https://lithub.com/feed/',                                  category: 'books', name: 'Literary Hub',        tier: 3 },
   { url: 'https://www.tor.com/feed/',                                 category: 'books', name: 'Tor.com',             tier: 3 },
+  { url: 'https://fantasy-faction.com/feed',                          category: 'books', name: 'Fantasy Faction',     tier: 3 },
 ];
 
 // Max articles fetched per source per run
