@@ -1,6 +1,36 @@
 {
-  "totalArticles": 68,
+  "totalArticles": 69,
   "runs": [
+    {
+      "timestamp": "2026-05-29T23:15:00.019Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 264,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Gears of War E-Day, Fable, and Project Helix: What to Expect From Xbox's Games Showcase 2026",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "slug": "675cb3a0-gears-of-war-e-day-fable-and-project-helix-what-to-expect-fr"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Drift0r reveals mysterious illness that might force him to retire from making content",
+          "category": "games",
+          "source": "Dexerto",
+          "score": 17,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body ends mid-sentence",
+            "TR body too short: 209 words (need ≥220)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-29T21:52:56.927Z",
       "status": "success",
@@ -1372,5 +1402,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-29T21:52:56.927Z"
+  "lastUpdated": "2026-05-29T23:15:00.019Z"
 }
