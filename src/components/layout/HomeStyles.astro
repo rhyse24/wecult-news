@@ -78,4 +78,13 @@
   }
   @media (max-width: 1024px) { .list-articles-grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 480px)  { .list-articles-grid { grid-template-columns: 1fr; } }
+
+  /* Mobilde Lists bölümünü gizle — liste makaleleri ana akışa karışır */
+  @media (max-width: 768px) {
+    .list-section-wrap { display: none; }
+  }
+  /* Desktopda liste makaleleri ana gridde gizli — Lists bölümünde gösteriliyor */
+  @media (min-width: 769px) {
+    .story-grid .story-grid-list-item { display: none; }
+  }
 </style>
