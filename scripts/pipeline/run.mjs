@@ -512,8 +512,8 @@ for (const article of candidatePool) {
     runLog.written.push({ title: article.title, category: article.category, source: article.source_name, score: article._score, slug: filename });
     console.log(`  ✓ ${article.title.slice(0, 60)}`);
 
-    // Rate limit: 5 RPM — only sleep if we need to process more candidates
-    if (saved < MAX_TOTAL) await sleep(15000);
+    // Rate limit: 2 RPM buffer — 30s between articles keeps us well under Gemini RPM limit
+    if (saved < MAX_TOTAL) await sleep(30000);
   } catch (err) {
     console.warn(`  [skip] ${article.title.slice(0, 50)}: ${err.message}`);
     runLog.rejected.push({ title: article.title, category: article.category, source: article.source_name, score: article._score, reason: 'error', error: err.message?.slice(0, 100) });
