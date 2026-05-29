@@ -500,7 +500,7 @@ for (const article of candidatePool) {
       fetched_at: new Date().toISOString(),
       summary_en: ai.summary_en,
       ai_analysis: ai.ai_analysis,
-      story_type: listMode ? 'list' : (ai.story_type || 'other'),
+      story_type: listMode ? 'list' : (ai.story_type || 'news'),
       article_type: listMode ? 'list' : (ai.story_type || 'news'),
       translations: ai.translations,
       content_raw: article.content,

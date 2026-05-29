@@ -19,7 +19,7 @@ export const GET: APIRoute = () => {
         id:           a.id,
         slug:         a.slug,
         category:     a.category,
-        article_type: a.story_type,
+        article_type: a.article_type || a.story_type || 'news',
         source_name:  a.source_name,
         published_at: a.published_at,
         cover_image:  a.image_url
