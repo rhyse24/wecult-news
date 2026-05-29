@@ -97,6 +97,24 @@ const articleSchema = {
   isAccessibleForFree: true,
 }
 
+const itemListSchema = article.article_type === 'list' ? (() => {
+  const body = tr?.body ?? ''
+  const matches = [...body.matchAll(/^## \d+\.\s+(.+)$/gm)]
+  if (matches.length < 2) return null
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: tr?.title ?? '',
+    url: pageUrl,
+    numberOfItems: matches.length,
+    itemListElement: matches.map((m, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: m[1].trim(),
+    })),
+  }
+})() : null
+
 const summaryIsBodyDup = tr?.summary && tr?.body &&
   tr.body.slice(0, Math.min(tr.summary.length + 80, 400)).includes(tr.summary.slice(0, 60))
 const showSummary = !!(tr?.summary && !summaryIsBodyDup)
@@ -144,7 +162,7 @@ const bodyBlocks = tr?.body ? parseBody(tr.body) : []
   preloadImage={article.cover_image ?? undefined}
   canonicalUrl={pageUrl}
   hreflang={{ en: pageUrl, tr: trPageUrl, es: esPageUrl }}
-  schema={[breadcrumbSchema, articleSchema]}
+  schema={itemListSchema ? [breadcrumbSchema, articleSchema, itemListSchema] : [breadcrumbSchema, articleSchema]}
 >
 
   <!-- Scroll progress bar (category color) -->

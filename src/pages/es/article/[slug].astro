@@ -95,6 +95,24 @@ const articleSchema = {
   keywords: article.tags.join(', '),
 }
 
+const itemListSchema = article.article_type === 'list' ? (() => {
+  const body = content?.body ?? ''
+  const matches = [...body.matchAll(/^## \d+\.\s+(.+)$/gm)]
+  if (matches.length < 2) return null
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: content?.title ?? '',
+    url: pageUrl,
+    numberOfItems: matches.length,
+    itemListElement: matches.map((m, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: m[1].trim(),
+    })),
+  }
+})() : null
+
 const summaryIsBodyDup = content?.summary && content?.body &&
   content.body.slice(0, Math.min(content.summary.length + 80, 400)).includes(content.summary.slice(0, 60))
 const showSummary = !!(content?.summary && !summaryIsBodyDup)
@@ -141,7 +159,7 @@ const bodyBlocks = content?.body ? parseBody(content.body) : []
   preloadImage={article.cover_image ?? undefined}
   canonicalUrl={pageUrl}
   hreflang={{ en: enPageUrl, tr: `${siteBase}/tr/article/${article.slug}`, es: pageUrl }}
-  schema={[breadcrumbSchema, articleSchema]}
+  schema={itemListSchema ? [breadcrumbSchema, articleSchema, itemListSchema] : [breadcrumbSchema, articleSchema]}
 >
 
   <div id="scroll-progress" class="scroll-progress-bar" style={`--progress-color:${color}`}></div>
