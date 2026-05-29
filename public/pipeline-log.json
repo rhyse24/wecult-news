@@ -1,6 +1,46 @@
 {
-  "totalArticles": 53,
+  "totalArticles": 56,
   "runs": [
+    {
+      "timestamp": "2026-05-29T11:38:11.176Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 331,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "New on Netflix UK This Week: Vinnie Jones and Rafael Nadal Documentaries Plus ‘The Four Seasons’ Return",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "34ade82d-new-on-netflix-uk-this-week-vinnie-jones-and-rafael-nadal-do"
+        },
+        {
+          "title": "15 Actors Who Fumbled the Project of a Lifetime, and Never Got Back",
+          "category": "tv",
+          "source": "Den of Geek",
+          "score": 13,
+          "slug": "c011bc97-15-actors-who-fumbled-the-project-of-a-lifetime-and-never-go"
+        },
+        {
+          "title": "Only 3 Fantasy Video Games Are Better Than 'The Legend of Zelda: Ocarina of Time'",
+          "category": "tv",
+          "source": "Collider",
+          "score": 11,
+          "slug": "4887e5af-only-3-fantasy-video-games-are-better-than-the-legend-of-zel"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘The Boys’ Officially Returns in Less Than 2 Weeks",
+          "category": "tv",
+          "source": "Collider",
+          "score": 18,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-29T10:01:26.279Z",
       "status": "success",
@@ -1101,5 +1141,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-29T10:01:26.279Z"
+  "lastUpdated": "2026-05-29T11:38:11.176Z"
 }
