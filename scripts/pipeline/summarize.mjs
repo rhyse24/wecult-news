@@ -96,7 +96,7 @@ export function validateArticle(ai) {
 
   // EN checks
   const enWords = wordCount(enBody);
-  if (enWords < 450) errors.push(`EN body too short: ${enWords} words (need ≥450)`);
+  if (enWords < 320) errors.push(`EN body too short: ${enWords} words (need ≥320)`);
   const enHeadings = countHeadings(enBody);
   if (enHeadings < 1) errors.push(`EN body has no section headings (need ≥1)`);
   if (isTruncated(enBody)) errors.push('EN body contains truncation marker');
@@ -105,7 +105,7 @@ export function validateArticle(ai) {
   // TR checks (null is allowed — EN shown as fallback)
   if (trBody !== null) {
     const trWords = wordCount(trBody);
-    if (trWords < 300) errors.push(`TR body too short: ${trWords} words (need ≥300)`);
+    if (trWords < 220) errors.push(`TR body too short: ${trWords} words (need ≥220)`);
     if (trTitle && trTitle === enTitle) errors.push('TR title is identical to EN title (not translated)');
     if (trBody.slice(0, 120).toLowerCase() === enBody.slice(0, 120).toLowerCase()) {
       errors.push('TR body appears to be EN copy (first 120 chars identical)');
@@ -141,26 +141,23 @@ ${webBlock}
 CONTENT RULES (WeCult Editorial Standard — ALL are mandatory):
 
 RULE 1 — MINIMUMS:
-• Body must be 500–800 words (NEVER fewer than 450)
-• Include at least 3 paragraphs and at least 2 ## section headings
+• Body must be 380–520 words — mobile readers won't finish longer articles
+• Include at least 2 paragraphs and at least 2 ## section headings
 • Every sentence must be complete — NEVER end with "[...]", "Read more", "…" or mid-thought
 
-RULE 2 — STRUCTURE (follow this exact order):
-[Hook: 2–3 vivid, specific sentences — grab the reader immediately]
+RULE 2 — STRUCTURE (3 sections, follow this exact order):
+[Hook: 1–2 punchy sentences — grab the reader immediately, no fluff]
 Example of a good hook: ${hookExample}
 
 ## [Section title specific to this story — NOT "Introduction"]
-[2 paragraphs: background context fans need to understand the story — franchise history, who the person is, why this outlet matters]
-
-## [Section title specific to this story — NOT "Main Story"]
-[2–3 paragraphs: what actually happened — key details, timeline, who said/did what]
+[1–2 paragraphs: what happened + essential background — only what the reader needs to know]
 [> "Direct quote if available" — Person Name]
 
 ## [Fan or community angle — e.g. "What Fans Are Saying" or specific to story]
-[1–2 paragraphs: why this resonates with fans, community reaction, stakes]
+[1 paragraph: why this matters to fans, stakes, community reaction]
 
 ## What's Next
-[1 closing paragraph: upcoming dates, what to watch for, forward-looking angle]
+[1 short paragraph: upcoming dates, what to watch for — keep it tight]
 
 RULE 3 — NO HALLUCINATION:
 • NEVER invent quotes — only use quotes clearly present in source material or web research
@@ -210,7 +207,7 @@ FORMATTING (mandatory):
 • > "Quote" — Person Name format for all direct quotes
 
 Return ONLY this JSON — no markdown wrapper, no text before or after:
-{"title":"[Engaging headline — specific, not clickbait, not the RSS title verbatim]","summary":"[2-sentence hook for article previews — compelling and specific]","ai_analysis":"[1-sentence insight tailored for ${article.category} fans]","body":"[Full article body — all sections with \\\\n\\\\n between blocks, 700–900 words]","story_type":"[one of: breaking | exclusive | rumor | analysis | release | event | other]"}`;
+{"title":"[Engaging headline — specific, not clickbait, not the RSS title verbatim]","summary":"[2-sentence hook for article previews — compelling and specific]","ai_analysis":"[1-sentence insight tailored for ${article.category} fans]","body":"[Full article body — all sections with \\\\n\\\\n between blocks, 380–520 words]","story_type":"[one of: breaking | exclusive | rumor | analysis | release | event | other]"}`;
 
   let enData = null;
   for (let attempt = 1; attempt <= 3; attempt++) {
