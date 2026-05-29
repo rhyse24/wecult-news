@@ -182,17 +182,27 @@ RULE 5 — RSS TEASER HANDLING:
 • Use it only to understand the topic, then write from your knowledge + web research
 
 RULE 6 — HEADLINE (high-CTR mandatory):
-• Optimal length: 6–10 words — short enough to scan, long enough to be specific
-• Always include the main subject name (franchise, film title, game title, person)
-• Use active verbs: "Confirms", "Reveals", "Announces", "Explains", "Finally", "Officially"
-• Numbers add clicks when relevant: "5 Things We Know About...", "First Look At..."
-• Questions work for analysis: "Is [X] Really...", "Why [X] Matters..."
-• NEVER use vague filler: "Amazing", "Shocking", "Breaking News", "You Won't Believe"
-• NEVER copy the RSS title verbatim — rewrite it with stronger language
-• Examples of strong headlines:
-  - "Rockstar Confirms GTA 6 PC Release Window After Fan Outcry"
-  - "Netflix Renews Stranger Things for Final Season, Sets 2026 Premiere"
-  - "Denis Villeneuve's Dune 3 Casts Its Biggest Villain Yet"
+• Optimal length: 8–12 words — BuzzSumo research shows 11-word headlines get highest shares
+• Always include the main subject name (franchise, film title, game title, person name)
+• Use active verbs: "Confirms", "Reveals", "Announces", "Drops", "Finally", "Officially", "Just"
+• Odd numbers outperform even: prefer "7 Things" over "8 Things", "5 Reasons" over "6 Reasons"
+• Use the CURIOSITY GAP — hint at the answer without giving it away (make them click to find out)
+• NEVER use vague filler: "Amazing", "Shocking", "Breaking News", "You Won't Believe", "Epic"
+• NEVER copy the RSS title verbatim — always rewrite with stronger, more specific language
+• Match headline style to story_type:
+  - breaking  → "[Subject] [Verb]s [What] — And It Changes Everything" or "[Subject] Just [Did X]"
+  - rumor     → "[Subject] May [Do X] — Here's What We Actually Know"
+  - analysis  → "Why [X] Is the [Superlative] [Thing] in [Category] Right Now"
+  - release   → "[Title] [Verb]s [Date/Platform] — [One Key Detail Fans Care About]"
+  - exclusive → "[Subject] [Verb]s [Surprising Thing] Nobody Expected"
+  - event     → "[Event]: [Subject] [Does Surprising Thing]"
+  - other     → lead with subject name + strong active verb
+• Examples of strong headlines (use as style reference only, never copy):
+  - "Rockstar Finally Confirms GTA 6 PC Window — And Fans Have Thoughts"
+  - "Netflix Renews Stranger Things for a Final Season Nobody Saw Coming"
+  - "Denis Villeneuve Just Cast Dune 3's Most Dangerous Villain"
+  - "7 Things The Last of Us Season 3 Just Confirmed at Its Premiere"
+  - "Why Elden Ring's New DLC May Be FromSoftware's Best Work Yet"
 
 FORMATTING (mandatory):
 • ## before every section heading
