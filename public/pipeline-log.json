@@ -2,6 +2,31 @@
   "totalArticles": 74,
   "runs": [
     {
+      "timestamp": "2026-05-30T04:00:24.750Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 253,
+      "totalCandidates": 35,
+      "written": [],
+      "rejected": [
+        {
+          "title": "3 Best Binge-Worthy Series to Watch on Prime Video This Weekend",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘Backrooms’ Director Kane Parsons Explains It All: Breaking Down Liminal Spaces, Why He Was Nervous His Work Might Get ‘Butchered by Suits’ and What Sequels Might Look Like",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-05-30T03:37:09.138Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1493,5 +1518,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-30T03:37:09.138Z"
+  "lastUpdated": "2026-05-30T04:00:24.750Z"
 }
