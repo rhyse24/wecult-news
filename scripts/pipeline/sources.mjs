@@ -92,6 +92,13 @@ export const SOURCES = [
   // List-focused sources
   { url: 'https://www.whattowatch.com/feeds.xml',                     category: 'tv',    name: 'What to Watch',      tier: 2 },
 
+  // ── Anime ─────────────────────────────────────────────────────────────
+  { url: 'https://www.animenewsnetwork.com/news/rss.xml',             category: 'tv',    name: 'Anime News Network', tier: 1 },
+  { url: 'https://www.crunchyroll.com/feed',                          category: 'tv',    name: 'Crunchyroll',        tier: 1 },
+  { url: 'https://comicbook.com/anime/rss/',                          category: 'tv',    name: 'ComicBook Anime',    tier: 2 },
+  { url: 'https://www.cbr.com/category/anime/feed/',                  category: 'tv',    name: 'CBR Anime',          tier: 2 },
+  { url: 'https://screenrant.com/category/anime/feed/',               category: 'tv',    name: 'Screen Rant Anime',  tier: 3 },
+
   // ── Books ─────────────────────────────────────────────────────────────
   // Tier 1 — Trade publications
   { url: 'https://electricliterature.com/feed/',                      category: 'books', name: 'Electric Literature', tier: 2 },
