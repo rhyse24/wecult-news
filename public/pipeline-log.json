@@ -1,6 +1,39 @@
 {
-  "totalArticles": 92,
+  "totalArticles": 94,
   "runs": [
+    {
+      "timestamp": "2026-05-30T17:08:59.216Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 232,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": " The remarkable story of Unreal 2, the sequel rescued from development hell by dooming it to failure: 'There was just no way we could succeed' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 16,
+          "slug": "e90897ed-the-remarkable-story-of-unreal-2-the-sequel-rescued-from-dev"
+        },
+        {
+          "title": "Call of Duty: Modern Warfare 4 Devs Say 'Keep the Receipts' Amid Commitment to Grounded Skins",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "e2a4e5e3-call-of-duty-modern-warfare-4-devs-say-keep-the-receipts-ami"
+        }
+      ],
+      "rejected": [
+        {
+          "title": " A toast to the wild west weirdos of the MMO goldrush—from the game that unleashed pandora's lootbox, to a deeply strange mess based off a 1996 science fiction novel ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 16,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-30T16:00:59.140Z",
       "status": "quota",
@@ -1659,17 +1692,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-26T00:00:59.791Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 224,
-      "totalCandidates": 6,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-30T16:00:59.140Z"
+  "lastUpdated": "2026-05-30T17:08:59.216Z"
 }
