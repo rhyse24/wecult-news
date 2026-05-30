@@ -1,6 +1,46 @@
 {
-  "totalArticles": 90,
+  "totalArticles": 92,
   "runs": [
+    {
+      "timestamp": "2026-05-30T16:00:59.140Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 230,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Hannah Waddingham on ‘Wicked’s’ Madame Morrible Rumors, Her New Action Series ‘Ride or Die’ and Stepping Back Into Rebecca’s Stilettos in ‘Ted Lasso’: ‘I Am Blessed’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "8d0885e4-hannah-waddingham-on-wickeds-madame-morrible-rumors-her-new-"
+        },
+        {
+          "title": "Marcia Lucas Dies: ‘Star Wars’ Editor & Ex-Wife of George Lucas Was 80",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 10,
+          "slug": "b50dc99c-marcia-lucas-dies-star-wars-editor-ex-wife-of-george-lucas-w"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Dutton Ranch’ Episode 4: Rip Shoots Dozens of Cows, Beth Catches Carter Hooking Up With Beulah’s Granddaughter and We Meet Creepy Dwight",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Strip Law’ Canceled at Netflix; Won’t Return For Season 2 As Creator Shares Series Finale Secrets",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-30T15:10:05.853Z",
       "status": "quota",
@@ -1629,17 +1669,7 @@
       "totalCandidates": 6,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-25T23:00:59.474Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 228,
-      "totalCandidates": 6,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-30T15:10:05.853Z"
+  "lastUpdated": "2026-05-30T16:00:59.140Z"
 }
