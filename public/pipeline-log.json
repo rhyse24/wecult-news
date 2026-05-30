@@ -1,6 +1,60 @@
 {
-  "totalArticles": 83,
+  "totalArticles": 86,
   "runs": [
+    {
+      "timestamp": "2026-05-30T12:00:55.064Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 242,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "The Boys Series Finale Nailed Every Character's Ending",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "slug": "dfa54ffb-the-boys-series-finale-nailed-every-characters-ending"
+        },
+        {
+          "title": "Everybody Loves Grogu: How ‘Star Wars’ Artisans Brought the ‘Rascally’ Baby Yoda To Life ",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "5861716a-everybody-loves-grogu-how-star-wars-artisans-brought-the-ras"
+        },
+        {
+          "title": "‘Toy Story’ or Tay Story? Easter Eggs in New ‘TS’ Billboard Campaign Heighten Fans’ Belief That Taylor Swift Is Involved in Pixar Sequel",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "2c42c517-toy-story-or-tay-story-easter-eggs-in-new-ts-billboard-campa"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Backrooms’ Director Kane Parsons Explains It All: Breaking Down Liminal Spaces, Why He Was Nervous His Work Might Get ‘Butchered by Suits’ and What Sequels Might Look Like",
+          "category": "film",
+          "source": "Variety",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Marcia Lucas, Oscar-Winning ‘Star Wars’ Editor, Dies at 80",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "John Travolta on Taking Lessons From Quentin Tarantino and Mike Nichols for Directorial Debut",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-30T10:00:56.989Z",
       "status": "success",
@@ -1555,25 +1609,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-25T19:48:50.515Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 229,
-      "totalCandidates": 6,
-      "written": [
-        {
-          "title": "Perfect 'Toy Story 5' Casting Confirms Bullseye Speaks in Disney/Pixar Sequel",
-          "category": "film",
-          "source": "MovieWeb",
-          "score": 8,
-          "slug": "8edb8d0e-perfect-toy-story-5-casting-confirms-bullseye-speaks-in-disn"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-30T10:00:56.989Z"
+  "lastUpdated": "2026-05-30T12:00:55.064Z"
 }
