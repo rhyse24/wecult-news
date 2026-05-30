@@ -2,6 +2,16 @@
   "totalArticles": 97,
   "runs": [
     {
+      "timestamp": "2026-05-30T20:00:58.023Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 222,
+      "totalCandidates": 15,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-05-30T19:19:47.022Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1689,17 +1699,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-26T06:00:56.265Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 238,
-      "totalCandidates": 49,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-30T19:19:47.022Z"
+  "lastUpdated": "2026-05-30T20:00:58.023Z"
 }
