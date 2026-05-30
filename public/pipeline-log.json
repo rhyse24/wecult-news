@@ -1,6 +1,56 @@
 {
-  "totalArticles": 80,
+  "totalArticles": 83,
   "runs": [
+    {
+      "timestamp": "2026-05-30T10:00:56.989Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 245,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "For All Mankind Finale: EPs Explain The 'Difficult' Choice To Kill Off [Spoiler] — Plus, More On That Time Jump Mystery",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "3375f315-for-all-mankind-finale-eps-explain-the-difficult-choice-to-k"
+        },
+        {
+          "title": "5 Best True Crime Shows Of 2026 (So Far)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "892850bc-5-best-true-crime-shows-of-2026-so-far"
+        },
+        {
+          "title": "‘Wednesday,’ ‘Beef’ and ‘Stranger Things’ Artisans Reveal the Essential Tools They Need to Do Their Jobs",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "4b4b2273-wednesday-beef-and-stranger-things-artisans-reveal-the-essen"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Dutton Ranch’ Episode 4: Rip Shoots Dozens of Cows, Beth Catches Carter Hooking Up With Beulah’s Granddaughter and We Meet Creepy Dwight",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Stranger Things’ Star Nell Fisher Leads 5 New Cast Additions for Netflix’s ‘The God of the Woods’ Adaptation",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-30T08:00:23.561Z",
       "status": "success",
@@ -1523,25 +1573,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-25T19:45:15.262Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 231,
-      "totalCandidates": 6,
-      "written": [
-        {
-          "title": "Netflix Brazil Unveils Its First Medical Series, Plus an Evangelical Special, a Third Melodrama and an Open Marriage Comedy (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "c1983070-netflix-brazil-unveils-its-first-medical-series-plus-an-evan"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-30T08:00:23.561Z"
+  "lastUpdated": "2026-05-30T10:00:56.989Z"
 }
