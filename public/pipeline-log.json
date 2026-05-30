@@ -1,6 +1,46 @@
 {
-  "totalArticles": 86,
+  "totalArticles": 88,
   "runs": [
+    {
+      "timestamp": "2026-05-30T13:43:24.305Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 236,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Pokemon reportedly bans graded slabs from official events in major scalper crackdown",
+          "category": "games",
+          "source": "Dexerto",
+          "score": 15,
+          "slug": "3018ba91-pokemon-reportedly-bans-graded-slabs-from-official-events-in"
+        },
+        {
+          "title": " Pragmata's developers take all your comparisons to Xbox 360 shooters as a 'huge compliment', though I'm not convinced by their theory for why players are making the connection ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "d22f2b7c-pragmatas-developers-take-all-your-comparisons-to-xbox-360-s"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Talking Point: What Are You Playing This Weekend? (30th May)",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 14,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "New Xbox Boss Says Decision to Continue to Show PS5 Logos During Its Xbox Games Showcase 'Was a Miss, and I Own It'",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-30T12:00:55.064Z",
       "status": "success",
@@ -1591,25 +1631,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-25T20:00:57.676Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 232,
-      "totalCandidates": 6,
-      "written": [
-        {
-          "title": "HBO’s New ‘Harry Potter’ Trailer Is Already Fixing a Major Problem From the Original Movies",
-          "category": "tv",
-          "source": "Collider",
-          "score": 19,
-          "slug": "7787c936-hbos-new-harry-potter-trailer-is-already-fixing-a-major-prob"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-30T12:00:55.064Z"
+  "lastUpdated": "2026-05-30T13:43:24.305Z"
 }
