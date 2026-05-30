@@ -1,6 +1,24 @@
 {
-  "totalArticles": 89,
+  "totalArticles": 90,
   "runs": [
+    {
+      "timestamp": "2026-05-30T15:10:05.853Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 232,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "10 Video Games That Are Perfect From Start to Finish",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "slug": "cee60c79-10-video-games-that-are-perfect-from-start-to-finish"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-30T14:00:56.822Z",
       "status": "quota",
@@ -1621,25 +1639,7 @@
       "totalCandidates": 6,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-25T22:00:57.582Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 235,
-      "totalCandidates": 6,
-      "written": [
-        {
-          "title": "Masters of the Universe Lead Reveals How Hugh Jackman Helped With He-Man",
-          "category": "film",
-          "source": "ComingSoon",
-          "score": 18,
-          "slug": "c3b6f633-masters-of-the-universe-lead-reveals-how-hugh-jackman-helped"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-30T14:00:56.822Z"
+  "lastUpdated": "2026-05-30T15:10:05.853Z"
 }
