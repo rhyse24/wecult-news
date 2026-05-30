@@ -1,6 +1,38 @@
 {
-  "totalArticles": 77,
+  "totalArticles": 80,
   "runs": [
+    {
+      "timestamp": "2026-05-30T08:00:23.561Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 249,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Drift0r reveals mysterious illness that might force him to retire from making content",
+          "category": "games",
+          "source": "Dexerto",
+          "score": 15,
+          "slug": "f10214f0-drift0r-reveals-mysterious-illness-that-might-force-him-to-r"
+        },
+        {
+          "title": "Fable PS5 Delayed, Moved Away from GTA 6 for the 'Dedicated Moment It Deserves'",
+          "category": "games",
+          "source": "Push Square",
+          "score": 14,
+          "slug": "6884a2e1-fable-ps5-delayed-moved-away-from-gta-6-for-the-dedicated-mo"
+        },
+        {
+          "title": "2026 video game release date calendar",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 13,
+          "slug": "ee9c940b-2026-video-game-release-date-calendar"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-30T06:47:40.617Z",
       "status": "quota",
@@ -1509,25 +1541,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-25T16:56:35.973Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 222,
-      "totalCandidates": 6,
-      "written": [
-        {
-          "title": "How to Watch the 2026 American Music Awards Live Online",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "66670766-how-to-watch-the-2026-american-music-awards-live-online"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-30T06:47:40.617Z"
+  "lastUpdated": "2026-05-30T08:00:23.561Z"
 }
