@@ -1,6 +1,39 @@
 {
-  "totalArticles": 69,
+  "totalArticles": 70,
   "runs": [
+    {
+      "timestamp": "2026-05-30T00:00:22.218Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 254,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Backrooms Is the First Horror Movie of the AI Era",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 17,
+          "slug": "48827728-backrooms-is-the-first-horror-movie-of-the-ai-era"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Backrooms’ Director Kane Parsons Explains It All: Breaking Down Liminal Spaces, Why He Was Nervous His Work Might Get ‘Butchered by Suits’ and What Sequels Might Look Like",
+          "category": "film",
+          "source": "Variety",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "John Travolta on Taking Lessons From Quentin Tarantino and Mike Nichols for Directorial Debut",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-29T23:15:00.019Z",
       "status": "quota",
@@ -1402,5 +1435,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-29T23:15:00.019Z"
+  "lastUpdated": "2026-05-30T00:00:22.218Z"
 }
