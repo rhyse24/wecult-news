@@ -1,6 +1,32 @@
 {
-  "totalArticles": 70,
+  "totalArticles": 71,
   "runs": [
+    {
+      "timestamp": "2026-05-30T02:00:20.907Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 261,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "Casting News: Sarah Snook Leads The Birds Remake, More Baywatch Alums Join Fox's Reboot, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "9eb34c57-casting-news-sarah-snook-leads-the-birds-remake-more-baywatc"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Dutton Ranch’ Episode 4: Rip Shoots Dozens of Cows, Beth Catches Carter Hooking Up With Beulah’s Granddaughter and We Meet Creepy Dwight",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-30T00:00:22.218Z",
       "status": "quota",
@@ -1435,5 +1461,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-30T00:00:22.218Z"
+  "lastUpdated": "2026-05-30T02:00:20.907Z"
 }
