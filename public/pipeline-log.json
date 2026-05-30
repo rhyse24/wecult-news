@@ -1,6 +1,38 @@
 {
-  "totalArticles": 71,
+  "totalArticles": 74,
   "runs": [
+    {
+      "timestamp": "2026-05-30T03:37:09.138Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 260,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Power and Responsibility With Bullets and Booze — Spider-Noir Season One Is a Superb Pulp Adventure",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 17,
+          "slug": "8821f04f-power-and-responsibility-with-bullets-and-booze-spider-noir-"
+        },
+        {
+          "title": "What to Watch and Read This Weekend: Chase the Minimalist Backrooms With These Maximalist Genre Movies",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "0ab10fd4-what-to-watch-and-read-this-weekend-chase-the-minimalist-bac"
+        },
+        {
+          "title": "Backrooms Is the Best Nightmare You’ll Ever Have",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "e5a9ef4c-backrooms-is-the-best-nightmare-youll-ever-have"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-30T02:00:20.907Z",
       "status": "quota",
@@ -1461,5 +1493,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-30T02:00:20.907Z"
+  "lastUpdated": "2026-05-30T03:37:09.138Z"
 }
