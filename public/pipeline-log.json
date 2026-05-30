@@ -1,6 +1,31 @@
 {
-  "totalArticles": 95,
+  "totalArticles": 97,
   "runs": [
+    {
+      "timestamp": "2026-05-30T19:19:47.022Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 226,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "Before Off Campus, Mika Abdalla Had A Recurring Role On The Pitt",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "39a44823-before-off-campus-mika-abdalla-had-a-recurring-role-on-the-p"
+        },
+        {
+          "title": "Why Scrubs Creator Bill Lawrence Used To Be Against The Idea Of A Revival",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "b28e7c96-why-scrubs-creator-bill-lawrence-used-to-be-against-the-idea"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-30T18:00:58.193Z",
       "status": "quota",
@@ -1674,33 +1699,7 @@
       "totalCandidates": 49,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-26T04:00:54.236Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 238,
-      "totalCandidates": 77,
-      "written": [
-        {
-          "title": "Star Wars Box Office Rebound: ‘The Mandalorian and Grogu’ Makes Major Gains With 100M-Plus Domestic Opening",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 17,
-          "slug": "18c48250-star-wars-box-office-rebound-the-mandalorian-and-grogu-makes"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Why Breaking Bad Deserves Credit for Nicolas Cage’s Spider-Noir",
-          "category": "film",
-          "source": "ComingSoon",
-          "score": 18,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-05-30T18:00:58.193Z"
+  "lastUpdated": "2026-05-30T19:19:47.022Z"
 }
