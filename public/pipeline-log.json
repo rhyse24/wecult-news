@@ -1,6 +1,42 @@
 {
-  "totalArticles": 120,
+  "totalArticles": 122,
   "runs": [
+    {
+      "timestamp": "2026-05-31T13:48:51.893Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 176,
+      "totalCandidates": 69,
+      "written": [
+        {
+          "title": " This fan remake of 1999's Medal of Honor proved so popular that its creator added a level cut from the original game ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 18,
+          "slug": "ffe4454c-this-fan-remake-of-1999s-medal-of-honor-proved-so-popular-th"
+        },
+        {
+          "title": "GTA 6 Channel Created On Rockstar's Official Discord",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 12,
+          "slug": "08b878b8-gta-6-channel-created-on-rockstars-official-discord"
+        }
+      ],
+      "rejected": [
+        {
+          "title": " Mass Effect and Metal Gear actor Jennifer Hale calls on studios to take responsibility for their AI use: 'Ain't nobody making you do it' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-31T12:01:12.968Z",
       "status": "quota",
@@ -1836,25 +1872,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-27T09:56:14.003Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 316,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "Ey! Toy Story 5  Features Bad Bunny as Pizza & Alan Cumming as Evil Bullseye",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "50e2e55b-ey-toy-story-5-features-bad-bunny-as-pizza-alan-cumming-as-e"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T12:01:12.968Z"
+  "lastUpdated": "2026-05-31T13:48:51.893Z"
 }
