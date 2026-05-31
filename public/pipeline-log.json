@@ -1,6 +1,38 @@
 {
-  "totalArticles": 99,
+  "totalArticles": 102,
   "runs": [
+    {
+      "timestamp": "2026-05-31T00:00:57.432Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 213,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Only 3 Fantasy Movies Have Better Visual Effects Than The Lord of the Rings",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "slug": "078e3d0a-only-3-fantasy-movies-have-better-visual-effects-than-the-lo"
+        },
+        {
+          "title": "‘Minecraft’ Sequel Gets New Title: ‘A Minecraft Movie Squared’",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "63aae6be-minecraft-sequel-gets-new-title-a-minecraft-movie-squared"
+        },
+        {
+          "title": "Emily Blunt Says She’s “Terrified” of AI, Chose Not to Use It in Steven Spielberg’s ‘Disclosure Day’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "cdf95c08-emily-blunt-says-shes-terrified-of-ai-chose-not-to-use-it-in"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-30T22:59:13.341Z",
       "status": "quota",
@@ -1672,25 +1704,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-26T16:01:02.577Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 301,
-      "totalCandidates": 59,
-      "written": [
-        {
-          "title": "The Mandalorian and Grogu Box Office Confirms New Reality for Star Wars (and It’s Not Bad)",
-          "category": "tv",
-          "source": "Den of Geek",
-          "score": 20,
-          "slug": "7a82b6e8-the-mandalorian-and-grogu-box-office-confirms-new-reality-fo"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-30T22:59:13.341Z"
+  "lastUpdated": "2026-05-31T00:00:57.432Z"
 }
