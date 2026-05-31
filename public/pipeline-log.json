@@ -1,6 +1,24 @@
 {
-  "totalArticles": 132,
+  "totalArticles": 133,
   "runs": [
+    {
+      "timestamp": "2026-05-31T21:01:59.204Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 158,
+      "totalCandidates": 67,
+      "written": [
+        {
+          "title": " There's one game Don't Nod narrative designer Nina Freeman won't ever uninstall from her PC, because it's banned on Steam: 'It's tragic, because everyone should play this game' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 18,
+          "slug": "fc831595-theres-one-game-dont-nod-narrative-designer-nina-freeman-won"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-31T20:01:03.531Z",
       "status": "quota",
@@ -1922,25 +1940,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-27T22:00:50.589Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 319,
-      "totalCandidates": 79,
-      "written": [
-        {
-          "title": "Disclosure Day Trailer Review: Steven Spielberg’s New Movie is an Alien Spectacle",
-          "category": "film",
-          "source": "ComingSoon",
-          "score": 20,
-          "slug": "7e78f2d5-disclosure-day-trailer-review-steven-spielbergs-new-movie-is"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T20:01:03.531Z"
+  "lastUpdated": "2026-05-31T21:01:59.204Z"
 }
