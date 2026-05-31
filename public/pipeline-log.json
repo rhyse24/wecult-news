@@ -2,6 +2,24 @@
   "totalArticles": 129,
   "runs": [
     {
+      "timestamp": "2026-05-31T18:01:13.789Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 158,
+      "totalCandidates": 17,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-05-31T17:08:43.657Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1890,25 +1908,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-27T18:00:54.533Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 318,
-      "totalCandidates": 120,
-      "written": [
-        {
-          "title": "Dragon Quest 12 Development Restarted From Scratch After “A Lot Of Hurdles”",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 17,
-          "slug": "dcb097dc-dragon-quest-12-development-restarted-from-scratch-after-a-l"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T17:08:43.657Z"
+  "lastUpdated": "2026-05-31T18:01:13.789Z"
 }
