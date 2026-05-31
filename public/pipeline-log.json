@@ -1,6 +1,24 @@
 {
-  "totalArticles": 119,
+  "totalArticles": 120,
   "runs": [
+    {
+      "timestamp": "2026-05-31T12:01:12.968Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 179,
+      "totalCandidates": 22,
+      "written": [
+        {
+          "title": "What To Watch Sunday: The Audacity And Euphoria Wrap, Eddie Murphy Tribute, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "bb42dab4-what-to-watch-sunday-the-audacity-and-euphoria-wrap-eddie-mu"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-31T11:41:37.929Z",
       "status": "success",
@@ -1836,25 +1854,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-27T08:00:51.172Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 316,
-      "totalCandidates": 65,
-      "written": [
-        {
-          "title": "Disney+’s $40M Action Fantasy Series Is Aging Like Fine Wine",
-          "category": "tv",
-          "source": "Collider",
-          "score": 13,
-          "slug": "1435e35c-disneys-40m-action-fantasy-series-is-aging-like-fine-wine"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T11:41:37.929Z"
+  "lastUpdated": "2026-05-31T12:01:12.968Z"
 }
