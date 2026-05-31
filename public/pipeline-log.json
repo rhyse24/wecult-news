@@ -2,6 +2,24 @@
   "totalArticles": 122,
   "runs": [
     {
+      "timestamp": "2026-05-31T14:01:18.512Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 175,
+      "totalCandidates": 19,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-05-31T13:48:51.893Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1854,25 +1872,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-27T12:55:22.887Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 314,
-      "totalCandidates": 83,
-      "written": [
-        {
-          "title": "Enola Holmes 3 Teaser Trailer Sets Millie Bobby Brown’s Post-Stranger Things Netflix Return",
-          "category": "film",
-          "source": "ComingSoon",
-          "score": 15,
-          "slug": "9be27b71-enola-holmes-3-teaser-trailer-sets-millie-bobby-browns-post-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T13:48:51.893Z"
+  "lastUpdated": "2026-05-31T14:01:18.512Z"
 }
