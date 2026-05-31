@@ -1,6 +1,77 @@
 {
-  "totalArticles": 116,
+  "totalArticles": 119,
   "runs": [
+    {
+      "timestamp": "2026-05-31T11:41:37.929Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 181,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "Kelly Curtis, ‘The Sentinel’ Actress and Sister of Jamie Lee Curtis, Dies at 69",
+          "category": "film",
+          "source": "Variety",
+          "score": 6,
+          "slug": "aa0d3dc2-kelly-curtis-the-sentinel-actress-and-sister-of-jamie-lee-cu"
+        },
+        {
+          "title": "Jason Blum and James Wan Open Produced By Conference Comparing the Low-Budget Horror Boom to ‘Edgy Movies’ With a ’70s Vibe",
+          "category": "film",
+          "source": "Variety",
+          "score": 6,
+          "slug": "8c536f11-jason-blum-and-james-wan-open-produced-by-conference-compari"
+        },
+        {
+          "title": "Home Entertainment Guide May 2026: The Bride!, Wuthering Heights, Sentimental Value, More",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 6,
+          "slug": "90b986c8-home-entertainment-guide-may-2026-the-bride-wuthering-height"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Box Office: ‘Backrooms’ Scares Up $38 Million on Friday, Already Shattering Record for A24’s Best Opening Weekend",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Marcia Lucas, Oscar-Winning Editor Behind ‘Star Wars,’ Dies at 80",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘A Minecraft Movie’ Sequel Gets New Title",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "20 Best Science Fiction Movies Released Since 2000",
+          "category": "film",
+          "source": "WhatCulture Film",
+          "score": 7,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 811 words (max 580)"
+          ]
+        },
+        {
+          "title": "“For All Mankind” Spinoff “Star City” is One Small Soviet Step Backward",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 6,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-31T10:01:15.198Z",
       "status": "success",
@@ -1783,25 +1854,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-27T06:01:06.365Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 315,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "Everything We Know About ‘The Boys’ Prequel Series ‘Vought Rising’ So Far",
-          "category": "film",
-          "source": "Deadline",
-          "score": 15,
-          "slug": "4c3c43ab-everything-we-know-about-the-boys-prequel-series-vought-risi"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T10:01:15.198Z"
+  "lastUpdated": "2026-05-31T11:41:37.929Z"
 }
