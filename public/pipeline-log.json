@@ -1,6 +1,67 @@
 {
-  "totalArticles": 129,
+  "totalArticles": 132,
   "runs": [
+    {
+      "timestamp": "2026-05-31T19:20:21.689Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 161,
+      "totalCandidates": 17,
+      "written": [
+        {
+          "title": "‘Backrooms’ Director Kane Parsons Is Youngest Filmmaker Ever to Hit No. 1, Curry Barker’s ‘Obsession’ Makes 3rd Weekend History",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 9,
+          "slug": "6e31ae43-backrooms-director-kane-parsons-is-youngest-filmmaker-ever-t"
+        },
+        {
+          "title": "The Best Way To Make A Post-Hugh Jackman Wolverine Work In The MCU Has Already Been Proven",
+          "category": "film",
+          "source": "Looper",
+          "score": 9,
+          "slug": "523eb671-the-best-way-to-make-a-post-hugh-jackman-wolverine-work-in-t"
+        },
+        {
+          "title": "What's the Greatest Animated Movie of All Time? Surely It's One of These 10 Films",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 6,
+          "slug": "e59f6d3f-whats-the-greatest-animated-movie-of-all-time-surely-its-one"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Most Meticulously Constructed Thrillers of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "Marcia Lucas, Oscar-Winning Editor Behind ‘Star Wars,’ Dies at 80",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘A Minecraft Movie’ Sequel Gets New Title",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 7,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-31T18:01:13.789Z",
       "status": "quota",
@@ -1890,25 +1951,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-27T20:00:52.035Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 316,
-      "totalCandidates": 58,
-      "written": [
-        {
-          "title": "Nicolas Cage on Finally Playing a Superhero That Matches His Freak in ‘Spider-Noir,’ How Watching ‘Breaking Bad’ Led Him to TV and Whether He’s Doing Season 5 of ‘True Detective’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 19,
-          "slug": "eec253aa-nicolas-cage-on-finally-playing-a-superhero-that-matches-his"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T18:01:13.789Z"
+  "lastUpdated": "2026-05-31T19:20:21.689Z"
 }
