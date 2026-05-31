@@ -1,6 +1,39 @@
 {
-  "totalArticles": 133,
+  "totalArticles": 134,
   "runs": [
+    {
+      "timestamp": "2026-05-31T22:01:02.211Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 156,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "Alexa Demie, Euphoria’s Most Elusive ‘It’ Girl, Is Finally Ready to Talk",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 14,
+          "slug": "d0734469-alexa-demie-euphorias-most-elusive-it-girl-is-finally-ready-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘The Way Home’ to Release Playlist With 30+ Original Songs From All 4 Seasons Ahead of Series Finale (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Before Off Campus, Ella Bright Starred In A 7-Season Series Streaming For Free",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-31T21:01:59.204Z",
       "status": "quota",
@@ -1914,33 +1947,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-27T23:18:51.954Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 321,
-      "totalCandidates": 67,
-      "written": [
-        {
-          "title": "Spider-Noir Is the Ultimate Nicolas Cage Highlight Reel",
-          "category": "tv",
-          "source": "Den of Geek",
-          "score": 14,
-          "slug": "5c8ab153-spider-noir-is-the-ultimate-nicolas-cage-highlight-reel"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Tom Hardy Fans Officially Turn on Paramount+’s Hit Crime Thriller After 'Peaky Blinders' Star's Firing",
-          "category": "tv",
-          "source": "Collider",
-          "score": 15,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-05-31T21:01:59.204Z"
+  "lastUpdated": "2026-05-31T22:01:02.211Z"
 }
