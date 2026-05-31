@@ -1,6 +1,46 @@
 {
-  "totalArticles": 107,
+  "totalArticles": 110,
   "runs": [
+    {
+      "timestamp": "2026-05-31T08:01:15.504Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 206,
+      "totalCandidates": 23,
+      "written": [
+        {
+          "title": "10 Greatest Books of the '90s",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "slug": "a50ad90e-10-greatest-books-of-the-90s"
+        },
+        {
+          "title": "Tom Holland Is Looking Forward to ‘Setting Up the Next Chapter’ For a New ‘Spider-Man’ Star: ‘I Could Do What Downey Did For Me’",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "d5e629e5-tom-holland-is-looking-forward-to-setting-up-the-next-chapte"
+        },
+        {
+          "title": "The Shocking Success of ‘Backrooms’ and ‘Obsession’ Should Be a Memo to Hollywood: You Need What’s Outside the Box",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "486c1386-the-shocking-success-of-backrooms-and-obsession-should-be-a-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Box Office: ‘Backrooms’ Scares Up $38 Million on Friday, Already Shattering Record for A24’s Best Opening Weekend",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-31T06:01:14.107Z",
       "status": "quota",
@@ -1707,25 +1747,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-27T00:01:03.604Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 307,
-      "totalCandidates": 83,
-      "written": [
-        {
-          "title": "Toy Story 5’s Final Trailer Review: Even Skeptical Fans Are Won Over by Pixar Charm",
-          "category": "film",
-          "source": "ComingSoon",
-          "score": 18,
-          "slug": "6285b847-toy-story-5s-final-trailer-review-even-skeptical-fans-are-wo"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T06:01:14.107Z"
+  "lastUpdated": "2026-05-31T08:01:15.504Z"
 }
