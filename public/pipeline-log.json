@@ -1,6 +1,24 @@
 {
-  "totalArticles": 125,
+  "totalArticles": 126,
   "runs": [
+    {
+      "timestamp": "2026-05-31T16:01:15.262Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 165,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "Emma Corrin on Going From Playing Princess Diana to a Marvel Villain, Feeling ‘Daunted’ by Netflix’s ‘Pride & Prejudice’ Series and Being Our First Nonbinary Power of Women Honoree: It’s ‘F—ing Awesome’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 17,
+          "slug": "7c626be1-emma-corrin-on-going-from-playing-princess-diana-to-a-marvel"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-31T15:18:14.225Z",
       "status": "success",
@@ -1876,25 +1894,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-27T16:00:56.937Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 320,
-      "totalCandidates": 65,
-      "written": [
-        {
-          "title": "‘Euphoria’ Star’s New Shudder Thriller Gets First Look Ahead of June Release",
-          "category": "tv",
-          "source": "Collider",
-          "score": 18,
-          "slug": "afeef657-euphoria-stars-new-shudder-thriller-gets-first-look-ahead-of"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T15:18:14.225Z"
+  "lastUpdated": "2026-05-31T16:01:15.262Z"
 }
