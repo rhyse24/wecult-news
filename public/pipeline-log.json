@@ -1,6 +1,38 @@
 {
-  "totalArticles": 126,
+  "totalArticles": 129,
   "runs": [
+    {
+      "timestamp": "2026-05-31T17:08:43.657Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 162,
+      "totalCandidates": 6,
+      "written": [
+        {
+          "title": "Maggie O’Farrell: ‘Fiction comes from what you don’t know’",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 9,
+          "slug": "09bc9b28-maggie-ofarrell-fiction-comes-from-what-you-dont-know"
+        },
+        {
+          "title": "Book Review: ‘Rabbit, Fox, Tar,’ by P.C. Verrone",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 4,
+          "slug": "5014742b-book-review-rabbit-fox-tar-by-pc-verrone"
+        },
+        {
+          "title": "Are ‘mind children’ the future of reproduction?",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 4,
+          "slug": "8d108af1-are-mind-children-the-future-of-reproduction"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-31T16:01:15.262Z",
       "status": "quota",
@@ -1876,25 +1908,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-27T17:20:38.400Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 318,
-      "totalCandidates": 80,
-      "written": [
-        {
-          "title": "Disclosure Day Final Trailer Offers First Look at Alien Creature in Steven Spielberg UFO Movie",
-          "category": "film",
-          "source": "ComingSoon",
-          "score": 20,
-          "slug": "acd95001-disclosure-day-final-trailer-offers-first-look-at-alien-crea"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T16:01:15.262Z"
+  "lastUpdated": "2026-05-31T17:08:43.657Z"
 }
