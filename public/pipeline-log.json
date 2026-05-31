@@ -1,6 +1,46 @@
 {
-  "totalArticles": 122,
+  "totalArticles": 125,
   "runs": [
+    {
+      "timestamp": "2026-05-31T15:18:14.225Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 170,
+      "totalCandidates": 17,
+      "written": [
+        {
+          "title": "Box Office: ‘Backrooms’ Stuns With $81 Million Debut, ‘Obsession’ Has Another Unprecedented Jump, ‘Mandalorian and Grogu’ Suffers 70% Drop",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "slug": "ea35c644-box-office-backrooms-stuns-with-81-million-debut-obsession-h"
+        },
+        {
+          "title": "President Lula Launches Tela Brasil, a Free-of-Charge Streaming Service Offering Brazilian Productions",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "9740158e-president-lula-launches-tela-brasil-a-free-of-charge-streami"
+        },
+        {
+          "title": "Michael De Luca Warns About the Danger of Hollywood Cutting Development Funds for Original Material: ‘If You Cut Too Deep Your Pipeline Dries Up’",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "8c022752-michael-de-luca-warns-about-the-danger-of-hollywood-cutting-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-31T14:01:18.512Z",
       "status": "quota",
@@ -1854,25 +1894,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-27T14:00:55.887Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 319,
-      "totalCandidates": 117,
-      "written": [
-        {
-          "title": "Spider-Noir director reveals the iconic noir actor who inspired Nicolas Cage's performance",
-          "category": "games",
-          "source": "Polygon",
-          "score": 17,
-          "slug": "ebd7ec72-spider-noir-director-reveals-the-iconic-noir-actor-who-inspi"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T14:01:18.512Z"
+  "lastUpdated": "2026-05-31T15:18:14.225Z"
 }
