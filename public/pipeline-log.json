@@ -1,6 +1,39 @@
 {
-  "totalArticles": 105,
+  "totalArticles": 107,
   "runs": [
+    {
+      "timestamp": "2026-05-31T04:01:13.868Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 208,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "Timothy Olyphant Has Two Hopes For His Alien: Earth Season 2 Storyline",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "1490062a-timothy-olyphant-has-two-hopes-for-his-alien-earth-season-2-"
+        },
+        {
+          "title": "20 Best TV Moments Of 2026 (So Far)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "4b2430c9-20-best-tv-moments-of-2026-so-far"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "15 Best TV Shows Like The Morning Show",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-31T02:00:58.162Z",
       "status": "success",
@@ -1700,25 +1733,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-26T20:02:25.373Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 314,
-      "totalCandidates": 115,
-      "written": [
-        {
-          "title": "Unsanctioned GTA Online modding platform Rage:MP is shutting down thanks to a cease and desist from Take-Two",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 17,
-          "slug": "b893d33b-unsanctioned-gta-online-modding-platform-ragemp-is-shutting-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T02:00:58.162Z"
+  "lastUpdated": "2026-05-31T04:01:13.868Z"
 }
