@@ -1,6 +1,56 @@
 {
-  "totalArticles": 113,
+  "totalArticles": 116,
   "runs": [
+    {
+      "timestamp": "2026-05-31T10:01:15.198Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 193,
+      "totalCandidates": 26,
+      "written": [
+        {
+          "title": "Ed Asner Played One Of Superman's Most Unique Female Villains For Over A Decade",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "8ccc01ba-ed-asner-played-one-of-supermans-most-unique-female-villains"
+        },
+        {
+          "title": "Josh Safdie-Produced Reality Series ‘Neighbors’ Submits in 10 Emmy Categories, Including 5 Bids for Robert Redford’s Grandson (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 8,
+          "slug": "73e3ef56-josh-safdie-produced-reality-series-neighbors-submits-in-10-"
+        },
+        {
+          "title": "‘Only Murders in the Building,’ ’48 Hours’ Among This Year’s CrimeCon Clue Awards Winners",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 7,
+          "slug": "3d656603-only-murders-in-the-building-48-hours-among-this-years-crime"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "15 Best TV Shows Like The Morning Show",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "House of the Dragon Season 3 Trailer Reminds Us That Ruling Is Harder Than Fighting",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 8,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-05-31T08:48:43.936Z",
       "status": "success",
@@ -1751,25 +1801,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-27T04:01:05.155Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 317,
-      "totalCandidates": 115,
-      "written": [
-        {
-          "title": "The Mandalorian and Grogu’s quietest sequence should be the template Star Wars' future",
-          "category": "games",
-          "source": "Polygon",
-          "score": 14,
-          "slug": "31574f28-the-mandalorian-and-grogus-quietest-sequence-should-be-the-t"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T08:48:43.936Z"
+  "lastUpdated": "2026-05-31T10:01:15.198Z"
 }
