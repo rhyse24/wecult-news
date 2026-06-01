@@ -1,6 +1,24 @@
 {
-  "totalArticles": 135,
+  "totalArticles": 136,
   "runs": [
+    {
+      "timestamp": "2026-06-01T00:01:04.534Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 154,
+      "totalCandidates": 61,
+      "written": [
+        {
+          "title": " Before Mina the Hollower, Yacht Club paused a 3D Shovel Knight game that's 'not far from being showable' and a possible next project ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 16,
+          "slug": "dd033f69-before-mina-the-hollower-yacht-club-paused-a-3d-shovel-knigh"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-05-31T23:02:02.282Z",
       "status": "quota",
@@ -1958,25 +1976,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-28T02:00:51.550Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 319,
-      "totalCandidates": 120,
-      "written": [
-        {
-          "title": "Spider-Noir: Every (Kinda, Sorta) Easter Egg and Comics Reference That We Found",
-          "category": "games",
-          "source": "IGN",
-          "score": 16,
-          "slug": "9247b42b-spider-noir-every-kinda-sorta-easter-egg-and-comics-referenc"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-05-31T23:02:02.282Z"
+  "lastUpdated": "2026-06-01T00:01:04.534Z"
 }
