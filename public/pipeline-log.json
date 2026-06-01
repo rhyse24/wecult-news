@@ -1,6 +1,60 @@
 {
-  "totalArticles": 161,
+  "totalArticles": 164,
   "runs": [
+    {
+      "timestamp": "2026-06-01T17:44:40.566Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 224,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "Backrooms: Why Is Gen Z So Scared of the ’80s?",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 17,
+          "slug": "a7a020cf-backrooms-why-is-gen-z-so-scared-of-the-80s"
+        },
+        {
+          "title": "‘Superman’ Sequel ‘Man of Tomorrow’ Reveals Lex Luthor’s Warsuit",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "6d1737b6-superman-sequel-man-of-tomorrow-reveals-lex-luthors-warsuit"
+        },
+        {
+          "title": "7 Steven Spielberg Movies That Are Just Kind of Average",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "slug": "6cfba4a2-7-steven-spielberg-movies-that-are-just-kind-of-average"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Why Euphoria Is Ending With Season 3 On HBO",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "How ‘Backrooms’ Producers Helped 20-Year-Old YouTuber Kane Parsons Create the Summer’s Most Surprising Box Office Smash",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-01T16:01:17.961Z",
       "status": "quota",
@@ -2208,33 +2262,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-28T20:01:18.708Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 327,
-      "totalCandidates": 66,
-      "written": [
-        {
-          "title": "Tom Hanks Teases “One of the Most Heartbreaking Scenes I’ve Seen” in ‘Toy Story 5’ as Cast Reunites for U.K. Launch",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 18,
-          "slug": "1f44d228-tom-hanks-teases-one-of-the-most-heartbreaking-scenes-ive-se"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Everything We Know About Steven Spielberg’s ‘Disclosure Day’ So Far",
-          "category": "film",
-          "source": "Deadline",
-          "score": 19,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-01T16:01:17.961Z"
+  "lastUpdated": "2026-06-01T17:44:40.566Z"
 }
