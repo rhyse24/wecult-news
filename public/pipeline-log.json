@@ -1,6 +1,38 @@
 {
-  "totalArticles": 150,
+  "totalArticles": 153,
   "runs": [
+    {
+      "timestamp": "2026-06-01T11:39:32.184Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 180,
+      "totalCandidates": 16,
+      "written": [
+        {
+          "title": "Alone on a Mountain in Wyoming Far From Home and Looking for Answers",
+          "category": "books",
+          "source": "Literary Hub",
+          "score": 15,
+          "slug": "3765bb70-alone-on-a-mountain-in-wyoming-far-from-home-and-looking-for"
+        },
+        {
+          "title": "An Incomplete Ranking of Best Companion Animals in Comics",
+          "category": "books",
+          "source": "Book Riot",
+          "score": 10,
+          "slug": "09a292a5-an-incomplete-ranking-of-best-companion-animals-in-comics"
+        },
+        {
+          "title": "June’s New Mystery and Thrillers, From High-Stakes Competition to Psychological Suspense",
+          "category": "books",
+          "source": "Book Riot",
+          "score": 10,
+          "slug": "ee6b84e5-junes-new-mystery-and-thrillers-from-high-stakes-competition"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-01T10:01:03.386Z",
       "status": "success",
@@ -2156,25 +2188,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-28T14:01:20.899Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 318,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Disney CEO Josh D’Amaro, Sony Boss Hiroki Totoki Among New Paley Center Board of Trustees Members; Brian Grazer Added to L.A. Board of Governors (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "86280377-disney-ceo-josh-damaro-sony-boss-hiroki-totoki-among-new-pal"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-01T10:01:03.386Z"
+  "lastUpdated": "2026-06-01T11:39:32.184Z"
 }
