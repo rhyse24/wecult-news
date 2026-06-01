@@ -1,6 +1,39 @@
 {
-  "totalArticles": 159,
+  "totalArticles": 161,
   "runs": [
+    {
+      "timestamp": "2026-06-01T16:01:17.961Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 221,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "Sydney Sweeney Told ‘Euphoria’ Creator Not to Cut Nude Scenes From Season 3 When He Considered Excluding Them: ‘Are You Kidding?’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 17,
+          "slug": "47247367-sydney-sweeney-told-euphoria-creator-not-to-cut-nude-scenes-"
+        },
+        {
+          "title": "15 Games We Don’t Believe Anyone Actually Played All the Way Through",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 17,
+          "slug": "ef0494ff-15-games-we-dont-believe-anyone-actually-played-all-the-way-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Why X-Men '97 Had To Update Magneto's Look From The Original Animated Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-01T14:01:07.399Z",
       "status": "success",
@@ -2201,25 +2234,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-28T18:01:25.992Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 327,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "Save The Dates: New Simpsons On Disney+, Agatha Christie's Tommy & Tuppence, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "ad9f0ebc-save-the-dates-new-simpsons-on-disney-agatha-christies-tommy"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-01T14:01:07.399Z"
+  "lastUpdated": "2026-06-01T16:01:17.961Z"
 }
