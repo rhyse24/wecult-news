@@ -1,6 +1,38 @@
 {
-  "totalArticles": 156,
+  "totalArticles": 159,
   "runs": [
+    {
+      "timestamp": "2026-06-01T14:01:07.399Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 205,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Hot on the Heels of Katsuhiro Harada's Exit From Bandai Namco, the Director of Tekken 7 and 8 Has Left Too",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "slug": "3bcd917b-hot-on-the-heels-of-katsuhiro-haradas-exit-from-bandai-namco"
+        },
+        {
+          "title": "Backrooms And Obsession Beat Mandalorian And Grogu At The Box Office",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "slug": "d1e99b1b-backrooms-and-obsession-beat-mandalorian-and-grogu-at-the-bo"
+        },
+        {
+          "title": "Video Games Could Have Movie-Style Product Placement to Counter Rising Costs, Ex-Dragon Age Boss Says",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "e50d62ee-video-games-could-have-movie-style-product-placement-to-coun"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-01T12:01:01.651Z",
       "status": "success",
@@ -2187,36 +2219,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-28T17:35:20.464Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 328,
-      "totalCandidates": 71,
-      "written": [
-        {
-          "title": "CD Projekt Teases Size and Story of New The Witcher 3 Expansion Songs of the Past",
-          "category": "games",
-          "source": "IGN",
-          "score": 13,
-          "slug": "4ae6a9fb-cd-projekt-teases-size-and-story-of-new-the-witcher-3-expans"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "All MW4 multiplayer maps, modes, weapons officially confirmed so far",
-          "category": "games",
-          "source": "Polygon",
-          "score": 14,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body has no section headings (need ≥1)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-01T12:01:01.651Z"
+  "lastUpdated": "2026-06-01T14:01:07.399Z"
 }
