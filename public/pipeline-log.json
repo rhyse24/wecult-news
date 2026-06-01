@@ -1,6 +1,32 @@
 {
-  "totalArticles": 140,
+  "totalArticles": 141,
   "runs": [
+    {
+      "timestamp": "2026-06-01T04:17:39.562Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 154,
+      "totalCandidates": 26,
+      "written": [
+        {
+          "title": "‘Euphoria’ Officially Ending With Season 3, HBO Confirms",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "slug": "a81f43af-euphoria-officially-ending-with-season-3-hbo-confirms"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Adewale Akinnuoye-Agbaje Breaks Down ‘Euphoria’ Finale, From Alamo vs. Rue to That Final Showdown: ‘He Enjoys the Chess Game of Death’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-01T04:01:02.115Z",
       "status": "success",
@@ -2034,25 +2060,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-28T08:01:17.380Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 316,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "Phoebe Bridgers Joins Robert Pattinson’s Surveillance Team in ‘Primetime’ Trailer",
-          "category": "tv",
-          "source": "Rolling Stone TV",
-          "score": 11,
-          "slug": "7e5b80da-phoebe-bridgers-joins-robert-pattinsons-surveillance-team-in"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-01T04:01:02.115Z"
+  "lastUpdated": "2026-06-01T04:17:39.562Z"
 }
