@@ -1,6 +1,38 @@
 {
-  "totalArticles": 169,
+  "totalArticles": 172,
   "runs": [
+    {
+      "timestamp": "2026-06-01T21:35:39.314Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 241,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "Taylor Swift Reveals Original Song for ‘Toy Story 5’: ‘I Knew It, I Knew You’ — a ‘Return to Country’",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "slug": "60315585-taylor-swift-reveals-original-song-for-toy-story-5-i-knew-it"
+        },
+        {
+          "title": "5 Most Rewatchable Episodes Of The Boys",
+          "category": "film",
+          "source": "Looper",
+          "score": 19,
+          "slug": "4dd45f70-5-most-rewatchable-episodes-of-the-boys"
+        },
+        {
+          "title": "Cinespia to Host Fourth of July Fireworks Screenings of ‘Shrek’ and ‘Jurassic Park’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "6a52faf7-cinespia-to-host-fourth-of-july-fireworks-screenings-of-shre"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-01T20:01:01.088Z",
       "status": "success",
@@ -2273,25 +2305,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-28T23:19:42.937Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 330,
-      "totalCandidates": 61,
-      "written": [
-        {
-          "title": "Cecilia Vega, Fired From  ‘60 Minutes,’ Says She Fears ‘For The Future of the Legendary Broadcast’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "dff68354-cecilia-vega-fired-from-60-minutes-says-she-fears-for-the-fu"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-01T20:01:01.088Z"
+  "lastUpdated": "2026-06-01T21:35:39.314Z"
 }
