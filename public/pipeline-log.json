@@ -1,6 +1,32 @@
 {
-  "totalArticles": 172,
+  "totalArticles": 173,
   "runs": [
+    {
+      "timestamp": "2026-06-01T22:00:59.182Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 239,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Animation Veteran Kunihiko Hamada Departs From Madhouse",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 13,
+          "slug": "d4c5bcd1-animation-veteran-kunihiko-hamada-departs-from-madhouse"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Euphoria Season 3 Finale: [Spoiler]'s Death Explained By Creator Sam Levinson",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-01T21:35:39.314Z",
       "status": "success",
@@ -2284,28 +2310,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-29T00:01:17.003Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 318,
-      "totalCandidates": 45,
-      "written": [],
-      "rejected": [
-        {
-          "title": "‘The White Lotus’ Recreates Dramatic Cannes Closing Night With Laura Dern, Steve Coogan, Ari Graynor and Max Greenfield",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body has no section headings (need ≥1)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-01T21:35:39.314Z"
+  "lastUpdated": "2026-06-01T22:00:59.182Z"
 }
