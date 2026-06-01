@@ -1,6 +1,74 @@
 {
-  "totalArticles": 137,
+  "totalArticles": 140,
   "runs": [
+    {
+      "timestamp": "2026-06-01T04:01:02.115Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 156,
+      "totalCandidates": 15,
+      "written": [
+        {
+          "title": "Does Zendaya's Rue Bennett Die In The Euphoria Season 3 Finale?",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "slug": "59dcd78f-does-zendayas-rue-bennett-die-in-the-euphoria-season-3-final"
+        },
+        {
+          "title": "Shanghai Film Festival Unveils Competition Section Packed With World Premieres",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 6,
+          "slug": "411f71ee-shanghai-film-festival-unveils-competition-section-packed-wi"
+        },
+        {
+          "title": "Tearful Mike Myers Thanks Canada For Hollywood Career: “I’d Just Really Be Nothing Without You”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 6,
+          "slug": "69603d10-tearful-mike-myers-thanks-canada-for-hollywood-career-id-jus"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The Biggest Things The Boys Series Changed From The Comics",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "5 Most Important James Bond Movies That Define the Franchise",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Only 3 Movie Trilogies Have More Replay Value Than ‘The Lord of the Rings’",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘A Minecraft Movie’ Sequel Gets New Title",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 7,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-01T02:01:03.088Z",
       "status": "quota",
@@ -1984,17 +2052,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-28T06:01:18.609Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 314,
-      "totalCandidates": 45,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-01T02:01:03.088Z"
+  "lastUpdated": "2026-06-01T04:01:02.115Z"
 }
