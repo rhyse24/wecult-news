@@ -1,6 +1,42 @@
 {
-  "totalArticles": 136,
+  "totalArticles": 137,
   "runs": [
+    {
+      "timestamp": "2026-06-01T02:01:03.088Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 154,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Star City EP Teases The 'Unconventional Love Story' Ahead For Anastasia And Sasha — Plus, Grade The Spin-Off's Premiere",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "f5b8da1e-star-city-ep-teases-the-unconventional-love-story-ahead-for-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘The Way Home’ to Release Playlist With 30+ Original Songs From All 4 Seasons Ahead of Series Finale (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "16 Best TV Performances Of 2026 (So Far)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 974 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-01T00:01:04.534Z",
       "status": "quota",
@@ -1958,25 +1994,7 @@
       "totalCandidates": 45,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-28T04:01:18.415Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 316,
-      "totalCandidates": 79,
-      "written": [
-        {
-          "title": "One More Major Trailer for Spielberg's 'Disclosure Day' Sci-Fi Thriller",
-          "category": "film",
-          "source": "FirstShowing",
-          "score": 17,
-          "slug": "7a47072c-one-more-major-trailer-for-spielbergs-disclosure-day-sci-fi-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-01T00:01:04.534Z"
+  "lastUpdated": "2026-06-01T02:01:03.088Z"
 }
