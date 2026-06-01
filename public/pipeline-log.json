@@ -1,6 +1,46 @@
 {
-  "totalArticles": 166,
+  "totalArticles": 169,
   "runs": [
+    {
+      "timestamp": "2026-06-01T20:01:01.088Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 238,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "The Series Finale of ‘Euphoria’ Let the Characters Down: TV Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "slug": "a930225c-the-series-finale-of-euphoria-let-the-characters-down-tv-rev"
+        },
+        {
+          "title": "‘Euphoria’ Finale: Darrell Britt-Gibson Explains Bishop’s Betrayal, Auditioning for Alamo and Playing His Character on the Autism Spectrum",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "slug": "efa04bfb-euphoria-finale-darrell-britt-gibson-explains-bishops-betray"
+        },
+        {
+          "title": "Euphoria's James Landry Hébert Had An NSFW Vision For Harley's Finale Chase Scene",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "0e3894b0-euphorias-james-landry-hbert-had-an-nsfw-vision-for-harleys-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Euphoria Season 3 Finale: [Spoiler]'s Death Explained By Creator Sam Levinson",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-01T18:01:01.539Z",
       "status": "quota",
@@ -2251,25 +2291,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-28T22:01:18.091Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 331,
-      "totalCandidates": 78,
-      "written": [
-        {
-          "title": "Scary Movie launches website where fans can make Ghostface act like Kai Cenat and hawk tuah",
-          "category": "games",
-          "source": "Dexerto",
-          "score": 17,
-          "slug": "77d3cff8-scary-movie-launches-website-where-fans-can-make-ghostface-a"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-01T18:01:01.539Z"
+  "lastUpdated": "2026-06-01T20:01:01.088Z"
 }
