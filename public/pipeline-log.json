@@ -1,6 +1,60 @@
 {
-  "totalArticles": 147,
+  "totalArticles": 150,
   "runs": [
+    {
+      "timestamp": "2026-06-01T10:01:03.386Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 165,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Euphoria Ending At HBO After 3 Seasons",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "714e4edc-euphoria-ending-at-hbo-after-3-seasons"
+        },
+        {
+          "title": "‘Euphoria’ Finale: Colman Domingo Goes Deep on Ali’s Journey With Rue, Revenge and His ‘Christ on the Cross Moment’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 17,
+          "slug": "62de11fe-euphoria-finale-colman-domingo-goes-deep-on-alis-journey-wit"
+        },
+        {
+          "title": "Euphoria Finale: A Bunch Of People Die, But Is Rue One Of Them? — Read Recap And Grade The Episode",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "da055216-euphoria-finale-a-bunch-of-people-die-but-is-rue-one-of-them"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Euphoria’ Is Officially Over — Show Ends With Season 3, HBO Confirms",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 18,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Adewale Akinnuoye-Agbaje Breaks Down ‘Euphoria’ Finale, From Alamo vs. Rue to That Final Showdown: ‘He Enjoys the Chess Game of Death’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Euphoria’ Season 3 Finale Pays Tribute to Angus Cloud; Sam Levinson Says “He Deserved More Time”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-01T08:01:01.994Z",
       "status": "success",
@@ -2120,25 +2174,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-28T13:54:50.577Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 319,
-      "totalCandidates": 87,
-      "written": [
-        {
-          "title": "Activision Teases Imminent Call of Duty Modern Warfare Reveal With Video Showing Korean Setting",
-          "category": "games",
-          "source": "IGN",
-          "score": 15,
-          "slug": "6d289456-activision-teases-imminent-call-of-duty-modern-warfare-revea"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-01T08:01:01.994Z"
+  "lastUpdated": "2026-06-01T10:01:03.386Z"
 }
