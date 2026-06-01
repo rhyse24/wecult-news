@@ -1,6 +1,60 @@
 {
-  "totalArticles": 153,
+  "totalArticles": 156,
   "runs": [
+    {
+      "timestamp": "2026-06-01T12:01:01.651Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 180,
+      "totalCandidates": 14,
+      "written": [
+        {
+          "title": "The Age of the YouTube Filmmaker Is Here After Backrooms and Obsession’s Triumph",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "slug": "1bc5daec-the-age-of-the-youtube-filmmaker-is-here-after-backrooms-and"
+        },
+        {
+          "title": "How Jason Momoa’s ‘Minecraft,’ ‘Dune’ and DC Superhero Roles Made Him Lego’s Perfect Playmaker",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "8db41337-how-jason-momoas-minecraft-dune-and-dc-superhero-roles-made-"
+        },
+        {
+          "title": "Mahesh Babu’s AMB Cinemas to Host Imax’s Hyderabad Return Ahead of ‘Varanasi’ Release (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "664e1615-mahesh-babus-amb-cinemas-to-host-imaxs-hyderabad-return-ahea"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The Biggest Things The Boys Series Changed From The Comics",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘All Night Wrong’ Director on His Hitchcock-Meets-Wilder Film With ‘Severance’s’ Zach Cherry and Maria Bakalova as Broken Souls",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-01T11:39:32.184Z",
       "status": "success",
@@ -2162,33 +2216,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-28T16:01:26.842Z",
-      "status": "success",
-      "articlesWritten": 1,
-      "quotaExhausted": false,
-      "totalFetched": 324,
-      "totalCandidates": 61,
-      "written": [
-        {
-          "title": "‘Hoppers’ Sets Disney+ Streaming Release Date",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "slug": "2598f22a-hoppers-sets-disney-streaming-release-date"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Why Fans Think Spielberg’s Disclosure Day Is Teasing a Real Alien Reveal",
-          "category": "film",
-          "source": "ComingSoon",
-          "score": 18,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-01T11:39:32.184Z"
+  "lastUpdated": "2026-06-01T12:01:01.651Z"
 }
