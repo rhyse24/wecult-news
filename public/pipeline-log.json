@@ -1,6 +1,39 @@
 {
-  "totalArticles": 189,
+  "totalArticles": 190,
   "runs": [
+    {
+      "timestamp": "2026-06-02T12:01:04.611Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 255,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "‘Hunger Games: Sunrise on the Reaping’ Star Iona Bell Signs With Paradigm (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 16,
+          "slug": "91d20907-hunger-games-sunrise-on-the-reaping-star-iona-bell-signs-wit"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Backrooms’ Smashes A24 Record With Dominant Debut at U.K. and Ireland Box Office",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "5 Reasons Why Euphoria Season 3 Failed",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-02T10:28:15.385Z",
       "status": "success",
@@ -2301,32 +2334,7 @@
       "totalCandidates": 38,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-29T15:40:27.524Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "15 Movies We Don’t Watch Because They’re Good",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 17,
-          "slug": "e9a950d3-15-movies-we-dont-watch-because-theyre-good"
-        },
-        {
-          "title": "15 Movies That Clearly Wanted to Be the Next Harry Potter",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 17,
-          "slug": "f9139900-15-movies-that-clearly-wanted-to-be-the-next-harry-potter"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-02T10:28:15.385Z"
+  "lastUpdated": "2026-06-02T12:01:04.611Z"
 }
