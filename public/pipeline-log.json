@@ -1,6 +1,38 @@
 {
-  "totalArticles": 186,
+  "totalArticles": 189,
   "runs": [
+    {
+      "timestamp": "2026-06-02T10:28:15.385Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 248,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Backrooms brings in Star Wars money in opening weekend",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "slug": "e2361fe4-backrooms-brings-in-star-wars-money-in-opening-weekend"
+        },
+        {
+          "title": "15 ’70s Movies Everyone’s Parents Made Them Watch",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 9,
+          "slug": "521bdd3c-15-70s-movies-everyones-parents-made-them-watch"
+        },
+        {
+          "title": "15 Times American Movies Pretended Mexico Was Yellow",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 9,
+          "slug": "03426c13-15-times-american-movies-pretended-mexico-was-yellow"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-02T10:01:00.638Z",
       "status": "success",
@@ -2294,54 +2326,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-29T14:01:22.815Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 72,
-      "written": [
-        {
-          "title": "007 First Light Sells 1.5 Million Copies in First 24 Hours, Faster Than Any Hitman Game From IO Interactive",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "c6aa7e4f-007-first-light-sells-15-million-copies-in-first-24-hours-fa"
-        },
-        {
-          "title": "\"We're determined to win justice for the 31 fired workers\" - Rockstar Games workers publicly launch union, as legal battle with the GTA 6 maker rages on",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 12,
-          "slug": "b38f2ace-were-determined-to-win-justice-for-the-31-fired-workers---ro"
-        },
-        {
-          "title": "San Francisco Giants unveil Pokemon Worlds Night with exclusive Pikachu jersey",
-          "category": "games",
-          "source": "Dexerto",
-          "score": 12,
-          "slug": "8e7f886d-san-francisco-giants-unveil-pokemon-worlds-night-with-exclus"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Rayman Legends Remake Leaks Reveal Release Date, Price, and a Clair Obscur Crossover",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Witcher 3 surpasses 65m lifetime sales as CD Projekt announces third expansion",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-02T10:01:00.638Z"
+  "lastUpdated": "2026-06-02T10:28:15.385Z"
 }
