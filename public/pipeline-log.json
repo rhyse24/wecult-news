@@ -1,6 +1,56 @@
 {
-  "totalArticles": 183,
+  "totalArticles": 186,
   "runs": [
+    {
+      "timestamp": "2026-06-02T10:01:00.638Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 249,
+      "totalCandidates": 84,
+      "written": [
+        {
+          "title": "Analyst: Call of Duty's withdrawal from last-gen consoles means it's selling into the smallest install base since 2017",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 19,
+          "slug": "1982b6ae-analyst-call-of-dutys-withdrawal-from-last-gen-consoles-mean"
+        },
+        {
+          "title": "The Simpsons Arrives in Monopoly Go for a Wild Mobile Crossover Event",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "slug": "4eb7272a-the-simpsons-arrives-in-monopoly-go-for-a-wild-mobile-crosso"
+        },
+        {
+          "title": "The Witcher 3's acclaimed Blood and Wine expansion was almost called something entirely different",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 10,
+          "slug": "7045df6e-the-witcher-3s-acclaimed-blood-and-wine-expansion-was-almost"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Final Fantasy 7 Rebirth Gets Stylish New Trailer Ahead of Switch 2 and Xbox Series X/S Launch",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "007 First Light Budget Reportedly More Than $200 Million",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-02T08:01:02.559Z",
       "status": "success",
@@ -2291,47 +2341,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-29T12:01:22.014Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 327,
-      "totalCandidates": 66,
-      "written": [
-        {
-          "title": "Is For All Mankind Canceled or Has Apple TV Renewed It for Season 6?",
-          "category": "film",
-          "source": "ComingSoon",
-          "score": 13,
-          "slug": "81d3f26b-is-for-all-mankind-canceled-or-has-apple-tv-renewed-it-for-s"
-        },
-        {
-          "title": "‘Game of Thrones’ Play ‘The Mad King’ Unveils Full Cast for Royal Shakespeare Company World Premiere",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "1398cf00-game-of-thrones-play-the-mad-king-unveils-full-cast-for-roya"
-        },
-        {
-          "title": "Why Star City Is Secretly An Origin Story For The Best Villain In For All Mankind [Exclusive]",
-          "category": "film",
-          "source": "Slash Film",
-          "score": 12,
-          "slug": "e19ed3d5-why-star-city-is-secretly-an-origin-story-for-the-best-villa"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Golden Trailer Awards: ‘Project Hail Mary’ Scores Best In Show & Leads Field; Disney Tops Studios – Full List",
-          "category": "film",
-          "source": "Deadline",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-02T08:01:02.559Z"
+  "lastUpdated": "2026-06-02T10:01:00.638Z"
 }
