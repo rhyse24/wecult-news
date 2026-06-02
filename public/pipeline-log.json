@@ -2,6 +2,16 @@
   "totalArticles": 193,
   "runs": [
     {
+      "timestamp": "2026-06-02T16:01:07.081Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 49,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-02T14:01:02.475Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2299,64 +2309,7 @@
       "totalCandidates": 49,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-29T18:00:26.629Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "5 Worst Episodes Of The Boys, According To IMDb",
-          "category": "film",
-          "source": "Looper",
-          "score": 17,
-          "slug": "f593e4a0-5-worst-episodes-of-the-boys-according-to-imdb"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Backrooms’ Makes $10.4 Million in Previews, Shattering A24 Record",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "New to Streaming: Kontinental ‘25, Two Prosecutors, Two Women, Fuze & More",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        },
-        {
-          "title": "Everything You Need To Know About Steven Spielberg's Disclosure Day",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Winners and Losers: Spielberg’s UFO Clash and Tom Hardy’s Trailer Tantrums",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "“For All Mankind” Spinoff “Star City” is One Small Soviet Step Backward",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-02T14:01:02.475Z"
+  "lastUpdated": "2026-06-02T16:01:07.081Z"
 }
