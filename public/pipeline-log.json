@@ -1,6 +1,38 @@
 {
-  "totalArticles": 190,
+  "totalArticles": 193,
   "runs": [
+    {
+      "timestamp": "2026-06-02T14:01:02.475Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 269,
+      "totalCandidates": 88,
+      "written": [
+        {
+          "title": "Nintendo Music Launches Web Player, With Over 4 Hours of Mario Kart World Tunes",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "e2382d54-nintendo-music-launches-web-player-with-over-4-hours-of-mari"
+        },
+        {
+          "title": "Subnautica 2 Is Finally Getting On Top Of Its Violence Problem",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 14,
+          "slug": "43f6294f-subnautica-2-is-finally-getting-on-top-of-its-violence-probl"
+        },
+        {
+          "title": "PlayStation First-Party Game Sales Have Declined Over the Past 5 Years, Although Ghost of Yotei Helped Reverse the Trend",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "e859ba87-playstation-first-party-game-sales-have-declined-over-the-pa"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-02T12:01:04.611Z",
       "status": "quota",
@@ -2324,17 +2356,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-29T16:01:23.743Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 38,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-02T12:01:04.611Z"
+  "lastUpdated": "2026-06-02T14:01:02.475Z"
 }
