@@ -1,6 +1,31 @@
 {
-  "totalArticles": 197,
+  "totalArticles": 199,
   "runs": [
+    {
+      "timestamp": "2026-06-02T22:01:00.515Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 288,
+      "totalCandidates": 57,
+      "written": [
+        {
+          "title": "The Guardian view on Euphoria: the show once pushed the envelope, but shock now seems to be the point | Editorial",
+          "category": "tv",
+          "source": "Guardian TV",
+          "score": 16,
+          "slug": "7dc86d9f-the-guardian-view-on-euphoria-the-show-once-pushed-the-envel"
+        },
+        {
+          "title": "Jules is the most tragic casualty of Euphoria's final season",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "eafaaeec-jules-is-the-most-tragic-casualty-of-euphorias-final-season"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-02T20:52:15.009Z",
       "status": "quota",
@@ -2291,40 +2316,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-30T00:00:22.218Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 254,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Backrooms Is the First Horror Movie of the AI Era",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 17,
-          "slug": "48827728-backrooms-is-the-first-horror-movie-of-the-ai-era"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Backrooms’ Director Kane Parsons Explains It All: Breaking Down Liminal Spaces, Why He Was Nervous His Work Might Get ‘Butchered by Suits’ and What Sequels Might Look Like",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "John Travolta on Taking Lessons From Quentin Tarantino and Mike Nichols for Directorial Debut",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-02T20:52:15.009Z"
+  "lastUpdated": "2026-06-02T22:01:00.515Z"
 }
