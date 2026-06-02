@@ -1,6 +1,24 @@
 {
-  "totalArticles": 196,
+  "totalArticles": 197,
   "runs": [
+    {
+      "timestamp": "2026-06-02T20:01:09.014Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "Russo Brothers Reveal Robert Downey Jr.’s ‘Doomsday’ Costume Is Favorite from MCU, ‘Delivering on the Most Awesome Things’ About Doctor Doom",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "31135fc6-russo-brothers-reveal-robert-downey-jrs-doomsday-costume-is-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-02T18:01:08.794Z",
       "status": "success",
@@ -2318,39 +2336,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-29T21:52:56.927Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "Dutton Ranch Episode 4 Sees Beth And Rip In Full Yellowstone Mode After A Devastating Loss: 'They're A Powerhouse,' Cole Hauser Says",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "64eac3ac-dutton-ranch-episode-4-sees-beth-and-rip-in-full-yellowstone"
-        },
-        {
-          "title": "How Martin Scorsese’s Radical Self-Honesty Shaped ‘Mr. Scorsese’",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "slug": "ae822beb-how-martin-scorseses-radical-self-honesty-shaped-mr-scorsese"
-        },
-        {
-          "title": "Every Manga Adaptation Coming to Netflix in 2026 and Beyond",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "4e771f00-every-manga-adaptation-coming-to-netflix-in-2026-and-beyond"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-02T18:01:08.794Z"
+  "lastUpdated": "2026-06-02T20:01:09.014Z"
 }
