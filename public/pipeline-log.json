@@ -1,6 +1,60 @@
 {
-  "totalArticles": 217,
+  "totalArticles": 220,
   "runs": [
+    {
+      "timestamp": "2026-06-03T12:00:53.224Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 262,
+      "totalCandidates": 78,
+      "written": [
+        {
+          "title": "GTA 5 Actor Ned Luke Celebrates as Swatting Perpetrator Sentenced to 4 Years",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "4ac75bb2-gta-5-actor-ned-luke-celebrates-as-swatting-perpetrator-sent"
+        },
+        {
+          "title": "The Internet Reacts to God of War Laufey",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "cb223021-the-internet-reacts-to-god-of-war-laufey"
+        },
+        {
+          "title": "Fallout 76 is finally getting native PS5 and Xbox Series X/S versions with improved graphics and performance, but Bethesda needs to test them first",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 12,
+          "slug": "63138900-fallout-76-is-finally-getting-native-ps5-and-xbox-series-xs-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Naughty Dog No-Show at PlayStation State of Play Leaves Fans Fearing Intergalactic: The Heretic Prophet is Still a Long Way From Launch",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 18,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Final Fantasy VII Rebirth Update Adds 'Streamlined Progression' to Make the Game Easier",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Control Resonant release date? Yeah that's nice, now move aside so I can look at its system requirements and ohhh that's a lot of SSD space",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-03T11:03:47.691Z",
       "status": "success",
@@ -2239,33 +2293,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-30T14:00:56.822Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 230,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "‘Spider-Noir’ Finale: Nicolas Cage on Who Dies, Those Explosive Fights, The Spider’s Sacrifice and If He’ll Return for a Season 2",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "2036a653-spider-noir-finale-nicolas-cage-on-who-dies-those-explosive-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Dutton Ranch’ Episode 4: Rip Shoots Dozens of Cows, Beth Catches Carter Hooking Up With Beulah’s Granddaughter and We Meet Creepy Dwight",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-03T11:03:47.691Z"
+  "lastUpdated": "2026-06-03T12:00:53.224Z"
 }
