@@ -1,6 +1,46 @@
 {
-  "totalArticles": 222,
+  "totalArticles": 225,
   "runs": [
+    {
+      "timestamp": "2026-06-03T20:01:00.506Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "The Season 1 Moment That Changed Stranger Things Forever",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 15,
+          "slug": "404fcf06-the-season-1-moment-that-changed-stranger-things-forever"
+        },
+        {
+          "title": "Netflix’s ‘Michael Jackson: The Verdict’ Docuseries Puts the Singer and the Public on Trial: TV Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "f4c819fc-netflixs-michael-jackson-the-verdict-docuseries-puts-the-sin"
+        },
+        {
+          "title": "Javier Bardem on Becoming Max Cady in New ‘Cape Fear’ Adaptation — While Also Shooting ‘Dune: Part Three’",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "75866cfe-javier-bardem-on-becoming-max-cady-in-new-cape-fear-adaptati"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Disney Moves Some Super Bowl Commercials at $8 Million Amid Advertiser Squabbles (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-03T18:00:54.179Z",
       "status": "quota",
@@ -2226,32 +2266,7 @@
       "totalCandidates": 15,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-30T19:19:47.022Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 226,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "Before Off Campus, Mika Abdalla Had A Recurring Role On The Pitt",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "39a44823-before-off-campus-mika-abdalla-had-a-recurring-role-on-the-p"
-        },
-        {
-          "title": "Why Scrubs Creator Bill Lawrence Used To Be Against The Idea Of A Revival",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "b28e7c96-why-scrubs-creator-bill-lawrence-used-to-be-against-the-idea"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-03T18:00:54.179Z"
+  "lastUpdated": "2026-06-03T20:01:00.506Z"
 }
