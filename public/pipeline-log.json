@@ -1,6 +1,24 @@
 {
-  "totalArticles": 200,
+  "totalArticles": 201,
   "runs": [
+    {
+      "timestamp": "2026-06-03T00:00:58.507Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Only 5 Sith Are More Powerful Than Darth Maul",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "slug": "6960626c-only-5-sith-are-more-powerful-than-darth-maul"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-02T23:47:35.304Z",
       "status": "quota",
@@ -2284,39 +2302,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-30T03:37:09.138Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 260,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "Power and Responsibility With Bullets and Booze — Spider-Noir Season One Is a Superb Pulp Adventure",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 17,
-          "slug": "8821f04f-power-and-responsibility-with-bullets-and-booze-spider-noir-"
-        },
-        {
-          "title": "What to Watch and Read This Weekend: Chase the Minimalist Backrooms With These Maximalist Genre Movies",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "0ab10fd4-what-to-watch-and-read-this-weekend-chase-the-minimalist-bac"
-        },
-        {
-          "title": "Backrooms Is the Best Nightmare You’ll Ever Have",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "e5a9ef4c-backrooms-is-the-best-nightmare-youll-ever-have"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-02T23:47:35.304Z"
+  "lastUpdated": "2026-06-03T00:00:58.507Z"
 }
