@@ -2,6 +2,27 @@
   "totalArticles": 205,
   "runs": [
     {
+      "timestamp": "2026-06-03T04:20:52.924Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 281,
+      "totalCandidates": 31,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Masters of the Universe Review: A Cute Kids Movie When It Isn’t Trying to Be Barbie",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-03T04:01:01.117Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2277,17 +2298,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-30T06:47:40.617Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 250,
-      "totalCandidates": 82,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-03T04:01:01.117Z"
+  "lastUpdated": "2026-06-03T04:20:52.924Z"
 }
