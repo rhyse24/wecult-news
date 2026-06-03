@@ -1,6 +1,35 @@
 {
-  "totalArticles": 220,
+  "totalArticles": 221,
   "runs": [
+    {
+      "timestamp": "2026-06-03T16:01:09.335Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 53,
+      "written": [
+        {
+          "title": "Euphoria Season 3 Finale Features A Product Showcase So Egregious Fans Are Calling It Out",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "e78bcf07-euphoria-season-3-finale-features-a-product-showcase-so-egre"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "On Set With ‘Alice and Steve’: Nicola Walker and Jemaine Clement Prepare to Debut Their Raucous “Wrong-Com”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-03T14:01:01.889Z",
       "status": "quota",
@@ -2245,47 +2274,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-30T16:00:59.140Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 230,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Hannah Waddingham on ‘Wicked’s’ Madame Morrible Rumors, Her New Action Series ‘Ride or Die’ and Stepping Back Into Rebecca’s Stilettos in ‘Ted Lasso’: ‘I Am Blessed’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "8d0885e4-hannah-waddingham-on-wickeds-madame-morrible-rumors-her-new-"
-        },
-        {
-          "title": "Marcia Lucas Dies: ‘Star Wars’ Editor & Ex-Wife of George Lucas Was 80",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 10,
-          "slug": "b50dc99c-marcia-lucas-dies-star-wars-editor-ex-wife-of-george-lucas-w"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Dutton Ranch’ Episode 4: Rip Shoots Dozens of Cows, Beth Catches Carter Hooking Up With Beulah’s Granddaughter and We Meet Creepy Dwight",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Strip Law’ Canceled at Netflix; Won’t Return For Season 2 As Creator Shares Series Finale Secrets",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-03T14:01:01.889Z"
+  "lastUpdated": "2026-06-03T16:01:09.335Z"
 }
