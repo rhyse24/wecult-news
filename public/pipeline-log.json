@@ -1,6 +1,38 @@
 {
-  "totalArticles": 202,
+  "totalArticles": 205,
   "runs": [
+    {
+      "timestamp": "2026-06-03T04:01:01.117Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 269,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "9 Books That Practice Queer Ecology",
+          "category": "books",
+          "source": "Electric Literature",
+          "score": 13,
+          "slug": "73edfdbf-9-books-that-practice-queer-ecology"
+        },
+        {
+          "title": "What the Backrooms Movie Doesn’t Tell You About Backrooms‘ Lore",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 12,
+          "slug": "280f67c6-what-the-backrooms-movie-doesnt-tell-you-about-backrooms-lor"
+        },
+        {
+          "title": "Tonight the Music Seems So Loud by Sathnam Sanghera review – a heartbreaking portrait of George Michael",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 10,
+          "slug": "2d75c39a-tonight-the-music-seems-so-loud-by-sathnam-sanghera-review-a"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-03T02:00:59.824Z",
       "status": "quota",
@@ -2255,47 +2287,7 @@
       "totalCandidates": 82,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-30T06:00:20.324Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 254,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "3 Best Binge-Worthy Series to Watch on Prime Video This Weekend",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 14,
-          "slug": "d6fc7d7b-3-best-binge-worthy-series-to-watch-on-prime-video-this-week"
-        },
-        {
-          "title": "Lucasfilm Pays Tribute to ‘Star Wars’ Editor Marcia Lucas: ‘Deeply Saddened’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "112c20c3-lucasfilm-pays-tribute-to-star-wars-editor-marcia-lucas-deep"
-        },
-        {
-          "title": "New to Streaming: Kontinental ‘25, Two Prosecutors, Two Women, Fuze & More",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 12,
-          "slug": "46eaf865-new-to-streaming-kontinental-25-two-prosecutors-two-women-fu"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Backrooms’ Director Kane Parsons Explains It All: Breaking Down Liminal Spaces, Why He Was Nervous His Work Might Get ‘Butchered by Suits’ and What Sequels Might Look Like",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-03T02:00:59.824Z"
+  "lastUpdated": "2026-06-03T04:01:01.117Z"
 }
