@@ -1,6 +1,38 @@
 {
-  "totalArticles": 208,
+  "totalArticles": 211,
   "runs": [
+    {
+      "timestamp": "2026-06-03T08:00:55.157Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 276,
+      "totalCandidates": 69,
+      "written": [
+        {
+          "title": "The Boys Star Jack Quaid’s Next Role Is Utterly Baffling, But We’re Here For It",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 16,
+          "slug": "49bc633d-the-boys-star-jack-quaids-next-role-is-utterly-baffling-but-"
+        },
+        {
+          "title": "Sony's summer State of Play showcase was big on God of War, Wolverine, gore and GTA-dodging release dates",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 14,
+          "slug": "1cd6bcaf-sonys-summer-state-of-play-showcase-was-big-on-god-of-war-wo"
+        },
+        {
+          "title": "Control Resonant Release Date Announced in New Trailer, Costs $60",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "096d0abd-control-resonant-release-date-announced-in-new-trailer-costs"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-03T06:00:51.338Z",
       "status": "success",
@@ -2248,57 +2280,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-30T10:00:56.989Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 245,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "For All Mankind Finale: EPs Explain The 'Difficult' Choice To Kill Off [Spoiler] — Plus, More On That Time Jump Mystery",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "3375f315-for-all-mankind-finale-eps-explain-the-difficult-choice-to-k"
-        },
-        {
-          "title": "5 Best True Crime Shows Of 2026 (So Far)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "892850bc-5-best-true-crime-shows-of-2026-so-far"
-        },
-        {
-          "title": "‘Wednesday,’ ‘Beef’ and ‘Stranger Things’ Artisans Reveal the Essential Tools They Need to Do Their Jobs",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "4b4b2273-wednesday-beef-and-stranger-things-artisans-reveal-the-essen"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Dutton Ranch’ Episode 4: Rip Shoots Dozens of Cows, Beth Catches Carter Hooking Up With Beulah’s Granddaughter and We Meet Creepy Dwight",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Stranger Things’ Star Nell Fisher Leads 5 New Cast Additions for Netflix’s ‘The God of the Woods’ Adaptation",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-03T06:00:51.338Z"
+  "lastUpdated": "2026-06-03T08:00:55.157Z"
 }
