@@ -1,6 +1,24 @@
 {
-  "totalArticles": 221,
+  "totalArticles": 222,
   "runs": [
+    {
+      "timestamp": "2026-06-03T16:53:34.838Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "‘Backrooms’ Crosses $100 Million in 6 Days to Become A24’s Biggest Movie at Domestic Box Office",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "63b0dcc7-backrooms-crosses-100-million-in-6-days-to-become-a24s-bigge"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-03T16:01:09.335Z",
       "status": "quota",
@@ -2241,40 +2259,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-30T17:08:59.216Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 232,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": " The remarkable story of Unreal 2, the sequel rescued from development hell by dooming it to failure: 'There was just no way we could succeed' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 16,
-          "slug": "e90897ed-the-remarkable-story-of-unreal-2-the-sequel-rescued-from-dev"
-        },
-        {
-          "title": "Call of Duty: Modern Warfare 4 Devs Say 'Keep the Receipts' Amid Commitment to Grounded Skins",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "e2a4e5e3-call-of-duty-modern-warfare-4-devs-say-keep-the-receipts-ami"
-        }
-      ],
-      "rejected": [
-        {
-          "title": " A toast to the wild west weirdos of the MMO goldrush—from the game that unleashed pandora's lootbox, to a deeply strange mess based off a 1996 science fiction novel ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 16,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-03T16:01:09.335Z"
+  "lastUpdated": "2026-06-03T16:53:34.838Z"
 }
