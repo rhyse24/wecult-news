@@ -2,6 +2,31 @@
   "totalArticles": 225,
   "runs": [
     {
+      "timestamp": "2026-06-03T22:00:52.202Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 94,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Naughty Dog No-Show at PlayStation State of Play Leaves Fans Fearing Intergalactic: The Heretic Prophet is Still a Long Way From Launch",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "8 Big Takeaways From God Of War Laufey’s 20-Minute Debut Trailer",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 16,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-03T20:58:03.424Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2271,17 +2296,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-30T21:01:00.470Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 218,
-      "totalCandidates": 15,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-03T20:58:03.424Z"
+  "lastUpdated": "2026-06-03T22:00:52.202Z"
 }
