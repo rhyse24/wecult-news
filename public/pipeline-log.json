@@ -1,6 +1,53 @@
 {
-  "totalArticles": 214,
+  "totalArticles": 217,
   "runs": [
+    {
+      "timestamp": "2026-06-03T11:03:47.691Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "Onslaught Trailer: Adria Arjona Takes on Super Soldiers in Adam Wingard’s Action Horror",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 11,
+          "slug": "612cefb5-onslaught-trailer-adria-arjona-takes-on-super-soldiers-in-ad"
+        },
+        {
+          "title": "Zendaya and Tom Holland Spoke Up on ‘Spider-Man: Brand New Day’ Set When Scene Wasn’t Working; Director Sent Crew Home So It Could Be Rewritten",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "f0a00ce2-zendaya-and-tom-holland-spoke-up-on-spider-man-brand-new-day"
+        },
+        {
+          "title": "‘War Machine’ Sequel in the Works From Netflix After Action Film Becomes One of Streamer’s Most-Watched Films",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "a11895fc-war-machine-sequel-in-the-works-from-netflix-after-action-fi"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "How ‘Jurassic Park’ and Steven Spielberg Inspired a Greek Indie Cinematic Allegory for Othering",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "8 Greatest Blockbuster Thriller Movies of All Time ",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-03T10:00:56.373Z",
       "status": "success",
@@ -2218,47 +2265,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-30T13:43:24.305Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 236,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "Pokemon reportedly bans graded slabs from official events in major scalper crackdown",
-          "category": "games",
-          "source": "Dexerto",
-          "score": 15,
-          "slug": "3018ba91-pokemon-reportedly-bans-graded-slabs-from-official-events-in"
-        },
-        {
-          "title": " Pragmata's developers take all your comparisons to Xbox 360 shooters as a 'huge compliment', though I'm not convinced by their theory for why players are making the connection ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "d22f2b7c-pragmatas-developers-take-all-your-comparisons-to-xbox-360-s"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Talking Point: What Are You Playing This Weekend? (30th May)",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 14,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "New Xbox Boss Says Decision to Continue to Show PS5 Logos During Its Xbox Games Showcase 'Was a Miss, and I Own It'",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-03T10:00:56.373Z"
+  "lastUpdated": "2026-06-03T11:03:47.691Z"
 }
