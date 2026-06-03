@@ -2,6 +2,24 @@
   "totalArticles": 222,
   "runs": [
     {
+      "timestamp": "2026-06-03T18:00:54.179Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 51,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Disney Moves Some Super Bowl Commercials at $8 Million Amid Advertiser Squabbles (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-03T16:53:34.838Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2233,33 +2251,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-30T18:00:58.193Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 231,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "12 Best Lightsaber Designs in ‘Star Wars'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "slug": "090e32da-12-best-lightsaber-designs-in-star-wars"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Minecraft’ Sequel Gets New Title: ‘A Minecraft Movie Squared’",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-03T16:53:34.838Z"
+  "lastUpdated": "2026-06-03T18:00:54.179Z"
 }
