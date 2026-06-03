@@ -1,6 +1,24 @@
 {
-  "totalArticles": 201,
+  "totalArticles": 202,
   "runs": [
+    {
+      "timestamp": "2026-06-03T02:00:59.824Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 55,
+      "written": [
+        {
+          "title": "Why Tom Holland Has Turned Down Hosting Saturday Night Live Multiple Times",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "f512fafa-why-tom-holland-has-turned-down-hosting-saturday-night-live-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-03T00:00:58.507Z",
       "status": "quota",
@@ -2277,32 +2295,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-30T04:00:24.750Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 253,
-      "totalCandidates": 35,
-      "written": [],
-      "rejected": [
-        {
-          "title": "3 Best Binge-Worthy Series to Watch on Prime Video This Weekend",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "‘Backrooms’ Director Kane Parsons Explains It All: Breaking Down Liminal Spaces, Why He Was Nervous His Work Might Get ‘Butchered by Suits’ and What Sequels Might Look Like",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-03T00:00:58.507Z"
+  "lastUpdated": "2026-06-03T02:00:59.824Z"
 }
