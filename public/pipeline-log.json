@@ -1,6 +1,38 @@
 {
-  "totalArticles": 205,
+  "totalArticles": 208,
   "runs": [
+    {
+      "timestamp": "2026-06-03T06:00:51.338Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 279,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "Masters of the Universe Review: A Cute Kids Movie When It Isn’t Trying to Be Barbie",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 14,
+          "slug": "4b3452f4-masters-of-the-universe-review-a-cute-kids-movie-when-it-isn"
+        },
+        {
+          "title": "Hulu’s Limp Sitcom “Not Suitable for Work” Is Hardly Suitable for Primetime",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 12,
+          "slug": "e55986b9-hulus-limp-sitcom-not-suitable-for-work-is-hardly-suitable-f"
+        },
+        {
+          "title": "Robert Pattinson Confronts Critics of His Batman Body by Saying ‘I Worked Out Every F—ing Day,’ Reveals ‘The Batman 2’ Has 11 Weeks of Night Shoots",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "slug": "062d15df-robert-pattinson-confronts-critics-of-his-batman-body-by-say"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-03T04:20:52.924Z",
       "status": "quota",
@@ -2266,39 +2298,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-30T08:00:23.561Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 249,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "Drift0r reveals mysterious illness that might force him to retire from making content",
-          "category": "games",
-          "source": "Dexerto",
-          "score": 15,
-          "slug": "f10214f0-drift0r-reveals-mysterious-illness-that-might-force-him-to-r"
-        },
-        {
-          "title": "Fable PS5 Delayed, Moved Away from GTA 6 for the 'Dedicated Moment It Deserves'",
-          "category": "games",
-          "source": "Push Square",
-          "score": 14,
-          "slug": "6884a2e1-fable-ps5-delayed-moved-away-from-gta-6-for-the-dedicated-mo"
-        },
-        {
-          "title": "2026 video game release date calendar",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 13,
-          "slug": "ee9c940b-2026-video-game-release-date-calendar"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-03T04:20:52.924Z"
+  "lastUpdated": "2026-06-03T06:00:51.338Z"
 }
