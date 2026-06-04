@@ -1,6 +1,46 @@
 {
-  "totalArticles": 255,
+  "totalArticles": 258,
   "runs": [
+    {
+      "timestamp": "2026-06-04T23:11:00.448Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 282,
+      "totalCandidates": 56,
+      "written": [
+        {
+          "title": "New Starz Spin-Off Power: Legacy Greenlit At Starz, Will Follow Tariq And Tommy In New York",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "b308ca1b-new-starz-spin-off-power-legacy-greenlit-at-starz-will-follo"
+        },
+        {
+          "title": "Streaming Ratings: ‘La Brea’ Gets a Netflix Bump to the Top of the Charts",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "78aa72f2-streaming-ratings-la-brea-gets-a-netflix-bump-to-the-top-of-"
+        },
+        {
+          "title": "Batman: Caped Crusader to Mash Up Two Beloved Batman Stories in Season 2",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 10,
+          "slug": "08c8b0ae-batman-caped-crusader-to-mash-up-two-beloved-batman-stories-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "5 Euphoria Season 3 Theories That Aged Poorly",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-04T22:00:34.688Z",
       "status": "quota",
@@ -2223,68 +2263,7 @@
       "totalCandidates": 65,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-31T19:20:21.689Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 161,
-      "totalCandidates": 17,
-      "written": [
-        {
-          "title": "‘Backrooms’ Director Kane Parsons Is Youngest Filmmaker Ever to Hit No. 1, Curry Barker’s ‘Obsession’ Makes 3rd Weekend History",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 9,
-          "slug": "6e31ae43-backrooms-director-kane-parsons-is-youngest-filmmaker-ever-t"
-        },
-        {
-          "title": "The Best Way To Make A Post-Hugh Jackman Wolverine Work In The MCU Has Already Been Proven",
-          "category": "film",
-          "source": "Looper",
-          "score": 9,
-          "slug": "523eb671-the-best-way-to-make-a-post-hugh-jackman-wolverine-work-in-t"
-        },
-        {
-          "title": "What's the Greatest Animated Movie of All Time? Surely It's One of These 10 Films",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 6,
-          "slug": "e59f6d3f-whats-the-greatest-animated-movie-of-all-time-surely-its-one"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Most Meticulously Constructed Thrillers of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "Marcia Lucas, Oscar-Winning Editor Behind ‘Star Wars,’ Dies at 80",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘A Minecraft Movie’ Sequel Gets New Title",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 7,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-04T22:00:34.688Z"
+  "lastUpdated": "2026-06-04T23:11:00.448Z"
 }
