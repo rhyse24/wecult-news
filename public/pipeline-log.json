@@ -1,6 +1,32 @@
 {
-  "totalArticles": 251,
+  "totalArticles": 252,
   "runs": [
+    {
+      "timestamp": "2026-06-04T20:00:52.093Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 286,
+      "totalCandidates": 55,
+      "written": [
+        {
+          "title": "2026 video game release dates: PS5, PS4, Xbox, PC and Switch",
+          "category": "tv",
+          "source": "Radio Times",
+          "score": 15,
+          "slug": "f010ff61-2026-video-game-release-dates-ps5-ps4-xbox-pc-and-switch"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "5 Euphoria Season 3 Theories That Aged Poorly",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-04T18:00:52.794Z",
       "status": "quota",
@@ -2257,25 +2283,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-31T16:01:15.262Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 165,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "Emma Corrin on Going From Playing Princess Diana to a Marvel Villain, Feeling ‘Daunted’ by Netflix’s ‘Pride & Prejudice’ Series and Being Our First Nonbinary Power of Women Honoree: It’s ‘F—ing Awesome’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 17,
-          "slug": "7c626be1-emma-corrin-on-going-from-playing-princess-diana-to-a-marvel"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-04T18:00:52.794Z"
+  "lastUpdated": "2026-06-04T20:00:52.093Z"
 }
