@@ -1,6 +1,38 @@
 {
-  "totalArticles": 245,
+  "totalArticles": 248,
   "runs": [
+    {
+      "timestamp": "2026-06-04T14:00:55.350Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 272,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "‘I’m the Craziest Bitch You Ever Met’: Sharon Stone and Keke Palmer on Why ‘Euphoria’ Should Be Shown in High Schools, Men’s Rights and AI’s Lack of Originality",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 17,
+          "slug": "0b7eec75-im-the-craziest-bitch-you-ever-met-sharon-stone-and-keke-pal"
+        },
+        {
+          "title": "‘Euphoria’: Anna Van Patten Breaks Down that Silver Slipper Shootout & Kitty’s Prosthetics",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 12,
+          "slug": "697effe7-euphoria-anna-van-patten-breaks-down-that-silver-slipper-sho"
+        },
+        {
+          "title": "The Untold Saga Behind an Infamous Male Supermodel Cult",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "a50a0f3e-the-untold-saga-behind-an-infamous-male-supermodel-cult"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-04T12:50:10.083Z",
       "status": "success",
@@ -2259,25 +2291,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-31T12:01:12.968Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 179,
-      "totalCandidates": 22,
-      "written": [
-        {
-          "title": "What To Watch Sunday: The Audacity And Euphoria Wrap, Eddie Murphy Tribute, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "bb42dab4-what-to-watch-sunday-the-audacity-and-euphoria-wrap-eddie-mu"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-04T12:50:10.083Z"
+  "lastUpdated": "2026-06-04T14:00:55.350Z"
 }
