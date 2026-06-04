@@ -1,6 +1,24 @@
 {
-  "totalArticles": 227,
+  "totalArticles": 228,
   "runs": [
+    {
+      "timestamp": "2026-06-04T02:00:50.931Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "10 Greatest Fantasy Books of the Last 50 Years",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "1872ba77-10-greatest-fantasy-books-of-the-last-50-years"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-04T00:00:52.367Z",
       "status": "quota",
@@ -2272,39 +2290,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-31T00:00:57.432Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 213,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "Only 3 Fantasy Movies Have Better Visual Effects Than The Lord of the Rings",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "slug": "078e3d0a-only-3-fantasy-movies-have-better-visual-effects-than-the-lo"
-        },
-        {
-          "title": "‘Minecraft’ Sequel Gets New Title: ‘A Minecraft Movie Squared’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "63aae6be-minecraft-sequel-gets-new-title-a-minecraft-movie-squared"
-        },
-        {
-          "title": "Emily Blunt Says She’s “Terrified” of AI, Chose Not to Use It in Steven Spielberg’s ‘Disclosure Day’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "slug": "cdf95c08-emily-blunt-says-shes-terrified-of-ai-chose-not-to-use-it-in"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-04T00:00:52.367Z"
+  "lastUpdated": "2026-06-04T02:00:50.931Z"
 }
