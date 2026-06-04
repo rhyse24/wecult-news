@@ -1,6 +1,56 @@
 {
-  "totalArticles": 230,
+  "totalArticles": 233,
   "runs": [
+    {
+      "timestamp": "2026-06-04T06:00:51.402Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "10 Best Martial Arts Movies of the 2020s",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "891b0376-10-best-martial-arts-movies-of-the-2020s"
+        },
+        {
+          "title": "Boots Riley Guesses Martin Scorsese Got ‘A Gang of Money’ for AI Partnership and ‘Doesn’t Give a F—‘",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "fb25897e-boots-riley-guesses-martin-scorsese-got-a-gang-of-money-for-"
+        },
+        {
+          "title": "The Woman Who Saved “Star Wars”: Marcia Lucas (1945-2026)",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 9,
+          "slug": "96b73916-the-woman-who-saved-star-wars-marcia-lucas-1945-2026"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Only 3 Masterpiece Fantasy Movies Are Better Than The Lord of the Rings",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Backrooms’ Director Kane Parsons Says Using AI ‘Defeats the Purpose’ of Filmmaking: ‘I Get No Enjoyment From Using Those Tools’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "quality_gate",
+          "errors": [
+            "TR body too short: 218 words (need ≥220)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-04T04:15:05.672Z",
       "status": "quota",
@@ -2251,17 +2301,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-31T06:01:14.107Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 205,
-      "totalCandidates": 24,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-04T04:15:05.672Z"
+  "lastUpdated": "2026-06-04T06:00:51.402Z"
 }
