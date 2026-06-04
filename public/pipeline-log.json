@@ -1,6 +1,24 @@
 {
-  "totalArticles": 229,
+  "totalArticles": 230,
   "runs": [
+    {
+      "timestamp": "2026-06-04T04:15:05.672Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "The Dog Is Still in Danger in Final Supergirl Trailer",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "6ae3856e-the-dog-is-still-in-danger-in-final-supergirl-trailer"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-04T04:00:53.324Z",
       "status": "quota",
@@ -2243,40 +2261,7 @@
       "totalCandidates": 24,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-31T04:01:13.868Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 208,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "Timothy Olyphant Has Two Hopes For His Alien: Earth Season 2 Storyline",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "1490062a-timothy-olyphant-has-two-hopes-for-his-alien-earth-season-2-"
-        },
-        {
-          "title": "20 Best TV Moments Of 2026 (So Far)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "4b2430c9-20-best-tv-moments-of-2026-so-far"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "15 Best TV Shows Like The Morning Show",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-04T04:00:53.324Z"
+  "lastUpdated": "2026-06-04T04:15:05.672Z"
 }
