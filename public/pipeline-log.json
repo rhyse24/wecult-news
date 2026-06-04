@@ -1,6 +1,53 @@
 {
-  "totalArticles": 248,
+  "totalArticles": 251,
   "runs": [
+    {
+      "timestamp": "2026-06-04T16:00:53.231Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 278,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "Sci-Fi Storytelling Continues to Evolve Without AI",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "slug": "debfaf38-sci-fi-storytelling-continues-to-evolve-without-ai"
+        },
+        {
+          "title": "‘The Burial’ Writer and Tony Award Winner Doug Wright Signs With Anonymous Content (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "26b83f61-the-burial-writer-and-tony-award-winner-doug-wright-signs-wi"
+        },
+        {
+          "title": "Celebrating the Most Ludicrous Moments of the Marvel Cinematic Universe’s Phase 4",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 9,
+          "slug": "a5269610-celebrating-the-most-ludicrous-moments-of-the-marvel-cinemat"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Only 3 Masterpiece Fantasy Movies Are Better Than The Lord of the Rings",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Scary Movie’ Review: The Sixth ‘Scary Movie’ Has a Few Choice Gags, but Mostly It’s So Meta It’s Meh",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-04T14:00:55.350Z",
       "status": "success",
@@ -2255,43 +2302,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-31T13:48:51.893Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 176,
-      "totalCandidates": 69,
-      "written": [
-        {
-          "title": " This fan remake of 1999's Medal of Honor proved so popular that its creator added a level cut from the original game ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 18,
-          "slug": "ffe4454c-this-fan-remake-of-1999s-medal-of-honor-proved-so-popular-th"
-        },
-        {
-          "title": "GTA 6 Channel Created On Rockstar's Official Discord",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 12,
-          "slug": "08b878b8-gta-6-channel-created-on-rockstars-official-discord"
-        }
-      ],
-      "rejected": [
-        {
-          "title": " Mass Effect and Metal Gear actor Jennifer Hale calls on studios to take responsibility for their AI use: 'Ain't nobody making you do it' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-04T14:00:55.350Z"
+  "lastUpdated": "2026-06-04T16:00:53.231Z"
 }
