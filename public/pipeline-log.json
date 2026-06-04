@@ -1,6 +1,49 @@
 {
-  "totalArticles": 236,
+  "totalArticles": 239,
   "runs": [
+    {
+      "timestamp": "2026-06-04T09:59:05.338Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "‘Daredevil: Born Again’ Finale’s Hallway Scene Took Three Days of Prep and One Day to Shoot",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 11,
+          "slug": "5a0711af-daredevil-born-again-finales-hallway-scene-took-three-days-o"
+        },
+        {
+          "title": "The Super Mario Galaxy Movie Stays at #2, 3rd Mononoke Film Opens at #6 in Japan",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 11,
+          "slug": "1418e568-the-super-mario-galaxy-movie-stays-at-2-3rd-mononoke-film-op"
+        },
+        {
+          "title": "Off Campus Season 2 Spoilers: What Happens In The Books?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "c1617173-off-campus-season-2-spoilers-what-happens-in-the-books"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Euphoria’: Anna Van Patten Breaks Down that Silver Slipper Shootout & Kitty’s Prosthetics",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 15 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-04T08:00:54.478Z",
       "status": "success",
@@ -2275,47 +2318,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-31T08:48:43.936Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 202,
-      "totalCandidates": 71,
-      "written": [
-        {
-          "title": " A toast to the wild west weirdos of the MMO goldrush—from the game that unleashed pandora's lootbox, to a deeply strange mess based off a 1996 science fiction novel ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "011100c6-a-toast-to-the-wild-west-weirdos-of-the-mmo-goldrushfrom-the"
-        },
-        {
-          "title": "Super Mario 64 was just beaten by 100 players at once, in the same session",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 13,
-          "slug": "d1ab876c-super-mario-64-was-just-beaten-by-100-players-at-once-in-the"
-        },
-        {
-          "title": "15 Major Game Reveals We Could See At The Next State of Play",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 11,
-          "slug": "2a403a6a-15-major-game-reveals-we-could-see-at-the-next-state-of-play"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Talking Point: What Are You Playing This Weekend? (30th May)",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 11,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-04T08:00:54.478Z"
+  "lastUpdated": "2026-06-04T09:59:05.338Z"
 }
