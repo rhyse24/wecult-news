@@ -1,6 +1,32 @@
 {
-  "totalArticles": 252,
+  "totalArticles": 253,
   "runs": [
+    {
+      "timestamp": "2026-06-04T20:08:25.462Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 287,
+      "totalCandidates": 92,
+      "written": [
+        {
+          "title": "Backrooms Director Praises Valve’s “Integrity” For Not Making Sequels Just For Money",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 16,
+          "slug": "82be653c-backrooms-director-praises-valves-integrity-for-not-making-s"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Elden Ring Tarnished Edition Has a Nintendo Switch 2 Release Date, Additional Content Also Available to Buy on Other Platforms",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-04T20:00:52.093Z",
       "status": "quota",
@@ -2251,39 +2277,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-31T17:08:43.657Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 162,
-      "totalCandidates": 6,
-      "written": [
-        {
-          "title": "Maggie O’Farrell: ‘Fiction comes from what you don’t know’",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 9,
-          "slug": "09bc9b28-maggie-ofarrell-fiction-comes-from-what-you-dont-know"
-        },
-        {
-          "title": "Book Review: ‘Rabbit, Fox, Tar,’ by P.C. Verrone",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 4,
-          "slug": "5014742b-book-review-rabbit-fox-tar-by-pc-verrone"
-        },
-        {
-          "title": "Are ‘mind children’ the future of reproduction?",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 4,
-          "slug": "8d108af1-are-mind-children-the-future-of-reproduction"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-04T20:00:52.093Z"
+  "lastUpdated": "2026-06-04T20:08:25.462Z"
 }
