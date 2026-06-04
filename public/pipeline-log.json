@@ -1,6 +1,60 @@
 {
-  "totalArticles": 233,
+  "totalArticles": 236,
   "runs": [
+    {
+      "timestamp": "2026-06-04T08:00:54.478Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 271,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "You Can Now Fight Take-Two CEO Strauss Zelnick in WWE 2K26",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "c557ef6b-you-can-now-fight-take-two-ceo-strauss-zelnick-in-wwe-2k26"
+        },
+        {
+          "title": "CoD Season 4 Patch Notes Detail SG-12 Nerf, Anti-Cheat Updates, And More",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 11,
+          "slug": "438ad57d-cod-season-4-patch-notes-detail-sg-12-nerf-anti-cheat-update"
+        },
+        {
+          "title": "GTA 6 Has Turned September Into a Video Game Battle Royale",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "slug": "09d6ab0b-gta-6-has-turned-september-into-a-video-game-battle-royale"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "LEGO Batman: Legacy of the Dark Knight Gets Nintendo Switch 2 Release Date",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Control Resonant Has a 2-Day Early Access Period via the Digital Deluxe Edition — but Only on PS5",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "God Of War Devs Explain Laufey’s Place In The Franchise",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 11,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-04T06:00:51.402Z",
       "status": "success",
@@ -2261,47 +2315,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-31T08:01:15.504Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 206,
-      "totalCandidates": 23,
-      "written": [
-        {
-          "title": "10 Greatest Books of the '90s",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "slug": "a50ad90e-10-greatest-books-of-the-90s"
-        },
-        {
-          "title": "Tom Holland Is Looking Forward to ‘Setting Up the Next Chapter’ For a New ‘Spider-Man’ Star: ‘I Could Do What Downey Did For Me’",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "d5e629e5-tom-holland-is-looking-forward-to-setting-up-the-next-chapte"
-        },
-        {
-          "title": "The Shocking Success of ‘Backrooms’ and ‘Obsession’ Should Be a Memo to Hollywood: You Need What’s Outside the Box",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "486c1386-the-shocking-success-of-backrooms-and-obsession-should-be-a-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Backrooms’ Scares Up $38 Million on Friday, Already Shattering Record for A24’s Best Opening Weekend",
-          "category": "film",
-          "source": "Variety",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-04T06:00:51.402Z"
+  "lastUpdated": "2026-06-04T08:00:54.478Z"
 }
