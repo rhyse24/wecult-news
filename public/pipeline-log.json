@@ -2,6 +2,24 @@
   "totalArticles": 282,
   "runs": [
     {
+      "timestamp": "2026-06-05T21:40:47.701Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 48,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Backrooms uses the bluntest metaphors to capture a uniquely Gen Z fear",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-05T19:57:55.191Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2121,40 +2139,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-01T16:01:17.961Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 221,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "Sydney Sweeney Told ‘Euphoria’ Creator Not to Cut Nude Scenes From Season 3 When He Considered Excluding Them: ‘Are You Kidding?’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 17,
-          "slug": "47247367-sydney-sweeney-told-euphoria-creator-not-to-cut-nude-scenes-"
-        },
-        {
-          "title": "15 Games We Don’t Believe Anyone Actually Played All the Way Through",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 17,
-          "slug": "ef0494ff-15-games-we-dont-believe-anyone-actually-played-all-the-way-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Why X-Men '97 Had To Update Magneto's Look From The Original Animated Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-05T19:57:55.191Z"
+  "lastUpdated": "2026-06-05T21:40:47.701Z"
 }
