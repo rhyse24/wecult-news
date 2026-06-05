@@ -1,6 +1,24 @@
 {
-  "totalArticles": 262,
+  "totalArticles": 263,
   "runs": [
+    {
+      "timestamp": "2026-06-05T06:00:35.878Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 93,
+      "written": [
+        {
+          "title": "New PC Game Hijinks High From Laid-Off Xbox Developers Challenges You To Become A High School Menace",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 16,
+          "slug": "6b5aed67-new-pc-game-hijinks-high-from-laid-off-xbox-developers-chall"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-05T03:59:05.881Z",
       "status": "quota",
@@ -2215,54 +2233,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-05-31T23:02:02.282Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 155,
-      "totalCandidates": 16,
-      "written": [
-        {
-          "title": "10 Most Meticulously Constructed Thrillers of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "slug": "347f8832-10-most-meticulously-constructed-thrillers-of-all-time"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "5 Most Important James Bond Movies That Define the Franchise",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Only 3 Movie Trilogies Have More Replay Value Than ‘The Lord of the Rings’",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Marcia Lucas, Oscar-Winning Editor Behind ‘Star Wars,’ Dies at 80",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-05T03:59:05.881Z"
+  "lastUpdated": "2026-06-05T06:00:35.878Z"
 }
