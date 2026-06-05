@@ -1,6 +1,38 @@
 {
-  "totalArticles": 258,
+  "totalArticles": 261,
   "runs": [
+    {
+      "timestamp": "2026-06-05T02:00:38.185Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 281,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Embracing the Therapeutic Power of Katamari Damacy",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "6332d3c1-embracing-the-therapeutic-power-of-katamari-damacy"
+        },
+        {
+          "title": "Alan Gribben, Twain Scholar Who Excised Slur From ‘Huck Finn,’ Dies at 84",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 11,
+          "slug": "401e31e5-alan-gribben-twain-scholar-who-excised-slur-from-huck-finn-d"
+        },
+        {
+          "title": "Read an Excerpt From The Exquisite Torment of Loving Your Enemy by Brigitte Knightley",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "deb586b6-read-an-excerpt-from-the-exquisite-torment-of-loving-your-en"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-05T00:00:31.819Z",
       "status": "quota",
@@ -2245,25 +2277,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-31T21:01:59.204Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 158,
-      "totalCandidates": 67,
-      "written": [
-        {
-          "title": " There's one game Don't Nod narrative designer Nina Freeman won't ever uninstall from her PC, because it's banned on Steam: 'It's tragic, because everyone should play this game' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 18,
-          "slug": "fc831595-theres-one-game-dont-nod-narrative-designer-nina-freeman-won"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-05T00:00:31.819Z"
+  "lastUpdated": "2026-06-05T02:00:38.185Z"
 }
