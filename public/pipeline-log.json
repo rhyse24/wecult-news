@@ -1,6 +1,74 @@
 {
-  "totalArticles": 263,
+  "totalArticles": 266,
   "runs": [
+    {
+      "timestamp": "2026-06-05T08:00:35.498Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 276,
+      "totalCandidates": 54,
+      "written": [
+        {
+          "title": "‘Stranger Things,’ ‘Monster’ Directors and More Unpack Storytelling Techniques and Embracing ‘Weird Ideas’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "d1a08d90-stranger-things-monster-directors-and-more-unpack-storytelli"
+        },
+        {
+          "title": "Devil May Cry Renewed For Third And Final Season At Netflix",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 8,
+          "slug": "e630b5b6-devil-may-cry-renewed-for-third-and-final-season-at-netflix"
+        },
+        {
+          "title": "‘The Daily Show’ Goes to New Orleans as Jordan Klepper Celebrates America 250 With a Drunk Pirate (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 7,
+          "slug": "90becb38-the-daily-show-goes-to-new-orleans-as-jordan-klepper-celebra"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "5 Euphoria Season 3 Theories That Aged Poorly",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Vince Vaughn Breaks Down His EA Sports History: From ‘Swingers’ to ‘The Breakup’ to ‘Madden NFL 27’",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Mononoke Film Trilogy Producer Kōji Yamamoto Retires from Producing, Apologizes After Recasting Takahiro Sakurai in 3rd Film",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Cape Fear Review: A Riveting Javier Bardem Keeps Apple TV's Shaky Adaptation Afloat",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "No Superheroes? No Problem. Inside the Making of ‘Wonder Man’",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 8,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-05T06:00:35.878Z",
       "status": "quota",
@@ -2215,25 +2283,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-01T00:01:04.534Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 154,
-      "totalCandidates": 61,
-      "written": [
-        {
-          "title": " Before Mina the Hollower, Yacht Club paused a 3D Shovel Knight game that's 'not far from being showable' and a possible next project ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 16,
-          "slug": "dd033f69-before-mina-the-hollower-yacht-club-paused-a-3d-shovel-knigh"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-05T06:00:35.878Z"
+  "lastUpdated": "2026-06-05T08:00:35.498Z"
 }
