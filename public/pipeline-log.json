@@ -1,6 +1,24 @@
 {
-  "totalArticles": 281,
+  "totalArticles": 282,
   "runs": [
+    {
+      "timestamp": "2026-06-05T19:57:55.191Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 281,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "Masters of the Universe Can Point the Way for Thor 5",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "slug": "b7b1af74-masters-of-the-universe-can-point-the-way-for-thor-5"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-05T18:00:39.228Z",
       "status": "success",
@@ -2136,39 +2154,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-01T14:01:07.399Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 205,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "Hot on the Heels of Katsuhiro Harada's Exit From Bandai Namco, the Director of Tekken 7 and 8 Has Left Too",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 16,
-          "slug": "3bcd917b-hot-on-the-heels-of-katsuhiro-haradas-exit-from-bandai-namco"
-        },
-        {
-          "title": "Backrooms And Obsession Beat Mandalorian And Grogu At The Box Office",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "slug": "d1e99b1b-backrooms-and-obsession-beat-mandalorian-and-grogu-at-the-bo"
-        },
-        {
-          "title": "Video Games Could Have Movie-Style Product Placement to Counter Rising Costs, Ex-Dragon Age Boss Says",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "e50d62ee-video-games-could-have-movie-style-product-placement-to-coun"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-05T18:00:39.228Z"
+  "lastUpdated": "2026-06-05T19:57:55.191Z"
 }
