@@ -1,6 +1,60 @@
 {
-  "totalArticles": 266,
+  "totalArticles": 269,
   "runs": [
+    {
+      "timestamp": "2026-06-05T08:14:03.456Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 272,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "10 Most Ambitious Superhero Movies of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "slug": "842b2bc3-10-most-ambitious-superhero-movies-of-all-time"
+        },
+        {
+          "title": "‘Death Boom’ Trailer: Documentary From Eli Roth, Jessica Chandler and Leonardo DiCaprio’s Appian Way Investigates End-of-Life Industry (EXCLUSIVE) ",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "slug": "248a99fe-death-boom-trailer-documentary-from-eli-roth-jessica-chandle"
+        },
+        {
+          "title": "10 Greatest Neo-Noirs of the 2000s",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "slug": "2b2baf2a-10-greatest-neo-noirs-of-the-2000s"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Fantasy Movies That Are Perfect From the First Scene to the Last",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Max Kleven, Stuntman, Second-Unit Director on ‘Rollerball,’ ‘Batman Returns’ and ‘The River Wild,’ Dies at 92",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Only 7 Sci-Fi Movies Are More Rewatchable Than ‘The Matrix’",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-05T08:00:35.498Z",
       "status": "success",
@@ -2247,43 +2301,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-01T02:01:03.088Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 154,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "Star City EP Teases The 'Unconventional Love Story' Ahead For Anastasia And Sasha — Plus, Grade The Spin-Off's Premiere",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "f5b8da1e-star-city-ep-teases-the-unconventional-love-story-ahead-for-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘The Way Home’ to Release Playlist With 30+ Original Songs From All 4 Seasons Ahead of Series Finale (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "16 Best TV Performances Of 2026 (So Far)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 974 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-05T08:00:35.498Z"
+  "lastUpdated": "2026-06-05T08:14:03.456Z"
 }
