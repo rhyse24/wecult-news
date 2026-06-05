@@ -1,6 +1,39 @@
 {
-  "totalArticles": 272,
+  "totalArticles": 274,
   "runs": [
+    {
+      "timestamp": "2026-06-05T12:40:25.397Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "Cape Fear's opening episodes offer a new flavor of a famously terrifying villain",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "bdc37cbb-cape-fears-opening-episodes-offer-a-new-flavor-of-a-famously"
+        },
+        {
+          "title": "What To Watch Friday: JLo & Brett Goldstein's Office Romance, Lorne Michaels Documentary, Pop Culture Jeopardy! Finale, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "a41e3ea8-what-to-watch-friday-jlo-brett-goldsteins-office-romance-lor"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "5 Euphoria Season 3 Theories That Aged Poorly",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-05T12:00:34.974Z",
       "status": "quota",
@@ -2235,39 +2268,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-01T06:01:02.327Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 158,
-      "totalCandidates": 63,
-      "written": [
-        {
-          "title": " Steam Week in Review: 4 Backrooms games released on Steam last week, joining a list of over 500 cash-ins, parodies and legitimate contenders ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "9baabd00-steam-week-in-review-4-backrooms-games-released-on-steam-las"
-        },
-        {
-          "title": "UK could ban kids from talking to strangers on Roblox, Fortnite and Minecraft",
-          "category": "games",
-          "source": "Dexerto",
-          "score": 12,
-          "slug": "49d61014-uk-could-ban-kids-from-talking-to-strangers-on-roblox-fortni"
-        },
-        {
-          "title": " Nvidia's working with all the anti-cheat vendors to make competive games work on RTX Spark and WoA… just when gaming on Linux was looking good ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "e1215ea3-nvidias-working-with-all-the-anti-cheat-vendors-to-make-comp"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-05T12:00:34.974Z"
+  "lastUpdated": "2026-06-05T12:40:25.397Z"
 }
