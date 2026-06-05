@@ -1,6 +1,31 @@
 {
-  "totalArticles": 282,
+  "totalArticles": 284,
   "runs": [
+    {
+      "timestamp": "2026-06-05T23:12:09.732Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "Why Gotham Was Forbidden From Fully Transforming Jerome Into The Joker",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "6415befb-why-gotham-was-forbidden-from-fully-transforming-jerome-into"
+        },
+        {
+          "title": "Backrooms uses the bluntest metaphors to capture a uniquely Gen Z fear",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "fffc555f-backrooms-uses-the-bluntest-metaphors-to-capture-a-uniquely-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-05T22:00:35.777Z",
       "status": "quota",
@@ -2070,32 +2095,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-01T18:01:01.539Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 225,
-      "totalCandidates": 77,
-      "written": [
-        {
-          "title": "Sony's FlexStrike Fight Stick Launches Alongside PS5, PC Fighter Marvel Tokon This August",
-          "category": "games",
-          "source": "Push Square",
-          "score": 14,
-          "slug": "cc17eeac-sonys-flexstrike-fight-stick-launches-alongside-ps5-pc-fight"
-        },
-        {
-          "title": "Official Baldur's Gate 2 Remake Reportedly in Development at Wizards of the Coast",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "4e8a03ca-official-baldurs-gate-2-remake-reportedly-in-development-at-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-05T22:00:35.777Z"
+  "lastUpdated": "2026-06-05T23:12:09.732Z"
 }
