@@ -1,6 +1,53 @@
 {
-  "totalArticles": 274,
+  "totalArticles": 276,
   "runs": [
+    {
+      "timestamp": "2026-06-05T14:00:36.485Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "Posterized June 2026: Maddie’s Secret, The Furious, Drunken Noodles & More",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 12,
+          "slug": "96be041d-posterized-june-2026-maddies-secret-the-furious-drunken-nood"
+        },
+        {
+          "title": "A Near-Perfect Cillian Murphy War Thriller Is Now on Netflix",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "slug": "e0b3dd91-a-near-perfect-cillian-murphy-war-thriller-is-now-on-netflix"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘The Odyssey’ Formats: Imax, 70mm and All the Ways to Watch Christopher Nolan’s Epic",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "5 Best Movies Like Masters Of The Universe",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Greatest Movies Made by Directors Under 25 Years Old",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-05T12:40:25.397Z",
       "status": "quota",
@@ -2186,89 +2233,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-01T08:01:01.994Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 154,
-      "totalCandidates": 12,
-      "written": [
-        {
-          "title": "‘Viva Carmen’ Review: The Visuals Do the Singing in a Ravishing Animated Riff on Bizet’s Opera",
-          "category": "film",
-          "source": "Variety",
-          "score": 5,
-          "slug": "cb640aa4-viva-carmen-review-the-visuals-do-the-singing-in-a-ravishing"
-        },
-        {
-          "title": "5 Reasons Why The Wheel Of Time Series Failed",
-          "category": "film",
-          "source": "Looper",
-          "score": 5,
-          "slug": "e4f17171-5-reasons-why-the-wheel-of-time-series-failed"
-        },
-        {
-          "title": "The Movie Business Is About to Get VidCon-ized",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 3,
-          "slug": "057ff3c2-the-movie-business-is-about-to-get-vidcon-ized"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Biggest Things The Boys Series Changed From The Comics",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "5 Most Important James Bond Movies That Define the Franchise",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Only 3 Movie Trilogies Have More Replay Value Than ‘The Lord of the Rings’",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘All Night Wrong’ Director on His Hitchcock-Meets-Wilder Film With ‘Severance’s’ Zach Cherry and Maria Bakalova as Broken Souls",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘A Minecraft Movie’ Sequel Gets New Title",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 7,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "What's the Greatest Period Movie of All Time? Surely It's One of These 10 Films",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 4,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-05T12:40:25.397Z"
+  "lastUpdated": "2026-06-05T14:00:36.485Z"
 }
