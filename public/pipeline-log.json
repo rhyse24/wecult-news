@@ -1,6 +1,38 @@
 {
-  "totalArticles": 278,
+  "totalArticles": 281,
   "runs": [
+    {
+      "timestamp": "2026-06-05T18:00:39.228Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 278,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Xbox “Must Have Exclusive Content,” CEO Says",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 17,
+          "slug": "6c97fa78-xbox-must-have-exclusive-content-ceo-says"
+        },
+        {
+          "title": "Hot Wheels Infinite Rush Launches on September 24th for Current-Gen Consoles and PC – Rumor",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "slug": "d56903a4-hot-wheels-infinite-rush-launches-on-september-24th-for-curr"
+        },
+        {
+          "title": "Exclusive: Read an Extract From Peter F. Hamilton's Latest Sci-Fi Novel Set in the Exodus Universe",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "3755b17a-exclusive-read-an-extract-from-peter-f-hamiltons-latest-sci-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-05T16:30:48.529Z",
       "status": "quota",
@@ -2136,61 +2168,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-01T12:01:01.651Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 180,
-      "totalCandidates": 14,
-      "written": [
-        {
-          "title": "The Age of the YouTube Filmmaker Is Here After Backrooms and Obsession’s Triumph",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "slug": "1bc5daec-the-age-of-the-youtube-filmmaker-is-here-after-backrooms-and"
-        },
-        {
-          "title": "How Jason Momoa’s ‘Minecraft,’ ‘Dune’ and DC Superhero Roles Made Him Lego’s Perfect Playmaker",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "8db41337-how-jason-momoas-minecraft-dune-and-dc-superhero-roles-made-"
-        },
-        {
-          "title": "Mahesh Babu’s AMB Cinemas to Host Imax’s Hyderabad Return Ahead of ‘Varanasi’ Release (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "664e1615-mahesh-babus-amb-cinemas-to-host-imaxs-hyderabad-return-ahea"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Biggest Things The Boys Series Changed From The Comics",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘All Night Wrong’ Director on His Hitchcock-Meets-Wilder Film With ‘Severance’s’ Zach Cherry and Maria Bakalova as Broken Souls",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-05T16:30:48.529Z"
+  "lastUpdated": "2026-06-05T18:00:39.228Z"
 }
