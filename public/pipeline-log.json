@@ -1,6 +1,39 @@
 {
-  "totalArticles": 276,
+  "totalArticles": 278,
   "runs": [
+    {
+      "timestamp": "2026-06-05T16:00:34.951Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "Winners and Losers: ’60 Minutes’ Falls Apart, Zendaya Escapes ‘Euphoria’",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 16,
+          "slug": "f29e40d8-winners-and-losers-60-minutes-falls-apart-zendaya-escapes-eu"
+        },
+        {
+          "title": "Anthony Head, ‘Buffy’ and ‘Ted Lasso’ Star, Dies at 72",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "37e39ae8-anthony-head-buffy-and-ted-lasso-star-dies-at-72"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Save The Dates: Caped Crusader Season 2, Adults' Return Month, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-05T14:00:36.485Z",
       "status": "quota",
@@ -2179,61 +2212,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-01T10:01:03.386Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 165,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "Euphoria Ending At HBO After 3 Seasons",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "714e4edc-euphoria-ending-at-hbo-after-3-seasons"
-        },
-        {
-          "title": "‘Euphoria’ Finale: Colman Domingo Goes Deep on Ali’s Journey With Rue, Revenge and His ‘Christ on the Cross Moment’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 17,
-          "slug": "62de11fe-euphoria-finale-colman-domingo-goes-deep-on-alis-journey-wit"
-        },
-        {
-          "title": "Euphoria Finale: A Bunch Of People Die, But Is Rue One Of Them? — Read Recap And Grade The Episode",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "da055216-euphoria-finale-a-bunch-of-people-die-but-is-rue-one-of-them"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Euphoria’ Is Officially Over — Show Ends With Season 3, HBO Confirms",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 18,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Adewale Akinnuoye-Agbaje Breaks Down ‘Euphoria’ Finale, From Alamo vs. Rue to That Final Showdown: ‘He Enjoys the Chess Game of Death’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Euphoria’ Season 3 Finale Pays Tribute to Angus Cloud; Sam Levinson Says “He Deserved More Time”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-05T14:00:36.485Z"
+  "lastUpdated": "2026-06-05T16:00:34.951Z"
 }
