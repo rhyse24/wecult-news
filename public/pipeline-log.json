@@ -1,6 +1,24 @@
 {
-  "totalArticles": 261,
+  "totalArticles": 262,
   "runs": [
+    {
+      "timestamp": "2026-06-05T03:59:05.881Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "‘Backrooms’ Director Kane Parsons: What to Know About the 20-Year-Old Behind A24’s Biggest Hit",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "4999fe1e-backrooms-director-kane-parsons-what-to-know-about-the-20-ye"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-05T02:00:38.185Z",
       "status": "success",
@@ -2244,40 +2262,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-05-31T22:01:02.211Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 156,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "Alexa Demie, Euphoria’s Most Elusive ‘It’ Girl, Is Finally Ready to Talk",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 14,
-          "slug": "d0734469-alexa-demie-euphorias-most-elusive-it-girl-is-finally-ready-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘The Way Home’ to Release Playlist With 30+ Original Songs From All 4 Seasons Ahead of Series Finale (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Before Off Campus, Ella Bright Starred In A 7-Season Series Streaming For Free",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-05T02:00:38.185Z"
+  "lastUpdated": "2026-06-05T03:59:05.881Z"
 }
