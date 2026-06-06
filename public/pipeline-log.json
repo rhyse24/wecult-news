@@ -1,6 +1,38 @@
 {
-  "totalArticles": 288,
+  "totalArticles": 291,
   "runs": [
+    {
+      "timestamp": "2026-06-06T03:40:49.796Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 69,
+      "written": [
+        {
+          "title": "Assassin's Creed creator's forgotten fantasy game 1666: Amsterdam will finally release this year, over a decade after Ubisoft ripped it from his fingers",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 17,
+          "slug": "fa2b69d7-assassins-creed-creators-forgotten-fantasy-game-1666-amsterd"
+        },
+        {
+          "title": "HAEX is Survival Shooter Made by Veterans From Massive Entertainment and Epic Games",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 17,
+          "slug": "0305bf99-haex-is-survival-shooter-made-by-veterans-from-massive-enter"
+        },
+        {
+          "title": "Fortnite Live Event Stuns Fans as The Rock's Fate Is Revealed and Ben Starr's Character Is Unmasked in Shock Twist",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "eb777bae-fortnite-live-event-stuns-fans-as-the-rocks-fate-is-revealed"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-06T02:00:33.153Z",
       "status": "success",
@@ -2055,33 +2087,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-01T22:00:59.182Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 239,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Animation Veteran Kunihiko Hamada Departs From Madhouse",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 13,
-          "slug": "d4c5bcd1-animation-veteran-kunihiko-hamada-departs-from-madhouse"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Euphoria Season 3 Finale: [Spoiler]'s Death Explained By Creator Sam Levinson",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-06T02:00:33.153Z"
+  "lastUpdated": "2026-06-06T03:40:49.796Z"
 }
