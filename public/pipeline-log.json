@@ -1,6 +1,53 @@
 {
-  "totalArticles": 298,
+  "totalArticles": 301,
   "runs": [
+    {
+      "timestamp": "2026-06-06T10:00:28.169Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 261,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Shivani Pandya Malhotra Steps Down as Managing Director of Saudi Arabia’s Red Sea Film Festival (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "9de65ef0-shivani-pandya-malhotra-steps-down-as-managing-director-of-s"
+        },
+        {
+          "title": "‘Mexico 86’ Review: Diego Luna Scores in a Lightweight Look Behind the Scenes of a World Cup Campaign",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "f19bd5e7-mexico-86-review-diego-luna-scores-in-a-lightweight-look-beh"
+        },
+        {
+          "title": "Only 3 Animated Movies Are Sadder Than 'Grave of the Fireflies'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "slug": "2ad71554-only-3-animated-movies-are-sadder-than-grave-of-the-fireflie"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "15 Best New Movies to Streaming in June 2026: ‘Avatar: Fire and Ash,’ ‘Hoppers,’ ‘Forbidden Fruits’ and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 21,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Masters of the Universe Reminds Us That Not Every Silly Thing Needs to Be a Joke",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-06T08:00:33.139Z",
       "status": "success",
@@ -2092,17 +2139,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-02T04:11:00.178Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 239,
-      "totalCandidates": 23,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-06T08:00:33.139Z"
+  "lastUpdated": "2026-06-06T10:00:28.169Z"
 }
