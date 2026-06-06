@@ -1,6 +1,46 @@
 {
-  "totalArticles": 285,
+  "totalArticles": 288,
   "runs": [
+    {
+      "timestamp": "2026-06-06T02:00:33.153Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 278,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "Before 'Masters of the Universe,' Stream This '80s Fantasy Film On Prime Video",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 18,
+          "slug": "f8dedd8c-before-masters-of-the-universe-stream-this-80s-fantasy-film-"
+        },
+        {
+          "title": "5 Best Episodes Of The Boys, According To IMDb",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "slug": "b1b4af39-5-best-episodes-of-the-boys-according-to-imdb"
+        },
+        {
+          "title": "‘John Wick’ Spinoff ‘Caine’ Adds Bill Nighy (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "c8fea3bc-john-wick-spinoff-caine-adds-bill-nighy-exclusive"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "15 Best New Movies to Streaming in June 2026: ‘Avatar: Fire and Ash,’ ‘Hoppers,’ ‘Forbidden Fruits’ and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 24,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-06T00:00:33.875Z",
       "status": "quota",
@@ -2041,39 +2081,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-01T21:35:39.314Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 241,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Taylor Swift Reveals Original Song for ‘Toy Story 5’: ‘I Knew It, I Knew You’ — a ‘Return to Country’",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "slug": "60315585-taylor-swift-reveals-original-song-for-toy-story-5-i-knew-it"
-        },
-        {
-          "title": "5 Most Rewatchable Episodes Of The Boys",
-          "category": "film",
-          "source": "Looper",
-          "score": 19,
-          "slug": "4dd45f70-5-most-rewatchable-episodes-of-the-boys"
-        },
-        {
-          "title": "Cinespia to Host Fourth of July Fireworks Screenings of ‘Shrek’ and ‘Jurassic Park’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "6a52faf7-cinespia-to-host-fourth-of-july-fireworks-screenings-of-shre"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-06T00:00:33.875Z"
+  "lastUpdated": "2026-06-06T02:00:33.153Z"
 }
