@@ -1,6 +1,38 @@
 {
-  "totalArticles": 295,
+  "totalArticles": 298,
   "runs": [
+    {
+      "timestamp": "2026-06-06T08:00:33.139Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 264,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "‘Dutton Ranch’ Episode 5: Rip Agrees to Run Beulah’s Ranch, [SPOILER] Gets Shot to Death by the Cops and Rob-Will Returns to Cause Mayhem",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "8a4f38b3-dutton-ranch-episode-5-rip-agrees-to-run-beulahs-ranch-spoil"
+        },
+        {
+          "title": "‘The Pitt’ Makeup Head Unpacks the Show’s Goriest Moments, From a Bloody Head Flap to Tongue Lacerations",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "094982e7-the-pitt-makeup-head-unpacks-the-shows-goriest-moments-from-"
+        },
+        {
+          "title": "Steins;Gate Re:Boot Game's Trailer Previews 'Gamma Worldline' Route",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 10,
+          "slug": "2387bb24-steinsgate-reboot-games-trailer-previews-gamma-worldline-rou"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-06T06:54:47.400Z",
       "status": "quota",
@@ -2070,17 +2102,7 @@
       "totalCandidates": 23,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-02T04:00:59.643Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 240,
-      "totalCandidates": 23,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-06T06:54:47.400Z"
+  "lastUpdated": "2026-06-06T08:00:33.139Z"
 }
