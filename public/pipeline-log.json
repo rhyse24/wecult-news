@@ -1,6 +1,53 @@
 {
-  "totalArticles": 307,
+  "totalArticles": 310,
   "runs": [
+    {
+      "timestamp": "2026-06-06T15:18:15.807Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 248,
+      "totalCandidates": 26,
+      "written": [
+        {
+          "title": "All 8 Star Wars Cameos in 'The Mandalorian and Grogu'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "5211a310-all-8-star-wars-cameos-in-the-mandalorian-and-grogu"
+        },
+        {
+          "title": "Jodie Foster Says Martin Scorsese and Robert De Niro ‘Couldn’t Stop Giggling’ While Teaching Her How to Unzip a Fly on ‘Taxi Driver’ Set: ‘They Were Just So Nervous’",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "b3153a39-jodie-foster-says-martin-scorsese-and-robert-de-niro-couldnt"
+        },
+        {
+          "title": "‘Mario’ Review: Straightforward Doc Tells Mario Cuomo’s Story in Prose Rather Than Poetry",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "slug": "ad1c8c47-mario-review-straightforward-doc-tells-mario-cuomos-story-in"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "15 Best New Movies to Streaming in June 2026: ‘Avatar: Fire and Ash,’ ‘Hoppers,’ ‘Forbidden Fruits’ and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 21,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Masters of the Universe Reminds Us That Not Every Silly Thing Needs to Be a Joke",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-06T13:48:10.193Z",
       "status": "success",
@@ -2086,57 +2133,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-02T10:01:00.638Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 249,
-      "totalCandidates": 84,
-      "written": [
-        {
-          "title": "Analyst: Call of Duty's withdrawal from last-gen consoles means it's selling into the smallest install base since 2017",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 19,
-          "slug": "1982b6ae-analyst-call-of-dutys-withdrawal-from-last-gen-consoles-mean"
-        },
-        {
-          "title": "The Simpsons Arrives in Monopoly Go for a Wild Mobile Crossover Event",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 10,
-          "slug": "4eb7272a-the-simpsons-arrives-in-monopoly-go-for-a-wild-mobile-crosso"
-        },
-        {
-          "title": "The Witcher 3's acclaimed Blood and Wine expansion was almost called something entirely different",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 10,
-          "slug": "7045df6e-the-witcher-3s-acclaimed-blood-and-wine-expansion-was-almost"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Final Fantasy 7 Rebirth Gets Stylish New Trailer Ahead of Switch 2 and Xbox Series X/S Launch",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "007 First Light Budget Reportedly More Than $200 Million",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-06T13:48:10.193Z"
+  "lastUpdated": "2026-06-06T15:18:15.807Z"
 }
