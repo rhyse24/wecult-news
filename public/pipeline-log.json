@@ -1,6 +1,60 @@
 {
-  "totalArticles": 313,
+  "totalArticles": 315,
   "runs": [
+    {
+      "timestamp": "2026-06-06T19:26:37.809Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 244,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "How ‘Masters of the Universe’ Composer Daniel Pemberton Created the ‘Unashamedly Fun’ Theme — With the Help of Brian May’s Red Special Guitar",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "874ac111-how-masters-of-the-universe-composer-daniel-pemberton-create"
+        },
+        {
+          "title": "‘Office Romance’ Star Betty Gilpin on Using a Prosthetic Vagina for Her Birthing Scene: ‘I Was Pretty Freaked Out’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "c437cdca-office-romance-star-betty-gilpin-on-using-a-prosthetic-vagin"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Best Horror of June 2026: ‘Scary Movie’ Returns, Spielberg Revisits Aliens, Javier Bardem Tackles Another Villain Role and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Only 5 Harry Potter Characters Are More Powerful Than Lord Voldemort",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "'The Celebrity Traitors' UK Season 2 Is Officially Coming Sooner Than Expected",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "Masters of the Universe Reminds Us That Not Every Silly Thing Needs to Be a Joke",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-06T18:00:22.961Z",
       "status": "quota",
@@ -2116,17 +2170,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-02T16:01:07.081Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 49,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-06T18:00:22.961Z"
+  "lastUpdated": "2026-06-06T19:26:37.809Z"
 }
