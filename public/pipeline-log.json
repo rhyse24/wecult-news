@@ -1,6 +1,32 @@
 {
-  "totalArticles": 291,
+  "totalArticles": 292,
   "runs": [
+    {
+      "timestamp": "2026-06-06T04:00:33.770Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Sonic Racing CrossWorlds Game Reveals Collaborations With Godzilla, Evangelion in Video",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 13,
+          "slug": "3187b9b8-sonic-racing-crossworlds-game-reveals-collaborations-with-go"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Among Us TV Show Gets Surprise Drop, Streaming Now On Paramount+ — Watch A New Trailer",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-06T03:40:49.796Z",
       "status": "success",
@@ -2055,39 +2081,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-01T23:28:24.336Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 240,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "The Witcher 3 – Songs of the Past Has Around 190 Developers, Mostly From Fool’s Theory",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 17,
-          "slug": "ac20e83c-the-witcher-3-songs-of-the-past-has-around-190-developers-mo"
-        },
-        {
-          "title": " In 1997, Warren Spector told us the upcoming PC classic Deus Ex was inspired by Final Fantasy, Miyamoto, and 'the console guys' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "7d19d576-in-1997-warren-spector-told-us-the-upcoming-pc-classic-deus-"
-        },
-        {
-          "title": " Gabe Newell on Steam monopoly accusations: Gamers have 'enormous choice' about where to buy games ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "b2b85cd0-gabe-newell-on-steam-monopoly-accusations-gamers-have-enormo"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-06T03:40:49.796Z"
+  "lastUpdated": "2026-06-06T04:00:33.770Z"
 }
