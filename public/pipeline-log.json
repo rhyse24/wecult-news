@@ -1,6 +1,24 @@
 {
-  "totalArticles": 294,
+  "totalArticles": 295,
   "runs": [
+    {
+      "timestamp": "2026-06-06T06:54:47.400Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 266,
+      "totalCandidates": 66,
+      "written": [
+        {
+          "title": "God Of War Laufey’s Combat Was Inspired By The Original Greek Trilogy",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "0d70775a-god-of-war-laufeys-combat-was-inspired-by-the-original-greek"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-06T06:00:34.348Z",
       "status": "quota",
@@ -2062,40 +2080,7 @@
       "totalCandidates": 23,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-02T02:01:00.773Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 240,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "‘Euphoria’ May Be Over, But Chloe Cherry Isn’t Saying Goodbye to Faye Yet",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "slug": "ced59925-euphoria-may-be-over-but-chloe-cherry-isnt-saying-goodbye-to"
-        },
-        {
-          "title": "Longtime Disney Exec Jim Kapenstein, Who Helped Oversee Some Of Its Biggest Acquisitions, Joins Starz as Chief Legal and Strategy Officer",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "04f4e74b-longtime-disney-exec-jim-kapenstein-who-helped-oversee-some-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Inside ‘Euphoria’ Season 3: Sam Levinson on Zendaya, Sydney Sweeney and the HBO Drama’s Evolution",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-06T06:00:34.348Z"
+  "lastUpdated": "2026-06-06T06:54:47.400Z"
 }
