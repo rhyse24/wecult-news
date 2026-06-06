@@ -1,6 +1,39 @@
 {
-  "totalArticles": 310,
+  "totalArticles": 311,
   "runs": [
+    {
+      "timestamp": "2026-06-06T16:00:25.684Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 246,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "TVLine's Performer Of The Week: Colman Domingo",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "d2436f9c-tvlines-performer-of-the-week-colman-domingo"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Among Us TV Show Gets Surprise Drop, Streaming Now On Paramount+ — Watch A New Trailer",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-06T15:18:15.807Z",
       "status": "success",
@@ -2101,39 +2134,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-02T10:28:15.385Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 248,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Backrooms brings in Star Wars money in opening weekend",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "e2361fe4-backrooms-brings-in-star-wars-money-in-opening-weekend"
-        },
-        {
-          "title": "15 ’70s Movies Everyone’s Parents Made Them Watch",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 9,
-          "slug": "521bdd3c-15-70s-movies-everyones-parents-made-them-watch"
-        },
-        {
-          "title": "15 Times American Movies Pretended Mexico Was Yellow",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 9,
-          "slug": "03426c13-15-times-american-movies-pretended-mexico-was-yellow"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-06T15:18:15.807Z"
+  "lastUpdated": "2026-06-06T16:00:25.684Z"
 }
