@@ -1,6 +1,39 @@
 {
-  "totalArticles": 316,
+  "totalArticles": 318,
   "runs": [
+    {
+      "timestamp": "2026-06-06T22:00:27.795Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 246,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "The '60s Batman Show Only Exists Because Two Other Characters' TV Rights Weren't Available",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "70bb4952-the-60s-batman-show-only-exists-because-two-other-characters"
+        },
+        {
+          "title": "10 Best Network TV Shows Of 2026 (So Far)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "adf142be-10-best-network-tv-shows-of-2026-so-far"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-06T21:07:18.242Z",
       "status": "quota",
@@ -2142,25 +2175,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-02T20:01:09.014Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "Russo Brothers Reveal Robert Downey Jr.’s ‘Doomsday’ Costume Is Favorite from MCU, ‘Delivering on the Most Awesome Things’ About Doctor Doom",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "31135fc6-russo-brothers-reveal-robert-downey-jrs-doomsday-costume-is-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-06T21:07:18.242Z"
+  "lastUpdated": "2026-06-06T22:00:27.795Z"
 }
