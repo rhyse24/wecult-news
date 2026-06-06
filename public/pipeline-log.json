@@ -1,6 +1,46 @@
 {
-  "totalArticles": 292,
+  "totalArticles": 294,
   "runs": [
+    {
+      "timestamp": "2026-06-06T06:00:34.348Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "‘Art of Fighting,’ ‘Fatal Fury’ Adaptations in the Works from David Goyer, Skybound (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "06cefc15-art-of-fighting-fatal-fury-adaptations-in-the-works-from-dav"
+        },
+        {
+          "title": "10 Greatest High Fantasy Movies of the 21st Century",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "ac82d25f-10-greatest-high-fantasy-movies-of-the-21st-century"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "15 Best New Movies to Streaming in June 2026: ‘Avatar: Fire and Ash,’ ‘Hoppers,’ ‘Forbidden Fruits’ and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 22,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Masters of the Universe Reminds Us That Not Every Silly Thing Needs to Be a Joke",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-06T04:00:33.770Z",
       "status": "quota",
@@ -2055,33 +2095,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-02T00:00:57.562Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 173,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "Zack Snyder Tackling Reimagining of John Carpenter’s ‘Escape From New York’ (Exclusive)",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "slug": "3f5c86e5-zack-snyder-tackling-reimagining-of-john-carpenters-escape-f"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "5 Reasons Why Euphoria Season 3 Failed",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-06T04:00:33.770Z"
+  "lastUpdated": "2026-06-06T06:00:34.348Z"
 }
