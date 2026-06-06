@@ -1,6 +1,32 @@
 {
-  "totalArticles": 315,
+  "totalArticles": 316,
   "runs": [
+    {
+      "timestamp": "2026-06-06T20:00:26.528Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 245,
+      "totalCandidates": 70,
+      "written": [
+        {
+          "title": "007 First Light officially sells 2.7 million copies, \"probably\" at three million",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 16,
+          "slug": "f82b9804-007-first-light-officially-sells-27-million-copies-probably-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Godzilla: Destroy All Monsters Melee Remastered Leak Reveals November Release Date",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-06T19:26:37.809Z",
       "status": "quota",
@@ -2149,28 +2175,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-02T16:37:03.087Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 49,
-      "written": [],
-      "rejected": [
-        {
-          "title": "‘Life Is Strange’ TV Series Casts Billy Barratt, Emily Carey, Esther McGregor, Faly Rakotohavana, Mia Isaac (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 17,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-06T19:26:37.809Z"
+  "lastUpdated": "2026-06-06T20:00:26.528Z"
 }
