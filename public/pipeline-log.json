@@ -1,6 +1,31 @@
 {
-  "totalArticles": 311,
+  "totalArticles": 313,
   "runs": [
+    {
+      "timestamp": "2026-06-06T17:17:31.738Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 247,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "Mommy and Me: 6 Thrillers with Troubled Parent-Child Relationships",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 8,
+          "slug": "97d91d61-mommy-and-me-6-thrillers-with-troubled-parent-child-relation"
+        },
+        {
+          "title": "In ‘Waist Deep,’ Linea Maja Ernst Explores Millennial Desire",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 7,
+          "slug": "087b4baa-in-waist-deep-linea-maja-ernst-explores-millennial-desire"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-06T16:00:25.684Z",
       "status": "quota",
@@ -2101,40 +2126,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-02T12:01:04.611Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 255,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "‘Hunger Games: Sunrise on the Reaping’ Star Iona Bell Signs With Paradigm (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "slug": "91d20907-hunger-games-sunrise-on-the-reaping-star-iona-bell-signs-wit"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Backrooms’ Smashes A24 Record With Dominant Debut at U.K. and Ireland Box Office",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "5 Reasons Why Euphoria Season 3 Failed",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-06T16:00:25.684Z"
+  "lastUpdated": "2026-06-06T17:17:31.738Z"
 }
