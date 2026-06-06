@@ -1,6 +1,53 @@
 {
-  "totalArticles": 301,
+  "totalArticles": 304,
   "runs": [
+    {
+      "timestamp": "2026-06-06T12:00:23.380Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 257,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "“Unlike Anything That’s Ever Been Done on Television Before”: ‘House of the Dragon’ Battle Secrets Revealed at SXSW London",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 9,
+          "slug": "6331ae7a-unlike-anything-thats-ever-been-done-on-television-before-ho"
+        },
+        {
+          "title": "10 Reasons Why Xbox Lost The Console War",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 9,
+          "slug": "a32d4bc4-10-reasons-why-xbox-lost-the-console-war"
+        },
+        {
+          "title": "‘Office Romance’ Netflix Soundtrack: Every Song in the Jennifer Lopez Rom-Com",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 7,
+          "slug": "76a5463c-office-romance-netflix-soundtrack-every-song-in-the-jennifer"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Among Us TV Show Gets Surprise Drop, Streaming Now On Paramount+ — Watch A New Trailer",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "What To Watch Saturday: Stanley Cup Final Game 3, UFC Fight Night, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 7,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-06T10:00:28.169Z",
       "status": "success",
@@ -2110,36 +2157,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-02T06:00:59.988Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 240,
-      "totalCandidates": 23,
-      "written": [
-        {
-          "title": "Zack Snyder Is Eyeing a Remake of John Carpenter’s Escape From New York",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 16,
-          "slug": "f3be2cb7-zack-snyder-is-eyeing-a-remake-of-john-carpenters-escape-fro"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The End of Oak Street Trailer: Forget Traveling to Distant Islands; Dinosaurs Come to You",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "TR body too short: 214 words (need ≥220)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-06T10:00:28.169Z"
+  "lastUpdated": "2026-06-06T12:00:23.380Z"
 }
