@@ -1,6 +1,46 @@
 {
-  "totalArticles": 324,
+  "totalArticles": 327,
   "runs": [
+    {
+      "timestamp": "2026-06-07T06:00:27.769Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 240,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "Gilligan's Island's Original Pilot Featured Music From A Legendary Composer",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 11,
+          "slug": "0efb2cae-gilligans-islands-original-pilot-featured-music-from-a-legen"
+        },
+        {
+          "title": "‘Among Us’ Surprise: Animated TV Show Drops on Paramount+",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "c0b97ed2-among-us-surprise-animated-tv-show-drops-on-paramount"
+        },
+        {
+          "title": "From ‘Scream 2’ and ‘Monster’ to ‘Big Mistakes,’ How Laurie Metcalf Has Mastered the Art of the Complicated Mother",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "330d5b9c-from-scream-2-and-monster-to-big-mistakes-how-laurie-metcalf"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-07T04:09:01.434Z",
       "status": "success",
@@ -2265,39 +2305,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-03T04:01:01.117Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 269,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "9 Books That Practice Queer Ecology",
-          "category": "books",
-          "source": "Electric Literature",
-          "score": 13,
-          "slug": "73edfdbf-9-books-that-practice-queer-ecology"
-        },
-        {
-          "title": "What the Backrooms Movie Doesn’t Tell You About Backrooms‘ Lore",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 12,
-          "slug": "280f67c6-what-the-backrooms-movie-doesnt-tell-you-about-backrooms-lor"
-        },
-        {
-          "title": "Tonight the Music Seems So Loud by Sathnam Sanghera review – a heartbreaking portrait of George Michael",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 10,
-          "slug": "2d75c39a-tonight-the-music-seems-so-loud-by-sathnam-sanghera-review-a"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-07T04:09:01.434Z"
+  "lastUpdated": "2026-06-07T06:00:27.769Z"
 }
