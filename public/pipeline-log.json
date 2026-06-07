@@ -1,6 +1,60 @@
 {
-  "totalArticles": 333,
+  "totalArticles": 336,
   "runs": [
+    {
+      "timestamp": "2026-06-07T10:00:25.573Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 225,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "‘Dynamo vs Houdini’ Series Coming to Sky as Illusionist Retraces Legendary Magician’s Steps",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 8,
+          "slug": "8f627c6a-dynamo-vs-houdini-series-coming-to-sky-as-illusionist-retrac"
+        },
+        {
+          "title": "AVQ&A: Which horror movie caught you by surprise?",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 8,
+          "slug": "6fd3349d-avqa-which-horror-movie-caught-you-by-surprise"
+        },
+        {
+          "title": "Paramount+ surprise-drops full season of Among Us animated series",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 8,
+          "slug": "466fd042-paramount-surprise-drops-full-season-of-among-us-animated-se"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘House of the Dragon’ Showrunner on Season 3’s Battle of the Gullet: ‘This Sequence Is Unlike Anything That’s Ever Been Done in Television Before’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Grace Gummer on Her Emotional ‘Love Story’ Finale and Criticism From Caroline Kennedy’s Son Jack Schlossberg",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-07T09:16:03.949Z",
       "status": "success",
@@ -2365,39 +2419,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-03T08:00:55.157Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 276,
-      "totalCandidates": 69,
-      "written": [
-        {
-          "title": "The Boys Star Jack Quaid’s Next Role Is Utterly Baffling, But We’re Here For It",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 16,
-          "slug": "49bc633d-the-boys-star-jack-quaids-next-role-is-utterly-baffling-but-"
-        },
-        {
-          "title": "Sony's summer State of Play showcase was big on God of War, Wolverine, gore and GTA-dodging release dates",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 14,
-          "slug": "1cd6bcaf-sonys-summer-state-of-play-showcase-was-big-on-god-of-war-wo"
-        },
-        {
-          "title": "Control Resonant Release Date Announced in New Trailer, Costs $60",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "096d0abd-control-resonant-release-date-announced-in-new-trailer-costs"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-07T09:16:03.949Z"
+  "lastUpdated": "2026-06-07T10:00:25.573Z"
 }
