@@ -1,6 +1,39 @@
 {
-  "totalArticles": 348,
+  "totalArticles": 350,
   "runs": [
+    {
+      "timestamp": "2026-06-07T19:26:09.942Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 191,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Why Stranger Things' Creators Refuse To Reveal Whether Eleven Is Alive Or Dead",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "3fee6cff-why-stranger-things-creators-refuse-to-reveal-whether-eleven"
+        },
+        {
+          "title": "Quotes Of The Week: ﻿Euphoria, Criminal Minds, Widow's Bay, Your Friends & Neighbors, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "b23a4592-quotes-of-the-week-euphoria-criminal-minds-widows-bay-your-f"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Best Streaming TV Shows Of 2026 (So Far)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-07T18:00:26.210Z",
       "status": "quota",
@@ -2421,25 +2454,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-03T18:00:54.179Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 51,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Disney Moves Some Super Bowl Commercials at $8 Million Amid Advertiser Squabbles (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-07T18:00:26.210Z"
+  "lastUpdated": "2026-06-07T19:26:09.942Z"
 }
