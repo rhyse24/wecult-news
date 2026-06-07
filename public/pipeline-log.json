@@ -1,6 +1,73 @@
 {
-  "totalArticles": 327,
+  "totalArticles": 330,
   "runs": [
+    {
+      "timestamp": "2026-06-07T08:00:27.456Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 237,
+      "totalCandidates": 65,
+      "written": [
+        {
+          "title": "Call of Duty: Modern Warfare 4 DMZ First Details Tease a Feedback-Driven Extraction Experience",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "slug": "11ddc195-call-of-duty-modern-warfare-4-dmz-first-details-tease-a-feed"
+        },
+        {
+          "title": "Hitman Classic Trilogy Remasters Are Coming, See The Improved Graphics",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 10,
+          "slug": "aa1cd842-hitman-classic-trilogy-remasters-are-coming-see-the-improved"
+        },
+        {
+          "title": "Godzilla vs GTA 6: Retro Remake Makes PlayStation Debut on PS5 This November",
+          "category": "games",
+          "source": "Push Square",
+          "score": 10,
+          "slug": "598d68e3-godzilla-vs-gta-6-retro-remake-makes-playstation-debut-on-ps"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Gears of War: E-Day PS5 Placeholder Listing Appears Online as Xbox Games Showcase Looms",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "TR body too short: 217 words (need ≥220)"
+          ]
+        },
+        {
+          "title": "Final Fantasy 7 Revelation Tweaks Mini-Games But Square Enix Says It Would Never Reduce Them",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "New Weapons In Fortnite Chapter 7 Season 3: What You Need To Know",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 11,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        },
+        {
+          "title": "Monster Hunter Wilds Confirmed for Nintendo Switch 2",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-07T06:00:27.769Z",
       "status": "success",
@@ -2284,28 +2351,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-03T04:20:52.924Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 31,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Masters of the Universe Review: A Cute Kids Movie When It Isn’t Trying to Be Barbie",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-07T06:00:27.769Z"
+  "lastUpdated": "2026-06-07T08:00:27.456Z"
 }
