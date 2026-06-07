@@ -1,6 +1,74 @@
 {
-  "totalArticles": 321,
+  "totalArticles": 324,
   "runs": [
+    {
+      "timestamp": "2026-06-07T04:09:01.434Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 243,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "10 Greatest Novels of the 1990s",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "slug": "9b3c0a24-10-greatest-novels-of-the-1990s"
+        },
+        {
+          "title": "Emotions Spill Over at Town Hall of Industry Workers Opposed to Paramount-WBD Merger: “It’s the Death of a Great American Industry”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 6,
+          "slug": "3234d85b-emotions-spill-over-at-town-hall-of-industry-workers-opposed"
+        },
+        {
+          "title": "‘Mineshaft: The Cruising Murders’ Review: An Engrossing if Incohesive Dive Into William Friedkin’s Gay S&M Thriller and Its Surrounding Controversy",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 6,
+          "slug": "6ad3fc55-mineshaft-the-cruising-murders-review-an-engrossing-if-incoh"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Best Horror of June 2026: ‘Scary Movie’ Returns, Spielberg Revisits Aliens, Javier Bardem Tackles Another Villain Role and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Only 5 Harry Potter Characters Are More Powerful Than Lord Voldemort",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Masters of the Universe Reminds Us That Not Every Silly Thing Needs to Be a Joke",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Box Office: ‘Scary Movie’ Starts Strong With $24.7 Million on Friday; ‘Masters of the Universe’ Takes Second With $11.7 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Best Crime Movies With the Most Compelling Mysteries",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-07T04:00:26.070Z",
       "status": "quota",
@@ -2229,25 +2297,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-03T02:00:59.824Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 282,
-      "totalCandidates": 55,
-      "written": [
-        {
-          "title": "Why Tom Holland Has Turned Down Hosting Saturday Night Live Multiple Times",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "f512fafa-why-tom-holland-has-turned-down-hosting-saturday-night-live-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-07T04:00:26.070Z"
+  "lastUpdated": "2026-06-07T04:09:01.434Z"
 }
