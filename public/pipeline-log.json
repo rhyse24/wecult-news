@@ -1,6 +1,46 @@
 {
-  "totalArticles": 341,
+  "totalArticles": 344,
   "runs": [
+    {
+      "timestamp": "2026-06-07T16:00:30.596Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 201,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "5 Beloved '80s Sitcoms That Don't Hold Up Today",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "ce549422-5-beloved-80s-sitcoms-that-dont-hold-up-today"
+        },
+        {
+          "title": "What To Watch Sunday: The Tony Awards, The Vampire Lestat Premiere, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "fc12adc9-what-to-watch-sunday-the-tony-awards-the-vampire-lestat-prem"
+        },
+        {
+          "title": "Naomi Bulochnikov-Paul Celebrated for Grace and Resilience at Race to Erase MS Gala: ‘I Live It Openly’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "a077e178-naomi-bulochnikov-paul-celebrated-for-grace-and-resilience-a"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Best TV Shows Like Cape Fear",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-07T15:27:07.239Z",
       "status": "quota",
@@ -2388,17 +2428,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-03T14:01:01.889Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 51,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-07T15:27:07.239Z"
+  "lastUpdated": "2026-06-07T16:00:30.596Z"
 }
