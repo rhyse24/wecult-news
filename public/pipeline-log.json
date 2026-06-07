@@ -2,6 +2,31 @@
   "totalArticles": 350,
   "runs": [
     {
+      "timestamp": "2026-06-07T20:00:22.122Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 189,
+      "totalCandidates": 19,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Box Office: ‘Scary Movie’ Scores Franchise-Best $55 Million Opening, ‘Masters of the Universe’ Stumbles With $29.3 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘The Super Mario Galaxy Movie’ Becomes First Movie to Cross $1B in 2026",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-07T19:26:09.942Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2414,47 +2439,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-03T20:01:00.506Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "The Season 1 Moment That Changed Stranger Things Forever",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 15,
-          "slug": "404fcf06-the-season-1-moment-that-changed-stranger-things-forever"
-        },
-        {
-          "title": "Netflix’s ‘Michael Jackson: The Verdict’ Docuseries Puts the Singer and the Public on Trial: TV Review",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "f4c819fc-netflixs-michael-jackson-the-verdict-docuseries-puts-the-sin"
-        },
-        {
-          "title": "Javier Bardem on Becoming Max Cady in New ‘Cape Fear’ Adaptation — While Also Shooting ‘Dune: Part Three’",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "75866cfe-javier-bardem-on-becoming-max-cady-in-new-cape-fear-adaptati"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Disney Moves Some Super Bowl Commercials at $8 Million Amid Advertiser Squabbles (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-07T19:26:09.942Z"
+  "lastUpdated": "2026-06-07T20:00:22.122Z"
 }
