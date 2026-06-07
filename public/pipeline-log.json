@@ -1,6 +1,32 @@
 {
-  "totalArticles": 319,
+  "totalArticles": 320,
   "runs": [
+    {
+      "timestamp": "2026-06-07T00:00:24.377Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 245,
+      "totalCandidates": 71,
+      "written": [
+        {
+          "title": "IGN Live 2026: Everything Announced (Updating Live!)",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "d2b5ad2b-ign-live-2026-everything-announced-updating-live"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Final Fantasy 7 Revelation Tweaks Mini-Games But Square Enix Says It Would Never Reduce Them",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-06T23:06:01.027Z",
       "status": "quota",
@@ -2186,32 +2212,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-02T22:01:00.515Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 288,
-      "totalCandidates": 57,
-      "written": [
-        {
-          "title": "The Guardian view on Euphoria: the show once pushed the envelope, but shock now seems to be the point | Editorial",
-          "category": "tv",
-          "source": "Guardian TV",
-          "score": 16,
-          "slug": "7dc86d9f-the-guardian-view-on-euphoria-the-show-once-pushed-the-envel"
-        },
-        {
-          "title": "Jules is the most tragic casualty of Euphoria's final season",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "slug": "eafaaeec-jules-is-the-most-tragic-casualty-of-euphorias-final-season"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-06T23:06:01.027Z"
+  "lastUpdated": "2026-06-07T00:00:24.377Z"
 }
