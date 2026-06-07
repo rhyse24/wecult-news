@@ -1,6 +1,39 @@
 {
-  "totalArticles": 320,
+  "totalArticles": 321,
   "runs": [
+    {
+      "timestamp": "2026-06-07T02:00:23.110Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 243,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "The Boys Creator Eric Kripke On Fans' Response To Series Finale: 'Sorry If I Disappointed You, But It Was The Story I Wanted To Tell'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "bf1a0f3a-the-boys-creator-eric-kripke-on-fans-response-to-series-fina"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘House of the Dragon’ Showrunner on Season 3’s Battle of the Gullet: ‘This Sequence Is Unlike Anything That’s Ever Been Done in Television Before’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-07T00:00:24.377Z",
       "status": "quota",
@@ -2186,33 +2219,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-02T23:47:35.304Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 64,
-      "written": [
-        {
-          "title": "Kratos is Out, Faye is In: God of War Laufey Creators Explain Why Kratos' Wife is the New Star",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "4d65f801-kratos-is-out-faye-is-in-god-of-war-laufey-creators-explain-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Marvel Tokon: Fighting Souls Adds Carnage, Green Goblin, and Magneto to the Roster",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-07T00:00:24.377Z"
+  "lastUpdated": "2026-06-07T02:00:23.110Z"
 }
