@@ -1,6 +1,60 @@
 {
-  "totalArticles": 339,
+  "totalArticles": 340,
   "runs": [
+    {
+      "timestamp": "2026-06-07T13:57:33.243Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 205,
+      "totalCandidates": 17,
+      "written": [
+        {
+          "title": "The 7 Most Terrifying Horror Movies of the Last 5 Years",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "c8d777e0-the-7-most-terrifying-horror-movies-of-the-last-5-years"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Best Horror of June 2026: ‘Scary Movie’ Returns, Spielberg Revisits Aliens, Javier Bardem Tackles Another Villain Role and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Only 3 Movies Are Better-Written Than 'The Godfather'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Masters of the Universe Reminds Us That Not Every Silly Thing Needs to Be a Joke",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Box Office: ‘Scary Movie’ Starts Strong With $24.7 Million on Friday; ‘Masters of the Universe’ Takes Second With $11.7 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Actors Who Appeared in Both Harry Potter and Star Wars",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-07T11:49:21.132Z",
       "status": "success",
@@ -2372,54 +2426,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-03T11:03:47.691Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "Onslaught Trailer: Adria Arjona Takes on Super Soldiers in Adam Wingard’s Action Horror",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 11,
-          "slug": "612cefb5-onslaught-trailer-adria-arjona-takes-on-super-soldiers-in-ad"
-        },
-        {
-          "title": "Zendaya and Tom Holland Spoke Up on ‘Spider-Man: Brand New Day’ Set When Scene Wasn’t Working; Director Sent Crew Home So It Could Be Rewritten",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "f0a00ce2-zendaya-and-tom-holland-spoke-up-on-spider-man-brand-new-day"
-        },
-        {
-          "title": "‘War Machine’ Sequel in the Works From Netflix After Action Film Becomes One of Streamer’s Most-Watched Films",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "a11895fc-war-machine-sequel-in-the-works-from-netflix-after-action-fi"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "How ‘Jurassic Park’ and Steven Spielberg Inspired a Greek Indie Cinematic Allegory for Othering",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "8 Greatest Blockbuster Thriller Movies of All Time ",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-07T11:49:21.132Z"
+  "lastUpdated": "2026-06-07T13:57:33.243Z"
 }
