@@ -1,6 +1,53 @@
 {
-  "totalArticles": 351,
+  "totalArticles": 353,
   "runs": [
+    {
+      "timestamp": "2026-06-07T22:00:24.641Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 186,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "Sarah Snook on Why ‘All Her Fault’ Was the Perfect Post-‘Succession’ Role",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "1558e306-sarah-snook-on-why-all-her-fault-was-the-perfect-post-succes"
+        },
+        {
+          "title": "Anthony Head Was a Father Figure to an Entire Generation of Genre Fans",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 10,
+          "slug": "4fc74bb2-anthony-head-was-a-father-figure-to-an-entire-generation-of-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Best Streaming TV Shows Of 2026 (So Far)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Interview With the Vampire’ Transforms Into ‘The Vampire Lestat’ for a Gloriously Glam Season 3: TV Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-07T21:16:01.390Z",
       "status": "quota",
@@ -2429,32 +2476,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-03T22:00:52.202Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 94,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Naughty Dog No-Show at PlayStation State of Play Leaves Fans Fearing Intergalactic: The Heretic Prophet is Still a Long Way From Launch",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "8 Big Takeaways From God Of War Laufey’s 20-Minute Debut Trailer",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 16,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-07T21:16:01.390Z"
+  "lastUpdated": "2026-06-07T22:00:24.641Z"
 }
