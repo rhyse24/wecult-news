@@ -1,6 +1,38 @@
 {
-  "totalArticles": 336,
+  "totalArticles": 339,
   "runs": [
+    {
+      "timestamp": "2026-06-07T11:49:21.132Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 214,
+      "totalCandidates": 14,
+      "written": [
+        {
+          "title": "Book Review: ‘Contrapposto,’ by Dave Eggers",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 7,
+          "slug": "2b9e98c9-book-review-contrapposto-by-dave-eggers"
+        },
+        {
+          "title": "“Far right groups prey on it”: Olivia Laing on the weaponisation of loneliness",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 6,
+          "slug": "8a546e64-far-right-groups-prey-on-it-olivia-laing-on-the-weaponisatio"
+        },
+        {
+          "title": "Should we ditch the idea of three meals a day?",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 6,
+          "slug": "7d91b56e-should-we-ditch-the-idea-of-three-meals-a-day"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-07T10:00:25.573Z",
       "status": "success",
@@ -2387,39 +2419,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-03T10:00:56.373Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 53,
-      "written": [
-        {
-          "title": "Gunfights, grisly deaths and fentanyl: Euphoria’s finale was a lurid epic of biblical proportions",
-          "category": "tv",
-          "source": "Guardian TV",
-          "score": 12,
-          "slug": "846e709f-gunfights-grisly-deaths-and-fentanyl-euphorias-finale-was-a-"
-        },
-        {
-          "title": "Before Off Campus, Belmont Cameli Starred In A Failed Reboot Of A Classic '90s Sitcom",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "57364874-before-off-campus-belmont-cameli-starred-in-a-failed-reboot-"
-        },
-        {
-          "title": "Why Oreana Jackson From Dutton Ranch Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "7d2c7087-why-oreana-jackson-from-dutton-ranch-looks-so-familiar"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-07T10:00:25.573Z"
+  "lastUpdated": "2026-06-07T11:49:21.132Z"
 }
