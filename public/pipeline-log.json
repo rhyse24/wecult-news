@@ -2,6 +2,27 @@
   "totalArticles": 353,
   "runs": [
     {
+      "timestamp": "2026-06-07T23:07:33.406Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 184,
+      "totalCandidates": 73,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Gears of War: E-Day and Clockwork Revolution Are 'Not Timed Exclusives,' Xbox Says — So They'll Never Launch on PlayStation",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-07T22:00:24.641Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2443,40 +2464,7 @@
       "totalCandidates": 37,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-03T23:45:52.198Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 282,
-      "totalCandidates": 94,
-      "written": [
-        {
-          "title": "From 19 Inches of Venom to... Nothing — There's No Marvel's Wolverine Collector's Edition and Insomniac Fans Don't Know Why",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 16,
-          "slug": "c3a67b98-from-19-inches-of-venom-to-nothing-theres-no-marvels-wolveri"
-        },
-        {
-          "title": "8 Big Takeaways From God Of War Laufey’s 20-Minute Debut Trailer",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 16,
-          "slug": "9e0c16ac-8-big-takeaways-from-god-of-war-laufeys-20-minute-debut-trai"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Control Resonant Has a 2-Day Early Access Through the Digital Deluxe Edition — but Only on PS5",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-07T22:00:24.641Z"
+  "lastUpdated": "2026-06-07T23:07:33.406Z"
 }
