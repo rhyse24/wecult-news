@@ -1,6 +1,24 @@
 {
-  "totalArticles": 347,
+  "totalArticles": 348,
   "runs": [
+    {
+      "timestamp": "2026-06-07T18:00:26.210Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 191,
+      "totalCandidates": 57,
+      "written": [
+        {
+          "title": "Halo: Campaign Evolved Reveals New Space Combat Missions, Imminent Release Date",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 17,
+          "slug": "13bab581-halo-campaign-evolved-reveals-new-space-combat-missions-immi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-07T17:19:38.808Z",
       "status": "success",
@@ -2421,25 +2439,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-03T16:53:34.838Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "‘Backrooms’ Crosses $100 Million in 6 Days to Become A24’s Biggest Movie at Domestic Box Office",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "63b0dcc7-backrooms-crosses-100-million-in-6-days-to-become-a24s-bigge"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-07T17:19:38.808Z"
+  "lastUpdated": "2026-06-07T18:00:26.210Z"
 }
