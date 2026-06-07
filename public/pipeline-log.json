@@ -1,6 +1,46 @@
 {
-  "totalArticles": 350,
+  "totalArticles": 351,
   "runs": [
+    {
+      "timestamp": "2026-06-07T21:16:01.390Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 187,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "10 Greatest Western Endings of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "b3b0829c-10-greatest-western-endings-of-all-time"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘The Super Mario Galaxy Movie’ Becomes First Movie to Cross $1B in 2026",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Box Office: ‘Scary Movie’ Scores Franchise-Best $55 Million Opening, ‘Masters of the Universe’ Stumbles With $29.3 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Most Surreal Horror Movies",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-07T20:00:22.122Z",
       "status": "quota",
@@ -2414,32 +2454,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-03T20:58:03.424Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 96,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Naughty Dog No-Show at PlayStation State of Play Leaves Fans Fearing Intergalactic: The Heretic Prophet is Still a Long Way From Launch",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "8 Big Takeaways From God Of War Laufey’s 20-Minute Debut Trailer",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 16,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-07T20:00:22.122Z"
+  "lastUpdated": "2026-06-07T21:16:01.390Z"
 }
