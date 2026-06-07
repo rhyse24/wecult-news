@@ -1,6 +1,32 @@
 {
-  "totalArticles": 340,
+  "totalArticles": 341,
   "runs": [
+    {
+      "timestamp": "2026-06-07T15:27:07.239Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 202,
+      "totalCandidates": 64,
+      "written": [
+        {
+          "title": "New PowerWash Simulator 2: Star Wars Pack Trailer Spotlights Classic Locations | IGN Live 2026",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "2a2ae52b-new-powerwash-simulator-2-star-wars-pack-trailer-spotlights-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": " Call of Duty: Black Ops 7, Season 4 adds a mode that removes OmniMovement and a gun that aims for you—perfect for players who can't be bothered to play anymore ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-07T13:57:33.243Z",
       "status": "quota",
@@ -2372,61 +2398,7 @@
       "totalCandidates": 51,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-03T12:00:53.224Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 262,
-      "totalCandidates": 78,
-      "written": [
-        {
-          "title": "GTA 5 Actor Ned Luke Celebrates as Swatting Perpetrator Sentenced to 4 Years",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "4ac75bb2-gta-5-actor-ned-luke-celebrates-as-swatting-perpetrator-sent"
-        },
-        {
-          "title": "The Internet Reacts to God of War Laufey",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "cb223021-the-internet-reacts-to-god-of-war-laufey"
-        },
-        {
-          "title": "Fallout 76 is finally getting native PS5 and Xbox Series X/S versions with improved graphics and performance, but Bethesda needs to test them first",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 12,
-          "slug": "63138900-fallout-76-is-finally-getting-native-ps5-and-xbox-series-xs-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Naughty Dog No-Show at PlayStation State of Play Leaves Fans Fearing Intergalactic: The Heretic Prophet is Still a Long Way From Launch",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 18,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Final Fantasy VII Rebirth Update Adds 'Streamlined Progression' to Make the Game Easier",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Control Resonant release date? Yeah that's nice, now move aside so I can look at its system requirements and ohhh that's a lot of SSD space",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-07T13:57:33.243Z"
+  "lastUpdated": "2026-06-07T15:27:07.239Z"
 }
