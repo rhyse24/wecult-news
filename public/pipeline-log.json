@@ -1,6 +1,46 @@
 {
-  "totalArticles": 344,
+  "totalArticles": 347,
   "runs": [
+    {
+      "timestamp": "2026-06-07T17:19:38.808Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 195,
+      "totalCandidates": 17,
+      "written": [
+        {
+          "title": "Box Office: ‘The Super Mario Galaxy Movie’ Becomes First 2026 Release to Cross $1 Billion",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "bd2052b4-box-office-the-super-mario-galaxy-movie-becomes-first-2026-r"
+        },
+        {
+          "title": "‘Obsession’ Crosses $200M Globally to Become Focus’ Top Movie of All Time",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "fe96968c-obsession-crosses-200m-globally-to-become-focus-top-movie-of"
+        },
+        {
+          "title": "8 Forgotten Netflix Action Movies That Are Perfect From Start to Finish",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "9206e4b3-8-forgotten-netflix-action-movies-that-are-perfect-from-star"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Only 3 Movies Are Better-Written Than 'The Godfather'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-07T16:00:30.596Z",
       "status": "success",
@@ -2399,36 +2439,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-03T16:01:09.335Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 53,
-      "written": [
-        {
-          "title": "Euphoria Season 3 Finale Features A Product Showcase So Egregious Fans Are Calling It Out",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "e78bcf07-euphoria-season-3-finale-features-a-product-showcase-so-egre"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "On Set With ‘Alice and Steve’: Nicola Walker and Jemaine Clement Prepare to Debut Their Raucous “Wrong-Com”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-07T16:00:30.596Z"
+  "lastUpdated": "2026-06-07T17:19:38.808Z"
 }
