@@ -1,6 +1,53 @@
 {
-  "totalArticles": 372,
+  "totalArticles": 375,
   "runs": [
+    {
+      "timestamp": "2026-06-08T14:00:30.501Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 210,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "How 30 Years in the Trenches with Spielberg, Aliens, Indy and Dinosaurs Led to Disclosure Day",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 17,
+          "slug": "a8adaff1-how-30-years-in-the-trenches-with-spielberg-aliens-indy-and-"
+        },
+        {
+          "title": "‘Obsession’ Producers Tea Shop on Finding Curry Barker, Why YouTube Creators Shouldn’t Immediately ‘Move On to $20 Million Studio Movies’ and Sequel Talks",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "a79186fe-obsession-producers-tea-shop-on-finding-curry-barker-why-you"
+        },
+        {
+          "title": "U.K. Heavyweight Doc Player Jane Ray Boards Argentina’s ‘The Nights’ by Ana Bovino Ahead of ECAM Forum (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "13f0771d-uk-heavyweight-doc-player-jane-ray-boards-argentinas-the-nig"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Idris Elba Says Bond Rumors Were ‘Never Legit’ and ‘Not Realistic’: Audiences ‘Won’t Go for a Black Male Playing Bond’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "China Box Office: ‘Dear You’ Leads Again as ‘Masters of the Universe’ Debuts",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-08T12:00:35.054Z",
       "status": "success",
@@ -2518,39 +2565,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-04T14:00:55.350Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 51,
-      "written": [
-        {
-          "title": "‘I’m the Craziest Bitch You Ever Met’: Sharon Stone and Keke Palmer on Why ‘Euphoria’ Should Be Shown in High Schools, Men’s Rights and AI’s Lack of Originality",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 17,
-          "slug": "0b7eec75-im-the-craziest-bitch-you-ever-met-sharon-stone-and-keke-pal"
-        },
-        {
-          "title": "‘Euphoria’: Anna Van Patten Breaks Down that Silver Slipper Shootout & Kitty’s Prosthetics",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 12,
-          "slug": "697effe7-euphoria-anna-van-patten-breaks-down-that-silver-slipper-sho"
-        },
-        {
-          "title": "The Untold Saga Behind an Infamous Male Supermodel Cult",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "a50a0f3e-the-untold-saga-behind-an-infamous-male-supermodel-cult"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-08T12:00:35.054Z"
+  "lastUpdated": "2026-06-08T14:00:30.501Z"
 }
