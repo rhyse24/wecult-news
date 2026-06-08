@@ -1,6 +1,46 @@
 {
-  "totalArticles": 353,
+  "totalArticles": 356,
   "runs": [
+    {
+      "timestamp": "2026-06-08T02:00:25.461Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 189,
+      "totalCandidates": 78,
+      "written": [
+        {
+          "title": "How to recover lost Sprites in Fortnite Chapter 7 Season 3",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 15,
+          "slug": "fca3da1b-how-to-recover-lost-sprites-in-fortnite-chapter-7-season-3"
+        },
+        {
+          "title": "Round Up: All the PS5 Reveals from the Xbox Showcase 2026",
+          "category": "games",
+          "source": "Push Square",
+          "score": 15,
+          "slug": "4df151f5-round-up-all-the-ps5-reveals-from-the-xbox-showcase-2026"
+        },
+        {
+          "title": "Alix Wilton Regan on Becoming Lara Croft in Tomb Raider: Legacy of Atlantis | IGN Live 2026",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "352302e5-alix-wilton-regan-on-becoming-lara-croft-in-tomb-raider-lega"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "9 Details From The Final Fantasy 7 Revelation Reveal Trailer We Can’t Stop Thinking About",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-08T00:00:24.924Z",
       "status": "quota",
@@ -2454,25 +2494,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-04T02:00:50.931Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "10 Greatest Fantasy Books of the Last 50 Years",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "1872ba77-10-greatest-fantasy-books-of-the-last-50-years"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-08T00:00:24.924Z"
+  "lastUpdated": "2026-06-08T02:00:25.461Z"
 }
