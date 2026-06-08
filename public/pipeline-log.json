@@ -2,6 +2,16 @@
   "totalArticles": 376,
   "runs": [
     {
+      "timestamp": "2026-06-08T18:29:28.503Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 250,
+      "totalCandidates": 45,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-08T18:00:30.467Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2533,28 +2543,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-04T18:00:52.794Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 282,
-      "totalCandidates": 53,
-      "written": [],
-      "rejected": [
-        {
-          "title": "2026 video game release dates: PS5, PS4, Xbox, PC and Switch",
-          "category": "tv",
-          "source": "Radio Times",
-          "score": 15,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 604 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-08T18:00:30.467Z"
+  "lastUpdated": "2026-06-08T18:29:28.503Z"
 }
