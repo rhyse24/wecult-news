@@ -2,6 +2,16 @@
   "totalArticles": 378,
   "runs": [
     {
+      "timestamp": "2026-06-08T22:00:29.509Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 258,
+      "totalCandidates": 52,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-08T21:51:32.038Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2525,32 +2535,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-04T22:00:34.688Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 287,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "5 Best Creepypasta Stories That Need Movie Adaptations After Backrooms",
-          "category": "film",
-          "source": "Looper",
-          "score": 16,
-          "slug": "312916f5-5-best-creepypasta-stories-that-need-movie-adaptations-after"
-        },
-        {
-          "title": "Christopher Nolan’s ‘The Odyssey’ Earns R Rating",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "eb2794b2-christopher-nolans-the-odyssey-earns-r-rating"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-08T21:51:32.038Z"
+  "lastUpdated": "2026-06-08T22:00:29.509Z"
 }
