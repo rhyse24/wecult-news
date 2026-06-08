@@ -1,6 +1,88 @@
 {
-  "totalArticles": 363,
+  "totalArticles": 366,
   "runs": [
+    {
+      "timestamp": "2026-06-08T10:00:33.577Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 198,
+      "totalCandidates": 18,
+      "written": [
+        {
+          "title": "Tamil Blockbuster ‘Karuppu’ Set for Global Streaming Launch on Amazon Prime Video",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "slug": "59f95c28-tamil-blockbuster-karuppu-set-for-global-streaming-launch-on"
+        },
+        {
+          "title": "Korea Box Office: ‘Colony’ Retains Top Spot as ‘Wild Sing’ Debuts Strong",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "38089611-korea-box-office-colony-retains-top-spot-as-wild-sing-debuts"
+        },
+        {
+          "title": "‘Lesbian Lines’ Doc Shines a Light on Irish History Not Taught in School – and the Power of Listening",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 6,
+          "slug": "6dcc931d-lesbian-lines-doc-shines-a-light-on-irish-history-not-taught"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Idris Elba Says Bond Rumors Were ‘Never Legit’ and ‘Not Realistic’: Audiences ‘Won’t Go for a Black Male Playing Bond’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Maggie Gyllenhaal, Jesse Eisenberg to Be Honored at Karlovy Vary Film Festival",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Box Office: ‘Scary Movie’ Scores Franchise-Best $55 Million Opening, ‘Masters of the Universe’ Stumbles With $29.3 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘The Super Mario Galaxy Movie’ Becomes First Movie to Cross $1B in 2026",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Greatest R-Rated Mystery Movies",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "5 Best Shark Movies Nobody Talks About Anymore",
+          "category": "film",
+          "source": "Looper",
+          "score": 8,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "10 Most Surreal Horror Movies",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 7,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-08T08:00:27.706Z",
       "status": "success",
@@ -2454,50 +2536,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-04T09:59:05.338Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 266,
-      "totalCandidates": 51,
-      "written": [
-        {
-          "title": "‘Daredevil: Born Again’ Finale’s Hallway Scene Took Three Days of Prep and One Day to Shoot",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 11,
-          "slug": "5a0711af-daredevil-born-again-finales-hallway-scene-took-three-days-o"
-        },
-        {
-          "title": "The Super Mario Galaxy Movie Stays at #2, 3rd Mononoke Film Opens at #6 in Japan",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 11,
-          "slug": "1418e568-the-super-mario-galaxy-movie-stays-at-2-3rd-mononoke-film-op"
-        },
-        {
-          "title": "Off Campus Season 2 Spoilers: What Happens In The Books?",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "c1617173-off-campus-season-2-spoilers-what-happens-in-the-books"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Euphoria’: Anna Van Patten Breaks Down that Silver Slipper Shootout & Kitty’s Prosthetics",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 15 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-08T08:00:27.706Z"
+  "lastUpdated": "2026-06-08T10:00:33.577Z"
 }
