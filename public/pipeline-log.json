@@ -1,6 +1,38 @@
 {
-  "totalArticles": 360,
+  "totalArticles": 363,
   "runs": [
+    {
+      "timestamp": "2026-06-08T08:00:27.706Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 189,
+      "totalCandidates": 4,
+      "written": [
+        {
+          "title": "A British Childhood by Frank Cottrell-Boyce review – are we raising a bookless generation?",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 6,
+          "slug": "562e6d86-a-british-childhood-by-frank-cottrell-boyce-review-are-we-ra"
+        },
+        {
+          "title": "Robert Coles, Pulitzer-Winning Child Psychiatrist, Is Dead at 97",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 5,
+          "slug": "c4fa3a95-robert-coles-pulitzer-winning-child-psychiatrist-is-dead-at-"
+        },
+        {
+          "title": "The Book News We Covered This Week",
+          "category": "books",
+          "source": "Book Riot",
+          "score": 3,
+          "slug": "8ad2e64a-the-book-news-we-covered-this-week"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-08T06:00:25.992Z",
       "status": "success",
@@ -2465,61 +2497,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-04T08:00:54.478Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 271,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "You Can Now Fight Take-Two CEO Strauss Zelnick in WWE 2K26",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "c557ef6b-you-can-now-fight-take-two-ceo-strauss-zelnick-in-wwe-2k26"
-        },
-        {
-          "title": "CoD Season 4 Patch Notes Detail SG-12 Nerf, Anti-Cheat Updates, And More",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 11,
-          "slug": "438ad57d-cod-season-4-patch-notes-detail-sg-12-nerf-anti-cheat-update"
-        },
-        {
-          "title": "GTA 6 Has Turned September Into a Video Game Battle Royale",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 10,
-          "slug": "09d6ab0b-gta-6-has-turned-september-into-a-video-game-battle-royale"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "LEGO Batman: Legacy of the Dark Knight Gets Nintendo Switch 2 Release Date",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Control Resonant Has a 2-Day Early Access Period via the Digital Deluxe Edition — but Only on PS5",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "God Of War Devs Explain Laufey’s Place In The Franchise",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 11,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-08T06:00:25.992Z"
+  "lastUpdated": "2026-06-08T08:00:27.706Z"
 }
