@@ -2,6 +2,16 @@
   "totalArticles": 357,
   "runs": [
     {
+      "timestamp": "2026-06-08T04:13:15.556Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 187,
+      "totalCandidates": 31,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-08T04:00:24.448Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2512,25 +2522,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-04T04:15:05.672Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "The Dog Is Still in Danger in Final Supergirl Trailer",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "6ae3856e-the-dog-is-still-in-danger-in-final-supergirl-trailer"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-08T04:00:24.448Z"
+  "lastUpdated": "2026-06-08T04:13:15.556Z"
 }
