@@ -1,6 +1,53 @@
 {
-  "totalArticles": 357,
+  "totalArticles": 360,
   "runs": [
+    {
+      "timestamp": "2026-06-08T06:00:25.992Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 187,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Batman Star Burgess Meredith Created The Penguin's Quack For An Unexpected Reason",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "82985d80-batman-star-burgess-meredith-created-the-penguins-quack-for-"
+        },
+        {
+          "title": "10 Best Sitcoms Streaming On HBO Max Right Now",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "b83f5630-10-best-sitcoms-streaming-on-hbo-max-right-now"
+        },
+        {
+          "title": "What Happened to Henry? ‘FROM’ Delivers a Chilling Man in Yellow Twist",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 10,
+          "slug": "ccb6e843-what-happened-to-henry-from-delivers-a-chilling-man-in-yello"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The Vampire Lestat Team Answers Our Burning Questions About Gabriella, Sam Reid's Dual Role, And More — Grade The Premiere!",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-08T04:13:15.556Z",
       "status": "quota",
@@ -2472,57 +2519,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-04T06:00:51.402Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 275,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "10 Best Martial Arts Movies of the 2020s",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "891b0376-10-best-martial-arts-movies-of-the-2020s"
-        },
-        {
-          "title": "Boots Riley Guesses Martin Scorsese Got ‘A Gang of Money’ for AI Partnership and ‘Doesn’t Give a F—‘",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "fb25897e-boots-riley-guesses-martin-scorsese-got-a-gang-of-money-for-"
-        },
-        {
-          "title": "The Woman Who Saved “Star Wars”: Marcia Lucas (1945-2026)",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 9,
-          "slug": "96b73916-the-woman-who-saved-star-wars-marcia-lucas-1945-2026"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Only 3 Masterpiece Fantasy Movies Are Better Than The Lord of the Rings",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Backrooms’ Director Kane Parsons Says Using AI ‘Defeats the Purpose’ of Filmmaking: ‘I Get No Enjoyment From Using Those Tools’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "TR body too short: 218 words (need ≥220)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-08T04:13:15.556Z"
+  "lastUpdated": "2026-06-08T06:00:25.992Z"
 }
