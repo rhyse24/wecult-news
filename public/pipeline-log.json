@@ -1,6 +1,39 @@
 {
-  "totalArticles": 377,
+  "totalArticles": 378,
   "runs": [
+    {
+      "timestamp": "2026-06-08T21:51:32.038Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "10 Movies To Watch if You Love 'Backrooms'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "slug": "9a7932f5-10-movies-to-watch-if-you-love-backrooms"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "5 Best Episodes Of The Backrooms Web Series, According To IMDb",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "5 Best Spy Movies Nobody Talks About Anymore",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-08T20:00:31.825Z",
       "status": "quota",
@@ -2517,33 +2550,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-04T20:08:25.462Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 287,
-      "totalCandidates": 92,
-      "written": [
-        {
-          "title": "Backrooms Director Praises Valve’s “Integrity” For Not Making Sequels Just For Money",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 16,
-          "slug": "82be653c-backrooms-director-praises-valves-integrity-for-not-making-s"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Elden Ring Tarnished Edition Has a Nintendo Switch 2 Release Date, Additional Content Also Available to Buy on Other Platforms",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-08T20:00:31.825Z"
+  "lastUpdated": "2026-06-08T21:51:32.038Z"
 }
