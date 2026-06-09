@@ -1,6 +1,24 @@
 {
-  "totalArticles": 399,
+  "totalArticles": 400,
   "runs": [
+    {
+      "timestamp": "2026-06-09T21:49:15.900Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 258,
+      "totalCandidates": 79,
+      "written": [
+        {
+          "title": "FromSoftware's The Duskbloods still doesn't have a release date, but there's a Switch 2 playtest coming soon",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 15,
+          "slug": "153452b3-fromsoftwares-the-duskbloods-still-doesnt-have-a-release-dat"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-09T20:00:35.484Z",
       "status": "success",
@@ -2457,32 +2475,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-05T23:12:09.732Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 282,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "Why Gotham Was Forbidden From Fully Transforming Jerome Into The Joker",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "6415befb-why-gotham-was-forbidden-from-fully-transforming-jerome-into"
-        },
-        {
-          "title": "Backrooms uses the bluntest metaphors to capture a uniquely Gen Z fear",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "slug": "fffc555f-backrooms-uses-the-bluntest-metaphors-to-capture-a-uniquely-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-09T20:00:35.484Z"
+  "lastUpdated": "2026-06-09T21:49:15.900Z"
 }
