@@ -1,6 +1,24 @@
 {
-  "totalArticles": 393,
+  "totalArticles": 394,
   "runs": [
+    {
+      "timestamp": "2026-06-09T18:00:31.996Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 75,
+      "written": [
+        {
+          "title": " Surely FromSoftware has something brewing besides that Switch 2 exclusive, right? ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 18,
+          "slug": "b6022825-surely-fromsoftware-has-something-brewing-besides-that-switc"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-09T16:00:43.153Z",
       "status": "quota",
@@ -2427,25 +2445,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-05T19:57:55.191Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "Masters of the Universe Can Point the Way for Thor 5",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "slug": "b7b1af74-masters-of-the-universe-can-point-the-way-for-thor-5"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-09T16:00:43.153Z"
+  "lastUpdated": "2026-06-09T18:00:31.996Z"
 }
