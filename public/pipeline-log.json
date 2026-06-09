@@ -2,6 +2,16 @@
   "totalArticles": 380,
   "runs": [
     {
+      "timestamp": "2026-06-09T02:00:30.788Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 261,
+      "totalCandidates": 90,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-09T00:00:29.404Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2488,39 +2498,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-05T02:00:38.185Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 281,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Embracing the Therapeutic Power of Katamari Damacy",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "6332d3c1-embracing-the-therapeutic-power-of-katamari-damacy"
-        },
-        {
-          "title": "Alan Gribben, Twain Scholar Who Excised Slur From ‘Huck Finn,’ Dies at 84",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 11,
-          "slug": "401e31e5-alan-gribben-twain-scholar-who-excised-slur-from-huck-finn-d"
-        },
-        {
-          "title": "Read an Excerpt From The Exquisite Torment of Loving Your Enemy by Brigitte Knightley",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 11,
-          "slug": "deb586b6-read-an-excerpt-from-the-exquisite-torment-of-loving-your-en"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-09T00:00:29.404Z"
+  "lastUpdated": "2026-06-09T02:00:30.788Z"
 }
