@@ -2,6 +2,16 @@
   "totalArticles": 380,
   "runs": [
     {
+      "timestamp": "2026-06-09T04:00:27.758Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 260,
+      "totalCandidates": 87,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-09T03:41:52.564Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2472,25 +2482,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-05T06:00:35.878Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 93,
-      "written": [
-        {
-          "title": "New PC Game Hijinks High From Laid-Off Xbox Developers Challenges You To Become A High School Menace",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 16,
-          "slug": "6b5aed67-new-pc-game-hijinks-high-from-laid-off-xbox-developers-chall"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-09T03:41:52.564Z"
+  "lastUpdated": "2026-06-09T04:00:27.758Z"
 }
