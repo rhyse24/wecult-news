@@ -1,6 +1,70 @@
 {
-  "totalArticles": 380,
+  "totalArticles": 383,
   "runs": [
+    {
+      "timestamp": "2026-06-09T07:52:07.292Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 261,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": "Xbox Fans Question Marvel's Blade Absence From XGS 2026",
+          "category": "games",
+          "source": "Pure Xbox",
+          "score": 14,
+          "slug": "7480db58-xbox-fans-question-marvels-blade-absence-from-xgs-2026"
+        },
+        {
+          "title": "No Law Trailer Offers A Closer Look At Port Desire, Its Stories, and The Peacekeepers",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "slug": "a25f913c-no-law-trailer-offers-a-closer-look-at-port-desire-its-stori"
+        },
+        {
+          "title": " No, Blade is not cancelled, Arkane artist confirms ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "5db3bf48-no-blade-is-not-cancelled-arkane-artist-confirms"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The 13 Biggest Video Game Reveals And Surprises From All Of SGF’s Showcases",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 19,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 673 words (max 580)"
+          ]
+        },
+        {
+          "title": " Xbox lost 'millions' of Game Pass subscribers after last year's massive price hike ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Call of Duty: Black Ops 1 and 2 Ports Have Apparently Leaked",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Halo: Campaign Evolved Collector's Edition Includes a Relic of a Bygone Gaming Era",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-09T06:00:30.994Z",
       "status": "quota",
@@ -2395,61 +2459,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-05T08:14:03.456Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "10 Most Ambitious Superhero Movies of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "slug": "842b2bc3-10-most-ambitious-superhero-movies-of-all-time"
-        },
-        {
-          "title": "‘Death Boom’ Trailer: Documentary From Eli Roth, Jessica Chandler and Leonardo DiCaprio’s Appian Way Investigates End-of-Life Industry (EXCLUSIVE) ",
-          "category": "film",
-          "source": "Variety",
-          "score": 11,
-          "slug": "248a99fe-death-boom-trailer-documentary-from-eli-roth-jessica-chandle"
-        },
-        {
-          "title": "10 Greatest Neo-Noirs of the 2000s",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "slug": "2b2baf2a-10-greatest-neo-noirs-of-the-2000s"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Fantasy Movies That Are Perfect From the First Scene to the Last",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Max Kleven, Stuntman, Second-Unit Director on ‘Rollerball,’ ‘Batman Returns’ and ‘The River Wild,’ Dies at 92",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Only 7 Sci-Fi Movies Are More Rewatchable Than ‘The Matrix’",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-09T06:00:30.994Z"
+  "lastUpdated": "2026-06-09T07:52:07.292Z"
 }
