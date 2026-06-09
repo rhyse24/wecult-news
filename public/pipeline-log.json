@@ -1,6 +1,53 @@
 {
-  "totalArticles": 390,
+  "totalArticles": 393,
   "runs": [
+    {
+      "timestamp": "2026-06-09T14:00:33.549Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Romy and Michele 2 Deserves a Theatrical Release",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "slug": "df8f83e8-romy-and-michele-2-deserves-a-theatrical-release"
+        },
+        {
+          "title": "10 Greatest Neo-Noirs of the 2010s",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "db8b1632-10-greatest-neo-noirs-of-the-2010s"
+        },
+        {
+          "title": "10 Greatest Sci-Fi Movie Masterpieces of the 21st Century",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "9ac250c8-10-greatest-sci-fi-movie-masterpieces-of-the-21st-century"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "5 Worst Plot Holes In The Boys Season 5",
+          "category": "film",
+          "source": "Looper",
+          "score": 19,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Scary Movie’ Reboot Leads U.K. and Ireland Box Office as Steven Spielberg’s ‘Disclosure Day’ Looms",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-09T12:00:37.171Z",
       "status": "quota",
@@ -2412,40 +2459,7 @@
       "totalCandidates": 88,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-05T16:00:34.951Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 50,
-      "written": [
-        {
-          "title": "Winners and Losers: ’60 Minutes’ Falls Apart, Zendaya Escapes ‘Euphoria’",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "slug": "f29e40d8-winners-and-losers-60-minutes-falls-apart-zendaya-escapes-eu"
-        },
-        {
-          "title": "Anthony Head, ‘Buffy’ and ‘Ted Lasso’ Star, Dies at 72",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "37e39ae8-anthony-head-buffy-and-ted-lasso-star-dies-at-72"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Save The Dates: Caped Crusader Season 2, Adults' Return Month, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-09T12:00:37.171Z"
+  "lastUpdated": "2026-06-09T14:00:33.549Z"
 }
