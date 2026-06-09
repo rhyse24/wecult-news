@@ -1,6 +1,24 @@
 {
-  "totalArticles": 389,
+  "totalArticles": 390,
   "runs": [
+    {
+      "timestamp": "2026-06-09T12:00:37.171Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 261,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Masters of the Universe Needs to Commit",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "slug": "27d9dd9e-masters-of-the-universe-needs-to-commit"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-09T11:18:06.548Z",
       "status": "quota",
@@ -2427,54 +2445,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-05T14:00:36.485Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 279,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "Posterized June 2026: Maddie’s Secret, The Furious, Drunken Noodles & More",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 12,
-          "slug": "96be041d-posterized-june-2026-maddies-secret-the-furious-drunken-nood"
-        },
-        {
-          "title": "A Near-Perfect Cillian Murphy War Thriller Is Now on Netflix",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "slug": "e0b3dd91-a-near-perfect-cillian-murphy-war-thriller-is-now-on-netflix"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘The Odyssey’ Formats: Imax, 70mm and All the Ways to Watch Christopher Nolan’s Epic",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "5 Best Movies Like Masters Of The Universe",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Greatest Movies Made by Directors Under 25 Years Old",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-09T11:18:06.548Z"
+  "lastUpdated": "2026-06-09T12:00:37.171Z"
 }
