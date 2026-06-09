@@ -2,6 +2,16 @@
   "totalArticles": 400,
   "runs": [
     {
+      "timestamp": "2026-06-09T22:00:29.961Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 53,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-09T21:49:15.900Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2457,25 +2467,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-06T00:00:33.875Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Ticket Prices for THE ODYSSEY Soar to $1,000 on eBay",
-          "category": "books",
-          "source": "Book Riot",
-          "score": 14,
-          "slug": "16ca0810-ticket-prices-for-the-odyssey-soar-to-1000-on-ebay"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-09T21:49:15.900Z"
+  "lastUpdated": "2026-06-09T22:00:29.961Z"
 }
