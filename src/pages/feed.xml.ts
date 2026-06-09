@@ -26,7 +26,7 @@ export const GET: APIRoute = () => {
     )
     .slice(0, 30)
 
-  const base = 'https://news.wecult.app'
+  const base = 'https://www.wecultdaily.com'
 
   const items = articles.map(a => {
     const translations = a.translations as Record<string, { title?: string; summary?: string } | null> | undefined

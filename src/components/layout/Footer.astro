@@ -28,7 +28,7 @@ const popularTags = ['Rockstar Games', 'HBO', 'Neil Gaiman', 'Denis Villeneuve',
         </div>
         <p class="footer-tagline">{t(lang, 'footer.tagline')}</p>
         <div class="footer-langs">
-          {(['en','tr'] as const).map(l => (
+          {(['en','tr','es'] as const).map(l => (
             <a href={getLocalizedPath(l, '/')} class={`footer-lang${l === lang ? ' is-active' : ''}`}>
               {l.toUpperCase()}
             </a>

@@ -14,7 +14,7 @@ export const GET: APIRoute = () => {
     .slice(0, 60)
     .map(a => {
       const translations = a.translations as Record<string, { title?: string; summary?: string } | null> | undefined
-      const base = 'https://news.wecult.app'
+      const base = 'https://www.wecultdaily.com'
       return {
         id:           a.id,
         slug:         a.slug,

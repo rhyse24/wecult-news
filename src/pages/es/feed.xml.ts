@@ -16,7 +16,7 @@ function rssDate(iso: string): string {
 }
 
 export const GET: APIRoute = () => {
-  const base = 'https://news.wecult.app'
+  const base = 'https://www.wecultdaily.com'
 
   const articles = Object.values(rawArticles)
     .map((m: unknown) => {

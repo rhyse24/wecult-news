@@ -25,7 +25,7 @@ export const GET: APIRoute = () => {
       new Date(b.published_at as string).getTime() - new Date(a.published_at as string).getTime()
     )
 
-  const base = 'https://news.wecult.app'
+  const base = 'https://www.wecultdaily.com'
 
   const items = articles
     .flatMap(a => {
@@ -33,7 +33,7 @@ export const GET: APIRoute = () => {
       const pubDate  = new Date(a.published_at as string).toISOString()
       const rawImageUrl = (a.image_url as string) || ''
       const imageUrl = rawImageUrl.startsWith('/')
-        ? `https://news.wecult.app${rawImageUrl}`
+        ? `https://www.wecultdaily.com${rawImageUrl}`
         : rawImageUrl
       const imageTag = imageUrl
         ? `\n    <image:image>\n      <image:loc>${escapeXml(imageUrl)}</image:loc>\n    </image:image>`
