@@ -2,6 +2,24 @@
   "totalArticles": 393,
   "runs": [
     {
+      "timestamp": "2026-06-09T16:00:43.153Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 267,
+      "totalCandidates": 72,
+      "written": [],
+      "rejected": [
+        {
+          "title": "The 13 Biggest Video Game Reveals And Surprises From All Of SGF’s Showcases",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 18,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-09T14:56:08.643Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2427,39 +2445,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-05T18:00:39.228Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 278,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "Xbox “Must Have Exclusive Content,” CEO Says",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 17,
-          "slug": "6c97fa78-xbox-must-have-exclusive-content-ceo-says"
-        },
-        {
-          "title": "Hot Wheels Infinite Rush Launches on September 24th for Current-Gen Consoles and PC – Rumor",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 14,
-          "slug": "d56903a4-hot-wheels-infinite-rush-launches-on-september-24th-for-curr"
-        },
-        {
-          "title": "Exclusive: Read an Extract From Peter F. Hamilton's Latest Sci-Fi Novel Set in the Exodus Universe",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "3755b17a-exclusive-read-an-extract-from-peter-f-hamiltons-latest-sci-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-09T14:56:08.643Z"
+  "lastUpdated": "2026-06-09T16:00:43.153Z"
 }
