@@ -656,7 +656,7 @@ async function downloadArticleImage(imageUrl, articleId) {
   if (existsSync(legacyWebp)) return `/article-images/${articleId}.webp`;
   try {
     const res = await fetch(imageUrl, {
-      headers: { 'User-Agent': 'WeCultNews/1.0 (+https://news.wecult.app)' },
+      headers: { 'User-Agent': 'WeCultNews/1.0 (+https://www.wecultdaily.com)' },
       signal: AbortSignal.timeout(12000),
       redirect: 'follow',
     });
