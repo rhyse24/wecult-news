@@ -1,6 +1,53 @@
 {
-  "totalArticles": 432,
+  "totalArticles": 434,
   "runs": [
+    {
+      "timestamp": "2026-06-10T22:00:48.060Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Oscars: Glenn Close, Ridley Scott, Disney’s First Black Animator and Killer Films Founders Set for Honorary Prizes",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "cf5f39c3-oscars-glenn-close-ridley-scott-disneys-first-black-animator"
+        },
+        {
+          "title": "Quentin Tarantino Said He Wouldn’t Watch Past ‘Toy Story 3’ After Film’s “Perfect” Ending. ‘Toy Story 5’ Team Gives Pitch For Continuing the Franchise",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "ba4a1b13-quentin-tarantino-said-he-wouldnt-watch-past-toy-story-3-aft"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Toy Story 5 Is Already Proving Doubters Wrong",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "Critics Left Stunned In First Reactions To Toy Story 5",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Disclosure Day Review: Steven Spielberg’s Coda to a Lifetime of Alien Movies",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-10T20:33:15.558Z",
       "status": "quota",
@@ -2377,40 +2424,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-06T22:00:27.795Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 246,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "The '60s Batman Show Only Exists Because Two Other Characters' TV Rights Weren't Available",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "70bb4952-the-60s-batman-show-only-exists-because-two-other-characters"
-        },
-        {
-          "title": "10 Best Network TV Shows Of 2026 (So Far)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "adf142be-10-best-network-tv-shows-of-2026-so-far"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-10T20:33:15.558Z"
+  "lastUpdated": "2026-06-10T22:00:48.060Z"
 }
