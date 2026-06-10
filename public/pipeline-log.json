@@ -1,6 +1,32 @@
 {
-  "totalArticles": 431,
+  "totalArticles": 432,
   "runs": [
+    {
+      "timestamp": "2026-06-10T20:33:15.558Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 273,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "Save The Dates: Diarra From Detroit Season 2, Ryan Murphy's The Shards, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "c8e58d52-save-the-dates-diarra-from-detroit-season-2-ryan-murphys-the"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Sydney Sweeney on Being Sexualized in ‘Euphoria,’ Crying Over Rue’s Death and Why She’ll Never Be ‘Satisfied With Where Cassie Ended Up’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-10T20:00:57.235Z",
       "status": "quota",
@@ -2384,32 +2410,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-06T21:07:18.242Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 243,
-      "totalCandidates": 38,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Among Us TV Show Gets Surprise Drop, Streaming Now On Paramount+ — Watch A New Trailer",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-10T20:00:57.235Z"
+  "lastUpdated": "2026-06-10T20:33:15.558Z"
 }
