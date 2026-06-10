@@ -1,6 +1,53 @@
 {
-  "totalArticles": 426,
+  "totalArticles": 429,
   "runs": [
+    {
+      "timestamp": "2026-06-10T17:22:55.591Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "‘Project Hail Mary’ Sets Streaming Release Date",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "slug": "4154021f-project-hail-mary-sets-streaming-release-date"
+        },
+        {
+          "title": "The Death of Robin Hood: Exclusive Look at Hugh Jackman’s Unmasking of a Legend",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 14,
+          "slug": "5fa80183-the-death-of-robin-hood-exclusive-look-at-hugh-jackmans-unma"
+        },
+        {
+          "title": "Michael Douglas, Willem Dafoe, Ellen Barkin and Homer Gere Join Oliver Stone’s ‘White Lies’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "403096de-michael-douglas-willem-dafoe-ellen-barkin-and-homer-gere-joi"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Only 5 MCU Heroes Are Smarter Than Tony Stark",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Disclosure Day Review: Steven Spielberg’s Coda to a Lifetime of Alien Movies",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-10T16:00:51.876Z",
       "status": "quota",
@@ -2399,39 +2446,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-06T18:00:22.961Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 241,
-      "totalCandidates": 23,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Best Horror of June 2026: ‘Scary Movie’ Returns, Spielberg Revisits Aliens, Javier Bardem Tackles Another Villain Role and More",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Only 3 Movies Are Better-Written Than 'The Godfather'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "'The Celebrity Traitors' UK Season 2 Is Officially Coming Sooner Than Expected",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-10T16:00:51.876Z"
+  "lastUpdated": "2026-06-10T17:22:55.591Z"
 }
