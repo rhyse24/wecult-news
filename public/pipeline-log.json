@@ -1,6 +1,46 @@
 {
-  "totalArticles": 407,
+  "totalArticles": 410,
   "runs": [
+    {
+      "timestamp": "2026-06-10T06:00:31.354Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 265,
+      "totalCandidates": 78,
+      "written": [
+        {
+          "title": "Fire Emblem: Fortune's Weave Sets Standard Physical Price at $80",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "000b8073-fire-emblem-fortunes-weave-sets-standard-physical-price-at-8"
+        },
+        {
+          "title": "Before Darkness Falls is an Aliens: Dark Descent-style tactics game from former Frostpunk devs, and I did enjoy dying in its depths",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 13,
+          "slug": "e00c299e-before-darkness-falls-is-an-aliens-dark-descent-style-tactic"
+        },
+        {
+          "title": "Preorders For The Minecraft Dungeons 2 Deluxe Edition Are Live",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "5677923f-preorders-for-the-minecraft-dungeons-2-deluxe-edition-are-li"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Here's A Look At The Updated Xbox Game Studios Roadmap From June 2026",
+          "category": "games",
+          "source": "Pure Xbox",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-10T03:56:12.654Z",
       "status": "quota",
@@ -2426,25 +2466,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-06T06:54:47.400Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 266,
-      "totalCandidates": 66,
-      "written": [
-        {
-          "title": "God Of War Laufey’s Combat Was Inspired By The Original Greek Trilogy",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "0d70775a-god-of-war-laufeys-combat-was-inspired-by-the-original-greek"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-10T03:56:12.654Z"
+  "lastUpdated": "2026-06-10T06:00:31.354Z"
 }
