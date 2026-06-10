@@ -2,6 +2,16 @@
   "totalArticles": 425,
   "runs": [
     {
+      "timestamp": "2026-06-10T14:00:51.497Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 262,
+      "totalCandidates": 43,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-10T12:58:37.047Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2428,40 +2438,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-06T16:00:25.684Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 246,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "TVLine's Performer Of The Week: Colman Domingo",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "d2436f9c-tvlines-performer-of-the-week-colman-domingo"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Among Us TV Show Gets Surprise Drop, Streaming Now On Paramount+ — Watch A New Trailer",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-10T12:58:37.047Z"
+  "lastUpdated": "2026-06-10T14:00:51.497Z"
 }
