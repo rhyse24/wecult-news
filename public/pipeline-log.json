@@ -1,6 +1,67 @@
 {
-  "totalArticles": 410,
+  "totalArticles": 413,
   "runs": [
+    {
+      "timestamp": "2026-06-10T08:00:32.459Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 263,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "‘Toy Story 5’ First Reactions Praise Pixar’s Sequel as a ‘Deeply Profound’ and ‘Moving’ Film That ‘Ranks Right Alongside’ the Original",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "de5449c2-toy-story-5-first-reactions-praise-pixars-sequel-as-a-deeply"
+        },
+        {
+          "title": "Anna Faris Reveals Melania Trump Joke Cut From ‘Scary Movie’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "356cdaf7-anna-faris-reveals-melania-trump-joke-cut-from-scary-movie"
+        },
+        {
+          "title": "‘Compartment No. 6’ Director Juho Kuosmanen Adds Magnus Millang, Paprika Steen to Cast of Bittersweet Comedy ‘Dream Come True’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "d323f544-compartment-no-6-director-juho-kuosmanen-adds-magnus-millang"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Only 5 MCU Heroes Are Smarter Than Tony Stark",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Disclosure Day Review: Steven Spielberg’s Coda to a Lifetime of Alien Movies",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Tom Hanks Says Taylor Swift’s ‘Toy Story 5’ Song Was Kept ‘Top Secret’ From the Cast Until Release Day",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "5 Worst Plot Holes In The Boys Season 5",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-10T06:00:31.354Z",
       "status": "success",
@@ -2434,39 +2495,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-06T08:00:33.139Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 264,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "‘Dutton Ranch’ Episode 5: Rip Agrees to Run Beulah’s Ranch, [SPOILER] Gets Shot to Death by the Cops and Rob-Will Returns to Cause Mayhem",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "8a4f38b3-dutton-ranch-episode-5-rip-agrees-to-run-beulahs-ranch-spoil"
-        },
-        {
-          "title": "‘The Pitt’ Makeup Head Unpacks the Show’s Goriest Moments, From a Bloody Head Flap to Tongue Lacerations",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "slug": "094982e7-the-pitt-makeup-head-unpacks-the-shows-goriest-moments-from-"
-        },
-        {
-          "title": "Steins;Gate Re:Boot Game's Trailer Previews 'Gamma Worldline' Route",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 10,
-          "slug": "2387bb24-steinsgate-reboot-games-trailer-previews-gamma-worldline-rou"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-10T06:00:31.354Z"
+  "lastUpdated": "2026-06-10T08:00:32.459Z"
 }
