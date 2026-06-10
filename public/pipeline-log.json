@@ -2,6 +2,31 @@
   "totalArticles": 402,
   "runs": [
     {
+      "timestamp": "2026-06-10T00:00:27.313Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 34,
+      "written": [],
+      "rejected": [
+        {
+          "title": "5 Worst Plot Holes In The Boys Season 5",
+          "category": "film",
+          "source": "Looper",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Disclosure Day Review: Steven Spielberg’s Coda to a Lifetime of Alien Movies",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-09T23:18:01.987Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2420,39 +2445,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-06T03:40:49.796Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 69,
-      "written": [
-        {
-          "title": "Assassin's Creed creator's forgotten fantasy game 1666: Amsterdam will finally release this year, over a decade after Ubisoft ripped it from his fingers",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 17,
-          "slug": "fa2b69d7-assassins-creed-creators-forgotten-fantasy-game-1666-amsterd"
-        },
-        {
-          "title": "HAEX is Survival Shooter Made by Veterans From Massive Entertainment and Epic Games",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 17,
-          "slug": "0305bf99-haex-is-survival-shooter-made-by-veterans-from-massive-enter"
-        },
-        {
-          "title": "Fortnite Live Event Stuns Fans as The Rock's Fate Is Revealed and Ben Starr's Character Is Unmasked in Shock Twist",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "eb777bae-fortnite-live-event-stuns-fans-as-the-rocks-fate-is-revealed"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-09T23:18:01.987Z"
+  "lastUpdated": "2026-06-10T00:00:27.313Z"
 }
