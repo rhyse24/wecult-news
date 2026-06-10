@@ -1,6 +1,24 @@
 {
-  "totalArticles": 425,
+  "totalArticles": 426,
   "runs": [
+    {
+      "timestamp": "2026-06-10T16:00:51.876Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 271,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "Xbox Chief Content Officer Matt Booty on Shifting Exclusivity Strategy, Working With Asha Sharma and Why ‘Blade’ and ‘Elder Scrolls 6’ Didn’t Make It Into Showcase",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "39ade2e6-xbox-chief-content-officer-matt-booty-on-shifting-exclusivit"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-10T14:00:51.497Z",
       "status": "quota",
@@ -2413,32 +2431,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-06T17:17:31.738Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 247,
-      "totalCandidates": 21,
-      "written": [
-        {
-          "title": "Mommy and Me: 6 Thrillers with Troubled Parent-Child Relationships",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 8,
-          "slug": "97d91d61-mommy-and-me-6-thrillers-with-troubled-parent-child-relation"
-        },
-        {
-          "title": "In ‘Waist Deep,’ Linea Maja Ernst Explores Millennial Desire",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 7,
-          "slug": "087b4baa-in-waist-deep-linea-maja-ernst-explores-millennial-desire"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-10T14:00:51.497Z"
+  "lastUpdated": "2026-06-10T16:00:51.876Z"
 }
