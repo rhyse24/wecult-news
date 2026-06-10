@@ -1,6 +1,60 @@
 {
-  "totalArticles": 419,
+  "totalArticles": 422,
   "runs": [
+    {
+      "timestamp": "2026-06-10T12:00:51.301Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 258,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "Miriam Margolyes to Receive Raindance Icon Award, Reveals Feature Plans for Oscar-Nominated Short ‘A Friend of Dorothy’: ‘There Is Room to Expand’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "698a0290-miriam-margolyes-to-receive-raindance-icon-award-reveals-fea"
+        },
+        {
+          "title": "Bharathiraja, Pioneer of Tamil Rural Cinema, Dies at 84",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "acc7cf6c-bharathiraja-pioneer-of-tamil-rural-cinema-dies-at-84"
+        },
+        {
+          "title": "‘Desi Bling’ Producer on Why the Netflix Reality Show, About Ultra-Wealthy Indian Expats in Dubai, Is Such a Hit: People ‘Like to See Their Dreams on Screen’",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "e6b84821-desi-bling-producer-on-why-the-netflix-reality-show-about-ul"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Steven Spielberg’s ‘Disclosure Day’: What the Critics Are Saying",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Only 10 Action Movies Are More Rewatchable Than ‘The Mummy’",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Tom Hanks Says Taylor Swift’s ‘Toy Story 5’ Song Was Kept ‘Top Secret’ From the Cast Until Release Day",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-10T10:00:50.732Z",
       "status": "success",
@@ -2422,50 +2476,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-06T13:48:10.193Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 256,
-      "totalCandidates": 65,
-      "written": [
-        {
-          "title": " The UK government is considering banning children from speaking to strangers in games like Fortnite and Roblox ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 16,
-          "slug": "b6611122-the-uk-government-is-considering-banning-children-from-speak"
-        },
-        {
-          "title": "Final Fantasy 7 Revelation Director Confirms New Voice Actor for Sephiroth",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "23b9c9ed-final-fantasy-7-revelation-director-confirms-new-voice-actor"
-        },
-        {
-          "title": "Studio behind Martha is Dead, the game too extreme for PlayStation, debuts gameplay from its psychological serial killer horror When Sirens Fall Silent",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 12,
-          "slug": "148d0bc8-studio-behind-martha-is-dead-the-game-too-extreme-for-playst"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Talking Point: What Are You Playing This Weekend? (6th June)",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 16,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-10T10:00:50.732Z"
+  "lastUpdated": "2026-06-10T12:00:51.301Z"
 }
