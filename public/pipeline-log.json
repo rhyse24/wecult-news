@@ -1,6 +1,38 @@
 {
-  "totalArticles": 422,
+  "totalArticles": 425,
   "runs": [
+    {
+      "timestamp": "2026-06-10T12:58:37.047Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 256,
+      "totalCandidates": 86,
+      "written": [
+        {
+          "title": "Death Stranding movie director Michael Sarnoski says we may see some characters from the games despite the adaptation being \"very much its own thing\"",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 17,
+          "slug": "75543115-death-stranding-movie-director-michael-sarnoski-says-we-may-"
+        },
+        {
+          "title": "Disclosure Day ending explained: What do the aliens want?",
+          "category": "games",
+          "source": "Dexerto",
+          "score": 15,
+          "slug": "b830e411-disclosure-day-ending-explained-what-do-the-aliens-want"
+        },
+        {
+          "title": "Happy Anniversary, Elder Scrolls 6 Trailer: Fans celebrate eight years of absolutely nothing",
+          "category": "games",
+          "source": "Dot Esports",
+          "score": 15,
+          "slug": "61ae7277-happy-anniversary-elder-scrolls-6-trailer-fans-celebrate-eig"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-10T12:00:51.301Z",
       "status": "success",
@@ -2429,54 +2461,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-06T15:18:15.807Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 248,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "All 8 Star Wars Cameos in 'The Mandalorian and Grogu'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "5211a310-all-8-star-wars-cameos-in-the-mandalorian-and-grogu"
-        },
-        {
-          "title": "Jodie Foster Says Martin Scorsese and Robert De Niro ‘Couldn’t Stop Giggling’ While Teaching Her How to Unzip a Fly on ‘Taxi Driver’ Set: ‘They Were Just So Nervous’",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "b3153a39-jodie-foster-says-martin-scorsese-and-robert-de-niro-couldnt"
-        },
-        {
-          "title": "‘Mario’ Review: Straightforward Doc Tells Mario Cuomo’s Story in Prose Rather Than Poetry",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 8,
-          "slug": "ad1c8c47-mario-review-straightforward-doc-tells-mario-cuomos-story-in"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "15 Best New Movies to Streaming in June 2026: ‘Avatar: Fire and Ash,’ ‘Hoppers,’ ‘Forbidden Fruits’ and More",
-          "category": "film",
-          "source": "Variety",
-          "score": 21,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Masters of the Universe Reminds Us That Not Every Silly Thing Needs to Be a Joke",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-10T12:00:51.301Z"
+  "lastUpdated": "2026-06-10T12:58:37.047Z"
 }
