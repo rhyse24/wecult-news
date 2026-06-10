@@ -1,6 +1,38 @@
 {
-  "totalArticles": 416,
+  "totalArticles": 419,
   "runs": [
+    {
+      "timestamp": "2026-06-10T10:00:50.732Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 261,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "The End of Everything by M John Harrison review – near-future visions from an SF master",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 12,
+          "slug": "0a863b46-the-end-of-everything-by-m-john-harrison-review-near-future-"
+        },
+        {
+          "title": "Reading The Wheel of Time: The Dragon Confronts Despair and Discovers Hope in The Gathering Storm (Part 29)",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "eae7dc5f-reading-the-wheel-of-time-the-dragon-confronts-despair-and-d"
+        },
+        {
+          "title": "Liza Tully on Tragicomedy, Murder Mysteries, and Using Grudges as Plot Devices",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 7,
+          "slug": "dc440c5d-liza-tully-on-tragicomedy-murder-mysteries-and-using-grudges"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-10T08:11:32.818Z",
       "status": "success",
@@ -2433,54 +2465,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-06T12:00:23.380Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 257,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "“Unlike Anything That’s Ever Been Done on Television Before”: ‘House of the Dragon’ Battle Secrets Revealed at SXSW London",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 9,
-          "slug": "6331ae7a-unlike-anything-thats-ever-been-done-on-television-before-ho"
-        },
-        {
-          "title": "10 Reasons Why Xbox Lost The Console War",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 9,
-          "slug": "a32d4bc4-10-reasons-why-xbox-lost-the-console-war"
-        },
-        {
-          "title": "‘Office Romance’ Netflix Soundtrack: Every Song in the Jennifer Lopez Rom-Com",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 7,
-          "slug": "76a5463c-office-romance-netflix-soundtrack-every-song-in-the-jennifer"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Among Us TV Show Gets Surprise Drop, Streaming Now On Paramount+ — Watch A New Trailer",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "What To Watch Saturday: Stanley Cup Final Game 3, UFC Fight Night, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 7,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-10T08:11:32.818Z"
+  "lastUpdated": "2026-06-10T10:00:50.732Z"
 }
