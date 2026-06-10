@@ -1,6 +1,32 @@
 {
-  "totalArticles": 434,
+  "totalArticles": 435,
   "runs": [
+    {
+      "timestamp": "2026-06-10T23:26:53.415Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "Taormina Film Festival Opens With ‘House of the Dragon’ Season 3 Screening in a Greek Theater Dating Back to the 3rd Century B.C.",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "111c0eb5-taormina-film-festival-opens-with-house-of-the-dragon-season"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Sydney Sweeney on Being Sexualized in ‘Euphoria,’ Crying Over Rue’s Death and Why She’ll Never Be ‘Satisfied With Where Cassie Ended Up’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-10T22:00:48.060Z",
       "status": "quota",
@@ -2370,61 +2396,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-06T23:06:01.027Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 244,
-      "totalCandidates": 21,
-      "written": [
-        {
-          "title": "'The Celebrity Traitors' UK Season 2 Is Officially Coming Sooner Than Expected",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "d8f89e4f-the-celebrity-traitors-uk-season-2-is-officially-coming-soon"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Best Horror of June 2026: ‘Scary Movie’ Returns, Spielberg Revisits Aliens, Javier Bardem Tackles Another Villain Role and More",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Only 5 Harry Potter Characters Are More Powerful Than Lord Voldemort",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Masters of the Universe Reminds Us That Not Every Silly Thing Needs to Be a Joke",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Box Office: ‘Scary Movie’ Starts Strong With $24.7 Million on Friday; ‘Masters of the Universe’ Takes Second With $11.7 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Best Crime Movies With the Most Compelling Mysteries",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-10T22:00:48.060Z"
+  "lastUpdated": "2026-06-10T23:26:53.415Z"
 }
