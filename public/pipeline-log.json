@@ -2,6 +2,24 @@
   "totalArticles": 431,
   "runs": [
     {
+      "timestamp": "2026-06-10T20:00:57.235Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 51,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Sydney Sweeney on Being Sexualized in ‘Euphoria,’ Crying Over Rue’s Death and Why She’ll Never Be ‘Satisfied With Where Cassie Ended Up’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-10T18:00:49.623Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2391,33 +2409,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-06T20:00:26.528Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 245,
-      "totalCandidates": 70,
-      "written": [
-        {
-          "title": "007 First Light officially sells 2.7 million copies, \"probably\" at three million",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 16,
-          "slug": "f82b9804-007-first-light-officially-sells-27-million-copies-probably-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Godzilla: Destroy All Monsters Melee Remastered Leak Reveals November Release Date",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-10T18:00:49.623Z"
+  "lastUpdated": "2026-06-10T20:00:57.235Z"
 }
