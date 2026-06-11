@@ -1,6 +1,53 @@
 {
-  "totalArticles": 447,
+  "totalArticles": 450,
   "runs": [
+    {
+      "timestamp": "2026-06-11T10:40:01.616Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Tom Hanks shoots down pitch for an Oscar for voice performances",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 10,
+          "slug": "17bdd15a-tom-hanks-shoots-down-pitch-for-an-oscar-for-voice-performan"
+        },
+        {
+          "title": "‘House of the Dragon’ Stars Talk Filming Battle of the Gullet’s Pure Carnage (VIDEO)",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 7,
+          "slug": "446cbbdd-house-of-the-dragon-stars-talk-filming-battle-of-the-gullets"
+        },
+        {
+          "title": "‘Colors of Evil: Black’ Review: A Grimmer, More Devastating Polish Sequel",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 7,
+          "slug": "7cd38e00-colors-of-evil-black-review-a-grimmer-more-devastating-polis"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Saucy minx Steven Spielberg makes sure Bond franchise knows it missed its shot with him",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Mad Unicorn’ Director Nottapon Boonprakob on Netflix Thai Series ‘The Evil Lawyer’: ‘No System Is Perfect’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 7,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-11T10:00:52.725Z",
       "status": "success",
@@ -2196,85 +2243,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-07T09:16:03.949Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 231,
-      "totalCandidates": 18,
-      "written": [
-        {
-          "title": "NYC Weekend Watch: Italian History, Universal Westerns, Black Cops & More",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 6,
-          "slug": "f2b58301-nyc-weekend-watch-italian-history-universal-westerns-black-c"
-        },
-        {
-          "title": "New Supergirl Clip Might Be Hiding a Man of Tomorrow Connection",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 6,
-          "slug": "39281eea-new-supergirl-clip-might-be-hiding-a-man-of-tomorrow-connect"
-        },
-        {
-          "title": "John C. Reilly Tried to Convince Leonardo DiCaprio to Pass on ‘Titanic’: ‘No One’s Going to Give a S— About Who’s on the Boat’",
-          "category": "film",
-          "source": "Variety",
-          "score": 4,
-          "slug": "657d5e84-john-c-reilly-tried-to-convince-leonardo-dicaprio-to-pass-on"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Best Horror of June 2026: ‘Scary Movie’ Returns, Spielberg Revisits Aliens, Javier Bardem Tackles Another Villain Role and More",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Only 3 Movies Are Better-Written Than 'The Godfather'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Masters of the Universe Reminds Us That Not Every Silly Thing Needs to Be a Joke",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Actors Who Appeared in Both Harry Potter and Star Wars",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Box Office: ‘Scary Movie’ Starts Strong With $24.7 Million on Friday; ‘Masters of the Universe’ Takes Second With $11.7 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Best Crime Movies With the Most Compelling Mysteries",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 7,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 639 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-11T10:00:52.725Z"
+  "lastUpdated": "2026-06-11T10:40:01.616Z"
 }
