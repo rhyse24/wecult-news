@@ -1,6 +1,31 @@
 {
-  "totalArticles": 458,
+  "totalArticles": 460,
   "runs": [
+    {
+      "timestamp": "2026-06-11T18:00:58.098Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 283,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "LISTEN: David Harbour Finds a Port in the Storm in ‘DTF St. Louis’; ‘Toy Story 5’ Red Carpet Rundown",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "07d2f503-listen-david-harbour-finds-a-port-in-the-storm-in-dtf-st-lou"
+        },
+        {
+          "title": "Inside Summer Game Fest: Gaming Industry Happily Braces for ‘GTA 6’ Success With Stuffed September, Early 2027 Releases",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "d15542c5-inside-summer-game-fest-gaming-industry-happily-braces-for-g"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-11T16:00:54.279Z",
       "status": "success",
@@ -2188,33 +2213,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-07T15:27:07.239Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 202,
-      "totalCandidates": 64,
-      "written": [
-        {
-          "title": "New PowerWash Simulator 2: Star Wars Pack Trailer Spotlights Classic Locations | IGN Live 2026",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "2a2ae52b-new-powerwash-simulator-2-star-wars-pack-trailer-spotlights-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": " Call of Duty: Black Ops 7, Season 4 adds a mode that removes OmniMovement and a gun that aims for you—perfect for players who can't be bothered to play anymore ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-11T16:00:54.279Z"
+  "lastUpdated": "2026-06-11T18:00:58.098Z"
 }
