@@ -1,6 +1,46 @@
 {
-  "totalArticles": 441,
+  "totalArticles": 444,
   "runs": [
+    {
+      "timestamp": "2026-06-11T08:00:52.520Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "Steven Spielberg Says James Bond Movies ‘Constantly Turned Me Down’ and ‘If They Asked Me Now’ to Direct the Answer Would Be: ‘You Can’t Afford Me’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "2b004de2-steven-spielberg-says-james-bond-movies-constantly-turned-me"
+        },
+        {
+          "title": "Toy Story 5 Is Already Proving Doubters Wrong",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "slug": "37fdcf60-toy-story-5-is-already-proving-doubters-wrong"
+        },
+        {
+          "title": "8 Universally Beloved Movies Nobody Wants to See a Remake Of",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "211830cb-8-universally-beloved-movies-nobody-wants-to-see-a-remake-of"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Disclosure Day Review: Steven Spielberg’s Coda to a Lifetime of Alien Movies",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-11T06:00:47.232Z",
       "status": "quota",
@@ -2269,47 +2309,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-07T06:00:27.769Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 240,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "Gilligan's Island's Original Pilot Featured Music From A Legendary Composer",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 11,
-          "slug": "0efb2cae-gilligans-islands-original-pilot-featured-music-from-a-legen"
-        },
-        {
-          "title": "‘Among Us’ Surprise: Animated TV Show Drops on Paramount+",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "slug": "c0b97ed2-among-us-surprise-animated-tv-show-drops-on-paramount"
-        },
-        {
-          "title": "From ‘Scream 2’ and ‘Monster’ to ‘Big Mistakes,’ How Laurie Metcalf Has Mastered the Art of the Complicated Mother",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "330d5b9c-from-scream-2-and-monster-to-big-mistakes-how-laurie-metcalf"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-11T06:00:47.232Z"
+  "lastUpdated": "2026-06-11T08:00:52.520Z"
 }
