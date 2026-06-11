@@ -1,6 +1,31 @@
 {
-  "totalArticles": 438,
+  "totalArticles": 440,
   "runs": [
+    {
+      "timestamp": "2026-06-11T04:00:48.723Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 268,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "David Harbour Says “False” Millie Bobby Brown Harassment Claim Article Triggered “a Breakdown”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 9,
+          "slug": "f21d0596-david-harbour-says-false-millie-bobby-brown-harassment-claim"
+        },
+        {
+          "title": "The Academy promises Oscars for Ridley Scott and Glenn Close this year",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "slug": "60ea8e4f-the-academy-promises-oscars-for-ridley-scott-and-glenn-close"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-11T02:00:48.895Z",
       "status": "quota",
@@ -2334,53 +2359,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-07T04:00:26.070Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 245,
-      "totalCandidates": 21,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Best Horror of June 2026: ‘Scary Movie’ Returns, Spielberg Revisits Aliens, Javier Bardem Tackles Another Villain Role and More",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Only 5 Harry Potter Characters Are More Powerful Than Lord Voldemort",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Masters of the Universe Reminds Us That Not Every Silly Thing Needs to Be a Joke",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Box Office: ‘Scary Movie’ Starts Strong With $24.7 Million on Friday; ‘Masters of the Universe’ Takes Second With $11.7 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Best Crime Movies With the Most Compelling Mysteries",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-11T02:00:48.895Z"
+  "lastUpdated": "2026-06-11T04:00:48.723Z"
 }
