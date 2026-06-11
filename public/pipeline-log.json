@@ -1,6 +1,24 @@
 {
-  "totalArticles": 435,
+  "totalArticles": 436,
   "runs": [
+    {
+      "timestamp": "2026-06-11T00:00:50.655Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 267,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": "Wonky witch fable 1666: Amsterdam is the kind of sexy nonsense I want from Assassin's Creed: Hexe",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 17,
+          "slug": "ceec22fd-wonky-witch-fable-1666-amsterdam-is-the-kind-of-sexy-nonsens"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-10T23:26:53.415Z",
       "status": "quota",
@@ -2370,33 +2388,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-07T00:00:24.377Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 245,
-      "totalCandidates": 71,
-      "written": [
-        {
-          "title": "IGN Live 2026: Everything Announced (Updating Live!)",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "d2b5ad2b-ign-live-2026-everything-announced-updating-live"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Final Fantasy 7 Revelation Tweaks Mini-Games But Square Enix Says It Would Never Reduce Them",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-10T23:26:53.415Z"
+  "lastUpdated": "2026-06-11T00:00:50.655Z"
 }
