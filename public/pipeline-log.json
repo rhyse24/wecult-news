@@ -1,6 +1,60 @@
 {
-  "totalArticles": 450,
+  "totalArticles": 453,
   "runs": [
+    {
+      "timestamp": "2026-06-11T12:00:55.014Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 265,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "So Far, Only 3 Movies From 2026 Have What It Takes To Become Classics",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "slug": "4d120401-so-far-only-3-movies-from-2026-have-what-it-takes-to-become-"
+        },
+        {
+          "title": "Emily Watson to Serve as Jury President at 32nd Sarajevo Film Festival, and Receive the Honorary Heart of Sarajevo",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "59f64f7b-emily-watson-to-serve-as-jury-president-at-32nd-sarajevo-fil"
+        },
+        {
+          "title": "DR Sales Closes With WDR/Arte, VRT, NRK in Multi Buyers Pact on Norwegian Wildlife Doc ‘Frost Without Snow and Ice’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "eec7b953-dr-sales-closes-with-wdrarte-vrt-nrk-in-multi-buyers-pact-on"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Greatest Horror Video Game Masterpieces of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Disclosure Day Review: Steven Spielberg’s Coda to a Lifetime of Alien Movies",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Critics Left Stunned In First Reactions To Toy Story 5",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-11T10:40:01.616Z",
       "status": "success",
@@ -2189,61 +2243,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-07T10:00:25.573Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 225,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "‘Dynamo vs Houdini’ Series Coming to Sky as Illusionist Retraces Legendary Magician’s Steps",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 8,
-          "slug": "8f627c6a-dynamo-vs-houdini-series-coming-to-sky-as-illusionist-retrac"
-        },
-        {
-          "title": "AVQ&A: Which horror movie caught you by surprise?",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 8,
-          "slug": "6fd3349d-avqa-which-horror-movie-caught-you-by-surprise"
-        },
-        {
-          "title": "Paramount+ surprise-drops full season of Among Us animated series",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 8,
-          "slug": "466fd042-paramount-surprise-drops-full-season-of-among-us-animated-se"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘House of the Dragon’ Showrunner on Season 3’s Battle of the Gullet: ‘This Sequence Is Unlike Anything That’s Ever Been Done in Television Before’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Grace Gummer on Her Emotional ‘Love Story’ Finale and Criticism From Caroline Kennedy’s Son Jack Schlossberg",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-11T10:40:01.616Z"
+  "lastUpdated": "2026-06-11T12:00:55.014Z"
 }
