@@ -1,6 +1,31 @@
 {
-  "totalArticles": 464,
+  "totalArticles": 466,
   "runs": [
+    {
+      "timestamp": "2026-06-11T23:24:27.153Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Disclosure Day Ending Explained with Screenwriter",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 17,
+          "slug": "8f6fa226-disclosure-day-ending-explained-with-screenwriter"
+        },
+        {
+          "title": "‘Obsession’ Star Michael Johnston Signs With Gersh (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "44becaed-obsession-star-michael-johnston-signs-with-gersh-exclusive"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-11T22:00:59.460Z",
       "status": "quota",
@@ -2142,40 +2167,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-07T19:26:09.942Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 191,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Why Stranger Things' Creators Refuse To Reveal Whether Eleven Is Alive Or Dead",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "3fee6cff-why-stranger-things-creators-refuse-to-reveal-whether-eleven"
-        },
-        {
-          "title": "Quotes Of The Week: ﻿Euphoria, Criminal Minds, Widow's Bay, Your Friends & Neighbors, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "b23a4592-quotes-of-the-week-euphoria-criminal-minds-widows-bay-your-f"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Best Streaming TV Shows Of 2026 (So Far)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-11T22:00:59.460Z"
+  "lastUpdated": "2026-06-11T23:24:27.153Z"
 }
