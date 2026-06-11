@@ -2,6 +2,16 @@
   "totalArticles": 463,
   "runs": [
     {
+      "timestamp": "2026-06-11T20:24:59.196Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 99,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-11T20:00:53.744Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2165,47 +2175,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-07T17:19:38.808Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 195,
-      "totalCandidates": 17,
-      "written": [
-        {
-          "title": "Box Office: ‘The Super Mario Galaxy Movie’ Becomes First 2026 Release to Cross $1 Billion",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "bd2052b4-box-office-the-super-mario-galaxy-movie-becomes-first-2026-r"
-        },
-        {
-          "title": "‘Obsession’ Crosses $200M Globally to Become Focus’ Top Movie of All Time",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "fe96968c-obsession-crosses-200m-globally-to-become-focus-top-movie-of"
-        },
-        {
-          "title": "8 Forgotten Netflix Action Movies That Are Perfect From Start to Finish",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "9206e4b3-8-forgotten-netflix-action-movies-that-are-perfect-from-star"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Only 3 Movies Are Better-Written Than 'The Godfather'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-11T20:00:53.744Z"
+  "lastUpdated": "2026-06-11T20:24:59.196Z"
 }
