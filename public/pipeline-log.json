@@ -1,6 +1,38 @@
 {
-  "totalArticles": 460,
+  "totalArticles": 463,
   "runs": [
+    {
+      "timestamp": "2026-06-11T20:00:53.744Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 279,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Emmys 2026: Supporting Actress In A Drama Series — Our Dream Nominees!",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "954b446c-emmys-2026-supporting-actress-in-a-drama-series-our-dream-no"
+        },
+        {
+          "title": "New Looks at Charlie Heaton in ‘Peaky Blinders’ 1950s Spin-Off as Massive New Cast Revealed",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "7182af77-new-looks-at-charlie-heaton-in-peaky-blinders-1950s-spin-off"
+        },
+        {
+          "title": "Helen Mirren Backs Tom Hardy In MobLand Season 3 Upheaval: 'My Support Of Him Is Genuine And Heartfelt'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "1ab7a0ff-helen-mirren-backs-tom-hardy-in-mobland-season-3-upheaval-my"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-11T18:00:58.098Z",
       "status": "quota",
@@ -2173,47 +2205,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-07T16:00:30.596Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 201,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "5 Beloved '80s Sitcoms That Don't Hold Up Today",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "ce549422-5-beloved-80s-sitcoms-that-dont-hold-up-today"
-        },
-        {
-          "title": "What To Watch Sunday: The Tony Awards, The Vampire Lestat Premiere, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "fc12adc9-what-to-watch-sunday-the-tony-awards-the-vampire-lestat-prem"
-        },
-        {
-          "title": "Naomi Bulochnikov-Paul Celebrated for Grace and Resilience at Race to Erase MS Gala: ‘I Live It Openly’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "a077e178-naomi-bulochnikov-paul-celebrated-for-grace-and-resilience-a"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Best TV Shows Like Cape Fear",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-11T18:00:58.098Z"
+  "lastUpdated": "2026-06-11T20:00:53.744Z"
 }
