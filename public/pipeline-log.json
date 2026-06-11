@@ -1,6 +1,31 @@
 {
-  "totalArticles": 436,
+  "totalArticles": 438,
   "runs": [
+    {
+      "timestamp": "2026-06-11T02:00:48.895Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "’24 Jump Street’ in the Works With Jonah Hill, Channing Tatum and Ice Cube in Talks to Return (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 16,
+          "slug": "f3594736-24-jump-street-in-the-works-with-jonah-hill-channing-tatum-a"
+        },
+        {
+          "title": "10 Greatest Superhero Video Games of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "slug": "7cb2d3be-10-greatest-superhero-video-games-of-all-time"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-11T00:00:50.655Z",
       "status": "quota",
@@ -2355,40 +2380,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-07T02:00:23.110Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 243,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "The Boys Creator Eric Kripke On Fans' Response To Series Finale: 'Sorry If I Disappointed You, But It Was The Story I Wanted To Tell'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "bf1a0f3a-the-boys-creator-eric-kripke-on-fans-response-to-series-fina"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘House of the Dragon’ Showrunner on Season 3’s Battle of the Gullet: ‘This Sequence Is Unlike Anything That’s Ever Been Done in Television Before’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-11T00:00:50.655Z"
+  "lastUpdated": "2026-06-11T02:00:48.895Z"
 }
