@@ -1,6 +1,32 @@
 {
-  "totalArticles": 466,
+  "totalArticles": 467,
   "runs": [
+    {
+      "timestamp": "2026-06-12T00:00:49.383Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 271,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "Widow's Bay Renewed For Season 2",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 16,
+          "slug": "6cb9adc7-widows-bay-renewed-for-season-2"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Best TV Shows Like Widow's Bay",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-11T23:24:27.153Z",
       "status": "quota",
@@ -2142,32 +2168,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-07T20:00:22.122Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 189,
-      "totalCandidates": 19,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Scary Movie’ Scores Franchise-Best $55 Million Opening, ‘Masters of the Universe’ Stumbles With $29.3 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘The Super Mario Galaxy Movie’ Becomes First Movie to Cross $1B in 2026",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-11T23:24:27.153Z"
+  "lastUpdated": "2026-06-12T00:00:49.383Z"
 }
