@@ -1,6 +1,24 @@
 {
-  "totalArticles": 487,
+  "totalArticles": 488,
   "runs": [
+    {
+      "timestamp": "2026-06-12T18:00:53.984Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 53,
+      "written": [
+        {
+          "title": "Ratings: Dutton Ranch Bows At No. 5, Off Campus At No. 6 Among All Streaming Originals",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "8147c2a0-ratings-dutton-ranch-bows-at-no-5-off-campus-at-no-6-among-a"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-12T16:00:52.985Z",
       "status": "quota",
@@ -2098,89 +2116,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-08T10:00:33.577Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 198,
-      "totalCandidates": 18,
-      "written": [
-        {
-          "title": "Tamil Blockbuster ‘Karuppu’ Set for Global Streaming Launch on Amazon Prime Video",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 8,
-          "slug": "59f95c28-tamil-blockbuster-karuppu-set-for-global-streaming-launch-on"
-        },
-        {
-          "title": "Korea Box Office: ‘Colony’ Retains Top Spot as ‘Wild Sing’ Debuts Strong",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "38089611-korea-box-office-colony-retains-top-spot-as-wild-sing-debuts"
-        },
-        {
-          "title": "‘Lesbian Lines’ Doc Shines a Light on Irish History Not Taught in School – and the Power of Listening",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 6,
-          "slug": "6dcc931d-lesbian-lines-doc-shines-a-light-on-irish-history-not-taught"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Idris Elba Says Bond Rumors Were ‘Never Legit’ and ‘Not Realistic’: Audiences ‘Won’t Go for a Black Male Playing Bond’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Maggie Gyllenhaal, Jesse Eisenberg to Be Honored at Karlovy Vary Film Festival",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Box Office: ‘Scary Movie’ Scores Franchise-Best $55 Million Opening, ‘Masters of the Universe’ Stumbles With $29.3 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘The Super Mario Galaxy Movie’ Becomes First Movie to Cross $1B in 2026",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Greatest R-Rated Mystery Movies",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "5 Best Shark Movies Nobody Talks About Anymore",
-          "category": "film",
-          "source": "Looper",
-          "score": 8,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "10 Most Surreal Horror Movies",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 7,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-12T16:00:52.985Z"
+  "lastUpdated": "2026-06-12T18:00:53.984Z"
 }
