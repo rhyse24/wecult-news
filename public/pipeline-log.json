@@ -1,6 +1,46 @@
 {
-  "totalArticles": 480,
+  "totalArticles": 483,
   "runs": [
+    {
+      "timestamp": "2026-06-12T12:00:49.800Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 99,
+      "written": [
+        {
+          "title": "Playstack CEO: new owner will keep it separate from its games media brands including GamesSpot and Fandom",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 12,
+          "slug": "784e9a37-playstack-ceo-new-owner-will-keep-it-separate-from-its-games"
+        },
+        {
+          "title": "Fallout: New Vegas Remastered Rumors Are Credible, Says Leaker",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 12,
+          "slug": "1b70a827-fallout-new-vegas-remastered-rumors-are-credible-says-leaker"
+        },
+        {
+          "title": "Final Fantasy 7 Revelation Director Says Gameplay Streams Pose a Huge Challenge to RPGs",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "a1f10cdf-final-fantasy-7-revelation-director-says-gameplay-streams-po"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Assassin's Creed creator Patrice Désilets' new and witchy 1666: Amsterdam demo raises more questions than answers",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-12T09:54:07.140Z",
       "status": "success",
@@ -2136,61 +2176,7 @@
       "totalCandidates": 31,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-08T04:00:24.448Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 187,
-      "totalCandidates": 20,
-      "written": [
-        {
-          "title": "Office Romance: Brett Goldstein Got Roasted Into a Lifelong Complex | Collider BTS",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "slug": "96aac06d-office-romance-brett-goldstein-got-roasted-into-a-lifelong-c"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Scary Movie’ Scores Franchise-Best $55 Million Opening, ‘Masters of the Universe’ Stumbles With $29.3 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘The Super Mario Galaxy Movie’ Becomes First Movie to Cross $1B in 2026",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Most Surreal Horror Movies",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "5 Best Shark Movies Nobody Talks About Anymore",
-          "category": "film",
-          "source": "Looper",
-          "score": 8,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "10 Greatest Family Sci-Fi Movies of the Last 50 Years",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 7,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-12T09:54:07.140Z"
+  "lastUpdated": "2026-06-12T12:00:49.800Z"
 }
