@@ -1,6 +1,31 @@
 {
-  "totalArticles": 490,
+  "totalArticles": 492,
   "runs": [
+    {
+      "timestamp": "2026-06-12T22:00:50.622Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 54,
+      "written": [
+        {
+          "title": "From Gilead to the Wasteland, Costume Designers Are Building TV’s Most Stylish Dystopias",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 16,
+          "slug": "4146b172-from-gilead-to-the-wasteland-costume-designers-are-building-"
+        },
+        {
+          "title": "Moviegoers ignore Michael Jackson allegations to tune of $911 million",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "e288d80a-moviegoers-ignore-michael-jackson-allegations-to-tune-of-911"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-12T20:00:59.127Z",
       "status": "quota",
@@ -2019,54 +2044,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-08T14:00:30.501Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 210,
-      "totalCandidates": 20,
-      "written": [
-        {
-          "title": "How 30 Years in the Trenches with Spielberg, Aliens, Indy and Dinosaurs Led to Disclosure Day",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 17,
-          "slug": "a8adaff1-how-30-years-in-the-trenches-with-spielberg-aliens-indy-and-"
-        },
-        {
-          "title": "‘Obsession’ Producers Tea Shop on Finding Curry Barker, Why YouTube Creators Shouldn’t Immediately ‘Move On to $20 Million Studio Movies’ and Sequel Talks",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "a79186fe-obsession-producers-tea-shop-on-finding-curry-barker-why-you"
-        },
-        {
-          "title": "U.K. Heavyweight Doc Player Jane Ray Boards Argentina’s ‘The Nights’ by Ana Bovino Ahead of ECAM Forum (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "13f0771d-uk-heavyweight-doc-player-jane-ray-boards-argentinas-the-nig"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Idris Elba Says Bond Rumors Were ‘Never Legit’ and ‘Not Realistic’: Audiences ‘Won’t Go for a Black Male Playing Bond’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "China Box Office: ‘Dear You’ Leads Again as ‘Masters of the Universe’ Debuts",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-12T20:00:59.127Z"
+  "lastUpdated": "2026-06-12T22:00:50.622Z"
 }
