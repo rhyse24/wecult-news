@@ -1,6 +1,46 @@
 {
-  "totalArticles": 474,
+  "totalArticles": 477,
   "runs": [
+    {
+      "timestamp": "2026-06-12T08:00:48.712Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 271,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Disney+, Dutch Public Broadcaster NPO Team on Local ‘Werewolves’ Adaptation ‘Wolven’",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 13,
+          "slug": "1ce26b24-disney-dutch-public-broadcaster-npo-team-on-local-werewolves"
+        },
+        {
+          "title": "‘Off Campus’ Team Warns Those Harassing Cast and Their Loved Ones “Will Be Removed” From Official Accounts",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "ffb25973-off-campus-team-warns-those-harassing-cast-and-their-loved-o"
+        },
+        {
+          "title": "Casting News: Elisabeth Hasselbeck's New Daytime Gig, Game Of Thrones Vet Joins Peaky Blinders, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "38f7858d-casting-news-elisabeth-hasselbecks-new-daytime-gig-game-of-t"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Best TV Shows Like Widow's Bay",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-12T06:00:47.094Z",
       "status": "quota",
@@ -2143,25 +2183,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-08T00:00:24.924Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 179,
-      "totalCandidates": 77,
-      "written": [],
-      "rejected": [
-        {
-          "title": "9 Details From The Final Fantasy 7 Revelation Reveal Trailer We Can’t Stop Thinking About",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-12T06:00:47.094Z"
+  "lastUpdated": "2026-06-12T08:00:48.712Z"
 }
