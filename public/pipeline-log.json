@@ -1,6 +1,24 @@
 {
-  "totalArticles": 489,
+  "totalArticles": 490,
   "runs": [
+    {
+      "timestamp": "2026-06-12T20:00:59.127Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 271,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "Tom Cruise Reunites with Spielberg Co-Stars Colin Farrell, Dakota Fanning (and a Popcorn Bucket of the Director’s Head) for ‘Disclosure Day’ Screening",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "slug": "f9b7500f-tom-cruise-reunites-with-spielberg-co-stars-colin-farrell-da"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-12T19:50:13.425Z",
       "status": "quota",
@@ -2048,61 +2066,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-08T12:00:35.054Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 201,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "15 People Share Their Most Pedantic Star Wars Nitpick",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 10,
-          "slug": "efd49043-15-people-share-their-most-pedantic-star-wars-nitpick"
-        },
-        {
-          "title": "‘The Voice’ Meets Gov Ball: Season 30 Winner Gets Main Stage Performance Slot in 2027 (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "c54b14d3-the-voice-meets-gov-ball-season-30-winner-gets-main-stage-pe"
-        },
-        {
-          "title": "Wo Long 2: Wings of Ember Game Announced",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 8,
-          "slug": "87637d74-wo-long-2-wings-of-ember-game-announced"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Vampire Lestat Team Answers Our Burning Questions About Gabriella, Sam Reid's Dual Role, And More — Grade The Premiere!",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The 15 Best Soccer Movies and Shows to Get You in the World Cup Mood",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-12T19:50:13.425Z"
+  "lastUpdated": "2026-06-12T20:00:59.127Z"
 }
