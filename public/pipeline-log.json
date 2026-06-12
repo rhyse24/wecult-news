@@ -1,6 +1,38 @@
 {
-  "totalArticles": 467,
+  "totalArticles": 470,
   "runs": [
+    {
+      "timestamp": "2026-06-12T02:00:50.933Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 278,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Gatto Teaser Trailer Gives Us a Very Feline Interrogation",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "75513f3f-gatto-teaser-trailer-gives-us-a-very-feline-interrogation"
+        },
+        {
+          "title": "James Cameron’s Avatar: Fire and Ash Will Soon Be on Disney+",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "b02753f6-james-camerons-avatar-fire-and-ash-will-soon-be-on-disney"
+        },
+        {
+          "title": "House of the Dragon Showrunner Ryan Condal is Sorry, Not Sorry, About Season 2 Ending",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "4c2f40ea-house-of-the-dragon-showrunner-ryan-condal-is-sorry-not-sorr"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-12T00:00:49.383Z",
       "status": "quota",
@@ -2128,47 +2160,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-07T21:16:01.390Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 187,
-      "totalCandidates": 20,
-      "written": [
-        {
-          "title": "10 Greatest Western Endings of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "b3b0829c-10-greatest-western-endings-of-all-time"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘The Super Mario Galaxy Movie’ Becomes First Movie to Cross $1B in 2026",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Box Office: ‘Scary Movie’ Scores Franchise-Best $55 Million Opening, ‘Masters of the Universe’ Stumbles With $29.3 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Most Surreal Horror Movies",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-12T00:00:49.383Z"
+  "lastUpdated": "2026-06-12T02:00:50.933Z"
 }
