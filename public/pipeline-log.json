@@ -1,6 +1,53 @@
 {
-  "totalArticles": 477,
+  "totalArticles": 480,
   "runs": [
+    {
+      "timestamp": "2026-06-12T09:54:07.140Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 268,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Steven Spielberg’s Advice for ‘Obsession’ and ‘Backrooms’ Directors: “Don’t Let Success Go to Your Heads”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "44c78bfe-steven-spielbergs-advice-for-obsession-and-backrooms-directo"
+        },
+        {
+          "title": "The Worst Movie of Each of the Last 6 Years",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "7bda542a-the-worst-movie-of-each-of-the-last-6-years"
+        },
+        {
+          "title": "Charades, Diaphana Board ‘The Little Run,’ Julien Bisaro and Claire Paoletti’s Follow-Up to ‘Shooom’s Odyssey’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "221d31cb-charades-diaphana-board-the-little-run-julien-bisaro-and-cla"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Greatest Sci-Fi Opening Shots of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Steven Spielberg Says James Bond Franchise “Can’t Afford Me” Now After Previously Rejecting Him",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-12T08:00:48.712Z",
       "status": "success",
@@ -2143,47 +2190,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-08T02:00:25.461Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 189,
-      "totalCandidates": 78,
-      "written": [
-        {
-          "title": "How to recover lost Sprites in Fortnite Chapter 7 Season 3",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 15,
-          "slug": "fca3da1b-how-to-recover-lost-sprites-in-fortnite-chapter-7-season-3"
-        },
-        {
-          "title": "Round Up: All the PS5 Reveals from the Xbox Showcase 2026",
-          "category": "games",
-          "source": "Push Square",
-          "score": 15,
-          "slug": "4df151f5-round-up-all-the-ps5-reveals-from-the-xbox-showcase-2026"
-        },
-        {
-          "title": "Alix Wilton Regan on Becoming Lara Croft in Tomb Raider: Legacy of Atlantis | IGN Live 2026",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "352302e5-alix-wilton-regan-on-becoming-lara-croft-in-tomb-raider-lega"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "9 Details From The Final Fantasy 7 Revelation Reveal Trailer We Can’t Stop Thinking About",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-12T08:00:48.712Z"
+  "lastUpdated": "2026-06-12T09:54:07.140Z"
 }
