@@ -1,6 +1,63 @@
 {
-  "totalArticles": 483,
+  "totalArticles": 486,
   "runs": [
+    {
+      "timestamp": "2026-06-12T14:00:51.698Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 264,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "14 Movie Geniuses Who Made Incredibly Dumb Decisions",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 12,
+          "slug": "e6852cb4-14-movie-geniuses-who-made-incredibly-dumb-decisions"
+        },
+        {
+          "title": "Pixar's new Gatto trailer desperately asks if y'all still like cats",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 11,
+          "slug": "ba9d2d42-pixars-new-gatto-trailer-desperately-asks-if-yall-still-like"
+        },
+        {
+          "title": "Alleged Operator of Webtoon Piracy Website Newtoki Extradited From Japan to S. Korea",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 11,
+          "slug": "e5467a39-alleged-operator-of-webtoon-piracy-website-newtoki-extradite"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The 15 Most Boring Movie Titles Ever, if Taken Literally",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 15,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 633 words (max 580)"
+          ]
+        },
+        {
+          "title": "10 Best TV Shows Like Widow's Bay",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘The Uniform,’ From Miso Film and Fremantle, Returns for a Second Season – and Dives Into the Cracks Within the Police Force (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-12T12:00:49.800Z",
       "status": "success",
@@ -2166,17 +2223,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-08T04:13:15.556Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 187,
-      "totalCandidates": 31,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-12T12:00:49.800Z"
+  "lastUpdated": "2026-06-12T14:00:51.698Z"
 }
