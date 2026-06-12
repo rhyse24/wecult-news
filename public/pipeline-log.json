@@ -2,6 +2,16 @@
   "totalArticles": 486,
   "runs": [
     {
+      "timestamp": "2026-06-12T14:29:53.057Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 263,
+      "totalCandidates": 36,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-12T14:00:51.698Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2176,54 +2186,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-08T06:00:25.992Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 187,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Batman Star Burgess Meredith Created The Penguin's Quack For An Unexpected Reason",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "82985d80-batman-star-burgess-meredith-created-the-penguins-quack-for-"
-        },
-        {
-          "title": "10 Best Sitcoms Streaming On HBO Max Right Now",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "b83f5630-10-best-sitcoms-streaming-on-hbo-max-right-now"
-        },
-        {
-          "title": "What Happened to Henry? ‘FROM’ Delivers a Chilling Man in Yellow Twist",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 10,
-          "slug": "ccb6e843-what-happened-to-henry-from-delivers-a-chilling-man-in-yello"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The Vampire Lestat Team Answers Our Burning Questions About Gabriella, Sam Reid's Dual Role, And More — Grade The Premiere!",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-12T14:00:51.698Z"
+  "lastUpdated": "2026-06-12T14:29:53.057Z"
 }
