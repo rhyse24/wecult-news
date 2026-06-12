@@ -1,6 +1,32 @@
 {
-  "totalArticles": 488,
+  "totalArticles": 489,
   "runs": [
+    {
+      "timestamp": "2026-06-12T19:50:13.425Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 89,
+      "written": [
+        {
+          "title": "Call of Duty: Modern Warfare 4 Campaign Early Access Confirmed — Here's How It Works",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "f50cbaea-call-of-duty-modern-warfare-4-campaign-early-access-confirme"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Assassin's Creed Black Flag Resynced: Exclusive Edward and Caroline Cutscene | IGN First",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-12T18:00:53.984Z",
       "status": "quota",
@@ -2076,47 +2102,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-08T11:00:36.281Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 200,
-      "totalCandidates": 73,
-      "written": [
-        {
-          "title": "EMPULSE, movement shooter from Splitgate 2 dev, launches in Early Access late June",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 14,
-          "slug": "d4791643-empulse-movement-shooter-from-splitgate-2-dev-launches-in-ea"
-        },
-        {
-          "title": "Xbox Game Exclusivity Will Be Decided on a 'Case-by-Case' Basis, Microsoft Says",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "9d521ff3-xbox-game-exclusivity-will-be-decided-on-a-case-by-case-basi"
-        },
-        {
-          "title": "Not even Crazy Taxi: World Tour is safe from generative AI, as Sega admit they used it to make background assets",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 12,
-          "slug": "f4095eca-not-even-crazy-taxi-world-tour-is-safe-from-generative-ai-as"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "CoD dev details new Modern Warfare 4 DMZ features that distinguish it from beta version",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 18,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-12T18:00:53.984Z"
+  "lastUpdated": "2026-06-12T19:50:13.425Z"
 }
