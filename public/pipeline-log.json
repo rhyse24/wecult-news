@@ -1,6 +1,24 @@
 {
-  "totalArticles": 496,
+  "totalArticles": 497,
   "runs": [
+    {
+      "timestamp": "2026-06-13T06:00:50.717Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 261,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "Cape Fear Delivers A Surprise Cameo From A Star Of The Scorsese Film",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "adeadd97-cape-fear-delivers-a-surprise-cameo-from-a-star-of-the-scors"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-13T04:00:49.010Z",
       "status": "quota",
@@ -2019,40 +2037,7 @@
       "totalCandidates": 52,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-08T21:51:32.038Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 259,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "10 Movies To Watch if You Love 'Backrooms'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "slug": "9a7932f5-10-movies-to-watch-if-you-love-backrooms"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "5 Best Episodes Of The Backrooms Web Series, According To IMDb",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "5 Best Spy Movies Nobody Talks About Anymore",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-13T04:00:49.010Z"
+  "lastUpdated": "2026-06-13T06:00:50.717Z"
 }
