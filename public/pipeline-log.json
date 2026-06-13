@@ -2,6 +2,16 @@
   "totalArticles": 492,
   "runs": [
     {
+      "timestamp": "2026-06-13T00:00:54.201Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 267,
+      "totalCandidates": 29,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-12T22:00:50.622Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2008,43 +2018,7 @@
       "totalCandidates": 46,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-08T15:56:47.196Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 237,
-      "totalCandidates": 76,
-      "written": [
-        {
-          "title": " Summer Game Fest no-shows: The big games that were absent from 2026's showcases ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 18,
-          "slug": "802887cc-summer-game-fest-no-shows-the-big-games-that-were-absent-fro"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "CoD dev details new Modern Warfare 4 DMZ features that distinguish it from beta version",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 18,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Switch 2 Absent From Persona 4 And 6 Trailers, And Fans Are Concerned",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 15,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-12T22:00:50.622Z"
+  "lastUpdated": "2026-06-13T00:00:54.201Z"
 }
