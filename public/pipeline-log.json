@@ -1,6 +1,35 @@
 {
-  "totalArticles": 495,
+  "totalArticles": 496,
   "runs": [
+    {
+      "timestamp": "2026-06-13T04:00:49.010Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 263,
+      "totalCandidates": 93,
+      "written": [
+        {
+          "title": "Gothic 1 Remake Review",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "ae04e943-gothic-1-remake-review"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Elden Ring Director Insists FromSoftware Is Free to Make the Games It Wants To, Teases 'Unannounced Titles'",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "reason": "quality_gate",
+          "errors": [
+            "TR body too short: 212 words (need ≥220)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-13T02:07:02.438Z",
       "status": "quota",
@@ -2023,33 +2052,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-08T20:00:31.825Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 250,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "HBO Max Pilot ‘How to Survive Without Me’ Adds Kevin Changaris, Pressley Hosbach, Dar Zuzovsky, Sofía Rodríguez (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 16,
-          "slug": "41073e2a-hbo-max-pilot-how-to-survive-without-me-adds-kevin-changaris"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Descendants: Wicked Wonderland Sets July Premiere Date — Watch Red Meet Her New Sister In Teaser Trailer",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-13T02:07:02.438Z"
+  "lastUpdated": "2026-06-13T04:00:49.010Z"
 }
