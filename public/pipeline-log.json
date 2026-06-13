@@ -1,6 +1,38 @@
 {
-  "totalArticles": 503,
+  "totalArticles": 506,
   "runs": [
+    {
+      "timestamp": "2026-06-13T10:00:49.491Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 250,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "The 15 Most Boring Movie Titles Ever, if Taken Literally",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 12,
+          "slug": "d7ae2adb-the-15-most-boring-movie-titles-ever-if-taken-literally"
+        },
+        {
+          "title": "Gene Shalit, Longtime Movie Critic For NBC's Today Show, Dead At 100",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "ad325bcd-gene-shalit-longtime-movie-critic-for-nbcs-today-show-dead-a"
+        },
+        {
+          "title": "Veteran PR Executive Adam Keen Launches Agenda Collective",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "8f31655e-veteran-pr-executive-adam-keen-launches-agenda-collective"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-13T08:44:59.464Z",
       "status": "success",
@@ -2064,17 +2096,7 @@
       "totalCandidates": 90,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-09T00:00:29.404Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 253,
-      "totalCandidates": 90,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-13T08:44:59.464Z"
+  "lastUpdated": "2026-06-13T10:00:49.491Z"
 }
