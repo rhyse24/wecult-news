@@ -1,6 +1,46 @@
 {
-  "totalArticles": 497,
+  "totalArticles": 500,
   "runs": [
+    {
+      "timestamp": "2026-06-13T08:00:48.255Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 259,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "10 Greatest Dark Fantasy Books of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "slug": "4e72cdb2-10-greatest-dark-fantasy-books-of-all-time"
+        },
+        {
+          "title": "‘The Furious’: Inside the Balletic and Brutal Fight Scenes, From Mixing Martial Art Styles to Taking 18 Days to Shoot the Insane Final Showdown",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "0e522161-the-furious-inside-the-balletic-and-brutal-fight-scenes-from"
+        },
+        {
+          "title": "Winners & Losers: ‘Social Reckoning’ Trailer Misfires, Emily Blunt Saves ‘Disclosure Day’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 12,
+          "slug": "64932a41-winners-losers-social-reckoning-trailer-misfires-emily-blunt"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "What Taylor Swift’s Big Week With ‘Toy Story 5,’ Steven Spielberg and the New York Knicks Says About Her Next Era",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-13T06:00:50.717Z",
       "status": "quota",
@@ -2027,17 +2067,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-08T22:00:29.509Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 258,
-      "totalCandidates": 52,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-13T06:00:50.717Z"
+  "lastUpdated": "2026-06-13T08:00:48.255Z"
 }
