@@ -188,8 +188,9 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
         });
         setTimeout(async function() {
           try {
-            var opted = OneSignal.User.PushSubscription.optedIn;
-            if (!opted) await OneSignal.User.PushSubscription.optIn();
+            if (!OneSignal.Notifications.permission) {
+              await OneSignal.Notifications.requestPermission();
+            }
           } catch(e) {}
         }, 5000);
       });
