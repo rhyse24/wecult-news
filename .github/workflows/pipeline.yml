@@ -95,5 +95,10 @@ jobs:
             echo "No VERCEL_DEPLOY_HOOK secret set, skipping"
           fi
 
+      - name: Send push notifications
+        env:
+          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+        run: node scripts/pipeline/notify.mjs || true
+
       - name: Submit to IndexNow (Bing/Yandex)
         run: node scripts/pipeline/indexnow.mjs || true
