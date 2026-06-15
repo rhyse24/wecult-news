@@ -1,7 +1,7 @@
 const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent';
 const GROQ_URL                     = 'https://api.groq.com/openai/v1/chat/completions';
 const GROQ_MODEL                   = 'llama-3.3-70b-versatile'; // main pipeline — 12K TPM, 100K TPD
-export const GROQ_TRANSLATE_MODEL  = 'llama-3.1-8b-instant';   // patch step    —  6K TPM, 500K TPD
+export const GROQ_TRANSLATE_MODEL  = 'llama-3.3-70b-versatile'; // patch step — same model as main pipeline for quality
 
 // ── WeCult News Content Rules (approved 2026-05-24) ───────────────────────
 // Rule 1: EN body ≥ 320 words, TR body ≥ 220 words, ES body ≥ 220 words, ≥1 ## heading, no truncation
@@ -432,7 +432,7 @@ export async function translateToTurkish(enData, apiKey, category, useGroq = fal
 
   const trPrompt = `${PLATFORM_CONTEXT}
 
-Translate this entertainment news article to Turkish for WeCult News readers.
+You are a native Turkish entertainment journalist writing for WeCult News. Your task is to LOCALIZE — not translate — the following article into Turkish. Write it as if you originally wrote it in Turkish, matching the energy and flow of Turkish entertainment media. Do NOT translate word-for-word.
 
 ═══════ ENGLISH ARTICLE ═══════
 TITLE: ${enData.title}
@@ -442,7 +442,7 @@ BODY:
 ${enData.body}
 ═══════════════════════════════
 
-TRANSLATION RULES (WeCult Editorial Standard — ALL mandatory):
+LOCALIZATION RULES (WeCult Editorial Standard — ALL mandatory):
 
 RULE 1 — LANGUAGE:
 • ALL output must be in Turkish — title, summary, body, section headings
@@ -451,10 +451,11 @@ RULE 1 — LANGUAGE:
 • NEVER leave full sentences or paragraphs in English
 
 RULE 2 — QUALITY:
-• Write natural Turkish journalism — NOT word-for-word translation
+• LOCALIZE, do NOT translate word-for-word — adapt phrasing so it reads as originally written in Turkish
+• Use natural Turkish sentence structure and idioms — avoid literal English-to-Turkish mapping
 • Use the engaging tone of Turkish entertainment media (excited but credible)
 • Body must be at least 220 words in Turkish — keep it concise, mobile-first
-• NEVER shorten or remove sections — translate the full article
+• NEVER shorten or remove sections — localize the full article
 
 RULE 3 — FORMATTING (keep all markdown):
 • Translate all ## section headings to Turkish (e.g. "## Why This Matters" → "## Bu Neden Önemli")
@@ -581,7 +582,7 @@ export async function translateToSpanish(enData, apiKey, category, useGroq = fal
 
   const esPrompt = `${PLATFORM_CONTEXT}
 
-Translate this entertainment news article to Spanish (Castilian/Latin American neutral) for WeCult News readers.
+You are a native Spanish entertainment journalist writing for WeCult News. Your task is to LOCALIZE — not translate — the following article into Spanish. Write it as if you originally wrote it in Spanish, matching the energy and flow of Spanish-language entertainment media. Do NOT translate word-for-word.
 
 ═══════ ENGLISH ARTICLE ═══════
 TITLE: ${enData.title}
@@ -591,7 +592,7 @@ BODY:
 ${enData.body}
 ═══════════════════════════════
 
-TRANSLATION RULES (WeCult Editorial Standard — ALL mandatory):
+LOCALIZATION RULES (WeCult Editorial Standard — ALL mandatory):
 
 RULE 1 — LANGUAGE:
 • ALL output must be in Spanish — title, summary, body, section headings
@@ -600,10 +601,11 @@ RULE 1 — LANGUAGE:
 • NEVER leave full sentences or paragraphs in English
 
 RULE 2 — QUALITY:
-• Write natural Spanish journalism — NOT word-for-word translation
+• LOCALIZE, do NOT translate word-for-word — adapt phrasing so it reads as originally written in Spanish
+• Use natural Spanish sentence structure and idioms — avoid literal English-to-Spanish mapping
 • Use neutral Spanish understood by both Spain and Latin America
 • Body must be at least 220 words in Spanish — keep it concise, mobile-first
-• NEVER shorten or remove sections — translate the full article
+• NEVER shorten or remove sections — localize the full article
 
 RULE 3 — FORMATTING (keep all markdown):
 • Translate all ## section headings to Spanish (e.g. "## What's Next" → "## Próximos Pasos")
