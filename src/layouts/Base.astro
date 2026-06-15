@@ -189,9 +189,9 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
         setTimeout(async function() {
           try {
             var opted = OneSignal.User.PushSubscription.optedIn;
-            if (!opted) OneSignal.Slidedown.promptPush();
+            if (!opted) await OneSignal.User.PushSubscription.optIn();
           } catch(e) {}
-        }, 8000);
+        }, 5000);
       });
     </script>
   </head>
