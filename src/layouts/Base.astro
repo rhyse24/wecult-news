@@ -176,6 +176,24 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
         window.addEventListener('wcn-consent-granted', loadAds);
       })();
     </script>
+    <!-- OneSignal Web Push -->
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <script is:inline>
+      window.OneSignalDeferred = window.OneSignalDeferred || [];
+      OneSignalDeferred.push(async function(OneSignal) {
+        await OneSignal.init({
+          appId: "c0238f2c-1a19-4e96-86f5-5746ba15efe1",
+          serviceWorkerParam: { scope: "/" },
+          notifyButton: { enable: false },
+        });
+        setTimeout(async function() {
+          try {
+            var opted = OneSignal.User.PushSubscription.optedIn;
+            if (!opted) OneSignal.Slidedown.promptPush();
+          } catch(e) {}
+        }, 8000);
+      });
+    </script>
   </head>
   <body>
     <Header lang={lang} />
