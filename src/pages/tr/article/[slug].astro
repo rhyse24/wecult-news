@@ -73,7 +73,7 @@ const articleSchema = {
   '@type': 'NewsArticle',
   headline: (tr?.title ?? '').slice(0, 110),
   description: tr?.summary ?? '',
-  image: article.cover_image || undefined,
+  image: article.cover_image || fallbackImages[article.category],
   datePublished: article.published_at,
   dateModified: article.published_at,
   url: pageUrl,
@@ -182,7 +182,7 @@ const listItems = isListMode ? bodyBlocks.filter(b => b.type === 'listitem') : [
   ogImage={article.cover_image ?? undefined}
   preloadImage={article.cover_image ?? undefined}
   canonicalUrl={pageUrl}
-  hreflang={{ en: enPageUrl, tr: pageUrl, es: esPageUrl }}
+  hreflang={{ en: enPageUrl, tr: pageUrl, es: article.translations.es?.title ? esPageUrl : undefined }}
   schema={itemListSchema ? [breadcrumbSchema, articleSchema, itemListSchema] : [breadcrumbSchema, articleSchema]}
 >
 
