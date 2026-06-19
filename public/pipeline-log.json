@@ -1,6 +1,60 @@
 {
-  "totalArticles": 506,
+  "totalArticles": 509,
   "runs": [
+    {
+      "timestamp": "2026-06-19T11:00:52.879Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 282,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "Everyone’s a Big Fan of the Spider-Man: Brand New Day Trailer’s Web Tornado",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "slug": "d7b75695-everyones-a-big-fan-of-the-spider-man-brand-new-day-trailers"
+        },
+        {
+          "title": "Pearl River Film Launches Studio With Author Guo Ni, Sets Eight-Franchise Slate",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "86ed15d2-pearl-river-film-launches-studio-with-author-guo-ni-sets-eig"
+        },
+        {
+          "title": "Anne Curtis Leads Mikhail Red’s Manila Paranoia Thriller ‘Remote’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "79507096-anne-curtis-leads-mikhail-reds-manila-paranoia-thriller-remo"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Only 10 Movies from the '90s Are Truly Perfect From Start to Finish",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "Every Clue Sadie Sink Is Jean Grey In Spider-Man: Brand New Day",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Toy Story 5 Ending Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-13T10:00:49.491Z",
       "status": "success",
@@ -2086,17 +2140,7 @@
       "totalCandidates": 89,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-09T02:00:30.788Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 261,
-      "totalCandidates": 90,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-13T10:00:49.491Z"
+  "lastUpdated": "2026-06-19T11:00:52.879Z"
 }
