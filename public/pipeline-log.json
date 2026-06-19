@@ -1,6 +1,24 @@
 {
-  "totalArticles": 514,
+  "totalArticles": 515,
   "runs": [
+    {
+      "timestamp": "2026-06-19T18:01:13.042Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "Apple TV’s “Sugar” Reaches for the Stars in Grounded, Moving Second Season",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 15,
+          "slug": "7bff609d-apple-tvs-sugar-reaches-for-the-stars-in-grounded-moving-sec"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-19T16:01:09.370Z",
       "status": "quota",
@@ -2079,47 +2097,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-09T08:00:33.084Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 258,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "5 Best Episodes Of The Backrooms Web Series, According To IMDb",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "slug": "8c0fc4b3-5-best-episodes-of-the-backrooms-web-series-according-to-imd"
-        },
-        {
-          "title": "Only 3 War Movies Are Heavier Than 'Saving Private Ryan'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "16976f99-only-3-war-movies-are-heavier-than-saving-private-ryan"
-        },
-        {
-          "title": "The Boys Season 5 Scene That Left Jensen Ackles Genuinely Disgusted",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "slug": "83af0a57-the-boys-season-5-scene-that-left-jensen-ackles-genuinely-di"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "5 Best Spy Movies Nobody Talks About Anymore",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-19T16:01:09.370Z"
+  "lastUpdated": "2026-06-19T18:01:13.042Z"
 }
