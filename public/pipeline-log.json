@@ -1,6 +1,24 @@
 {
-  "totalArticles": 517,
+  "totalArticles": 518,
   "runs": [
+    {
+      "timestamp": "2026-06-19T22:00:56.598Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "Spider-Man: Brand New Day’s Body-Hopping Villain Could Be One of These Marvel Characters",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "slug": "1b4d76ff-spider-man-brand-new-days-body-hopping-villain-could-be-one-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-19T21:13:06.175Z",
       "status": "quota",
@@ -2054,25 +2072,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-09T12:00:37.171Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 261,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Masters of the Universe Needs to Commit",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "27d9dd9e-masters-of-the-universe-needs-to-commit"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-19T21:13:06.175Z"
+  "lastUpdated": "2026-06-19T22:00:56.598Z"
 }
