@@ -2,6 +2,24 @@
   "totalArticles": 515,
   "runs": [
     {
+      "timestamp": "2026-06-19T20:01:05.648Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 47,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Dungeon Crawler Carl TV Series From Seth MacFarlane Ordered At Peacock",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-19T18:01:13.042Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2047,57 +2065,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-09T10:00:29.675Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 260,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Euphoria Star Colman Domingo Has Played Multiple Law & Order Characters",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "0664ed60-euphoria-star-colman-domingo-has-played-multiple-law-order-c"
-        },
-        {
-          "title": "10 Best Shows Like Twin Peaks",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "5e85a959-10-best-shows-like-twin-peaks"
-        },
-        {
-          "title": "The Bear goes to war—um, prepares a final meal—in season 5 trailer",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "slug": "88040989-the-bear-goes-to-warum-prepares-a-final-mealin-season-5-trai"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The Bear Season 5 Trailer: The Restaurant Floods As The Money Dries Up In The Final Season",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 11,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 16 words (max 12)"
-          ]
-        },
-        {
-          "title": "Descendants: Wicked Wonderland Sets July Premiere Date — Watch Red Meet Her New Sister In Teaser Trailer",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-19T18:01:13.042Z"
+  "lastUpdated": "2026-06-19T20:01:05.648Z"
 }
