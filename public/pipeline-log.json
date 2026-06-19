@@ -2,6 +2,16 @@
   "totalArticles": 514,
   "runs": [
     {
+      "timestamp": "2026-06-19T16:01:09.370Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 43,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-19T15:29:51.878Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2109,71 +2119,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-09T07:52:07.292Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 261,
-      "totalCandidates": 85,
-      "written": [
-        {
-          "title": "Xbox Fans Question Marvel's Blade Absence From XGS 2026",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 14,
-          "slug": "7480db58-xbox-fans-question-marvels-blade-absence-from-xgs-2026"
-        },
-        {
-          "title": "No Law Trailer Offers A Closer Look At Port Desire, Its Stories, and The Peacekeepers",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 14,
-          "slug": "a25f913c-no-law-trailer-offers-a-closer-look-at-port-desire-its-stori"
-        },
-        {
-          "title": " No, Blade is not cancelled, Arkane artist confirms ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "5db3bf48-no-blade-is-not-cancelled-arkane-artist-confirms"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The 13 Biggest Video Game Reveals And Surprises From All Of SGF’s Showcases",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 19,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 673 words (max 580)"
-          ]
-        },
-        {
-          "title": " Xbox lost 'millions' of Game Pass subscribers after last year's massive price hike ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Call of Duty: Black Ops 1 and 2 Ports Have Apparently Leaked",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Halo: Campaign Evolved Collector's Edition Includes a Relic of a Bygone Gaming Era",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-19T15:29:51.878Z"
+  "lastUpdated": "2026-06-19T16:01:09.370Z"
 }
