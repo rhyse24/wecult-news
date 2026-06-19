@@ -1,6 +1,31 @@
 {
-  "totalArticles": 512,
+  "totalArticles": 514,
   "runs": [
+    {
+      "timestamp": "2026-06-19T14:01:15.238Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 94,
+      "written": [
+        {
+          "title": "Sony Ditches Mention of PC Releases From Business Strategy Document, as PlayStation's Single-Player Games Now Expected to Be Fully Exclusive",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 20,
+          "slug": "95d83c1f-sony-ditches-mention-of-pc-releases-from-business-strategy-d"
+        },
+        {
+          "title": "Battlefield 6's next update is bringing back a classic mechanic… from Call of Duty: Ghosts",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 15,
+          "slug": "4a10392d-battlefield-6s-next-update-is-bringing-back-a-classic-mechan"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-19T12:01:11.105Z",
       "status": "success",
@@ -2173,17 +2198,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-09T04:00:27.758Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 260,
-      "totalCandidates": 87,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-19T12:01:11.105Z"
+  "lastUpdated": "2026-06-19T14:01:15.238Z"
 }
