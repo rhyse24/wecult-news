@@ -2,6 +2,24 @@
   "totalArticles": 534,
   "runs": [
     {
+      "timestamp": "2026-06-20T17:38:56.058Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 234,
+      "totalCandidates": 44,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Why Rob-Will Jackson From From Dutton Ranch Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-20T15:47:01.526Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2090,32 +2108,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-10T03:56:12.654Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "‘Love Island USA’ App Experiences Glitch During First Fan Vote for Season 8",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "7c97fe20-love-island-usa-app-experiences-glitch-during-first-fan-vote"
-        },
-        {
-          "title": "Sydney Sweeney on Bringing “Sam’s Vision to Life” With Cassie’s OnlyFans Storyline in ‘Euphoria’",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "682ca4e2-sydney-sweeney-on-bringing-sams-vision-to-life-with-cassies-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-20T15:47:01.526Z"
+  "lastUpdated": "2026-06-20T17:38:56.058Z"
 }
