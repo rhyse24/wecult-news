@@ -1,6 +1,32 @@
 {
-  "totalArticles": 530,
+  "totalArticles": 531,
   "runs": [
+    {
+      "timestamp": "2026-06-20T12:00:25.501Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 245,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "‘Game of Thrones’ Star Aidan Gillen on Golden Age of ‘F—ing Brilliant’ British Drama and Why There’s ‘Too Much’ Stuff on TV",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "cc0113af-game-of-thrones-star-aidan-gillen-on-golden-age-of-fing-bril"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Dutton Ranch Stars React To Beulah's 'Heartbreaking' Announcement In Episode 7: 'This Is The Worst Thing That Could Ever Happen'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-20T10:01:04.269Z",
       "status": "quota",
@@ -2103,32 +2129,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-09T23:18:01.987Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 53,
-      "written": [
-        {
-          "title": "‘Adults’ Season 2 Sets Release Date, Guest Stars Include Jake Shane and Gaten Matarazzo",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 16,
-          "slug": "3cf87a83-adults-season-2-sets-release-date-guest-stars-include-jake-s"
-        },
-        {
-          "title": "Steven Spielberg phones home and phones it in with Disclosure Day",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "slug": "dafb92aa-steven-spielberg-phones-home-and-phones-it-in-with-disclosur"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-20T10:01:04.269Z"
+  "lastUpdated": "2026-06-20T12:00:25.501Z"
 }
