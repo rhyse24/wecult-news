@@ -1,6 +1,39 @@
 {
-  "totalArticles": 532,
+  "totalArticles": 534,
   "runs": [
+    {
+      "timestamp": "2026-06-20T15:47:01.526Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 237,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Box Office: ‘Toy Story 5’ Soars to $71 Million on Opening Day",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "c2f97291-box-office-toy-story-5-soars-to-71-million-on-opening-day"
+        },
+        {
+          "title": "10 Most Universally Beloved Video Games of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "slug": "371d0ab5-10-most-universally-beloved-video-games-of-all-time"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "From ‘Toy Story 5’ to Nancy Meyers, Tony Hale Is Just Happy to Be Here",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-20T14:01:05.957Z",
       "status": "quota",
@@ -2082,47 +2115,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-10T02:00:27.167Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 268,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "Tom Holland’s The Odyssey Plea Is Gen Z’s Latest Attempt to Save Cinema",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "slug": "e798cf3e-tom-hollands-the-odyssey-plea-is-gen-zs-latest-attempt-to-sa"
-        },
-        {
-          "title": "Sun Valley 2026: David Ellison, Bari Weiss, Disney’s Josh D’Amaro, Jeff Bezos and More Make the List (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "16b16ee7-sun-valley-2026-david-ellison-bari-weiss-disneys-josh-damaro"
-        },
-        {
-          "title": "Taylor Swift Attends ‘Toy Story 5’ Premiere",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "0b5ff481-taylor-swift-attends-toy-story-5-premiere"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Disclosure Day Review: Steven Spielberg’s Coda to a Lifetime of Alien Movies",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-20T14:01:05.957Z"
+  "lastUpdated": "2026-06-20T15:47:01.526Z"
 }
