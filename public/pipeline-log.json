@@ -1,6 +1,53 @@
 {
-  "totalArticles": 539,
+  "totalArticles": 541,
   "runs": [
+    {
+      "timestamp": "2026-06-20T23:13:05.054Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 226,
+      "totalCandidates": 26,
+      "written": [
+        {
+          "title": "10 Best Space Opera Movies Released Since the Original 'Star Wars'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "7e5e35c2-10-best-space-opera-movies-released-since-the-original-star-"
+        },
+        {
+          "title": "6 Greatest Forgotten '70s Cult Classic Movies",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "0caea81a-6-greatest-forgotten-70s-cult-classic-movies"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Coolest James Bond Gadgets of All Time ",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "From ‘Toy Story 5’ to Nancy Meyers, Tony Hale Is Just Happy to Be Here",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Toy Story 5’ Headed to $160M for Biggest Opening of 2026",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-20T21:22:00.669Z",
       "status": "success",
@@ -2040,39 +2087,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-10T08:11:32.818Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 262,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Things Get Biblical in The Bear Season 5 Trailer",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 11,
-          "slug": "9209e03b-things-get-biblical-in-the-bear-season-5-trailer"
-        },
-        {
-          "title": "Jem and the Holograms Is Getting a Second Chance at Live Action",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 9,
-          "slug": "6b63066f-jem-and-the-holograms-is-getting-a-second-chance-at-live-act"
-        },
-        {
-          "title": "‘Office Romance’ Director Ol Parker on the Secrets to Crafting the Perfect Modern Netflix Rom-Com",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 8,
-          "slug": "8f041db0-office-romance-director-ol-parker-on-the-secrets-to-crafting"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-20T21:22:00.669Z"
+  "lastUpdated": "2026-06-20T23:13:05.054Z"
 }
