@@ -1,6 +1,56 @@
 {
-  "totalArticles": 525,
+  "totalArticles": 528,
   "runs": [
+    {
+      "timestamp": "2026-06-20T09:25:03.894Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 265,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "EastEnders cast: Who is joining, leaving and returning to the soap?",
+          "category": "tv",
+          "source": "Radio Times",
+          "score": 8,
+          "slug": "50d1e2ba-eastenders-cast-who-is-joining-leaving-and-returning-to-the-"
+        },
+        {
+          "title": "The Best Shows to Watch After Widow’s Bay",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 8,
+          "slug": "2304bb2c-the-best-shows-to-watch-after-widows-bay"
+        },
+        {
+          "title": "15 Details Movies Got Wrong",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 8,
+          "slug": "1210469a-15-details-movies-got-wrong"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Dutton Ranch Stars React To Beulah's 'Heartbreaking' Announcement In Episode 7: 'This Is The Worst Thing That Could Ever Happen'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "How Tom Morton Brought Detective Müller to Life in Netflix’s ‘I Will Find You’",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 8,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-20T08:01:03.944Z",
       "status": "success",
@@ -2063,25 +2113,7 @@
       "totalCandidates": 53,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-09T21:49:15.900Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 258,
-      "totalCandidates": 79,
-      "written": [
-        {
-          "title": "FromSoftware's The Duskbloods still doesn't have a release date, but there's a Switch 2 playtest coming soon",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 15,
-          "slug": "153452b3-fromsoftwares-the-duskbloods-still-doesnt-have-a-release-dat"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-20T08:01:03.944Z"
+  "lastUpdated": "2026-06-20T09:25:03.894Z"
 }
