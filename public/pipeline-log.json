@@ -1,6 +1,39 @@
 {
-  "totalArticles": 534,
+  "totalArticles": 536,
   "runs": [
+    {
+      "timestamp": "2026-06-20T19:43:26.511Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 230,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "Breaking Bad's Creative Team Had Several Ending Ideas That Didn't Kill Off Walter White",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "a84a2337-breaking-bads-creative-team-had-several-ending-ideas-that-di"
+        },
+        {
+          "title": "‘Oasis’ Season 1 Ending Explained: Who Kidnapped Celia and Will There Be a Season 2?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "703a1e4a-oasis-season-1-ending-explained-who-kidnapped-celia-and-will"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Why Rob-Will Jackson From From Dutton Ranch Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-20T17:38:56.058Z",
       "status": "quota",
@@ -2068,47 +2101,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-10T06:00:31.354Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 265,
-      "totalCandidates": 78,
-      "written": [
-        {
-          "title": "Fire Emblem: Fortune's Weave Sets Standard Physical Price at $80",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "000b8073-fire-emblem-fortunes-weave-sets-standard-physical-price-at-8"
-        },
-        {
-          "title": "Before Darkness Falls is an Aliens: Dark Descent-style tactics game from former Frostpunk devs, and I did enjoy dying in its depths",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 13,
-          "slug": "e00c299e-before-darkness-falls-is-an-aliens-dark-descent-style-tactic"
-        },
-        {
-          "title": "Preorders For The Minecraft Dungeons 2 Deluxe Edition Are Live",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "5677923f-preorders-for-the-minecraft-dungeons-2-deluxe-edition-are-li"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Here's A Look At The Updated Xbox Game Studios Roadmap From June 2026",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-20T17:38:56.058Z"
+  "lastUpdated": "2026-06-20T19:43:26.511Z"
 }
