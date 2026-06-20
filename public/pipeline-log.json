@@ -1,6 +1,73 @@
 {
-  "totalArticles": 522,
+  "totalArticles": 525,
   "runs": [
+    {
+      "timestamp": "2026-06-20T08:01:03.944Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 269,
+      "totalCandidates": 90,
+      "written": [
+        {
+          "title": "Halo Studios Unveils Six Hours Of Footage From Campaign Evolved's Main Menu",
+          "category": "games",
+          "source": "Pure Xbox",
+          "score": 14,
+          "slug": "72de8d4b-halo-studios-unveils-six-hours-of-footage-from-campaign-evol"
+        },
+        {
+          "title": "Xbox's Confusing Exclusivity Criteria Now Aided by 'EXCLUSIVE' Label on Console Dashboard",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 12,
+          "slug": "04c3d9b2-xboxs-confusing-exclusivity-criteria-now-aided-by-exclusive-"
+        },
+        {
+          "title": "Fortnite OG Season 9: Start Time, OG Pass, Live Events, And Map Changes",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 10,
+          "slug": "ddf7e762-fortnite-og-season-9-start-time-og-pass-live-events-and-map-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": " Sony deletes mention of PC from annual strategy report in favour of a gushing about AI ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 15,
+          "reason": "quality_gate",
+          "errors": [
+            "TR body too short: 201 words (need ≥220)"
+          ]
+        },
+        {
+          "title": "CD Projekt Red Co-CEO Hopes Witcher 4 Wins Back Players After 'Heartbreaking' Cyberpunk 2077 Launch",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        },
+        {
+          "title": "Call of Duty: Black Ops 1&2 PlayStation re-releases are not remasters, Activision confirms: here's why you should temper your expectations",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Here's What's Leaving the PS Plus Library in July 2026",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-20T06:01:03.862Z",
       "status": "quota",
@@ -2014,47 +2081,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-09T20:00:35.484Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 265,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Disclosure Day Review: A Soul-Searching, Spine-Tingling Blockbuster Triumph",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 17,
-          "slug": "c8f80b44-disclosure-day-review-a-soul-searching-spine-tingling-blockb"
-        },
-        {
-          "title": "Argentina’s Sebastián De Caro Sets Spin-Off of Joe Begos’ Horror Pic ‘Jimmy and Stiggs,’ Released by Eli Roth’s The Horror Section (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "0274d2c4-argentinas-sebastin-de-caro-sets-spin-off-of-joe-begos-horro"
-        },
-        {
-          "title": "‘Disclosure Day’ Review: Emily Blunt, Josh O’Connor and Colin Firth Lead Steven Spielberg’s Spellbinding Return to What He Does Best",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "slug": "d8d03ad8-disclosure-day-review-emily-blunt-josh-oconnor-and-colin-fir"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "5 Worst Plot Holes In The Boys Season 5",
-          "category": "film",
-          "source": "Looper",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-20T06:01:03.862Z"
+  "lastUpdated": "2026-06-20T08:01:03.944Z"
 }
