@@ -1,6 +1,24 @@
 {
-  "totalArticles": 531,
+  "totalArticles": 532,
   "runs": [
+    {
+      "timestamp": "2026-06-20T14:01:05.957Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 240,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": " The creator of Ultima is reportedly reclaiming the series' rights back from EA, and it could happen as soon as next year ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 16,
+          "slug": "2bc93c12-the-creator-of-ultima-is-reportedly-reclaiming-the-series-ri"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-20T12:00:25.501Z",
       "status": "quota",
@@ -2104,32 +2122,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-10T00:00:27.313Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 259,
-      "totalCandidates": 34,
-      "written": [],
-      "rejected": [
-        {
-          "title": "5 Worst Plot Holes In The Boys Season 5",
-          "category": "film",
-          "source": "Looper",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Disclosure Day Review: Steven Spielberg’s Coda to a Lifetime of Alien Movies",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-20T12:00:25.501Z"
+  "lastUpdated": "2026-06-20T14:01:05.957Z"
 }
