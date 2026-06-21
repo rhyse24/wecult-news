@@ -1,6 +1,59 @@
 {
-  "totalArticles": 544,
+  "totalArticles": 547,
   "runs": [
+    {
+      "timestamp": "2026-06-21T12:15:00.088Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 204,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "Universal wasting no time throwing more money and movies at Obsession's Curry Barker",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 14,
+          "slug": "6ac51090-universal-wasting-no-time-throwing-more-money-and-movies-at-"
+        },
+        {
+          "title": "Kevin Canceled At Prime Video — No Season 2 For Animated Series From Aubrey Plaza And Joe Wengert",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "6a9a380e-kevin-canceled-at-prime-video-no-season-2-for-animated-serie"
+        },
+        {
+          "title": "Pandora Hearts Manga Gets New Stage Musical",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 9,
+          "slug": "26933c6c-pandora-hearts-manga-gets-new-stage-musical"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "What To Watch Sunday: The Agency And House Of The Dragon Return, The Way Home Ends, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        },
+        {
+          "title": "Well, of course George Lucas loves the goddamn Minions",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-21T09:56:40.136Z",
       "status": "success",
@@ -2022,39 +2075,7 @@
       "totalCandidates": 43,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-10T12:58:37.047Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 256,
-      "totalCandidates": 86,
-      "written": [
-        {
-          "title": "Death Stranding movie director Michael Sarnoski says we may see some characters from the games despite the adaptation being \"very much its own thing\"",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 17,
-          "slug": "75543115-death-stranding-movie-director-michael-sarnoski-says-we-may-"
-        },
-        {
-          "title": "Disclosure Day ending explained: What do the aliens want?",
-          "category": "games",
-          "source": "Dexerto",
-          "score": 15,
-          "slug": "b830e411-disclosure-day-ending-explained-what-do-the-aliens-want"
-        },
-        {
-          "title": "Happy Anniversary, Elder Scrolls 6 Trailer: Fans celebrate eight years of absolutely nothing",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 15,
-          "slug": "61ae7277-happy-anniversary-elder-scrolls-6-trailer-fans-celebrate-eig"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-21T09:56:40.136Z"
+  "lastUpdated": "2026-06-21T12:15:00.088Z"
 }
