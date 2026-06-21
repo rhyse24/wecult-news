@@ -1,6 +1,60 @@
 {
-  "totalArticles": 551,
+  "totalArticles": 554,
   "runs": [
+    {
+      "timestamp": "2026-06-21T19:50:02.604Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 180,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "‘Criminal Minds’ Star Paget Brewster Tells TV Journalist to ‘Work at a Shelter’ After Mixed Review, Sparking Outrage From Other Critics",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "62425ed2-criminal-minds-star-paget-brewster-tells-tv-journalist-to-wo"
+        },
+        {
+          "title": "Aardman Teases New Pokemon, ‘Timmy’ Series, ‘The (Almost) Untold Story of Danger Delilah,’ Aardman Academy and Looks Back at 50 Years of Clay Animation at Annecy",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "a2aba3b2-aardman-teases-new-pokemon-timmy-series-the-almost-untold-st"
+        },
+        {
+          "title": "Quotes Of The Week: Widow's Bay, Not Suitable For Work, Brilliant Minds, The Vampire Lestat, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "3fefdb83-quotes-of-the-week-widows-bay-not-suitable-for-work-brillian"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jeremy Clarkson Reveals He Is In Remission From Prostate Cancer, Confirms Clarkson's Farm Season 6 Is Underway",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "15 Best TV Shows Like Brooklyn Nine-Nine",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Why Michael Peña's Jack Ryan Spin-Off Series Was Canceled By Prime Video",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-21T17:46:36.209Z",
       "status": "quota",
@@ -2094,54 +2148,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-10T17:22:55.591Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "‘Project Hail Mary’ Sets Streaming Release Date",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "slug": "4154021f-project-hail-mary-sets-streaming-release-date"
-        },
-        {
-          "title": "The Death of Robin Hood: Exclusive Look at Hugh Jackman’s Unmasking of a Legend",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 14,
-          "slug": "5fa80183-the-death-of-robin-hood-exclusive-look-at-hugh-jackmans-unma"
-        },
-        {
-          "title": "Michael Douglas, Willem Dafoe, Ellen Barkin and Homer Gere Join Oliver Stone’s ‘White Lies’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "403096de-michael-douglas-willem-dafoe-ellen-barkin-and-homer-gere-joi"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Only 5 MCU Heroes Are Smarter Than Tony Stark",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Disclosure Day Review: Steven Spielberg’s Coda to a Lifetime of Alien Movies",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-21T17:46:36.209Z"
+  "lastUpdated": "2026-06-21T19:50:02.604Z"
 }
