@@ -1,6 +1,67 @@
 {
-  "totalArticles": 547,
+  "totalArticles": 550,
   "runs": [
+    {
+      "timestamp": "2026-06-21T15:57:14.756Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 187,
+      "totalCandidates": 19,
+      "written": [
+        {
+          "title": "Kit Harington Says ‘Growing Need’ to ‘Take the Reins on the Creative Front’ Led Him to Directorial Debut ‘Psychopomp,’ Starring Harry Melling: ‘I Feel Less Exposed’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "b023bfc8-kit-harington-says-growing-need-to-take-the-reins-on-the-cre"
+        },
+        {
+          "title": "‘Yugly’ Sells Wide Ahead of Annecy World Premiere, as nWave Team Enthuses at Quirky Characters, European CG With Heart (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "e1efc4ea-yugly-sells-wide-ahead-of-annecy-world-premiere-as-nwave-tea"
+        },
+        {
+          "title": "George Lucas Cast in ‘Minions & Monsters’ After Revealing Love for Minions",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "slug": "082265d4-george-lucas-cast-in-minions-monsters-after-revealing-love-f"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Box Office: ‘Toy Story 5’ Scores Year’s Biggest Debut With $160 Million, Shattering Franchise Opening Weekend Record",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Best Bounty Hunters in Star Wars",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "From ‘Toy Story 5’ to Nancy Meyers, Tony Hale Is Just Happy to Be Here",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Coolest James Bond Gadgets of All Time ",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-21T12:15:00.088Z",
       "status": "success",
@@ -2065,17 +2126,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-10T14:00:51.497Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 262,
-      "totalCandidates": 43,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-21T12:15:00.088Z"
+  "lastUpdated": "2026-06-21T15:57:14.756Z"
 }
