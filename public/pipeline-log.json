@@ -2,6 +2,27 @@
   "totalArticles": 541,
   "runs": [
     {
+      "timestamp": "2026-06-21T04:47:57.671Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 220,
+      "totalCandidates": 87,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Stranger Than Heaven Second-Take Preview: Stranger Than Heaven’s Combat Seems Harder Than Hell, and that’s a Good Thing",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-20T23:13:05.054Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2055,39 +2076,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-10T10:00:50.732Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 261,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "The End of Everything by M John Harrison review – near-future visions from an SF master",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 12,
-          "slug": "0a863b46-the-end-of-everything-by-m-john-harrison-review-near-future-"
-        },
-        {
-          "title": "Reading The Wheel of Time: The Dragon Confronts Despair and Discovers Hope in The Gathering Storm (Part 29)",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "eae7dc5f-reading-the-wheel-of-time-the-dragon-confronts-despair-and-d"
-        },
-        {
-          "title": "Liza Tully on Tragicomedy, Murder Mysteries, and Using Grudges as Plot Devices",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 7,
-          "slug": "dc440c5d-liza-tully-on-tragicomedy-murder-mysteries-and-using-grudges"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-20T23:13:05.054Z"
+  "lastUpdated": "2026-06-21T04:47:57.671Z"
 }
