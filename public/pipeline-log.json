@@ -1,6 +1,32 @@
 {
-  "totalArticles": 555,
+  "totalArticles": 556,
   "runs": [
+    {
+      "timestamp": "2026-06-21T23:20:04.884Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 178,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "The Agency returns with a taut study in the personal cost of spydom",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 14,
+          "slug": "79c6486c-the-agency-returns-with-a-taut-study-in-the-personal-cost-of"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Christopher Meloni Starred In A Violent, Offbeat Series From The Boys' Co-Creator",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-21T21:19:35.440Z",
       "status": "quota",
@@ -2145,25 +2171,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-10T20:00:57.235Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 51,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Sydney Sweeney on Being Sexualized in ‘Euphoria,’ Crying Over Rue’s Death and Why She’ll Never Be ‘Satisfied With Where Cassie Ended Up’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-21T21:19:35.440Z"
+  "lastUpdated": "2026-06-21T23:20:04.884Z"
 }
