@@ -1,6 +1,60 @@
 {
-  "totalArticles": 558,
+  "totalArticles": 561,
   "runs": [
+    {
+      "timestamp": "2026-06-22T12:00:46.307Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 224,
+      "totalCandidates": 23,
+      "written": [
+        {
+          "title": "Quentin Tarantino, Kylie Minogue to Star in New Jamie Adams Film From Visor Entertainment (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 16,
+          "slug": "3d98241e-quentin-tarantino-kylie-minogue-to-star-in-new-jamie-adams-f"
+        },
+        {
+          "title": "House Of The Dragon Season 3's Weird Opening Has A Surprising Explanation",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "slug": "ead52334-house-of-the-dragon-season-3s-weird-opening-has-a-surprising"
+        },
+        {
+          "title": "6 Worst '90s Family Movies That Are Truly 0/10",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "63bff23a-6-worst-90s-family-movies-that-are-truly-010"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Korea Box Office: ‘Toy Story 5’ Secures Top Spot to End ‘Colony’ Reign",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Best A24 Movies Streaming on HBO Max",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Toy Story 5’ Lands Top Domestic Opening of Year with $160M, Hits $312M Globally",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-22T04:55:21.333Z",
       "status": "quota",
@@ -2123,54 +2177,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-10T22:00:48.060Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "Oscars: Glenn Close, Ridley Scott, Disney’s First Black Animator and Killer Films Founders Set for Honorary Prizes",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "cf5f39c3-oscars-glenn-close-ridley-scott-disneys-first-black-animator"
-        },
-        {
-          "title": "Quentin Tarantino Said He Wouldn’t Watch Past ‘Toy Story 3’ After Film’s “Perfect” Ending. ‘Toy Story 5’ Team Gives Pitch For Continuing the Franchise",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "slug": "ba4a1b13-quentin-tarantino-said-he-wouldnt-watch-past-toy-story-3-aft"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Toy Story 5 Is Already Proving Doubters Wrong",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "Critics Left Stunned In First Reactions To Toy Story 5",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Disclosure Day Review: Steven Spielberg’s Coda to a Lifetime of Alien Movies",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-22T04:55:21.333Z"
+  "lastUpdated": "2026-06-22T12:00:46.307Z"
 }
