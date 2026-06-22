@@ -1,6 +1,35 @@
 {
-  "totalArticles": 562,
+  "totalArticles": 563,
   "runs": [
+    {
+      "timestamp": "2026-06-22T22:00:37.799Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 262,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "Keanu Reeves in Talks to Star in Lego Live-Action Hybrid Movie",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "slug": "a630caf7-keanu-reeves-in-talks-to-star-in-lego-live-action-hybrid-mov"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Peter Sarsgaard Joins The Last of Us Season 3 as Cancellation Rumors Are Debunked",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-22T18:00:46.517Z",
       "status": "quota",
@@ -2144,32 +2173,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-11T04:00:48.723Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "David Harbour Says “False” Millie Bobby Brown Harassment Claim Article Triggered “a Breakdown”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 9,
-          "slug": "f21d0596-david-harbour-says-false-millie-bobby-brown-harassment-claim"
-        },
-        {
-          "title": "The Academy promises Oscars for Ridley Scott and Glenn Close this year",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "slug": "60ea8e4f-the-academy-promises-oscars-for-ridley-scott-and-glenn-close"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-22T18:00:46.517Z"
+  "lastUpdated": "2026-06-22T22:00:37.799Z"
 }
