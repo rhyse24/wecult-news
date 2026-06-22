@@ -1,6 +1,24 @@
 {
-  "totalArticles": 561,
+  "totalArticles": 562,
   "runs": [
+    {
+      "timestamp": "2026-06-22T16:00:52.689Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 237,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Why Zachariah Moss From Dutton Ranch Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "605a094b-why-zachariah-moss-from-dutton-ranch-looks-so-familiar"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-22T14:00:44.118Z",
       "status": "quota",
@@ -2158,25 +2176,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-11T00:00:50.655Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 91,
-      "written": [
-        {
-          "title": "Wonky witch fable 1666: Amsterdam is the kind of sexy nonsense I want from Assassin's Creed: Hexe",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 17,
-          "slug": "ceec22fd-wonky-witch-fable-1666-amsterdam-is-the-kind-of-sexy-nonsens"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-22T14:00:44.118Z"
+  "lastUpdated": "2026-06-22T16:00:52.689Z"
 }
