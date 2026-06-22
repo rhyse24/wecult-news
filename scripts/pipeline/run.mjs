@@ -111,10 +111,10 @@ const runLog = {
 mkdirSync(ARTICLES_DIR, { recursive: true });
 pruneOldImages();
 
-// Load titles of articles written in the last 48h for cross-run topic dedup
+// Load titles of articles written in the last 24h for cross-run topic dedup
 const recentTitles = [];
 try {
-  const cutoff = Date.now() - 48 * 3600000;
+  const cutoff = Date.now() - 24 * 3600000;
   for (const file of readdirSync(ARTICLES_DIR)) {
     if (!file.endsWith('.json')) continue;
     const data = JSON.parse(readFileSync(`${ARTICLES_DIR}/${file}`, 'utf8'));
