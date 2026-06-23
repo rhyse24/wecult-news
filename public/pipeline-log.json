@@ -2,6 +2,24 @@
   "totalArticles": 575,
   "runs": [
     {
+      "timestamp": "2026-06-23T14:01:23.526Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 271,
+      "totalCandidates": 52,
+      "written": [],
+      "rejected": [
+        {
+          "title": "‘House of the Dragon’ Star Olivia Cooke Reveals ‘Really Bad’ Audition for Rey in ‘Star Wars: The Force Awakens’: ‘I Was S—’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-23T12:00:37.674Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2082,39 +2100,7 @@
       "totalCandidates": 99,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-11T20:00:53.744Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 279,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Emmys 2026: Supporting Actress In A Drama Series — Our Dream Nominees!",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "954b446c-emmys-2026-supporting-actress-in-a-drama-series-our-dream-no"
-        },
-        {
-          "title": "New Looks at Charlie Heaton in ‘Peaky Blinders’ 1950s Spin-Off as Massive New Cast Revealed",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "slug": "7182af77-new-looks-at-charlie-heaton-in-peaky-blinders-1950s-spin-off"
-        },
-        {
-          "title": "Helen Mirren Backs Tom Hardy In MobLand Season 3 Upheaval: 'My Support Of Him Is Genuine And Heartfelt'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "1ab7a0ff-helen-mirren-backs-tom-hardy-in-mobland-season-3-upheaval-my"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-23T12:00:37.674Z"
+  "lastUpdated": "2026-06-23T14:01:23.526Z"
 }
