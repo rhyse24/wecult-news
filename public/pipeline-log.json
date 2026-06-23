@@ -1,6 +1,35 @@
 {
-  "totalArticles": 576,
+  "totalArticles": 577,
   "runs": [
+    {
+      "timestamp": "2026-06-23T20:01:30.380Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 288,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": "Netflix Horror Game Starring Sadie Sink and Zoë Kravitz from Oxenfree Developer Night School Studio",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "slug": "9a010451-netflix-horror-game-starring-sadie-sink-and-zo-kravitz-from-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Exclusive: 7 Never Before Seen Turning Red Disney Lorcana Cards From Attack Of The Vine",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 17,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-23T18:01:19.843Z",
       "status": "quota",
@@ -2059,33 +2088,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-12T00:00:49.383Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 271,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "Widow's Bay Renewed For Season 2",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 16,
-          "slug": "6cb9adc7-widows-bay-renewed-for-season-2"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Best TV Shows Like Widow's Bay",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-23T18:01:19.843Z"
+  "lastUpdated": "2026-06-23T20:01:30.380Z"
 }
