@@ -1,6 +1,24 @@
 {
-  "totalArticles": 563,
+  "totalArticles": 564,
   "runs": [
+    {
+      "timestamp": "2026-06-23T00:00:40.625Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 253,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "Out of the Mouths of Cutlery: Tony Hale on “Toy Story 5”",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 15,
+          "slug": "8aab4270-out-of-the-mouths-of-cutlery-tony-hale-on-toy-story-5"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-22T22:00:37.799Z",
       "status": "quota",
@@ -2155,25 +2173,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-11T06:00:47.232Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "Project Hail Mary Gets Streaming Release Date… on MGM+",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 17,
-          "slug": "e28db3a1-project-hail-mary-gets-streaming-release-date-on-mgm"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-22T22:00:37.799Z"
+  "lastUpdated": "2026-06-23T00:00:40.625Z"
 }
