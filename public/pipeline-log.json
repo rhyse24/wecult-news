@@ -1,6 +1,31 @@
 {
-  "totalArticles": 564,
+  "totalArticles": 566,
   "runs": [
+    {
+      "timestamp": "2026-06-23T02:00:37.517Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 258,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": " I usually skip soulslikes not made by FromSoftware, but one Steam demo just won me over ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 18,
+          "slug": "1890df6d-i-usually-skip-soulslikes-not-made-by-fromsoftware-but-one-s"
+        },
+        {
+          "title": "In strategy game Scream Operator, you run every inch of a haunted house ride from the all-important pre-show to the Chainsaw Guys",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 14,
+          "slug": "660c761d-in-strategy-game-scream-operator-you-run-every-inch-of-a-hau"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-23T00:00:40.625Z",
       "status": "quota",
@@ -2133,47 +2158,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-11T08:00:52.520Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "Steven Spielberg Says James Bond Movies ‘Constantly Turned Me Down’ and ‘If They Asked Me Now’ to Direct the Answer Would Be: ‘You Can’t Afford Me’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "2b004de2-steven-spielberg-says-james-bond-movies-constantly-turned-me"
-        },
-        {
-          "title": "Toy Story 5 Is Already Proving Doubters Wrong",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 12,
-          "slug": "37fdcf60-toy-story-5-is-already-proving-doubters-wrong"
-        },
-        {
-          "title": "8 Universally Beloved Movies Nobody Wants to See a Remake Of",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "211830cb-8-universally-beloved-movies-nobody-wants-to-see-a-remake-of"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Disclosure Day Review: Steven Spielberg’s Coda to a Lifetime of Alien Movies",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-23T00:00:40.625Z"
+  "lastUpdated": "2026-06-23T02:00:37.517Z"
 }
