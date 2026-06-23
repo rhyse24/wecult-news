@@ -2,6 +2,16 @@
   "totalArticles": 576,
   "runs": [
     {
+      "timestamp": "2026-06-23T16:01:27.653Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 88,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-23T15:11:35.080Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2090,25 +2100,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-11T22:00:59.460Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 101,
-      "written": [
-        {
-          "title": "GTA 5 Joins A Subscription Ahead Of GTA 6 Launch",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "343e4436-gta-5-joins-a-subscription-ahead-of-gta-6-launch"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-23T15:11:35.080Z"
+  "lastUpdated": "2026-06-23T16:01:27.653Z"
 }
