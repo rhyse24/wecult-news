@@ -2,6 +2,16 @@
   "totalArticles": 574,
   "runs": [
     {
+      "timestamp": "2026-06-23T11:23:08.723Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 29,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-23T10:00:43.942Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2103,39 +2113,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-11T16:00:54.279Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 280,
-      "totalCandidates": 51,
-      "written": [
-        {
-          "title": "20 Best TV Shows of 2026 (So Far)",
-          "category": "tv",
-          "source": "WhatCulture TV",
-          "score": 14,
-          "slug": "556b1107-20-best-tv-shows-of-2026-so-far"
-        },
-        {
-          "title": "Vice President JD Vance to Appear on ABC’s ‘The View’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "6eb9e316-vice-president-jd-vance-to-appear-on-abcs-the-view"
-        },
-        {
-          "title": "Why ‘Every Year After’ Flipped the Script on the Bestseller’s Divisive Secret",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "888334c1-why-every-year-after-flipped-the-script-on-the-bestsellers-d"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-23T10:00:43.942Z"
+  "lastUpdated": "2026-06-23T11:23:08.723Z"
 }
