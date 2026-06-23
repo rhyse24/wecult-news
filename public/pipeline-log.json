@@ -2,6 +2,16 @@
   "totalArticles": 576,
   "runs": [
     {
+      "timestamp": "2026-06-23T18:01:19.843Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 288,
+      "totalCandidates": 86,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-23T16:01:27.653Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2075,32 +2085,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-11T23:24:27.153Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Disclosure Day Ending Explained with Screenwriter",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 17,
-          "slug": "8f6fa226-disclosure-day-ending-explained-with-screenwriter"
-        },
-        {
-          "title": "‘Obsession’ Star Michael Johnston Signs With Gersh (Exclusive)",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "slug": "44becaed-obsession-star-michael-johnston-signs-with-gersh-exclusive"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-23T16:01:27.653Z"
+  "lastUpdated": "2026-06-23T18:01:19.843Z"
 }
