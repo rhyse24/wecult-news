@@ -1,6 +1,32 @@
 {
-  "totalArticles": 567,
+  "totalArticles": 568,
   "runs": [
+    {
+      "timestamp": "2026-06-23T06:00:38.594Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 256,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Courtney Grace, “Disclosure Day,” and the One-Scene Wonder",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 11,
+          "slug": "dd703c85-courtney-grace-disclosure-day-and-the-one-scene-wonder"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Toy Story 5 Box Office Suggests Sequel Scarcity Is Still a Good Thing",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 14,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-23T03:57:26.177Z",
       "status": "quota",
@@ -2105,54 +2131,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-11T10:40:01.616Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Tom Hanks shoots down pitch for an Oscar for voice performances",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 10,
-          "slug": "17bdd15a-tom-hanks-shoots-down-pitch-for-an-oscar-for-voice-performan"
-        },
-        {
-          "title": "‘House of the Dragon’ Stars Talk Filming Battle of the Gullet’s Pure Carnage (VIDEO)",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 7,
-          "slug": "446cbbdd-house-of-the-dragon-stars-talk-filming-battle-of-the-gullets"
-        },
-        {
-          "title": "‘Colors of Evil: Black’ Review: A Grimmer, More Devastating Polish Sequel",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 7,
-          "slug": "7cd38e00-colors-of-evil-black-review-a-grimmer-more-devastating-polis"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Saucy minx Steven Spielberg makes sure Bond franchise knows it missed its shot with him",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Mad Unicorn’ Director Nottapon Boonprakob on Netflix Thai Series ‘The Evil Lawyer’: ‘No System Is Perfect’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 7,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-23T03:57:26.177Z"
+  "lastUpdated": "2026-06-23T06:00:38.594Z"
 }
