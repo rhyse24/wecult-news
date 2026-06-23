@@ -1,6 +1,32 @@
 {
-  "totalArticles": 577,
+  "totalArticles": 578,
   "runs": [
+    {
+      "timestamp": "2026-06-23T21:45:29.523Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 287,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "“There Are Always Fascists to Defeat”: John Waters on the Enduring Legacy of His Films and Never Getting Cancelled",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 10,
+          "slug": "2376427a-there-are-always-fascists-to-defeat-john-waters-on-the-endur"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "House Of The Dragon: How Does Alicent Hightower Die In The Book?",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-23T20:01:30.380Z",
       "status": "quota",
@@ -2056,39 +2082,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-12T02:00:50.933Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 278,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Gatto Teaser Trailer Gives Us a Very Feline Interrogation",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "75513f3f-gatto-teaser-trailer-gives-us-a-very-feline-interrogation"
-        },
-        {
-          "title": "James Cameron’s Avatar: Fire and Ash Will Soon Be on Disney+",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "b02753f6-james-camerons-avatar-fire-and-ash-will-soon-be-on-disney"
-        },
-        {
-          "title": "House of the Dragon Showrunner Ryan Condal is Sorry, Not Sorry, About Season 2 Ending",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 11,
-          "slug": "4c2f40ea-house-of-the-dragon-showrunner-ryan-condal-is-sorry-not-sorr"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-23T20:01:30.380Z"
+  "lastUpdated": "2026-06-23T21:45:29.523Z"
 }
