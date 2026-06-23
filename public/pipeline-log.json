@@ -1,6 +1,24 @@
 {
-  "totalArticles": 575,
+  "totalArticles": 576,
   "runs": [
+    {
+      "timestamp": "2026-06-23T15:11:35.080Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 53,
+      "written": [
+        {
+          "title": "A John Wayne Movie Inspired A Major Moment In Breaking Bad's Finale",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "3320fd80-a-john-wayne-movie-inspired-a-major-moment-in-breaking-bads-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-23T14:01:23.526Z",
       "status": "quota",
@@ -2090,17 +2108,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-11T20:24:59.196Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 99,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-23T14:01:23.526Z"
+  "lastUpdated": "2026-06-23T15:11:35.080Z"
 }
