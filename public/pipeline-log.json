@@ -2,6 +2,16 @@
   "totalArticles": 578,
   "runs": [
     {
+      "timestamp": "2026-06-23T23:11:31.426Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 285,
+      "totalCandidates": 50,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-23T21:45:29.523Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2042,47 +2052,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-12T04:00:49.049Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 274,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "'The Night Agent's Gabriel Basso Drew Directing Inspiration From a Surprising Source",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "slug": "6ae3df85-the-night-agents-gabriel-basso-drew-directing-inspiration-fr"
-        },
-        {
-          "title": "‘Karn Evil 9’ in Development; Dystopian Sci-Fi Film Based on Emerson, Lake & Palmer Song Sets Isaac Ezban as Director (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "bd5718a5-karn-evil-9-in-development-dystopian-sci-fi-film-based-on-em"
-        },
-        {
-          "title": "‘Tribeca 25,’ Documentary From ‘Valentino: The Last Emperor’ Director Matt Tyrnauer and Tribeca Studios, Will Look at Festival’s History (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "dfb779f2-tribeca-25-documentary-from-valentino-the-last-emperor-direc"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Greatest Sci-Fi Opening Shots of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-23T21:45:29.523Z"
+  "lastUpdated": "2026-06-23T23:11:31.426Z"
 }
