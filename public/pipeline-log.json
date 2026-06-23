@@ -1,6 +1,49 @@
 {
-  "totalArticles": 568,
+  "totalArticles": 571,
   "runs": [
+    {
+      "timestamp": "2026-06-23T07:55:40.109Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 256,
+      "totalCandidates": 80,
+      "written": [
+        {
+          "title": "GTA 6 Fans Spot Tommy Vercetti Easter Egg Over a Year After Trailer 2's Release",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "19cff61d-gta-6-fans-spot-tommy-vercetti-easter-egg-over-a-year-after-"
+        },
+        {
+          "title": "Tom Holland and Zendaya Are Huge Fans of PlayStation's Spider-Man Games, Insomniac Invites Them for Studio Tour",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "840f5c6a-tom-holland-and-zendaya-are-huge-fans-of-playstations-spider"
+        },
+        {
+          "title": "Marvel's Wolverine Actor Confirms Role in GTA 6",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "a37984b9-marvels-wolverine-actor-confirms-role-in-gta-6"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The Last of Us Part 2 Multiplayer Lives On as PvP Mod Due Out Later This Year",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-23T06:00:38.594Z",
       "status": "quota",
@@ -2077,61 +2120,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-11T12:00:55.014Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 265,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "So Far, Only 3 Movies From 2026 Have What It Takes To Become Classics",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "slug": "4d120401-so-far-only-3-movies-from-2026-have-what-it-takes-to-become-"
-        },
-        {
-          "title": "Emily Watson to Serve as Jury President at 32nd Sarajevo Film Festival, and Receive the Honorary Heart of Sarajevo",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "59f64f7b-emily-watson-to-serve-as-jury-president-at-32nd-sarajevo-fil"
-        },
-        {
-          "title": "DR Sales Closes With WDR/Arte, VRT, NRK in Multi Buyers Pact on Norwegian Wildlife Doc ‘Frost Without Snow and Ice’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "eec7b953-dr-sales-closes-with-wdrarte-vrt-nrk-in-multi-buyers-pact-on"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Greatest Horror Video Game Masterpieces of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Disclosure Day Review: Steven Spielberg’s Coda to a Lifetime of Alien Movies",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Critics Left Stunned In First Reactions To Toy Story 5",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-23T06:00:38.594Z"
+  "lastUpdated": "2026-06-23T07:55:40.109Z"
 }
