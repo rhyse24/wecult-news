@@ -2,6 +2,16 @@
   "totalArticles": 588,
   "runs": [
     {
+      "timestamp": "2026-06-24T20:01:19.687Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 294,
+      "totalCandidates": 50,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-24T18:00:17.536Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1896,25 +1906,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-13T02:00:50.253Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "Disclosure Day Should Have Remained Undisclosed",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 18,
-          "slug": "6dfd89cc-disclosure-day-should-have-remained-undisclosed"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-24T18:00:17.536Z"
+  "lastUpdated": "2026-06-24T20:01:19.687Z"
 }
