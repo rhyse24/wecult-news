@@ -1,6 +1,38 @@
 {
-  "totalArticles": 581,
+  "totalArticles": 584,
   "runs": [
+    {
+      "timestamp": "2026-06-24T07:51:18.619Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 280,
+      "totalCandidates": 86,
+      "written": [
+        {
+          "title": "Turok: Origins Brings the Dino Hunter Back from the Dead",
+          "category": "games",
+          "source": "Den of Geek Games",
+          "score": 12,
+          "slug": "d00fc7bb-turok-origins-brings-the-dino-hunter-back-from-the-dead"
+        },
+        {
+          "title": "Pokémon Legends: Z-A Switch 2 Edition Gets Its First Major Price Cut at Amazon",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "8920c349-pokmon-legends-z-a-switch-2-edition-gets-its-first-major-pri"
+        },
+        {
+          "title": "Lorcana Attack of the Vine! TCG Showcases Iconic Disney Team Ups – Exclusive",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "fa3a725e-lorcana-attack-of-the-vine-tcg-showcases-iconic-disney-team-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-24T06:01:20.534Z",
       "status": "quota",
@@ -1914,64 +1946,7 @@
       "totalCandidates": 36,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-12T14:00:51.698Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 264,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "14 Movie Geniuses Who Made Incredibly Dumb Decisions",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 12,
-          "slug": "e6852cb4-14-movie-geniuses-who-made-incredibly-dumb-decisions"
-        },
-        {
-          "title": "Pixar's new Gatto trailer desperately asks if y'all still like cats",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 11,
-          "slug": "ba9d2d42-pixars-new-gatto-trailer-desperately-asks-if-yall-still-like"
-        },
-        {
-          "title": "Alleged Operator of Webtoon Piracy Website Newtoki Extradited From Japan to S. Korea",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 11,
-          "slug": "e5467a39-alleged-operator-of-webtoon-piracy-website-newtoki-extradite"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The 15 Most Boring Movie Titles Ever, if Taken Literally",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 15,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 633 words (max 580)"
-          ]
-        },
-        {
-          "title": "10 Best TV Shows Like Widow's Bay",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘The Uniform,’ From Miso Film and Fremantle, Returns for a Second Season – and Dives Into the Cracks Within the Police Force (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-24T06:01:20.534Z"
+  "lastUpdated": "2026-06-24T07:51:18.619Z"
 }
