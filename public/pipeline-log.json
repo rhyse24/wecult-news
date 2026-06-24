@@ -2,6 +2,16 @@
   "totalArticles": 586,
   "runs": [
     {
+      "timestamp": "2026-06-24T12:01:22.200Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 83,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-24T10:55:18.972Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1928,25 +1938,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-12T18:00:53.984Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 53,
-      "written": [
-        {
-          "title": "Ratings: Dutton Ranch Bows At No. 5, Off Campus At No. 6 Among All Streaming Originals",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "8147c2a0-ratings-dutton-ranch-bows-at-no-5-off-campus-at-no-6-among-a"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-24T10:55:18.972Z"
+  "lastUpdated": "2026-06-24T12:01:22.200Z"
 }
