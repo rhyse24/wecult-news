@@ -1,6 +1,24 @@
 {
-  "totalArticles": 580,
+  "totalArticles": 581,
   "runs": [
+    {
+      "timestamp": "2026-06-24T06:01:20.534Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 281,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "10 Best Depictions of Childhood in Movies",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "0fc7751d-10-best-depictions-of-childhood-in-movies"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-24T03:58:59.990Z",
       "status": "quota",
@@ -1953,47 +1971,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-12T12:00:49.800Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 266,
-      "totalCandidates": 99,
-      "written": [
-        {
-          "title": "Playstack CEO: new owner will keep it separate from its games media brands including GamesSpot and Fandom",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 12,
-          "slug": "784e9a37-playstack-ceo-new-owner-will-keep-it-separate-from-its-games"
-        },
-        {
-          "title": "Fallout: New Vegas Remastered Rumors Are Credible, Says Leaker",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 12,
-          "slug": "1b70a827-fallout-new-vegas-remastered-rumors-are-credible-says-leaker"
-        },
-        {
-          "title": "Final Fantasy 7 Revelation Director Says Gameplay Streams Pose a Huge Challenge to RPGs",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "a1f10cdf-final-fantasy-7-revelation-director-says-gameplay-streams-po"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Assassin's Creed creator Patrice Désilets' new and witchy 1666: Amsterdam demo raises more questions than answers",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-24T03:58:59.990Z"
+  "lastUpdated": "2026-06-24T06:01:20.534Z"
 }
