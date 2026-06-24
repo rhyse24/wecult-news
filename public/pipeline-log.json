@@ -1,6 +1,31 @@
 {
-  "totalArticles": 588,
+  "totalArticles": 590,
   "runs": [
+    {
+      "timestamp": "2026-06-24T22:01:17.843Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 297,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "House Of The Dragon is for the history nerds",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "a09ba091-house-of-the-dragon-is-for-the-history-nerds"
+        },
+        {
+          "title": "Milly Alcock soars through the first good Supergirl movie",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "8d84b487-milly-alcock-soars-through-the-first-good-supergirl-movie"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-24T20:01:19.687Z",
       "status": "quota",
@@ -1873,40 +1898,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-13T02:07:02.438Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 271,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "Only 6 DC Heroes Are More Powerful Than Superman",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "slug": "2bb712b7-only-6-dc-heroes-are-more-powerful-than-superman"
-        },
-        {
-          "title": "‘Lilo & Stitch 2’: Chris Sanders, Who Voices Stitch, Set to Direct Live-Action Sequel",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "60495a53-lilo-stitch-2-chris-sanders-who-voices-stitch-set-to-direct-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "What Taylor Swift’s Big Week With ‘Toy Story 5,’ Steven Spielberg and the New York Knicks Says About Her Next Era",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-24T20:01:19.687Z"
+  "lastUpdated": "2026-06-24T22:01:17.843Z"
 }
