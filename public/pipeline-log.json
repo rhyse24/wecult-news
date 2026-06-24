@@ -1,6 +1,24 @@
 {
-  "totalArticles": 578,
+  "totalArticles": 579,
   "runs": [
+    {
+      "timestamp": "2026-06-24T02:01:16.313Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 286,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "‘Who’s the Boss?’ Star Danny Pintauro Says Being an Amazon Delivery Driver Is ‘One of  Five Jobs’ He Has Now Has Because ‘I Don’t Make Money From Residuals’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "20e4f774-whos-the-boss-star-danny-pintauro-says-being-an-amazon-deliv"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-24T00:01:17.150Z",
       "status": "quota",
@@ -1993,47 +2011,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-12T08:00:48.712Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 271,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Disney+, Dutch Public Broadcaster NPO Team on Local ‘Werewolves’ Adaptation ‘Wolven’",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "slug": "1ce26b24-disney-dutch-public-broadcaster-npo-team-on-local-werewolves"
-        },
-        {
-          "title": "‘Off Campus’ Team Warns Those Harassing Cast and Their Loved Ones “Will Be Removed” From Official Accounts",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "ffb25973-off-campus-team-warns-those-harassing-cast-and-their-loved-o"
-        },
-        {
-          "title": "Casting News: Elisabeth Hasselbeck's New Daytime Gig, Game Of Thrones Vet Joins Peaky Blinders, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "38f7858d-casting-news-elisabeth-hasselbecks-new-daytime-gig-game-of-t"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Best TV Shows Like Widow's Bay",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-24T00:01:17.150Z"
+  "lastUpdated": "2026-06-24T02:01:16.313Z"
 }
