@@ -1,6 +1,35 @@
 {
-  "totalArticles": 579,
+  "totalArticles": 580,
   "runs": [
+    {
+      "timestamp": "2026-06-24T03:58:59.990Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "A New ‘Odyssey’ Audiobook Puts the ‘A.I.’ in ‘Michael Caine’",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 12,
+          "slug": "5bab5a80-a-new-odyssey-audiobook-puts-the-ai-in-michael-caine"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Elizabeth Banks to Play Ms. Frizzle in The Magic School Bus Live-Action Adaptation",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "TR body too short: 215 words (need ≥220)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-24T02:01:16.313Z",
       "status": "quota",
@@ -1964,54 +1993,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-12T09:54:07.140Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 268,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "Steven Spielberg’s Advice for ‘Obsession’ and ‘Backrooms’ Directors: “Don’t Let Success Go to Your Heads”",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "44c78bfe-steven-spielbergs-advice-for-obsession-and-backrooms-directo"
-        },
-        {
-          "title": "The Worst Movie of Each of the Last 6 Years",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "7bda542a-the-worst-movie-of-each-of-the-last-6-years"
-        },
-        {
-          "title": "Charades, Diaphana Board ‘The Little Run,’ Julien Bisaro and Claire Paoletti’s Follow-Up to ‘Shooom’s Odyssey’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "221d31cb-charades-diaphana-board-the-little-run-julien-bisaro-and-cla"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Greatest Sci-Fi Opening Shots of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Steven Spielberg Says James Bond Franchise “Can’t Afford Me” Now After Previously Rejecting Him",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-24T02:01:16.313Z"
+  "lastUpdated": "2026-06-24T03:58:59.990Z"
 }
