@@ -1,6 +1,24 @@
 {
-  "totalArticles": 584,
+  "totalArticles": 585,
   "runs": [
+    {
+      "timestamp": "2026-06-24T10:01:21.181Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "‘I Will Find You’ Nabs 24 Million Views in 4 Days, Netflix’s Biggest New Series Debut of 2026",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "fe9668cf-i-will-find-you-nabs-24-million-views-in-4-days-netflixs-big"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-24T07:51:18.619Z",
       "status": "success",
@@ -1936,17 +1954,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-12T14:29:53.057Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 263,
-      "totalCandidates": 36,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-24T07:51:18.619Z"
+  "lastUpdated": "2026-06-24T10:01:21.181Z"
 }
