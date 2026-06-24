@@ -2,6 +2,16 @@
   "totalArticles": 578,
   "runs": [
     {
+      "timestamp": "2026-06-24T00:01:17.150Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 42,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-23T23:11:31.426Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2023,36 +2033,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-12T06:00:47.094Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 97,
-      "written": [
-        {
-          "title": "Valor Mortis Gets Short Delay to Avoid September's Onslaught of Game Releases",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "641a58b3-valor-mortis-gets-short-delay-to-avoid-septembers-onslaught-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "How to unlock the VX Compact in Black Ops 7 and Warzone",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 17 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-23T23:11:31.426Z"
+  "lastUpdated": "2026-06-24T00:01:17.150Z"
 }
