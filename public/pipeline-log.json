@@ -2,6 +2,16 @@
   "totalArticles": 586,
   "runs": [
     {
+      "timestamp": "2026-06-24T14:01:24.108Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 281,
+      "totalCandidates": 85,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-24T12:01:22.200Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1912,33 +1922,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-12T19:50:13.425Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 89,
-      "written": [
-        {
-          "title": "Call of Duty: Modern Warfare 4 Campaign Early Access Confirmed — Here's How It Works",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "f50cbaea-call-of-duty-modern-warfare-4-campaign-early-access-confirme"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Assassin's Creed Black Flag Resynced: Exclusive Edward and Caroline Cutscene | IGN First",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-24T12:01:22.200Z"
+  "lastUpdated": "2026-06-24T14:01:24.108Z"
 }
