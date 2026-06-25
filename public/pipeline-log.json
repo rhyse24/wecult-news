@@ -2,6 +2,16 @@
   "totalArticles": 597,
   "runs": [
     {
+      "timestamp": "2026-06-25T23:22:26.001Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 295,
+      "totalCandidates": 38,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-25T21:47:43.242Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1807,25 +1817,7 @@
       "totalCandidates": 49,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-20T00:01:02.008Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 262,
-      "totalCandidates": 88,
-      "written": [
-        {
-          "title": "Toy Story 5 is on track to beat the Mario movie for the year’s biggest debut",
-          "category": "games",
-          "source": "Dexerto",
-          "score": 18,
-          "slug": "5167ee59-toy-story-5-is-on-track-to-beat-the-mario-movie-for-the-year"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-25T21:47:43.242Z"
+  "lastUpdated": "2026-06-25T23:22:26.001Z"
 }
