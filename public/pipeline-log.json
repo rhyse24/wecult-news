@@ -1,6 +1,24 @@
 {
-  "totalArticles": 591,
+  "totalArticles": 592,
   "runs": [
+    {
+      "timestamp": "2026-06-25T00:01:20.603Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 288,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "14 Movies That Would End in Ten Minutes With Modern Tech",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 13,
+          "slug": "b9e35c22-14-movies-that-would-end-in-ten-minutes-with-modern-tech"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-24T23:08:38.798Z",
       "status": "quota",
@@ -1891,25 +1909,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-13T06:00:50.717Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 261,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "Cape Fear Delivers A Surprise Cameo From A Star Of The Scorsese Film",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "adeadd97-cape-fear-delivers-a-surprise-cameo-from-a-star-of-the-scors"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-24T23:08:38.798Z"
+  "lastUpdated": "2026-06-25T00:01:20.603Z"
 }
