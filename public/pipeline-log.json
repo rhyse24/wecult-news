@@ -2,6 +2,24 @@
   "totalArticles": 597,
   "runs": [
     {
+      "timestamp": "2026-06-25T18:01:27.682Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 295,
+      "totalCandidates": 37,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Practical Magic 2 Trailer Reveals the Curse Is Still There and the Kids Are in Trouble",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-25T16:01:19.873Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1823,32 +1841,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-19T21:13:06.175Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "Why Sheriff Wade From Dutton Ranch Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "8d321643-why-sheriff-wade-from-dutton-ranch-looks-so-familiar"
-        },
-        {
-          "title": "The Game Of Thrones Episode Fans Rarely Talk About — But Absolutely Should",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "c8424684-the-game-of-thrones-episode-fans-rarely-talk-about-but-absol"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-25T16:01:19.873Z"
+  "lastUpdated": "2026-06-25T18:01:27.682Z"
 }
