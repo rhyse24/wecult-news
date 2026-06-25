@@ -1,6 +1,84 @@
 {
-  "totalArticles": 595,
+  "totalArticles": 597,
   "runs": [
+    {
+      "timestamp": "2026-06-25T07:52:39.954Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 289,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "Casting News: The Boys Star Joins Invincible, Monarch Spin-Off Adds Game Of Thrones Alum, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "11e24298-casting-news-the-boys-star-joins-invincible-monarch-spin-off"
+        },
+        {
+          "title": "Fellini Forever: Italian Global Series Festival Honors Rimini’s Favorite Son",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 7,
+          "slug": "4870d4fb-fellini-forever-italian-global-series-festival-honors-rimini"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Millie Bobby Brown Speaks Out on Knowing Eleven’s Fate and Making Amends With ‘Stranger Things’ Cast After the Show Ended: ‘I’m Sorry If I Ever Upset You’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Asa Butterfield, Jonny Lee Miller and Christine Tremarco Join Beatles Series ‘Hamburg Days’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Batman: Caped Crusader Season 2 Trailer Promises More Deep Cut Villains",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 9,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "15 TV Scenes That Give Us the Chills Every Time We Watch",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 9,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Why ‘Survivor’ Cameos Could Play a Bigger Role in ‘White Lotus’ Season 4",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 8,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Every New Movie and TV Show Coming to Netflix UK in July 2026",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 8,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘The Other Bennet Sister’ Star Ella Bruccoleri on Playing a Regency Wallflower, Mary’s Romance with Tom and a Possible Season 2",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 7,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 15 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-25T06:01:23.144Z",
       "status": "quota",
@@ -1812,61 +1890,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-19T11:00:52.879Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 282,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "Everyone’s a Big Fan of the Spider-Man: Brand New Day Trailer’s Web Tornado",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "slug": "d7b75695-everyones-a-big-fan-of-the-spider-man-brand-new-day-trailers"
-        },
-        {
-          "title": "Pearl River Film Launches Studio With Author Guo Ni, Sets Eight-Franchise Slate",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "86ed15d2-pearl-river-film-launches-studio-with-author-guo-ni-sets-eig"
-        },
-        {
-          "title": "Anne Curtis Leads Mikhail Red’s Manila Paranoia Thriller ‘Remote’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "79507096-anne-curtis-leads-mikhail-reds-manila-paranoia-thriller-remo"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Only 10 Movies from the '90s Are Truly Perfect From Start to Finish",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "Every Clue Sadie Sink Is Jean Grey In Spider-Man: Brand New Day",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Toy Story 5 Ending Explained",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-25T06:01:23.144Z"
+  "lastUpdated": "2026-06-25T07:52:39.954Z"
 }
