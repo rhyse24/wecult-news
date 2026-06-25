@@ -2,6 +2,16 @@
   "totalArticles": 597,
   "runs": [
     {
+      "timestamp": "2026-06-25T16:01:19.873Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 38,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-25T14:40:54.444Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1838,25 +1848,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-19T20:01:05.648Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 47,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Dungeon Crawler Carl TV Series From Seth MacFarlane Ordered At Peacock",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-25T14:40:54.444Z"
+  "lastUpdated": "2026-06-25T16:01:19.873Z"
 }
