@@ -2,6 +2,24 @@
   "totalArticles": 597,
   "runs": [
     {
+      "timestamp": "2026-06-25T14:40:54.444Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 287,
+      "totalCandidates": 36,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Read an Excerpt From The River She Became by Emily Varga",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-25T14:01:25.620Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1838,25 +1856,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-19T18:01:13.042Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "Apple TV’s “Sugar” Reaches for the Stars in Grounded, Moving Second Season",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 15,
-          "slug": "7bff609d-apple-tvs-sugar-reaches-for-the-stars-in-grounded-moving-sec"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-25T14:01:25.620Z"
+  "lastUpdated": "2026-06-25T14:40:54.444Z"
 }
