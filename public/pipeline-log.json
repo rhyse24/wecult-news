@@ -2,6 +2,24 @@
   "totalArticles": 594,
   "runs": [
     {
+      "timestamp": "2026-06-25T03:59:54.349Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 291,
+      "totalCandidates": 33,
+      "written": [],
+      "rejected": [
+        {
+          "title": "8 Hard Sci-Fi Movies That Are Perfect From the First Scene to the Last",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 18,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-25T02:01:32.148Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1862,39 +1880,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-13T08:44:59.464Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 228,
-      "totalCandidates": 73,
-      "written": [
-        {
-          "title": " Even a fantasy game like Skyrim won't let me be a trillionaire ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "09b2cdaf-even-a-fantasy-game-like-skyrim-wont-let-me-be-a-trillionair"
-        },
-        {
-          "title": "Every Persona Game and Spin-Off in Order",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 10,
-          "slug": "69edcb05-every-persona-game-and-spin-off-in-order"
-        },
-        {
-          "title": "Elden Ring Director Insists FromSoftware Is Free to Make the Games It Wants To, Teases 'Unannounced Titles'",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 10,
-          "slug": "1800c052-elden-ring-director-insists-fromsoftware-is-free-to-make-the"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-25T02:01:32.148Z"
+  "lastUpdated": "2026-06-25T03:59:54.349Z"
 }
