@@ -1,6 +1,24 @@
 {
-  "totalArticles": 594,
+  "totalArticles": 595,
   "runs": [
+    {
+      "timestamp": "2026-06-25T06:01:23.144Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 291,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "8 Hard Sci-Fi Movies That Are Perfect From the First Scene to the Last",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 18,
+          "slug": "525ef94f-8-hard-sci-fi-movies-that-are-perfect-from-the-first-scene-t"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-25T03:59:54.349Z",
       "status": "quota",
@@ -1848,39 +1866,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-13T10:00:49.491Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 250,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "The 15 Most Boring Movie Titles Ever, if Taken Literally",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 12,
-          "slug": "d7ae2adb-the-15-most-boring-movie-titles-ever-if-taken-literally"
-        },
-        {
-          "title": "Gene Shalit, Longtime Movie Critic For NBC's Today Show, Dead At 100",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "ad325bcd-gene-shalit-longtime-movie-critic-for-nbcs-today-show-dead-a"
-        },
-        {
-          "title": "Veteran PR Executive Adam Keen Launches Agenda Collective",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "8f31655e-veteran-pr-executive-adam-keen-launches-agenda-collective"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-25T03:59:54.349Z"
+  "lastUpdated": "2026-06-25T06:01:23.144Z"
 }
