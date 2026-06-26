@@ -2,6 +2,16 @@
   "totalArticles": 600,
   "runs": [
     {
+      "timestamp": "2026-06-26T16:20:44.156Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 296,
+      "totalCandidates": 50,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-26T16:01:18.598Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1652,39 +1662,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-20T21:22:00.669Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 230,
-      "totalCandidates": 13,
-      "written": [
-        {
-          "title": "Danny McBride Thinks Men Learned All the Wrong Lessons From Movies",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 10,
-          "slug": "ff3224cd-danny-mcbride-thinks-men-learned-all-the-wrong-lessons-from-"
-        },
-        {
-          "title": "A Father and Daughter Discuss Their Shared Crime Obsessions",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 7,
-          "slug": "22ff5755-a-father-and-daughter-discuss-their-shared-crime-obsessions"
-        },
-        {
-          "title": "5 Great Novels That Read Like Bad Trips, Fever Dreams, or Reality Warps",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 7,
-          "slug": "de5c6296-5-great-novels-that-read-like-bad-trips-fever-dreams-or-real"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-26T16:01:18.598Z"
+  "lastUpdated": "2026-06-26T16:20:44.156Z"
 }
