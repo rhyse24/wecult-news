@@ -1,6 +1,60 @@
 {
-  "totalArticles": 598,
+  "totalArticles": 599,
   "runs": [
+    {
+      "timestamp": "2026-06-26T08:01:19.925Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 293,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Ann Blyth, Who Played Joan Crawford’s Daughter in ‘Mildred Pierce,’ Dies at 98",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "9e730852-ann-blyth-who-played-joan-crawfords-daughter-in-mildred-pier"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Supergirl: How the Canceled Flash Spinoff Brought the Maid of Might to Screen",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "“The Bear” Closes Its Doors With a Trimphant Final Service in Season 5",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Exploring Supergirl’s History as an Unlikely Queer Icon",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Supergirl Review: Milly Alcock Rocks in Uneven Space Western Mashup",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "James Bond Candidate Louis Partridge Says He Never Pictured Himself as 007 But Says It’s ‘Wonderful’ to Be In Contention",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-26T06:01:17.639Z",
       "status": "quota",
@@ -1707,57 +1761,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-20T09:25:03.894Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 265,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "EastEnders cast: Who is joining, leaving and returning to the soap?",
-          "category": "tv",
-          "source": "Radio Times",
-          "score": 8,
-          "slug": "50d1e2ba-eastenders-cast-who-is-joining-leaving-and-returning-to-the-"
-        },
-        {
-          "title": "The Best Shows to Watch After Widow’s Bay",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 8,
-          "slug": "2304bb2c-the-best-shows-to-watch-after-widows-bay"
-        },
-        {
-          "title": "15 Details Movies Got Wrong",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 8,
-          "slug": "1210469a-15-details-movies-got-wrong"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Dutton Ranch Stars React To Beulah's 'Heartbreaking' Announcement In Episode 7: 'This Is The Worst Thing That Could Ever Happen'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "How Tom Morton Brought Detective Müller to Life in Netflix’s ‘I Will Find You’",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 8,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-26T06:01:17.639Z"
+  "lastUpdated": "2026-06-26T08:01:19.925Z"
 }
