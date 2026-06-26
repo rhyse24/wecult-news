@@ -1,6 +1,24 @@
 {
-  "totalArticles": 599,
+  "totalArticles": 600,
   "runs": [
+    {
+      "timestamp": "2026-06-26T09:35:32.960Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 289,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Hopes for GTA 6 Trailer 3 Evaporate as Preorders Go Live Without a New Video From Rockstar",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 17,
+          "slug": "0b4cd8bb-hopes-for-gta-6-trailer-3-evaporate-as-preorders-go-live-wit"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-26T08:01:19.925Z",
       "status": "quota",
@@ -1736,32 +1754,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-20T10:01:04.269Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 261,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "10 Fantasy Books That Will Keep You Hooked From Start to Finish",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "9fde63aa-10-fantasy-books-that-will-keep-you-hooked-from-start-to-fin"
-        },
-        {
-          "title": "George MacKay on Learning to Fish With Callum Turner for Time Travel Movie ‘Rose of Nevada’ and Why He’d Rather Play a Bond Villain: You ‘Get the Best Scenes and Then Get Killed!’",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "63380dc3-george-mackay-on-learning-to-fish-with-callum-turner-for-tim"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-26T08:01:19.925Z"
+  "lastUpdated": "2026-06-26T09:35:32.960Z"
 }
