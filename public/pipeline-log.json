@@ -2,6 +2,16 @@
   "totalArticles": 600,
   "runs": [
     {
+      "timestamp": "2026-06-26T19:56:41.810Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 296,
+      "totalCandidates": 45,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-26T18:01:20.251Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1604,28 +1614,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-21T04:47:57.671Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 220,
-      "totalCandidates": 87,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Stranger Than Heaven Second-Take Preview: Stranger Than Heaven’s Combat Seems Harder Than Hell, and that’s a Good Thing",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-26T18:01:20.251Z"
+  "lastUpdated": "2026-06-26T19:56:41.810Z"
 }
