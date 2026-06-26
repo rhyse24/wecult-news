@@ -1,6 +1,24 @@
 {
-  "totalArticles": 601,
+  "totalArticles": 602,
   "runs": [
+    {
+      "timestamp": "2026-06-26T23:12:05.182Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 293,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "‘It’s Hard to Be Universally Beloved’: Milly Alcock Goes Deep on Her ‘Supergirl’ Journey, From Auditioning to Tuning Out Toxic Fans",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "cdecb947-its-hard-to-be-universally-beloved-milly-alcock-goes-deep-on"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-26T22:01:21.377Z",
       "status": "quota",
@@ -1481,40 +1499,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-21T17:46:36.209Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 180,
-      "totalCandidates": 72,
-      "written": [
-        {
-          "title": " 'I was like, am I gonna pass out on stage?': Final Fantasy 14's rock band on transcending from videogame music to on-stage at the UK's biggest rock and metal festival ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 16,
-          "slug": "8d0ea394-i-was-like-am-i-gonna-pass-out-on-stage-final-fantasy-14s-ro"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "5 best Commanders in MTG Marvel Super Heroes",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 16,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "I really hope these aren’t the real GTA 6 prices",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 13,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-26T22:01:21.377Z"
+  "lastUpdated": "2026-06-26T23:12:05.182Z"
 }
