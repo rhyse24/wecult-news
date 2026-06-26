@@ -1,6 +1,24 @@
 {
-  "totalArticles": 600,
+  "totalArticles": 601,
   "runs": [
+    {
+      "timestamp": "2026-06-26T20:01:19.831Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 297,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "TVLine Asks: Is House Of The Dragon Still Too Dark? Did The Bear Make You Crave A McGriddle? Who's Asking For An Aquamarine Series? And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "f8364e42-tvline-asks-is-house-of-the-dragon-still-too-dark-did-the-be"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-26T19:56:41.810Z",
       "status": "quota",
@@ -1582,39 +1600,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-21T09:56:40.136Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 218,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": " 5 promising games recently cancelled by Microsoft ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 12,
-          "slug": "0d1d8511-5-promising-games-recently-cancelled-by-microsoft"
-        },
-        {
-          "title": "Stranger Than Heaven Second-Take Preview: Stranger Than Heaven’s Combat Seems Harder Than Hell, and that’s a Good Thing",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "9be8a32f-stranger-than-heaven-second-take-preview-stranger-than-heave"
-        },
-        {
-          "title": "CD Projekt Red Co-CEO Hopes Witcher 4 Wins Back Players After 'Heartbreaking' Cyberpunk 2077 Launch",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "ca20b175-cd-projekt-red-co-ceo-hopes-witcher-4-wins-back-players-afte"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-26T19:56:41.810Z"
+  "lastUpdated": "2026-06-26T20:01:19.831Z"
 }
