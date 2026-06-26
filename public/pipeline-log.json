@@ -1,6 +1,24 @@
 {
-  "totalArticles": 597,
+  "totalArticles": 598,
   "runs": [
+    {
+      "timestamp": "2026-06-26T02:01:19.168Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 295,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Back to the Future Co-Writer Says Jeff Goldblum Nearly Played Doc Brown",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "05f11b97-back-to-the-future-co-writer-says-jeff-goldblum-nearly-playe"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-26T00:01:20.461Z",
       "status": "quota",
@@ -1781,43 +1799,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-20T04:01:03.593Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "‘Obsession,’ ‘The Pitt’ and ‘Hacks’ Breakout Stars Get Real About Navigating Industry Expectations and AI: ‘We Are So Hungry for Something New’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 17,
-          "slug": "69e05e89-obsession-the-pitt-and-hacks-breakout-stars-get-real-about-n"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Dutton Ranch Stars React To Beulah's 'Heartbreaking' Announcement In Episode 7: 'This Is The Worst Thing That Could Ever Happen'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "How Tom Morton Brought Detective Müller to Life in Netflix’s ‘I Will Find You’",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-26T00:01:20.461Z"
+  "lastUpdated": "2026-06-26T02:01:19.168Z"
 }
