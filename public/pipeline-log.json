@@ -2,6 +2,16 @@
   "totalArticles": 600,
   "runs": [
     {
+      "timestamp": "2026-06-26T14:01:19.220Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 294,
+      "totalCandidates": 52,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-26T12:14:46.283Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1697,25 +1707,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-20T17:38:56.058Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 234,
-      "totalCandidates": 44,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Why Rob-Will Jackson From From Dutton Ranch Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-26T12:14:46.283Z"
+  "lastUpdated": "2026-06-26T14:01:19.220Z"
 }
