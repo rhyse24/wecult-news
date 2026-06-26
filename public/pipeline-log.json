@@ -2,6 +2,16 @@
   "totalArticles": 600,
   "runs": [
     {
+      "timestamp": "2026-06-26T10:01:19.523Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 287,
+      "totalCandidates": 52,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-26T09:35:32.960Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1728,33 +1738,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-20T12:00:25.501Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 245,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "‘Game of Thrones’ Star Aidan Gillen on Golden Age of ‘F—ing Brilliant’ British Drama and Why There’s ‘Too Much’ Stuff on TV",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "cc0113af-game-of-thrones-star-aidan-gillen-on-golden-age-of-fing-bril"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Dutton Ranch Stars React To Beulah's 'Heartbreaking' Announcement In Episode 7: 'This Is The Worst Thing That Could Ever Happen'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-26T09:35:32.960Z"
+  "lastUpdated": "2026-06-26T10:01:19.523Z"
 }
