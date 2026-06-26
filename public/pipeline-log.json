@@ -2,6 +2,16 @@
   "totalArticles": 600,
   "runs": [
     {
+      "timestamp": "2026-06-26T18:01:20.251Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 297,
+      "totalCandidates": 44,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-26T16:20:44.156Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1615,54 +1625,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-20T23:13:05.054Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 226,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "10 Best Space Opera Movies Released Since the Original 'Star Wars'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "7e5e35c2-10-best-space-opera-movies-released-since-the-original-star-"
-        },
-        {
-          "title": "6 Greatest Forgotten '70s Cult Classic Movies",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "0caea81a-6-greatest-forgotten-70s-cult-classic-movies"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Coolest James Bond Gadgets of All Time ",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "From ‘Toy Story 5’ to Nancy Meyers, Tony Hale Is Just Happy to Be Here",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Toy Story 5’ Headed to $160M for Biggest Opening of 2026",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-26T16:20:44.156Z"
+  "lastUpdated": "2026-06-26T18:01:20.251Z"
 }
