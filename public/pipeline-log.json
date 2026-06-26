@@ -2,6 +2,16 @@
   "totalArticles": 601,
   "runs": [
     {
+      "timestamp": "2026-06-26T21:25:01.547Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 296,
+      "totalCandidates": 42,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-26T20:01:19.831Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1547,60 +1557,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-21T12:15:00.088Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 204,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "Universal wasting no time throwing more money and movies at Obsession's Curry Barker",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 14,
-          "slug": "6ac51090-universal-wasting-no-time-throwing-more-money-and-movies-at-"
-        },
-        {
-          "title": "Kevin Canceled At Prime Video — No Season 2 For Animated Series From Aubrey Plaza And Joe Wengert",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "6a9a380e-kevin-canceled-at-prime-video-no-season-2-for-animated-serie"
-        },
-        {
-          "title": "Pandora Hearts Manga Gets New Stage Musical",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 9,
-          "slug": "26933c6c-pandora-hearts-manga-gets-new-stage-musical"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "What To Watch Sunday: The Agency And House Of The Dragon Return, The Way Home Ends, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        },
-        {
-          "title": "Well, of course George Lucas loves the goddamn Minions",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-26T20:01:19.831Z"
+  "lastUpdated": "2026-06-26T21:25:01.547Z"
 }
