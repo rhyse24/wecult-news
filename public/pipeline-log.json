@@ -2,6 +2,24 @@
   "totalArticles": 600,
   "runs": [
     {
+      "timestamp": "2026-06-26T12:14:46.283Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 288,
+      "totalCandidates": 47,
+      "written": [],
+      "rejected": [
+        {
+          "title": "‘Avatar: The Last Airbender’ Season 2 Composer Teases Toph’s Theme and ‘Six Hours’ of New Music",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 20,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-26T12:01:21.014Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1697,40 +1715,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-20T15:47:01.526Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 237,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "Box Office: ‘Toy Story 5’ Soars to $71 Million on Opening Day",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "c2f97291-box-office-toy-story-5-soars-to-71-million-on-opening-day"
-        },
-        {
-          "title": "10 Most Universally Beloved Video Games of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "slug": "371d0ab5-10-most-universally-beloved-video-games-of-all-time"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "From ‘Toy Story 5’ to Nancy Meyers, Tony Hale Is Just Happy to Be Here",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-26T12:01:21.014Z"
+  "lastUpdated": "2026-06-26T12:14:46.283Z"
 }
