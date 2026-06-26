@@ -2,6 +2,24 @@
   "totalArticles": 598,
   "runs": [
     {
+      "timestamp": "2026-06-26T04:01:19.562Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 292,
+      "totalCandidates": 36,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Ann Blyth, Who Played Joan Crawford’s Daughter in ‘Mildred Pierce,’ Dies at 98",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-26T02:01:19.168Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1781,25 +1799,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-20T06:01:03.862Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "‘Toy Story 5’ Cast Guide: All the Celebrities Voicing Toys, From Conan O’Brien to Bad Bunny",
-          "category": "film",
-          "source": "Variety",
-          "score": 15,
-          "slug": "5aa59abb-toy-story-5-cast-guide-all-the-celebrities-voicing-toys-from"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-26T02:01:19.168Z"
+  "lastUpdated": "2026-06-26T04:01:19.562Z"
 }
