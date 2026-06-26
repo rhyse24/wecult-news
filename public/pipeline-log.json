@@ -2,6 +2,16 @@
   "totalArticles": 600,
   "runs": [
     {
+      "timestamp": "2026-06-26T16:01:18.598Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 296,
+      "totalCandidates": 50,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-26T14:01:19.220Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1674,40 +1684,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-20T19:43:26.511Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 230,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "Breaking Bad's Creative Team Had Several Ending Ideas That Didn't Kill Off Walter White",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "a84a2337-breaking-bads-creative-team-had-several-ending-ideas-that-di"
-        },
-        {
-          "title": "‘Oasis’ Season 1 Ending Explained: Who Kidnapped Celia and Will There Be a Season 2?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "slug": "703a1e4a-oasis-season-1-ending-explained-who-kidnapped-celia-and-will"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Why Rob-Will Jackson From From Dutton Ranch Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-26T14:01:19.220Z"
+  "lastUpdated": "2026-06-26T16:01:18.598Z"
 }
