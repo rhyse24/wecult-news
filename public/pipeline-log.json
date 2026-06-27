@@ -1,6 +1,24 @@
 {
-  "totalArticles": 602,
+  "totalArticles": 603,
   "runs": [
+    {
+      "timestamp": "2026-06-27T00:01:27.930Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 93,
+      "written": [
+        {
+          "title": "Apex Legends solo queue launches June 30: Will you be playing?",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 13,
+          "slug": "91a641a0-apex-legends-solo-queue-launches-june-30-will-you-be-playing"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-26T23:12:05.182Z",
       "status": "quota",
@@ -1445,61 +1463,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-21T19:50:02.604Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 180,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "‘Criminal Minds’ Star Paget Brewster Tells TV Journalist to ‘Work at a Shelter’ After Mixed Review, Sparking Outrage From Other Critics",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "62425ed2-criminal-minds-star-paget-brewster-tells-tv-journalist-to-wo"
-        },
-        {
-          "title": "Aardman Teases New Pokemon, ‘Timmy’ Series, ‘The (Almost) Untold Story of Danger Delilah,’ Aardman Academy and Looks Back at 50 Years of Clay Animation at Annecy",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "a2aba3b2-aardman-teases-new-pokemon-timmy-series-the-almost-untold-st"
-        },
-        {
-          "title": "Quotes Of The Week: Widow's Bay, Not Suitable For Work, Brilliant Minds, The Vampire Lestat, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "3fefdb83-quotes-of-the-week-widows-bay-not-suitable-for-work-brillian"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jeremy Clarkson Reveals He Is In Remission From Prostate Cancer, Confirms Clarkson's Farm Season 6 Is Underway",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "15 Best TV Shows Like Brooklyn Nine-Nine",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Why Michael Peña's Jack Ryan Spin-Off Series Was Canceled By Prime Video",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-26T23:12:05.182Z"
+  "lastUpdated": "2026-06-27T00:01:27.930Z"
 }
