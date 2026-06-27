@@ -2,6 +2,16 @@
   "totalArticles": 614,
   "runs": [
     {
+      "timestamp": "2026-06-27T15:19:24.505Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 260,
+      "totalCandidates": 40,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-27T13:52:14.799Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1441,25 +1451,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-23T00:00:40.625Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 253,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "Out of the Mouths of Cutlery: Tony Hale on “Toy Story 5”",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 15,
-          "slug": "8aab4270-out-of-the-mouths-of-cutlery-tony-hale-on-toy-story-5"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-27T13:52:14.799Z"
+  "lastUpdated": "2026-06-27T15:19:24.505Z"
 }
