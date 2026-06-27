@@ -2,6 +2,24 @@
   "totalArticles": 606,
   "runs": [
     {
+      "timestamp": "2026-06-27T06:56:37.054Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 287,
+      "totalCandidates": 43,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Was ‘The Bear’ Series Finale a Delicious Dessert or an Unnecessary Add-On?",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-27T06:01:17.263Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1387,61 +1405,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-22T12:00:46.307Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 224,
-      "totalCandidates": 23,
-      "written": [
-        {
-          "title": "Quentin Tarantino, Kylie Minogue to Star in New Jamie Adams Film From Visor Entertainment (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "slug": "3d98241e-quentin-tarantino-kylie-minogue-to-star-in-new-jamie-adams-f"
-        },
-        {
-          "title": "House Of The Dragon Season 3's Weird Opening Has A Surprising Explanation",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "slug": "ead52334-house-of-the-dragon-season-3s-weird-opening-has-a-surprising"
-        },
-        {
-          "title": "6 Worst '90s Family Movies That Are Truly 0/10",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "63bff23a-6-worst-90s-family-movies-that-are-truly-010"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Korea Box Office: ‘Toy Story 5’ Secures Top Spot to End ‘Colony’ Reign",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Best A24 Movies Streaming on HBO Max",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Toy Story 5’ Lands Top Domestic Opening of Year with $160M, Hits $312M Globally",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-27T06:01:17.263Z"
+  "lastUpdated": "2026-06-27T06:56:37.054Z"
 }
