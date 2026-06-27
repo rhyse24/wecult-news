@@ -1,6 +1,24 @@
 {
-  "totalArticles": 615,
+  "totalArticles": 616,
   "runs": [
+    {
+      "timestamp": "2026-06-27T19:27:17.129Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 256,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "Supergirl Should Be Ashamed of Itself",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "slug": "f128e822-supergirl-should-be-ashamed-of-itself"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-27T18:01:22.839Z",
       "status": "quota",
@@ -1384,50 +1402,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-23T07:55:40.109Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 256,
-      "totalCandidates": 80,
-      "written": [
-        {
-          "title": "GTA 6 Fans Spot Tommy Vercetti Easter Egg Over a Year After Trailer 2's Release",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "19cff61d-gta-6-fans-spot-tommy-vercetti-easter-egg-over-a-year-after-"
-        },
-        {
-          "title": "Tom Holland and Zendaya Are Huge Fans of PlayStation's Spider-Man Games, Insomniac Invites Them for Studio Tour",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "840f5c6a-tom-holland-and-zendaya-are-huge-fans-of-playstations-spider"
-        },
-        {
-          "title": "Marvel's Wolverine Actor Confirms Role in GTA 6",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "a37984b9-marvels-wolverine-actor-confirms-role-in-gta-6"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The Last of Us Part 2 Multiplayer Lives On as PvP Mod Due Out Later This Year",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-27T18:01:22.839Z"
+  "lastUpdated": "2026-06-27T19:27:17.129Z"
 }
