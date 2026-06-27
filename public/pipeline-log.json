@@ -1,6 +1,39 @@
 {
-  "totalArticles": 603,
+  "totalArticles": 605,
   "runs": [
+    {
+      "timestamp": "2026-06-27T02:01:17.448Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 290,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "‘The Bear’ Stars Jeremy Allen White and Ayo Edebiri Break Down Carmy’s ‘Ego Death’ and Passing the Torch to Sydney: ‘It’s a Heartbreaking Moment’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "slug": "fee8ea4e-the-bear-stars-jeremy-allen-white-and-ayo-edebiri-break-down"
+        },
+        {
+          "title": "Avatar: The Last Airbender EP Was Surprised That One Major Season 2 Change Was Approved: 'I Thought It Was Too Much'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "684bab36-avatar-the-last-airbender-ep-was-surprised-that-one-major-se"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Was ‘The Bear’ Series Finale a Delicious Dessert or an Unnecessary Add-On?",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-27T00:01:27.930Z",
       "status": "quota",
@@ -1423,47 +1456,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-21T21:19:35.440Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 179,
-      "totalCandidates": 12,
-      "written": [
-        {
-          "title": "10 Movies To Watch if You Love 'Obsession'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "slug": "5881c637-10-movies-to-watch-if-you-love-obsession"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "8 Forgotten Time Travel Movies That Are Perfect From Start to Finish",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 18,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Box Office: ‘Toy Story 5’ Ignites to Series-Best $312 Million Globally, ‘Obsession’ and ‘Backrooms’ Surpass $300 Million Milestone",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Best Bounty Hunters in Star Wars",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-27T00:01:27.930Z"
+  "lastUpdated": "2026-06-27T02:01:17.448Z"
 }
