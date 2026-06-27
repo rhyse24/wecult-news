@@ -2,6 +2,16 @@
   "totalArticles": 617,
   "runs": [
     {
+      "timestamp": "2026-06-27T23:07:23.391Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 250,
+      "totalCandidates": 90,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-27T22:01:21.894Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1357,25 +1367,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-23T14:01:23.526Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 271,
-      "totalCandidates": 52,
-      "written": [],
-      "rejected": [
-        {
-          "title": "‘House of the Dragon’ Star Olivia Cooke Reveals ‘Really Bad’ Audition for Rey in ‘Star Wars: The Force Awakens’: ‘I Was S—’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 19,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-27T22:01:21.894Z"
+  "lastUpdated": "2026-06-27T23:07:23.391Z"
 }
