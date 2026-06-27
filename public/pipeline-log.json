@@ -1,6 +1,39 @@
 {
-  "totalArticles": 609,
+  "totalArticles": 611,
   "runs": [
+    {
+      "timestamp": "2026-06-27T10:01:25.775Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": "\"Once Darth Vader came for you, you were just going to die\": We could have had an MMO about Jedi refugees hiding from the Empire, if Star Wars Galaxies had gone differently",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 12,
+          "slug": "4cd43a19-once-darth-vader-came-for-you-you-were-just-going-to-die-we-"
+        },
+        {
+          "title": "Grab Your Friends: The Adventure Time Boxed Set Is $33 For Prime Day",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 11,
+          "slug": "f352ec07-grab-your-friends-the-adventure-time-boxed-set-is-33-for-pri"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Assassin's Creed Black Flag Resynced: 8-Minute Gameplay Tour of Havana | IGN First",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-27T08:01:19.040Z",
       "status": "success",
@@ -1423,25 +1456,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-22T16:00:52.689Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 237,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Why Zachariah Moss From Dutton Ranch Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "605a094b-why-zachariah-moss-from-dutton-ranch-looks-so-familiar"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-27T08:01:19.040Z"
+  "lastUpdated": "2026-06-27T10:01:25.775Z"
 }
