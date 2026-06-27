@@ -2,6 +2,16 @@
   "totalArticles": 615,
   "runs": [
     {
+      "timestamp": "2026-06-27T18:01:22.839Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 250,
+      "totalCandidates": 20,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-27T17:16:04.091Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1417,33 +1427,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-23T06:00:38.594Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 256,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Courtney Grace, “Disclosure Day,” and the One-Scene Wonder",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 11,
-          "slug": "dd703c85-courtney-grace-disclosure-day-and-the-one-scene-wonder"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Toy Story 5 Box Office Suggests Sequel Scarcity Is Still a Good Thing",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 14,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-27T17:16:04.091Z"
+  "lastUpdated": "2026-06-27T18:01:22.839Z"
 }
