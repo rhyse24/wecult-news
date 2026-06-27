@@ -1,6 +1,24 @@
 {
-  "totalArticles": 605,
+  "totalArticles": 606,
   "runs": [
+    {
+      "timestamp": "2026-06-27T03:52:48.078Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 288,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "New to Streaming: Blue Heron, I Love Boosters, Tuner, The Sheep Detectives & More",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 14,
+          "slug": "f70e4925-new-to-streaming-blue-heron-i-love-boosters-tuner-the-sheep-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-27T02:01:17.448Z",
       "status": "quota",
@@ -1430,33 +1448,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-21T23:20:04.884Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 178,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "The Agency returns with a taut study in the personal cost of spydom",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 14,
-          "slug": "79c6486c-the-agency-returns-with-a-taut-study-in-the-personal-cost-of"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Christopher Meloni Starred In A Violent, Offbeat Series From The Boys' Co-Creator",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-27T02:01:17.448Z"
+  "lastUpdated": "2026-06-27T03:52:48.078Z"
 }
