@@ -2,6 +2,16 @@
   "totalArticles": 616,
   "runs": [
     {
+      "timestamp": "2026-06-27T20:01:18.870Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 254,
+      "totalCandidates": 29,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-27T19:27:17.129Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1362,47 +1372,7 @@
       "totalCandidates": 29,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-23T10:00:43.942Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 257,
-      "totalCandidates": 53,
-      "written": [
-        {
-          "title": "House Of The Dragon's Olivia Cooke And Ewan Mitchell Are As Grossed-Out By That Premiere Kiss As You Are",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "544b7661-house-of-the-dragons-olivia-cooke-and-ewan-mitchell-are-as-g"
-        },
-        {
-          "title": "‘House of the Dragon’: Harry Collett Sends Emotional Message to Jace Fans",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 12,
-          "slug": "4b7b362c-house-of-the-dragon-harry-collett-sends-emotional-message-to"
-        },
-        {
-          "title": "Disney claims the biggest box office opening of 2026 so far with Toy Story 5",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "4e94f3dc-disney-claims-the-biggest-box-office-opening-of-2026-so-far-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Why Beulah Jackson From Dutton Ranch Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-27T19:27:17.129Z"
+  "lastUpdated": "2026-06-27T20:01:18.870Z"
 }
