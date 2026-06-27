@@ -2,6 +2,27 @@
   "totalArticles": 617,
   "runs": [
     {
+      "timestamp": "2026-06-27T22:01:21.894Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 250,
+      "totalCandidates": 90,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Garfield: Escape From Monday Is My Grand Theft Auto 6",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-27T21:09:55.856Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1354,33 +1375,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-23T12:00:37.674Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 259,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "Toy Story 5 Box Office Suggests Sequel Scarcity Is Still a Good Thing",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "slug": "9887eda4-toy-story-5-box-office-suggests-sequel-scarcity-is-still-a-g"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The House Of The Dragon Season 3 Premiere's Most Disturbing Moment Is Not In The Book At All",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-27T21:09:55.856Z"
+  "lastUpdated": "2026-06-27T22:01:21.894Z"
 }
