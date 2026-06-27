@@ -1,6 +1,38 @@
 {
-  "totalArticles": 611,
+  "totalArticles": 614,
   "runs": [
+    {
+      "timestamp": "2026-06-27T12:01:19.562Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "‘Pinocchio Unstrung’ Sees Wooden Doll Covered in Flesh and Blood as Director Rhys Frake-Waterfield Teases ‘Kooky, Crazy and Fun’ ‘Avengers’-Style ‘Poohniverse: Monsters Assemble’",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "dc481735-pinocchio-unstrung-sees-wooden-doll-covered-in-flesh-and-blo"
+        },
+        {
+          "title": "Supergirl’s Shocking Ending Changes the Book, the Character, and Works",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "slug": "d83aa72d-supergirls-shocking-ending-changes-the-book-the-character-an"
+        },
+        {
+          "title": "“The Bear” Closes Its Doors With a Trimphant Final Service in Season 5",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 11,
+          "slug": "9371fe94-the-bear-closes-its-doors-with-a-trimphant-final-service-in-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-27T10:01:25.775Z",
       "status": "quota",
@@ -1438,25 +1470,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-22T18:00:46.517Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 244,
-      "totalCandidates": 28,
-      "written": [],
-      "rejected": [
-        {
-          "title": "House of the Dragon Roars Back to Life in Its Season 3 Premiere",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 18,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-27T10:01:25.775Z"
+  "lastUpdated": "2026-06-27T12:01:19.562Z"
 }
