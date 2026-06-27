@@ -1,6 +1,67 @@
 {
-  "totalArticles": 606,
+  "totalArticles": 609,
   "runs": [
+    {
+      "timestamp": "2026-06-27T08:01:19.040Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 287,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "‘1923’ Star Darren Mann Signs With Paradigm (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 13,
+          "slug": "3ca423fb-1923-star-darren-mann-signs-with-paradigm-exclusive"
+        },
+        {
+          "title": "Dutton Ranch Star Explains The Phone Call That Will 'Change Everyone's Life' In Episode 8: 'It's Like Pressing A Nuke'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "adced1b9-dutton-ranch-star-explains-the-phone-call-that-will-change-e"
+        },
+        {
+          "title": "How One Of NBC's Most Infamous Flops Became Part Of The Marvel Universe",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "88dc966d-how-one-of-nbcs-most-infamous-flops-became-part-of-the-marve"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Was ‘The Bear’ Series Finale a Delicious Dessert or an Unnecessary Add-On?",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Millie Bobby Brown And David Harbour To Headline Netflix Spy Series In Stranger Things Reunion",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "What’s New on Netflix UK This Week: ‘Avatar’ Season 2 and John Cena’s ‘Little Brother’",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "10 Best TV Road Trip Episodes Of All Time",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-27T06:56:37.054Z",
       "status": "quota",
@@ -1380,32 +1441,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-22T14:00:44.118Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 231,
-      "totalCandidates": 49,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Why Zachariah Moss From Dutton Ranch Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "‘House of the Dragon’ Season 3 Premiere Casualty Speaks Out: “Such a Cool Way to Go”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-27T06:56:37.054Z"
+  "lastUpdated": "2026-06-27T08:01:19.040Z"
 }
