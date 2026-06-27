@@ -2,6 +2,24 @@
   "totalArticles": 614,
   "runs": [
     {
+      "timestamp": "2026-06-27T13:52:14.799Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 268,
+      "totalCandidates": 41,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Was ‘The Bear’ Series Finale a Delicious Dessert or an Unnecessary Add-On?",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-27T12:01:19.562Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1441,36 +1459,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-22T22:00:37.799Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 262,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "Keanu Reeves in Talks to Star in Lego Live-Action Hybrid Movie",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "a630caf7-keanu-reeves-in-talks-to-star-in-lego-live-action-hybrid-mov"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Peter Sarsgaard Joins The Last of Us Season 3 as Cancellation Rumors Are Debunked",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-27T12:01:19.562Z"
+  "lastUpdated": "2026-06-27T13:52:14.799Z"
 }
