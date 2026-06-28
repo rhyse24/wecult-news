@@ -1,6 +1,53 @@
 {
-  "totalArticles": 625,
+  "totalArticles": 628,
   "runs": [
+    {
+      "timestamp": "2026-06-28T09:17:23.688Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 225,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "Avatar: The Last Airbender could've taken over the world, but it got taken over instead",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 11,
+          "slug": "e08f21f8-avatar-the-last-airbender-couldve-taken-over-the-world-but-i"
+        },
+        {
+          "title": "Every Year After Renewed For Season 2 At Prime Video",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "1bb803d1-every-year-after-renewed-for-season-2-at-prime-video"
+        },
+        {
+          "title": "‘Stranger Things’ Stars Millie Bobby Brown, David Harbour Reunite for Netflix Spy Drama",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 9,
+          "slug": "1c0cfcd0-stranger-things-stars-millie-bobby-brown-david-harbour-reuni"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The Obsession Actor Everyone Missed In Dutton Ranch",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "What’s New on Netflix UK This Week: ‘Avatar’ Season 2 and John Cena’s ‘Little Brother’",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 11,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-28T08:01:19.077Z",
       "status": "success",
@@ -1423,17 +1470,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-24T00:01:17.150Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 42,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-28T08:01:19.077Z"
+  "lastUpdated": "2026-06-28T09:17:23.688Z"
 }
