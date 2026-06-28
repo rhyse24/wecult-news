@@ -1,6 +1,46 @@
 {
-  "totalArticles": 630,
+  "totalArticles": 632,
   "runs": [
+    {
+      "timestamp": "2026-06-28T11:49:07.682Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 210,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "The Obsession Actor Everyone Missed In Dutton Ranch",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "0e4c6c77-the-obsession-actor-everyone-missed-in-dutton-ranch"
+        },
+        {
+          "title": "Marvel promises third season of X-Men '97 will go a lot smoother than the second",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "slug": "3b6e0af9-marvel-promises-third-season-of-x-men-97-will-go-a-lot-smoot"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Every Year After’ Renewed for Season 2 at Amazon; Will Focus on Charlie’s Story From ‘One Golden Summer’ Sequel Book",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Blazblue: CentralFiction Fighting Game Reveals New DLC Character Trinity Glassfille",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 8,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-28T10:01:23.389Z",
       "status": "quota",
@@ -1456,36 +1496,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-24T03:58:59.990Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "A New ‘Odyssey’ Audiobook Puts the ‘A.I.’ in ‘Michael Caine’",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 12,
-          "slug": "5bab5a80-a-new-odyssey-audiobook-puts-the-ai-in-michael-caine"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Elizabeth Banks to Play Ms. Frizzle in The Magic School Bus Live-Action Adaptation",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "TR body too short: 215 words (need ≥220)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-28T10:01:23.389Z"
+  "lastUpdated": "2026-06-28T11:49:07.682Z"
 }
