@@ -1,6 +1,32 @@
 {
-  "totalArticles": 634,
+  "totalArticles": 635,
   "runs": [
+    {
+      "timestamp": "2026-06-28T19:27:43.004Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 182,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Quotes Of The Week: The Bear, Avatar, House Of The Dragon, All American Special, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "72f2e8fa-quotes-of-the-week-the-bear-avatar-house-of-the-dragon-all-a"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Every Year After’ Renewed for Season 2 at Amazon; Will Focus on Charlie’s Story From ‘One Golden Summer’ Sequel Book",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-28T18:01:09.617Z",
       "status": "quota",
@@ -1490,17 +1516,7 @@
       "totalCandidates": 83,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-24T14:01:24.108Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 85,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-28T18:01:09.617Z"
+  "lastUpdated": "2026-06-28T19:27:43.004Z"
 }
