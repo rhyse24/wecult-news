@@ -1,6 +1,24 @@
 {
-  "totalArticles": 617,
+  "totalArticles": 618,
   "runs": [
+    {
+      "timestamp": "2026-06-28T00:01:16.870Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 243,
+      "totalCandidates": 89,
+      "written": [
+        {
+          "title": "GTA 6 Scalpers Are Finding Buyers on eBay Despite Rockstar's Commitment to a Digital Release",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "90b518a2-gta-6-scalpers-are-finding-buyers-on-ebay-despite-rockstars-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-27T23:07:23.391Z",
       "status": "quota",
@@ -1349,25 +1367,7 @@
       "totalCandidates": 88,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-23T15:11:35.080Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 279,
-      "totalCandidates": 53,
-      "written": [
-        {
-          "title": "A John Wayne Movie Inspired A Major Moment In Breaking Bad's Finale",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "3320fd80-a-john-wayne-movie-inspired-a-major-moment-in-breaking-bads-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-27T23:07:23.391Z"
+  "lastUpdated": "2026-06-28T00:01:16.870Z"
 }
