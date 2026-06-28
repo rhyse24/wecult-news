@@ -1,6 +1,46 @@
 {
-  "totalArticles": 622,
+  "totalArticles": 625,
   "runs": [
+    {
+      "timestamp": "2026-06-28T08:01:19.077Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 242,
+      "totalCandidates": 80,
+      "written": [
+        {
+          "title": "No, There Is No GTA 6 Physical Disc Coming Out at Launch or the Months After — Those Reports and Social Media Posts Are Incorrect",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "slug": "546b0a04-no-there-is-no-gta-6-physical-disc-coming-out-at-launch-or-t"
+        },
+        {
+          "title": "The Invincible VS Devs Would Love a Mortal Kombat Crossover",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 9,
+          "slug": "a1fb1021-the-invincible-vs-devs-would-love-a-mortal-kombat-crossover"
+        },
+        {
+          "title": "Street Fighter 6 Devs Have No Current Plans to Make Any Major Adjustments to System Mechanics | Evo 2026",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 9,
+          "slug": "d6dbf878-street-fighter-6-devs-have-no-current-plans-to-make-any-majo"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Garfield: Escape From Monday Is My Grand Theft Auto 6",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 12,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-28T06:01:17.350Z",
       "status": "success",
@@ -1393,17 +1433,7 @@
       "totalCandidates": 42,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-23T23:11:31.426Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 285,
-      "totalCandidates": 50,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-28T06:01:17.350Z"
+  "lastUpdated": "2026-06-28T08:01:19.077Z"
 }
