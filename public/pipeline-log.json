@@ -1,6 +1,39 @@
 {
-  "totalArticles": 628,
+  "totalArticles": 630,
   "runs": [
+    {
+      "timestamp": "2026-06-28T10:01:23.389Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 219,
+      "totalCandidates": 22,
+      "written": [
+        {
+          "title": "Elon Musk Posts Armie Hammer’s Controversial Comeback Film ‘Citizen Vigilante’ on X",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "slug": "b97667df-elon-musk-posts-armie-hammers-controversial-comeback-film-ci"
+        },
+        {
+          "title": "At Just 27, George Lucas Directed The Sci-Fi Movie That Paved The Way For Star Wars",
+          "category": "film",
+          "source": "Looper",
+          "score": 8,
+          "slug": "aef3ceef-at-just-27-george-lucas-directed-the-sci-fi-movie-that-paved"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Only 3 Werewolf Movies Are Truly Great",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-28T09:17:23.688Z",
       "status": "success",
@@ -1452,25 +1485,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-24T02:01:16.313Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 286,
-      "totalCandidates": 50,
-      "written": [
-        {
-          "title": "‘Who’s the Boss?’ Star Danny Pintauro Says Being an Amazon Delivery Driver Is ‘One of  Five Jobs’ He Has Now Has Because ‘I Don’t Make Money From Residuals’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "20e4f774-whos-the-boss-star-danny-pintauro-says-being-an-amazon-deliv"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-28T09:17:23.688Z"
+  "lastUpdated": "2026-06-28T10:01:23.389Z"
 }
