@@ -1,6 +1,46 @@
 {
-  "totalArticles": 636,
+  "totalArticles": 639,
   "runs": [
+    {
+      "timestamp": "2026-06-28T22:01:12.556Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 178,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "Oscar Contenders From First Half of 2026: ‘The Invite,’ ‘Project Hail Mary,’ Taylor Swift and Yes, Even ‘Michael’",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "09c4c124-oscar-contenders-from-first-half-of-2026-the-invite-project-"
+        },
+        {
+          "title": "10 Scariest Mystery Movies of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "31998d74-10-scariest-mystery-movies-of-all-time"
+        },
+        {
+          "title": "45 Years Later, This Is Still the Greatest Adventure Movie of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "48d607c8-45-years-later-this-is-still-the-greatest-adventure-movie-of"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Michael’ Surpasses ‘Oppenheimer’ as Highest-Grossing Biopic With $977 Million Worldwide",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-28T21:07:12.753Z",
       "status": "quota",
@@ -1499,32 +1539,7 @@
       "totalCandidates": 43,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-24T16:01:22.141Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 292,
-      "totalCandidates": 89,
-      "written": [
-        {
-          "title": "Final Fantasy 7 Remake Trilogy Will Incorporate Settings and Stories From All Spin-Offs – Director",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 17,
-          "slug": "7b47be33-final-fantasy-7-remake-trilogy-will-incorporate-settings-and"
-        },
-        {
-          "title": "GTA 6: Everything Rockstar Announced and Confirmed on Preorder Day",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "5dfeb501-gta-6-everything-rockstar-announced-and-confirmed-on-preorde"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-28T21:07:12.753Z"
+  "lastUpdated": "2026-06-28T22:01:12.556Z"
 }
