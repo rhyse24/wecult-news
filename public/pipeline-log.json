@@ -1,6 +1,24 @@
 {
-  "totalArticles": 643,
+  "totalArticles": 644,
   "runs": [
+    {
+      "timestamp": "2026-06-29T04:01:11.858Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 180,
+      "totalCandidates": 68,
+      "written": [
+        {
+          "title": "Old Fortnite Skins Are Returning: What’s Actually Exclusive And What Could Come Back?",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 15,
+          "slug": "80b8ee39-old-fortnite-skins-are-returning-whats-actually-exclusive-an"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-29T02:01:10.859Z",
       "status": "quota",
@@ -1545,47 +1563,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-24T23:08:38.798Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 295,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "Film Academy Invites 529 New Members: Jacob Elordi, Jenna Ortega, Teyana Taylor and More to Become Oscar Voters",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "0ea4ec97-film-academy-invites-529-new-members-jacob-elordi-jenna-orte"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Most Disturbing Moments Cut From Marvel Movies",
-          "category": "film",
-          "source": "Looper",
-          "score": 17,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 611 words (max 580)"
-          ]
-        },
-        {
-          "title": "In the Hand of Dante Review: A Frenzied, Flimsy Adventure for Oscar Isaac and Martin Scorsese",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 14,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 603 words (max 580)",
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-29T02:01:10.859Z"
+  "lastUpdated": "2026-06-29T04:01:11.858Z"
 }
