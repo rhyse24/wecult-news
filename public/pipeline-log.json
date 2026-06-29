@@ -1,6 +1,46 @@
 {
-  "totalArticles": 641,
+  "totalArticles": 643,
   "runs": [
+    {
+      "timestamp": "2026-06-29T02:01:10.859Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 178,
+      "totalCandidates": 19,
+      "written": [
+        {
+          "title": "6 Worst '80s Horror Movies You've Never Even Heard Of",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "a672fe47-6-worst-80s-horror-movies-youve-never-even-heard-of"
+        },
+        {
+          "title": "6 Greatest Dean Martin and Jerry Lewis Movies",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "slug": "705efffe-6-greatest-dean-martin-and-jerry-lewis-movies"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Michael’ Surpasses ‘Oppenheimer’ as Highest-Grossing Biopic With $977 Million Worldwide",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "5 Classic American War Movies That Have Aged Like Milk",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-29T00:01:08.600Z",
       "status": "quota",
@@ -1545,32 +1585,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-24T22:01:17.843Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 297,
-      "totalCandidates": 50,
-      "written": [
-        {
-          "title": "House Of The Dragon is for the history nerds",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "slug": "a09ba091-house-of-the-dragon-is-for-the-history-nerds"
-        },
-        {
-          "title": "Milly Alcock soars through the first good Supergirl movie",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "slug": "8d84b487-milly-alcock-soars-through-the-first-good-supergirl-movie"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-29T00:01:08.600Z"
+  "lastUpdated": "2026-06-29T02:01:10.859Z"
 }
