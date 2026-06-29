@@ -1,6 +1,32 @@
 {
-  "totalArticles": 644,
+  "totalArticles": 645,
   "runs": [
+    {
+      "timestamp": "2026-06-29T06:01:10.382Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 184,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "House Of The Dragon's Latest Fatality Moves Matt Smith To Song: 'Ding Dong The Witch Is Dead!' — Watch",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "8121c1f9-house-of-the-dragons-latest-fatality-moves-matt-smith-to-son"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "House Of The Dragon: Rhaenyra Kills [Spoiler] As She Takes The Iron Throne — Read Recap",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-29T04:01:11.858Z",
       "status": "quota",
@@ -1545,25 +1571,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-25T00:01:20.603Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 288,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "14 Movies That Would End in Ten Minutes With Modern Tech",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 13,
-          "slug": "b9e35c22-14-movies-that-would-end-in-ten-minutes-with-modern-tech"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-29T04:01:11.858Z"
+  "lastUpdated": "2026-06-29T06:01:10.382Z"
 }
