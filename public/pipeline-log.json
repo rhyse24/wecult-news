@@ -1,6 +1,53 @@
 {
-  "totalArticles": 645,
+  "totalArticles": 648,
   "runs": [
+    {
+      "timestamp": "2026-06-29T08:01:11.628Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 184,
+      "totalCandidates": 19,
+      "written": [
+        {
+          "title": "Korea Box Office: ‘Toy Story 5’ Stays No. 1 While Thriller ‘The Eyes’ Opens in Second Place",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "5a50f8e5-korea-box-office-toy-story-5-stays-no-1-while-thriller-the-e"
+        },
+        {
+          "title": "5 Classic American War Movies That Have Aged Like Milk",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "slug": "ea97123d-5-classic-american-war-movies-that-have-aged-like-milk"
+        },
+        {
+          "title": "Busan’s Asian Cinema Fund Names 12 Recipients for 2026",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "f729fb23-busans-asian-cinema-fund-names-12-recipients-for-2026"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "House Of The Dragon Season 3's Most Anticipated Death Is Blunt",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "10 Best Horror Movies of the Last 20 Years You've Never Heard Of",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-29T06:01:10.382Z",
       "status": "quota",
@@ -1546,32 +1593,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-25T02:01:32.148Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 294,
-      "totalCandidates": 94,
-      "written": [
-        {
-          "title": "GTA 6 May Be Borrowing a Major Mechanic from Red Dead Redemption 2",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 18,
-          "slug": "01417bd6-gta-6-may-be-borrowing-a-major-mechanic-from-red-dead-redemp"
-        },
-        {
-          "title": "FromSoftware parent’s CEO survives hedge fund owners’ attempt to remove him, but there’s more pressure to come",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 16,
-          "slug": "e73bf34b-fromsoftware-parents-ceo-survives-hedge-fund-owners-attempt-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-29T06:01:10.382Z"
+  "lastUpdated": "2026-06-29T08:01:11.628Z"
 }
