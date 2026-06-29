@@ -1,6 +1,24 @@
 {
-  "totalArticles": 651,
+  "totalArticles": 652,
   "runs": [
+    {
+      "timestamp": "2026-06-29T21:38:32.490Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Walton Goggins Saved Olivia Wilde From Being Stampeded to Death by Horses on ‘Cowboys & Aliens’ Set: ‘I Owe Him My Life. He’s a Real-Life Hero’",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "483b5848-walton-goggins-saved-olivia-wilde-from-being-stampeded-to-de"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-06-29T20:01:15.565Z",
       "status": "quota",
@@ -1565,25 +1583,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-25T14:01:25.620Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 286,
-      "totalCandidates": 36,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Read an Excerpt From The River She Became by Emily Varga",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-29T20:01:15.565Z"
+  "lastUpdated": "2026-06-29T21:38:32.490Z"
 }
