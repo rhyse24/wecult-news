@@ -1,6 +1,67 @@
 {
-  "totalArticles": 648,
+  "totalArticles": 650,
   "runs": [
+    {
+      "timestamp": "2026-06-29T10:01:11.249Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 199,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "ABC's Hit Sitcom Abbott Elementary Is Named After A Real Person",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "d4961e6d-abcs-hit-sitcom-abbott-elementary-is-named-after-a-real-pers"
+        },
+        {
+          "title": "‘FROM’ Bosses Explain Why Season 5 Is the Show’s ‘Endgame’",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 10,
+          "slug": "ac441c23-from-bosses-explain-why-season-5-is-the-shows-endgame"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "House Of The Dragon: Rhaenyra Kills [Spoiler] As She Takes The Iron Throne — Read Recap",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘House of the Dragon’ Stars Explain Rhaenyra’s Point of No Return",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 13,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Cyberpunk: Edgerunners 2 Anime's New Visual Announces Fall Debut",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 9,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "David Letterman to Make Just For Laughs Montreal Debut With Will Arnett (Exclusive)",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 8,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Let's watch some trailers for all the winners at this year's Annecy International Animation Film Festival",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 8,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-06-29T08:01:11.628Z",
       "status": "success",
@@ -1575,25 +1636,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-25T03:59:54.349Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 291,
-      "totalCandidates": 33,
-      "written": [],
-      "rejected": [
-        {
-          "title": "8 Hard Sci-Fi Movies That Are Perfect From the First Scene to the Last",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 18,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-29T08:01:11.628Z"
+  "lastUpdated": "2026-06-29T10:01:11.249Z"
 }
