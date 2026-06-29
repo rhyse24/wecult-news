@@ -2,6 +2,24 @@
   "totalArticles": 650,
   "runs": [
     {
+      "timestamp": "2026-06-29T14:01:15.327Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 228,
+      "totalCandidates": 80,
+      "written": [],
+      "rejected": [
+        {
+          "title": "With the Threat of Layoffs Looming, Quantic Dream Staff Say They're Going on Strike to Save Star Wars Eclipse From Cancelation",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-29T11:09:04.599Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1550,85 +1568,7 @@
       "totalCandidates": 34,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-25T07:52:39.954Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 289,
-      "totalCandidates": 50,
-      "written": [
-        {
-          "title": "Casting News: The Boys Star Joins Invincible, Monarch Spin-Off Adds Game Of Thrones Alum, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "11e24298-casting-news-the-boys-star-joins-invincible-monarch-spin-off"
-        },
-        {
-          "title": "Fellini Forever: Italian Global Series Festival Honors Rimini’s Favorite Son",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 7,
-          "slug": "4870d4fb-fellini-forever-italian-global-series-festival-honors-rimini"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Millie Bobby Brown Speaks Out on Knowing Eleven’s Fate and Making Amends With ‘Stranger Things’ Cast After the Show Ended: ‘I’m Sorry If I Ever Upset You’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Asa Butterfield, Jonny Lee Miller and Christine Tremarco Join Beatles Series ‘Hamburg Days’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Batman: Caped Crusader Season 2 Trailer Promises More Deep Cut Villains",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 9,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "15 TV Scenes That Give Us the Chills Every Time We Watch",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 9,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Why ‘Survivor’ Cameos Could Play a Bigger Role in ‘White Lotus’ Season 4",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 8,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Every New Movie and TV Show Coming to Netflix UK in July 2026",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 8,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "‘The Other Bennet Sister’ Star Ella Bruccoleri on Playing a Regency Wallflower, Mary’s Romance with Tom and a Possible Season 2",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 7,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 15 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-29T11:09:04.599Z"
+  "lastUpdated": "2026-06-29T14:01:15.327Z"
 }
