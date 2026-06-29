@@ -2,6 +2,31 @@
   "totalArticles": 650,
   "runs": [
     {
+      "timestamp": "2026-06-29T15:54:41.877Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 251,
+      "totalCandidates": 90,
+      "written": [],
+      "rejected": [
+        {
+          "title": "With the Threat of Layoffs Looming, Quantic Dream Staff Say They're Going on Strike to Save Star Wars Eclipse From Cancelation",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Best Buy Has Slashed the Prices of Select Square Enix Games – Here Are Some of Our Favorite Picks",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-29T14:01:15.327Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1558,17 +1583,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-25T10:01:21.081Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 287,
-      "totalCandidates": 34,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-29T14:01:15.327Z"
+  "lastUpdated": "2026-06-29T15:54:41.877Z"
 }
