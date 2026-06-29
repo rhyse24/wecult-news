@@ -2,6 +2,16 @@
   "totalArticles": 650,
   "runs": [
     {
+      "timestamp": "2026-06-29T18:01:08.040Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 93,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-29T15:54:41.877Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1565,25 +1575,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-25T10:47:17.545Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 286,
-      "totalCandidates": 36,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Read an Excerpt From The River She Became by Emily Varga",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-29T15:54:41.877Z"
+  "lastUpdated": "2026-06-29T18:01:08.040Z"
 }
