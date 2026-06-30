@@ -2,6 +2,16 @@
   "totalArticles": 655,
   "runs": [
     {
+      "timestamp": "2026-06-30T18:00:37.404Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 29,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-30T16:00:38.992Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1600,32 +1610,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-26T06:01:17.639Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 292,
-      "totalCandidates": 37,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Ann Blyth, Who Played Joan Crawford’s Daughter in ‘Mildred Pierce,’ Dies at 98",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Supergirl: How the Canceled Flash Spinoff Brought the Maid of Might to Screen",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-30T16:00:38.992Z"
+  "lastUpdated": "2026-06-30T18:00:37.404Z"
 }
