@@ -2,6 +2,24 @@
   "totalArticles": 655,
   "runs": [
     {
+      "timestamp": "2026-06-30T16:00:38.992Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 28,
+      "written": [],
+      "rejected": [
+        {
+          "title": "The Triumph of Rand al’Thor and Why I Named My Inner Voice Moridin",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-06-30T14:00:40.159Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1607,25 +1625,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-26T04:01:19.562Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 292,
-      "totalCandidates": 36,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Ann Blyth, Who Played Joan Crawford’s Daughter in ‘Mildred Pierce,’ Dies at 98",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-30T14:00:40.159Z"
+  "lastUpdated": "2026-06-30T16:00:38.992Z"
 }
