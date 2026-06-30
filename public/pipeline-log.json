@@ -2,6 +2,16 @@
   "totalArticles": 655,
   "runs": [
     {
+      "timestamp": "2026-06-30T14:00:40.159Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 24,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-30T12:01:10.571Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1615,25 +1625,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-26T02:01:19.168Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 295,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Back to the Future Co-Writer Says Jeff Goldblum Nearly Played Doc Brown",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "05f11b97-back-to-the-future-co-writer-says-jeff-goldblum-nearly-playe"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-30T12:01:10.571Z"
+  "lastUpdated": "2026-06-30T14:00:40.159Z"
 }
