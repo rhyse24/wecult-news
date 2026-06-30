@@ -2,6 +2,16 @@
   "totalArticles": 655,
   "runs": [
     {
+      "timestamp": "2026-06-30T22:00:41.530Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 285,
+      "totalCandidates": 30,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-30T20:00:38.777Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1548,25 +1558,7 @@
       "totalCandidates": 52,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-26T09:35:32.960Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 289,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "Hopes for GTA 6 Trailer 3 Evaporate as Preorders Go Live Without a New Video From Rockstar",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 17,
-          "slug": "0b4cd8bb-hopes-for-gta-6-trailer-3-evaporate-as-preorders-go-live-wit"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-06-30T20:00:38.777Z"
+  "lastUpdated": "2026-06-30T22:00:41.530Z"
 }
