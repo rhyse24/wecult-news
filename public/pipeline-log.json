@@ -2,6 +2,16 @@
   "totalArticles": 652,
   "runs": [
     {
+      "timestamp": "2026-06-30T04:01:10.945Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 51,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-06-30T02:01:13.140Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1557,25 +1567,7 @@
       "totalCandidates": 38,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-25T18:01:27.682Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 295,
-      "totalCandidates": 37,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Practical Magic 2 Trailer Reveals the Curse Is Still There and the Kids Are in Trouble",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-06-30T02:01:13.140Z"
+  "lastUpdated": "2026-06-30T04:01:10.945Z"
 }
