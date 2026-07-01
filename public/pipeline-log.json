@@ -1,6 +1,24 @@
 {
-  "totalArticles": 664,
+  "totalArticles": 665,
   "runs": [
+    {
+      "timestamp": "2026-07-01T18:00:37.064Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 283,
+      "totalCandidates": 54,
+      "written": [
+        {
+          "title": "X-Men '97 Brings Back Magneto's Long-Lost Daughter (And It's Not Scarlet Witch)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "06b13f5d-x-men-97-brings-back-magnetos-long-lost-daughter-and-its-not"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-01T16:29:40.276Z",
       "status": "quota",
@@ -1637,25 +1655,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-27T00:01:27.930Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 282,
-      "totalCandidates": 93,
-      "written": [
-        {
-          "title": "Apex Legends solo queue launches June 30: Will you be playing?",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 13,
-          "slug": "91a641a0-apex-legends-solo-queue-launches-june-30-will-you-be-playing"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-01T16:29:40.276Z"
+  "lastUpdated": "2026-07-01T18:00:37.064Z"
 }
