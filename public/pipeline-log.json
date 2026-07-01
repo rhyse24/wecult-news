@@ -2,6 +2,24 @@
   "totalArticles": 668,
   "runs": [
     {
+      "timestamp": "2026-07-01T23:19:34.033Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 287,
+      "totalCandidates": 85,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Next Metroid Game for Switch 2 Reportedly Leaked in Age Rating From Brazilian Government",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-01T22:00:45.541Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1637,25 +1655,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-27T06:01:17.263Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 287,
-      "totalCandidates": 43,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Was ‘The Bear’ Series Finale a Delicious Dessert or an Unnecessary Add-On?",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-01T22:00:45.541Z"
+  "lastUpdated": "2026-07-01T23:19:34.033Z"
 }
