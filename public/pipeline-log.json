@@ -1,6 +1,24 @@
 {
-  "totalArticles": 667,
+  "totalArticles": 668,
   "runs": [
+    {
+      "timestamp": "2026-07-01T22:00:45.541Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 285,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "The Marvel Comics That Inspired X-Men '97's Surprisingly Sympathetic Take On Apocalypse",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "b3ac7e8e-the-marvel-comics-that-inspired-x-men-97s-surprisingly-sympa"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-01T20:00:40.758Z",
       "status": "quota",
@@ -1637,25 +1655,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-27T03:52:48.078Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 288,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "New to Streaming: Blue Heron, I Love Boosters, Tuner, The Sheep Detectives & More",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 14,
-          "slug": "f70e4925-new-to-streaming-blue-heron-i-love-boosters-tuner-the-sheep-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-01T20:00:40.758Z"
+  "lastUpdated": "2026-07-01T22:00:45.541Z"
 }
