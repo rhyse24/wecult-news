@@ -1,6 +1,46 @@
 {
-  "totalArticles": 663,
+  "totalArticles": 664,
   "runs": [
+    {
+      "timestamp": "2026-07-01T12:00:39.511Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 96,
+      "written": [
+        {
+          "title": "Christopher Nolan's The Odyssey Gets Official Roblox Tie-In Game",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 17,
+          "slug": "dcfc968c-christopher-nolans-the-odyssey-gets-official-roblox-tie-in-g"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Fragmentary Order: How the Creator of Escape From Tarkov Plans to Make the Most Realistic Sci-Fi Game Ever",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "With Xbox Speeding Up Work on New Fallout Games, One Former Bethesda Dev Warns Faster Sequels 'Risk Fan Fatigue' — but Could New Vegas Developer Obsidian Be Drafted in to Help?",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Microsoft Is Reminding Xbox Game Pass Members That They'll Have to Buy Call of Duty: Modern Warfare 4 if They Want to Play Day One",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-01T09:57:29.579Z",
       "status": "quota",
@@ -1639,17 +1679,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-26T19:56:41.810Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 296,
-      "totalCandidates": 45,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-01T09:57:29.579Z"
+  "lastUpdated": "2026-07-01T12:00:39.511Z"
 }
