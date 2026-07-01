@@ -1,6 +1,39 @@
 {
-  "totalArticles": 665,
+  "totalArticles": 667,
   "runs": [
+    {
+      "timestamp": "2026-07-01T20:00:40.758Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 286,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "The Odyssey Final Trailer Just Spells Out the Plot For Non-Classics Majors to Enjoy Too",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 19,
+          "slug": "6b18b88b-the-odyssey-final-trailer-just-spells-out-the-plot-for-non-c"
+        },
+        {
+          "title": "Sadie Sink’s ‘Spider-Man: Brand New Day’ Role Is So Secretive That She Didn’t Have an Audition and Never Saw the Script Until Flying to London",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "64810d7d-sadie-sinks-spider-man-brand-new-day-role-is-so-secretive-th"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "X-Men '97 Season 2's X-Factor, Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-01T18:00:37.064Z",
       "status": "quota",
@@ -1622,40 +1655,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-27T02:01:17.448Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 290,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "‘The Bear’ Stars Jeremy Allen White and Ayo Edebiri Break Down Carmy’s ‘Ego Death’ and Passing the Torch to Sydney: ‘It’s a Heartbreaking Moment’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 19,
-          "slug": "fee8ea4e-the-bear-stars-jeremy-allen-white-and-ayo-edebiri-break-down"
-        },
-        {
-          "title": "Avatar: The Last Airbender EP Was Surprised That One Major Season 2 Change Was Approved: 'I Thought It Was Too Much'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "684bab36-avatar-the-last-airbender-ep-was-surprised-that-one-major-se"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Was ‘The Bear’ Series Finale a Delicious Dessert or an Unnecessary Add-On?",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-01T18:00:37.064Z"
+  "lastUpdated": "2026-07-01T20:00:40.758Z"
 }
