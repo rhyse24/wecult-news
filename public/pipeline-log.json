@@ -1,6 +1,53 @@
 {
-  "totalArticles": 659,
+  "totalArticles": 662,
   "runs": [
+    {
+      "timestamp": "2026-07-01T08:00:41.433Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 279,
+      "totalCandidates": 57,
+      "written": [
+        {
+          "title": "Live-Action ‘Last Kids on Earth’ Snags Pilot Order From Disney",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 13,
+          "slug": "e48221cd-live-action-last-kids-on-earth-snags-pilot-order-from-disney"
+        },
+        {
+          "title": "Kathy Griffin Claims She Was ‘Banned’ From ‘The Tonight Show’ for Being ‘Too Controversial’ and Slams Jimmy Fallon for Hosting Conor McGregor",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "0bf6e560-kathy-griffin-claims-she-was-banned-from-the-tonight-show-fo"
+        },
+        {
+          "title": "‘Nothing less than extraordinary’ – how The Bear pulled off TV’s most almighty comeback",
+          "category": "tv",
+          "source": "Guardian TV",
+          "score": 12,
+          "slug": "9112303e-nothing-less-than-extraordinary-how-the-bear-pulled-off-tvs-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Lionel Boyce on Why ‘The Bear’ Season 5 Was His ‘Most Intense Shoot’ Yet and Wrapping Up Marcus’ Arc: ‘I Don’t Know How to Say Goodbye’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Avatar: The Last Airbender Season 2 Netflix Viewership Craters 58% From First Season",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-01T06:00:38.203Z",
       "status": "quota",
@@ -1579,17 +1626,7 @@
       "totalCandidates": 44,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-26T16:20:44.156Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 296,
-      "totalCandidates": 50,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-01T06:00:38.203Z"
+  "lastUpdated": "2026-07-01T08:00:41.433Z"
 }
