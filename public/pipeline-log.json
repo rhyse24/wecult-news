@@ -1,6 +1,39 @@
 {
-  "totalArticles": 662,
+  "totalArticles": 663,
   "runs": [
+    {
+      "timestamp": "2026-07-01T09:57:29.579Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Who Are The Final Horsemen Of Apocalypse? The X-Men '97 Villains Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "slug": "a4df0408-who-are-the-final-horsemen-of-apocalypse-the-x-men-97-villai"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "X-Men '97 Season 2 Gives Storm A Massive Power Upgrade - But Is It Accurate?",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Supergirl Opening Raises Question: What Superheroes Can Still Rule the Box Office?",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-01T08:00:41.433Z",
       "status": "success",
@@ -1616,17 +1649,7 @@
       "totalCandidates": 45,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-26T18:01:20.251Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 297,
-      "totalCandidates": 44,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-01T08:00:41.433Z"
+  "lastUpdated": "2026-07-01T09:57:29.579Z"
 }
