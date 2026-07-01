@@ -1,6 +1,31 @@
 {
-  "totalArticles": 656,
+  "totalArticles": 658,
   "runs": [
+    {
+      "timestamp": "2026-07-01T02:00:38.823Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "8 Best Japanese Monster Movies Without Godzilla",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "slug": "7cd4886a-8-best-japanese-monster-movies-without-godzilla"
+        },
+        {
+          "title": "‘Enola Holmes 3’ Review: Millie Bobby Brown Returns in a Frisky and Grown-Up Installment from ‘Adolescence’ Helmer Philip Barantini",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "579b86ac-enola-holmes-3-review-millie-bobby-brown-returns-in-a-frisky"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-01T00:00:38.021Z",
       "status": "quota",
@@ -1548,25 +1573,7 @@
       "totalCandidates": 52,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-26T12:14:46.283Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 288,
-      "totalCandidates": 47,
-      "written": [],
-      "rejected": [
-        {
-          "title": "‘Avatar: The Last Airbender’ Season 2 Composer Teases Toph’s Theme and ‘Six Hours’ of New Music",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 20,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-01T00:00:38.021Z"
+  "lastUpdated": "2026-07-01T02:00:38.823Z"
 }
