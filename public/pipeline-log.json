@@ -2,6 +2,16 @@
   "totalArticles": 674,
   "runs": [
     {
+      "timestamp": "2026-07-02T21:13:36.817Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 286,
+      "totalCandidates": 35,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-02T20:00:42.532Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1573,25 +1583,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-28T00:01:16.870Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 243,
-      "totalCandidates": 89,
-      "written": [
-        {
-          "title": "GTA 6 Scalpers Are Finding Buyers on eBay Despite Rockstar's Commitment to a Digital Release",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "90b518a2-gta-6-scalpers-are-finding-buyers-on-ebay-despite-rockstars-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-02T20:00:42.532Z"
+  "lastUpdated": "2026-07-02T21:13:36.817Z"
 }
