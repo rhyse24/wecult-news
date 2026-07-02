@@ -2,6 +2,16 @@
   "totalArticles": 674,
   "runs": [
     {
+      "timestamp": "2026-07-02T22:00:43.290Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 290,
+      "totalCandidates": 37,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-02T21:13:36.817Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1557,33 +1567,7 @@
       "totalCandidates": 26,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-28T02:01:19.189Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 250,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "Was ‘The Bear’ Series Finale a Delicious Dessert or an Unnecessary Add-On?",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 12,
-          "slug": "704f69be-was-the-bear-series-finale-a-delicious-dessert-or-an-unneces"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Avatar: The Last Airbender could've taken over the world, but it got taken over instead",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-02T21:13:36.817Z"
+  "lastUpdated": "2026-07-02T22:00:43.290Z"
 }
