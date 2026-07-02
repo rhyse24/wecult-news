@@ -1,6 +1,32 @@
 {
-  "totalArticles": 668,
+  "totalArticles": 669,
   "runs": [
+    {
+      "timestamp": "2026-07-02T00:00:42.361Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": "The original isometric Fallout 3 wouldn’t have been cancelled if execs had bothered to see it, New Vegas lead says",
+          "category": "games",
+          "source": "VGC",
+          "score": 14,
+          "slug": "cd35721c-the-original-isometric-fallout-3-wouldnt-have-been-cancelled"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Next Metroid Game for Switch 2 Reportedly Leaked in Age Rating From Brazilian Government",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-01T23:19:34.033Z",
       "status": "quota",
@@ -1637,25 +1663,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-27T06:56:37.054Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 287,
-      "totalCandidates": 43,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Was ‘The Bear’ Series Finale a Delicious Dessert or an Unnecessary Add-On?",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-01T23:19:34.033Z"
+  "lastUpdated": "2026-07-02T00:00:42.361Z"
 }
