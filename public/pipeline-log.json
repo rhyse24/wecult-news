@@ -1,6 +1,31 @@
 {
-  "totalArticles": 669,
+  "totalArticles": 671,
   "runs": [
+    {
+      "timestamp": "2026-07-02T02:00:39.450Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 271,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Famke Janssen Says ‘Backrooms’ Filmmaker Kane Parsons Should “Absolutely” Direct an ‘X-Men’ Film",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "a4863939-famke-janssen-says-backrooms-filmmaker-kane-parsons-should-a"
+        },
+        {
+          "title": "Watch ‘Minions & Monsters’ Stars Jesse Eisenberg, Jeff Bridges and Zoey Deutch Speak Minionese",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "fe425525-watch-minions-monsters-stars-jesse-eisenberg-jeff-bridges-an"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-02T00:00:42.361Z",
       "status": "quota",
@@ -1602,68 +1627,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-27T08:01:19.040Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 287,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "‘1923’ Star Darren Mann Signs With Paradigm (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 13,
-          "slug": "3ca423fb-1923-star-darren-mann-signs-with-paradigm-exclusive"
-        },
-        {
-          "title": "Dutton Ranch Star Explains The Phone Call That Will 'Change Everyone's Life' In Episode 8: 'It's Like Pressing A Nuke'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "adced1b9-dutton-ranch-star-explains-the-phone-call-that-will-change-e"
-        },
-        {
-          "title": "How One Of NBC's Most Infamous Flops Became Part Of The Marvel Universe",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "88dc966d-how-one-of-nbcs-most-infamous-flops-became-part-of-the-marve"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Was ‘The Bear’ Series Finale a Delicious Dessert or an Unnecessary Add-On?",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Millie Bobby Brown And David Harbour To Headline Netflix Spy Series In Stranger Things Reunion",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "What’s New on Netflix UK This Week: ‘Avatar’ Season 2 and John Cena’s ‘Little Brother’",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 12,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "10 Best TV Road Trip Episodes Of All Time",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-02T00:00:42.361Z"
+  "lastUpdated": "2026-07-02T02:00:39.450Z"
 }
