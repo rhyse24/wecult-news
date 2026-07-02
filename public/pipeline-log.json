@@ -2,6 +2,16 @@
   "totalArticles": 674,
   "runs": [
     {
+      "timestamp": "2026-07-02T18:00:46.000Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 292,
+      "totalCandidates": 33,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-02T17:53:46.889Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1592,25 +1602,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-27T21:09:55.856Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 251,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "‘Supergirl’ Landing in Second Place at Box Office as ‘Toy Story 5’ Stays on Top",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "b09e1ae9-supergirl-landing-in-second-place-at-box-office-as-toy-story"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-02T17:53:46.889Z"
+  "lastUpdated": "2026-07-02T18:00:46.000Z"
 }
