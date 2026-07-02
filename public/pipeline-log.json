@@ -1,6 +1,24 @@
 {
-  "totalArticles": 674,
+  "totalArticles": 675,
   "runs": [
+    {
+      "timestamp": "2026-07-02T23:12:27.757Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 290,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "‘Moana 3’ in the Works at Disney, According to Dwayne Johnson",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "8811b77b-moana-3-in-the-works-at-disney-according-to-dwayne-johnson"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-02T22:00:43.290Z",
       "status": "quota",
@@ -1557,17 +1575,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-28T04:01:14.928Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 249,
-      "totalCandidates": 26,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-02T22:00:43.290Z"
+  "lastUpdated": "2026-07-02T23:12:27.757Z"
 }
