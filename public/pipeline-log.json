@@ -1,6 +1,24 @@
 {
-  "totalArticles": 671,
+  "totalArticles": 672,
   "runs": [
+    {
+      "timestamp": "2026-07-02T03:57:36.902Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 283,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Enola Holmes 3 Review: Netflix’s Mystery Franchise Doesn’t Quite Find Its Way in the Mediterranean",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 18,
+          "slug": "04270104-enola-holmes-3-review-netflixs-mystery-franchise-doesnt-quit"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-02T02:00:39.450Z",
       "status": "quota",
@@ -1594,40 +1612,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-27T10:01:25.775Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 279,
-      "totalCandidates": 91,
-      "written": [
-        {
-          "title": "\"Once Darth Vader came for you, you were just going to die\": We could have had an MMO about Jedi refugees hiding from the Empire, if Star Wars Galaxies had gone differently",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 12,
-          "slug": "4cd43a19-once-darth-vader-came-for-you-you-were-just-going-to-die-we-"
-        },
-        {
-          "title": "Grab Your Friends: The Adventure Time Boxed Set Is $33 For Prime Day",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 11,
-          "slug": "f352ec07-grab-your-friends-the-adventure-time-boxed-set-is-33-for-pri"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Assassin's Creed Black Flag Resynced: 8-Minute Gameplay Tour of Havana | IGN First",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 10,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-02T02:00:39.450Z"
+  "lastUpdated": "2026-07-02T03:57:36.902Z"
 }
