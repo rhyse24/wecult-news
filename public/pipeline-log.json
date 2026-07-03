@@ -1,6 +1,53 @@
 {
-  "totalArticles": 683,
+  "totalArticles": 686,
   "runs": [
+    {
+      "timestamp": "2026-07-03T07:26:28.417Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 285,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "7 Perfect Double Features To Watch With 'Obsession'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 17,
+          "slug": "a06c69fd-7-perfect-double-features-to-watch-with-obsession"
+        },
+        {
+          "title": "Christopher Nolan Officially Reveals the Key Role ‘The Dark Knight’ Played in ‘The Odyssey’",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "f930b00b-christopher-nolan-officially-reveals-the-key-role-the-dark-k"
+        },
+        {
+          "title": "Moritz Borman, Producer of ‘Terminator’ Movies and Oliver Stone Films, Dies at 71",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "cee524fd-moritz-borman-producer-of-terminator-movies-and-oliver-stone"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Anne Hathaway Quit ‘Knocked Up’ Over Graphic Birthing Scene, Says Seth Rogen: ‘She Felt That It Was Not Her Brand’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "10 Greatest Neo-Noir Movies of the Last 25 Years",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-03T06:00:43.270Z",
       "status": "quota",
@@ -1451,47 +1498,7 @@
       "totalCandidates": 75,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-28T11:49:07.682Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 210,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "The Obsession Actor Everyone Missed In Dutton Ranch",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "0e4c6c77-the-obsession-actor-everyone-missed-in-dutton-ranch"
-        },
-        {
-          "title": "Marvel promises third season of X-Men '97 will go a lot smoother than the second",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "slug": "3b6e0af9-marvel-promises-third-season-of-x-men-97-will-go-a-lot-smoot"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Every Year After’ Renewed for Season 2 at Amazon; Will Focus on Charlie’s Story From ‘One Golden Summer’ Sequel Book",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Blazblue: CentralFiction Fighting Game Reveals New DLC Character Trinity Glassfille",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 8,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-03T06:00:43.270Z"
+  "lastUpdated": "2026-07-03T07:26:28.417Z"
 }
