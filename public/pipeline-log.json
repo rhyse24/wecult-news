@@ -2,6 +2,16 @@
   "totalArticles": 692,
   "runs": [
     {
+      "timestamp": "2026-07-03T22:00:42.597Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 258,
+      "totalCandidates": 15,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-03T21:12:15.138Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1398,47 +1408,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-29T02:01:10.859Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 178,
-      "totalCandidates": 19,
-      "written": [
-        {
-          "title": "6 Worst '80s Horror Movies You've Never Even Heard Of",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "a672fe47-6-worst-80s-horror-movies-youve-never-even-heard-of"
-        },
-        {
-          "title": "6 Greatest Dean Martin and Jerry Lewis Movies",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "slug": "705efffe-6-greatest-dean-martin-and-jerry-lewis-movies"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Michael’ Surpasses ‘Oppenheimer’ as Highest-Grossing Biopic With $977 Million Worldwide",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "5 Classic American War Movies That Have Aged Like Milk",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-03T21:12:15.138Z"
+  "lastUpdated": "2026-07-03T22:00:42.597Z"
 }
