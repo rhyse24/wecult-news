@@ -1,6 +1,31 @@
 {
-  "totalArticles": 690,
+  "totalArticles": 692,
   "runs": [
+    {
+      "timestamp": "2026-07-03T17:37:19.450Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 271,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "TVLine Asks: Is Tony DiNozzo NCIS' Next Director? Did The Bear Final Shot Confuse? Was S.W.A.T. Exiles News Surprising? And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "1c4c3ceb-tvline-asks-is-tony-dinozzo-ncis-next-director-did-the-bear-"
+        },
+        {
+          "title": "Jon Bernthal Played Characters On Two Different Law & Order Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "7e16c032-jon-bernthal-played-characters-on-two-different-law-order-se"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-03T16:00:46.475Z",
       "status": "quota",
@@ -1474,25 +1499,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-28T21:07:12.753Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 178,
-      "totalCandidates": 6,
-      "written": [
-        {
-          "title": "L.G.B.T.Q. Figures Who Shaped History From the Margins",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 11,
-          "slug": "cfbf87d4-lgbtq-figures-who-shaped-history-from-the-margins"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-03T16:00:46.475Z"
+  "lastUpdated": "2026-07-03T17:37:19.450Z"
 }
