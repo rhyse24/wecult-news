@@ -1,6 +1,38 @@
 {
-  "totalArticles": 676,
+  "totalArticles": 679,
   "runs": [
+    {
+      "timestamp": "2026-07-03T02:00:47.802Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 291,
+      "totalCandidates": 58,
+      "written": [
+        {
+          "title": "Anime-Inspired Series ‘Dragon Striker’ Gets Second Season at Disney (Exclusive)",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 15,
+          "slug": "4be632b6-anime-inspired-series-dragon-striker-gets-second-season-at-d"
+        },
+        {
+          "title": "Nation's parents release weary sigh as Dwayne Johnson utters words Moana 3",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "127d0222-nations-parents-release-weary-sigh-as-dwayne-johnson-utters-"
+        },
+        {
+          "title": "Hallmark's Countdown To Christmas: Watch The First Trailer For Lacey Chabert's Holiday Ever After: A Disney World Wish Come True",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "22743eea-hallmarks-countdown-to-christmas-watch-the-first-trailer-for"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-03T00:00:49.432Z",
       "status": "quota",
@@ -1518,54 +1550,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-28T06:01:17.350Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 246,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Only 5 Thrillers From the 2010s Can Be Considered True Masterpieces",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "92448ffd-only-5-thrillers-from-the-2010s-can-be-considered-true-maste"
-        },
-        {
-          "title": "‘Supergirl’ Writer Ana Nogueira on the Movie’s Key Changes From the ‘Woman of Tomorrow’ Comic and the Status of ‘Wonder Woman’ and ‘Teen Titans’",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "40eb018b-supergirl-writer-ana-nogueira-on-the-movies-key-changes-from"
-        },
-        {
-          "title": "10 Movies That Were Praised for Being Historically Accurate",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "slug": "344c080c-10-movies-that-were-praised-for-being-historically-accurate"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Elon Musk Posts Armie Hammer’s Controversial Comeback Film ‘Citizen Vigilante’ on X",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Only 3 Werewolf Movies Are Truly Great",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 9,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-03T00:00:49.432Z"
+  "lastUpdated": "2026-07-03T02:00:47.802Z"
 }
