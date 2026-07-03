@@ -1,6 +1,24 @@
 {
-  "totalArticles": 682,
+  "totalArticles": 683,
   "runs": [
+    {
+      "timestamp": "2026-07-03T06:00:43.270Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 285,
+      "totalCandidates": 57,
+      "written": [
+        {
+          "title": "15 Movies That Don’t Answer Their Own Questions",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 14,
+          "slug": "24f1e1ad-15-movies-that-dont-answer-their-own-questions"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-03T04:00:44.747Z",
       "status": "quota",
@@ -1473,40 +1491,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-28T10:01:23.389Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 219,
-      "totalCandidates": 22,
-      "written": [
-        {
-          "title": "Elon Musk Posts Armie Hammer’s Controversial Comeback Film ‘Citizen Vigilante’ on X",
-          "category": "film",
-          "source": "Variety",
-          "score": 11,
-          "slug": "b97667df-elon-musk-posts-armie-hammers-controversial-comeback-film-ci"
-        },
-        {
-          "title": "At Just 27, George Lucas Directed The Sci-Fi Movie That Paved The Way For Star Wars",
-          "category": "film",
-          "source": "Looper",
-          "score": 8,
-          "slug": "aef3ceef-at-just-27-george-lucas-directed-the-sci-fi-movie-that-paved"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Only 3 Werewolf Movies Are Truly Great",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-03T04:00:44.747Z"
+  "lastUpdated": "2026-07-03T06:00:43.270Z"
 }
