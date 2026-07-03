@@ -2,6 +2,16 @@
   "totalArticles": 692,
   "runs": [
     {
+      "timestamp": "2026-07-03T19:35:44.089Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 260,
+      "totalCandidates": 15,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-03T17:37:19.450Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1459,47 +1469,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-28T22:01:12.556Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 178,
-      "totalCandidates": 21,
-      "written": [
-        {
-          "title": "Oscar Contenders From First Half of 2026: ‘The Invite,’ ‘Project Hail Mary,’ Taylor Swift and Yes, Even ‘Michael’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "09c4c124-oscar-contenders-from-first-half-of-2026-the-invite-project-"
-        },
-        {
-          "title": "10 Scariest Mystery Movies of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "31998d74-10-scariest-mystery-movies-of-all-time"
-        },
-        {
-          "title": "45 Years Later, This Is Still the Greatest Adventure Movie of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "48d607c8-45-years-later-this-is-still-the-greatest-adventure-movie-of"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Michael’ Surpasses ‘Oppenheimer’ as Highest-Grossing Biopic With $977 Million Worldwide",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-03T17:37:19.450Z"
+  "lastUpdated": "2026-07-03T19:35:44.089Z"
 }
