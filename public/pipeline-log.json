@@ -2,6 +2,16 @@
   "totalArticles": 692,
   "runs": [
     {
+      "timestamp": "2026-07-03T20:00:42.524Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 15,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-03T19:35:44.089Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1451,25 +1461,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-28T23:08:45.217Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 176,
-      "totalCandidates": 65,
-      "written": [
-        {
-          "title": " Here's what you want to see from Grand Theft Auto 6's radio stations: Phil Collins, conspiracy theory parodies, and… Gregorian chanting? ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 16,
-          "slug": "2926fcc5-heres-what-you-want-to-see-from-grand-theft-auto-6s-radio-st"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-03T19:35:44.089Z"
+  "lastUpdated": "2026-07-03T20:00:42.524Z"
 }
