@@ -2,6 +2,16 @@
   "totalArticles": 692,
   "runs": [
     {
+      "timestamp": "2026-07-03T21:12:15.138Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 257,
+      "totalCandidates": 15,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-03T20:00:42.524Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1428,40 +1438,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-29T00:01:08.600Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 170,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "10 Most Underrated Horror TV Shows Of All Time",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "92fff498-10-most-underrated-horror-tv-shows-of-all-time"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The Bear Series Finale Recap: What's Carmy Cooking Up Next? (Grade It!)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Every Year After’ Renewed for Season 2 at Amazon; Will Focus on Charlie’s Story From ‘One Golden Summer’ Sequel Book",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-03T20:00:42.524Z"
+  "lastUpdated": "2026-07-03T21:12:15.138Z"
 }
