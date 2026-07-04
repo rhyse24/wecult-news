@@ -2,6 +2,24 @@
   "totalArticles": 699,
   "runs": [
     {
+      "timestamp": "2026-07-04T13:42:58.713Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 220,
+      "totalCandidates": 84,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Ghost in the Shell studio’s Star Wars sensation cooked up a villain with vibes straight from KotOR",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-04T12:00:43.193Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1363,17 +1381,7 @@
       "totalCandidates": 51,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-29T23:19:43.250Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 54,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-04T12:00:43.193Z"
+  "lastUpdated": "2026-07-04T13:42:58.713Z"
 }
