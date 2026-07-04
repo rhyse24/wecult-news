@@ -1,6 +1,60 @@
 {
-  "totalArticles": 698,
+  "totalArticles": 699,
   "runs": [
+    {
+      "timestamp": "2026-07-04T10:00:46.285Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 237,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "‘Against Nature’ Explores Humanity’s Dark Sides in Haunting and Hypnotic Fashion (Exclusive Trailer)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "slug": "bb81dced-against-nature-explores-humanitys-dark-sides-in-haunting-and"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "22 Best Movies New to Streaming in July: ‘Project Hail Mary,’ ‘Devil Wears Prada 2,’ ‘The Drama,’ ‘Super Mario Galaxy Movie’ and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 21,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘Solo Leveling’ Movie ‘Beyond the System’ From Crunchyroll and Aniplex Now in Production",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Behind the ‘Supergirl’ Bomb: Competing Cuts, Creative Differences (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Celina Vikram Jaitly Returns to the Big Screen as Sister Nibedita, the Irish-Born Disciple of Swami Vivekananda (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "10 Crime Movies With Perfect Mysteries From Start to Finish",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-04T08:00:45.386Z",
       "status": "success",
@@ -1327,33 +1381,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-29T20:01:15.565Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 264,
-      "totalCandidates": 96,
-      "written": [
-        {
-          "title": "Roblox Reveals 6 New Exclusive 18+ Games, Including an Extraction Shooter From the Co-Founder of Bungie",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 20,
-          "slug": "01a59ebb-roblox-reveals-6-new-exclusive-18-games-including-an-extract"
-        }
-      ],
-      "rejected": [
-        {
-          "title": " New Vegas director Josh Sawyer says games can and should pull on artistic inspirations from 'anywhere and everywhere': 'Greek plays, they knocked it out of the park thousands of years ago—why not look at them?' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 16,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-04T08:00:45.386Z"
+  "lastUpdated": "2026-07-04T10:00:46.285Z"
 }
