@@ -2,6 +2,16 @@
   "totalArticles": 699,
   "runs": [
     {
+      "timestamp": "2026-07-04T12:00:43.193Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 223,
+      "totalCandidates": 84,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-04T10:00:46.285Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1363,25 +1373,7 @@
       "totalCandidates": 54,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-29T21:38:32.490Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Walton Goggins Saved Olivia Wilde From Being Stampeded to Death by Horses on ‘Cowboys & Aliens’ Set: ‘I Owe Him My Life. He’s a Real-Life Hero’",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "483b5848-walton-goggins-saved-olivia-wilde-from-being-stampeded-to-de"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-04T10:00:46.285Z"
+  "lastUpdated": "2026-07-04T12:00:43.193Z"
 }
