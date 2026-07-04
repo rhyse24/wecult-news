@@ -1,6 +1,32 @@
 {
-  "totalArticles": 693,
+  "totalArticles": 694,
   "runs": [
+    {
+      "timestamp": "2026-07-04T02:00:45.991Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 256,
+      "totalCandidates": 23,
+      "written": [
+        {
+          "title": "'The Odyssey's Tom Holland and Anne Hathaway Explain Christopher Nolan’s Never-Before-Seen IMAX Trick",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 18,
+          "slug": "8c654757-the-odysseys-tom-holland-and-anne-hathaway-explain-christoph"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "22 Best Movies New to Streaming in July: ‘Project Hail Mary,’ ‘Devil Wears Prada 2,’ ‘The Drama,’ ‘Super Mario Galaxy Movie’ and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 24,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-04T00:00:47.062Z",
       "status": "quota",
@@ -1363,54 +1389,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-29T08:01:11.628Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 184,
-      "totalCandidates": 19,
-      "written": [
-        {
-          "title": "Korea Box Office: ‘Toy Story 5’ Stays No. 1 While Thriller ‘The Eyes’ Opens in Second Place",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "5a50f8e5-korea-box-office-toy-story-5-stays-no-1-while-thriller-the-e"
-        },
-        {
-          "title": "5 Classic American War Movies That Have Aged Like Milk",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "slug": "ea97123d-5-classic-american-war-movies-that-have-aged-like-milk"
-        },
-        {
-          "title": "Busan’s Asian Cinema Fund Names 12 Recipients for 2026",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "f729fb23-busans-asian-cinema-fund-names-12-recipients-for-2026"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "House Of The Dragon Season 3's Most Anticipated Death Is Blunt",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "10 Best Horror Movies of the Last 20 Years You've Never Heard Of",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-04T00:00:47.062Z"
+  "lastUpdated": "2026-07-04T02:00:45.991Z"
 }
