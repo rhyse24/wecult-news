@@ -2,6 +2,34 @@
   "totalArticles": 693,
   "runs": [
     {
+      "timestamp": "2026-07-04T00:00:47.062Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 249,
+      "totalCandidates": 23,
+      "written": [],
+      "rejected": [
+        {
+          "title": "22 Best Movies New to Streaming in July: ‘Project Hail Mary,’ ‘Devil Wears Prada 2,’ ‘The Drama,’ ‘Super Mario Galaxy Movie’ and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 24,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "'The Odyssey's Tom Holland and Anne Hathaway Explain Christopher Nolan’s Never-Before-Seen IMAX Trick",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 18,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-03T23:09:07.243Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1382,33 +1410,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-29T06:01:10.382Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 184,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "House Of The Dragon's Latest Fatality Moves Matt Smith To Song: 'Ding Dong The Witch Is Dead!' — Watch",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "8121c1f9-house-of-the-dragons-latest-fatality-moves-matt-smith-to-son"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "House Of The Dragon: Rhaenyra Kills [Spoiler] As She Takes The Iron Throne — Read Recap",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-03T23:09:07.243Z"
+  "lastUpdated": "2026-07-04T00:00:47.062Z"
 }
