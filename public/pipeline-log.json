@@ -2,6 +2,16 @@
   "totalArticles": 702,
   "runs": [
     {
+      "timestamp": "2026-07-04T18:00:46.553Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 211,
+      "totalCandidates": 21,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-04T17:11:02.233Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1336,75 +1346,7 @@
       "totalCandidates": 25,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-30T08:01:09.260Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 54,
-      "written": [
-        {
-          "title": "Jeremy Allen White Knew ‘The Bear’ Ending for Two Years",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "slug": "b003f640-jeremy-allen-white-knew-the-bear-ending-for-two-years"
-        },
-        {
-          "title": "Rhaenyra had to be a nervous wreck at the bloody end of this week's House Of The Dragon",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "a368c95a-rhaenyra-had-to-be-a-nervous-wreck-at-the-bloody-end-of-this"
-        },
-        {
-          "title": "Anatomy Of A Finale: Did The Bear earn a star on its way out?",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "14a99d33-anatomy-of-a-finale-did-the-bear-earn-a-star-on-its-way-out"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Avatar: The Last Airbender Season 3: Expected Release Date & Everything We Know About The Final Season",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 15,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "What’s Coming to Disney+ in July 2026",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Josh Peck Reveals His ‘Drake & Josh’ Pay After Four Seasons",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "‘Nothing less than extraordinary’ – how The Bear pulled off TV’s most almighty comeback",
-          "category": "tv",
-          "source": "Guardian TV",
-          "score": 13,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": " TV Spy — Walker, Little House on the Prairie, and all the US dramas you can watch on UK services: 4-10 July ",
-          "category": "tv",
-          "source": "What to Watch",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-04T17:11:02.233Z"
+  "lastUpdated": "2026-07-04T18:00:46.553Z"
 }
