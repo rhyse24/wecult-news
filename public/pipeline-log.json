@@ -1,6 +1,32 @@
 {
-  "totalArticles": 703,
+  "totalArticles": 704,
   "runs": [
+    {
+      "timestamp": "2026-07-04T21:02:52.078Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 209,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "12 Most Bizarre ‘Jeopardy!’ Contestant Professions Ever",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 10,
+          "slug": "dc7f356c-12-most-bizarre-jeopardy-contestant-professions-ever"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Dutton Ranch Finale Hits Oreana With A Curveball: 'It's Going To Be Crazy To See' What Happens Next, Star Says",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-04T20:00:42.988Z",
       "status": "quota",
@@ -1360,17 +1386,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-06-30T14:00:40.159Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 24,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-04T20:00:42.988Z"
+  "lastUpdated": "2026-07-04T21:02:52.078Z"
 }
