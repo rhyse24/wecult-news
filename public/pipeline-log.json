@@ -2,6 +2,24 @@
   "totalArticles": 703,
   "runs": [
     {
+      "timestamp": "2026-07-04T20:00:42.988Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 210,
+      "totalCandidates": 30,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Dutton Ranch Finale Hits Oreana With A Curveball: 'It's Going To Be Crazy To See' What Happens Next, Star Says",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-04T19:20:48.027Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1352,17 +1370,7 @@
       "totalCandidates": 24,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-06-30T12:01:10.571Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 264,
-      "totalCandidates": 24,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-04T19:20:48.027Z"
+  "lastUpdated": "2026-07-04T20:00:42.988Z"
 }
