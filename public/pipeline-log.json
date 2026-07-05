@@ -2,6 +2,24 @@
   "totalArticles": 708,
   "runs": [
     {
+      "timestamp": "2026-07-05T13:49:33.704Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 183,
+      "totalCandidates": 31,
+      "written": [],
+      "rejected": [
+        {
+          "title": "‘Dutton Ranch’ Star Juan Pablo Raba Has a Wild Theory About [SPOILER]’s Murder: ‘There’s a Lot of Questions to Be Answered’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-05T12:00:47.681Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1337,54 +1355,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-01T08:00:41.433Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 279,
-      "totalCandidates": 57,
-      "written": [
-        {
-          "title": "Live-Action ‘Last Kids on Earth’ Snags Pilot Order From Disney",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "slug": "e48221cd-live-action-last-kids-on-earth-snags-pilot-order-from-disney"
-        },
-        {
-          "title": "Kathy Griffin Claims She Was ‘Banned’ From ‘The Tonight Show’ for Being ‘Too Controversial’ and Slams Jimmy Fallon for Hosting Conor McGregor",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "0bf6e560-kathy-griffin-claims-she-was-banned-from-the-tonight-show-fo"
-        },
-        {
-          "title": "‘Nothing less than extraordinary’ – how The Bear pulled off TV’s most almighty comeback",
-          "category": "tv",
-          "source": "Guardian TV",
-          "score": 12,
-          "slug": "9112303e-nothing-less-than-extraordinary-how-the-bear-pulled-off-tvs-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Lionel Boyce on Why ‘The Bear’ Season 5 Was His ‘Most Intense Shoot’ Yet and Wrapping Up Marcus’ Arc: ‘I Don’t Know How to Say Goodbye’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Avatar: The Last Airbender Season 2 Netflix Viewership Craters 58% From First Season",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-05T12:00:47.681Z"
+  "lastUpdated": "2026-07-05T13:49:33.704Z"
 }
