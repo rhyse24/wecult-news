@@ -1,6 +1,32 @@
 {
-  "totalArticles": 709,
+  "totalArticles": 710,
   "runs": [
+    {
+      "timestamp": "2026-07-05T17:16:30.056Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 173,
+      "totalCandidates": 6,
+      "written": [
+        {
+          "title": "Mike Wallace, Who Wrote a Radical History of New York, Dies at 83",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 7,
+          "slug": "d9d53f2a-mike-wallace-who-wrote-a-radical-history-of-new-york-dies-at"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Susanna Clarke: ‘I had been ill for 11 years. I felt like I was about to fall off the world’",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 4,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-05T16:00:47.594Z",
       "status": "quota",
@@ -1300,17 +1326,7 @@
       "totalCandidates": 57,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-01T12:40:45.313Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 55,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-05T16:00:47.594Z"
+  "lastUpdated": "2026-07-05T17:16:30.056Z"
 }
