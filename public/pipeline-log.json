@@ -1,6 +1,24 @@
 {
-  "totalArticles": 711,
+  "totalArticles": 712,
   "runs": [
+    {
+      "timestamp": "2026-07-05T22:00:45.267Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 172,
+      "totalCandidates": 74,
+      "written": [
+        {
+          "title": "Hideo Kojima Warns of 'Frightening' Digital Future After PlayStation Reveals Plan to End Physical Disc Production",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "c116633a-hideo-kojima-warns-of-frightening-digital-future-after-plays"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-05T21:07:07.084Z",
       "status": "quota",
@@ -1309,40 +1327,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-01T20:00:40.758Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 286,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "The Odyssey Final Trailer Just Spells Out the Plot For Non-Classics Majors to Enjoy Too",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 19,
-          "slug": "6b18b88b-the-odyssey-final-trailer-just-spells-out-the-plot-for-non-c"
-        },
-        {
-          "title": "Sadie Sink’s ‘Spider-Man: Brand New Day’ Role Is So Secretive That She Didn’t Have an Audition and Never Saw the Script Until Flying to London",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "64810d7d-sadie-sinks-spider-man-brand-new-day-role-is-so-secretive-th"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "X-Men '97 Season 2's X-Factor, Explained",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-05T21:07:07.084Z"
+  "lastUpdated": "2026-07-05T22:00:45.267Z"
 }
