@@ -1,6 +1,24 @@
 {
-  "totalArticles": 708,
+  "totalArticles": 709,
   "runs": [
+    {
+      "timestamp": "2026-07-05T16:00:47.594Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 174,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "15 TV Shows To Watch If You Like Silo",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "315e7e35-15-tv-shows-to-watch-if-you-like-silo"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-05T15:16:36.258Z",
       "status": "quota",
@@ -1292,47 +1310,7 @@
       "totalCandidates": 55,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-01T12:00:39.511Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 279,
-      "totalCandidates": 96,
-      "written": [
-        {
-          "title": "Christopher Nolan's The Odyssey Gets Official Roblox Tie-In Game",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 17,
-          "slug": "dcfc968c-christopher-nolans-the-odyssey-gets-official-roblox-tie-in-g"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Fragmentary Order: How the Creator of Escape From Tarkov Plans to Make the Most Realistic Sci-Fi Game Ever",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "With Xbox Speeding Up Work on New Fallout Games, One Former Bethesda Dev Warns Faster Sequels 'Risk Fan Fatigue' — but Could New Vegas Developer Obsidian Be Drafted in to Help?",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Microsoft Is Reminding Xbox Game Pass Members That They'll Have to Buy Call of Duty: Modern Warfare 4 if They Want to Play Day One",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-05T15:16:36.258Z"
+  "lastUpdated": "2026-07-05T16:00:47.594Z"
 }
