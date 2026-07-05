@@ -1,6 +1,32 @@
 {
-  "totalArticles": 710,
+  "totalArticles": 711,
   "runs": [
+    {
+      "timestamp": "2026-07-05T21:07:07.084Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 174,
+      "totalCandidates": 22,
+      "written": [
+        {
+          "title": "Harvey Keitel Shooting Film Written by Wife Daphna Kastner, Calls Out ‘Danger’ of AI When Mentioning Michael Caine AI-Narrated ‘The Odyssey’ Audiobook",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "1514f0f9-harvey-keitel-shooting-film-written-by-wife-daphna-kastner-c"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Box Office: ‘Obsession’ Surpasses $400 Million Globally",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-05T20:00:47.799Z",
       "status": "quota",
@@ -1316,25 +1342,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-01T18:00:37.064Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 54,
-      "written": [
-        {
-          "title": "X-Men '97 Brings Back Magneto's Long-Lost Daughter (And It's Not Scarlet Witch)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "06b13f5d-x-men-97-brings-back-magnetos-long-lost-daughter-and-its-not"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-05T20:00:47.799Z"
+  "lastUpdated": "2026-07-05T21:07:07.084Z"
 }
