@@ -2,6 +2,59 @@
   "totalArticles": 713,
   "runs": [
     {
+      "timestamp": "2026-07-06T08:00:46.646Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 176,
+      "totalCandidates": 25,
+      "written": [],
+      "rejected": [
+        {
+          "title": "China Box Office: ‘Minions & Monsters’ Takes Top Spot as ‘Keep Real’ Opens Second",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Matt Damon Breaks Down the Bizarre Camera Hack That Made Christopher Nolan’s 'The Odyssey' Possible",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘Minions & Monsters’ Posts Franchise-Low $61M 5-Day Opening",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "8 Worst Phoned-In Performances by Great Actors",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘3 Weeks After’ Director on Tackling ‘Everyday’ Peer Violence and Why Conversations About Suicide in Bulgaria Happen Too Late: ‘We Don’t Notice the Fire’",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘Five Years, Four Months’ Co-Director Esteban Hoyos García on Urgency of Remembering Colombia’s Disappeared Ahead of Right-Wing Presidency",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-06T06:00:45.850Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1322,17 +1375,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-02T06:00:40.565Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 34,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-06T06:00:45.850Z"
+  "lastUpdated": "2026-07-06T08:00:46.646Z"
 }
