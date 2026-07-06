@@ -2,6 +2,45 @@
   "totalArticles": 713,
   "runs": [
     {
+      "timestamp": "2026-07-06T06:00:45.850Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 175,
+      "totalCandidates": 24,
+      "written": [],
+      "rejected": [
+        {
+          "title": "China Box Office: ‘Minions & Monsters’ Takes Top Spot as ‘Keep Real’ Opens Second",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Box Office: ‘Obsession’ Surpasses $400 Million Globally",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Matt Damon Breaks Down the Bizarre Camera Hack That Made Christopher Nolan’s 'The Odyssey' Possible",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Minions & Monsters’ Posts Franchise-Low $61M 5-Day Opening",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-06T03:59:20.146Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1293,25 +1332,7 @@
       "totalCandidates": 34,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-02T03:57:36.902Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Enola Holmes 3 Review: Netflix’s Mystery Franchise Doesn’t Quite Find Its Way in the Mediterranean",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 18,
-          "slug": "04270104-enola-holmes-3-review-netflixs-mystery-franchise-doesnt-quit"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-06T03:59:20.146Z"
+  "lastUpdated": "2026-07-06T06:00:45.850Z"
 }
