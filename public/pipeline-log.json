@@ -2,6 +2,27 @@
   "totalArticles": 713,
   "runs": [
     {
+      "timestamp": "2026-07-06T08:39:05.804Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 177,
+      "totalCandidates": 25,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Korea Box Office: ‘Toy Story 5’ Maintains Slender Advantage Over Surging Thriller ‘The Eyes’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-06T08:00:46.646Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1314,68 +1335,7 @@
       "totalCandidates": 34,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-02T07:38:39.087Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "How JD Vance Helped bell hooks Back Onto the Best-Seller List",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 9,
-          "slug": "1464ee11-how-jd-vance-helped-bell-hooks-back-onto-the-best-seller-lis"
-        },
-        {
-          "title": "The Triumph of Rand al’Thor and Why I Named My Inner Voice Moridin",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 9,
-          "slug": "f5ec8dc8-the-triumph-of-rand-althor-and-why-i-named-my-inner-voice-mo"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "6 Things I’ve Learned From Watching More Than 100 Sci Fi Films",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Odysseus’ Long Journey to Theaters Is Almost Over With the Final Trailer for The Odyssey",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 14,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "From a Retired Spy to The Return of Enola Holmes, Here Are July’s Mystery & Thriller Adaptations",
-          "category": "books",
-          "source": "Book Riot",
-          "score": 14,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Victoria Aveyard’s Tempest Picked Up for TV Adaptation Before Publication",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 7,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "How a Self-Published Book Became a Mega Bestseller",
-          "category": "books",
-          "source": "Book Riot",
-          "score": 7,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-06T08:00:46.646Z"
+  "lastUpdated": "2026-07-06T08:39:05.804Z"
 }
