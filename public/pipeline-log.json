@@ -2,6 +2,16 @@
   "totalArticles": 712,
   "runs": [
     {
+      "timestamp": "2026-07-06T00:00:47.005Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 162,
+      "totalCandidates": 32,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-05T23:05:20.003Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1301,25 +1311,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-01T23:19:34.033Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 287,
-      "totalCandidates": 85,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Next Metroid Game for Switch 2 Reportedly Leaked in Age Rating From Brazilian Government",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-05T23:05:20.003Z"
+  "lastUpdated": "2026-07-06T00:00:47.005Z"
 }
