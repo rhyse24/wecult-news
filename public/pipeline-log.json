@@ -2,6 +2,16 @@
   "totalArticles": 714,
   "runs": [
     {
+      "timestamp": "2026-07-06T13:50:46.775Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 215,
+      "totalCandidates": 75,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-06T12:00:45.877Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1341,17 +1351,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-02T12:00:46.743Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 33,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-06T12:00:45.877Z"
+  "lastUpdated": "2026-07-06T13:50:46.775Z"
 }
