@@ -2,6 +2,24 @@
   "totalArticles": 714,
   "runs": [
     {
+      "timestamp": "2026-07-06T16:00:50.675Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 240,
+      "totalCandidates": 77,
+      "written": [],
+      "rejected": [
+        {
+          "title": "After PS5 Disc Controversy, Microsoft Confirms Halo: Campaign Evolved Will Come On A Disc",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-06T14:00:49.618Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1341,17 +1359,7 @@
       "totalCandidates": 31,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-02T16:00:39.761Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 286,
-      "totalCandidates": 29,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-06T14:00:49.618Z"
+  "lastUpdated": "2026-07-06T16:00:50.675Z"
 }
