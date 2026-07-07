@@ -1,6 +1,24 @@
 {
-  "totalArticles": 726,
+  "totalArticles": 727,
   "runs": [
+    {
+      "timestamp": "2026-07-07T20:00:54.578Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Craig Kilborn Sets Directorial Debut ‘The Life Golden’ Starring Lauren German and Tom Byrne (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "e2ead674-craig-kilborn-sets-directorial-debut-the-life-golden-starrin"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-07T18:00:53.628Z",
       "status": "quota",
@@ -1338,32 +1356,7 @@
       "totalCandidates": 15,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-03T17:37:19.450Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 271,
-      "totalCandidates": 51,
-      "written": [
-        {
-          "title": "TVLine Asks: Is Tony DiNozzo NCIS' Next Director? Did The Bear Final Shot Confuse? Was S.W.A.T. Exiles News Surprising? And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "1c4c3ceb-tvline-asks-is-tony-dinozzo-ncis-next-director-did-the-bear-"
-        },
-        {
-          "title": "Jon Bernthal Played Characters On Two Different Law & Order Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "7e16c032-jon-bernthal-played-characters-on-two-different-law-order-se"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-07T18:00:53.628Z"
+  "lastUpdated": "2026-07-07T20:00:54.578Z"
 }
