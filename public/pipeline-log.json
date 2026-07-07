@@ -2,6 +2,16 @@
   "totalArticles": 724,
   "runs": [
     {
+      "timestamp": "2026-07-07T14:01:00.482Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 263,
+      "totalCandidates": 52,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-07T12:00:54.182Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1334,32 +1344,7 @@
       "totalCandidates": 30,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-03T10:41:36.534Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 279,
-      "totalCandidates": 94,
-      "written": [
-        {
-          "title": "Here Are The Best Commanders To Have In Your Deck From Marvel Super Heroes In MTG",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 12,
-          "slug": "1f4dd822-here-are-the-best-commanders-to-have-in-your-deck-from-marve"
-        },
-        {
-          "title": "Suicide Squad: Kill the Justice League Developers Wanted to Quit the Industry After the Game Was Released",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "e3c3936c-suicide-squad-kill-the-justice-league-developers-wanted-to-q"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-07T12:00:54.182Z"
+  "lastUpdated": "2026-07-07T14:01:00.482Z"
 }
