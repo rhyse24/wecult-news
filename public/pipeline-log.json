@@ -2,6 +2,24 @@
   "totalArticles": 724,
   "runs": [
     {
+      "timestamp": "2026-07-07T11:12:40.002Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 254,
+      "totalCandidates": 46,
+      "written": [],
+      "rejected": [
+        {
+          "title": " TV Spy — Lucky, The Westies, and all the US dramas you can watch on UK services: 18-24 July ",
+          "category": "tv",
+          "source": "What to Watch",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-07T10:00:47.054Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1341,54 +1359,7 @@
       "totalCandidates": 95,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-03T08:00:43.007Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 282,
-      "totalCandidates": 57,
-      "written": [
-        {
-          "title": "The 15 Most Pointless Movie MacGuffins",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 14,
-          "slug": "084ccbe0-the-15-most-pointless-movie-macguffins"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "15 Sequels That Took Their Sweet Time",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Crunchyroll Founder Launches AniBiz, New Global Anime Licensing Platform With Offerings From Aniplex, Toei and More Top IP Holders (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 11,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "‘Elle’ Honors the Late James Van Der Beek After Final Onscreen Role",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Exclusive: Square Enix Manga & Books Reveals 8 Manga, 2 Final Fantasy Book Releases",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 11,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-07T10:00:47.054Z"
+  "lastUpdated": "2026-07-07T11:12:40.002Z"
 }
