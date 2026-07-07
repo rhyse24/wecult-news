@@ -1,6 +1,24 @@
 {
-  "totalArticles": 729,
+  "totalArticles": 730,
   "runs": [
+    {
+      "timestamp": "2026-07-07T23:05:52.630Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 283,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Anne Hathaway ‘Spent a Week’ Prepping for Harley Quinn Before ‘Dark Knight Rises’ Meeting; Nolan Didn’t Reveal Catwoman Until Two Hours Into Their Chat",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "33080335-anne-hathaway-spent-a-week-prepping-for-harley-quinn-before-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-07T22:00:49.558Z",
       "status": "quota",
@@ -1370,17 +1388,7 @@
       "totalCandidates": 15,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-03T21:12:15.138Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 257,
-      "totalCandidates": 15,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-07T22:00:49.558Z"
+  "lastUpdated": "2026-07-07T23:05:52.630Z"
 }
