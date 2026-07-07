@@ -2,6 +2,16 @@
   "totalArticles": 719,
   "runs": [
     {
+      "timestamp": "2026-07-07T04:00:45.585Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 253,
+      "totalCandidates": 78,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-07T03:50:10.274Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1343,32 +1353,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-03T03:40:45.767Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 289,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "Danny McBride Drew Inspiration for His GI Joe Movie From a Cartoon Deep Cut",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "slug": "51592690-danny-mcbride-drew-inspiration-for-his-gi-joe-movie-from-a-c"
-        },
-        {
-          "title": "Posterized July 2026: The Samurai and the Prisoner, The Odyssey, Night Nurse & More",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 14,
-          "slug": "8d69556e-posterized-july-2026-the-samurai-and-the-prisoner-the-odysse"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-07T03:50:10.274Z"
+  "lastUpdated": "2026-07-07T04:00:45.585Z"
 }
