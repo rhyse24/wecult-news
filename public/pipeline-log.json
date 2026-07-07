@@ -1,6 +1,38 @@
 {
-  "totalArticles": 719,
+  "totalArticles": 722,
   "runs": [
+    {
+      "timestamp": "2026-07-07T06:00:44.509Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 253,
+      "totalCandidates": 78,
+      "written": [
+        {
+          "title": "Epic Games settles lawsuit against former contractor accused of leaking unannounced Fortnite collaborations",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 14,
+          "slug": "b410cf53-epic-games-settles-lawsuit-against-former-contractor-accused"
+        },
+        {
+          "title": "10 Best Games of 2026 So Far",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "slug": "e8a26630-10-best-games-of-2026-so-far"
+        },
+        {
+          "title": "The Elder Scrolls Online Has Reportedly Lost 'As Much as Half' of Its Development Team as Its Roadmap Is Being Re-Evaluated",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "286bb968-the-elder-scrolls-online-has-reportedly-lost-as-much-as-half"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-07T04:00:45.585Z",
       "status": "quota",
@@ -1335,25 +1367,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-03T04:00:44.747Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 287,
-      "totalCandidates": 97,
-      "written": [
-        {
-          "title": "GTA Online Beginner’s Guide",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "fe248839-gta-online-beginners-guide"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-07T04:00:45.585Z"
+  "lastUpdated": "2026-07-07T06:00:44.509Z"
 }
