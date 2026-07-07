@@ -1,6 +1,35 @@
 {
-  "totalArticles": 725,
+  "totalArticles": 726,
   "runs": [
+    {
+      "timestamp": "2026-07-07T18:00:53.628Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 268,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "Avatar Aang: The Last Airbender Gets a Trailer and a Much Earlier Release Date",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 17,
+          "slug": "05cbacec-avatar-aang-the-last-airbender-gets-a-trailer-and-a-much-ear"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Reading The Wheel of Time: Lan Rides, Perrin Dreams, and Graendal Escapes in Towers of Midnight (Part 1)",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 583 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-07T16:00:52.149Z",
       "status": "quota",
@@ -1334,25 +1363,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-03T16:00:46.475Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 266,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "'Spider-Man: Brand New Day' Teased a Major Daredevil Crossover in Plain Sight",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "slug": "42d13e48-spider-man-brand-new-day-teased-a-major-daredevil-crossover-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-07T16:00:52.149Z"
+  "lastUpdated": "2026-07-07T18:00:53.628Z"
 }
