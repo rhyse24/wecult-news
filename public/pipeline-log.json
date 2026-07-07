@@ -1,6 +1,24 @@
 {
-  "totalArticles": 715,
+  "totalArticles": 716,
   "runs": [
+    {
+      "timestamp": "2026-07-07T00:00:44.916Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 251,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "‘House of the Dragon’: Emma D’Arcy on Rhaenyra’s ‘Paranoia’ Following That Daeron Swap and Returning to ‘Pure Targaryenism’ With Daemon",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "slug": "b5b9872c-house-of-the-dragon-emma-darcy-on-rhaenyras-paranoia-followi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-06T23:12:18.682Z",
       "status": "quota",
@@ -1357,25 +1375,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-02T23:12:27.757Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 290,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "‘Moana 3’ in the Works at Disney, According to Dwayne Johnson",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "8811b77b-moana-3-in-the-works-at-disney-according-to-dwayne-johnson"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-06T23:12:18.682Z"
+  "lastUpdated": "2026-07-07T00:00:44.916Z"
 }
