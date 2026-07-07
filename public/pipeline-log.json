@@ -1,6 +1,32 @@
 {
-  "totalArticles": 728,
+  "totalArticles": 729,
   "runs": [
+    {
+      "timestamp": "2026-07-07T22:00:49.558Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 283,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "‘Enola Holmes 3’ Debuts With 20.7 Million Views in Five Days",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "b2bc2de1-enola-holmes-3-debuts-with-207-million-views-in-five-days"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "House Of The Dragon is putting out one of Game Of Thrones’ biggest fires",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-07T21:27:31.136Z",
       "status": "quota",
@@ -1354,17 +1380,7 @@
       "totalCandidates": 15,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-03T20:00:42.524Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 259,
-      "totalCandidates": 15,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-07T21:27:31.136Z"
+  "lastUpdated": "2026-07-07T22:00:49.558Z"
 }
