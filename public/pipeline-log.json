@@ -2,6 +2,16 @@
   "totalArticles": 735,
   "runs": [
     {
+      "timestamp": "2026-07-08T10:23:01.845Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 50,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-08T10:00:23.668Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1382,39 +1392,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-04T08:00:45.386Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 252,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "10 Best TV Shows Like X-Men '97",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 19,
-          "slug": "ebba088f-10-best-tv-shows-like-x-men-97"
-        },
-        {
-          "title": "Dutton Ranch Finale Ends In Murder, But One Star Maintains His Innocence: 'We Didn't See Him Do It'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "3b9bdc8b-dutton-ranch-finale-ends-in-murder-but-one-star-maintains-hi"
-        },
-        {
-          "title": "10 Best New Movies on Netflix in July 2026",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 8,
-          "slug": "c40bcdf4-10-best-new-movies-on-netflix-in-july-2026"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-08T10:00:23.668Z"
+  "lastUpdated": "2026-07-08T10:23:01.845Z"
 }
