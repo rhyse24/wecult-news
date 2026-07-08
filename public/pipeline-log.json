@@ -1,6 +1,39 @@
 {
-  "totalArticles": 739,
+  "totalArticles": 740,
   "runs": [
+    {
+      "timestamp": "2026-07-08T19:39:26.101Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 286,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "John Lasker, a Top ESPN Streaming Executive, to Exit in September",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "7ca42b9c-john-lasker-a-top-espn-streaming-executive-to-exit-in-septem"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "X-Men '97 Season 2: Does [Spoiler] Die In Marvel Comics?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "15 Games That Punish You for Trying to Be Nice",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 13,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-08T18:00:22.350Z",
       "status": "quota",
@@ -1369,17 +1402,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-04T18:00:46.553Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 211,
-      "totalCandidates": 21,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-08T18:00:22.350Z"
+  "lastUpdated": "2026-07-08T19:39:26.101Z"
 }
