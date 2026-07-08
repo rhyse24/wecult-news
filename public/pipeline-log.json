@@ -2,6 +2,24 @@
   "totalArticles": 731,
   "runs": [
     {
+      "timestamp": "2026-07-08T06:00:23.231Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 51,
+      "written": [],
+      "rejected": [
+        {
+          "title": "House Of The Dragon is putting out one of Game Of Thrones’ biggest fires",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-08T04:00:22.603Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1336,25 +1354,7 @@
       "totalCandidates": 39,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-04T03:33:43.174Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 253,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": " Epic reaches lawsuit settlement with former contractor who was also a notorious Fortnite leaker ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "9e209e29-epic-reaches-lawsuit-settlement-with-former-contractor-who-w"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-08T04:00:22.603Z"
+  "lastUpdated": "2026-07-08T06:00:23.231Z"
 }
