@@ -1,6 +1,39 @@
 {
-  "totalArticles": 736,
+  "totalArticles": 738,
   "runs": [
+    {
+      "timestamp": "2026-07-08T14:00:34.313Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 71,
+      "written": [
+        {
+          "title": "Microsoft Reportedly Plans to Make More of Its Best Games Console Exclusive So People Have a Reason to Buy an Xbox — So What Could Skip PlayStation?",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "c3c68543-microsoft-reportedly-plans-to-make-more-of-its-best-games-co"
+        },
+        {
+          "title": "Final Fantasy 7: Ever Crisis End-of-Service Announced for October 6th",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "slug": "ff5cd85e-final-fantasy-7-ever-crisis-end-of-service-announced-for-oct"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "20 Beloved Video Games No One Admits They Hated",
+          "category": "games",
+          "source": "WhatCulture Games",
+          "score": 14,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-08T12:00:20.327Z",
       "status": "quota",
@@ -1346,17 +1379,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-04T12:00:43.193Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 223,
-      "totalCandidates": 84,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-08T12:00:20.327Z"
+  "lastUpdated": "2026-07-08T14:00:34.313Z"
 }
