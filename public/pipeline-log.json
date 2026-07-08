@@ -2,6 +2,24 @@
   "totalArticles": 740,
   "runs": [
     {
+      "timestamp": "2026-07-08T20:00:21.230Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 285,
+      "totalCandidates": 38,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Dune: Part Three Trailer Takes Us 20 Years Forward, With Paul Atreides Now a Tyrant",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 22,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-08T19:39:26.101Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1376,33 +1394,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-04T19:20:48.027Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 209,
-      "totalCandidates": 21,
-      "written": [
-        {
-          "title": "2026 Karlovy Vary International Film Festival Preview: 10 Films We Can’t Wait to See",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 13,
-          "slug": "eef66eb8-2026-karlovy-vary-international-film-festival-preview-10-fil"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Best Sci-Fi Horror Movies of the Last 20 Years You've Never Heard Of",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 14,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-08T19:39:26.101Z"
+  "lastUpdated": "2026-07-08T20:00:21.230Z"
 }
