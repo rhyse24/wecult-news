@@ -2,7 +2,7 @@ import type { APIRoute } from 'astro'
 
 const rawArticles = import.meta.glob('../content/articles/*.json', { eager: true })
 
-const BASE = 'https://www.wecultdaily.com'
+const BASE = 'https://wecultdaily.com'
 
 const STATIC_PAGES = [
   { loc: `${BASE}/`,           priority: '1.0', changefreq: 'hourly'  },

@@ -2,7 +2,7 @@
 import { readFileSync, existsSync } from 'fs';
 
 const KEY      = 'wecult2024news';
-const HOST     = 'www.wecultdaily.com';
+const HOST     = 'wecultdaily.com';
 const LOG_FILE = 'public/pipeline-log.json';
 
 if (!existsSync(LOG_FILE)) {

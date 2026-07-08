@@ -12,7 +12,7 @@ const CATEGORY_LABELS: Record<Category, string> = {
   books: 'Books',
 }
 
-const BASE = 'https://www.wecultdaily.com'
+const BASE = 'https://wecultdaily.com'
 
 function escapeXml(str: string): string {
   return (str ?? '')

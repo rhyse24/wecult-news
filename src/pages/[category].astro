@@ -32,7 +32,7 @@ const articles = getByCategory(mockArticles, category! as import('../types').Cat
 const [hero, featured, ...rest] = articles
 const allOtherArticles = mockArticles.filter(a => a.category !== category).slice(0, 4)
 
-const siteBase = 'https://www.wecultdaily.com'
+const siteBase = 'https://wecultdaily.com'
 const catUrl = `${siteBase}/${category}`
 const catSchema = {
   '@context': 'https://schema.org',

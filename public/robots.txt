@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.wecultdaily.com/sitemap.xml
-Sitemap: https://www.wecultdaily.com/news-sitemap.xml
+Sitemap: https://wecultdaily.com/sitemap.xml
+Sitemap: https://wecultdaily.com/news-sitemap.xml

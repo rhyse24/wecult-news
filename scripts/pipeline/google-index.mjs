@@ -14,7 +14,7 @@ import { readFileSync, existsSync, readdirSync } from 'fs';
 const SA_KEY_PATH = process.env.GOOGLE_SA_KEY_PATH;
 const ARTICLES_DIR = 'src/content/articles';
 const LOG_FILE    = 'public/pipeline-log.json';
-const HOST        = 'www.wecultdaily.com';
+const HOST        = 'wecultdaily.com';
 const DAILY_LIMIT = 200;
 
 if (!SA_KEY_PATH || !existsSync(SA_KEY_PATH)) {
