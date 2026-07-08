@@ -373,6 +373,8 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
     <script is:inline>
       (function() {
         function initAppPill() {
+          // Mobilde app tanıtım pill/modal gösterilmez (ürün kararı)
+          if (window.matchMedia && window.matchMedia('(max-width: 768px)').matches) return
           var pill = document.getElementById('app-pill')
           var pillClose = document.getElementById('app-pill-close')
           var pillOpen = document.getElementById('app-pill-open')
@@ -505,6 +507,8 @@ const preloadSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 65vw, 900px"
         var ad = document.getElementById('mob-sticky-ad')
         var closeBtn = document.getElementById('mob-sticky-close')
         if (!ad) return
+        // Mobil reklam kaldırıldı (ürün kararı) — sabit banner hiç gösterilmez/push edilmez
+        if (window.matchMedia && window.matchMedia('(max-width: 768px)').matches) return
 
         function hasConsent() {
           try {

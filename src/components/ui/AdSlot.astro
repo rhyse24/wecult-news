@@ -72,6 +72,9 @@ const cfg = configs[type]
   var wrap = document.getElementById(slotId)
   if (!wrap) return
 
+  // Mobilde reklam yok (ürün kararı) — gizli slota push etme
+  if (window.matchMedia && window.matchMedia('(max-width: 768px)').matches) return
+
   /* ── helpers ── */
   function hasConsent() {
     try {
@@ -153,8 +156,7 @@ const cfg = configs[type]
     grid-column: span 2;
   }
   @media (max-width: 768px) {
-    .story-grid-ad { grid-column: 1 / -1; }
-    /* Hide sidebar ad on mobile */
-    .article-sidebar-ad { display: none !important; }
+    /* Mobilde tüm AdSense birimleri kaldırıldı (ürün kararı 2026-07) */
+    .ad-slot-wrap { display: none !important; }
   }
 </style>

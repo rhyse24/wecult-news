@@ -788,7 +788,10 @@ label.cb-cat-title { cursor: pointer; }
 }
 .mob-sticky-close:hover { color: var(--text); }
 @media (max-width: 768px) {
-  .mob-sticky-ad { display: flex; }
+  /* Mobilde reklam + app tanıtım UI kaldırıldı (ürün kararı 2026-07) */
+  .mob-sticky-ad { display: none !important; }
+  .app-pill { display: none !important; }
+  .app-modal-backdrop { display: none !important; }
 }
 
 /* ─── Back to top ─────────────────────────────────── */
