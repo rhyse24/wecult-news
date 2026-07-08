@@ -2,6 +2,24 @@
   "totalArticles": 731,
   "runs": [
     {
+      "timestamp": "2026-07-08T06:32:08.742Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 51,
+      "written": [],
+      "rejected": [
+        {
+          "title": "House Of The Dragon is putting out one of Game Of Thrones’ biggest fires",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-08T06:00:23.231Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1344,17 +1362,7 @@
       "totalCandidates": 40,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-04T04:00:44.057Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 252,
-      "totalCandidates": 39,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-08T06:00:23.231Z"
+  "lastUpdated": "2026-07-08T06:32:08.742Z"
 }
