@@ -2,6 +2,24 @@
   "totalArticles": 739,
   "runs": [
     {
+      "timestamp": "2026-07-08T18:00:22.350Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 43,
+      "written": [],
+      "rejected": [
+        {
+          "title": "X-Men '97 Season 2: Does [Spoiler] Die In Marvel Comics?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-08T17:41:40.293Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1361,40 +1379,7 @@
       "totalCandidates": 21,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-04T17:11:02.233Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 213,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "Chris Hemsworth Made His Acting Debut As King Arthur In A Modern Fantasy TV Show",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "7857a578-chris-hemsworth-made-his-acting-debut-as-king-arthur-in-a-mo"
-        },
-        {
-          "title": "TVLine's Performer Of The Week: Jeremy Allen White",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "faade73a-tvlines-performer-of-the-week-jeremy-allen-white"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Dutton Ranch Finale Hits Oreana With A Curveball: 'It's Going To Be Crazy To See' What Happens Next, Star Says",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-08T17:41:40.293Z"
+  "lastUpdated": "2026-07-08T18:00:22.350Z"
 }
