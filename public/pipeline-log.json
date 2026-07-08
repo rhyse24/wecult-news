@@ -1,6 +1,32 @@
 {
-  "totalArticles": 738,
+  "totalArticles": 739,
   "runs": [
+    {
+      "timestamp": "2026-07-08T17:41:40.293Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 286,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "Box Office: ‘Moana’ Could Be Headed for Choppy Waters",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "39ce254f-box-office-moana-could-be-headed-for-choppy-waters"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Moana’ Review: The First Disney Live-Action Remake That Works 100%",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-08T16:00:21.459Z",
       "status": "quota",
@@ -1368,25 +1394,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-04T16:00:43.329Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 215,
-      "totalCandidates": 80,
-      "written": [
-        {
-          "title": " Modders made a Fallout 4 quest in a weekend for charity, and it features iconic Elder Scrolls actor Wes Johnson ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "61153a56-modders-made-a-fallout-4-quest-in-a-weekend-for-charity-and-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-08T16:00:21.459Z"
+  "lastUpdated": "2026-07-08T17:41:40.293Z"
 }
