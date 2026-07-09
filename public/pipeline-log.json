@@ -2,6 +2,24 @@
   "totalArticles": 754,
   "runs": [
     {
+      "timestamp": "2026-07-09T14:00:51.949Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 273,
+      "totalCandidates": 44,
+      "written": [],
+      "rejected": [
+        {
+          "title": "‘White Lotus’ Star Sabrina Impacciatore to Play Tormented Therapist in Prime Video Psychological Thriller With Alessandro Borghi",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-09T12:05:44.115Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1503,17 +1521,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-05T15:16:36.258Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 176,
-      "totalCandidates": 32,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-09T12:05:44.115Z"
+  "lastUpdated": "2026-07-09T14:00:51.949Z"
 }
