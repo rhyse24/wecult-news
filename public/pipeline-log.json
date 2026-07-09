@@ -1,6 +1,31 @@
 {
-  "totalArticles": 755,
+  "totalArticles": 757,
   "runs": [
+    {
+      "timestamp": "2026-07-09T21:38:54.380Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Call of Duty: Black Ops 1 and 2 Ports Out Now on PS5, But They Come at a High Cost",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "f32b30df-call-of-duty-black-ops-1-and-2-ports-out-now-on-ps5-but-they"
+        },
+        {
+          "title": "Assassin's Creed Black Flag Resynced Has Already Earned the Series' Biggest Player Peak on Steam",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "ff4b5a86-assassins-creed-black-flag-resynced-has-already-earned-the-s"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-09T20:00:10.180Z",
       "status": "quota",
@@ -1495,17 +1520,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-05T20:00:47.799Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 174,
-      "totalCandidates": 23,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-09T20:00:10.180Z"
+  "lastUpdated": "2026-07-09T21:38:54.380Z"
 }
