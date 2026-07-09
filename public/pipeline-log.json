@@ -1,6 +1,46 @@
 {
-  "totalArticles": 746,
+  "totalArticles": 749,
   "runs": [
+    {
+      "timestamp": "2026-07-09T07:51:02.858Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 283,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "Eleanor Coppola’s Documentary on the Making of Sofia Coppola’s Marie Antoinette Is Coming Soon",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 12,
+          "slug": "b6848682-eleanor-coppolas-documentary-on-the-making-of-sofia-coppolas"
+        },
+        {
+          "title": "Dune 3 Trailer Just Revealed the Most Important Character in the Franchise",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "slug": "d14cddd4-dune-3-trailer-just-revealed-the-most-important-character-in"
+        },
+        {
+          "title": "X-Men '97 Season 2, Episode 4 Delivers The Show's Most Shocking Death Yet",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "slug": "23aa4392-x-men-97-season-2-episode-4-delivers-the-shows-most-shocking"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Moana: Critics Aren't Holding Back In First Reactions To Disney's Live-Action Movie",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-09T06:00:46.418Z",
       "status": "quota",
@@ -1399,54 +1439,7 @@
       "totalCandidates": 35,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-05T07:31:44.642Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 200,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Zendaya Shares How Tom Holland Helped Ease Her Anxiety on Christopher Nolan's 'The Odyssey'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 14,
-          "slug": "1e796498-zendaya-shares-how-tom-holland-helped-ease-her-anxiety-on-ch"
-        },
-        {
-          "title": "Vin Diesel Shares Behind-the-Scenes Look at ‘Fast Forever’: ‘We’ve Been Grinding’",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "874c3bfe-vin-diesel-shares-behind-the-scenes-look-at-fast-forever-wev"
-        },
-        {
-          "title": "Box Office: ‘Minions & Monsters’ Scares Up $16 Million on Friday",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "1aeb03dd-box-office-minions-monsters-scares-up-16-million-on-friday"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "6 Worst MCU Movies of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 14,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "Only 10 Movies From the '70s Are Truly Perfect From Start to Finish",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-09T06:00:46.418Z"
+  "lastUpdated": "2026-07-09T07:51:02.858Z"
 }
