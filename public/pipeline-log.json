@@ -2,6 +2,31 @@
   "totalArticles": 743,
   "runs": [
     {
+      "timestamp": "2026-07-09T00:00:45.006Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 81,
+      "written": [],
+      "rejected": [
+        {
+          "title": "10 Best Looking Games of 2026 So Far",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Obsidian Reportedly Cancels Avowed 2 to Focus on a New Fallout Game",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-08T23:12:09.459Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1383,17 +1408,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-04T23:01:13.797Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 207,
-      "totalCandidates": 76,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-08T23:12:09.459Z"
+  "lastUpdated": "2026-07-09T00:00:45.006Z"
 }
