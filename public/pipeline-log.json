@@ -1,6 +1,32 @@
 {
-  "totalArticles": 754,
+  "totalArticles": 755,
   "runs": [
+    {
+      "timestamp": "2026-07-09T20:00:10.180Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "House Of The Dragon: How Every Main Character Dies In The Books",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "e8ce11fd-house-of-the-dragon-how-every-main-character-dies-in-the-boo"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Banijay’s Marco Bassetti and Jeff Zucker on Officially Completing Their $8 Billion All3Media Merger",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-09T18:00:03.173Z",
       "status": "quota",
@@ -1479,17 +1505,7 @@
       "totalCandidates": 23,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-05T19:24:18.504Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 174,
-      "totalCandidates": 21,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-09T18:00:03.173Z"
+  "lastUpdated": "2026-07-09T20:00:10.180Z"
 }
