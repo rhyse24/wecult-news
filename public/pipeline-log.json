@@ -1,6 +1,32 @@
 {
-  "totalArticles": 757,
+  "totalArticles": 758,
   "runs": [
+    {
+      "timestamp": "2026-07-09T23:16:29.621Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "‘Naruto’ Movie Launches Global Casting Search to Find Actors to Play Live-Action Naruto, Sasuke and Sakura",
+          "category": "film",
+          "source": "Variety",
+          "score": 16,
+          "slug": "6e23bdbf-naruto-movie-launches-global-casting-search-to-find-actors-t"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Paul Feig to Direct Horror Movie ‘Detention’ for Blumhouse Atomic Monster",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-09T21:38:54.380Z",
       "status": "quota",
@@ -1494,33 +1520,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-05T21:07:07.084Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 174,
-      "totalCandidates": 22,
-      "written": [
-        {
-          "title": "Harvey Keitel Shooting Film Written by Wife Daphna Kastner, Calls Out ‘Danger’ of AI When Mentioning Michael Caine AI-Narrated ‘The Odyssey’ Audiobook",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "1514f0f9-harvey-keitel-shooting-film-written-by-wife-daphna-kastner-c"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Obsession’ Surpasses $400 Million Globally",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-09T21:38:54.380Z"
+  "lastUpdated": "2026-07-09T23:16:29.621Z"
 }
