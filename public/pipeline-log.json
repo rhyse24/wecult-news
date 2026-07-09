@@ -1,6 +1,32 @@
 {
-  "totalArticles": 753,
+  "totalArticles": 754,
   "runs": [
+    {
+      "timestamp": "2026-07-09T12:05:44.115Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "6 Worst R-Rated 2000s Superhero Movies",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 17,
+          "slug": "dba5b7d8-6-worst-r-rated-2000s-superhero-movies"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Dune 3’: Timothée Chalamet, Zendaya and Denis Villeneuve Return to Abu Dhabi Desert That Doubles as Planet Arrakis in Behind-the-Scenes Images",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-09T11:07:57.613Z",
       "status": "quota",
@@ -1487,25 +1513,7 @@
       "totalCandidates": 32,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-05T13:49:33.704Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 183,
-      "totalCandidates": 31,
-      "written": [],
-      "rejected": [
-        {
-          "title": "‘Dutton Ranch’ Star Juan Pablo Raba Has a Wild Theory About [SPOILER]’s Murder: ‘There’s a Lot of Questions to Be Answered’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-09T11:07:57.613Z"
+  "lastUpdated": "2026-07-09T12:05:44.115Z"
 }
