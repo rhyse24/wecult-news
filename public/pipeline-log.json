@@ -1,6 +1,38 @@
 {
-  "totalArticles": 767,
+  "totalArticles": 770,
   "runs": [
+    {
+      "timestamp": "2026-07-10T17:50:11.973Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 272,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "Box Office: ‘Moana’ Sets Sail With $4.5 Million in Thursday Previews",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "f05831be-box-office-moana-sets-sail-with-45-million-in-thursday-previ"
+        },
+        {
+          "title": "Don’t Remind ‘Moana’ Star Catherine Laga’aia That She’s a Nepo Baby, She Already Knows It",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "ab68702a-dont-remind-moana-star-catherine-lagaaia-that-shes-a-nepo-ba"
+        },
+        {
+          "title": "Christopher Nolan Dedicates ‘The Odyssey’ to Late Imax Pioneer David Keighley",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "8da3e247-christopher-nolan-dedicates-the-odyssey-to-late-imax-pioneer"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-10T16:00:23.647Z",
       "status": "quota",
@@ -1472,25 +1504,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-06T14:00:49.618Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 220,
-      "totalCandidates": 80,
-      "written": [],
-      "rejected": [
-        {
-          "title": "After PS5 Disc Controversy, Microsoft Confirms Halo: Campaign Evolved Will Come On A Disc",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-10T16:00:23.647Z"
+  "lastUpdated": "2026-07-10T17:50:11.973Z"
 }
