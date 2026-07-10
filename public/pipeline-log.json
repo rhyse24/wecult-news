@@ -2,6 +2,16 @@
   "totalArticles": 767,
   "runs": [
     {
+      "timestamp": "2026-07-10T14:37:06.956Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 271,
+      "totalCandidates": 37,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-10T14:00:22.256Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1480,25 +1490,7 @@
       "totalCandidates": 75,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-06T12:00:45.877Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 208,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "Korea Box Office: ‘Toy Story 5’ Maintains Slender Advantage Over Surging Thriller ‘The Eyes’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "b2c970be-korea-box-office-toy-story-5-maintains-slender-advantage-ove"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-10T14:00:22.256Z"
+  "lastUpdated": "2026-07-10T14:37:06.956Z"
 }
