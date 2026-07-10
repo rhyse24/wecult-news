@@ -1,6 +1,39 @@
 {
-  "totalArticles": 772,
+  "totalArticles": 774,
   "runs": [
+    {
+      "timestamp": "2026-07-10T21:09:42.603Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 47,
+      "written": [
+        {
+          "title": "House of the Dragon Season 3 Is Therapeutic for Game of Thrones Fans",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 13,
+          "slug": "4c978b27-house-of-the-dragon-season-3-is-therapeutic-for-game-of-thro"
+        },
+        {
+          "title": "Broadcast Emmy Woes, Lots of Martin Short, Bad Bunny and Other Trivia From 2026’s Nominations",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "0904742d-broadcast-emmy-woes-lots-of-martin-short-bad-bunny-and-other"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Little House on the Prairie’ Showrunner on the Spirit of the Netflix Adaptation and Its Parallels With ‘The Boys’: “America Is a Myth-Maker”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-10T19:38:53.042Z",
       "status": "quota",
@@ -1501,25 +1534,7 @@
       "totalCandidates": 77,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-06T16:53:54.000Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 245,
-      "totalCandidates": 75,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Xbox CEO confirms massive wave of 1,600 layoffs today, with even more still to come",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 15,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-10T19:38:53.042Z"
+  "lastUpdated": "2026-07-10T21:09:42.603Z"
 }
