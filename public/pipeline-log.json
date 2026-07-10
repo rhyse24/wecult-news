@@ -1,6 +1,63 @@
 {
-  "totalArticles": 763,
+  "totalArticles": 766,
   "runs": [
+    {
+      "timestamp": "2026-07-10T07:40:25.892Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 83,
+      "written": [
+        {
+          "title": "Palworld Review So Far",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "ce7b82af-palworld-review-so-far"
+        },
+        {
+          "title": "'To Continue Being Produced Long Term, Games Need to Succeed, Not Just Be Beloved' — John Carmack Responds to id Software Layoffs",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "d5de818f-to-continue-being-produced-long-term-games-need-to-succeed-n"
+        },
+        {
+          "title": " The Rolling Stones are in Roblox, because I guess that's what rock and roll is now ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "2ffbc9ae-the-rolling-stones-are-in-roblox-because-i-guess-thats-what-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Layoffs begin at Ubisoft Barcelona following Assassin's Creed Black Flag Resynced launch",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "All you need to know about Black Ops 1 and 2 ports on PS4 and PS5: Release date, price, and content",
+          "category": "games",
+          "source": "Dot Esports",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        },
+        {
+          "title": " One of my favorite Warhammer 40,000 books is getting an unexpected sequel ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-10T06:00:24.196Z",
       "status": "quota",
@@ -1509,32 +1566,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-06T03:59:20.146Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 172,
-      "totalCandidates": 24,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Obsession’ Surpasses $400 Million Globally",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Minions & Monsters’ Posts Franchise-Low $61M 5-Day Opening",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 8,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-10T06:00:24.196Z"
+  "lastUpdated": "2026-07-10T07:40:25.892Z"
 }
