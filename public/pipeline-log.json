@@ -1,6 +1,24 @@
 {
-  "totalArticles": 758,
+  "totalArticles": 759,
   "runs": [
+    {
+      "timestamp": "2026-07-10T00:00:47.751Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 268,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "How Netflix’s ‘Little House on the Prairie’ Creator Is Bringing Back Beloved Classic Amid ‘Woke’ Allegations, Rise in Tradwife Culture",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 15,
+          "slug": "0f94a517-how-netflixs-little-house-on-the-prairie-creator-is-bringing"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-09T23:16:29.621Z",
       "status": "quota",
@@ -1502,25 +1520,7 @@
       "totalCandidates": 35,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-05T22:00:45.267Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 172,
-      "totalCandidates": 74,
-      "written": [
-        {
-          "title": "Hideo Kojima Warns of 'Frightening' Digital Future After PlayStation Reveals Plan to End Physical Disc Production",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "c116633a-hideo-kojima-warns-of-frightening-digital-future-after-plays"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-09T23:16:29.621Z"
+  "lastUpdated": "2026-07-10T00:00:47.751Z"
 }
