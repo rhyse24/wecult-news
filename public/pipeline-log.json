@@ -1,6 +1,38 @@
 {
-  "totalArticles": 784,
+  "totalArticles": 787,
   "runs": [
+    {
+      "timestamp": "2026-07-11T11:10:29.389Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 263,
+      "totalCandidates": 19,
+      "written": [
+        {
+          "title": "Na Hong-jin’s Alien Film Hope Gets Another Delightfully Chaotic Trailer",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "64b210df-na-hong-jins-alien-film-hope-gets-another-delightfully-chaot"
+        },
+        {
+          "title": "What Should You Watch This Weekend?",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 10,
+          "slug": "f7b85396-what-should-you-watch-this-weekend"
+        },
+        {
+          "title": "Evil Dead Burn Is an Extreme, Gruesome, Darkly Fun Addition to the Series",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "b85d03ca-evil-dead-burn-is-an-extreme-gruesome-darkly-fun-addition-to"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-11T09:41:48.592Z",
       "status": "success",
@@ -1575,39 +1607,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-07T06:00:44.509Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 253,
-      "totalCandidates": 78,
-      "written": [
-        {
-          "title": "Epic Games settles lawsuit against former contractor accused of leaking unannounced Fortnite collaborations",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 14,
-          "slug": "b410cf53-epic-games-settles-lawsuit-against-former-contractor-accused"
-        },
-        {
-          "title": "10 Best Games of 2026 So Far",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 14,
-          "slug": "e8a26630-10-best-games-of-2026-so-far"
-        },
-        {
-          "title": "The Elder Scrolls Online Has Reportedly Lost 'As Much as Half' of Its Development Team as Its Roadmap Is Being Re-Evaluated",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "286bb968-the-elder-scrolls-online-has-reportedly-lost-as-much-as-half"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-11T09:41:48.592Z"
+  "lastUpdated": "2026-07-11T11:10:29.389Z"
 }
