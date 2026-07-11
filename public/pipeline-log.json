@@ -1,6 +1,24 @@
 {
-  "totalArticles": 777,
+  "totalArticles": 778,
   "runs": [
+    {
+      "timestamp": "2026-07-11T06:00:37.443Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 80,
+      "written": [
+        {
+          "title": "Big Walk Is Destined To Be Your Next Big Co-Op Obsession",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 14,
+          "slug": "5f8c1ee5-big-walk-is-destined-to-be-your-next-big-co-op-obsession"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-11T04:00:35.401Z",
       "status": "quota",
@@ -1545,25 +1563,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-07T02:00:45.421Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 258,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "Why Robert Pattinson Compares ‘The Odyssey’ Character to Jacob in ‘Twilight’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 18,
-          "slug": "2e124be5-why-robert-pattinson-compares-the-odyssey-character-to-jacob"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-11T04:00:35.401Z"
+  "lastUpdated": "2026-07-11T06:00:37.443Z"
 }
