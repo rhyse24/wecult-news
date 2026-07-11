@@ -1,6 +1,38 @@
 {
-  "totalArticles": 788,
+  "totalArticles": 791,
   "runs": [
+    {
+      "timestamp": "2026-07-11T17:02:24.560Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 252,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Ryse: Son of Rome Had Plans To Be Xbox’s Assassin’s Creed",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "721cd2f4-ryse-son-of-rome-had-plans-to-be-xboxs-assassins-creed"
+        },
+        {
+          "title": "Avowed 2 May Still Happen, Obsidian Skeleton Crew Continues Work",
+          "category": "games",
+          "source": "Push Square",
+          "score": 13,
+          "slug": "23bfc391-avowed-2-may-still-happen-obsidian-skeleton-crew-continues-w"
+        },
+        {
+          "title": "AC Black Flag: Resynced Records Two Million Sales in Opening Day Booty",
+          "category": "games",
+          "source": "Push Square",
+          "score": 12,
+          "slug": "4697dfb7-ac-black-flag-resynced-records-two-million-sales-in-opening-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-11T16:01:02.947Z",
       "status": "quota",
@@ -1539,17 +1571,7 @@
       "totalCandidates": 52,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-07T12:00:54.182Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 258,
-      "totalCandidates": 49,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-11T16:01:02.947Z"
+  "lastUpdated": "2026-07-11T17:02:24.560Z"
 }
