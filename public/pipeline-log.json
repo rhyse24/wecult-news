@@ -2,6 +2,16 @@
   "totalArticles": 787,
   "runs": [
     {
+      "timestamp": "2026-07-11T15:09:24.127Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 253,
+      "totalCandidates": 31,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-11T12:01:03.393Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1539,25 +1549,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-07T10:00:47.054Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 257,
-      "totalCandidates": 48,
-      "written": [],
-      "rejected": [
-        {
-          "title": " TV Spy — Lucky, The Westies, and all the US dramas you can watch on UK services: 18-24 July ",
-          "category": "tv",
-          "source": "What to Watch",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-11T12:01:03.393Z"
+  "lastUpdated": "2026-07-11T15:09:24.127Z"
 }
