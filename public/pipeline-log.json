@@ -1,6 +1,53 @@
 {
-  "totalArticles": 778,
+  "totalArticles": 781,
   "runs": [
+    {
+      "timestamp": "2026-07-11T08:00:38.639Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "‘Moana’ Cast Guide: Every Live-Action Character vs. the Original Animation",
+          "category": "film",
+          "source": "Variety",
+          "score": 15,
+          "slug": "8d3b35b2-moana-cast-guide-every-live-action-character-vs-the-original"
+        },
+        {
+          "title": "The Biggest Sci-Fi Movie of 2026 Is Officially Dominating Prime Video",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "e611bd02-the-biggest-sci-fi-movie-of-2026-is-officially-dominating-pr"
+        },
+        {
+          "title": "Donald Iwerks, Disney Camera Technician and Co-Founder of Iwerks Entertainment, Dies at 96",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "68972c2b-donald-iwerks-disney-camera-technician-and-co-founder-of-iwe"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Christopher Nolan Praises ‘Obsession’ and ‘Backrooms,’ Says Young Audiences Are Rejecting “AI Slop”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The Only Recap You Need Before Spider-Man: Brand New Day",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-11T06:00:37.443Z",
       "status": "quota",
@@ -1538,32 +1585,7 @@
       "totalCandidates": 78,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-07T03:50:10.274Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 255,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "Casting News: Julia Garner's Apple TV Thriller, Power Spin-Off Adds Young Jarita, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "fda310f1-casting-news-julia-garners-apple-tv-thriller-power-spin-off-"
-        },
-        {
-          "title": "How House Of The Dragon found its way into Rhaenyra Targaryen's deep, dark mind",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "8bb67d4b-how-house-of-the-dragon-found-its-way-into-rhaenyra-targarye"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-11T06:00:37.443Z"
+  "lastUpdated": "2026-07-11T08:00:38.639Z"
 }
