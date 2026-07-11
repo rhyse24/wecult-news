@@ -1,6 +1,24 @@
 {
-  "totalArticles": 776,
+  "totalArticles": 777,
   "runs": [
+    {
+      "timestamp": "2026-07-11T02:57:21.069Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Obsession has had enough box office, heading to Peacock",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 14,
+          "slug": "d2dc3fbc-obsession-has-had-enough-box-office-heading-to-peacock"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-11T02:00:32.304Z",
       "status": "quota",
@@ -1553,17 +1571,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-06T23:12:18.682Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 231,
-      "totalCandidates": 51,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-11T02:00:32.304Z"
+  "lastUpdated": "2026-07-11T02:57:21.069Z"
 }
