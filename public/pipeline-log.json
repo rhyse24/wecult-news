@@ -2,6 +2,16 @@
   "totalArticles": 794,
   "runs": [
     {
+      "timestamp": "2026-07-11T22:55:20.784Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 246,
+      "totalCandidates": 87,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-11T22:01:00.768Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1541,25 +1551,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-07T21:27:31.136Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 91,
-      "written": [
-        {
-          "title": " Obsession star Inde Navarrette built her gaming PC just like you and me: By watching Henry Cavill do it first ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 16,
-          "slug": "5d2fca38-obsession-star-inde-navarrette-built-her-gaming-pc-just-like"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-11T22:01:00.768Z"
+  "lastUpdated": "2026-07-11T22:55:20.784Z"
 }
