@@ -1,6 +1,38 @@
 {
-  "totalArticles": 781,
+  "totalArticles": 784,
   "runs": [
+    {
+      "timestamp": "2026-07-11T09:41:48.592Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Netflix’s ‘Little House on the Prairie’ Writer on Landing Fan Favorite From Original Series for That Scary Cameo",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "f3c4fdba-netflixs-little-house-on-the-prairie-writer-on-landing-fan-f"
+        },
+        {
+          "title": "‘Star City’ Finale: Creators Explain Why They Couldn’t Resist Rewriting Their Own Alt-Space History by Going to Venus and Killing Off [SPOILER]",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "767e95ee-star-city-finale-creators-explain-why-they-couldnt-resist-re"
+        },
+        {
+          "title": "One Of The Most Influential Sci-Fi Franchises Ever Has A New Series On Prime Video",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "ea45ca56-one-of-the-most-influential-sci-fi-franchises-ever-has-a-new"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-11T08:00:38.639Z",
       "status": "success",
@@ -1575,17 +1607,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-07T04:00:45.585Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 253,
-      "totalCandidates": 78,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-11T08:00:38.639Z"
+  "lastUpdated": "2026-07-11T09:41:48.592Z"
 }
