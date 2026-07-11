@@ -1,6 +1,24 @@
 {
-  "totalArticles": 787,
+  "totalArticles": 788,
   "runs": [
+    {
+      "timestamp": "2026-07-11T16:01:02.947Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 253,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "'Evil Dead Burn's Most Talked-About Scene Was Done with an Actual Sex Doll",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "1f4b36c2-evil-dead-burns-most-talked-about-scene-was-done-with-an-act"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-11T15:09:24.127Z",
       "status": "quota",
@@ -1531,25 +1549,7 @@
       "totalCandidates": 49,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-07T11:12:40.002Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 254,
-      "totalCandidates": 46,
-      "written": [],
-      "rejected": [
-        {
-          "title": " TV Spy — Lucky, The Westies, and all the US dramas you can watch on UK services: 18-24 July ",
-          "category": "tv",
-          "source": "What to Watch",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-11T15:09:24.127Z"
+  "lastUpdated": "2026-07-11T16:01:02.947Z"
 }
