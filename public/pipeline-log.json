@@ -2,6 +2,16 @@
   "totalArticles": 776,
   "runs": [
     {
+      "timestamp": "2026-07-11T00:00:39.413Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 266,
+      "totalCandidates": 35,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-10T23:01:47.977Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1553,25 +1563,7 @@
       "totalCandidates": 51,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-06T20:04:00.287Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 252,
-      "totalCandidates": 74,
-      "written": [
-        {
-          "title": "Xbox layoffs: jobs lost at Bethesda, more reported at id Software",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 14,
-          "slug": "6aeb52aa-xbox-layoffs-jobs-lost-at-bethesda-more-reported-at-id-softw"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-10T23:01:47.977Z"
+  "lastUpdated": "2026-07-11T00:00:39.413Z"
 }
