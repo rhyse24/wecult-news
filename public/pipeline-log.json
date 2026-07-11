@@ -1,6 +1,31 @@
 {
-  "totalArticles": 792,
+  "totalArticles": 794,
   "runs": [
+    {
+      "timestamp": "2026-07-11T20:55:19.184Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 249,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "‘Moana’ Creatives on Working Closely to Honor Polynesian Culture and Traditions, and Why Representation Matters in the Live-Action Film",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "f2c788de-moana-creatives-on-working-closely-to-honor-polynesian-cultu"
+        },
+        {
+          "title": "‘Moana’ Failing to Make Box Office Splash With $45M Opening",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "4eefdc99-moana-failing-to-make-box-office-splash-with-45m-opening"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-11T20:01:03.343Z",
       "status": "quota",
@@ -1542,36 +1567,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-07T18:00:53.628Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "Avatar Aang: The Last Airbender Gets a Trailer and a Much Earlier Release Date",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 17,
-          "slug": "05cbacec-avatar-aang-the-last-airbender-gets-a-trailer-and-a-much-ear"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Reading The Wheel of Time: Lan Rides, Perrin Dreams, and Graendal Escapes in Towers of Midnight (Part 1)",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 583 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-11T20:01:03.343Z"
+  "lastUpdated": "2026-07-11T20:55:19.184Z"
 }
