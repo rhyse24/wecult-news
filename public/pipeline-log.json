@@ -2,6 +2,24 @@
   "totalArticles": 787,
   "runs": [
     {
+      "timestamp": "2026-07-11T12:01:03.393Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 257,
+      "totalCandidates": 31,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Christopher Nolan Praises ‘Obsession’ and ‘Backrooms,’ Says Young Audiences Are Rejecting “AI Slop”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-11T11:10:29.389Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1539,75 +1557,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-07T07:44:01.906Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 251,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "‘Obsession’ Star Inde Navarrette Open to Marvel Role, Met with ‘X-Men,’ ‘Heat 2’ Directors",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "slug": "69135811-obsession-star-inde-navarrette-open-to-marvel-role-met-with-"
-        },
-        {
-          "title": "V/H/S Franchise Sets New Roy Lee and Steven Schneider-Produced Movie Based on SCP Foundation Universe (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "f7e4c5bb-vhs-franchise-sets-new-roy-lee-and-steven-schneider-produced"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Toy Story 5’ Holds No. 1 as ‘Minions & Monsters’ Chases at U.K. and Ireland Box Office",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "6 '90s Sci-Fi Movies That Are Terrible From Start to Finish ",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "‘The Odyssey’ First Reactions Are Raves for Christopher Nolan’s ‘Astonishing’ Epic and ‘Flawless Filmmaking’: ‘Breathtaking, Bold and Perfection’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Supergirl Proves That the DCU Needs to Be Bigger than James Gunn",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 12,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Johnny Knoxville Comedy ‘Tiny Fugitives’ From Producer Seth Rogen Sets Fall Release (Exclusive)",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 10,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "10 Most Pointless Movie Remakes That Nobody Asked For",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-11T11:10:29.389Z"
+  "lastUpdated": "2026-07-11T12:01:03.393Z"
 }
