@@ -2,6 +2,16 @@
   "totalArticles": 777,
   "runs": [
     {
+      "timestamp": "2026-07-11T04:00:35.401Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 81,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-11T02:57:21.069Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1553,25 +1563,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-07T00:00:44.916Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 251,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "‘House of the Dragon’: Emma D’Arcy on Rhaenyra’s ‘Paranoia’ Following That Daeron Swap and Returning to ‘Pure Targaryenism’ With Daemon",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 19,
-          "slug": "b5b9872c-house-of-the-dragon-emma-darcy-on-rhaenyras-paranoia-followi"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-11T02:57:21.069Z"
+  "lastUpdated": "2026-07-11T04:00:35.401Z"
 }
