@@ -2,6 +2,16 @@
   "totalArticles": 794,
   "runs": [
     {
+      "timestamp": "2026-07-11T22:01:00.768Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 245,
+      "totalCandidates": 86,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-11T20:55:19.184Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1549,25 +1559,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-07T20:00:54.578Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Craig Kilborn Sets Directorial Debut ‘The Life Golden’ Starring Lauren German and Tom Byrne (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "e2ead674-craig-kilborn-sets-directorial-debut-the-life-golden-starrin"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-11T20:55:19.184Z"
+  "lastUpdated": "2026-07-11T22:01:00.768Z"
 }
