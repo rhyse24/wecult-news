@@ -1,6 +1,53 @@
 {
-  "totalArticles": 803,
+  "totalArticles": 806,
   "runs": [
+    {
+      "timestamp": "2026-07-12T11:48:52.771Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 209,
+      "totalCandidates": 75,
+      "written": [
+        {
+          "title": "Warframe Reveals Major New Chapter, Playing Card Mini-Game, Fortnite Collab And Much More",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 13,
+          "slug": "11733e7e-warframe-reveals-major-new-chapter-playing-card-mini-game-fo"
+        },
+        {
+          "title": " Obsidian game director is sick of hearing bad takes about the state of the studio: 'The through line from KotOR2 to our current games is pretty clear' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "f8dc476d-obsidian-game-director-is-sick-of-hearing-bad-takes-about-th"
+        },
+        {
+          "title": "Why are loot systems so addictive?",
+          "category": "games",
+          "source": "Dot Esports",
+          "score": 11,
+          "slug": "336090da-why-are-loot-systems-so-addictive"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Assassin's Creed Black Flag Resynced Sales Reach 2 Million on Day 1",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": " You can mod out the yellow filter in Assassin's Creed Black Flag Resynced ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-12T09:54:32.097Z",
       "status": "success",
@@ -1592,25 +1639,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-08T06:00:23.231Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 279,
-      "totalCandidates": 51,
-      "written": [],
-      "rejected": [
-        {
-          "title": "House Of The Dragon is putting out one of Game Of Thrones’ biggest fires",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-12T09:54:32.097Z"
+  "lastUpdated": "2026-07-12T11:48:52.771Z"
 }
