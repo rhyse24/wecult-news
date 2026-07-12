@@ -1,6 +1,31 @@
 {
-  "totalArticles": 806,
+  "totalArticles": 808,
   "runs": [
+    {
+      "timestamp": "2026-07-12T21:26:25.390Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 175,
+      "totalCandidates": 22,
+      "written": [
+        {
+          "title": "Box Office: ‘Moana’ Struggles With $52 Million Overseas, ‘Toy Story 5’ Powers to $879 Million Globally",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "d833377f-box-office-moana-struggles-with-52-million-overseas-toy-stor"
+        },
+        {
+          "title": "‘Avengers: Doomsday’ Concept Art Reveals First Look at Robert Downey Jr.’s Doctor Doom, Returning X-Men Characters",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "5d7d57ba-avengers-doomsday-concept-art-reveals-first-look-at-robert-d"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-12T19:32:07.841Z",
       "status": "quota",
@@ -1613,25 +1638,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-08T12:00:20.327Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 285,
-      "totalCandidates": 47,
-      "written": [
-        {
-          "title": "What To Watch Wednesday: Trying Returns, Penultimate Maximum Pleasure Guaranteed, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "73cc6483-what-to-watch-wednesday-trying-returns-penultimate-maximum-p"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-12T19:32:07.841Z"
+  "lastUpdated": "2026-07-12T21:26:25.390Z"
 }
