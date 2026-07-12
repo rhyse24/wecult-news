@@ -1,6 +1,32 @@
 {
-  "totalArticles": 796,
+  "totalArticles": 797,
   "runs": [
+    {
+      "timestamp": "2026-07-12T03:22:52.357Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 243,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "This 2000s X-Men Show Remains An Underrated Gem Every Marvel Fan Needs To Watch",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "7b277646-this-2000s-x-men-show-remains-an-underrated-gem-every-marvel"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Meet the 11-Year-Old Actress Leading Netflix’s New Take on ‘Little House on the Prairie’",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-12T02:01:01.205Z",
       "status": "quota",
@@ -1540,17 +1566,7 @@
       "totalCandidates": 89,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-08T00:00:49.501Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 90,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-12T02:01:01.205Z"
+  "lastUpdated": "2026-07-12T03:22:52.357Z"
 }
