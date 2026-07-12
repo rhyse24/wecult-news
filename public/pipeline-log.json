@@ -2,6 +2,45 @@
   "totalArticles": 806,
   "runs": [
     {
+      "timestamp": "2026-07-12T15:49:25.289Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 199,
+      "totalCandidates": 21,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Box Office: ‘Moana’ Flounders With $43 Million Debut, Among Weakest of Disney’s Live-Action Remakes",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "5 Greatest Tilda Swinton Movies That Define Her Career",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘Michael’ Crosses $1 Billion, First Biopic to Surpass Coveted Box Office Milestone",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Christopher Nolan Addresses ‘The Odyssey’ Backlash, Explains Why Film Uses Modern Dialogue",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-12T13:48:26.934Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1599,54 +1638,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-08T08:00:23.232Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 281,
-      "totalCandidates": 53,
-      "written": [
-        {
-          "title": "The animated Last Airbender returns in the trailer for Avatar Aang",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 11,
-          "slug": "94ceecb9-the-animated-last-airbender-returns-in-the-trailer-for-avata"
-        },
-        {
-          "title": "X-Men ’97 Season 2 Episode 4 Review: Fit to Survive",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 10,
-          "slug": "a951f88c-x-men-97-season-2-episode-4-review-fit-to-survive"
-        },
-        {
-          "title": "TV Premiere Dates: 2026 Calendar",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 9,
-          "slug": "db33a829-tv-premiere-dates-2026-calendar"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "House Of The Dragon is putting out one of Game Of Thrones’ biggest fires",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "10 Best TV Shows Like Harlan Coben's I Will Find You",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-12T13:48:26.934Z"
+  "lastUpdated": "2026-07-12T15:49:25.289Z"
 }
