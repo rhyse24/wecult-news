@@ -1,6 +1,39 @@
 {
-  "totalArticles": 794,
+  "totalArticles": 796,
   "runs": [
+    {
+      "timestamp": "2026-07-12T00:01:03.611Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 236,
+      "totalCandidates": 87,
+      "written": [
+        {
+          "title": "TennoCon 2026: Everything Announced at the Warframe and Soulframe Fan Event",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "ff64ea7c-tennocon-2026-everything-announced-at-the-warframe-and-soulf"
+        },
+        {
+          "title": " I've found my perfect summer game: A stomach-churning horror story about Czech train conductors built over a bafflingly deep simulation of a fictional subway ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "86a76028-ive-found-my-perfect-summer-game-a-stomach-churning-horror-s"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "GTA 4 Actor Wants It To Be Remastered As Much As We Do",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 12,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-11T22:55:20.784Z",
       "status": "quota",
@@ -1525,33 +1558,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-07T22:00:49.558Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "‘Enola Holmes 3’ Debuts With 20.7 Million Views in Five Days",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "b2bc2de1-enola-holmes-3-debuts-with-207-million-views-in-five-days"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "House Of The Dragon is putting out one of Game Of Thrones’ biggest fires",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-11T22:55:20.784Z"
+  "lastUpdated": "2026-07-12T00:01:03.611Z"
 }
