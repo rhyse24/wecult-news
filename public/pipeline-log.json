@@ -1,6 +1,38 @@
 {
-  "totalArticles": 800,
+  "totalArticles": 803,
   "runs": [
+    {
+      "timestamp": "2026-07-12T09:54:32.097Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 226,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "The Westies won't be your American Peaky Blinders",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "slug": "ede6dba0-the-westies-wont-be-your-american-peaky-blinders"
+        },
+        {
+          "title": "‘The Westies’ Review: J.K. Simmons and Titus Welliver Lead MGM+’s Handsome but Generic Gangster Drama",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "0201c6e6-the-westies-review-jk-simmons-and-titus-welliver-lead-mgms-h"
+        },
+        {
+          "title": "Christopher Nolan thinks the kids are alright—AI, not so much",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "slug": "2335ed1b-christopher-nolan-thinks-the-kids-are-alrightai-not-so-much"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-12T08:01:00.527Z",
       "status": "success",
@@ -1578,25 +1610,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-08T04:00:22.603Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 89,
-      "written": [
-        {
-          "title": "Call of Duty: Black Ops 1 and 2's Leaked PS5 Trophy List Indicates Some Content May Be Missing",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "3037d9cd-call-of-duty-black-ops-1-and-2s-leaked-ps5-trophy-list-indic"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-12T08:01:00.527Z"
+  "lastUpdated": "2026-07-12T09:54:32.097Z"
 }
