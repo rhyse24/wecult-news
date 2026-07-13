@@ -2,6 +2,16 @@
   "totalArticles": 821,
   "runs": [
     {
+      "timestamp": "2026-07-13T12:16:15.619Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 210,
+      "totalCandidates": 78,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-13T10:00:33.556Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1678,25 +1688,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-08T20:00:21.230Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 285,
-      "totalCandidates": 38,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Dune: Part Three Trailer Takes Us 20 Years Forward, With Paul Atreides Now a Tyrant",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 22,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-13T10:00:33.556Z"
+  "lastUpdated": "2026-07-13T12:16:15.619Z"
 }
