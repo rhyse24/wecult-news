@@ -1,6 +1,32 @@
 {
-  "totalArticles": 816,
+  "totalArticles": 817,
   "runs": [
+    {
+      "timestamp": "2026-07-13T06:00:32.079Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 168,
+      "totalCandidates": 69,
+      "written": [
+        {
+          "title": "Call of Duty: Black Ops 1 and 2 Support Crossplay Between PS4 and PS5, Activision Confirms",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "28c40a83-call-of-duty-black-ops-1-and-2-support-crossplay-between-ps4"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Obsidian Director Blasts People 'Running Their Mouths' About How the Studio Has Changed Following Xbox Layoffs",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-13T03:26:06.918Z",
       "status": "success",
@@ -1641,33 +1667,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-08T17:41:40.293Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 286,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "Box Office: ‘Moana’ Could Be Headed for Choppy Waters",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "39ce254f-box-office-moana-could-be-headed-for-choppy-waters"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Moana’ Review: The First Disney Live-Action Remake That Works 100%",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-13T03:26:06.918Z"
+  "lastUpdated": "2026-07-13T06:00:32.079Z"
 }
