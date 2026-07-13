@@ -1,6 +1,38 @@
 {
-  "totalArticles": 808,
+  "totalArticles": 811,
   "runs": [
+    {
+      "timestamp": "2026-07-12T23:16:55.084Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 174,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "Wai Ching Ho, Marvel's Madame Gao, Dead At 82",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "b55fd47c-wai-ching-ho-marvels-madame-gao-dead-at-82"
+        },
+        {
+          "title": "Yellowstone's 'Indian Relay' Episode Is Based On A Real-Life Event",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "1c656dd5-yellowstones-indian-relay-episode-is-based-on-a-real-life-ev"
+        },
+        {
+          "title": "Wai Ching Ho, Veteran Actor Who Appeared in ‘Daredevil’ and ‘Iron Fist,’ Dies at 82",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "020139cb-wai-ching-ho-veteran-actor-who-appeared-in-daredevil-and-iro"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-12T21:26:25.390Z",
       "status": "quota",
@@ -1605,40 +1637,7 @@
       "totalCandidates": 30,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-08T14:00:34.313Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 71,
-      "written": [
-        {
-          "title": "Microsoft Reportedly Plans to Make More of Its Best Games Console Exclusive So People Have a Reason to Buy an Xbox — So What Could Skip PlayStation?",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "c3c68543-microsoft-reportedly-plans-to-make-more-of-its-best-games-co"
-        },
-        {
-          "title": "Final Fantasy 7: Ever Crisis End-of-Service Announced for October 6th",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 14,
-          "slug": "ff5cd85e-final-fantasy-7-ever-crisis-end-of-service-announced-for-oct"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "20 Beloved Video Games No One Admits They Hated",
-          "category": "games",
-          "source": "WhatCulture Games",
-          "score": 14,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-12T21:26:25.390Z"
+  "lastUpdated": "2026-07-12T23:16:55.084Z"
 }
