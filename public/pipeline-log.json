@@ -2,6 +2,24 @@
   "totalArticles": 821,
   "runs": [
     {
+      "timestamp": "2026-07-13T16:00:33.285Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 248,
+      "totalCandidates": 88,
+      "written": [],
+      "rejected": [
+        {
+          "title": "CoD: Black Ops 7 And Warzone Season 5 Release Date And Details",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 15,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-13T14:00:35.824Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1671,17 +1689,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-08T22:00:56.084Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 36,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-13T14:00:35.824Z"
+  "lastUpdated": "2026-07-13T16:00:33.285Z"
 }
