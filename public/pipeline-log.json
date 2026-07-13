@@ -1,6 +1,60 @@
 {
-  "totalArticles": 817,
+  "totalArticles": 820,
   "runs": [
+    {
+      "timestamp": "2026-07-13T07:24:59.981Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 172,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "Mayfair Witches Season 3 Drops First Teaser Trailer Ahead Of The Vampire Lestat Finale",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "bb749ecd-mayfair-witches-season-3-drops-first-teaser-trailer-ahead-of"
+        },
+        {
+          "title": "Hilda Hidalgo Readies Third Fiction Pic, About Sexual Abuse, After Acclaimed Dramas ‘Of Love and Other Demons’ and ‘Violeta at Last’ (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "333ed7fa-hilda-hidalgo-readies-third-fiction-pic-about-sexual-abuse-a"
+        },
+        {
+          "title": "Visual Effects Society Inducts Godzilla's Ishirō Honda, Tomoyuki Tanaka into Hall of Fame",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 8,
+          "slug": "128ec741-visual-effects-society-inducts-godzillas-ishir-honda-tomoyuk"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "House Of The Dragon Episode 4 Recap: Is There Another Heir In There?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "J.K. Simmons Crime Drama ‘The Westies’ Is a Flat Take on New York’s Irish Mob: TV Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The ‘Special One’ Speaks: Netflix Reveals Release Date for Its Long Awaited José Mourinho Docu-Series",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 9,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-13T06:00:32.079Z",
       "status": "quota",
@@ -1649,25 +1703,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-08T18:00:22.350Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 43,
-      "written": [],
-      "rejected": [
-        {
-          "title": "X-Men '97 Season 2: Does [Spoiler] Die In Marvel Comics?",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-13T06:00:32.079Z"
+  "lastUpdated": "2026-07-13T07:24:59.981Z"
 }
