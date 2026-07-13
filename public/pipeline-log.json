@@ -2,6 +2,24 @@
   "totalArticles": 821,
   "runs": [
     {
+      "timestamp": "2026-07-13T14:00:35.824Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 228,
+      "totalCandidates": 84,
+      "written": [],
+      "rejected": [
+        {
+          "title": "House Of The Dragon's Prince Daeron Played By Zelda Movie's Benjamin Ainsworth",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-13T12:16:15.619Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1663,32 +1681,7 @@
       "totalCandidates": 36,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-08T21:12:28.600Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Dune: Part Three Trailer Takes Us 20 Years Forward, With Paul Atreides Now a Tyrant",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 22,
-          "slug": "64e2ce33-dune-part-three-trailer-takes-us-20-years-forward-with-paul-"
-        },
-        {
-          "title": "Does the First King Kong Remake Deserve a Fresh Look?",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "f7b254d1-does-the-first-king-kong-remake-deserve-a-fresh-look"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-13T12:16:15.619Z"
+  "lastUpdated": "2026-07-13T14:00:35.824Z"
 }
