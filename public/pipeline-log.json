@@ -1,6 +1,32 @@
 {
-  "totalArticles": 821,
+  "totalArticles": 822,
   "runs": [
+    {
+      "timestamp": "2026-07-14T02:00:59.604Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 265,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": " Fallout: New Vegas director Josh Sawyer reveals his optimal outcome for the Mojave Wasteland ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 15,
+          "slug": "e1629628-fallout-new-vegas-director-josh-sawyer-reveals-his-optimal-o"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Hallmark Debuts New PlayStation Console Ornament That Plays the Original Startup Sound ",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-14T00:00:56.451Z",
       "status": "quota",
@@ -1635,17 +1661,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-09T06:00:46.418Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 39,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-14T00:00:56.451Z"
+  "lastUpdated": "2026-07-14T02:00:59.604Z"
 }
