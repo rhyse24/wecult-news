@@ -1,6 +1,24 @@
 {
-  "totalArticles": 831,
+  "totalArticles": 832,
   "runs": [
+    {
+      "timestamp": "2026-07-14T19:25:28.648Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 281,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "Christopher Nolan Fans Will Stop at Nothing to See ‘The Odyssey’ in Imax 70mm, From Cross-Country Trips to Delaying Pregnancy",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "4dbec31a-christopher-nolan-fans-will-stop-at-nothing-to-see-the-odyss"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-14T18:00:47.920Z",
       "status": "quota",
@@ -1605,32 +1623,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-09T21:38:54.380Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "Call of Duty: Black Ops 1 and 2 Ports Out Now on PS5, But They Come at a High Cost",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "f32b30df-call-of-duty-black-ops-1-and-2-ports-out-now-on-ps5-but-they"
-        },
-        {
-          "title": "Assassin's Creed Black Flag Resynced Has Already Earned the Series' Biggest Player Peak on Steam",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "ff4b5a86-assassins-creed-black-flag-resynced-has-already-earned-the-s"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-14T18:00:47.920Z"
+  "lastUpdated": "2026-07-14T19:25:28.648Z"
 }
