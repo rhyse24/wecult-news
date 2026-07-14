@@ -74,5 +74,5 @@ jobs:
             echo "No VERCEL_DEPLOY_HOOK secret set, skipping"
           fi
 
-      - name: Submit to IndexNow (Bing/Yandex)
-        run: node scripts/pipeline/indexnow.mjs || true
+      - name: Submit new guide to IndexNow (Bing/Yandex)
+        run: node scripts/pipeline/indexnow-guides.mjs || true

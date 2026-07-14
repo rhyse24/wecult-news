@@ -27,6 +27,9 @@ const DRY_RUN      = process.env.GUIDES_DRY_RUN === '1';
 const ARTICLES_DIR  = 'src/content/articles';
 const TOPICS_FILE   = 'scripts/pipeline/guides-topics.json';
 const ROTATION_FILE = 'scripts/pipeline/.guides-rotation.json';
+// Ephemeral marker: which slug (if any) this run wrote/refreshed. Read by
+// indexnow-guides.mjs AFTER deploy to ping the correct URL. Never committed.
+const LAST_FILE     = 'scripts/pipeline/.guides-last.json';
 
 const CATEGORY_IMAGE = {
   games: 'https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=1280&q=80',
@@ -57,6 +60,11 @@ const log = (...a) => console.log('[guides]', ...a);
 
 function loadJSON(p, fallback) {
   try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return fallback; }
+}
+
+// Record which slug this run produced (or null) for the post-deploy IndexNow step.
+function writeLast(slug) {
+  try { writeFileSync(LAST_FILE, JSON.stringify({ slug: slug ?? null }, null, 2) + '\n'); } catch {}
 }
 
 function existingSlugs() {
@@ -184,6 +192,8 @@ async function main() {
     return;
   }
 
+  writeLast(null); // reset marker: assume nothing written until proven otherwise
+
   const topicsData = loadJSON(TOPICS_FILE, { topics: [] });
   const topics = topicsData.topics || [];
   if (topics.length === 0) { log('No topics.'); return; }
@@ -234,6 +244,7 @@ async function main() {
     // 5) Write article JSON
     const article = assembleArticle(picked, en, tr, es);
     writeFileSync(`${ARTICLES_DIR}/${picked.slug}.json`, JSON.stringify(article, null, 2) + '\n');
+    writeLast(picked.slug);
     log(`✓ Wrote ${picked.slug}.json (tr:${!!tr} es:${!!es})`);
   } catch (err) {
     log('Error (fail-closed, nothing written):', err.message);
@@ -252,6 +263,7 @@ function refreshOldestGuide() {
     if (!oldest) { log('No guide to refresh.'); return; }
     oldest.published_at = now();
     writeFileSync(`${ARTICLES_DIR}/${oldestFile}`, JSON.stringify(oldest, null, 2) + '\n');
+    writeLast(oldestFile.replace(/\.json$/, ''));
     log(`✓ Refreshed date on ${oldestFile}`);
   } catch (err) {
     log('Refresh error (non-fatal):', err.message);

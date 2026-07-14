@@ -24,3 +24,6 @@ pnpm-debug.log*
 .idea/
 
 .vercel
+
+# guides pipeline ephemeral marker (intra-run only)
+scripts/pipeline/.guides-last.json
