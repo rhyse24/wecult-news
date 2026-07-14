@@ -1,6 +1,24 @@
 {
-  "totalArticles": 832,
+  "totalArticles": 833,
   "runs": [
+    {
+      "timestamp": "2026-07-14T21:03:56.657Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 288,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Sebastian Stan Starred In A Biblically Inspired NBC Drama Few People Remember",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "ae032c7f-sebastian-stan-starred-in-a-biblically-inspired-nbc-drama-fe"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-14T19:25:28.648Z",
       "status": "quota",
@@ -1597,33 +1615,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-09T23:16:29.621Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "‘Naruto’ Movie Launches Global Casting Search to Find Actors to Play Live-Action Naruto, Sasuke and Sakura",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "slug": "6e23bdbf-naruto-movie-launches-global-casting-search-to-find-actors-t"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Paul Feig to Direct Horror Movie ‘Detention’ for Blumhouse Atomic Monster",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-14T19:25:28.648Z"
+  "lastUpdated": "2026-07-14T21:03:56.657Z"
 }
