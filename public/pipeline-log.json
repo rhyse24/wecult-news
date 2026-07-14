@@ -1,6 +1,60 @@
 {
-  "totalArticles": 828,
+  "totalArticles": 831,
   "runs": [
+    {
+      "timestamp": "2026-07-14T10:00:57.205Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 75,
+      "written": [
+        {
+          "title": "Live-Action Moana Is Bombing At The Box Office As Badly As Last Year’s Snow White Remake",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 11,
+          "slug": "9b18efca-live-action-moana-is-bombing-at-the-box-office-as-badly-as-l"
+        },
+        {
+          "title": "Final Fantasy Resonance Isn't Getting a Physical Edition on Xbox ",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "slug": "ca97d62e-final-fantasy-resonance-isnt-getting-a-physical-edition-on-x"
+        },
+        {
+          "title": "Call of Duty: Black Ops Port Deemed 'Unplayable' As Lobbies Are Filled With Exploiters",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "slug": "692f3927-call-of-duty-black-ops-port-deemed-unplayable-as-lobbies-are"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Rockstar Is Charging \"Way Too Little\" For GTA 6 According To Tech Analyst",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Ubisoft pivots to \"selective model\" to reduce reliance on individual game launches",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 11,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Hallmark Debuts New PlayStation Console Ornament That Plays the Original Startup Sound ",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-14T08:01:03.106Z",
       "status": "success",
@@ -1584,25 +1638,7 @@
       "totalCandidates": 45,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-09T14:00:51.949Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 44,
-      "written": [],
-      "rejected": [
-        {
-          "title": "‘White Lotus’ Star Sabrina Impacciatore to Play Tormented Therapist in Prime Video Psychological Thriller With Alessandro Borghi",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-14T08:01:03.106Z"
+  "lastUpdated": "2026-07-14T10:00:57.205Z"
 }
