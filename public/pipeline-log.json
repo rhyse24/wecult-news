@@ -1,6 +1,31 @@
 {
-  "totalArticles": 823,
+  "totalArticles": 825,
   "runs": [
+    {
+      "timestamp": "2026-07-14T06:00:47.451Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 263,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "‘Kong x Godzilla’ Ride Set to Open at Korea’s Lotte World This Month: It’s ‘Extremely Immersive’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 16,
+          "slug": "a8f04d44-kong-x-godzilla-ride-set-to-open-at-koreas-lotte-world-this-"
+        },
+        {
+          "title": "Why ‘Moana’ Sank With Its Box Office Opening",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "f959b99d-why-moana-sank-with-its-box-office-opening"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-14T04:01:01.870Z",
       "status": "quota",
@@ -1571,46 +1596,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-09T11:07:57.613Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "15 Games That Punish You for Trying to Be Nice",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 12,
-          "slug": "31d6d2bb-15-games-that-punish-you-for-trying-to-be-nice"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Netflix’s ‘Little House on the Prairie’ Is a Charming Reimagining of Laura Ingalls Wilder’s Beloved Adventure: TV Review ",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        },
-        {
-          "title": "The Cheetah Girls (Minus One) Reuniting For Fourth Movie — Disney Reveals Full New And Returning Cast",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 11,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-14T04:01:01.870Z"
+  "lastUpdated": "2026-07-14T06:00:47.451Z"
 }
