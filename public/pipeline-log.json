@@ -1,6 +1,32 @@
 {
-  "totalArticles": 822,
+  "totalArticles": 823,
   "runs": [
+    {
+      "timestamp": "2026-07-14T04:01:01.870Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 265,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "All American Boss Teases 'Drama And Fallout' From That Amina Cliffhanger: It Will Affect 'Almost Everyone's Lives' In Season 8",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "6f74a744-all-american-boss-teases-drama-and-fallout-from-that-amina-c"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Moana doesn't actually go that far at the weekend box office",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-14T02:49:13.656Z",
       "status": "quota",
@@ -1584,54 +1610,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-09T10:00:48.620Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 277,
-      "totalCandidates": 75,
-      "written": [
-        {
-          "title": "Moana Remake Reviews Debut To A Paltry 36 Percent On Rotten Tomatoes",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "slug": "8c583e27-moana-remake-reviews-debut-to-a-paltry-36-percent-on-rotten-"
-        },
-        {
-          "title": "Report: Obsidian to work on Fallout title as unannounced projects cancelled",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 14,
-          "slug": "33ebc7ab-report-obsidian-to-work-on-fallout-title-as-unannounced-proj"
-        },
-        {
-          "title": "Chapter 11: The Anti-Monster Camp quest walkthrough in Disney Dreamlight Valley",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 11,
-          "slug": "48e5bf05-chapter-11-the-anti-monster-camp-quest-walkthrough-in-disney"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "All FC 26 Season 9 Pass rewards",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 13,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "id Software Was Reportedly 'Toying With' Pitches for a New Perfect Dark, a John Wick-Inspired Game, and More Before Layoffs",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-14T02:49:13.656Z"
+  "lastUpdated": "2026-07-14T04:01:01.870Z"
 }
