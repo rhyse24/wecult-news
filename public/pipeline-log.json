@@ -1,6 +1,38 @@
 {
-  "totalArticles": 825,
+  "totalArticles": 828,
   "runs": [
+    {
+      "timestamp": "2026-07-14T08:01:03.106Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 263,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Moana doesn't actually go that far at the weekend box office",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "slug": "302e0564-moana-doesnt-actually-go-that-far-at-the-weekend-box-office"
+        },
+        {
+          "title": "House Of The Dragon got Rhaenyra and Alicent right—so why does it get everyone else so wrong?",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "slug": "c6213f69-house-of-the-dragon-got-rhaenyra-and-alicent-rightso-why-doe"
+        },
+        {
+          "title": "Raised by Wolves Producer Confirms What Really Killed Season 3",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 11,
+          "slug": "6b4fed42-raised-by-wolves-producer-confirms-what-really-killed-season"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-14T06:00:47.451Z",
       "status": "quota",
@@ -1570,33 +1602,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-09T12:05:44.115Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "6 Worst R-Rated 2000s Superhero Movies",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 17,
-          "slug": "dba5b7d8-6-worst-r-rated-2000s-superhero-movies"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Dune 3’: Timothée Chalamet, Zendaya and Denis Villeneuve Return to Abu Dhabi Desert That Doubles as Planet Arrakis in Behind-the-Scenes Images",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-14T06:00:47.451Z"
+  "lastUpdated": "2026-07-14T08:01:03.106Z"
 }
