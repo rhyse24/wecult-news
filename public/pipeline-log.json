@@ -1,6 +1,31 @@
 {
-  "totalArticles": 836,
+  "totalArticles": 838,
   "runs": [
+    {
+      "timestamp": "2026-07-15T00:00:41.010Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": "Upcoming Nintendo Switch 2 Games: Release Dates for 2026 and Beyond",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "7de0510f-upcoming-nintendo-switch-2-games-release-dates-for-2026-and-"
+        },
+        {
+          "title": "Halo Studios Reportedly Cancels New Multiplayer Project",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "70a78715-halo-studios-reportedly-cancels-new-multiplayer-project"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-14T22:59:52.466Z",
       "status": "quota",
@@ -1616,32 +1641,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-10T03:43:35.627Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "The Odyssey by Homer audiobook review – a truly fantastic journey",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 15,
-          "slug": "2a0c89fa-the-odyssey-by-homer-audiobook-review-a-truly-fantastic-jour"
-        },
-        {
-          "title": "All Five Hunger Games Movies Will Be in Theaters in September",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "ed9f1928-all-five-hunger-games-movies-will-be-in-theaters-in-septembe"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-14T22:59:52.466Z"
+  "lastUpdated": "2026-07-15T00:00:41.010Z"
 }
