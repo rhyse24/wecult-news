@@ -1,6 +1,49 @@
 {
-  "totalArticles": 850,
+  "totalArticles": 853,
   "runs": [
+    {
+      "timestamp": "2026-07-15T21:04:11.025Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 277,
+      "totalCandidates": 93,
+      "written": [
+        {
+          "title": "Of Course The Odyssey is Joining Fortnite — And Matt Damon is a Skin",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 18,
+          "slug": "7cf4ee1f-of-course-the-odyssey-is-joining-fortnite-and-matt-damon-is-"
+        },
+        {
+          "title": "PlayStation Plus Game Catalog for July 2026 Confirmed",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "823a06c2-playstation-plus-game-catalog-for-july-2026-confirmed"
+        },
+        {
+          "title": " Moonlight Peaks review ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "7fc195ea-moonlight-peaks-review"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "GTA 6's Lack of a PC Port Isn't Out of Greed, According to a Former Rockstar Producer",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 612 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-15T19:17:49.482Z",
       "status": "quota",
@@ -1612,17 +1655,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-10T22:00:17.778Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 34,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-15T19:17:49.482Z"
+  "lastUpdated": "2026-07-15T21:04:11.025Z"
 }
