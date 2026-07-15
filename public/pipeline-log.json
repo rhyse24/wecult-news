@@ -1,6 +1,46 @@
 {
-  "totalArticles": 846,
+  "totalArticles": 849,
   "runs": [
+    {
+      "timestamp": "2026-07-15T10:00:47.437Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Slasher Terror, Cartel Nightmares and a British Folk Monster Join Black Mandala’s New Horror Slate (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "46b855c9-slasher-terror-cartel-nightmares-and-a-british-folk-monster-"
+        },
+        {
+          "title": "Whether in ‘Jurassic Park’ or ‘The Piano,’ Sam Neill Put the Movies First",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "7f80a927-whether-in-jurassic-park-or-the-piano-sam-neill-put-the-movi"
+        },
+        {
+          "title": "‘Obsession’ Director Curry Barker’s Dad Jeff Barker to Write, Direct Horror Short Starring Dane Cook (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "slug": "96f1d8d1-obsession-director-curry-barkers-dad-jeff-barker-to-write-di"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Looks Like Spider-Man: Brand New Day Just Added Another Avenger",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-15T08:00:50.150Z",
       "status": "success",
@@ -1622,17 +1662,7 @@
       "totalCandidates": 37,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-10T14:00:22.256Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 37,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-15T08:00:50.150Z"
+  "lastUpdated": "2026-07-15T10:00:47.437Z"
 }
