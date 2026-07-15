@@ -1,6 +1,24 @@
 {
-  "totalArticles": 839,
+  "totalArticles": 840,
   "runs": [
+    {
+      "timestamp": "2026-07-15T04:00:45.186Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 281,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "The Odyssey Finally Brings Tom Holland and Tom Holland Together",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "slug": "4beb801f-the-odyssey-finally-brings-tom-holland-and-tom-holland-toget"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-15T02:47:49.096Z",
       "status": "quota",
@@ -1577,25 +1595,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-10T10:00:26.509Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "Alisa Bowen Exits as Disney+ President to Become CEO of Disney-Controlled Fubo TV Streamer",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 11,
-          "slug": "a894ae93-alisa-bowen-exits-as-disney-president-to-become-ceo-of-disne"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-15T02:47:49.096Z"
+  "lastUpdated": "2026-07-15T04:00:45.186Z"
 }
