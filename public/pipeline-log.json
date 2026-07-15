@@ -2,6 +2,16 @@
   "totalArticles": 853,
   "runs": [
     {
+      "timestamp": "2026-07-15T22:00:30.405Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 34,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-15T21:04:11.025Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1608,54 +1618,7 @@
       "totalCandidates": 35,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-10T23:01:47.977Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "‘Moana’: Lin-Manuel Miranda on Writing the Song ‘Along The Way’ in a Week and Being in the Oscar Race With Taylor Swift",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "fb412efc-moana-lin-manuel-miranda-on-writing-the-song-along-the-way-i"
-        },
-        {
-          "title": "New to Streaming: The Furious, City Wide Fever, Amores Perros, Camp & More",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 13,
-          "slug": "92a71fe5-new-to-streaming-the-furious-city-wide-fever-amores-perros-c"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Christopher Nolan Says ‘Odyssey’ Backlash Over Casting and More Is ‘Irrelevant’ and He’s Learned Not to Worry: ‘Remember, I Spent 10 Years Dealing With Batman’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Moana’ Makes Box Office Launch With $4.5M in Previews",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Only Recap You Need Before Spider-Man: Brand New Day",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-15T21:04:11.025Z"
+  "lastUpdated": "2026-07-15T22:00:30.405Z"
 }
