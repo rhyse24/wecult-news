@@ -1,6 +1,38 @@
 {
-  "totalArticles": 840,
+  "totalArticles": 843,
   "runs": [
+    {
+      "timestamp": "2026-07-15T06:00:48.653Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 278,
+      "totalCandidates": 84,
+      "written": [
+        {
+          "title": "The Next Halo Game Has Officially Gone Gold",
+          "category": "games",
+          "source": "Pure Xbox",
+          "score": 12,
+          "slug": "bb2727b4-the-next-halo-game-has-officially-gone-gold"
+        },
+        {
+          "title": "Dead Space Creator Glen Schofield Announces Retirement From Gaming Industry",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "bac1cab1-dead-space-creator-glen-schofield-announces-retirement-from-"
+        },
+        {
+          "title": "Why Are There So Many Benedict Cumberbatch Cards In Magic: The Gathering?",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 11,
+          "slug": "b394f586-why-are-there-so-many-benedict-cumberbatch-cards-in-magic-th"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-15T04:00:45.186Z",
       "status": "quota",
@@ -1570,32 +1602,7 @@
       "totalCandidates": 36,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-10T11:08:34.251Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 33,
-      "written": [],
-      "rejected": [
-        {
-          "title": "10 Greatest Family Movies of the Last 50 Years",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Moana Review: A Remake That’s Most Unwelcome",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-15T04:00:45.186Z"
+  "lastUpdated": "2026-07-15T06:00:48.653Z"
 }
