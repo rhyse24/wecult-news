@@ -1,6 +1,31 @@
 {
-  "totalArticles": 856,
+  "totalArticles": 858,
   "runs": [
+    {
+      "timestamp": "2026-07-16T04:00:26.491Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "IMAX Says It Can’t Build More 70mm Projectors for The Odyssey",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "93d1d34a-imax-says-it-cant-build-more-70mm-projectors-for-the-odyssey"
+        },
+        {
+          "title": "Obsession Gets a Surprise Streaming Release Date on Peacock",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "e567ae6c-obsession-gets-a-surprise-streaming-release-date-on-peacock"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-16T02:00:30.629Z",
       "status": "quota",
@@ -1642,17 +1667,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-11T04:00:35.401Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 81,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-16T02:00:30.629Z"
+  "lastUpdated": "2026-07-16T04:00:26.491Z"
 }
