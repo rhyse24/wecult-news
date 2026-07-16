@@ -1,6 +1,31 @@
 {
-  "totalArticles": 865,
+  "totalArticles": 867,
   "runs": [
+    {
+      "timestamp": "2026-07-16T21:05:44.284Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 95,
+      "written": [
+        {
+          "title": " Saber's new business boss says the KOTOR remake will 'hopefully' be out in 2028 ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 16,
+          "slug": "f54b0769-sabers-new-business-boss-says-the-kotor-remake-will-hopefull"
+        },
+        {
+          "title": "Marvel’s Wolverine – “Ain’t No Hero” Cinematic Trailer",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 14,
+          "slug": "87a26905-marvels-wolverine-aint-no-hero-cinematic-trailer"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-16T19:18:44.251Z",
       "status": "quota",
@@ -1629,17 +1654,7 @@
       "totalCandidates": 41,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-11T18:01:04.268Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 250,
-      "totalCandidates": 42,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-16T19:18:44.251Z"
+  "lastUpdated": "2026-07-16T21:05:44.284Z"
 }
