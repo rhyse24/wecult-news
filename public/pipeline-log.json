@@ -1,6 +1,39 @@
 {
-  "totalArticles": 863,
+  "totalArticles": 864,
   "runs": [
+    {
+      "timestamp": "2026-07-16T10:00:28.601Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "Will Ferrell’s Lackluster Golf Comedy ‘The Hawk’ Is No ‘Talladega Nights’: TV Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "11c7f2c5-will-ferrells-lackluster-golf-comedy-the-hawk-is-no-talladeg"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "15 Movies You’re Officially Old if You Watched Growing Up",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 16,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Netflix’s Bela Bajaria to Receive 2026 International Emmy Founders Award",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-16T08:01:20.900Z",
       "status": "success",
@@ -1627,39 +1660,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-11T09:41:48.592Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 270,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Netflix’s ‘Little House on the Prairie’ Writer on Landing Fan Favorite From Original Series for That Scary Cameo",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "slug": "f3c4fdba-netflixs-little-house-on-the-prairie-writer-on-landing-fan-f"
-        },
-        {
-          "title": "‘Star City’ Finale: Creators Explain Why They Couldn’t Resist Rewriting Their Own Alt-Space History by Going to Venus and Killing Off [SPOILER]",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "slug": "767e95ee-star-city-finale-creators-explain-why-they-couldnt-resist-re"
-        },
-        {
-          "title": "One Of The Most Influential Sci-Fi Franchises Ever Has A New Series On Prime Video",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "ea45ca56-one-of-the-most-influential-sci-fi-franchises-ever-has-a-new"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-16T08:01:20.900Z"
+  "lastUpdated": "2026-07-16T10:00:28.601Z"
 }
