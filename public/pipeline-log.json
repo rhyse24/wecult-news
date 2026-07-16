@@ -2,6 +2,31 @@
   "totalArticles": 864,
   "runs": [
     {
+      "timestamp": "2026-07-16T14:00:26.806Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 30,
+      "written": [],
+      "rejected": [
+        {
+          "title": "10 Greatest Amy Adams Movies That Define Her Career",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "The B-Sides of Christopher Nolan with Blake Howard",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-16T12:00:41.304Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1620,25 +1645,7 @@
       "totalCandidates": 31,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-11T12:01:03.393Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 257,
-      "totalCandidates": 31,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Christopher Nolan Praises ‘Obsession’ and ‘Backrooms,’ Says Young Audiences Are Rejecting “AI Slop”",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-16T12:00:41.304Z"
+  "lastUpdated": "2026-07-16T14:00:26.806Z"
 }
