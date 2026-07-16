@@ -2,6 +2,24 @@
   "totalArticles": 865,
   "runs": [
     {
+      "timestamp": "2026-07-16T17:23:03.497Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 88,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Fortnite's Skimpy New Poison Ivy and Harley Quinn Swimwear Skins Are Locked to Modes Rated 13+",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-16T16:00:37.717Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1643,25 +1661,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-11T16:01:02.947Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 253,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "'Evil Dead Burn's Most Talked-About Scene Was Done with an Actual Sex Doll",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "1f4b36c2-evil-dead-burns-most-talked-about-scene-was-done-with-an-act"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-16T16:00:37.717Z"
+  "lastUpdated": "2026-07-16T17:23:03.497Z"
 }
