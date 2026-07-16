@@ -1,6 +1,38 @@
 {
-  "totalArticles": 860,
+  "totalArticles": 863,
   "runs": [
+    {
+      "timestamp": "2026-07-16T08:01:20.900Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 271,
+      "totalCandidates": 92,
+      "written": [
+        {
+          "title": " The future of the Elder Scrolls Online looks rocky after culling of leadership team ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "facf5354-the-future-of-the-elder-scrolls-online-looks-rocky-after-cul"
+        },
+        {
+          "title": "Final Fantasy Resonance Gets A Stunning New Trailer Ahead Of Switch 1 & 2 Launch",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 12,
+          "slug": "d0ee2ee1-final-fantasy-resonance-gets-a-stunning-new-trailer-ahead-of"
+        },
+        {
+          "title": "Avatar Aang: The Last Airbender Finally Gets Theatrical Release, But There's a Catch",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "625433c5-avatar-aang-the-last-airbender-finally-gets-theatrical-relea"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-16T06:00:33.067Z",
       "status": "quota",
@@ -1627,54 +1659,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-11T08:00:38.639Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "‘Moana’ Cast Guide: Every Live-Action Character vs. the Original Animation",
-          "category": "film",
-          "source": "Variety",
-          "score": 15,
-          "slug": "8d3b35b2-moana-cast-guide-every-live-action-character-vs-the-original"
-        },
-        {
-          "title": "The Biggest Sci-Fi Movie of 2026 Is Officially Dominating Prime Video",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "e611bd02-the-biggest-sci-fi-movie-of-2026-is-officially-dominating-pr"
-        },
-        {
-          "title": "Donald Iwerks, Disney Camera Technician and Co-Founder of Iwerks Entertainment, Dies at 96",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "68972c2b-donald-iwerks-disney-camera-technician-and-co-founder-of-iwe"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Christopher Nolan Praises ‘Obsession’ and ‘Backrooms,’ Says Young Audiences Are Rejecting “AI Slop”",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Only Recap You Need Before Spider-Man: Brand New Day",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-16T06:00:33.067Z"
+  "lastUpdated": "2026-07-16T08:01:20.900Z"
 }
