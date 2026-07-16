@@ -1,6 +1,24 @@
 {
-  "totalArticles": 867,
+  "totalArticles": 868,
   "runs": [
+    {
+      "timestamp": "2026-07-16T23:00:51.900Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 47,
+      "written": [
+        {
+          "title": "Streaming Ratings: ‘I Will Find You’ Locates No. 1 Ranking",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "120bd78a-streaming-ratings-i-will-find-you-locates-no-1-ranking"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-16T22:00:28.283Z",
       "status": "quota",
@@ -1647,25 +1665,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-11T20:01:03.343Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 250,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "Antoinette Bower, ‘Star Trek,’ ‘Twilight Zone’ and ‘Prom Night’ Actress, Dies at 93",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "slug": "ea764192-antoinette-bower-star-trek-twilight-zone-and-prom-night-actr"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-16T22:00:28.283Z"
+  "lastUpdated": "2026-07-16T23:00:51.900Z"
 }
