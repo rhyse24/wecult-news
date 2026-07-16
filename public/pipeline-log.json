@@ -1,6 +1,31 @@
 {
-  "totalArticles": 858,
+  "totalArticles": 860,
   "runs": [
+    {
+      "timestamp": "2026-07-16T06:00:33.067Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 271,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "Quentin Tarantino Plans to Retire After His Next Movie. Christopher Nolan Hopes He ‘Won’t Stay True’ to His Word",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "120f0137-quentin-tarantino-plans-to-retire-after-his-next-movie-chris"
+        },
+        {
+          "title": "Andy Serkis Gets Asked Why New ‘Lord of the Rings’ Cast Is All White Actors: ‘I Don’t Think We’ll Be Doing a Politically Correct Casting-for-the Sake-of-Casting Version of the Film’",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "336382c9-andy-serkis-gets-asked-why-new-lord-of-the-rings-cast-is-all"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-16T04:00:26.491Z",
       "status": "quota",
@@ -1649,25 +1674,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-11T06:00:37.443Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 80,
-      "written": [
-        {
-          "title": "Big Walk Is Destined To Be Your Next Big Co-Op Obsession",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 14,
-          "slug": "5f8c1ee5-big-walk-is-destined-to-be-your-next-big-co-op-obsession"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-16T04:00:26.491Z"
+  "lastUpdated": "2026-07-16T06:00:33.067Z"
 }
