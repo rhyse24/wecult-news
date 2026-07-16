@@ -2,6 +2,16 @@
   "totalArticles": 864,
   "runs": [
     {
+      "timestamp": "2026-07-16T12:00:41.304Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 33,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-16T10:00:28.601Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1628,39 +1638,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-11T11:10:29.389Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 263,
-      "totalCandidates": 19,
-      "written": [
-        {
-          "title": "Na Hong-jin’s Alien Film Hope Gets Another Delightfully Chaotic Trailer",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 11,
-          "slug": "64b210df-na-hong-jins-alien-film-hope-gets-another-delightfully-chaot"
-        },
-        {
-          "title": "What Should You Watch This Weekend?",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 10,
-          "slug": "f7b85396-what-should-you-watch-this-weekend"
-        },
-        {
-          "title": "Evil Dead Burn Is an Extreme, Gruesome, Darkly Fun Addition to the Series",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "b85d03ca-evil-dead-burn-is-an-extreme-gruesome-darkly-fun-addition-to"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-16T10:00:28.601Z"
+  "lastUpdated": "2026-07-16T12:00:41.304Z"
 }
