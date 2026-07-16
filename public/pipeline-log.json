@@ -2,6 +2,27 @@
   "totalArticles": 867,
   "runs": [
     {
+      "timestamp": "2026-07-16T22:00:28.283Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 46,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Streaming Ratings: ‘I Will Find You’ Locates No. 1 Ranking",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-16T21:05:44.284Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1644,17 +1665,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-11T19:10:30.881Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 250,
-      "totalCandidates": 41,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-16T21:05:44.284Z"
+  "lastUpdated": "2026-07-16T22:00:28.283Z"
 }
