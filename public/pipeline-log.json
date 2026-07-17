@@ -1,6 +1,38 @@
 {
-  "totalArticles": 870,
+  "totalArticles": 873,
   "runs": [
+    {
+      "timestamp": "2026-07-17T04:00:27.764Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "Descendants: Wicked Wonderland Team Breaks Down The Movie's Mysterious Ending: 'We Shot It A Number Of Different Ways'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "fe437a11-descendants-wicked-wonderland-team-breaks-down-the-movies-my"
+        },
+        {
+          "title": "Paramount+ Subscribers Fail to Block Warner Bros. Merger as States Will Try Again Friday",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "5cd29890-paramount-subscribers-fail-to-block-warner-bros-merger-as-st"
+        },
+        {
+          "title": "FX, Color Force to Develop Series Based on New Yorker Article About National Park Volunteer Rescue Squad (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "d264b09d-fx-color-force-to-develop-series-based-on-new-yorker-article"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-17T02:56:42.160Z",
       "status": "quota",
@@ -1640,40 +1672,7 @@
       "totalCandidates": 44,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-12T00:01:03.611Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 236,
-      "totalCandidates": 87,
-      "written": [
-        {
-          "title": "TennoCon 2026: Everything Announced at the Warframe and Soulframe Fan Event",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "ff64ea7c-tennocon-2026-everything-announced-at-the-warframe-and-soulf"
-        },
-        {
-          "title": " I've found my perfect summer game: A stomach-churning horror story about Czech train conductors built over a bafflingly deep simulation of a fictional subway ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "86a76028-ive-found-my-perfect-summer-game-a-stomach-churning-horror-s"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "GTA 4 Actor Wants It To Be Remastered As Much As We Do",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 12,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-17T02:56:42.160Z"
+  "lastUpdated": "2026-07-17T04:00:27.764Z"
 }
