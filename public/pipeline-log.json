@@ -1,6 +1,46 @@
 {
-  "totalArticles": 873,
+  "totalArticles": 876,
   "runs": [
+    {
+      "timestamp": "2026-07-17T08:00:30.019Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": "Assassin's Creed Black Flag Resynced Director Reveals Why Ubisoft Ditched Edward's Hidden Blade Combat",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "36c763ec-assassins-creed-black-flag-resynced-director-reveals-why-ubi"
+        },
+        {
+          "title": "Marvel Rivals’ Latest Patch “Cuts Down On Battlefield Chaos”, Per NetEase",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 12,
+          "slug": "b66cb805-marvel-rivals-latest-patch-cuts-down-on-battlefield-chaos-pe"
+        },
+        {
+          "title": "Game of Thrones: War for Westeros Release Date Delayed to Early 2027",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "00e6e409-game-of-thrones-war-for-westeros-release-date-delayed-to-ear"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Marvel's Wolverine Trailer Features First Look at Lady Deathstrike",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-17T06:00:27.270Z",
       "status": "quota",
@@ -1646,33 +1686,7 @@
       "totalCandidates": 26,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-12T03:22:52.357Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 243,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "This 2000s X-Men Show Remains An Underrated Gem Every Marvel Fan Needs To Watch",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "7b277646-this-2000s-x-men-show-remains-an-underrated-gem-every-marvel"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Meet the 11-Year-Old Actress Leading Netflix’s New Take on ‘Little House on the Prairie’",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-17T06:00:27.270Z"
+  "lastUpdated": "2026-07-17T08:00:30.019Z"
 }
