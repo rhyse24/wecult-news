@@ -1,6 +1,24 @@
 {
-  "totalArticles": 887,
+  "totalArticles": 888,
   "runs": [
+    {
+      "timestamp": "2026-07-17T22:53:23.089Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 55,
+      "written": [
+        {
+          "title": "10 Best TV Shows Like Lucky",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "98ab74ab-10-best-tv-shows-like-lucky"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-17T22:01:01.991Z",
       "status": "quota",
@@ -1609,32 +1627,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-12T21:26:25.390Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 175,
-      "totalCandidates": 22,
-      "written": [
-        {
-          "title": "Box Office: ‘Moana’ Struggles With $52 Million Overseas, ‘Toy Story 5’ Powers to $879 Million Globally",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "d833377f-box-office-moana-struggles-with-52-million-overseas-toy-stor"
-        },
-        {
-          "title": "‘Avengers: Doomsday’ Concept Art Reveals First Look at Robert Downey Jr.’s Doctor Doom, Returning X-Men Characters",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "5d7d57ba-avengers-doomsday-concept-art-reveals-first-look-at-robert-d"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-17T22:01:01.991Z"
+  "lastUpdated": "2026-07-17T22:53:23.089Z"
 }
