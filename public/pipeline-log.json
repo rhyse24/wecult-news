@@ -2,6 +2,24 @@
   "totalArticles": 868,
   "runs": [
     {
+      "timestamp": "2026-07-17T00:00:31.852Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 31,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Fortnite Adds ‘The Odyssey’ Skins for Odysseus and Agamemnon",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-16T23:00:51.900Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1640,32 +1658,7 @@
       "totalCandidates": 86,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-11T20:55:19.184Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 249,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "‘Moana’ Creatives on Working Closely to Honor Polynesian Culture and Traditions, and Why Representation Matters in the Live-Action Film",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "f2c788de-moana-creatives-on-working-closely-to-honor-polynesian-cultu"
-        },
-        {
-          "title": "‘Moana’ Failing to Make Box Office Splash With $45M Opening",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "4eefdc99-moana-failing-to-make-box-office-splash-with-45m-opening"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-16T23:00:51.900Z"
+  "lastUpdated": "2026-07-17T00:00:31.852Z"
 }
