@@ -1,6 +1,53 @@
 {
-  "totalArticles": 876,
+  "totalArticles": 879,
   "runs": [
+    {
+      "timestamp": "2026-07-17T10:01:04.286Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 278,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "Bollywood Star Jacqueline Fernandez Launches AI Avatar (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "a00d36c2-bollywood-star-jacqueline-fernandez-launches-ai-avatar-exclu"
+        },
+        {
+          "title": "The Punisher Explained In 27 Minutes Before Spider-Man: Brand New Day",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "slug": "0f8b8eac-the-punisher-explained-in-27-minutes-before-spider-man-brand"
+        },
+        {
+          "title": "Rising Brit Star Sophie Simnett Joins Black-and-White Silent Comedy ‘The Candidate’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "817a7899-rising-brit-star-sophie-simnett-joins-black-and-white-silent"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The Sound of ‘The Odyssey’: Composer Ludwig Göransson Used Ancient Greek Instruments, Scrap Metals and Gongs",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Tom Cruise Praises Christopher Nolan’s ‘The Odyssey’: “I Can’t Wait to See It Again”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-17T08:00:30.019Z",
       "status": "success",
@@ -1676,17 +1723,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-12T06:01:03.815Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 240,
-      "totalCandidates": 26,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-17T08:00:30.019Z"
+  "lastUpdated": "2026-07-17T10:01:04.286Z"
 }
