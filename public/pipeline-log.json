@@ -1,6 +1,38 @@
 {
-  "totalArticles": 879,
+  "totalArticles": 882,
   "runs": [
+    {
+      "timestamp": "2026-07-17T12:01:04.691Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "‘Rivals’ Star Annabel Scholey Joins Netflix Thriller Series ‘The Lord’s Day’ Alongside Damson Idris and Harry Lawtey (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 16,
+          "slug": "fe6d4f71-rivals-star-annabel-scholey-joins-netflix-thriller-series-th"
+        },
+        {
+          "title": "15 Movie Weddings We Would Definitely Object To",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 15,
+          "slug": "7f154973-15-movie-weddings-we-would-definitely-object-to"
+        },
+        {
+          "title": "Netflix’s ‘Heartstopper Forever’ Is a Wistful and Mature Ending for Charlie and Nick’s Love Story: Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "4e02ac4f-netflixs-heartstopper-forever-is-a-wistful-and-mature-ending"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-17T10:01:04.286Z",
       "status": "success",
@@ -1683,47 +1715,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-12T08:01:00.527Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 238,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "7 Biggest Records Olivia Rodrigo Has Broken",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 17,
-          "slug": "f0ae4cd5-7-biggest-records-olivia-rodrigo-has-broken"
-        },
-        {
-          "title": "Batman Fans Prepared Christopher Nolan for Criticism of The Odyssey",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "slug": "8277454f-batman-fans-prepared-christopher-nolan-for-criticism-of-the-"
-        },
-        {
-          "title": "Myanmar-Set ‘Fruit Gathering’ Wins at Karlovy Vary: ‘Harrowing Drama of Obsession and Queer Desire’",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "cca286fd-myanmar-set-fruit-gathering-wins-at-karlovy-vary-harrowing-d"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Christopher Nolan Addresses ‘The Odyssey’ Backlash, Explains Why Film Uses Modern Dialogue",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-17T10:01:04.286Z"
+  "lastUpdated": "2026-07-17T12:01:04.691Z"
 }
