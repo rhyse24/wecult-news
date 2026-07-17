@@ -1,6 +1,38 @@
 {
-  "totalArticles": 882,
+  "totalArticles": 885,
   "runs": [
+    {
+      "timestamp": "2026-07-17T13:47:23.171Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 279,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "Nostos, or Homecoming: Why I Keep Returning to the Odyssey",
+          "category": "books",
+          "source": "Literary Hub",
+          "score": 15,
+          "slug": "eb731220-nostos-or-homecoming-why-i-keep-returning-to-the-odyssey"
+        },
+        {
+          "title": "Nine Feminist Mythological Reimaginings to Read After You Watch The Odyssey",
+          "category": "books",
+          "source": "Literary Hub",
+          "score": 12,
+          "slug": "fa39de73-nine-feminist-mythological-reimaginings-to-read-after-you-wa"
+        },
+        {
+          "title": "What Should You Watch This Weekend?",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 11,
+          "slug": "b1ef5fe1-what-should-you-watch-this-weekend"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-17T12:01:04.691Z",
       "status": "success",
@@ -1683,39 +1715,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-12T09:54:32.097Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 226,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "The Westies won't be your American Peaky Blinders",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "ede6dba0-the-westies-wont-be-your-american-peaky-blinders"
-        },
-        {
-          "title": "‘The Westies’ Review: J.K. Simmons and Titus Welliver Lead MGM+’s Handsome but Generic Gangster Drama",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "0201c6e6-the-westies-review-jk-simmons-and-titus-welliver-lead-mgms-h"
-        },
-        {
-          "title": "Christopher Nolan thinks the kids are alright—AI, not so much",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "slug": "2335ed1b-christopher-nolan-thinks-the-kids-are-alrightai-not-so-much"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-17T12:01:04.691Z"
+  "lastUpdated": "2026-07-17T13:47:23.171Z"
 }
