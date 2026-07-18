@@ -1,6 +1,46 @@
 {
-  "totalArticles": 900,
+  "totalArticles": 903,
   "runs": [
+    {
+      "timestamp": "2026-07-18T13:25:56.214Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 256,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "‘The Odyssey’ Cast Guide: Who’s Playing Who in Christopher Nolan’s Epic",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "slug": "3680d874-the-odyssey-cast-guide-whos-playing-who-in-christopher-nolan"
+        },
+        {
+          "title": "3 Fantastic Movies To Watch on Prime Video This Weekend (July 18-19)",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "e859f592-3-fantastic-movies-to-watch-on-prime-video-this-weekend-july"
+        },
+        {
+          "title": "John Kirby, Acting Coach and Son of Actor Bruce Kirby, Dies at 75",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 9,
+          "slug": "5a90ad6d-john-kirby-acting-coach-and-son-of-actor-bruce-kirby-dies-at"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "7 Most Perfect Superhero Movies Released Since 2000",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-18T11:28:09.762Z",
       "status": "success",
@@ -1572,25 +1612,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-13T14:00:35.824Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 228,
-      "totalCandidates": 84,
-      "written": [],
-      "rejected": [
-        {
-          "title": "House Of The Dragon's Prince Daeron Played By Zelda Movie's Benjamin Ainsworth",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-18T11:28:09.762Z"
+  "lastUpdated": "2026-07-18T13:25:56.214Z"
 }
