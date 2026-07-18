@@ -1,6 +1,24 @@
 {
-  "totalArticles": 889,
+  "totalArticles": 890,
   "runs": [
+    {
+      "timestamp": "2026-07-18T04:01:05.271Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 84,
+      "written": [
+        {
+          "title": "Marvel's Wolverine Trailer Flooded With Comments as Physical Disc Backlash Against PlayStation Continues",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "5f510b9b-marvels-wolverine-trailer-flooded-with-comments-as-physical-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-18T02:01:03.750Z",
       "status": "quota",
@@ -1566,47 +1584,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-13T03:26:06.918Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 173,
-      "totalCandidates": 21,
-      "written": [
-        {
-          "title": "5 Greatest Tilda Swinton Movies That Define Her Career",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "slug": "4f9ab767-5-greatest-tilda-swinton-movies-that-define-her-career"
-        },
-        {
-          "title": "House Of The Dragon: How Does Ser Criston Cole Die In The Book?",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "slug": "02ba1a15-house-of-the-dragon-how-does-ser-criston-cole-die-in-the-boo"
-        },
-        {
-          "title": "‘Evil Dead Burn’ Director Breaks Down His Brand of French Brutality, From Practical Effects and Real Fire to That Post-Credits Scene",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "93dc37b8-evil-dead-burn-director-breaks-down-his-brand-of-french-brut"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Moana’ Flounders With $43 Million Debut, Among Weakest of Disney’s Live-Action Remakes",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-18T02:01:03.750Z"
+  "lastUpdated": "2026-07-18T04:01:05.271Z"
 }
