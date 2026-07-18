@@ -1,6 +1,38 @@
 {
-  "totalArticles": 894,
+  "totalArticles": 897,
   "runs": [
+    {
+      "timestamp": "2026-07-18T09:37:28.176Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 268,
+      "totalCandidates": 54,
+      "written": [
+        {
+          "title": "Best kids' movies to watch on Netflix - from K-Pop Demon Hunters to Wallace & Gromit",
+          "category": "tv",
+          "source": "Radio Times",
+          "score": 11,
+          "slug": "67c2cfb0-best-kids-movies-to-watch-on-netflix---from-k-pop-demon-hunt"
+        },
+        {
+          "title": "Final Fantasy XIV Game's Mobile Version to End Service in China on September 30",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 11,
+          "slug": "cf4e6204-final-fantasy-xiv-games-mobile-version-to-end-service-in-chi"
+        },
+        {
+          "title": "Layoff-blasted Fallout game studio announces it's building Fallout 5 from the rubble",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 10,
+          "slug": "b162ab9e-layoff-blasted-fallout-game-studio-announces-its-building-fa"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-18T08:01:06.538Z",
       "status": "success",
@@ -1536,33 +1568,7 @@
       "totalCandidates": 78,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-13T10:00:33.556Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 181,
-      "totalCandidates": 20,
-      "written": [
-        {
-          "title": "Korea Box Office: ‘Moana’ Captures Crown While ‘The Eyes’ Retains Second Place",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "5fcb79cd-korea-box-office-moana-captures-crown-while-the-eyes-retains"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "How Universal Made a 8,800-Pound Trojan Horse for ‘The Odyssey’ World Premiere",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-18T08:01:06.538Z"
+  "lastUpdated": "2026-07-18T09:37:28.176Z"
 }
