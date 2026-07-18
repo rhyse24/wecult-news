@@ -1,6 +1,38 @@
 {
-  "totalArticles": 897,
+  "totalArticles": 900,
   "runs": [
+    {
+      "timestamp": "2026-07-18T11:28:09.762Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 263,
+      "totalCandidates": 88,
+      "written": [
+        {
+          "title": "GTA 6 Officially Still On Track For November 19",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 14,
+          "slug": "e6fc4c80-gta-6-officially-still-on-track-for-november-19"
+        },
+        {
+          "title": " Fallout 5: Confirmed details (and speculation) about Bethesda's next post-nuclear RPG ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "660267a5-fallout-5-confirmed-details-and-speculation-about-bethesdas-"
+        },
+        {
+          "title": "A24 Is Copyright Striking Backrooms Artwork Older Than The Movie",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 13,
+          "slug": "e630199b-a24-is-copyright-striking-backrooms-artwork-older-than-the-m"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-18T09:37:28.176Z",
       "status": "success",
@@ -1558,17 +1590,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-13T12:16:15.619Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 210,
-      "totalCandidates": 78,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-18T09:37:28.176Z"
+  "lastUpdated": "2026-07-18T11:28:09.762Z"
 }
