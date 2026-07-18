@@ -2,6 +2,16 @@
   "totalArticles": 889,
   "runs": [
     {
+      "timestamp": "2026-07-18T02:01:03.750Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 82,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-18T00:01:03.547Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1596,32 +1606,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-13T02:00:32.560Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 173,
-      "totalCandidates": 5,
-      "written": [
-        {
-          "title": "‘More postmodern than ancient’: why the Odyssey is everywhere, from Oz to Westeros",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 10,
-          "slug": "0633bc30-more-postmodern-than-ancient-why-the-odyssey-is-everywhere-f"
-        },
-        {
-          "title": "Golden Age Mysteries: A Starter Pack",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 3,
-          "slug": "6d75f191-golden-age-mysteries-a-starter-pack"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-18T00:01:03.547Z"
+  "lastUpdated": "2026-07-18T02:01:03.750Z"
 }
