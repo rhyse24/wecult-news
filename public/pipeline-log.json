@@ -2,6 +2,24 @@
   "totalArticles": 903,
   "runs": [
     {
+      "timestamp": "2026-07-18T15:32:03.952Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 250,
+      "totalCandidates": 51,
+      "written": [],
+      "rejected": [
+        {
+          "title": "10 Best TV Shows Like Everybody Loves Raymond",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-18T13:25:56.214Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1594,25 +1612,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-13T16:00:33.285Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 248,
-      "totalCandidates": 88,
-      "written": [],
-      "rejected": [
-        {
-          "title": "CoD: Black Ops 7 And Warzone Season 5 Release Date And Details",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 15,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-18T13:25:56.214Z"
+  "lastUpdated": "2026-07-18T15:32:03.952Z"
 }
