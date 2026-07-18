@@ -1,6 +1,32 @@
 {
-  "totalArticles": 890,
+  "totalArticles": 891,
   "runs": [
+    {
+      "timestamp": "2026-07-18T06:01:03.441Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 271,
+      "totalCandidates": 54,
+      "written": [
+        {
+          "title": "Save The Dates: Extended X-Files Sequel, Mortal Kombat II Hits Streaming, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "c0eadb9a-save-the-dates-extended-x-files-sequel-mortal-kombat-ii-hits"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "TVLine Asks: Are DWTS: The Next Pro Contestants Ready For DWTS? What's All American Teasing? Is The Hawk Giving Zoolander? And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-18T04:01:05.271Z",
       "status": "quota",
@@ -1558,33 +1584,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-13T06:00:32.079Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 168,
-      "totalCandidates": 69,
-      "written": [
-        {
-          "title": "Call of Duty: Black Ops 1 and 2 Support Crossplay Between PS4 and PS5, Activision Confirms",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "28c40a83-call-of-duty-black-ops-1-and-2-support-crossplay-between-ps4"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Obsidian Director Blasts People 'Running Their Mouths' About How the Studio Has Changed Following Xbox Layoffs",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-18T04:01:05.271Z"
+  "lastUpdated": "2026-07-18T06:01:03.441Z"
 }
