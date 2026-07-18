@@ -1,6 +1,32 @@
 {
-  "totalArticles": 888,
+  "totalArticles": 889,
   "runs": [
+    {
+      "timestamp": "2026-07-18T00:01:03.547Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 267,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Anne Hathaway’s 13 Best Performances: From ‘The Devil Wears Prada’ to ‘The Odyssey’",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "be62e71c-anne-hathaways-13-best-performances-from-the-devil-wears-pra"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Christopher Nolan’s The Odyssey vs. Homer’s Epic Poem: What Are the Differences?",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-17T22:53:23.089Z",
       "status": "quota",
@@ -1595,39 +1621,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-12T23:16:55.084Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 174,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "Wai Ching Ho, Marvel's Madame Gao, Dead At 82",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "b55fd47c-wai-ching-ho-marvels-madame-gao-dead-at-82"
-        },
-        {
-          "title": "Yellowstone's 'Indian Relay' Episode Is Based On A Real-Life Event",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "1c656dd5-yellowstones-indian-relay-episode-is-based-on-a-real-life-ev"
-        },
-        {
-          "title": "Wai Ching Ho, Veteran Actor Who Appeared in ‘Daredevil’ and ‘Iron Fist,’ Dies at 82",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "020139cb-wai-ching-ho-veteran-actor-who-appeared-in-daredevil-and-iro"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-17T22:53:23.089Z"
+  "lastUpdated": "2026-07-18T00:01:03.547Z"
 }
