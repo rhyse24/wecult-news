@@ -1,6 +1,31 @@
 {
-  "totalArticles": 905,
+  "totalArticles": 907,
   "runs": [
+    {
+      "timestamp": "2026-07-18T19:31:32.718Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 256,
+      "totalCandidates": 18,
+      "written": [
+        {
+          "title": "They’re in That??: The Bond Villain Henchmen Who Played The Twilight Zone‘s Most Famous Alien",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 9,
+          "slug": "01a9ec6f-theyre-in-that-the-bond-villain-henchmen-who-played-the-twil"
+        },
+        {
+          "title": "God of War Will Have a New Lead After Ryan Hurst’s On-Set Injury",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 9,
+          "slug": "aa36cc94-god-of-war-will-have-a-new-lead-after-ryan-hursts-on-set-inj"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-18T17:29:24.181Z",
       "status": "quota",
@@ -1600,17 +1625,7 @@
       "totalCandidates": 85,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-13T19:45:27.227Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 262,
-      "totalCandidates": 90,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-18T17:29:24.181Z"
+  "lastUpdated": "2026-07-18T19:31:32.718Z"
 }
