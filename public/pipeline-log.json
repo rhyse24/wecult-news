@@ -1,6 +1,38 @@
 {
-  "totalArticles": 891,
+  "totalArticles": 894,
   "runs": [
+    {
+      "timestamp": "2026-07-18T08:01:06.538Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 271,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Confused by ‘The Odyssey’? All the Timelines, Monsters and Greek Myths Explained",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "90ba3783-confused-by-the-odyssey-all-the-timelines-monsters-and-greek"
+        },
+        {
+          "title": "Colman Domingo and Robert O’Hara in Talks to Write Live-Action Princess Tiana Movie",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "7c543906-colman-domingo-and-robert-ohara-in-talks-to-write-live-actio"
+        },
+        {
+          "title": "“The Map of Longing” Offers Real Catharsis Despite Its Teen Melancholy",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 12,
+          "slug": "0de442ec-the-map-of-longing-offers-real-catharsis-despite-its-teen-me"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-18T06:01:03.441Z",
       "status": "quota",
@@ -1530,61 +1562,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-13T07:24:59.981Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 172,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "Mayfair Witches Season 3 Drops First Teaser Trailer Ahead Of The Vampire Lestat Finale",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "bb749ecd-mayfair-witches-season-3-drops-first-teaser-trailer-ahead-of"
-        },
-        {
-          "title": "Hilda Hidalgo Readies Third Fiction Pic, About Sexual Abuse, After Acclaimed Dramas ‘Of Love and Other Demons’ and ‘Violeta at Last’ (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "333ed7fa-hilda-hidalgo-readies-third-fiction-pic-about-sexual-abuse-a"
-        },
-        {
-          "title": "Visual Effects Society Inducts Godzilla's Ishirō Honda, Tomoyuki Tanaka into Hall of Fame",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 8,
-          "slug": "128ec741-visual-effects-society-inducts-godzillas-ishir-honda-tomoyuk"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "House Of The Dragon Episode 4 Recap: Is There Another Heir In There?",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "J.K. Simmons Crime Drama ‘The Westies’ Is a Flat Take on New York’s Irish Mob: TV Review",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The ‘Special One’ Speaks: Netflix Reveals Release Date for Its Long Awaited José Mourinho Docu-Series",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 9,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-18T06:01:03.441Z"
+  "lastUpdated": "2026-07-18T08:01:06.538Z"
 }
