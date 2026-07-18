@@ -1,6 +1,39 @@
 {
-  "totalArticles": 903,
+  "totalArticles": 905,
   "runs": [
+    {
+      "timestamp": "2026-07-18T17:29:24.181Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 258,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Why Taylor Sheridan Was Forced To Fire Robert Redford From Yellowstone",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "614a73cc-why-taylor-sheridan-was-forced-to-fire-robert-redford-from-y"
+        },
+        {
+          "title": "Descendants: Wicked Wonderland Team Answers Our Burning Questions: Deleted Scenes, Red's Dad, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "f222b74e-descendants-wicked-wonderland-team-answers-our-burning-quest"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Best TV Shows Like Everybody Loves Raymond",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-18T15:32:03.952Z",
       "status": "quota",
@@ -1577,42 +1610,7 @@
       "totalCandidates": 90,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-13T17:58:04.917Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 261,
-      "totalCandidates": 85,
-      "written": [],
-      "rejected": [
-        {
-          "title": "CoD: Black Ops 7 And Warzone Season 5 Release Date And Details",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 15,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        },
-        {
-          "title": "Live-Action Moana Is Bombing At The Box Office As Badly As Last Year’s Snow White Remake",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 14,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Call of Duty: Black Ops Port Deemed 'Unplayable' As Lobbies Are Filled With Exploiters",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-18T15:32:03.952Z"
+  "lastUpdated": "2026-07-18T17:29:24.181Z"
 }
