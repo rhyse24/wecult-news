@@ -1,6 +1,60 @@
 {
-  "totalArticles": 913,
+  "totalArticles": 915,
   "runs": [
+    {
+      "timestamp": "2026-07-19T03:19:40.312Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 245,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "3 Great Movie Trilogies That Give The Lord of the Rings a Run for Its Money",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "ed2eaaed-3-great-movie-trilogies-that-give-the-lord-of-the-rings-a-ru"
+        },
+        {
+          "title": "10 Most Important NC-17 Movies of All Time ",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "slug": "8d72bfc6-10-most-important-nc-17-movies-of-all-time"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Christopher Nolan Says It Will Be ‘At Least’ Three Years Until He Makes Another Movie After ‘The Odyssey’ Pushed the ‘Limits of My Own Stamina’",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Christopher Nolan’s The Odyssey vs. Homer’s Epic Poem: What Are the Differences?",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Box Office: ‘The Odyssey’ Has Epic Opening Day With $51 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "6 Scariest Movies Released Since 2000",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-19T02:00:49.391Z",
       "status": "success",
@@ -1666,33 +1720,7 @@
       "totalCandidates": 50,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-14T02:00:59.604Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 265,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": " Fallout: New Vegas director Josh Sawyer reveals his optimal outcome for the Mojave Wasteland ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 15,
-          "slug": "e1629628-fallout-new-vegas-director-josh-sawyer-reveals-his-optimal-o"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Hallmark Debuts New PlayStation Console Ornament That Plays the Original Startup Sound ",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-19T02:00:49.391Z"
+  "lastUpdated": "2026-07-19T03:19:40.312Z"
 }
