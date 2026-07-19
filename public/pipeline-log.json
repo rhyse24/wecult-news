@@ -1,6 +1,24 @@
 {
-  "totalArticles": 909,
+  "totalArticles": 910,
   "runs": [
+    {
+      "timestamp": "2026-07-19T00:05:04.516Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 249,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Call of Duty Movie to Take Place in the Modern Warfare Universe, Director Confirms",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "9ad107bc-call-of-duty-movie-to-take-place-in-the-modern-warfare-unive"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-18T21:51:14.398Z",
       "status": "quota",
@@ -1652,17 +1670,7 @@
       "totalCandidates": 83,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-13T22:58:28.130Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 85,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-18T21:51:14.398Z"
+  "lastUpdated": "2026-07-19T00:05:04.516Z"
 }
