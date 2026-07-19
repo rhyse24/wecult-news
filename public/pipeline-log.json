@@ -1,6 +1,24 @@
 {
-  "totalArticles": 924,
+  "totalArticles": 925,
   "runs": [
+    {
+      "timestamp": "2026-07-19T13:57:56.397Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 194,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "‘XO, Kitty’ Season 4 Finally Gets Long Awaited (But Disappointing) Netflix Update",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "4b507e93-xo-kitty-season-4-finally-gets-long-awaited-but-disappointin"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-19T11:16:33.121Z",
       "status": "success",
@@ -1768,39 +1786,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-14T08:01:03.106Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 263,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Moana doesn't actually go that far at the weekend box office",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "302e0564-moana-doesnt-actually-go-that-far-at-the-weekend-box-office"
-        },
-        {
-          "title": "House Of The Dragon got Rhaenyra and Alicent right—so why does it get everyone else so wrong?",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "c6213f69-house-of-the-dragon-got-rhaenyra-and-alicent-rightso-why-doe"
-        },
-        {
-          "title": "Raised by Wolves Producer Confirms What Really Killed Season 3",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 11,
-          "slug": "6b4fed42-raised-by-wolves-producer-confirms-what-really-killed-season"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-19T11:16:33.121Z"
+  "lastUpdated": "2026-07-19T13:57:56.397Z"
 }
