@@ -1,6 +1,38 @@
 {
-  "totalArticles": 910,
+  "totalArticles": 913,
   "runs": [
+    {
+      "timestamp": "2026-07-19T02:00:49.391Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 249,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Netflix’s German Movie ’23 000 Lives’ Review: A Stunningly Shot Drama Sunk by Its Own Message",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "1b214fad-netflixs-german-movie-23-000-lives-review-a-stunningly-shot-"
+        },
+        {
+          "title": "A24 very sorry it hit Backrooms-inspired art with a copyright strike",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 10,
+          "slug": "89027c3b-a24-very-sorry-it-hit-backrooms-inspired-art-with-a-copyrigh"
+        },
+        {
+          "title": "When will Christopher Nolan’s ‘The Odyssey’ be on Netflix?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 8,
+          "slug": "c7edd38f-when-will-christopher-nolans-the-odyssey-be-on-netflix"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-19T00:05:04.516Z",
       "status": "quota",
@@ -1660,17 +1692,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-14T00:00:56.451Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 256,
-      "totalCandidates": 83,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-19T00:05:04.516Z"
+  "lastUpdated": "2026-07-19T02:00:49.391Z"
 }
