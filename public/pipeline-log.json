@@ -1,6 +1,24 @@
 {
-  "totalArticles": 928,
+  "totalArticles": 929,
   "runs": [
+    {
+      "timestamp": "2026-07-19T19:13:40.652Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 174,
+      "totalCandidates": 18,
+      "written": [
+        {
+          "title": "‘The Odyssey’ Becomes Christopher Nolan’s Biggest Global Debut of All Time With $264 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "46597734-the-odyssey-becomes-christopher-nolans-biggest-global-debut-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-19T16:33:27.578Z",
       "status": "success",
@@ -1754,17 +1772,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-14T12:00:54.296Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 266,
-      "totalCandidates": 34,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-19T16:33:27.578Z"
+  "lastUpdated": "2026-07-19T19:13:40.652Z"
 }
