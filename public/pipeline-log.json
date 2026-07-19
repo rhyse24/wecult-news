@@ -1,6 +1,67 @@
 {
-  "totalArticles": 921,
+  "totalArticles": 924,
   "runs": [
+    {
+      "timestamp": "2026-07-19T11:16:33.121Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 210,
+      "totalCandidates": 22,
+      "written": [
+        {
+          "title": "The Odyssey: Who Were the Sea People and Why Are They So Scary?",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 9,
+          "slug": "3941ecec-the-odyssey-who-were-the-sea-people-and-why-are-they-so-scar"
+        },
+        {
+          "title": "The Odyssey: Lupita Nyong’o is a Master of Dual Roles",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 8,
+          "slug": "09243515-the-odyssey-lupita-nyongo-is-a-master-of-dual-roles"
+        },
+        {
+          "title": "MIFFest Opens Ninth Edition in Kuala Lumpur, Earns ASEAN Records Recognition",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "a9f22f5f-miffest-opens-ninth-edition-in-kuala-lumpur-earns-asean-reco"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Christopher Nolan’s The Odyssey vs. Homer’s Epic Poem: What Are the Differences?",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Christopher Nolan Says It Will Be ‘At Least’ Three Years Until He Makes Another Movie After ‘The Odyssey’ Pushed the ‘Limits of My Own Stamina’",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Box Office: ‘The Odyssey’ Has Epic Opening Day With $51 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "6 Scariest Movies Released Since 2000",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-19T08:36:51.542Z",
       "status": "success",
@@ -1739,32 +1800,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-14T06:00:47.451Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 263,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "‘Kong x Godzilla’ Ride Set to Open at Korea’s Lotte World This Month: It’s ‘Extremely Immersive’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "slug": "a8f04d44-kong-x-godzilla-ride-set-to-open-at-koreas-lotte-world-this-"
-        },
-        {
-          "title": "Why ‘Moana’ Sank With Its Box Office Opening",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "f959b99d-why-moana-sank-with-its-box-office-opening"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-19T08:36:51.542Z"
+  "lastUpdated": "2026-07-19T11:16:33.121Z"
 }
