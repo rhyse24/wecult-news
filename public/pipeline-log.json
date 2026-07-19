@@ -1,6 +1,46 @@
 {
-  "totalArticles": 918,
+  "totalArticles": 921,
   "runs": [
+    {
+      "timestamp": "2026-07-19T08:36:51.542Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 236,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Quote Of The Day By Betty White: 'You Can Lie To Anyone In The World And Even Get Away With It, Perhaps, But When You Are Alone And Look Into...'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 7,
+          "slug": "82d7995b-quote-of-the-day-by-betty-white-you-can-lie-to-anyone-in-the"
+        },
+        {
+          "title": "North American Anime, Manga Releases, July 12-18",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 7,
+          "slug": "42a2b21e-north-american-anime-manga-releases-july-12-18"
+        },
+        {
+          "title": "Colman Domingo might be writing a live-action movie about The Princess And The Frog's Tiana",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 6,
+          "slug": "ba7fbcec-colman-domingo-might-be-writing-a-live-action-movie-about-th"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Bleach Mirrors High Mobile Game's Trailer Reveals 3 New Characters",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-19T06:00:50.352Z",
       "status": "success",
@@ -1724,33 +1764,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-14T04:01:01.870Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 265,
-      "totalCandidates": 50,
-      "written": [
-        {
-          "title": "All American Boss Teases 'Drama And Fallout' From That Amina Cliffhanger: It Will Affect 'Almost Everyone's Lives' In Season 8",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "6f74a744-all-american-boss-teases-drama-and-fallout-from-that-amina-c"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Moana doesn't actually go that far at the weekend box office",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-19T06:00:50.352Z"
+  "lastUpdated": "2026-07-19T08:36:51.542Z"
 }
