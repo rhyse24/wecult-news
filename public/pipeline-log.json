@@ -1,6 +1,32 @@
 {
-  "totalArticles": 937,
+  "totalArticles": 938,
   "runs": [
+    {
+      "timestamp": "2026-07-20T06:36:47.693Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 172,
+      "totalCandidates": 66,
+      "written": [
+        {
+          "title": " The FMV game where you're a hamster being doted on by three Japanese sisters was inspired by its creator's job as an animal mascot, and Grand Theft Auto 5 ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "e7f8ad6d-the-fmv-game-where-youre-a-hamster-being-doted-on-by-three-j"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Xbox Says More Exclusives Are Coming But Tells Players Not to 'Overly Fixate on Single-Player' Games",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-20T03:37:31.127Z",
       "status": "success",
@@ -1820,25 +1846,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-14T19:25:28.648Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "Christopher Nolan Fans Will Stop at Nothing to See ‘The Odyssey’ in Imax 70mm, From Cross-Country Trips to Delaying Pregnancy",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "4dbec31a-christopher-nolan-fans-will-stop-at-nothing-to-see-the-odyss"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-20T03:37:31.127Z"
+  "lastUpdated": "2026-07-20T06:36:47.693Z"
 }
