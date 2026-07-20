@@ -1,6 +1,53 @@
 {
-  "totalArticles": 934,
+  "totalArticles": 937,
   "runs": [
+    {
+      "timestamp": "2026-07-20T03:37:31.127Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 172,
+      "totalCandidates": 17,
+      "written": [
+        {
+          "title": "8 Best Steven Spielberg Movies of the 21st Century",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 18,
+          "slug": "15a7725b-8-best-steven-spielberg-movies-of-the-21st-century"
+        },
+        {
+          "title": "HBO’s ‘Harry Potter’ Cinematographer Says It’s ‘Brutal’ Working Around the Young Stars’ Strict Shooting Schedules: ‘Have to Pre-Shoot All the Scenes While They’re in Class’",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "0cf1bab3-hbos-harry-potter-cinematographer-says-its-brutal-working-ar"
+        },
+        {
+          "title": "John Leguizamo Has Never Been as Vulnerable as in ‘The Odyssey’: “It Was So Intense for Me”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 9,
+          "slug": "a8d6073f-john-leguizamo-has-never-been-as-vulnerable-as-in-the-odysse"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Ben Shapiro Calls ‘The Odyssey’ a ‘Masterpiece’ Despite Conservative Outrage: Christopher Nolan Is the ‘Best Working Director Today’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Box Office: ‘The Odyssey’ Stuns With $124 Million Opening Weekend, Third-Biggest Debut of the Year",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-20T00:46:04.170Z",
       "status": "quota",
@@ -1791,17 +1838,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-14T18:00:47.920Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 289,
-      "totalCandidates": 38,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-20T00:46:04.170Z"
+  "lastUpdated": "2026-07-20T03:37:31.127Z"
 }
