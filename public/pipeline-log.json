@@ -1,6 +1,31 @@
 {
-  "totalArticles": 938,
+  "totalArticles": 940,
   "runs": [
+    {
+      "timestamp": "2026-07-20T10:00:52.968Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 187,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "‘House of the Dragon’ Star Fabien Frankel on Criston Cole’s Suicide Mission and His ‘Nihilism’: ‘He’s Losing the Will to Motivate’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 17,
+          "slug": "171ed90f-house-of-the-dragon-star-fabien-frankel-on-criston-coles-sui"
+        },
+        {
+          "title": "House Of The Dragon: A Massacre At The Red Keep Bodes Ill For Rhaenyra & Co. — Read Recap",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "3f214a4b-house-of-the-dragon-a-massacre-at-the-red-keep-bodes-ill-for"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-20T06:36:47.693Z",
       "status": "quota",
@@ -1828,25 +1853,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-14T21:03:56.657Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 288,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Sebastian Stan Starred In A Biblically Inspired NBC Drama Few People Remember",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "ae032c7f-sebastian-stan-starred-in-a-biblically-inspired-nbc-drama-fe"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-20T06:36:47.693Z"
+  "lastUpdated": "2026-07-20T10:00:52.968Z"
 }
