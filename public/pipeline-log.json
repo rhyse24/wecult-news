@@ -1,6 +1,31 @@
 {
-  "totalArticles": 942,
+  "totalArticles": 944,
   "runs": [
+    {
+      "timestamp": "2026-07-20T18:00:55.657Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 251,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Afterlife With Archie Ordered To Series: 'New Version' Of The Live-Action Riverdale Gang Coming To Disney+ In 2027",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "d1b2ebce-afterlife-with-archie-ordered-to-series-new-version-of-the-l"
+        },
+        {
+          "title": "5 Best Stuart Bloom Moments On The Big Bang Theory",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "5eaa613d-5-best-stuart-bloom-moments-on-the-big-bang-theory"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-20T15:16:04.734Z",
       "status": "quota",
@@ -1846,32 +1871,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-15T00:00:41.010Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 91,
-      "written": [
-        {
-          "title": "Upcoming Nintendo Switch 2 Games: Release Dates for 2026 and Beyond",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "7de0510f-upcoming-nintendo-switch-2-games-release-dates-for-2026-and-"
-        },
-        {
-          "title": "Halo Studios Reportedly Cancels New Multiplayer Project",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "70a78715-halo-studios-reportedly-cancels-new-multiplayer-project"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-20T15:16:04.734Z"
+  "lastUpdated": "2026-07-20T18:00:55.657Z"
 }
