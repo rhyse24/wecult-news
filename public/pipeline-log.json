@@ -1,6 +1,31 @@
 {
-  "totalArticles": 932,
+  "totalArticles": 934,
   "runs": [
+    {
+      "timestamp": "2026-07-20T00:46:04.170Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 169,
+      "totalCandidates": 3,
+      "written": [
+        {
+          "title": "The Scariest Place in New Jersey Set the Stage for Her Novel",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 5,
+          "slug": "6101e1cb-the-scariest-place-in-new-jersey-set-the-stage-for-her-novel"
+        },
+        {
+          "title": "Could AI be conscious?",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 3,
+          "slug": "7a611a92-could-ai-be-conscious"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-19T21:57:04.856Z",
       "status": "success",
@@ -1776,17 +1801,7 @@
       "totalCandidates": 38,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-14T15:25:59.997Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 40,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-19T21:57:04.856Z"
+  "lastUpdated": "2026-07-20T00:46:04.170Z"
 }
