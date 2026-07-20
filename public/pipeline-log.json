@@ -1,6 +1,39 @@
 {
-  "totalArticles": 941,
+  "totalArticles": 942,
   "runs": [
+    {
+      "timestamp": "2026-07-20T15:16:04.734Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 239,
+      "totalCandidates": 83,
+      "written": [
+        {
+          "title": "Every Character Shown In Avengers: Doomsday's First Trailer",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 17,
+          "slug": "be4bee6e-every-character-shown-in-avengers-doomsdays-first-trailer"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Xbox Explains What Makes A Game An Xbox Exclusive",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 15,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Xbox Says More Exclusives Are Coming But Tells Players Not to 'Overly Fixate on Single-Player' Games",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 14,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-20T12:43:10.502Z",
       "status": "quota",
@@ -1838,25 +1871,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-14T22:59:52.466Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "The Only Hulk Explainer You Need Before Spider-Man: Brand New Day",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "slug": "4b9f538c-the-only-hulk-explainer-you-need-before-spider-man-brand-new"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-20T12:43:10.502Z"
+  "lastUpdated": "2026-07-20T15:16:04.734Z"
 }
