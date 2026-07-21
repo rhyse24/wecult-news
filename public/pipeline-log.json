@@ -1,6 +1,24 @@
 {
-  "totalArticles": 954,
+  "totalArticles": 955,
   "runs": [
+    {
+      "timestamp": "2026-07-21T16:01:01.196Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "A Game Of Thrones Star Flew Home Wearing The Bloody Costume From Their Death Scene",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "1d023abb-a-game-of-thrones-star-flew-home-wearing-the-bloody-costume-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-21T14:00:59.658Z",
       "status": "quota",
@@ -1860,17 +1878,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-15T17:21:19.334Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 51,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-21T14:00:59.658Z"
+  "lastUpdated": "2026-07-21T16:01:01.196Z"
 }
