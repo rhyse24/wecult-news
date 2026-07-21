@@ -2,6 +2,24 @@
   "totalArticles": 948,
   "runs": [
     {
+      "timestamp": "2026-07-21T06:00:56.278Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 92,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Avengers: Doomsday's Official Poster Could Be AI-Generated",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-21T03:14:15.410Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1815,47 +1833,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-15T08:00:50.150Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 275,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "Why Ned Stark's Death Meant Game Of Thrones Had To Kill Robb Too, According To George R.R. Martin",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "30ff7f81-why-ned-starks-death-meant-game-of-thrones-had-to-kill-robb-"
-        },
-        {
-          "title": "Stranger Things at 10: The Legacy of Netflix’s Sci-Fi Phenomenon",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "slug": "256a29e0-stranger-things-at-10-the-legacy-of-netflixs-sci-fi-phenomen"
-        },
-        {
-          "title": "X-Men ’97 Season 2 Episode 5 Review: A Brief Stop at Weapon X",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 10,
-          "slug": "803ba308-x-men-97-season-2-episode-5-review-a-brief-stop-at-weapon-x"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Lucky Review: Anya Taylor-Joy's Action-Packed Chase Thriller Will Leave You Breathless",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-21T03:14:15.410Z"
+  "lastUpdated": "2026-07-21T06:00:56.278Z"
 }
