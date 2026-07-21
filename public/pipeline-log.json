@@ -1,6 +1,53 @@
 {
-  "totalArticles": 951,
+  "totalArticles": 954,
   "runs": [
+    {
+      "timestamp": "2026-07-21T10:00:58.422Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "The Odyssey Is a Secret Prequel to Dune",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 14,
+          "slug": "8e0b2088-the-odyssey-is-a-secret-prequel-to-dune"
+        },
+        {
+          "title": "Sadie Sink Opens Up About Her Secret 'Spider-Man: Brand New Day' Role",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "96d4410d-sadie-sink-opens-up-about-her-secret-spider-man-brand-new-da"
+        },
+        {
+          "title": "‘The Odyssey’ Breaks Records With Massive Debut at U.K. and Ireland Box Office",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "f0796f63-the-odyssey-breaks-records-with-massive-debut-at-uk-and-irel"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Avengers: Doomsday Trailer Hints at a Dark Ant-Man Storyline",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Spider-Man: Brand New Day – Exclusive Inside Look at Tom Holland’s Passion Project",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 14,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-21T08:05:14.587Z",
       "status": "success",
@@ -1815,25 +1862,7 @@
       "totalCandidates": 45,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-15T12:00:49.228Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 45,
-      "written": [],
-      "rejected": [
-        {
-          "title": "15 Movies You’re Officially Old if You Watched Growing Up",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 19,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-21T08:05:14.587Z"
+  "lastUpdated": "2026-07-21T10:00:58.422Z"
 }
