@@ -1,6 +1,46 @@
 {
-  "totalArticles": 948,
+  "totalArticles": 951,
   "runs": [
+    {
+      "timestamp": "2026-07-21T08:05:14.587Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 89,
+      "written": [
+        {
+          "title": "How to unlock FG42 in Black Ops 7 and Warzone",
+          "category": "games",
+          "source": "Dot Esports",
+          "score": 12,
+          "slug": "e3d7d939-how-to-unlock-fg42-in-black-ops-7-and-warzone"
+        },
+        {
+          "title": "Warhammer 40,000: Dawn of War IV Necron CGI Trailer Stomps All Over the Adeptus Mechanicus Trailer, but the Orks Trailer Is Still My Favorite",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "b7cb2b26-warhammer-40000-dawn-of-war-iv-necron-cgi-trailer-stomps-all"
+        },
+        {
+          "title": "Call of Duty: Modern Warfare 4 Beta Dates Confirmed",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "bf863126-call-of-duty-modern-warfare-4-beta-dates-confirmed"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Avengers: Doomsday's Official Poster Could Be AI-Generated",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-21T06:00:56.278Z",
       "status": "quota",
@@ -1793,47 +1833,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-15T10:00:47.437Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Slasher Terror, Cartel Nightmares and a British Folk Monster Join Black Mandala’s New Horror Slate (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "46b855c9-slasher-terror-cartel-nightmares-and-a-british-folk-monster-"
-        },
-        {
-          "title": "Whether in ‘Jurassic Park’ or ‘The Piano,’ Sam Neill Put the Movies First",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "7f80a927-whether-in-jurassic-park-or-the-piano-sam-neill-put-the-movi"
-        },
-        {
-          "title": "‘Obsession’ Director Curry Barker’s Dad Jeff Barker to Write, Direct Horror Short Starring Dane Cook (Exclusive)",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 10,
-          "slug": "96f1d8d1-obsession-director-curry-barkers-dad-jeff-barker-to-write-di"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Looks Like Spider-Man: Brand New Day Just Added Another Avenger",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-21T06:00:56.278Z"
+  "lastUpdated": "2026-07-21T08:05:14.587Z"
 }
