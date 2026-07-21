@@ -1,6 +1,31 @@
 {
-  "totalArticles": 958,
+  "totalArticles": 960,
   "runs": [
+    {
+      "timestamp": "2026-07-21T21:18:31.813Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 267,
+      "totalCandidates": 92,
+      "written": [
+        {
+          "title": "Evil Captain America And 6 More Avengers: Doomsday Theories Fans Are Pulling From The Trailer",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 16,
+          "slug": "c9026adc-evil-captain-america-and-6-more-avengers-doomsday-theories-f"
+        },
+        {
+          "title": "Metal Gear Solid Creator Hideo Kojima Quips That He Wants to Die in a Movie Theater, Just as the Film Itself Is About to Start",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "223ef163-metal-gear-solid-creator-hideo-kojima-quips-that-he-wants-to"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-21T19:37:05.306Z",
       "status": "quota",
@@ -1838,17 +1863,7 @@
       "totalCandidates": 35,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-15T22:00:30.405Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 34,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-21T19:37:05.306Z"
+  "lastUpdated": "2026-07-21T21:18:31.813Z"
 }
