@@ -1,6 +1,24 @@
 {
-  "totalArticles": 944,
+  "totalArticles": 945,
   "runs": [
+    {
+      "timestamp": "2026-07-21T02:00:53.278Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Avengers: Doomsday Poster Sets Up an Incredible Doctor Strange Story",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "slug": "cae484ba-avengers-doomsday-poster-sets-up-an-incredible-doctor-strang"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-20T22:57:58.173Z",
       "status": "quota",
@@ -1837,25 +1855,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-15T04:00:45.186Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "The Odyssey Finally Brings Tom Holland and Tom Holland Together",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "slug": "4beb801f-the-odyssey-finally-brings-tom-holland-and-tom-holland-toget"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-20T22:57:58.173Z"
+  "lastUpdated": "2026-07-21T02:00:53.278Z"
 }
