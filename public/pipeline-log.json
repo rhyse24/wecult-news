@@ -2,6 +2,16 @@
   "totalArticles": 944,
   "runs": [
     {
+      "timestamp": "2026-07-20T22:57:58.173Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 34,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-20T20:29:58.731Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1845,25 +1855,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-15T02:47:49.096Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "House Of The Dragon's James Norton Marvels At That Episode 4 Bathtub Scene: 'I Went So Big — And They Used It!'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "32ad2591-house-of-the-dragons-james-norton-marvels-at-that-episode-4-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-20T20:29:58.731Z"
+  "lastUpdated": "2026-07-20T22:57:58.173Z"
 }
