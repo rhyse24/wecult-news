@@ -1,6 +1,38 @@
 {
-  "totalArticles": 969,
+  "totalArticles": 972,
   "runs": [
+    {
+      "timestamp": "2026-07-22T10:00:57.980Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 258,
+      "totalCandidates": 92,
+      "written": [
+        {
+          "title": "Xbox brings starter edition of Game Pass to Meta Horizon+",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 11,
+          "slug": "8121ceda-xbox-brings-starter-edition-of-game-pass-to-meta-horizon"
+        },
+        {
+          "title": "Former Tekken Director Katsuhiro Harada Reveals He Totally Misunderstood What Getting Invited To the Cookout Meant After Fans Loved the Leroy Smith Reveal",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "233f893b-former-tekken-director-katsuhiro-harada-reveals-he-totally-m"
+        },
+        {
+          "title": "Baldur's Gate series overlords Hasbro take $56 million hit after cancelling several games due out in \"2028 and beyond\", with Exodus and Warlock unaffected",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 11,
+          "slug": "9f1af955-baldurs-gate-series-overlords-hasbro-take-56-million-hit-aft"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-22T08:00:56.832Z",
       "status": "success",
@@ -1836,40 +1868,7 @@
       "totalCandidates": 33,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-16T10:00:28.601Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "Will Ferrell’s Lackluster Golf Comedy ‘The Hawk’ Is No ‘Talladega Nights’: TV Review",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "11c7f2c5-will-ferrells-lackluster-golf-comedy-the-hawk-is-no-talladeg"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "15 Movies You’re Officially Old if You Watched Growing Up",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 16,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Netflix’s Bela Bajaria to Receive 2026 International Emmy Founders Award",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-22T08:00:56.832Z"
+  "lastUpdated": "2026-07-22T10:00:57.980Z"
 }
