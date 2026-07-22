@@ -1,6 +1,24 @@
 {
-  "totalArticles": 964,
+  "totalArticles": 965,
   "runs": [
+    {
+      "timestamp": "2026-07-22T04:00:48.766Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "Dutton Ranch Season 2: Ed Harris Returning For Yellowstone Spin-Off Despite Criticism",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "d7398b34-dutton-ranch-season-2-ed-harris-returning-for-yellowstone-sp"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-22T02:57:19.982Z",
       "status": "quota",
@@ -1835,32 +1853,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-16T04:00:26.491Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "IMAX Says It Can’t Build More 70mm Projectors for The Odyssey",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "93d1d34a-imax-says-it-cant-build-more-70mm-projectors-for-the-odyssey"
-        },
-        {
-          "title": "Obsession Gets a Surprise Streaming Release Date on Peacock",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "e567ae6c-obsession-gets-a-surprise-streaming-release-date-on-peacock"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-22T02:57:19.982Z"
+  "lastUpdated": "2026-07-22T04:00:48.766Z"
 }
