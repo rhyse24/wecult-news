@@ -1,6 +1,24 @@
 {
-  "totalArticles": 979,
+  "totalArticles": 980,
   "runs": [
+    {
+      "timestamp": "2026-07-22T22:07:40.670Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "Save The Dates: Julie Andrews Documentary, Conan O'Brien Must Go Season 3, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "9231934d-save-the-dates-julie-andrews-documentary-conan-obrien-must-g"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-22T19:47:29.844Z",
       "status": "quota",
@@ -1904,32 +1922,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-16T21:05:44.284Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 95,
-      "written": [
-        {
-          "title": " Saber's new business boss says the KOTOR remake will 'hopefully' be out in 2028 ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 16,
-          "slug": "f54b0769-sabers-new-business-boss-says-the-kotor-remake-will-hopefull"
-        },
-        {
-          "title": "Marvel’s Wolverine – “Ain’t No Hero” Cinematic Trailer",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 14,
-          "slug": "87a26905-marvels-wolverine-aint-no-hero-cinematic-trailer"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-22T19:47:29.844Z"
+  "lastUpdated": "2026-07-22T22:07:40.670Z"
 }
