@@ -1,6 +1,24 @@
 {
-  "totalArticles": 960,
+  "totalArticles": 961,
   "runs": [
+    {
+      "timestamp": "2026-07-21T23:08:09.101Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 268,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Latest Spider-Man: Brand New Day trailer teases the return of The Hulk",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 17,
+          "slug": "11ced85e-latest-spider-man-brand-new-day-trailer-teases-the-return-of"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-21T21:18:31.813Z",
       "status": "quota",
@@ -1853,17 +1871,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-15T23:00:36.631Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 35,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-21T21:18:31.813Z"
+  "lastUpdated": "2026-07-21T23:08:09.101Z"
 }
