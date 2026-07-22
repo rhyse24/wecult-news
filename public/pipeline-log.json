@@ -1,6 +1,32 @@
 {
-  "totalArticles": 976,
+  "totalArticles": 977,
   "runs": [
+    {
+      "timestamp": "2026-07-22T16:13:42.850Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "It’s Not a Beautiful Day in the Neighborhood in the Latest Trailer for The End of Oak Street",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "slug": "e52c5c32-its-not-a-beautiful-day-in-the-neighborhood-in-the-latest-tr"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Every Major Character Missing From the Avengers: Doomsday Trailer",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-22T14:00:55.028Z",
       "status": "quota",
@@ -1887,33 +1913,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-16T16:00:37.717Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "10 Greatest Amy Adams Movies That Define Her Career",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "slug": "475fc382-10-greatest-amy-adams-movies-that-define-her-career"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘The Uprising’ Trailer: Andrew Garfield Leads a Rebellion Against King Richard II in Paul Greengrass’ Historical Thriller",
-          "category": "film",
-          "source": "Variety",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-22T14:00:55.028Z"
+  "lastUpdated": "2026-07-22T16:13:42.850Z"
 }
