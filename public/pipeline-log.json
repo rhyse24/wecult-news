@@ -1,6 +1,46 @@
 {
-  "totalArticles": 975,
+  "totalArticles": 976,
   "runs": [
+    {
+      "timestamp": "2026-07-22T14:00:55.028Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "‘Ted Lasso’ Was Finished. Then Jason Sudeikis Had An Epiphany",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "120e324f-ted-lasso-was-finished-then-jason-sudeikis-had-an-epiphany"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jacob Elordi Dishes on Nate’s Demise on ‘Euphoria’ and Breaking Both His Heels: “It’s Like ‘Fight Club'”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "15 Celebrity Deaths That Were Almost Too Much to Handle",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 10,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "X-Men ’97 Finally Brings Back a Fan Favorite in Villainous Form",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 10,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-22T12:06:45.434Z",
       "status": "success",
@@ -1873,32 +1913,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-16T14:00:26.806Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 30,
-      "written": [],
-      "rejected": [
-        {
-          "title": "10 Greatest Amy Adams Movies That Define Her Career",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "The B-Sides of Christopher Nolan with Blake Howard",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-22T12:06:45.434Z"
+  "lastUpdated": "2026-07-22T14:00:55.028Z"
 }
