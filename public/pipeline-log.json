@@ -1,6 +1,46 @@
 {
-  "totalArticles": 966,
+  "totalArticles": 969,
   "runs": [
+    {
+      "timestamp": "2026-07-22T08:00:56.832Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 259,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "X-Men ’97 Season 2 Episode 6 Review: The Dangers of Evolution",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 10,
+          "slug": "f3a5fd80-x-men-97-season-2-episode-6-review-the-dangers-of-evolution"
+        },
+        {
+          "title": "Jacob Elordi Spent Two Days ‘Locked in a Coffin’ With a Real Snake for ‘Euphoria’ Death: Sam Levinson ‘Brought Me Back to Torture Me’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "fbbdb1ec-jacob-elordi-spent-two-days-locked-in-a-coffin-with-a-real-s"
+        },
+        {
+          "title": "Pixar Bears Brunt of Disney Studio Layoffs as Company Axes Several Hundred Staffers",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "2a537f56-pixar-bears-brunt-of-disney-studio-layoffs-as-company-axes-s"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "5 Essential Scrubs Episodes To Rewatch Before The Revival",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-22T06:00:54.757Z",
       "status": "quota",
@@ -1829,39 +1869,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-16T08:01:20.900Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 271,
-      "totalCandidates": 92,
-      "written": [
-        {
-          "title": " The future of the Elder Scrolls Online looks rocky after culling of leadership team ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "facf5354-the-future-of-the-elder-scrolls-online-looks-rocky-after-cul"
-        },
-        {
-          "title": "Final Fantasy Resonance Gets A Stunning New Trailer Ahead Of Switch 1 & 2 Launch",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 12,
-          "slug": "d0ee2ee1-final-fantasy-resonance-gets-a-stunning-new-trailer-ahead-of"
-        },
-        {
-          "title": "Avatar Aang: The Last Airbender Finally Gets Theatrical Release, But There's a Catch",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "625433c5-avatar-aang-the-last-airbender-finally-gets-theatrical-relea"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-22T06:00:54.757Z"
+  "lastUpdated": "2026-07-22T08:00:56.832Z"
 }
