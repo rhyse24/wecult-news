@@ -1,6 +1,39 @@
 {
-  "totalArticles": 965,
+  "totalArticles": 966,
   "runs": [
+    {
+      "timestamp": "2026-07-22T06:00:54.757Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 258,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "Zendaya’s Best Press Tour Looks, From ‘Dune’ to ‘Challengers’ to ‘The Odyssey’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "5a505cd1-zendayas-best-press-tour-looks-from-dune-to-challengers-to-t"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Avengers: Doomsday’ Trailer Hits 503 Million Views in One Day, Second Biggest Launch in History After ‘Spider-Man: Brand New Day’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "How Christopher Nolan’s ‘The Odyssey’ Conquered the Box Office",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-22T04:00:48.766Z",
       "status": "quota",
@@ -1828,32 +1861,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-16T06:00:33.067Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 271,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "Quentin Tarantino Plans to Retire After His Next Movie. Christopher Nolan Hopes He ‘Won’t Stay True’ to His Word",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "120f0137-quentin-tarantino-plans-to-retire-after-his-next-movie-chris"
-        },
-        {
-          "title": "Andy Serkis Gets Asked Why New ‘Lord of the Rings’ Cast Is All White Actors: ‘I Don’t Think We’ll Be Doing a Politically Correct Casting-for-the Sake-of-Casting Version of the Film’",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "336382c9-andy-serkis-gets-asked-why-new-lord-of-the-rings-cast-is-all"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-22T04:00:48.766Z"
+  "lastUpdated": "2026-07-22T06:00:54.757Z"
 }
