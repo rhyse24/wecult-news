@@ -1,6 +1,32 @@
 {
-  "totalArticles": 977,
+  "totalArticles": 978,
   "runs": [
+    {
+      "timestamp": "2026-07-22T17:24:15.961Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "Spider-Man: Brand New Day Promises Darkest Spidey Movie Yet",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 17,
+          "slug": "8c4861be-spider-man-brand-new-day-promises-darkest-spidey-movie-yet"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Avengers: Doomsday – Is Steve Rogers Really Steve Rogers?",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-22T16:13:42.850Z",
       "status": "quota",
@@ -1895,25 +1921,7 @@
       "totalCandidates": 95,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-16T17:23:03.497Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 279,
-      "totalCandidates": 88,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Fortnite's Skimpy New Poison Ivy and Harley Quinn Swimwear Skins Are Locked to Modes Rated 13+",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-22T16:13:42.850Z"
+  "lastUpdated": "2026-07-22T17:24:15.961Z"
 }
