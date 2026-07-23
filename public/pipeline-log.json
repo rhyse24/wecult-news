@@ -1,6 +1,46 @@
 {
-  "totalArticles": 996,
+  "totalArticles": 999,
   "runs": [
+    {
+      "timestamp": "2026-07-23T19:11:55.456Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 281,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "Destin Daniel Cretton Believes Secrecy Around Sadie Sink’s Role Makes ‘Spider-Man: Brand New Day’ a Better Movie",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "c8893e6e-destin-daniel-cretton-believes-secrecy-around-sadie-sinks-ro"
+        },
+        {
+          "title": "Lilly Wachowski Boards Alexandra Grey’s Sci-Fi Short ‘The Day Before’ as Executive Producer (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "84baba6f-lilly-wachowski-boards-alexandra-greys-sci-fi-short-the-day-"
+        },
+        {
+          "title": "6 Comic Book Details in the 'Avengers: Doomsday' Trailer Most Fans Missed",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 14,
+          "slug": "282cea0c-6-comic-book-details-in-the-avengers-doomsday-trailer-most-f"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Oscar Voters Rave Over Christopher Nolan’s ‘The Odyssey’ at First Academy Screenings: ‘The Definitive Filmmaker of Our Time’",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-23T16:41:33.493Z",
       "status": "quota",
@@ -1950,39 +1990,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-17T12:01:04.691Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 275,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "‘Rivals’ Star Annabel Scholey Joins Netflix Thriller Series ‘The Lord’s Day’ Alongside Damson Idris and Harry Lawtey (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 16,
-          "slug": "fe6d4f71-rivals-star-annabel-scholey-joins-netflix-thriller-series-th"
-        },
-        {
-          "title": "15 Movie Weddings We Would Definitely Object To",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 15,
-          "slug": "7f154973-15-movie-weddings-we-would-definitely-object-to"
-        },
-        {
-          "title": "Netflix’s ‘Heartstopper Forever’ Is a Wistful and Mature Ending for Charlie and Nick’s Love Story: Review",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "4e02ac4f-netflixs-heartstopper-forever-is-a-wistful-and-mature-ending"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-23T16:41:33.493Z"
+  "lastUpdated": "2026-07-23T19:11:55.456Z"
 }
