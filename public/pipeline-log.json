@@ -1,6 +1,24 @@
 {
-  "totalArticles": 994,
+  "totalArticles": 995,
   "runs": [
+    {
+      "timestamp": "2026-07-23T14:01:03.426Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "Prime Video Launches Games With Luna App Integration; ‘Tomb Raider,’ James Bond Titles Won’t Be in the Mix",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "6b1ba287-prime-video-launches-games-with-luna-app-integration-tomb-ra"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-23T12:38:58.049Z",
       "status": "quota",
@@ -1993,47 +2011,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-17T08:00:30.019Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 275,
-      "totalCandidates": 85,
-      "written": [
-        {
-          "title": "Assassin's Creed Black Flag Resynced Director Reveals Why Ubisoft Ditched Edward's Hidden Blade Combat",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "36c763ec-assassins-creed-black-flag-resynced-director-reveals-why-ubi"
-        },
-        {
-          "title": "Marvel Rivals’ Latest Patch “Cuts Down On Battlefield Chaos”, Per NetEase",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 12,
-          "slug": "b66cb805-marvel-rivals-latest-patch-cuts-down-on-battlefield-chaos-pe"
-        },
-        {
-          "title": "Game of Thrones: War for Westeros Release Date Delayed to Early 2027",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "00e6e409-game-of-thrones-war-for-westeros-release-date-delayed-to-ear"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Marvel's Wolverine Trailer Features First Look at Lady Deathstrike",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-23T12:38:58.049Z"
+  "lastUpdated": "2026-07-23T14:01:03.426Z"
 }
