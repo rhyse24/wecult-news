@@ -1,6 +1,24 @@
 {
-  "totalArticles": 993,
+  "totalArticles": 994,
   "runs": [
+    {
+      "timestamp": "2026-07-23T12:38:58.049Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Imax Second Quarter Earnings Rise as CEO Calls Christopher Nolan’s ‘The Odyssey’ a ‘Transformational Event’",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "slug": "8c63e2c7-imax-second-quarter-earnings-rise-as-ceo-calls-christopher-n"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-23T10:00:58.117Z",
       "status": "success",
@@ -2015,17 +2033,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-17T06:00:27.270Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 271,
-      "totalCandidates": 87,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-23T10:00:58.117Z"
+  "lastUpdated": "2026-07-23T12:38:58.049Z"
 }
