@@ -1,6 +1,32 @@
 {
-  "totalArticles": 983,
+  "totalArticles": 984,
   "runs": [
+    {
+      "timestamp": "2026-07-23T03:19:18.256Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "‘Disney Worldbuilders’ Documentary by Leslie Iwerks, Featuring James Cameron, Kevin Feige and Jon Favreau, Set to Premiere on Disney+",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "04344698-disney-worldbuilders-documentary-by-leslie-iwerks-featuring-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Hello Sunshine’s Head of TV and Film on 10 Years of Reese Witherspoon’s Production Company, ‘Big Little Lies’ Season 3, Apple’s ‘Lucky’ and More ‘Elle’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-23T02:00:53.264Z",
       "status": "quota",
@@ -1923,25 +1949,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-17T00:00:31.852Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 31,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Fortnite Adds ‘The Odyssey’ Skins for Odysseus and Agamemnon",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-23T02:00:53.264Z"
+  "lastUpdated": "2026-07-23T03:19:18.256Z"
 }
