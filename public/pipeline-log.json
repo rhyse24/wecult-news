@@ -1,6 +1,56 @@
 {
-  "totalArticles": 987,
+  "totalArticles": 990,
   "runs": [
+    {
+      "timestamp": "2026-07-23T08:31:08.435Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Hadestown: The Musical signals a new era of Broadway coexisting with Hollywood",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "slug": "23220744-hadestown-the-musical-signals-a-new-era-of-broadway-coexisti"
+        },
+        {
+          "title": "Full Clayface trailer stops short of showing us the whole bloody mess",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "slug": "74f7fd38-full-clayface-trailer-stops-short-of-showing-us-the-whole-bl"
+        },
+        {
+          "title": "The Best Animated Villains Ever",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 9,
+          "slug": "390b1249-the-best-animated-villains-ever"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Hello Sunshine’s Head of TV and Film on 10 Years of Reese Witherspoon’s Production Company, ‘Big Little Lies’ Season 3, Apple’s ‘Lucky’ and More ‘Elle’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "15 Best TV Shows Like Two And A Half Men",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 792 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-23T06:00:57.459Z",
       "status": "success",
@@ -1975,17 +2025,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-17T02:56:42.160Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 48,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-23T06:00:57.459Z"
+  "lastUpdated": "2026-07-23T08:31:08.435Z"
 }
