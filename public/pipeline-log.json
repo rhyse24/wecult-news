@@ -1,6 +1,38 @@
 {
-  "totalArticles": 990,
+  "totalArticles": 993,
   "runs": [
+    {
+      "timestamp": "2026-07-23T10:00:58.117Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 87,
+      "written": [
+        {
+          "title": "Halo Campaign Evolved release countdown: Exact date and time",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 15,
+          "slug": "d3172045-halo-campaign-evolved-release-countdown-exact-date-and-time"
+        },
+        {
+          "title": " Marvel Tōkon beta start time and everything you'll be able to play ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "65ca83da-marvel-tkon-beta-start-time-and-everything-youll-be-able-to-"
+        },
+        {
+          "title": "Square Enix Drops a New Line of Exclusive Final Fantasy IV and X Anniversary Merch at Amazon",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 12,
+          "slug": "35f353cb-square-enix-drops-a-new-line-of-exclusive-final-fantasy-iv-a"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-23T08:31:08.435Z",
       "status": "success",
@@ -1993,39 +2025,7 @@
       "totalCandidates": 87,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-17T04:00:27.764Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 275,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "Descendants: Wicked Wonderland Team Breaks Down The Movie's Mysterious Ending: 'We Shot It A Number Of Different Ways'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "fe437a11-descendants-wicked-wonderland-team-breaks-down-the-movies-my"
-        },
-        {
-          "title": "Paramount+ Subscribers Fail to Block Warner Bros. Merger as States Will Try Again Friday",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "5cd29890-paramount-subscribers-fail-to-block-warner-bros-merger-as-st"
-        },
-        {
-          "title": "FX, Color Force to Develop Series Based on New Yorker Article About National Park Volunteer Rescue Squad (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "d264b09d-fx-color-force-to-develop-series-based-on-new-yorker-article"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-23T08:31:08.435Z"
+  "lastUpdated": "2026-07-23T10:00:58.117Z"
 }
