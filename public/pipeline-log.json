@@ -1,6 +1,39 @@
 {
-  "totalArticles": 980,
+  "totalArticles": 981,
   "runs": [
+    {
+      "timestamp": "2026-07-23T00:19:12.053Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Clayface Trailer Teases Other Batman Villains",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "slug": "2a8e9d1a-clayface-trailer-teases-other-batman-villains"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Avengers: Doomsday – Is Steve Rogers Really Steve Rogers?",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Shaken, Soaked and Seasick: What It’s Like to Survive ‘The Odyssey’ in 4DX",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-22T22:07:40.670Z",
       "status": "quota",
@@ -1901,28 +1934,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-16T22:00:28.283Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 46,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Streaming Ratings: ‘I Will Find You’ Locates No. 1 Ranking",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-22T22:07:40.670Z"
+  "lastUpdated": "2026-07-23T00:19:12.053Z"
 }
