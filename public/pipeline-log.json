@@ -1,6 +1,49 @@
 {
-  "totalArticles": 999,
+  "totalArticles": 1000,
   "runs": [
+    {
+      "timestamp": "2026-07-23T21:52:02.933Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": "Everything Announced at the Marvel's Wolverine: Deep Cuts SDCC Panel | Comic Con 2026",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "3b73dadf-everything-announced-at-the-marvels-wolverine-deep-cuts-sdcc"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Marvel Tōkon: Fighting Souls Reveals First Year 1 DLC Character, Opening Movie Released | Comic Con 2026",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Halo: Campaign Evolved Review",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The Grade A Refurb Nintendo Switch 2 Mario Kart World Console Bundle Just Dropped to $419 at Woot",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 15 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-23T19:11:55.456Z",
       "status": "success",
@@ -1958,39 +2001,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-17T13:47:23.171Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 279,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "Nostos, or Homecoming: Why I Keep Returning to the Odyssey",
-          "category": "books",
-          "source": "Literary Hub",
-          "score": 15,
-          "slug": "eb731220-nostos-or-homecoming-why-i-keep-returning-to-the-odyssey"
-        },
-        {
-          "title": "Nine Feminist Mythological Reimaginings to Read After You Watch The Odyssey",
-          "category": "books",
-          "source": "Literary Hub",
-          "score": 12,
-          "slug": "fa39de73-nine-feminist-mythological-reimaginings-to-read-after-you-wa"
-        },
-        {
-          "title": "What Should You Watch This Weekend?",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 11,
-          "slug": "b1ef5fe1-what-should-you-watch-this-weekend"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-23T19:11:55.456Z"
+  "lastUpdated": "2026-07-23T21:52:02.933Z"
 }
