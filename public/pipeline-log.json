@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1015,
+  "totalArticles": 1017,
   "runs": [
+    {
+      "timestamp": "2026-07-24T20:11:02.425Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 283,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Eli Roth-Executive Produced ‘Burger Night: Luli, Magda & Lore’ Gets All-Female Cast (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "0d199062-eli-roth-executive-produced-burger-night-luli-magda-lore-get"
+        },
+        {
+          "title": "Winners & Losers: ‘Avengers: Doomsday’ Trailer Divides Fans; the TV Academy Upsets Everybody",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "5918e442-winners-losers-avengers-doomsday-trailer-divides-fans-the-tv"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Greatest Tom Holland Movies That Aren't Spider-Man",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-24T17:40:58.284Z",
       "status": "success",
@@ -2146,25 +2179,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-18T04:01:05.271Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 84,
-      "written": [
-        {
-          "title": "Marvel's Wolverine Trailer Flooded With Comments as Physical Disc Backlash Against PlayStation Continues",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "5f510b9b-marvels-wolverine-trailer-flooded-with-comments-as-physical-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-24T17:40:58.284Z"
+  "lastUpdated": "2026-07-24T20:11:02.425Z"
 }
