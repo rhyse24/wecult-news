@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1003,
+  "totalArticles": 1004,
   "runs": [
+    {
+      "timestamp": "2026-07-24T04:43:05.717Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 84,
+      "written": [
+        {
+          "title": "Batman Is Finally Getting A New Game, Just Not The One You Were Expecting",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "28ea11b6-batman-is-finally-getting-a-new-game-just-not-the-one-you-we"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Marvel Tōkon: Fighting Souls Reveals First Year 1 DLC Character, Opening Movie Released | Comic Con 2026",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Marvel’s Wolverine – Official Cinematic Story Trailer",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-24T02:00:49.761Z",
       "status": "quota",
@@ -2023,25 +2056,7 @@
       "totalCandidates": 55,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-17T19:16:35.716Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 79,
-      "written": [
-        {
-          "title": "Bethesda reveals plans for Fallout 5, The Elder Scrolls 6, and more",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 16,
-          "slug": "048f00f5-bethesda-reveals-plans-for-fallout-5-the-elder-scrolls-6-and"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-24T02:00:49.761Z"
+  "lastUpdated": "2026-07-24T04:43:05.717Z"
 }
