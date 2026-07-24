@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1004,
+  "totalArticles": 1007,
   "runs": [
+    {
+      "timestamp": "2026-07-24T06:01:04.735Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "Stuart Fails To Save The Universe Team Breaks Down [Spoiler]'s Surprise Return And Grim Fate In Episode 1 Of The Big Bang Theory Spin-Off",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "445130ab-stuart-fails-to-save-the-universe-team-breaks-down-spoilers-"
+        },
+        {
+          "title": "The Breaking Bad Actor Who Requested That His Character Be Killed Off Sooner Than He Was",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "84569e9a-the-breaking-bad-actor-who-requested-that-his-character-be-k"
+        },
+        {
+          "title": "Mary Kate Golding, ‘The Marvelous Mrs. Maisel’ Set Decorator, Dies at 34 in Stabbing",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "f6c2c8d9-mary-kate-golding-the-marvelous-mrs-maisel-set-decorator-die"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-24T04:43:05.717Z",
       "status": "quota",
@@ -2046,17 +2078,7 @@
       "totalCandidates": 56,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-17T21:11:29.840Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 55,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-24T04:43:05.717Z"
+  "lastUpdated": "2026-07-24T06:01:04.735Z"
 }
