@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1017,
+  "totalArticles": 1018,
   "runs": [
+    {
+      "timestamp": "2026-07-24T22:45:48.394Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "8 Best New Series Coming to Netflix in August 2026",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 16,
+          "slug": "a99ced55-8-best-new-series-coming-to-netflix-in-august-2026"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-24T20:11:02.425Z",
       "status": "quota",
@@ -2153,33 +2171,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-18T06:01:03.441Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 271,
-      "totalCandidates": 54,
-      "written": [
-        {
-          "title": "Save The Dates: Extended X-Files Sequel, Mortal Kombat II Hits Streaming, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "c0eadb9a-save-the-dates-extended-x-files-sequel-mortal-kombat-ii-hits"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "TVLine Asks: Are DWTS: The Next Pro Contestants Ready For DWTS? What's All American Teasing? Is The Hawk Giving Zoolander? And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-24T20:11:02.425Z"
+  "lastUpdated": "2026-07-24T22:45:48.394Z"
 }
