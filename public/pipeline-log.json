@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1010,
+  "totalArticles": 1012,
   "runs": [
+    {
+      "timestamp": "2026-07-24T15:08:20.462Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "Steve Howey Is Unrecognizable In His Ransom Canyon Season 2 Debut: 'It's A Small Part, But...'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "e4b24c66-steve-howey-is-unrecognizable-in-his-ransom-canyon-season-2-"
+        },
+        {
+          "title": "‘Avatar’ Sequel Film ‘Aang: The Last Airbender’ Revives the Animated Franchise With Breathtaking Visuals: TV Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "86b83f02-avatar-sequel-film-aang-the-last-airbender-revives-the-anima"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Stuart Fails to Save the Universe’ Co-Creator Bill Prady Explains the Science Behind the Show’s Multiverse",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Another new Avatar project, Seven Havens, gets a release date and trailer",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "New ‘Avatar’ Animated Series at Paramount+ Lands Fall Premiere Date, Releases Teaser",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-24T12:45:05.120Z",
       "status": "quota",
@@ -2095,33 +2142,7 @@
       "totalCandidates": 82,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-18T00:01:03.547Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Anne Hathaway’s 13 Best Performances: From ‘The Devil Wears Prada’ to ‘The Odyssey’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "be62e71c-anne-hathaways-13-best-performances-from-the-devil-wears-pra"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Christopher Nolan’s The Odyssey vs. Homer’s Epic Poem: What Are the Differences?",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-24T12:45:05.120Z"
+  "lastUpdated": "2026-07-24T15:08:20.462Z"
 }
