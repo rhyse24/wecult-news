@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1012,
+  "totalArticles": 1015,
   "runs": [
+    {
+      "timestamp": "2026-07-24T17:40:58.284Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 284,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": "Ubisoft expects \"superior financial performance\" from Black Flag remake, but won't increase guidance due to \"strong competitive lineup\"",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 14,
+          "slug": "974b89db-ubisoft-expects-superior-financial-performance-from-black-fl"
+        },
+        {
+          "title": "Tomb Raider: Catalyst Delay to 2028 Confirmed by Amazon Games Boss",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "21ce72aa-tomb-raider-catalyst-delay-to-2028-confirmed-by-amazon-games"
+        },
+        {
+          "title": "Sony's Nightmare Month Gets Worse as PlayStation Network Goes Down — Leaving Fans Unable to Play Digital Games Just Weeks After Killing Disc Controversy Erupted",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "6ee068b8-sonys-nightmare-month-gets-worse-as-playstation-network-goes"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-24T15:08:20.462Z",
       "status": "quota",
@@ -2132,17 +2164,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-18T02:01:03.750Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 82,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-24T15:08:20.462Z"
+  "lastUpdated": "2026-07-24T17:40:58.284Z"
 }
