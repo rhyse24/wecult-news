@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1023,
+  "totalArticles": 1025,
   "runs": [
+    {
+      "timestamp": "2026-07-25T06:12:08.238Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 87,
+      "written": [
+        {
+          "title": "God of War Laufey Release Date Announced | Comic Con 2026",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "6c09b46a-god-of-war-laufey-release-date-announced-comic-con-2026"
+        },
+        {
+          "title": "God of War Laufey Launches on February 16th, 2027",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "slug": "57a652b3-god-of-war-laufey-launches-on-february-16th-2027"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-25T03:43:08.281Z",
       "status": "quota",
@@ -2140,39 +2165,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-18T11:28:09.762Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 263,
-      "totalCandidates": 88,
-      "written": [
-        {
-          "title": "GTA 6 Officially Still On Track For November 19",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 14,
-          "slug": "e6fc4c80-gta-6-officially-still-on-track-for-november-19"
-        },
-        {
-          "title": " Fallout 5: Confirmed details (and speculation) about Bethesda's next post-nuclear RPG ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "660267a5-fallout-5-confirmed-details-and-speculation-about-bethesdas-"
-        },
-        {
-          "title": "A24 Is Copyright Striking Backrooms Artwork Older Than The Movie",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 13,
-          "slug": "e630199b-a24-is-copyright-striking-backrooms-artwork-older-than-the-m"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-25T03:43:08.281Z"
+  "lastUpdated": "2026-07-25T06:12:08.238Z"
 }
