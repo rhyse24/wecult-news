@@ -2,6 +2,24 @@
   "totalArticles": 1036,
   "runs": [
     {
+      "timestamp": "2026-07-25T20:23:38.289Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 242,
+      "totalCandidates": 32,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Ridley Scott's Terrifying Sci-Fi Sequel Is Being Wiped From Streaming",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-25T17:43:07.937Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2139,54 +2157,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-18T21:51:14.398Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 254,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "Taylor Sheridan’s ‘Call of Duty’ Movie Will Be Set in ‘Modern Warfare’ Universe",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "slug": "72d77c78-taylor-sheridans-call-of-duty-movie-will-be-set-in-modern-wa"
-        },
-        {
-          "title": "‘Heartstopper Forever’ Director, Writer and Stars Joe Locke and Kit Connor on the Finale: “It Connects the Whole Heartstopper Gang”",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "7d7d88f4-heartstopper-forever-director-writer-and-stars-joe-locke-and"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Samantha Morton on Her Electrifying Performance as Circe in Christopher Nolan’s ‘The Odyssey’: ‘It Felt Like a Rebirth’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Christopher Nolan’s The Odyssey vs. Homer’s Epic Poem: What Are the Differences?",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Box Office: ‘The Odyssey’ Has Epic Opening Day With $51 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-25T17:43:07.937Z"
+  "lastUpdated": "2026-07-25T20:23:38.289Z"
 }
