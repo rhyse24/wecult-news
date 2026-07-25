@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1031,
+  "totalArticles": 1033,
   "runs": [
+    {
+      "timestamp": "2026-07-25T15:14:22.587Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 257,
+      "totalCandidates": 78,
+      "written": [
+        {
+          "title": " Modding wizard creates Grand Theft Auto multiverse that lets players travel instantly between Rockstar's first three games: 'We got inter-GTA portals before GTA 6' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "f98157a6-modding-wizard-creates-grand-theft-auto-multiverse-that-lets"
+        },
+        {
+          "title": "Rockstar co-founder Dan Houser says if people want games on disc ‘companies should provide it’",
+          "category": "games",
+          "source": "VGC",
+          "score": 13,
+          "slug": "1b824abf-rockstar-co-founder-dan-houser-says-if-people-want-games-on-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-25T12:43:51.817Z",
       "status": "success",
@@ -2154,40 +2179,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-18T17:29:24.181Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 258,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Why Taylor Sheridan Was Forced To Fire Robert Redford From Yellowstone",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "614a73cc-why-taylor-sheridan-was-forced-to-fire-robert-redford-from-y"
-        },
-        {
-          "title": "Descendants: Wicked Wonderland Team Answers Our Burning Questions: Deleted Scenes, Red's Dad, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "f222b74e-descendants-wicked-wonderland-team-answers-our-burning-quest"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Best TV Shows Like Everybody Loves Raymond",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-25T12:43:51.817Z"
+  "lastUpdated": "2026-07-25T15:14:22.587Z"
 }
