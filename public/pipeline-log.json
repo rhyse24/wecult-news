@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1021,
+  "totalArticles": 1023,
   "runs": [
+    {
+      "timestamp": "2026-07-25T03:43:08.281Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "3 Beloved Movies To Watch on Prime Video This Weekend (July 25-26)",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "15726c2a-3-beloved-movies-to-watch-on-prime-video-this-weekend-july-2"
+        },
+        {
+          "title": "The Odyssey: Nolan Pushed Practical Filmmaking to Extremes",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "8483ca1f-the-odyssey-nolan-pushed-practical-filmmaking-to-extremes"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Greatest Tom Holland Movies That Aren't Spider-Man",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 14,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-25T01:14:27.800Z",
       "status": "success",
@@ -2139,39 +2172,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-18T09:37:28.176Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 268,
-      "totalCandidates": 54,
-      "written": [
-        {
-          "title": "Best kids' movies to watch on Netflix - from K-Pop Demon Hunters to Wallace & Gromit",
-          "category": "tv",
-          "source": "Radio Times",
-          "score": 11,
-          "slug": "67c2cfb0-best-kids-movies-to-watch-on-netflix---from-k-pop-demon-hunt"
-        },
-        {
-          "title": "Final Fantasy XIV Game's Mobile Version to End Service in China on September 30",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 11,
-          "slug": "cf4e6204-final-fantasy-xiv-games-mobile-version-to-end-service-in-chi"
-        },
-        {
-          "title": "Layoff-blasted Fallout game studio announces it's building Fallout 5 from the rubble",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 10,
-          "slug": "b162ab9e-layoff-blasted-fallout-game-studio-announces-its-building-fa"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-25T01:14:27.800Z"
+  "lastUpdated": "2026-07-25T03:43:08.281Z"
 }
