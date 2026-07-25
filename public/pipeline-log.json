@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1018,
+  "totalArticles": 1021,
   "runs": [
+    {
+      "timestamp": "2026-07-25T01:14:27.800Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 285,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Avatar: Seven Havens Trailer Leaves Us Asking, “What Happened to Korra?”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "slug": "f34f98bf-avatar-seven-havens-trailer-leaves-us-asking-what-happened-t"
+        },
+        {
+          "title": "The Rings of Power Season 3 Trailer Is All About Sauron",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "0ce176be-the-rings-of-power-season-3-trailer-is-all-about-sauron"
+        },
+        {
+          "title": "What is the Close Encounters of the Third Kind Leitmotif Doing in Moonraker?",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 11,
+          "slug": "90b82bd3-what-is-the-close-encounters-of-the-third-kind-leitmotif-doi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-24T22:45:48.394Z",
       "status": "quota",
@@ -2139,39 +2171,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-18T08:01:06.538Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 271,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Confused by ‘The Odyssey’? All the Timelines, Monsters and Greek Myths Explained",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "90ba3783-confused-by-the-odyssey-all-the-timelines-monsters-and-greek"
-        },
-        {
-          "title": "Colman Domingo and Robert O’Hara in Talks to Write Live-Action Princess Tiana Movie",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "7c543906-colman-domingo-and-robert-ohara-in-talks-to-write-live-actio"
-        },
-        {
-          "title": "“The Map of Longing” Offers Real Catharsis Despite Its Teen Melancholy",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 12,
-          "slug": "0de442ec-the-map-of-longing-offers-real-catharsis-despite-its-teen-me"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-24T22:45:48.394Z"
+  "lastUpdated": "2026-07-25T01:14:27.800Z"
 }
