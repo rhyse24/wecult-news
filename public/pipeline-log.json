@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1033,
+  "totalArticles": 1036,
   "runs": [
+    {
+      "timestamp": "2026-07-25T17:43:07.937Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 250,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Seinfeld's Jason Alexander Played Two Completely Different Characters On Star Trek",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "ebc2ab35-seinfelds-jason-alexander-played-two-completely-different-ch"
+        },
+        {
+          "title": "TVLine's Performer Of The Week: Fabien Frankel",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "30e951e9-tvlines-performer-of-the-week-fabien-frankel"
+        },
+        {
+          "title": "Is Daredevil in ‘Spider-Man: Brand New Day’? 3 Reasons It’s Possible",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 12,
+          "slug": "6e8f300b-is-daredevil-in-spider-man-brand-new-day-3-reasons-its-possi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-25T15:14:22.587Z",
       "status": "quota",
@@ -2154,32 +2186,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-18T19:31:32.718Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 256,
-      "totalCandidates": 18,
-      "written": [
-        {
-          "title": "They’re in That??: The Bond Villain Henchmen Who Played The Twilight Zone‘s Most Famous Alien",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 9,
-          "slug": "01a9ec6f-theyre-in-that-the-bond-villain-henchmen-who-played-the-twil"
-        },
-        {
-          "title": "God of War Will Have a New Lead After Ryan Hurst’s On-Set Injury",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 9,
-          "slug": "aa36cc94-god-of-war-will-have-a-new-lead-after-ryan-hursts-on-set-inj"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-25T15:14:22.587Z"
+  "lastUpdated": "2026-07-25T17:43:07.937Z"
 }
