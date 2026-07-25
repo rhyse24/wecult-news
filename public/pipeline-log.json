@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1025,
+  "totalArticles": 1028,
   "runs": [
+    {
+      "timestamp": "2026-07-25T09:53:21.981Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "10 Best TV Shows For Fans Of Christopher Nolan Movies",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 11,
+          "slug": "0915ed06-10-best-tv-shows-for-fans-of-christopher-nolan-movies"
+        },
+        {
+          "title": "Chris Hemsworth Returns as ‘Extraction 3’ Officially Starts Filming: Cast & What to Expect",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 11,
+          "slug": "b26cf3c8-chris-hemsworth-returns-as-extraction-3-officially-starts-fi"
+        },
+        {
+          "title": "The Lanterns trailer sends Hal Jordan and John Stewart to investigate Manhunters",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 11,
+          "slug": "affe423f-the-lanterns-trailer-sends-hal-jordan-and-john-stewart-to-in"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Is Daredevil in ‘Spider-Man: Brand New Day’? 3 Reasons It’s Possible",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 12,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-25T06:12:08.238Z",
       "status": "quota",
@@ -2125,47 +2165,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-18T13:25:56.214Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 256,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "‘The Odyssey’ Cast Guide: Who’s Playing Who in Christopher Nolan’s Epic",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 10,
-          "slug": "3680d874-the-odyssey-cast-guide-whos-playing-who-in-christopher-nolan"
-        },
-        {
-          "title": "3 Fantastic Movies To Watch on Prime Video This Weekend (July 18-19)",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "e859f592-3-fantastic-movies-to-watch-on-prime-video-this-weekend-july"
-        },
-        {
-          "title": "John Kirby, Acting Coach and Son of Actor Bruce Kirby, Dies at 75",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 9,
-          "slug": "5a90ad6d-john-kirby-acting-coach-and-son-of-actor-bruce-kirby-dies-at"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "7 Most Perfect Superhero Movies Released Since 2000",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-25T06:12:08.238Z"
+  "lastUpdated": "2026-07-25T09:53:21.981Z"
 }
