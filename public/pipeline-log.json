@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1028,
+  "totalArticles": 1031,
   "runs": [
+    {
+      "timestamp": "2026-07-25T12:43:51.817Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 271,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Forgotten Island: Exclusive Look at DreamWorks Animation’s Return to ’90s Glory Days",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 9,
+          "slug": "ec546664-forgotten-island-exclusive-look-at-dreamworks-animations-ret"
+        },
+        {
+          "title": "‘The Odyssey’ Holding Strong for Big Second Weekend in $84.5M Range",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "slug": "19904a7b-the-odyssey-holding-strong-for-big-second-weekend-in-845m-ra"
+        },
+        {
+          "title": "Lucas Museum at Comic-Con: Star Wars Animated Series ‘Detours’ to Finally Screen, Film Programming Revealed",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "slug": "728f706e-lucas-museum-at-comic-con-star-wars-animated-series-detours-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Greatest Tom Holland Movies That Aren't Spider-Man",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-25T09:53:21.981Z",
       "status": "success",
@@ -2147,25 +2187,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-18T15:32:03.952Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 250,
-      "totalCandidates": 51,
-      "written": [],
-      "rejected": [
-        {
-          "title": "10 Best TV Shows Like Everybody Loves Raymond",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-25T09:53:21.981Z"
+  "lastUpdated": "2026-07-25T12:43:51.817Z"
 }
