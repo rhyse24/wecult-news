@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1050,
+  "totalArticles": 1052,
   "runs": [
+    {
+      "timestamp": "2026-07-26T15:12:12.865Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 194,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "6 Worst Slasher Movies That Are Truly 0/10",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "0729e254-6-worst-slasher-movies-that-are-truly-010"
+        },
+        {
+          "title": "Box Office: ‘Toy Story 5’ Crosses $1 Billion, Becomes Highest-Grossing Movie of the Year",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "92f14d03-box-office-toy-story-5-crosses-1-billion-becomes-highest-gro"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Avengers: Doomsday – Doctor Doom’s Tony Stark Connection and Past Revealed",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Ryan Reynolds’ Deadpool Crashes Comic-Con to Beg for ‘Avengers: Doomsday’ Role",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-26T12:31:17.181Z",
       "status": "quota",
@@ -2070,39 +2110,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-19T16:33:27.578Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 182,
-      "totalCandidates": 73,
-      "written": [
-        {
-          "title": "Guide: Halo: Campaign Evolved Release Date, Release Times & Early Access Details For Xbox & PC",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 14,
-          "slug": "c03c4c3c-guide-halo-campaign-evolved-release-date-release-times-early"
-        },
-        {
-          "title": " God of War Laufey star Deborah Ann Woll isn't phased by the negative reactions to its announcement: 'I feel totally unbothered' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "f310007f-god-of-war-laufey-star-deborah-ann-woll-isnt-phased-by-the-n"
-        },
-        {
-          "title": " 'The mid-2000s was the golden era of first-person shooters': David Syzmankski, creator of Dusk and Iron Lung, discusses the games on his PC ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "a7c7befb-the-mid-2000s-was-the-golden-era-of-first-person-shooters-da"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-26T12:31:17.181Z"
+  "lastUpdated": "2026-07-26T15:12:12.865Z"
 }
