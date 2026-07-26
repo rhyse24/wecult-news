@@ -2,6 +2,16 @@
   "totalArticles": 1055,
   "runs": [
     {
+      "timestamp": "2026-07-26T20:28:40.633Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 183,
+      "totalCandidates": 44,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-26T17:53:46.761Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2100,39 +2110,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-19T21:57:04.856Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 173,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "Quotes Of The Week: All American, Ride Or Die, Daily Show, Project Runway, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "507c6978-quotes-of-the-week-all-american-ride-or-die-daily-show-proje"
-        },
-        {
-          "title": "Jason Sudeikis Brings Ted Lasso to World Cup Halftime Show to Hype Up Justin Bieber",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "4317653c-jason-sudeikis-brings-ted-lasso-to-world-cup-halftime-show-t"
-        },
-        {
-          "title": "10 Best TV Shows Like The Legend Of Vox Machina",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "30d7f6e4-10-best-tv-shows-like-the-legend-of-vox-machina"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-26T17:53:46.761Z"
+  "lastUpdated": "2026-07-26T20:28:40.633Z"
 }
