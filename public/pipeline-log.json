@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1048,
+  "totalArticles": 1050,
   "runs": [
+    {
+      "timestamp": "2026-07-26T12:31:17.181Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 211,
+      "totalCandidates": 8,
+      "written": [
+        {
+          "title": "From author to anime hero: the unlikely revival of a Japanese literary star",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 11,
+          "slug": "cf82c947-from-author-to-anime-hero-the-unlikely-revival-of-a-japanese"
+        },
+        {
+          "title": "Peacock’s Dungeon Crawler Carl Series Has Found Its Princess Donut",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 9,
+          "slug": "f1e6fd30-peacocks-dungeon-crawler-carl-series-has-found-its-princess-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-26T10:01:14.215Z",
       "status": "success",
@@ -2077,25 +2102,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-19T13:57:56.397Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 194,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "‘XO, Kitty’ Season 4 Finally Gets Long Awaited (But Disappointing) Netflix Update",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "slug": "4b507e93-xo-kitty-season-4-finally-gets-long-awaited-but-disappointin"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-26T10:01:14.215Z"
+  "lastUpdated": "2026-07-26T12:31:17.181Z"
 }
