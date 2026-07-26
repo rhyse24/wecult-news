@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1042,
+  "totalArticles": 1045,
   "runs": [
+    {
+      "timestamp": "2026-07-26T08:36:13.794Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 239,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "‘Avengers: Doomsday’ Trailer Rocks Comic-Con: Doctor Doom Raises Army of Sentinels to Take Down Avengers, Fantastic Four and X-Men",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "d3b828ed-avengers-doomsday-trailer-rocks-comic-con-doctor-doom-raises"
+        },
+        {
+          "title": "Winston Duke Trusts David Jonsson to Take On ‘Black Panther’: ‘I Think It’s Going to Be Great’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "79cd0db8-winston-duke-trusts-david-jonsson-to-take-on-black-panther-i"
+        },
+        {
+          "title": "Ryan Gosling to Star in Marvel’s Ghost Rider Movie",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "8d6c0bec-ryan-gosling-to-star-in-marvels-ghost-rider-movie"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Marvel’s Comic-Con Panel Excites Fans for ‘Doomsday’ but Leaves Them Cautiously Optimistic About What’s Beyond",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-26T06:01:20.524Z",
       "status": "quota",
@@ -2084,47 +2124,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-19T08:36:51.542Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 236,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Quote Of The Day By Betty White: 'You Can Lie To Anyone In The World And Even Get Away With It, Perhaps, But When You Are Alone And Look Into...'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 7,
-          "slug": "82d7995b-quote-of-the-day-by-betty-white-you-can-lie-to-anyone-in-the"
-        },
-        {
-          "title": "North American Anime, Manga Releases, July 12-18",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 7,
-          "slug": "42a2b21e-north-american-anime-manga-releases-july-12-18"
-        },
-        {
-          "title": "Colman Domingo might be writing a live-action movie about The Princess And The Frog's Tiana",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 6,
-          "slug": "ba7fbcec-colman-domingo-might-be-writing-a-live-action-movie-about-th"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Bleach Mirrors High Mobile Game's Trailer Reveals 3 New Characters",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-26T06:01:20.524Z"
+  "lastUpdated": "2026-07-26T08:36:13.794Z"
 }
