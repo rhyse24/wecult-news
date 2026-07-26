@@ -2,6 +2,16 @@
   "totalArticles": 1042,
   "runs": [
     {
+      "timestamp": "2026-07-26T06:01:20.524Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 241,
+      "totalCandidates": 27,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-26T03:24:12.791Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2114,47 +2124,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-19T06:00:50.352Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 239,
-      "totalCandidates": 79,
-      "written": [
-        {
-          "title": " Stardew Valley comes to Magic: The Gathering and fans aren't taking some of the new artwork well ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "68b7e86f-stardew-valley-comes-to-magic-the-gathering-and-fans-arent-t"
-        },
-        {
-          "title": "Two Fallout Remasters Announced By Bethesda In Massive New Roadmap",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 11,
-          "slug": "c9852fe7-two-fallout-remasters-announced-by-bethesda-in-massive-new-r"
-        },
-        {
-          "title": " Amazon's God of War TV show will recast Kratos due to on-set injury ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 10,
-          "slug": "434ed3f0-amazons-god-of-war-tv-show-will-recast-kratos-due-to-on-set-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "You can never escape Modern Warfare: the CoD movie is confirmed to use the franchise-defining setting",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-26T03:24:12.791Z"
+  "lastUpdated": "2026-07-26T06:01:20.524Z"
 }
