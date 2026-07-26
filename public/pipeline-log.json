@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1039,
+  "totalArticles": 1042,
   "runs": [
+    {
+      "timestamp": "2026-07-26T03:24:12.791Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 244,
+      "totalCandidates": 75,
+      "written": [
+        {
+          "title": "Final Fantasy 7 Director Kept 'Open World Fatigue' in Mind as New Remake Chapter Promises 'Bigger' World Than Rebirth",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "d424f50b-final-fantasy-7-director-kept-open-world-fatigue-in-mind-as-"
+        },
+        {
+          "title": "Commit cinematic sacrilege in Baldur's Gate 3 with this true third-person camera mod",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 11,
+          "slug": "4c069c09-commit-cinematic-sacrilege-in-baldurs-gate-3-with-this-true-"
+        },
+        {
+          "title": "Resident Evil Movie Trailer On PlayStation’s YouTube Page Is Full Of People Asking Sony To Change Course On Discs",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 11,
+          "slug": "48bf7706-resident-evil-movie-trailer-on-playstations-youtube-page-is-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Rockstar Co-Founder Says 'if People Want' Physical Game Releases Then 'Companies Should Provide It'",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The Most Anticipated Warhammer 40,000 Animation Ever Finally Has a Release Date",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-26T02:01:12.025Z",
       "status": "quota",
@@ -2107,61 +2154,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-19T03:19:40.312Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 245,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "3 Great Movie Trilogies That Give The Lord of the Rings a Run for Its Money",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "ed2eaaed-3-great-movie-trilogies-that-give-the-lord-of-the-rings-a-ru"
-        },
-        {
-          "title": "10 Most Important NC-17 Movies of All Time ",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 9,
-          "slug": "8d72bfc6-10-most-important-nc-17-movies-of-all-time"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Christopher Nolan Says It Will Be ‘At Least’ Three Years Until He Makes Another Movie After ‘The Odyssey’ Pushed the ‘Limits of My Own Stamina’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Christopher Nolan’s The Odyssey vs. Homer’s Epic Poem: What Are the Differences?",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Box Office: ‘The Odyssey’ Has Epic Opening Day With $51 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "6 Scariest Movies Released Since 2000",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 9,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-26T02:01:12.025Z"
+  "lastUpdated": "2026-07-26T03:24:12.791Z"
 }
