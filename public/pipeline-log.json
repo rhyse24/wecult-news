@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1066,
+  "totalArticles": 1067,
   "runs": [
+    {
+      "timestamp": "2026-07-27T16:08:42.163Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 236,
+      "totalCandidates": 47,
+      "written": [
+        {
+          "title": "House Of The Dragon's Benjamin Evan Ainsworth: Shooting That Foul Episode 6 Scene 'Was The Most Game Of Thrones Day I've Ever Had'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "156324c4-house-of-the-dragons-benjamin-evan-ainsworth-shooting-that-f"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-27T14:01:17.319Z",
       "status": "quota",
@@ -2085,17 +2103,7 @@
       "totalCandidates": 34,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-20T20:29:58.731Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 264,
-      "totalCandidates": 32,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-27T14:01:17.319Z"
+  "lastUpdated": "2026-07-27T16:08:42.163Z"
 }
