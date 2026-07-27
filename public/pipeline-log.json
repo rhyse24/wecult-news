@@ -1,6 +1,49 @@
 {
-  "totalArticles": 1060,
+  "totalArticles": 1063,
   "runs": [
+    {
+      "timestamp": "2026-07-27T07:37:15.702Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 179,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "Disney+ Reveals 1st Teaser Poster for Live-Action Series The Remarried Empress",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 15,
+          "slug": "75ccd127-disney-reveals-1st-teaser-poster-for-live-action-series-the-"
+        },
+        {
+          "title": "The Walking Dead: Dead City Premiere Recap: Do Maggie And Negan Make Better Friends Than Enemies? (Grade It!)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "d0827c2b-the-walking-dead-dead-city-premiere-recap-do-maggie-and-nega"
+        },
+        {
+          "title": "Nicola Coughlan, Paapa Essiedu and More Join Celebrity Auction to Raise Money for Students in Gaza",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "3886dc60-nicola-coughlan-paapa-essiedu-and-more-join-celebrity-auctio"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "House Of The Dragon's Benjamin Evan Ainsworth: Shooting That Foul Episode 6 Scene 'Was The Most Game Of Thrones Day I've Ever Had'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 17 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-27T06:01:13.534Z",
       "status": "quota",
@@ -2060,46 +2103,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-20T12:43:10.502Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 212,
-      "totalCandidates": 19,
-      "written": [
-        {
-          "title": "‘The Odyssey’ Smashes ‘Star Wars’ Record Over London’s BFI Imax Opening Weekend",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 18,
-          "slug": "144915ca-the-odyssey-smashes-star-wars-record-over-londons-bfi-imax-o"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Sadie Sink Opens Up About Her Secret 'Spider-Man: Brand New Day' Role",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        },
-        {
-          "title": "Tom Holland Shares His Reaction to Watching ‘Spider-Man: Brand New Day’ for the First Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-27T06:01:13.534Z"
+  "lastUpdated": "2026-07-27T07:37:15.702Z"
 }
