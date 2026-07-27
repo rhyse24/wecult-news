@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1067,
+  "totalArticles": 1070,
   "runs": [
+    {
+      "timestamp": "2026-07-27T17:45:48.771Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 232,
+      "totalCandidates": 78,
+      "written": [
+        {
+          "title": " Blade and Magik lead as Marvel Tōkon's most popular characters during its beta ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "88142720-blade-and-magik-lead-as-marvel-tkons-most-popular-characters"
+        },
+        {
+          "title": "Fortnite just got dethroned as PlayStation’s top game by a 14-year-old Call of Duty",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 13,
+          "slug": "e803b3a8-fortnite-just-got-dethroned-as-playstations-top-game-by-a-14"
+        },
+        {
+          "title": "\"This is us speaking to the world\" – Why London is keen to host esports events like the Valorant Masters",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 12,
+          "slug": "599bc9f5-this-is-us-speaking-to-the-world-why-london-is-keen-to-host-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Now Xbox Is Down for Some, Microsoft Says It's Working to Fix a Major Outage Affecting Library, Sign-In, and Game Launch",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-27T16:08:42.163Z",
       "status": "quota",
@@ -2093,17 +2133,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-20T22:57:58.173Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 34,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-27T16:08:42.163Z"
+  "lastUpdated": "2026-07-27T17:45:48.771Z"
 }
