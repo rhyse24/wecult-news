@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1059,
+  "totalArticles": 1060,
   "runs": [
+    {
+      "timestamp": "2026-07-27T06:01:13.534Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 180,
+      "totalCandidates": 61,
+      "written": [
+        {
+          "title": "The Best GTA Missions",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "ab8a5683-the-best-gta-missions"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-27T03:33:42.723Z",
       "status": "quota",
@@ -2081,32 +2099,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-20T10:00:52.968Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 187,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "‘House of the Dragon’ Star Fabien Frankel on Criston Cole’s Suicide Mission and His ‘Nihilism’: ‘He’s Losing the Will to Motivate’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 17,
-          "slug": "171ed90f-house-of-the-dragon-star-fabien-frankel-on-criston-coles-sui"
-        },
-        {
-          "title": "House Of The Dragon: A Massacre At The Red Keep Bodes Ill For Rhaenyra & Co. — Read Recap",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "3f214a4b-house-of-the-dragon-a-massacre-at-the-red-keep-bodes-ill-for"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-27T03:33:42.723Z"
+  "lastUpdated": "2026-07-27T06:01:13.534Z"
 }
