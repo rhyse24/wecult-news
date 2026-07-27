@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1057,
+  "totalArticles": 1059,
   "runs": [
+    {
+      "timestamp": "2026-07-27T02:01:15.243Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 166,
+      "totalCandidates": 19,
+      "written": [
+        {
+          "title": "Box Office: ‘The Odyssey’ Soars to $639 Million Globally After Two Weekends, Including $140 Million in Imax",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "cd19a9e1-box-office-the-odyssey-soars-to-639-million-globally-after-t"
+        },
+        {
+          "title": "Universal Responds to ‘The Odyssey’ Leaks on Social Media",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "94b5313b-universal-responds-to-the-odyssey-leaks-on-social-media"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "5 Worst Disney Animated Movies, According To Letterboxd Users",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Kevin Feige Says Ryan Coogler Met With David Jonsson Six Months Ago in a ‘Secret Meeting’ to Discuss ‘Black Panther 3’ Role: ‘I Got Chills’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Avengers: Doomsday – Doctor Doom’s Tony Stark Connection and Past Revealed",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-26T23:04:43.842Z",
       "status": "quota",
@@ -2063,54 +2110,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-20T03:37:31.127Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 172,
-      "totalCandidates": 17,
-      "written": [
-        {
-          "title": "8 Best Steven Spielberg Movies of the 21st Century",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 18,
-          "slug": "15a7725b-8-best-steven-spielberg-movies-of-the-21st-century"
-        },
-        {
-          "title": "HBO’s ‘Harry Potter’ Cinematographer Says It’s ‘Brutal’ Working Around the Young Stars’ Strict Shooting Schedules: ‘Have to Pre-Shoot All the Scenes While They’re in Class’",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "0cf1bab3-hbos-harry-potter-cinematographer-says-its-brutal-working-ar"
-        },
-        {
-          "title": "John Leguizamo Has Never Been as Vulnerable as in ‘The Odyssey’: “It Was So Intense for Me”",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 9,
-          "slug": "a8d6073f-john-leguizamo-has-never-been-as-vulnerable-as-in-the-odysse"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Ben Shapiro Calls ‘The Odyssey’ a ‘Masterpiece’ Despite Conservative Outrage: Christopher Nolan Is the ‘Best Working Director Today’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Box Office: ‘The Odyssey’ Stuns With $124 Million Opening Weekend, Third-Biggest Debut of the Year",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-26T23:04:43.842Z"
+  "lastUpdated": "2026-07-27T02:01:15.243Z"
 }
