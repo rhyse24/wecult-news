@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1055,
+  "totalArticles": 1057,
   "runs": [
+    {
+      "timestamp": "2026-07-26T23:04:43.842Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 183,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Save The Dates: Apple's Neuromancer TV Series, Fox Animation Holiday Specials, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "bcb7f174-save-the-dates-apples-neuromancer-tv-series-fox-animation-ho"
+        },
+        {
+          "title": "10 Best Shows Like Every Year After",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "1f664a50-10-best-shows-like-every-year-after"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-26T20:28:40.633Z",
       "status": "quota",
@@ -2085,32 +2110,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-20T00:46:04.170Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 169,
-      "totalCandidates": 3,
-      "written": [
-        {
-          "title": "The Scariest Place in New Jersey Set the Stage for Her Novel",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 5,
-          "slug": "6101e1cb-the-scariest-place-in-new-jersey-set-the-stage-for-her-novel"
-        },
-        {
-          "title": "Could AI be conscious?",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 3,
-          "slug": "7a611a92-could-ai-be-conscious"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-26T20:28:40.633Z"
+  "lastUpdated": "2026-07-26T23:04:43.842Z"
 }
