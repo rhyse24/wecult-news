@@ -2,6 +2,16 @@
   "totalArticles": 1066,
   "runs": [
     {
+      "timestamp": "2026-07-27T14:01:17.319Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 212,
+      "totalCandidates": 42,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-27T10:10:48.392Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2085,32 +2095,7 @@
       "totalCandidates": 32,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-20T18:00:55.657Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 251,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Afterlife With Archie Ordered To Series: 'New Version' Of The Live-Action Riverdale Gang Coming To Disney+ In 2027",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "d1b2ebce-afterlife-with-archie-ordered-to-series-new-version-of-the-l"
-        },
-        {
-          "title": "5 Best Stuart Bloom Moments On The Big Bang Theory",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "5eaa613d-5-best-stuart-bloom-moments-on-the-big-bang-theory"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-27T10:10:48.392Z"
+  "lastUpdated": "2026-07-27T14:01:17.319Z"
 }
