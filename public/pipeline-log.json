@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1063,
+  "totalArticles": 1066,
   "runs": [
+    {
+      "timestamp": "2026-07-27T10:10:48.392Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 192,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "10 Things 'Spider-Man: Brand New Day' Absolutely Must Deliver",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "slug": "03730a36-10-things-spider-man-brand-new-day-absolutely-must-deliver"
+        },
+        {
+          "title": "Avengers: Doomsday – Doctor Doom’s Tony Stark Connection and Past Revealed",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "slug": "b2a29624-avengers-doomsday-doctor-dooms-tony-stark-connection-and-pas"
+        },
+        {
+          "title": "Kevin Feige Says Ryan Coogler Met With David Jonsson Six Months Ago in a ‘Secret Meeting’ to Discuss ‘Black Panther 3’ Role: ‘I Got Chills’",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "80a046fb-kevin-feige-says-ryan-coogler-met-with-david-jonsson-six-mon"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "5 Worst Disney Animated Movies, According To Letterboxd Users",
+          "category": "film",
+          "source": "Looper",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-27T07:37:15.702Z",
       "status": "success",
@@ -2070,40 +2110,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-20T15:16:04.734Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 239,
-      "totalCandidates": 83,
-      "written": [
-        {
-          "title": "Every Character Shown In Avengers: Doomsday's First Trailer",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 17,
-          "slug": "be4bee6e-every-character-shown-in-avengers-doomsdays-first-trailer"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Xbox Explains What Makes A Game An Xbox Exclusive",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 15,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Xbox Says More Exclusives Are Coming But Tells Players Not to 'Overly Fixate on Single-Player' Games",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 14,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-27T07:37:15.702Z"
+  "lastUpdated": "2026-07-27T10:10:48.392Z"
 }
