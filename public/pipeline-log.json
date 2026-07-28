@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1087,
+  "totalArticles": 1089,
   "runs": [
+    {
+      "timestamp": "2026-07-28T12:29:37.634Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 252,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": " TV Spy — Lioness, Ted Lasso, and all the US dramas you can watch on UK services: 1-7 August ",
+          "category": "tv",
+          "source": "What to Watch",
+          "score": 13,
+          "slug": "23feec0c-tv-spy-lioness-ted-lasso-and-all-the-us-dramas-you-can-watch"
+        },
+        {
+          "title": "‘Dungeon Crawler Carl’s’ Breakout, Ryan Reynolds’ Jeanpool Stunt and More Comic-Con Highlights",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "b50dadb1-dungeon-crawler-carls-breakout-ryan-reynolds-jeanpool-stunt-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Kill Jackie,’ Starring a Glamorous, Lethal Catherine Zeta-Jones, Acquired by Warner Bros. Discovery for HBO Max (EXCLUSIVE)  ",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 11,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "The Scariest Joker We've EVER Gotten...",
+          "category": "tv",
+          "source": "WhatCulture TV",
+          "score": 10,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-28T10:01:19.539Z",
       "status": "success",
@@ -2182,32 +2222,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-21T17:25:13.971Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 271,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "The Other Mommy Trailer Contains a Sneakily Effective Jump Scare",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 20,
-          "slug": "142e6b53-the-other-mommy-trailer-contains-a-sneakily-effective-jump-s"
-        },
-        {
-          "title": "Why Avengers: Doomsday Is Being Shown in “Infinity Vision” Instead of IMAX",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 18,
-          "slug": "28c9f6b6-why-avengers-doomsday-is-being-shown-in-infinity-vision-inst"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-28T10:01:19.539Z"
+  "lastUpdated": "2026-07-28T12:29:37.634Z"
 }
