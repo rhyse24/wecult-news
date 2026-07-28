@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1081,
+  "totalArticles": 1084,
   "runs": [
+    {
+      "timestamp": "2026-07-28T08:32:07.039Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 238,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ First Reactions: Tom Holland Has ‘Never Been Better’ in a Sequel That Ditches ‘Multiverse Tedium’ and Delivers a ‘Grounded Spider-Man Tale’",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "8b0e4f77-spider-man-brand-new-day-first-reactions-tom-holland-has-nev"
+        },
+        {
+          "title": "Zendaya Stuns ‘Spider-Man: Brand New Day’ Premiere in ‘Abstract’ Spider-Inspired Look: ‘It’s Like This Metamorphosis’",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "d19fb0dd-zendaya-stuns-spider-man-brand-new-day-premiere-in-abstract-"
+        },
+        {
+          "title": "5 Worst Disney Animated Movies, According To Letterboxd Users",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "slug": "3013c16d-5-worst-disney-animated-movies-according-to-letterboxd-users"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-28T06:01:20.827Z",
       "status": "quota",
@@ -2139,17 +2171,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-21T14:00:59.658Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 46,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-28T06:01:20.827Z"
+  "lastUpdated": "2026-07-28T08:32:07.039Z"
 }
