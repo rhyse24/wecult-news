@@ -2,6 +2,24 @@
   "totalArticles": 1090,
   "runs": [
     {
+      "timestamp": "2026-07-28T17:38:17.876Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 40,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Ted Lasso Returns To Coach AFC Richmond's Women's Team In Full-Length Season 4 Trailer",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-28T16:21:30.970Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2204,25 +2222,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-21T23:08:09.101Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Latest Spider-Man: Brand New Day trailer teases the return of The Hulk",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 17,
-          "slug": "11ced85e-latest-spider-man-brand-new-day-trailer-teases-the-return-of"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-28T16:21:30.970Z"
+  "lastUpdated": "2026-07-28T17:38:17.876Z"
 }
