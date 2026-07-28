@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1080,
+  "totalArticles": 1081,
   "runs": [
+    {
+      "timestamp": "2026-07-28T06:01:20.827Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 235,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "Taylor Sheridan Returning to Film After Stepping Away From ‘Yellowstone’ Franchise",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 10,
+          "slug": "e12a78df-taylor-sheridan-returning-to-film-after-stepping-away-from-y"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Dungeon Crawler Carl’s’ Breakout, Ryan Reynolds’ Jeanpool Stunt and More Comic-Con Highlights",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-28T04:18:59.206Z",
       "status": "success",
@@ -2123,25 +2149,7 @@
       "totalCandidates": 46,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-21T12:13:37.389Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 49,
-      "written": [],
-      "rejected": [
-        {
-          "title": " TV Spy — The Vampire Lestat: Interview with the Vampire, Furious, and all the US dramas you can watch on UK services: 25-31 July ",
-          "category": "tv",
-          "source": "What to Watch",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-28T04:18:59.206Z"
+  "lastUpdated": "2026-07-28T06:01:20.827Z"
 }
