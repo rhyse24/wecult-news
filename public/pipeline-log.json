@@ -1,6 +1,60 @@
 {
-  "totalArticles": 1084,
+  "totalArticles": 1087,
   "runs": [
+    {
+      "timestamp": "2026-07-28T10:01:19.539Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 251,
+      "totalCandidates": 74,
+      "written": [
+        {
+          "title": "Spider-Man: Brand New Day Estimated To Make $800 Million In Its Opening Weekend",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "slug": "a53d9a03-spider-man-brand-new-day-estimated-to-make-800-million-in-it"
+        },
+        {
+          "title": "Complete Halo Campaign Evolved weapons tier list",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 13,
+          "slug": "99b11a1c-complete-halo-campaign-evolved-weapons-tier-list"
+        },
+        {
+          "title": "Are MTG x Marvel Collector Commander Decks Worth the High Price?",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "slug": "55b86aa6-are-mtg-x-marvel-collector-commander-decks-worth-the-high-pr"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Xbox Network Is Down Right Now, Microsoft Confirms",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Call of Duty: Black Ops Fans Discover Cut Zombies Content Over 15 Years After Release",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The Marvel Tokon: Fighting Souls Beta Proves Fans Still Really Want That Blade Movie",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-28T08:32:07.039Z",
       "status": "success",
@@ -2153,25 +2207,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-21T16:01:01.196Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "A Game Of Thrones Star Flew Home Wearing The Bloody Costume From Their Death Scene",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "1d023abb-a-game-of-thrones-star-flew-home-wearing-the-bloody-costume-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-28T08:32:07.039Z"
+  "lastUpdated": "2026-07-28T10:01:19.539Z"
 }
