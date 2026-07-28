@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1089,
+  "totalArticles": 1090,
   "runs": [
+    {
+      "timestamp": "2026-07-28T14:01:21.204Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 261,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "‘The Odyssey’ Holds Top Spot as Vijay’s ‘Jana Nayagan’ Bows at No. 5 at U.K. and Ireland Box Office",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "32d29620-the-odyssey-holds-top-spot-as-vijays-jana-nayagan-bows-at-no"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Review: Tom Holland Returns in a ‘Mature’ but Arduous Adventure That for All Its Good Action Is Trying Too Hard",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Only 8 Fantasy Franchises Are Objectively Better Than Lord of the Rings",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-28T12:29:37.634Z",
       "status": "quota",
@@ -2204,25 +2237,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-21T19:37:05.306Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Final Trailer Unveils Action-Packed New Footage of Mark Ruffalo’s Hulk Battling the Web-Slinger",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "slug": "ffe50037-spider-man-brand-new-day-final-trailer-unveils-action-packed"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-28T12:29:37.634Z"
+  "lastUpdated": "2026-07-28T14:01:21.204Z"
 }
