@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1076,
+  "totalArticles": 1077,
   "runs": [
+    {
+      "timestamp": "2026-07-28T02:01:16.996Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 240,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "10 Greatest Monsters in The Lord of the Rings",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "f27f9a99-10-greatest-monsters-in-the-lord-of-the-rings"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-28T00:11:41.855Z",
       "status": "success",
@@ -2123,47 +2141,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-21T08:05:14.587Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 89,
-      "written": [
-        {
-          "title": "How to unlock FG42 in Black Ops 7 and Warzone",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 12,
-          "slug": "e3d7d939-how-to-unlock-fg42-in-black-ops-7-and-warzone"
-        },
-        {
-          "title": "Warhammer 40,000: Dawn of War IV Necron CGI Trailer Stomps All Over the Adeptus Mechanicus Trailer, but the Orks Trailer Is Still My Favorite",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "b7cb2b26-warhammer-40000-dawn-of-war-iv-necron-cgi-trailer-stomps-all"
-        },
-        {
-          "title": "Call of Duty: Modern Warfare 4 Beta Dates Confirmed",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "bf863126-call-of-duty-modern-warfare-4-beta-dates-confirmed"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Avengers: Doomsday's Official Poster Could Be AI-Generated",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-28T00:11:41.855Z"
+  "lastUpdated": "2026-07-28T02:01:16.996Z"
 }
