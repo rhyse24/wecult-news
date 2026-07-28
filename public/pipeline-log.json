@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1073,
+  "totalArticles": 1076,
   "runs": [
+    {
+      "timestamp": "2026-07-28T00:11:41.855Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 245,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "High School Remains Hell in the Teaser for Mike Flanagan’s Carrie",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "a2f96fa9-high-school-remains-hell-in-the-teaser-for-mike-flanagans-ca"
+        },
+        {
+          "title": "The Summer of Jimothy",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "31940d8c-the-summer-of-jimothy"
+        },
+        {
+          "title": "Lanterns Trailer Reveals Manhunters, Sinestro, and a Much Bigger DC Story Than Expected",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "d5b3eb99-lanterns-trailer-reveals-manhunters-sinestro-and-a-much-bigg"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "First Trailer For Apple TV’s Neuromancer Looks Really, Really Promising",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-27T22:00:33.825Z",
       "status": "quota",
@@ -2123,25 +2163,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-21T06:00:56.278Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 92,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Avengers: Doomsday's Official Poster Could Be AI-Generated",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-27T22:00:33.825Z"
+  "lastUpdated": "2026-07-28T00:11:41.855Z"
 }
