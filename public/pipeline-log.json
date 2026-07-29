@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1099,
+  "totalArticles": 1101,
   "runs": [
+    {
+      "timestamp": "2026-07-29T04:31:44.547Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 268,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "Avatar Aang: The Last Airbender Will Make You Miss the Animated Series",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 17,
+          "slug": "6a4e16c0-avatar-aang-the-last-airbender-will-make-you-miss-the-animat"
+        },
+        {
+          "title": "A Surprise Source May Have Just Revealed Spider-Man: Brand New Day‘s Secret Villain",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "slug": "ae69f659-a-surprise-source-may-have-just-revealed-spider-man-brand-ne"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-29T02:01:14.066Z",
       "status": "success",
@@ -2209,47 +2234,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-22T08:00:56.832Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 259,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "X-Men ’97 Season 2 Episode 6 Review: The Dangers of Evolution",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 10,
-          "slug": "f3a5fd80-x-men-97-season-2-episode-6-review-the-dangers-of-evolution"
-        },
-        {
-          "title": "Jacob Elordi Spent Two Days ‘Locked in a Coffin’ With a Real Snake for ‘Euphoria’ Death: Sam Levinson ‘Brought Me Back to Torture Me’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "fbbdb1ec-jacob-elordi-spent-two-days-locked-in-a-coffin-with-a-real-s"
-        },
-        {
-          "title": "Pixar Bears Brunt of Disney Studio Layoffs as Company Axes Several Hundred Staffers",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "2a537f56-pixar-bears-brunt-of-disney-studio-layoffs-as-company-axes-s"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "5 Essential Scrubs Episodes To Rewatch Before The Revival",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-29T02:01:14.066Z"
+  "lastUpdated": "2026-07-29T04:31:44.547Z"
 }
