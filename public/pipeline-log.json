@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1109,
+  "totalArticles": 1110,
   "runs": [
+    {
+      "timestamp": "2026-07-29T21:37:43.117Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "‘House of the Dragon’: Fabien Frankel Reflects on George R.R. Martin’s Criston Cole Casting Announcement",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 15,
+          "slug": "854faeb9-house-of-the-dragon-fabien-frankel-reflects-on-george-rr-mar"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-29T19:06:52.580Z",
       "status": "quota",
@@ -2225,25 +2243,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-22T22:07:40.670Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "Save The Dates: Julie Andrews Documentary, Conan O'Brien Must Go Season 3, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "9231934d-save-the-dates-julie-andrews-documentary-conan-obrien-must-g"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-29T19:06:52.580Z"
+  "lastUpdated": "2026-07-29T21:37:43.117Z"
 }
