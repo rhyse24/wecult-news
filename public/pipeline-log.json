@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1104,
+  "totalArticles": 1105,
   "runs": [
+    {
+      "timestamp": "2026-07-29T12:45:27.200Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 265,
+      "totalCandidates": 78,
+      "written": [
+        {
+          "title": "007 First Light's Switch 2 release date may be closer than we realised",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 14,
+          "slug": "21fe2b82-007-first-lights-switch-2-release-date-may-be-closer-than-we"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Xbox Players Can Now Claim Free PC Versions Of These Ubisoft Games",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-29T08:42:53.213Z",
       "status": "success",
@@ -2211,47 +2237,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-22T14:00:55.028Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 259,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "‘Ted Lasso’ Was Finished. Then Jason Sudeikis Had An Epiphany",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "120e324f-ted-lasso-was-finished-then-jason-sudeikis-had-an-epiphany"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jacob Elordi Dishes on Nate’s Demise on ‘Euphoria’ and Breaking Both His Heels: “It’s Like ‘Fight Club'”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "15 Celebrity Deaths That Were Almost Too Much to Handle",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 10,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "X-Men ’97 Finally Brings Back a Fan Favorite in Villainous Form",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 10,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-29T08:42:53.213Z"
+  "lastUpdated": "2026-07-29T12:45:27.200Z"
 }
