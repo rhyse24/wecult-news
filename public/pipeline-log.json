@@ -1,6 +1,77 @@
 {
-  "totalArticles": 1101,
+  "totalArticles": 1104,
   "runs": [
+    {
+      "timestamp": "2026-07-29T08:42:53.213Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 264,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Only 8 Fantasy Franchises Are Objectively Better Than Lord of the Rings",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "dfb56438-only-8-fantasy-franchises-are-objectively-better-than-lord-o"
+        },
+        {
+          "title": "The B-Sides of Michael Mann with Blake Howard",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 9,
+          "slug": "95b178da-the-b-sides-of-michael-mann-with-blake-howard"
+        },
+        {
+          "title": "The Odyssey: Homer and History Experts Explain What’s Missing in Christopher Nolan Movie",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 9,
+          "slug": "b8a8a7cb-the-odyssey-homer-and-history-experts-explain-whats-missing-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Swings to China’s Biggest Superhero Opening in Seven Years",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Spider-Man: Brand New Day Review – Tom Holland’s Finest Outing in the Mask",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Jumanji: Open World’ Trailer: Dwayne Johnson, Kevin Hart and Jack Black Return for Third and Final Movie",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        },
+        {
+          "title": "6 Best Psychological Thrillers Released Since 2000",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "Avengers, Dune, Odyssey and the Rejection of Digital in a Streaming World",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 9,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-29T06:01:27.069Z",
       "status": "quota",
@@ -2180,47 +2251,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-22T12:06:45.434Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 256,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "Avengers: Doomsday Trailer Hints at a Dark Ant-Man Storyline",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "slug": "af0680d5-avengers-doomsday-trailer-hints-at-a-dark-ant-man-storyline"
-        },
-        {
-          "title": "‘Harry Potter’ Back to Hogwarts 2026 Celebrations Feature ‘Sorcerer’s Stone’ 25th Anniversary Rerelease, New Glimpses of HBO Series",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "23842988-harry-potter-back-to-hogwarts-2026-celebrations-feature-sorc"
-        },
-        {
-          "title": "10 Greatest Sci-Fi Epic Movies of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "slug": "61f5d2eb-10-greatest-sci-fi-epic-movies-of-all-time"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Final Spider-Man: Brand New Day Trailer Confirms Peter and MJ Will Always Be Endgame",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-29T06:01:27.069Z"
+  "lastUpdated": "2026-07-29T08:42:53.213Z"
 }
