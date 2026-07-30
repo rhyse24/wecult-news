@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1118,
+  "totalArticles": 1121,
   "runs": [
+    {
+      "timestamp": "2026-07-30T08:26:43.623Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 272,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "‘Outer Banks’ Season 5 Final Trailer Drop Teases Shocking Twist: Could JJ Return?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "02c43a5d-outer-banks-season-5-final-trailer-drop-teases-shocking-twis"
+        },
+        {
+          "title": "Mubi to Release ‘La Mesías,’ From ‘La Bola Negra’ Cannes Best Director Winners, in the U.K., Germany, Canada and Beyond (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "08d3a557-mubi-to-release-la-mesas-from-la-bola-negra-cannes-best-dire"
+        },
+        {
+          "title": "X-Men ’97: Nightcrawler’s Parentage Is Even More Complicated Than You Think",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 9,
+          "slug": "696602f5-x-men-97-nightcrawlers-parentage-is-even-more-complicated-th"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Disney+ Greenlights ‘House of Fates,’ Spinoff of Hit Korean Fortune-Telling Series ‘Battle of Fates’",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-30T06:01:22.491Z",
       "status": "quota",
@@ -2171,57 +2211,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-23T08:31:08.435Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 270,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Hadestown: The Musical signals a new era of Broadway coexisting with Hollywood",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "slug": "23220744-hadestown-the-musical-signals-a-new-era-of-broadway-coexisti"
-        },
-        {
-          "title": "Full Clayface trailer stops short of showing us the whole bloody mess",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "slug": "74f7fd38-full-clayface-trailer-stops-short-of-showing-us-the-whole-bl"
-        },
-        {
-          "title": "The Best Animated Villains Ever",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 9,
-          "slug": "390b1249-the-best-animated-villains-ever"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Hello Sunshine’s Head of TV and Film on 10 Years of Reese Witherspoon’s Production Company, ‘Big Little Lies’ Season 3, Apple’s ‘Lucky’ and More ‘Elle’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "15 Best TV Shows Like Two And A Half Men",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 792 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-30T06:01:22.491Z"
+  "lastUpdated": "2026-07-30T08:26:43.623Z"
 }
