@@ -2,6 +2,24 @@
   "totalArticles": 1124,
   "runs": [
     {
+      "timestamp": "2026-07-30T12:26:33.682Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 267,
+      "totalCandidates": 32,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Spider-Man: Brand New Day Review – Tom Holland’s Finest Outing in the Mask",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-30T10:01:06.543Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2193,25 +2211,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-23T12:38:58.049Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Imax Second Quarter Earnings Rise as CEO Calls Christopher Nolan’s ‘The Odyssey’ a ‘Transformational Event’",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "slug": "8c63e2c7-imax-second-quarter-earnings-rise-as-ceo-calls-christopher-n"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-30T10:01:06.543Z"
+  "lastUpdated": "2026-07-30T12:26:33.682Z"
 }
