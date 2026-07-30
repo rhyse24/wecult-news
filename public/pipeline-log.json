@@ -2,6 +2,16 @@
   "totalArticles": 1124,
   "runs": [
     {
+      "timestamp": "2026-07-30T14:04:04.291Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 264,
+      "totalCandidates": 30,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-07-30T12:26:33.682Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2193,25 +2203,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-23T14:01:03.426Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "Prime Video Launches Games With Luna App Integration; ‘Tomb Raider,’ James Bond Titles Won’t Be in the Mix",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "6b1ba287-prime-video-launches-games-with-luna-app-integration-tomb-ra"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-30T12:26:33.682Z"
+  "lastUpdated": "2026-07-30T14:04:04.291Z"
 }
