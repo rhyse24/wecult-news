@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1116,
+  "totalArticles": 1118,
   "runs": [
+    {
+      "timestamp": "2026-07-30T06:01:22.491Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 273,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Aims to Make Box Office History as It Targets High-Flying Opening",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "e01be4ee-spider-man-brand-new-day-aims-to-make-box-office-history-as-"
+        },
+        {
+          "title": "Joyce Carol Oates Defends ‘The Odyssey’ and Slams Translator for Scathing Review: ‘Speaks in the Crude Language of MAGA Folks’",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "40d82aff-joyce-carol-oates-defends-the-odyssey-and-slams-translator-f"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "6 Best Adventure Movies Released Since 2000",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Spider-Man: Brand New Day Review – Tom Holland’s Finest Outing in the Mask",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-30T04:11:04.442Z",
       "status": "quota",
@@ -2181,68 +2221,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-23T06:00:57.459Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 270,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Shaken, Soaked and Seasick: What It’s Like to Survive ‘The Odyssey’ in 4DX",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "e5c5bd7e-shaken-soaked-and-seasick-what-its-like-to-survive-the-odyss"
-        },
-        {
-          "title": "‘The Odyssey’ Screenplay Is Now Available to Buy Online",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "e306c307-the-odyssey-screenplay-is-now-available-to-buy-online"
-        },
-        {
-          "title": "‘Spider-Man: Brand New Day’ Director Teases a Darker MCU Story Thanks to The Punisher",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "slug": "cabb7c1d-spider-man-brand-new-day-director-teases-a-darker-mcu-story-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "6 Comic Book Details in the 'Avengers: Doomsday' Trailer Most Fans Missed",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Avengers: Doomsday – Is Steve Rogers Really Steve Rogers?",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Final Spider-Man: Brand New Day Trailer Confirms Peter and MJ Will Always Be Endgame",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "DC's New Clayface Trailer Reveals A Terrifying Take On The Batman Villain",
-          "category": "film",
-          "source": "Looper",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-30T04:11:04.442Z"
+  "lastUpdated": "2026-07-30T06:01:22.491Z"
 }
