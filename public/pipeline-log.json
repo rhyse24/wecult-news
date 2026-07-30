@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1127,
+  "totalArticles": 1128,
   "runs": [
+    {
+      "timestamp": "2026-07-30T20:00:33.675Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 100,
+      "written": [
+        {
+          "title": "The Elder Scrolls Online Content Delayed to 2027 Following Xbox Layoffs",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "09488d04-the-elder-scrolls-online-content-delayed-to-2027-following-x"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-30T17:39:54.740Z",
       "status": "success",
@@ -2144,50 +2162,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-23T21:52:02.933Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 282,
-      "totalCandidates": 85,
-      "written": [
-        {
-          "title": "Everything Announced at the Marvel's Wolverine: Deep Cuts SDCC Panel | Comic Con 2026",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "3b73dadf-everything-announced-at-the-marvels-wolverine-deep-cuts-sdcc"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Marvel Tōkon: Fighting Souls Reveals First Year 1 DLC Character, Opening Movie Released | Comic Con 2026",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Halo: Campaign Evolved Review",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Grade A Refurb Nintendo Switch 2 Mario Kart World Console Bundle Just Dropped to $419 at Woot",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 15 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-30T17:39:54.740Z"
+  "lastUpdated": "2026-07-30T20:00:33.675Z"
 }
