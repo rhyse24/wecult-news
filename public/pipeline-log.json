@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1124,
+  "totalArticles": 1127,
   "runs": [
+    {
+      "timestamp": "2026-07-30T17:39:54.740Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 277,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Spider-Man: Brand New Day Post-Credits Scene Explained",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 17,
+          "slug": "e501058a-spider-man-brand-new-day-post-credits-scene-explained"
+        },
+        {
+          "title": "Julie Delpy, Emma D’Arcy and Takehiro Hira Join Sonoya Mizuno’s ‘Stages’ for A24 as Focus Boards for International",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "531a843e-julie-delpy-emma-darcy-and-takehiro-hira-join-sonoya-mizunos"
+        },
+        {
+          "title": "Marvel, ‘Star Wars’ and DC’s Biggest Fans Discuss Why Their Favorite Franchises Are Struggling: ‘I’m Still Waiting for “Blade”’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "2c95aa88-marvel-star-wars-and-dcs-biggest-fans-discuss-why-their-favo"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-30T16:12:13.199Z",
       "status": "quota",
@@ -2155,47 +2187,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-23T19:11:55.456Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 281,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "Destin Daniel Cretton Believes Secrecy Around Sadie Sink’s Role Makes ‘Spider-Man: Brand New Day’ a Better Movie",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "c8893e6e-destin-daniel-cretton-believes-secrecy-around-sadie-sinks-ro"
-        },
-        {
-          "title": "Lilly Wachowski Boards Alexandra Grey’s Sci-Fi Short ‘The Day Before’ as Executive Producer (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "84baba6f-lilly-wachowski-boards-alexandra-greys-sci-fi-short-the-day-"
-        },
-        {
-          "title": "6 Comic Book Details in the 'Avengers: Doomsday' Trailer Most Fans Missed",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 14,
-          "slug": "282cea0c-6-comic-book-details-in-the-avengers-doomsday-trailer-most-f"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Oscar Voters Rave Over Christopher Nolan’s ‘The Odyssey’ at First Academy Screenings: ‘The Definitive Filmmaker of Our Time’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-30T16:12:13.199Z"
+  "lastUpdated": "2026-07-30T17:39:54.740Z"
 }
