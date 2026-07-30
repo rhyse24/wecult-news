@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1114,
+  "totalArticles": 1116,
   "runs": [
+    {
+      "timestamp": "2026-07-30T04:11:04.442Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 92,
+      "written": [
+        {
+          "title": "Battlefield 6's Record-Breaking Success Earns EA CEO $38 Million Payday, But Laid-Off Devs Aren't Around to Celebrate",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "4acd8223-battlefield-6s-record-breaking-success-earns-ea-ceo-38-milli"
+        },
+        {
+          "title": "Final Fantasy 7 Revelation Director Is Pushing for a Physical Edition, But Nothing Has Been Decided",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "f213dfaf-final-fantasy-7-revelation-director-is-pushing-for-a-physica"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Spider-Man: Brand New Day took ‘a lot of finishing moves’ directly from Insomniac’s games, Tom Holland reveals",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-30T02:01:08.993Z",
       "status": "success",
@@ -2209,33 +2242,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-23T03:19:18.256Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "‘Disney Worldbuilders’ Documentary by Leslie Iwerks, Featuring James Cameron, Kevin Feige and Jon Favreau, Set to Premiere on Disney+",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "04344698-disney-worldbuilders-documentary-by-leslie-iwerks-featuring-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Hello Sunshine’s Head of TV and Film on 10 Years of Reese Witherspoon’s Production Company, ‘Big Little Lies’ Season 3, Apple’s ‘Lucky’ and More ‘Elle’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-30T02:01:08.993Z"
+  "lastUpdated": "2026-07-30T04:11:04.442Z"
 }
