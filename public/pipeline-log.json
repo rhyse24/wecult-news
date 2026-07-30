@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1111,
+  "totalArticles": 1114,
   "runs": [
+    {
+      "timestamp": "2026-07-30T02:01:08.993Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 276,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "Supernatural Reality Competition Korean Series ‘House of Fates’ Greenlit as ‘Battle of Fates’ Spinoff at Disney+",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 16,
+          "slug": "e98cfaaf-supernatural-reality-competition-korean-series-house-of-fate"
+        },
+        {
+          "title": "What’s Coming to Tubi in August 2026",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 11,
+          "slug": "cb040cc3-whats-coming-to-tubi-in-august-2026"
+        },
+        {
+          "title": "Brad Bird Reveals How Aborted The Spirit Movie Influenced Ray Gunn (Exclusive)",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 11,
+          "slug": "b0e36ff7-brad-bird-reveals-how-aborted-the-spirit-movie-influenced-ra"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-30T00:06:05.932Z",
       "status": "quota",
@@ -2203,32 +2235,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-23T02:00:53.264Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 97,
-      "written": [
-        {
-          "title": " Union claims Bethesda developers 'received termination letters' the day Xbox announced new Fallouts—after being told they would still have jobs until September ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 15,
-          "slug": "38e83b9e-union-claims-bethesda-developers-received-termination-letter"
-        },
-        {
-          "title": "Country Turns To Gaming Legend To Counterplay Online Gambling Epidemic",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "3fcd5096-country-turns-to-gaming-legend-to-counterplay-online-gamblin"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-30T00:06:05.932Z"
+  "lastUpdated": "2026-07-30T02:01:08.993Z"
 }
