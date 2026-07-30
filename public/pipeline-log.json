@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1110,
+  "totalArticles": 1111,
   "runs": [
+    {
+      "timestamp": "2026-07-30T00:06:05.932Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "Ian McKellen Discovered Anthony Mackie Is the New Captain America on ‘Avengers: Doomsday’ Set and Told Him: ‘You Deserve That’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "77dc7de1-ian-mckellen-discovered-anthony-mackie-is-the-new-captain-am"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-29T21:37:43.117Z",
       "status": "quota",
@@ -2210,40 +2228,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-23T00:19:12.053Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Clayface Trailer Teases Other Batman Villains",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "slug": "2a8e9d1a-clayface-trailer-teases-other-batman-villains"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Avengers: Doomsday – Is Steve Rogers Really Steve Rogers?",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Shaken, Soaked and Seasick: What It’s Like to Survive ‘The Odyssey’ in 4DX",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-29T21:37:43.117Z"
+  "lastUpdated": "2026-07-30T00:06:05.932Z"
 }
