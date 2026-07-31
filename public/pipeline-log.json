@@ -1,6 +1,60 @@
 {
-  "totalArticles": 1132,
+  "totalArticles": 1135,
   "runs": [
+    {
+      "timestamp": "2026-07-31T08:01:09.530Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 265,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "‘Wonder Man’ Star Yahya Abdul-Mateen II Speaks Out After Marvel Series Canceled: ‘That’s Life… Everything Will Shake Out’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "7e5d7cd0-wonder-man-star-yahya-abdul-mateen-ii-speaks-out-after-marve"
+        },
+        {
+          "title": "Star Trek: Strange New Worlds Reveals A Dire Prophecy For Kirk That Comes True In A Star Trek Movie",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 11,
+          "slug": "3e5e6ab3-star-trek-strange-new-worlds-reveals-a-dire-prophecy-for-kir"
+        },
+        {
+          "title": "Tom Holland Was In This Acclaimed Historical TV Show Before Becoming Marvel's Spider-Man",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "0871385c-tom-holland-was-in-this-acclaimed-historical-tv-show-before-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Disney cancels Wonder Man while co-creator is on Spider-Man: Brand New Day press tour",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "5 Yellowstone Characters Who Could Return On Marshals",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Disney Expected to Sell 50% Stake in A+E to Hearst for More Than $1 Billion",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-31T06:01:10.701Z",
       "status": "quota",
@@ -2062,46 +2116,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-24T12:45:05.120Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 45,
-      "written": [],
-      "rejected": [
-        {
-          "title": "‘Stuart Fails to Save the Universe’ Co-Creator Bill Prady Explains the Science Behind the Show’s Multiverse",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Another new Avatar project, Seven Havens, gets a release date and trailer",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "New ‘Avatar’ Animated Series at Paramount+ Lands Fall Premiere Date, Releases Teaser",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "So-called \"master of misfits\" Johnny Depp returns in Ebenezer trailer",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 10,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-31T06:01:10.701Z"
+  "lastUpdated": "2026-07-31T08:01:09.530Z"
 }
