@@ -1,6 +1,77 @@
 {
-  "totalArticles": 1138,
+  "totalArticles": 1141,
   "runs": [
+    {
+      "timestamp": "2026-07-31T12:06:26.883Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 261,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "What To Watch Friday: Batman: Caped Crusader Returns, Fightland Begins, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "9f638ab5-what-to-watch-friday-batman-caped-crusader-returns-fightland"
+        },
+        {
+          "title": "Cape Fear fails to justify itself in a fitfully entertaining finale",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 10,
+          "slug": "1bd80193-cape-fear-fails-to-justify-itself-in-a-fitfully-entertaining"
+        },
+        {
+          "title": "Disney Expected to Sell 50% Stake in A+E to Hearst for More Than $1 Billion",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "09ff95b1-disney-expected-to-sell-50-stake-in-ae-to-hearst-for-more-th"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Disney cancels Wonder Man while co-creator is on Spider-Man: Brand New Day press tour",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Rafal Jaki, Machine Gamu Launch Brain Alive Manga With Planned English Release This Fall",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 11,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Stuart Fails To Save The Universe Episode 2 Surprises With Another Big Bang Theory Legacy Cast Member — Plus, A Last Name Mystery Solved?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        },
+        {
+          "title": "5 Yellowstone Characters Who Could Return On Marshals",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Wonder Man star Yahya Abdul-Mateen II issues very chill \"That's life, right?\" to cancelation news",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-31T10:01:06.784Z",
       "status": "success",
@@ -2091,39 +2162,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-24T17:40:58.284Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 284,
-      "totalCandidates": 91,
-      "written": [
-        {
-          "title": "Ubisoft expects \"superior financial performance\" from Black Flag remake, but won't increase guidance due to \"strong competitive lineup\"",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 14,
-          "slug": "974b89db-ubisoft-expects-superior-financial-performance-from-black-fl"
-        },
-        {
-          "title": "Tomb Raider: Catalyst Delay to 2028 Confirmed by Amazon Games Boss",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "21ce72aa-tomb-raider-catalyst-delay-to-2028-confirmed-by-amazon-games"
-        },
-        {
-          "title": "Sony's Nightmare Month Gets Worse as PlayStation Network Goes Down — Leaving Fans Unable to Play Digital Games Just Weeks After Killing Disc Controversy Erupted",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "6ee068b8-sonys-nightmare-month-gets-worse-as-playstation-network-goes"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-31T10:01:06.784Z"
+  "lastUpdated": "2026-07-31T12:06:26.883Z"
 }
