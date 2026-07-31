@@ -2,6 +2,27 @@
   "totalArticles": 1141,
   "runs": [
     {
+      "timestamp": "2026-07-31T17:42:50.731Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 90,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Spider-Man: Brand New Day Is The Platonic Ideal Of An MCU Movie",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 14,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-31T16:04:06.137Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2118,39 +2139,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-25T01:14:27.800Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 285,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Avatar: Seven Havens Trailer Leaves Us Asking, “What Happened to Korra?”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "f34f98bf-avatar-seven-havens-trailer-leaves-us-asking-what-happened-t"
-        },
-        {
-          "title": "The Rings of Power Season 3 Trailer Is All About Sauron",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "0ce176be-the-rings-of-power-season-3-trailer-is-all-about-sauron"
-        },
-        {
-          "title": "What is the Close Encounters of the Third Kind Leitmotif Doing in Moonraker?",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 11,
-          "slug": "90b82bd3-what-is-the-close-encounters-of-the-third-kind-leitmotif-doi"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-31T16:04:06.137Z"
+  "lastUpdated": "2026-07-31T17:42:50.731Z"
 }
