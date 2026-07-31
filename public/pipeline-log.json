@@ -2,6 +2,31 @@
   "totalArticles": 1132,
   "runs": [
     {
+      "timestamp": "2026-07-31T06:01:10.701Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 266,
+      "totalCandidates": 42,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Disney cancels Wonder Man while co-creator is on Spider-Man: Brand New Day press tour",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "5 Yellowstone Characters Who Could Return On Marshals",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-31T03:23:53.694Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2076,39 +2101,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-24T08:47:05.555Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "HBO Max Spin-Off “Stuart Fails to Save the Universe” Wastes Clever Concept",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 13,
-          "slug": "13975168-hbo-max-spin-off-stuart-fails-to-save-the-universe-wastes-cl"
-        },
-        {
-          "title": "Director Na Hong-Jin Makes Comic-Con Debut With Frightening New ‘Hope’ Footage, Says Casting Hoyeon Was His ‘Best Decision’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "e3f36152-director-na-hong-jin-makes-comic-con-debut-with-frightening-"
-        },
-        {
-          "title": "Netflix’s “Ransom Canyon” Turns Up the Soapy Drama in Serviceable Second Season",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 12,
-          "slug": "6b0d3b11-netflixs-ransom-canyon-turns-up-the-soapy-drama-in-serviceab"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-31T03:23:53.694Z"
+  "lastUpdated": "2026-07-31T06:01:10.701Z"
 }
