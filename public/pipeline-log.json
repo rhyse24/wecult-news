@@ -2,6 +2,27 @@
   "totalArticles": 1141,
   "runs": [
     {
+      "timestamp": "2026-07-31T14:01:18.992Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 265,
+      "totalCandidates": 86,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Everything You Need To Know About Spider-Man: Brand New Day’s Post-Credits Scene",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 16,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-31T12:06:26.883Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2129,40 +2150,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-24T20:11:02.425Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Eli Roth-Executive Produced ‘Burger Night: Luli, Magda & Lore’ Gets All-Female Cast (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "0d199062-eli-roth-executive-produced-burger-night-luli-magda-lore-get"
-        },
-        {
-          "title": "Winners & Losers: ‘Avengers: Doomsday’ Trailer Divides Fans; the TV Academy Upsets Everybody",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "slug": "5918e442-winners-losers-avengers-doomsday-trailer-divides-fans-the-tv"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Greatest Tom Holland Movies That Aren't Spider-Man",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-31T12:06:26.883Z"
+  "lastUpdated": "2026-07-31T14:01:18.992Z"
 }
