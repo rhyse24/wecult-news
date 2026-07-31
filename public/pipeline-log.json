@@ -2,6 +2,24 @@
   "totalArticles": 1141,
   "runs": [
     {
+      "timestamp": "2026-07-31T16:04:06.137Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 85,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Everything You Need To Know About Spider-Man: Brand New Day’s Post-Credits Scene",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 14,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-07-31T14:01:18.992Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2132,25 +2150,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-24T22:45:48.394Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "8 Best New Series Coming to Netflix in August 2026",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 16,
-          "slug": "a99ced55-8-best-new-series-coming-to-netflix-in-august-2026"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-31T14:01:18.992Z"
+  "lastUpdated": "2026-07-31T16:04:06.137Z"
 }
