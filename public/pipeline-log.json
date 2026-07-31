@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1129,
+  "totalArticles": 1131,
   "runs": [
+    {
+      "timestamp": "2026-07-31T02:01:07.760Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 271,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day’: Sadie Sink Is [SPOILER]. How Her Role Sets Up Marvel’s Next Reboot",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "19cdf153-spider-man-brand-new-day-sadie-sink-is-spoiler-how-her-role-"
+        },
+        {
+          "title": "‘Spider-Man: Brand New Day’ Early Cut ‘Took Notes From Random People’ at Test Screenings and ‘We Hated It,’ Says Tom Holland: ‘It Totally Didn’t Work’",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "bdff49a1-spider-man-brand-new-day-early-cut-took-notes-from-random-pe"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-31T00:17:08.043Z",
       "status": "quota",
@@ -2097,40 +2122,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-24T04:43:05.717Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 84,
-      "written": [
-        {
-          "title": "Batman Is Finally Getting A New Game, Just Not The One You Were Expecting",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "28ea11b6-batman-is-finally-getting-a-new-game-just-not-the-one-you-we"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Marvel Tōkon: Fighting Souls Reveals First Year 1 DLC Character, Opening Movie Released | Comic Con 2026",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Marvel’s Wolverine – Official Cinematic Story Trailer",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-31T00:17:08.043Z"
+  "lastUpdated": "2026-07-31T02:01:07.760Z"
 }
