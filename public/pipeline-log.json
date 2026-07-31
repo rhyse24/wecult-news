@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1131,
+  "totalArticles": 1132,
   "runs": [
+    {
+      "timestamp": "2026-07-31T03:23:53.694Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": " There's a timeline where Dark Souls was a PlayStation exclusive, but Sony lost out on the chance because it wouldn't publish Demon's Souls in North America ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 15,
+          "slug": "4987ce05-theres-a-timeline-where-dark-souls-was-a-playstation-exclusi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-07-31T02:01:07.760Z",
       "status": "quota",
@@ -2090,39 +2108,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-24T06:01:04.735Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 275,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "Stuart Fails To Save The Universe Team Breaks Down [Spoiler]'s Surprise Return And Grim Fate In Episode 1 Of The Big Bang Theory Spin-Off",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "445130ab-stuart-fails-to-save-the-universe-team-breaks-down-spoilers-"
-        },
-        {
-          "title": "The Breaking Bad Actor Who Requested That His Character Be Killed Off Sooner Than He Was",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "84569e9a-the-breaking-bad-actor-who-requested-that-his-character-be-k"
-        },
-        {
-          "title": "Mary Kate Golding, ‘The Marvelous Mrs. Maisel’ Set Decorator, Dies at 34 in Stabbing",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "f6c2c8d9-mary-kate-golding-the-marvelous-mrs-maisel-set-decorator-die"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-31T02:01:07.760Z"
+  "lastUpdated": "2026-07-31T03:23:53.694Z"
 }
