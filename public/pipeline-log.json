@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1141,
+  "totalArticles": 1143,
   "runs": [
+    {
+      "timestamp": "2026-07-31T21:27:03.501Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 94,
+      "written": [
+        {
+          "title": "Spider-Man: Brand New Day Is The Platonic Ideal Of An MCU Movie",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 14,
+          "slug": "3da8ba5d-spider-man-brand-new-day-is-the-platonic-ideal-of-an-mcu-mov"
+        },
+        {
+          "title": "9 Games To Play After 007 First Light",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 14,
+          "slug": "bc08b71d-9-games-to-play-after-007-first-light"
+        }
+      ],
+      "rejected": [
+        {
+          "title": " Anthropic sees OpenAI cybersecurity disaster and says 'hold my beer,' reveals it accidentally hacked 3 companies in as many months without noticing ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 15,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-31T19:40:29.204Z",
       "status": "quota",
@@ -2099,32 +2132,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-25T06:12:08.238Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 87,
-      "written": [
-        {
-          "title": "God of War Laufey Release Date Announced | Comic Con 2026",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "6c09b46a-god-of-war-laufey-release-date-announced-comic-con-2026"
-        },
-        {
-          "title": "God of War Laufey Launches on February 16th, 2027",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 14,
-          "slug": "57a652b3-god-of-war-laufey-launches-on-february-16th-2027"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-07-31T19:40:29.204Z"
+  "lastUpdated": "2026-07-31T21:27:03.501Z"
 }
