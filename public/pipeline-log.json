@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1155,
+  "totalArticles": 1158,
   "runs": [
+    {
+      "timestamp": "2026-08-01T13:36:39.617Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 251,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "Hard-to-Please Frank Miller Praises ‘Spider-Man: Brand New Day’: “Fan’s Dream Come True”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "911f83b5-hard-to-please-frank-miller-praises-spider-man-brand-new-day"
+        },
+        {
+          "title": "21 ‘Spider-Man: Brand New Day’ Moments With Bigger Marvel Connections",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "a6598470-21-spider-man-brand-new-day-moments-with-bigger-marvel-conne"
+        },
+        {
+          "title": "Christopher Nolan on the Flaws of Film Criticism and the Shared Philosophy of Oppenheimer and The Odyssey",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 12,
+          "slug": "8ea073b4-christopher-nolan-on-the-flaws-of-film-criticism-and-the-sha"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-01T12:01:20.043Z",
       "status": "success",
@@ -2071,54 +2103,7 @@
       "totalCandidates": 27,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-26T03:24:12.791Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 244,
-      "totalCandidates": 75,
-      "written": [
-        {
-          "title": "Final Fantasy 7 Director Kept 'Open World Fatigue' in Mind as New Remake Chapter Promises 'Bigger' World Than Rebirth",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "d424f50b-final-fantasy-7-director-kept-open-world-fatigue-in-mind-as-"
-        },
-        {
-          "title": "Commit cinematic sacrilege in Baldur's Gate 3 with this true third-person camera mod",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 11,
-          "slug": "4c069c09-commit-cinematic-sacrilege-in-baldurs-gate-3-with-this-true-"
-        },
-        {
-          "title": "Resident Evil Movie Trailer On PlayStation’s YouTube Page Is Full Of People Asking Sony To Change Course On Discs",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 11,
-          "slug": "48bf7706-resident-evil-movie-trailer-on-playstations-youtube-page-is-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Rockstar Co-Founder Says 'if People Want' Physical Game Releases Then 'Companies Should Provide It'",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Most Anticipated Warhammer 40,000 Animation Ever Finally Has a Release Date",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-01T12:01:20.043Z"
+  "lastUpdated": "2026-08-01T13:36:39.617Z"
 }
