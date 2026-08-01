@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1160,
+  "totalArticles": 1163,
   "runs": [
+    {
+      "timestamp": "2026-08-01T18:10:16.725Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 245,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Breaks Box Office Record Already, Despite Leaking on X",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 15,
+          "slug": "cdcd8750-spider-man-brand-new-day-breaks-box-office-record-already-de"
+        },
+        {
+          "title": "Juliette Lewis on Fiery ‘Cape Fear’ Finale, ‘Nostalgic’ Nods to 1991 Film and Why Crystal Will ‘Haunt’ Max Forever",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "1664ac28-juliette-lewis-on-fiery-cape-fear-finale-nostalgic-nods-to-1"
+        },
+        {
+          "title": "10 Most Underrated TV Shows Of 2026 (So Far)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "ae8ce4e0-10-most-underrated-tv-shows-of-2026-so-far"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-01T15:50:43.316Z",
       "status": "quota",
@@ -2078,47 +2110,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-26T08:36:13.794Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 239,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "‘Avengers: Doomsday’ Trailer Rocks Comic-Con: Doctor Doom Raises Army of Sentinels to Take Down Avengers, Fantastic Four and X-Men",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "d3b828ed-avengers-doomsday-trailer-rocks-comic-con-doctor-doom-raises"
-        },
-        {
-          "title": "Winston Duke Trusts David Jonsson to Take On ‘Black Panther’: ‘I Think It’s Going to Be Great’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "79cd0db8-winston-duke-trusts-david-jonsson-to-take-on-black-panther-i"
-        },
-        {
-          "title": "Ryan Gosling to Star in Marvel’s Ghost Rider Movie",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "8d6c0bec-ryan-gosling-to-star-in-marvels-ghost-rider-movie"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Marvel’s Comic-Con Panel Excites Fans for ‘Doomsday’ but Leaves Them Cautiously Optimistic About What’s Beyond",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-01T15:50:43.316Z"
+  "lastUpdated": "2026-08-01T18:10:16.725Z"
 }
