@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1152,
+  "totalArticles": 1155,
   "runs": [
+    {
+      "timestamp": "2026-08-01T12:01:20.043Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 250,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "15 Best TV Shows Like Young Sherlock",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "64ea3624-15-best-tv-shows-like-young-sherlock"
+        },
+        {
+          "title": "When Will ‘Spider-Man: Brand New Day’ Stream on Netflix?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 12,
+          "slug": "105c03c0-when-will-spider-man-brand-new-day-stream-on-netflix"
+        },
+        {
+          "title": "Crosstalk: Does Spider-Man: Brand New Day reboot our interest in Marvel movies?",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "slug": "13b2eda3-crosstalk-does-spider-man-brand-new-day-reboot-our-interest-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-01T10:01:20.002Z",
       "status": "success",
@@ -2086,36 +2118,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-26T02:01:12.025Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 245,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "‘Neuromancer’ First Look: Callum Turner Is a Cyberspace Criminal in Teaser for Apple TV Sci-Fi Series",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "19dcaf36-neuromancer-first-look-callum-turner-is-a-cyberspace-crimina"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Family Guy’ Casts Kieran Culkin to Play the Devil in New Halloween Special for Hulu",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-01T10:01:20.002Z"
+  "lastUpdated": "2026-08-01T12:01:20.043Z"
 }
