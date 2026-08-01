@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1145,
+  "totalArticles": 1146,
   "runs": [
+    {
+      "timestamp": "2026-08-01T06:01:24.839Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 26,
+      "written": [
+        {
+          "title": "Tom Holland Warns That You Don’t Want Marvel To Release Spider-Man: Brand New Day‘s “Fan Cut”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 18,
+          "slug": "b34ea82e-tom-holland-warns-that-you-dont-want-marvel-to-release-spide"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-01T03:22:33.486Z",
       "status": "quota",
@@ -2068,39 +2086,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-25T17:43:07.937Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 250,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Seinfeld's Jason Alexander Played Two Completely Different Characters On Star Trek",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "ebc2ab35-seinfelds-jason-alexander-played-two-completely-different-ch"
-        },
-        {
-          "title": "TVLine's Performer Of The Week: Fabien Frankel",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "30e951e9-tvlines-performer-of-the-week-fabien-frankel"
-        },
-        {
-          "title": "Is Daredevil in ‘Spider-Man: Brand New Day’? 3 Reasons It’s Possible",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 12,
-          "slug": "6e8f300b-is-daredevil-in-spider-man-brand-new-day-3-reasons-its-possi"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-01T03:22:33.486Z"
+  "lastUpdated": "2026-08-01T06:01:24.839Z"
 }
