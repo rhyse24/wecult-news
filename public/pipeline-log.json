@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1163,
+  "totalArticles": 1165,
   "runs": [
+    {
+      "timestamp": "2026-08-01T20:28:01.572Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 241,
+      "totalCandidates": 23,
+      "written": [
+        {
+          "title": "Spider-Man: Brand New Day Shows How to Do a Shared Universe Right",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "slug": "9bfc6cc9-spider-man-brand-new-day-shows-how-to-do-a-shared-universe-r"
+        },
+        {
+          "title": "6 Scariest Movies Released Since 2010",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "b5c0d578-6-scariest-movies-released-since-2010"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Box Office: ‘Spider-Man: Brand New Day’ Breaks Opening Day Record With $168 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "New to Streaming: Maddie’s Secret, Our Land (Nuestra Tierra), Leviticus, The Drama & More",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-01T18:10:16.725Z",
       "status": "success",
@@ -2078,39 +2118,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-26T10:01:14.215Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 225,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Marvel, WEBTOON Announce 3 Original Vertical-Scroll Series at SDCC",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 11,
-          "slug": "70c634ee-marvel-webtoon-announce-3-original-vertical-scroll-series-at"
-        },
-        {
-          "title": "Marvel Partners With Kadokawa for Upcoming Manga Projects",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 11,
-          "slug": "2f7a67b5-marvel-partners-with-kadokawa-for-upcoming-manga-projects"
-        },
-        {
-          "title": "Final Fantasy XIV MMORPG Reveals Bastion Job, New Areas for 'Evercold' Expansion in Videos",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 11,
-          "slug": "29510247-final-fantasy-xiv-mmorpg-reveals-bastion-job-new-areas-for-e"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-01T18:10:16.725Z"
+  "lastUpdated": "2026-08-01T20:28:01.572Z"
 }
