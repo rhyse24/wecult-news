@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1149,
+  "totalArticles": 1152,
   "runs": [
+    {
+      "timestamp": "2026-08-01T10:01:20.002Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 263,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": "Talking Point: What Are You Playing This Weekend? (1st August)",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 12,
+          "slug": "69605bcc-talking-point-what-are-you-playing-this-weekend-1st-august"
+        },
+        {
+          "title": "Pokemon Go August 2026 Events: Raid Bosses, Spotlight Hours, Pokemon Debuts, And More",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 11,
+          "slug": "b6ceb17d-pokemon-go-august-2026-events-raid-bosses-spotlight-hours-po"
+        },
+        {
+          "title": "Analyst data: Assassin's Creed Odyssey experiences surge in daily active users following Christopher Nolan film",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 10,
+          "slug": "1b4e55a9-analyst-data-assassins-creed-odyssey-experiences-surge-in-da"
+        }
+      ],
+      "rejected": [
+        {
+          "title": " Anthropic sees OpenAI cybersecurity disaster and says 'hold my beer,' reveals it accidentally hacked 3 companies in as many months without noticing ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 12,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-01T08:01:16.719Z",
       "status": "success",
@@ -2075,32 +2115,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-25T22:51:37.157Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 244,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "‘Avatar Aang’ Team Reveals More Spinoffs in the Works, Nearly Making Katara Pregnant and Why Fans Shouldn’t Watch the ‘Dark Web’ Leak",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "slug": "e7146961-avatar-aang-team-reveals-more-spinoffs-in-the-works-nearly-m"
-        },
-        {
-          "title": "Ridley Scott's Terrifying Sci-Fi Sequel Is Being Wiped From Streaming",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "0552a2de-ridley-scotts-terrifying-sci-fi-sequel-is-being-wiped-from-s"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-01T08:01:16.719Z"
+  "lastUpdated": "2026-08-01T10:01:20.002Z"
 }
