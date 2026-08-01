@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1143,
+  "totalArticles": 1144,
   "runs": [
+    {
+      "timestamp": "2026-07-31T23:28:47.235Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "Jon Bernthal on His ‘Brotherly Dynamic’ With Tom Holland in ‘Spider-Man’ and ‘The Odyssey,’ and Why Punisher Is Peter Parker’s ‘Cautionary Tale’",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "571e9c4c-jon-bernthal-on-his-brotherly-dynamic-with-tom-holland-in-sp"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "3 Beloved Movies To Watch on Prime Video This Weekend (Aug 1-2)",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 18,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-07-31T21:27:03.501Z",
       "status": "quota",
@@ -2092,47 +2118,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-25T09:53:21.981Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 275,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "10 Best TV Shows For Fans Of Christopher Nolan Movies",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 11,
-          "slug": "0915ed06-10-best-tv-shows-for-fans-of-christopher-nolan-movies"
-        },
-        {
-          "title": "Chris Hemsworth Returns as ‘Extraction 3’ Officially Starts Filming: Cast & What to Expect",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 11,
-          "slug": "b26cf3c8-chris-hemsworth-returns-as-extraction-3-officially-starts-fi"
-        },
-        {
-          "title": "The Lanterns trailer sends Hal Jordan and John Stewart to investigate Manhunters",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 11,
-          "slug": "affe423f-the-lanterns-trailer-sends-hal-jordan-and-john-stewart-to-in"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Is Daredevil in ‘Spider-Man: Brand New Day’? 3 Reasons It’s Possible",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 12,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-07-31T21:27:03.501Z"
+  "lastUpdated": "2026-07-31T23:28:47.235Z"
 }
