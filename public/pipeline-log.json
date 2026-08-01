@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1144,
+  "totalArticles": 1145,
   "runs": [
+    {
+      "timestamp": "2026-08-01T03:22:33.486Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Javier Bardem Politely Warned ‘Cape Fear’ Co-Star About Grabbing Her Hair During Attack Scene and Apologized in Advance: ‘I’m So Sorry, My Love’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "slug": "b0cd9702-javier-bardem-politely-warned-cape-fear-co-star-about-grabbi"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "15 Best TV Shows Like Young Sherlock",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-01T02:01:22.800Z",
       "status": "quota",
@@ -2074,32 +2100,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-25T15:14:22.587Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 257,
-      "totalCandidates": 78,
-      "written": [
-        {
-          "title": " Modding wizard creates Grand Theft Auto multiverse that lets players travel instantly between Rockstar's first three games: 'We got inter-GTA portals before GTA 6' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "f98157a6-modding-wizard-creates-grand-theft-auto-multiverse-that-lets"
-        },
-        {
-          "title": "Rockstar co-founder Dan Houser says if people want games on disc ‘companies should provide it’",
-          "category": "games",
-          "source": "VGC",
-          "score": 13,
-          "slug": "1b824abf-rockstar-co-founder-dan-houser-says-if-people-want-games-on-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-01T02:01:22.800Z"
+  "lastUpdated": "2026-08-01T03:22:33.486Z"
 }
