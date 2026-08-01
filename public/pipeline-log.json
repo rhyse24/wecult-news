@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1158,
+  "totalArticles": 1160,
   "runs": [
+    {
+      "timestamp": "2026-08-01T15:50:43.316Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 250,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": " The games industry's 'fear of risk is currently the largest risk it faces' according to Nuclear Throne's producer ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "ca8cbbf7-the-games-industrys-fear-of-risk-is-currently-the-largest-ri"
+        },
+        {
+          "title": " Dragon Age's former producer had envisioned a 'Champions Edition' equivalent to Mass Effect's Legendary Edition, but he doesn't think it will happen anymore: 'There are basically no companies that could help you' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "b66d9d67-dragon-ages-former-producer-had-envisioned-a-champions-editi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-01T13:36:39.617Z",
       "status": "success",
@@ -2093,17 +2118,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-26T06:01:20.524Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 241,
-      "totalCandidates": 27,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-01T13:36:39.617Z"
+  "lastUpdated": "2026-08-01T15:50:43.316Z"
 }
