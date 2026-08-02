@@ -1,6 +1,67 @@
 {
-  "totalArticles": 1178,
+  "totalArticles": 1181,
   "runs": [
+    {
+      "timestamp": "2026-08-02T12:43:19.349Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 198,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "A-List Cast Continues to Make “Lioness” the Queen of the Streaming Jungle",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 8,
+          "slug": "bcdac5fb-a-list-cast-continues-to-make-lioness-the-queen-of-the-strea"
+        },
+        {
+          "title": "Nicole Kidman and Sandra Bullock Surprise Fans at ‘Practical Magic’ Screening in Hollywood Forever Cemetery for L.A.’s Cinespia",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "8f4d0beb-nicole-kidman-and-sandra-bullock-surprise-fans-at-practical-"
+        },
+        {
+          "title": "Vin Diesel Says ‘Fast Forever’ Has the ‘Best Script I Have Read in Decades’: ‘I Am Still Crying’",
+          "category": "film",
+          "source": "Variety",
+          "score": 6,
+          "slug": "aea5156a-vin-diesel-says-fast-forever-has-the-best-script-i-have-read"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Box Office: ‘Spider-Man: Brand New Day’ Breaks Opening Day Record With $168 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "6 Best Superhero Movies Released Since 2010",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Spider-Man: Brand New Day: Where Does Spidey Go from Here?",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "8 Disney Movie Endings That Are Genuine Masterpieces",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-02T10:00:44.334Z",
       "status": "success",
@@ -2139,29 +2200,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-27T03:33:42.723Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 180,
-      "totalCandidates": 63,
-      "written": [],
-      "rejected": [
-        {
-          "title": " Yet Another Zombie Defense HD, which is its real name, is free on Steam for a limited time ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 633 words (max 580)",
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-02T10:00:44.334Z"
+  "lastUpdated": "2026-08-02T12:43:19.349Z"
 }
