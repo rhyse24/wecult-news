@@ -1,6 +1,74 @@
 {
-  "totalArticles": 1169,
+  "totalArticles": 1172,
   "runs": [
+    {
+      "timestamp": "2026-08-02T06:01:21.501Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 232,
+      "totalCandidates": 22,
+      "written": [
+        {
+          "title": "Exclusive U.S. Trailer for Kiyoshi Kurosawa’s Serpent’s Path Traces a Brutal Vengeance",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 8,
+          "slug": "7673fa31-exclusive-us-trailer-for-kiyoshi-kurosawas-serpents-path-tra"
+        },
+        {
+          "title": "10 Most Perfect Movie Endings of the 1990s",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 7,
+          "slug": "2f3fb9f7-10-most-perfect-movie-endings-of-the-1990s"
+        },
+        {
+          "title": "Richard L. O’Connor, Emmy-Winning Producer and ‘The Muppet Movie’ Executive, Dies at 96",
+          "category": "film",
+          "source": "Variety",
+          "score": 6,
+          "slug": "3f8252f4-richard-l-oconnor-emmy-winning-producer-and-the-muppet-movie"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Box Office: ‘Spider-Man: Brand New Day’ Breaks Opening Day Record With $168 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "6 Best Superhero Movies Released Since 2010",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Spider-Man: Brand New Day: Where Does Spidey Go from Here?",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "New to Streaming: Maddie’s Secret, Our Land (Nuestra Tierra), Leviticus, The Drama & More",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Vin Diesel Says ‘Fast Forever’ Has the ‘Best Script I Have Read in Decades’: ‘I Am Still Crying’",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-02T03:34:59.659Z",
       "status": "quota",
@@ -2086,17 +2154,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-26T20:28:40.633Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 183,
-      "totalCandidates": 44,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-02T03:34:59.659Z"
+  "lastUpdated": "2026-08-02T06:01:21.501Z"
 }
