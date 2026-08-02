@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1186,
+  "totalArticles": 1188,
   "runs": [
+    {
+      "timestamp": "2026-08-02T20:53:34.700Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 169,
+      "totalCandidates": 19,
+      "written": [
+        {
+          "title": "8 Best Cameos in 'Spider-Man: Brand New Day'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 20,
+          "slug": "a4e8e34b-8-best-cameos-in-spider-man-brand-new-day"
+        },
+        {
+          "title": "‘Spider-Man: Brand New Day’ Obliterates Expectations With $927 Million Global Debut",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "0dac9da0-spider-man-brand-new-day-obliterates-expectations-with-927-m"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-02T18:05:02.746Z",
       "status": "success",
@@ -2164,47 +2189,7 @@
       "totalCandidates": 42,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-27T10:10:48.392Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 192,
-      "totalCandidates": 21,
-      "written": [
-        {
-          "title": "10 Things 'Spider-Man: Brand New Day' Absolutely Must Deliver",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "slug": "03730a36-10-things-spider-man-brand-new-day-absolutely-must-deliver"
-        },
-        {
-          "title": "Avengers: Doomsday – Doctor Doom’s Tony Stark Connection and Past Revealed",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 12,
-          "slug": "b2a29624-avengers-doomsday-doctor-dooms-tony-stark-connection-and-pas"
-        },
-        {
-          "title": "Kevin Feige Says Ryan Coogler Met With David Jonsson Six Months Ago in a ‘Secret Meeting’ to Discuss ‘Black Panther 3’ Role: ‘I Got Chills’",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "80a046fb-kevin-feige-says-ryan-coogler-met-with-david-jonsson-six-mon"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "5 Worst Disney Animated Movies, According To Letterboxd Users",
-          "category": "film",
-          "source": "Looper",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-02T18:05:02.746Z"
+  "lastUpdated": "2026-08-02T20:53:34.700Z"
 }
