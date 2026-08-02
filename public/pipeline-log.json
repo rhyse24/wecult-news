@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1172,
+  "totalArticles": 1175,
   "runs": [
+    {
+      "timestamp": "2026-08-02T08:34:42.270Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 228,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "Crunchyroll to Stream Eleceed, FX Fighter Kurumi-chan, Uncle's Obsession with Cute Things, More Anime; English Dub for Sound! Euphonium",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 11,
+          "slug": "1747ae80-crunchyroll-to-stream-eleceed-fx-fighter-kurumi-chan-uncles-"
+        },
+        {
+          "title": "Dick Van Dyke's Medical Drama Brought In Star Trek Actors For An Alien Abduction Episode",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "42e4b40c-dick-van-dykes-medical-drama-brought-in-star-trek-actors-for"
+        },
+        {
+          "title": "Quote Of The Day By David Lynch: 'If You Get An Idea That's Thrilling To You, Put Your Attention On It, And These Other Fish Will Swim...'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 7,
+          "slug": "d06703b4-quote-of-the-day-by-david-lynch-if-you-get-an-idea-thats-thr"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "\"High-quality bootleg\" of Spider-Man: Brand New Day survived for nine hours on Twitter/X",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Underrated TV Shows Streaming On Peacock",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-02T06:01:21.501Z",
       "status": "success",
@@ -2129,32 +2176,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-26T23:04:43.842Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 183,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Save The Dates: Apple's Neuromancer TV Series, Fox Animation Holiday Specials, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "bcb7f174-save-the-dates-apples-neuromancer-tv-series-fox-animation-ho"
-        },
-        {
-          "title": "10 Best Shows Like Every Year After",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "1f664a50-10-best-shows-like-every-year-after"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-02T06:01:21.501Z"
+  "lastUpdated": "2026-08-02T08:34:42.270Z"
 }
