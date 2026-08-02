@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1168,
+  "totalArticles": 1169,
   "runs": [
+    {
+      "timestamp": "2026-08-02T03:34:59.659Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 233,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": " 10 expansions that were better than the actual game ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "ca1d75b3-10-expansions-that-were-better-than-the-actual-game"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-02T01:11:21.567Z",
       "status": "success",
@@ -2078,47 +2096,7 @@
       "totalCandidates": 44,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-26T17:53:46.761Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 185,
-      "totalCandidates": 57,
-      "written": [
-        {
-          "title": " Ubisoft says the Black Flag remake has exceeded 'annual expectations' in just two weeks, shortly after it laid off a number of the people who made it ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "7b93578d-ubisoft-says-the-black-flag-remake-has-exceeded-annual-expec"
-        },
-        {
-          "title": " Rockstar co-founder says 'I don't know if I personally care' if games release on disc, adds 'I love physical media' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "61bf639e-rockstar-co-founder-says-i-dont-know-if-i-personally-care-if"
-        },
-        {
-          "title": "Three Games Are Confirmed For Xbox Game Pass To End The Month (July 28-31)",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 13,
-          "slug": "81f4ee82-three-games-are-confirmed-for-xbox-game-pass-to-end-the-mont"
-        }
-      ],
-      "rejected": [
-        {
-          "title": " J.K. Simmons hasn't played Baldur's Gate 3 or any of his games, but he loves Portal 2: 'I could have done the feature film, or the play, or whatever' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-02T01:11:21.567Z"
+  "lastUpdated": "2026-08-02T03:34:59.659Z"
 }
