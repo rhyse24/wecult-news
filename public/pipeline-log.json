@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1183,
+  "totalArticles": 1186,
   "runs": [
+    {
+      "timestamp": "2026-08-02T18:05:02.746Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 171,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "\"High-quality bootleg\" of Spider-Man: Brand New Day survived for nine hours on Twitter/X",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 11,
+          "slug": "df391520-high-quality-bootleg-of-spider-man-brand-new-day-survived-fo"
+        },
+        {
+          "title": "What To Watch Sunday: Lioness And The Librarians Return, Grantchester Ends, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "685d9888-what-to-watch-sunday-lioness-and-the-librarians-return-grant"
+        },
+        {
+          "title": "‘Gabby Dollhouse’ Casts Gabby’s Little Sister for Netflix Series (Exclusive)",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 8,
+          "slug": "95db0ba0-gabby-dollhouse-casts-gabbys-little-sister-for-netflix-serie"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Wonder Man’ Co-Creator Says ‘Contracts Were Signed, Schedules Were Cleared’ Before Marvel Series Was Canceled: ‘This Is Not a Marketing Stunt’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-02T15:21:06.762Z",
       "status": "quota",
@@ -2164,50 +2204,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-27T07:37:15.702Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 179,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "Disney+ Reveals 1st Teaser Poster for Live-Action Series The Remarried Empress",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 15,
-          "slug": "75ccd127-disney-reveals-1st-teaser-poster-for-live-action-series-the-"
-        },
-        {
-          "title": "The Walking Dead: Dead City Premiere Recap: Do Maggie And Negan Make Better Friends Than Enemies? (Grade It!)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "d0827c2b-the-walking-dead-dead-city-premiere-recap-do-maggie-and-nega"
-        },
-        {
-          "title": "Nicola Coughlan, Paapa Essiedu and More Join Celebrity Auction to Raise Money for Students in Gaza",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "3886dc60-nicola-coughlan-paapa-essiedu-and-more-join-celebrity-auctio"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "House Of The Dragon's Benjamin Evan Ainsworth: Shooting That Foul Episode 6 Scene 'Was The Most Game Of Thrones Day I've Ever Had'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 17 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-02T15:21:06.762Z"
+  "lastUpdated": "2026-08-02T18:05:02.746Z"
 }
