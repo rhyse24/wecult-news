@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1165,
+  "totalArticles": 1168,
   "runs": [
+    {
+      "timestamp": "2026-08-02T01:11:21.567Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 237,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "Before Breaking Bad, Jonathan Banks Starred In A Forgotten '90s Sitcom",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "9cdfdfda-before-breaking-bad-jonathan-banks-starred-in-a-forgotten-90"
+        },
+        {
+          "title": "‘Wonder Man’ Star Yahya Abdul-Mateen II Reacts to Marvel Series Cancellation: “See You at the Emmys”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 13,
+          "slug": "d4b414a4-wonder-man-star-yahya-abdul-mateen-ii-reacts-to-marvel-serie"
+        },
+        {
+          "title": "5 Game Of Thrones Characters Whose Stories Were The Most Ruined By The Final Season",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "92ca2d68-5-game-of-thrones-characters-whose-stories-were-the-most-rui"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "\"High-quality bootleg\" of Spider-Man: Brand New Day survived for nine hours on Twitter/X",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Underrated TV Shows Streaming On Peacock",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-01T22:50:44.285Z",
       "status": "quota",
@@ -2071,47 +2118,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-26T15:12:12.865Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 194,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "6 Worst Slasher Movies That Are Truly 0/10",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "0729e254-6-worst-slasher-movies-that-are-truly-010"
-        },
-        {
-          "title": "Box Office: ‘Toy Story 5’ Crosses $1 Billion, Becomes Highest-Grossing Movie of the Year",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "92f14d03-box-office-toy-story-5-crosses-1-billion-becomes-highest-gro"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Avengers: Doomsday – Doctor Doom’s Tony Stark Connection and Past Revealed",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Ryan Reynolds’ Deadpool Crashes Comic-Con to Beg for ‘Avengers: Doomsday’ Role",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-01T22:50:44.285Z"
+  "lastUpdated": "2026-08-02T01:11:21.567Z"
 }
