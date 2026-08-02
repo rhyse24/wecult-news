@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1175,
+  "totalArticles": 1178,
   "runs": [
+    {
+      "timestamp": "2026-08-02T10:00:44.334Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 215,
+      "totalCandidates": 11,
+      "written": [
+        {
+          "title": "Spider-Man: Brand New Day Is a Reminder We Could All Use Right Now",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "slug": "43ad1793-spider-man-brand-new-day-is-a-reminder-we-could-all-use-righ"
+        },
+        {
+          "title": "Mahershala Ali Says He’s Done With Marvel’s Blade Reboot",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 9,
+          "slug": "50f7a061-mahershala-ali-says-hes-done-with-marvels-blade-reboot"
+        },
+        {
+          "title": "What to Watch and Read This Weekend: Will I Love Boosters Fix Me?",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 9,
+          "slug": "ec815e43-what-to-watch-and-read-this-weekend-will-i-love-boosters-fix"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-02T08:34:42.270Z",
       "status": "success",
@@ -2129,54 +2161,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-27T02:01:15.243Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 166,
-      "totalCandidates": 19,
-      "written": [
-        {
-          "title": "Box Office: ‘The Odyssey’ Soars to $639 Million Globally After Two Weekends, Including $140 Million in Imax",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "cd19a9e1-box-office-the-odyssey-soars-to-639-million-globally-after-t"
-        },
-        {
-          "title": "Universal Responds to ‘The Odyssey’ Leaks on Social Media",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "94b5313b-universal-responds-to-the-odyssey-leaks-on-social-media"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "5 Worst Disney Animated Movies, According To Letterboxd Users",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Kevin Feige Says Ryan Coogler Met With David Jonsson Six Months Ago in a ‘Secret Meeting’ to Discuss ‘Black Panther 3’ Role: ‘I Got Chills’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Avengers: Doomsday – Doctor Doom’s Tony Stark Connection and Past Revealed",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-02T08:34:42.270Z"
+  "lastUpdated": "2026-08-02T10:00:44.334Z"
 }
