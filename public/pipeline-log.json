@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1191,
+  "totalArticles": 1194,
   "runs": [
+    {
+      "timestamp": "2026-08-03T07:32:49.042Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 165,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "House Of The Dragon Reveals Ormund's King's Landing Spy — Did You Guess Who It Is? Read Episode 7 Recap",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 19,
+          "slug": "e4122a65-house-of-the-dragon-reveals-ormunds-kings-landing-spy-did-yo"
+        },
+        {
+          "title": "House Of The Dragon's Alys Is Awash In Blonde Men With Mommy Issues — 'Are They All Just The Same?' Gayle Rankin Wonders",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "363d3801-house-of-the-dragons-alys-is-awash-in-blonde-men-with-mommy-"
+        },
+        {
+          "title": "M3GAN gets its own shallow Companion piece with Soulm8te",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 14,
+          "slug": "506136d5-m3gan-gets-its-own-shallow-companion-piece-with-soulm8te"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-03T06:00:44.091Z",
       "status": "quota",
@@ -2148,40 +2180,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-27T19:57:06.405Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 240,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Gold House Launches Gold House Studios, Unveiling A Slate Led By ‘The Boys’ Star Karen Fukuhara (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "9e648576-gold-house-launches-gold-house-studios-unveiling-a-slate-led"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘The Odyssey’ by the Numbers: 6 Ways Christopher Nolan’s Epic Is Shattering Box Office Expectations",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Ryan Reynolds Snuck Into Comic-Con as Deadpool With ‘No Handlers’ and ‘No Security’: ‘I Felt So Lucky’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-03T06:00:44.091Z"
+  "lastUpdated": "2026-08-03T07:32:49.042Z"
 }
