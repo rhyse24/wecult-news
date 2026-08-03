@@ -2,6 +2,38 @@
   "totalArticles": 1197,
   "runs": [
     {
+      "timestamp": "2026-08-03T16:54:19.170Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 228,
+      "totalCandidates": 40,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Before House Of The Dragon, Criston Cole Actor Fabien Frankel Starred In A Classic Cop Drama Reboot",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Ted Lasso Refresher: Who's Returning For Season 4 — And Where They Left Off",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "What To Watch Monday: Futurama Returns, The Librarians Episode 2, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-03T14:31:55.710Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2176,25 +2208,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-28T02:01:16.996Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 240,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "10 Greatest Monsters in The Lord of the Rings",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "f27f9a99-10-greatest-monsters-in-the-lord-of-the-rings"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-03T14:31:55.710Z"
+  "lastUpdated": "2026-08-03T16:54:19.170Z"
 }
