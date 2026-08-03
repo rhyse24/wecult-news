@@ -2,6 +2,24 @@
   "totalArticles": 1197,
   "runs": [
     {
+      "timestamp": "2026-08-03T14:31:55.710Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 208,
+      "totalCandidates": 42,
+      "written": [],
+      "rejected": [
+        {
+          "title": "‘House of the Dragon’: Gayle Rankin on That ‘F — ed Up’ Aemond-Alys-Alicent Scene, ‘Unbearable’ Family Dinner and Dragon Egg Plans",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-03T10:26:41.327Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2176,47 +2194,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-28T00:11:41.855Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 245,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "High School Remains Hell in the Teaser for Mike Flanagan’s Carrie",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 11,
-          "slug": "a2f96fa9-high-school-remains-hell-in-the-teaser-for-mike-flanagans-ca"
-        },
-        {
-          "title": "The Summer of Jimothy",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 11,
-          "slug": "31940d8c-the-summer-of-jimothy"
-        },
-        {
-          "title": "Lanterns Trailer Reveals Manhunters, Sinestro, and a Much Bigger DC Story Than Expected",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "d5b3eb99-lanterns-trailer-reveals-manhunters-sinestro-and-a-much-bigg"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "First Trailer For Apple TV’s Neuromancer Looks Really, Really Promising",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-03T10:26:41.327Z"
+  "lastUpdated": "2026-08-03T14:31:55.710Z"
 }
