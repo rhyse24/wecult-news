@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1188,
+  "totalArticles": 1191,
   "runs": [
+    {
+      "timestamp": "2026-08-02T23:52:24.236Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 167,
+      "totalCandidates": 66,
+      "written": [
+        {
+          "title": " Owlcat co-founder says the studio won't turn its back on hardcore RPGs as it hits 600 employees and preps its own Mass Effect killer ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "1e25c589-owlcat-co-founder-says-the-studio-wont-turn-its-back-on-hard"
+        },
+        {
+          "title": " Champion modder ports the OG 'Father' Nier back into the PC remaster, original voiceovers and all ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "d8617f85-champion-modder-ports-the-og-father-nier-back-into-the-pc-re"
+        },
+        {
+          "title": "As hype builds for Final Fantasy 7 Revelation, Remake and Rebirth continue to sell well",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 10,
+          "slug": "9da0132d-as-hype-builds-for-final-fantasy-7-revelation-remake-and-reb"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-02T20:53:34.700Z",
       "status": "quota",
@@ -2179,17 +2211,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-27T14:01:17.319Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 212,
-      "totalCandidates": 42,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-02T20:53:34.700Z"
+  "lastUpdated": "2026-08-02T23:52:24.236Z"
 }
