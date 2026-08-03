@@ -2,6 +2,24 @@
   "totalArticles": 1197,
   "runs": [
     {
+      "timestamp": "2026-08-03T21:36:37.449Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 242,
+      "totalCandidates": 44,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Before House Of The Dragon, Criston Cole Actor Fabien Frankel Starred In A Classic Cop Drama Reboot",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-03T19:43:13.288Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2153,33 +2171,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-28T06:01:20.827Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 235,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "Taylor Sheridan Returning to Film After Stepping Away From ‘Yellowstone’ Franchise",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 10,
-          "slug": "e12a78df-taylor-sheridan-returning-to-film-after-stepping-away-from-y"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Dungeon Crawler Carl’s’ Breakout, Ryan Reynolds’ Jeanpool Stunt and More Comic-Con Highlights",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-03T19:43:13.288Z"
+  "lastUpdated": "2026-08-03T21:36:37.449Z"
 }
