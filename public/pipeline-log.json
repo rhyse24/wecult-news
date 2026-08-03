@@ -2,6 +2,24 @@
   "totalArticles": 1197,
   "runs": [
     {
+      "timestamp": "2026-08-03T19:43:13.288Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 232,
+      "totalCandidates": 39,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Before House Of The Dragon, Criston Cole Actor Fabien Frankel Starred In A Classic Cop Drama Reboot",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-03T16:54:19.170Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2161,54 +2179,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-28T04:18:59.206Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 238,
-      "totalCandidates": 77,
-      "written": [
-        {
-          "title": "Xbox Servers Were Down For 20 Hours, But Everything Should Be Working Now",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 13,
-          "slug": "f6f7534b-xbox-servers-were-down-for-20-hours-but-everything-should-be"
-        },
-        {
-          "title": "Ubisoft Gives Free PC Copies to Xbox Owners of Select Games",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "1c035c16-ubisoft-gives-free-pc-copies-to-xbox-owners-of-select-games"
-        },
-        {
-          "title": "Where To Buy Disney Lorcana's Curator's Collection: Heroines Edition",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "dd8b6189-where-to-buy-disney-lorcanas-curators-collection-heroines-ed"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Call of Duty: Black Ops Fans Discover Cut Zombies Content Over 15 Years After Release",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Marvel Tokon: Fighting Souls Beta Proves Fans Still Really Want That Blade Movie",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-03T16:54:19.170Z"
+  "lastUpdated": "2026-08-03T19:43:13.288Z"
 }
