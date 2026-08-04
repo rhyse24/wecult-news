@@ -1,6 +1,35 @@
 {
-  "totalArticles": 1200,
+  "totalArticles": 1201,
   "runs": [
+    {
+      "timestamp": "2026-08-04T06:00:46.085Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 246,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "5 Reasons ‘Spider-Man: Brand New Day’ Crushed Superhero Fatigue",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "43a73fc5-5-reasons-spider-man-brand-new-day-crushed-superhero-fatigue"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Mary Rivera, ‘Spider-Man: No Way Home’ Actress, Dies at 82",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-04T04:00:36.628Z",
       "status": "quota",
@@ -2065,40 +2094,7 @@
       "totalCandidates": 45,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-28T14:01:21.204Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 261,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "‘The Odyssey’ Holds Top Spot as Vijay’s ‘Jana Nayagan’ Bows at No. 5 at U.K. and Ireland Box Office",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "32d29620-the-odyssey-holds-top-spot-as-vijays-jana-nayagan-bows-at-no"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Review: Tom Holland Returns in a ‘Mature’ but Arduous Adventure That for All Its Good Action Is Trying Too Hard",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Only 8 Fantasy Franchises Are Objectively Better Than Lord of the Rings",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-04T04:00:36.628Z"
+  "lastUpdated": "2026-08-04T06:00:46.085Z"
 }
