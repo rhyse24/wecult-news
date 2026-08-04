@@ -2,6 +2,16 @@
   "totalArticles": 1200,
   "runs": [
     {
+      "timestamp": "2026-08-04T04:00:36.628Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 246,
+      "totalCandidates": 27,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-04T02:00:36.649Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2088,47 +2098,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-28T12:29:37.634Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 252,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": " TV Spy — Lioness, Ted Lasso, and all the US dramas you can watch on UK services: 1-7 August ",
-          "category": "tv",
-          "source": "What to Watch",
-          "score": 13,
-          "slug": "23feec0c-tv-spy-lioness-ted-lasso-and-all-the-us-dramas-you-can-watch"
-        },
-        {
-          "title": "‘Dungeon Crawler Carl’s’ Breakout, Ryan Reynolds’ Jeanpool Stunt and More Comic-Con Highlights",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "slug": "b50dadb1-dungeon-crawler-carls-breakout-ryan-reynolds-jeanpool-stunt-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Kill Jackie,’ Starring a Glamorous, Lethal Catherine Zeta-Jones, Acquired by Warner Bros. Discovery for HBO Max (EXCLUSIVE)  ",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 11,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "The Scariest Joker We've EVER Gotten...",
-          "category": "tv",
-          "source": "WhatCulture TV",
-          "score": 10,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-04T02:00:36.649Z"
+  "lastUpdated": "2026-08-04T04:00:36.628Z"
 }
