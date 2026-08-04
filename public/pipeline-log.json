@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1199,
+  "totalArticles": 1200,
   "runs": [
+    {
+      "timestamp": "2026-08-04T02:00:36.649Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 245,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": " 'I would die': Obsession star Inde Navarrette would love a role in Resident Evil ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 16,
+          "slug": "1de28f13-i-would-die-obsession-star-inde-navarrette-would-love-a-role"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-03T23:24:54.759Z",
       "status": "quota",
@@ -2110,61 +2128,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-28T10:01:19.539Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 251,
-      "totalCandidates": 74,
-      "written": [
-        {
-          "title": "Spider-Man: Brand New Day Estimated To Make $800 Million In Its Opening Weekend",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "slug": "a53d9a03-spider-man-brand-new-day-estimated-to-make-800-million-in-it"
-        },
-        {
-          "title": "Complete Halo Campaign Evolved weapons tier list",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 13,
-          "slug": "99b11a1c-complete-halo-campaign-evolved-weapons-tier-list"
-        },
-        {
-          "title": "Are MTG x Marvel Collector Commander Decks Worth the High Price?",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 10,
-          "slug": "55b86aa6-are-mtg-x-marvel-collector-commander-decks-worth-the-high-pr"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Xbox Network Is Down Right Now, Microsoft Confirms",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Call of Duty: Black Ops Fans Discover Cut Zombies Content Over 15 Years After Release",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Marvel Tokon: Fighting Souls Beta Proves Fans Still Really Want That Blade Movie",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-03T23:24:54.759Z"
+  "lastUpdated": "2026-08-04T02:00:36.649Z"
 }
