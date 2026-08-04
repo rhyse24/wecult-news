@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1207,
+  "totalArticles": 1209,
   "runs": [
+    {
+      "timestamp": "2026-08-04T12:00:44.356Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 250,
+      "totalCandidates": 23,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Lands Biggest Opening Weekend in Middle East Box Office History",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "00bd0c83-spider-man-brand-new-day-lands-biggest-opening-weekend-in-mi"
+        },
+        {
+          "title": "3 Beloved Movie Masterpieces To Watch on Netflix This Week (Aug 3-7)",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "slug": "b4383f3c-3-beloved-movie-masterpieces-to-watch-on-netflix-this-week-a"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-04T10:00:46.067Z",
       "status": "success",
@@ -2116,32 +2141,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-28T19:48:44.367Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Ted Lasso Returns To Coach AFC Richmond's Women's Team In Full-Length Season 4 Trailer",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "bcb8dc89-ted-lasso-returns-to-coach-afc-richmonds-womens-team-in-full"
-        },
-        {
-          "title": "FCC Slammed by Former Agency Officials Over Review of ABC’s Licenses: ‘An Assault on Free Speech Disguised as Regulatory Process’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "7458c54b-fcc-slammed-by-former-agency-officials-over-review-of-abcs-l"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-04T10:00:46.067Z"
+  "lastUpdated": "2026-08-04T12:00:44.356Z"
 }
