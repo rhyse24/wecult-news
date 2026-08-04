@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1217,
+  "totalArticles": 1218,
   "runs": [
+    {
+      "timestamp": "2026-08-04T21:34:05.573Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "The Artful Dodger Ending With Season 3 On Hulu And Disney+",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "ede649fa-the-artful-dodger-ending-with-season-3-on-hulu-and-disney"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-04T19:42:04.443Z",
       "status": "success",
@@ -2109,25 +2127,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-29T06:01:27.069Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 263,
-      "totalCandidates": 35,
-      "written": [],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Swings to China’s Biggest Superhero Opening in Seven Years",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-04T19:42:04.443Z"
+  "lastUpdated": "2026-08-04T21:34:05.573Z"
 }
