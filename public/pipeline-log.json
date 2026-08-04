@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1204,
+  "totalArticles": 1207,
   "runs": [
+    {
+      "timestamp": "2026-08-04T10:00:46.067Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 252,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "The Ninth Jedi Trailer Arrives Just Days Before the Star Wars Series’ Premiere",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "slug": "82504bcc-the-ninth-jedi-trailer-arrives-just-days-before-the-star-war"
+        },
+        {
+          "title": "Large Happenings for a Small Mouse: Brian Jacques’ Redwall",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 12,
+          "slug": "d2c63013-large-happenings-for-a-small-mouse-brian-jacques-redwall"
+        },
+        {
+          "title": "There’s only so long you can say no to Henry VIII",
+          "category": "books",
+          "source": "Book Riot",
+          "score": 10,
+          "slug": "2fa83374-theres-only-so-long-you-can-say-no-to-henry-viii"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-04T08:00:44.877Z",
       "status": "success",
@@ -2109,25 +2141,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-28T17:38:17.876Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 40,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Ted Lasso Returns To Coach AFC Richmond's Women's Team In Full-Length Season 4 Trailer",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-04T08:00:44.877Z"
+  "lastUpdated": "2026-08-04T10:00:46.067Z"
 }
