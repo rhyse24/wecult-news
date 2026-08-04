@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1210,
+  "totalArticles": 1213,
   "runs": [
+    {
+      "timestamp": "2026-08-04T16:00:45.758Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "Ted Lasso Refresher: Who's Not Returning For Season 4 — And Where They Left Off",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "822d6a4c-ted-lasso-refresher-whos-not-returning-for-season-4-and-wher"
+        },
+        {
+          "title": "‘White Lotus’ Swaps the Palais for a Castle: Season 4 Cast Laura Dern, AJ Michalka and Marissa Long Drop by Disneyland Paris",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "5397718d-white-lotus-swaps-the-palais-for-a-castle-season-4-cast-laur"
+        },
+        {
+          "title": "George R.R. Martin Says He Battled Depression This Year: “The Worst May Be Yet to Come”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "c6e44dff-george-rr-martin-says-he-battled-depression-this-year-the-wo"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-04T14:00:47.222Z",
       "status": "quota",
@@ -2087,54 +2119,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-29T00:24:43.610Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "‘Superhero Fatigue Is Real. Spider-Man Fatigue Is Not’: Tom Holland’s ‘Brand New Day’ Could Score One of the Biggest Opening Weekends Ever",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "9bf63f25-superhero-fatigue-is-real-spider-man-fatigue-is-not-tom-holl"
-        },
-        {
-          "title": "5 Most Rewatchable Cyberpunk Movies Of All Time",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "slug": "afab896f-5-most-rewatchable-cyberpunk-movies-of-all-time"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Review: Tom Holland Bares His Soul in a Superhero Installment That Balances Self-Reflection With Action",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Only Jean Grey Explainer You Need Before Spider-Man: Brand New Day",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Only 8 Fantasy Franchises Are Objectively Better Than Lord of the Rings",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-04T14:00:47.222Z"
+  "lastUpdated": "2026-08-04T16:00:45.758Z"
 }
