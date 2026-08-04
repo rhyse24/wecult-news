@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1213,
+  "totalArticles": 1214,
   "runs": [
+    {
+      "timestamp": "2026-08-04T17:52:02.232Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Crosses $1 Billion in Six Days, Second-Fastest Movie to Hit Milestone",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "0b1cb044-spider-man-brand-new-day-crosses-1-billion-in-six-days-secon"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "20 Best Movies Of 2026 (So Far)",
+          "category": "film",
+          "source": "WhatCulture Film",
+          "score": 16,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "10 Lingering Questions I Have After 'Spider-Man: Brand New Day'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-04T16:00:45.758Z",
       "status": "success",
@@ -2087,39 +2120,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-29T02:01:14.066Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "Emmy Rossum on ‘Furious’ Serial Killer Targeting Jeffrey Epstein-Like Predators: ‘You Don’t Want to Root for Her, And Yet Maybe She’s Got a Point’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 17,
-          "slug": "10525159-emmy-rossum-on-furious-serial-killer-targeting-jeffrey-epste"
-        },
-        {
-          "title": "Ryan Murphy Reveals ‘American Horror Story’ Season 13 Brings Together All Previous Seasons: “It’s Like the Avengers”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "slug": "9031c0f1-ryan-murphy-reveals-american-horror-story-season-13-brings-t"
-        },
-        {
-          "title": "On-Set Visual Effects Workers on ‘Star Wars’ Productions Join IATSE",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "2b6482b9-on-set-visual-effects-workers-on-star-wars-productions-join-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-04T16:00:45.758Z"
+  "lastUpdated": "2026-08-04T17:52:02.232Z"
 }
