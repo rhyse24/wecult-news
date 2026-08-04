@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1214,
+  "totalArticles": 1217,
   "runs": [
+    {
+      "timestamp": "2026-08-04T19:42:04.443Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 282,
+      "totalCandidates": 87,
+      "written": [
+        {
+          "title": "Fortnite, Grand Theft Auto 5 Continue to Top PS5, Xbox Series X/S Most-Played Charts in the US",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 17,
+          "slug": "eca3dd7e-fortnite-grand-theft-auto-5-continue-to-top-ps5-xbox-series-"
+        },
+        {
+          "title": "Aliens: Fireteam Elite 2’s Hunter Class Showcased in Latest Trailer",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "slug": "a81191a0-aliens-fireteam-elite-2s-hunter-class-showcased-in-latest-tr"
+        },
+        {
+          "title": "FC 27’s The Grounds Looks Like PlayStation Home For Football Fans",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "59ff70a7-fc-27s-the-grounds-looks-like-playstation-home-for-football-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-04T17:52:02.232Z",
       "status": "quota",
@@ -2095,32 +2127,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-29T04:31:44.547Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "Avatar Aang: The Last Airbender Will Make You Miss the Animated Series",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 17,
-          "slug": "6a4e16c0-avatar-aang-the-last-airbender-will-make-you-miss-the-animat"
-        },
-        {
-          "title": "A Surprise Source May Have Just Revealed Spider-Man: Brand New Day‘s Secret Villain",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "ae69f659-a-surprise-source-may-have-just-revealed-spider-man-brand-ne"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-04T17:52:02.232Z"
+  "lastUpdated": "2026-08-04T19:42:04.443Z"
 }
