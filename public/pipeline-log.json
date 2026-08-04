@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1209,
+  "totalArticles": 1210,
   "runs": [
+    {
+      "timestamp": "2026-08-04T14:00:47.222Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 260,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": "Rumours of an unannounced Elder Scrolls game are bogus, sadly",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 16,
+          "slug": "92f94557-rumours-of-an-unannounced-elder-scrolls-game-are-bogus-sadly"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-04T12:00:44.356Z",
       "status": "quota",
@@ -2116,32 +2134,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-28T22:04:01.904Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 90,
-      "written": [
-        {
-          "title": "If You Loved The Odyssey, Play These Games Next",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 18,
-          "slug": "f2133a60-if-you-loved-the-odyssey-play-these-games-next"
-        },
-        {
-          "title": "The Grade A Refurb Nintendo Switch 2 Mario Kart World Console Bundle Just Dropped to $419 at Woot",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "50cd425e-the-grade-a-refurb-nintendo-switch-2-mario-kart-world-consol"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-04T12:00:44.356Z"
+  "lastUpdated": "2026-08-04T14:00:47.222Z"
 }
