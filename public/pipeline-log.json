@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1223,
+  "totalArticles": 1226,
   "runs": [
+    {
+      "timestamp": "2026-08-05T10:01:11.478Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Ted Lasso Season 4 Review: A Welcome, If Uneven, Return",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "slug": "5b836e9c-ted-lasso-season-4-review-a-welcome-if-uneven-return"
+        },
+        {
+          "title": "20 Best Movies Of 2026 (So Far)",
+          "category": "film",
+          "source": "WhatCulture Film",
+          "score": 13,
+          "slug": "f47120ad-20-best-movies-of-2026-so-far"
+        },
+        {
+          "title": "“Sterling Point” Might Be Your Next Messy Teen Drama Escape",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 12,
+          "slug": "bcb841ee-sterling-point-might-be-your-next-messy-teen-drama-escape"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-05T08:01:24.523Z",
       "status": "success",
@@ -2024,25 +2056,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-30T00:06:05.932Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "Ian McKellen Discovered Anthony Mackie Is the New Captain America on ‘Avengers: Doomsday’ Set and Told Him: ‘You Deserve That’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "77dc7de1-ian-mckellen-discovered-anthony-mackie-is-the-new-captain-am"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-05T08:01:24.523Z"
+  "lastUpdated": "2026-08-05T10:01:11.478Z"
 }
