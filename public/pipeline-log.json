@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1229,
+  "totalArticles": 1231,
   "runs": [
+    {
+      "timestamp": "2026-08-05T14:01:19.408Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "‘Getting old is no fun’: Game of Thrones author George RR Martin speaks out about depression amid further book delays",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 11,
+          "slug": "8de7e00e-getting-old-is-no-fun-game-of-thrones-author-george-rr-marti"
+        },
+        {
+          "title": "Christopher Nolan’s The Odyssey gives UK poetry sales an epic boost",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 10,
+          "slug": "c6ea75b7-christopher-nolans-the-odyssey-gives-uk-poetry-sales-an-epic"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-05T12:01:12.827Z",
       "status": "success",
@@ -2038,40 +2063,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-30T04:11:04.442Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 92,
-      "written": [
-        {
-          "title": "Battlefield 6's Record-Breaking Success Earns EA CEO $38 Million Payday, But Laid-Off Devs Aren't Around to Celebrate",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "4acd8223-battlefield-6s-record-breaking-success-earns-ea-ceo-38-milli"
-        },
-        {
-          "title": "Final Fantasy 7 Revelation Director Is Pushing for a Physical Edition, But Nothing Has Been Decided",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "f213dfaf-final-fantasy-7-revelation-director-is-pushing-for-a-physica"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Spider-Man: Brand New Day took ‘a lot of finishing moves’ directly from Insomniac’s games, Tom Holland reveals",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-05T12:01:12.827Z"
+  "lastUpdated": "2026-08-05T14:01:19.408Z"
 }
