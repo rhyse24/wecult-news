@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1232,
+  "totalArticles": 1233,
   "runs": [
+    {
+      "timestamp": "2026-08-05T19:48:06.669Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 89,
+      "written": [
+        {
+          "title": "Diablo 4 Leak Reveals Nintendo Switch 2 Release Date, Price and Code-in-a-Box Physical Release",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "8a1244a4-diablo-4-leak-reveals-nintendo-switch-2-release-date-price-a"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-05T17:44:19.834Z",
       "status": "quota",
@@ -2019,39 +2037,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-30T10:01:06.543Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 269,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "The Inside Story of Stalin’s Obsession with Killing Trotsky",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 16,
-          "slug": "c2c4aecb-the-inside-story-of-stalins-obsession-with-killing-trotsky"
-        },
-        {
-          "title": "It’s ‘Game of Thrones,’ on Shakespeare’s Stage",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 12,
-          "slug": "a2893cbb-its-game-of-thrones-on-shakespeares-stage"
-        },
-        {
-          "title": "The Terminator: The Future Comes to 1980s Los Angeles",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 12,
-          "slug": "046d297b-the-terminator-the-future-comes-to-1980s-los-angeles"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-05T17:44:19.834Z"
+  "lastUpdated": "2026-08-05T19:48:06.669Z"
 }
