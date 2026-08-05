@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1220,
+  "totalArticles": 1223,
   "runs": [
+    {
+      "timestamp": "2026-08-05T08:01:24.523Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 92,
+      "written": [
+        {
+          "title": "Marvel Rivals Season 9.5: Release date and time, what to expect",
+          "category": "games",
+          "source": "Dot Esports",
+          "score": 13,
+          "slug": "53fc653d-marvel-rivals-season-95-release-date-and-time-what-to-expect"
+        },
+        {
+          "title": " Steam's Cyberpunk Fest means big savings on games about high-tech lowlifes ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "61c69a4a-steams-cyberpunk-fest-means-big-savings-on-games-about-high-"
+        },
+        {
+          "title": " August is the calm before the storm for this year's new game releases ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "cc820408-august-is-the-calm-before-the-storm-for-this-years-new-game-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-05T06:00:40.926Z",
       "status": "quota",
@@ -2010,25 +2042,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-29T21:37:43.117Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "‘House of the Dragon’: Fabien Frankel Reflects on George R.R. Martin’s Criston Cole Casting Announcement",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 15,
-          "slug": "854faeb9-house-of-the-dragon-fabien-frankel-reflects-on-george-rr-mar"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-05T06:00:40.926Z"
+  "lastUpdated": "2026-08-05T08:01:24.523Z"
 }
