@@ -2,6 +2,16 @@
   "totalArticles": 1218,
   "runs": [
     {
+      "timestamp": "2026-08-04T23:22:35.269Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 32,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-04T21:34:05.573Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2056,78 +2066,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-29T08:42:53.213Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 264,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Only 8 Fantasy Franchises Are Objectively Better Than Lord of the Rings",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "dfb56438-only-8-fantasy-franchises-are-objectively-better-than-lord-o"
-        },
-        {
-          "title": "The B-Sides of Michael Mann with Blake Howard",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 9,
-          "slug": "95b178da-the-b-sides-of-michael-mann-with-blake-howard"
-        },
-        {
-          "title": "The Odyssey: Homer and History Experts Explain What’s Missing in Christopher Nolan Movie",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 9,
-          "slug": "b8a8a7cb-the-odyssey-homer-and-history-experts-explain-whats-missing-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Swings to China’s Biggest Superhero Opening in Seven Years",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Spider-Man: Brand New Day Review – Tom Holland’s Finest Outing in the Mask",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Jumanji: Open World’ Trailer: Dwayne Johnson, Kevin Hart and Jack Black Return for Third and Final Movie",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        },
-        {
-          "title": "6 Best Psychological Thrillers Released Since 2000",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 9,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "Avengers, Dune, Odyssey and the Rejection of Digital in a Streaming World",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 9,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-04T21:34:05.573Z"
+  "lastUpdated": "2026-08-04T23:22:35.269Z"
 }
