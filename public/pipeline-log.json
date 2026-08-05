@@ -2,6 +2,34 @@
   "totalArticles": 1233,
   "runs": [
     {
+      "timestamp": "2026-08-05T22:02:01.962Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 283,
+      "totalCandidates": 47,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Spider-Man: Brand New Day is already the highest-grossing film of 2026",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Quinta Brunson 'Wasn't Prepared' For Abbott Elementary Fans' Reaction To Janine And Gregory's Breakup: 'People Were Very Mad At [Spoiler]'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-05T19:48:06.669Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2019,25 +2047,7 @@
       "totalCandidates": 30,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-30T12:26:33.682Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 32,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Spider-Man: Brand New Day Review – Tom Holland’s Finest Outing in the Mask",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-05T19:48:06.669Z"
+  "lastUpdated": "2026-08-05T22:02:01.962Z"
 }
