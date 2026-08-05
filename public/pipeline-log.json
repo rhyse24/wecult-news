@@ -1,6 +1,49 @@
 {
-  "totalArticles": 1231,
+  "totalArticles": 1232,
   "runs": [
+    {
+      "timestamp": "2026-08-05T17:44:19.834Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 283,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "‘The Odyssey’ Translator Emily Wilson Doubles Down  Against Nolan’s ‘Emotionally Empty’ Movie: ‘We Need Art That Is Truthful’ About the ‘Necessity of Compassion’",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "faf39b2a-the-odyssey-translator-emily-wilson-doubles-down-against-nol"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Becomes Highest-Grossing Movie of 2026 in 7 Days With $1.15 Billion",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Apple TV+’s “Ted Lasso” Gets Back on the Pitch For a Welcome Season 4",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Most Challenging Movies of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-05T16:08:11.747Z",
       "status": "quota",
@@ -2008,47 +2051,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-30T08:26:43.623Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "‘Outer Banks’ Season 5 Final Trailer Drop Teases Shocking Twist: Could JJ Return?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "slug": "02c43a5d-outer-banks-season-5-final-trailer-drop-teases-shocking-twis"
-        },
-        {
-          "title": "Mubi to Release ‘La Mesías,’ From ‘La Bola Negra’ Cannes Best Director Winners, in the U.K., Germany, Canada and Beyond (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "08d3a557-mubi-to-release-la-mesas-from-la-bola-negra-cannes-best-dire"
-        },
-        {
-          "title": "X-Men ’97: Nightcrawler’s Parentage Is Even More Complicated Than You Think",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 9,
-          "slug": "696602f5-x-men-97-nightcrawlers-parentage-is-even-more-complicated-th"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Disney+ Greenlights ‘House of Fates,’ Spinoff of Hit Korean Fortune-Telling Series ‘Battle of Fates’",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-05T16:08:11.747Z"
+  "lastUpdated": "2026-08-05T17:44:19.834Z"
 }
