@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1219,
+  "totalArticles": 1220,
   "runs": [
+    {
+      "timestamp": "2026-08-05T04:00:37.809Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "Spider-Man: Brand New Day director doesn't know why Wonder Man was canceled either",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "fd4e23c1-spider-man-brand-new-day-director-doesnt-know-why-wonder-man"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-05T02:50:02.172Z",
       "status": "quota",
@@ -2017,40 +2035,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-29T16:33:26.638Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "8 Best Comedy Movies of 2026 So Far",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "ff94b642-8-best-comedy-movies-of-2026-so-far"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Spider-Man: Brand New Day Review – Tom Holland’s Finest Outing in the Mask",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "8 Worst Movies That Won Multiple Oscars",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-05T02:50:02.172Z"
+  "lastUpdated": "2026-08-05T04:00:37.809Z"
 }
