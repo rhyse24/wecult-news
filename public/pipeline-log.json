@@ -2,6 +2,31 @@
   "totalArticles": 1231,
   "runs": [
     {
+      "timestamp": "2026-08-05T16:08:11.747Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 33,
+      "written": [],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Becomes Highest-Grossing Movie of 2026 in 7 Days With $1.15 Billion",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Apple TV+’s “Ted Lasso” Gets Back on the Pitch For a Welcome Season 4",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-05T14:01:19.408Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2023,47 +2048,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-30T06:01:22.491Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Aims to Make Box Office History as It Targets High-Flying Opening",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "e01be4ee-spider-man-brand-new-day-aims-to-make-box-office-history-as-"
-        },
-        {
-          "title": "Joyce Carol Oates Defends ‘The Odyssey’ and Slams Translator for Scathing Review: ‘Speaks in the Crude Language of MAGA Folks’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "40d82aff-joyce-carol-oates-defends-the-odyssey-and-slams-translator-f"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "6 Best Adventure Movies Released Since 2000",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Spider-Man: Brand New Day Review – Tom Holland’s Finest Outing in the Mask",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-05T14:01:19.408Z"
+  "lastUpdated": "2026-08-05T16:08:11.747Z"
 }
