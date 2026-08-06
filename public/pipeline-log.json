@@ -2,6 +2,34 @@
   "totalArticles": 1244,
   "runs": [
     {
+      "timestamp": "2026-08-06T14:01:20.901Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 84,
+      "written": [],
+      "rejected": [
+        {
+          "title": "We're getting an \"extended look\" at Grand Theft Auto 6 on 27th August",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 15,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "GTA 6 “Extended Look” Trailer Coming August 27 On Netflix, New Artwork Released",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 15,
+          "reason": "quality_gate",
+          "errors": [
+            "TR body too short: 216 words (need ≥220)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-06T12:01:12.358Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2115,25 +2143,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-31T03:23:53.694Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 91,
-      "written": [
-        {
-          "title": " There's a timeline where Dark Souls was a PlayStation exclusive, but Sony lost out on the chance because it wouldn't publish Demon's Souls in North America ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 15,
-          "slug": "4987ce05-theres-a-timeline-where-dark-souls-was-a-playstation-exclusi"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-06T12:01:12.358Z"
+  "lastUpdated": "2026-08-06T14:01:20.901Z"
 }
