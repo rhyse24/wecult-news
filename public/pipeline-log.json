@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1244,
+  "totalArticles": 1245,
   "runs": [
+    {
+      "timestamp": "2026-08-06T20:01:12.455Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 92,
+      "written": [
+        {
+          "title": "Spider-Man: Brand New Day’s Biggest Question May Have Been Answered By This Small Scene In No Way Home",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 14,
+          "slug": "20f0f58c-spider-man-brand-new-days-biggest-question-may-have-been-ans"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-06T14:01:20.901Z",
       "status": "quota",
@@ -2118,32 +2136,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-31T06:01:10.701Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 266,
-      "totalCandidates": 42,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Disney cancels Wonder Man while co-creator is on Spider-Man: Brand New Day press tour",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "5 Yellowstone Characters Who Could Return On Marshals",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-06T14:01:20.901Z"
+  "lastUpdated": "2026-08-06T20:01:12.455Z"
 }
