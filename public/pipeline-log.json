@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1235,
+  "totalArticles": 1237,
   "runs": [
+    {
+      "timestamp": "2026-08-06T06:01:21.232Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 92,
+      "written": [
+        {
+          "title": " Former Bethesda lead artist is looking forward to Fallout 3's remaster because the game they released was '100% not what we intended, and it was very, very constrained' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "55a9ee06-former-bethesda-lead-artist-is-looking-forward-to-fallout-3s"
+        },
+        {
+          "title": "\"Believable and consistent up close\": What the dinosaurs of The Lost Wild share with Microsoft’s cancelled Everwild, according to the designer who worked on both",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 12,
+          "slug": "68ef7632-believable-and-consistent-up-close-what-the-dinosaurs-of-the"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Minecraft Is Coming to Nintendo Switch 2 Soon With an Upgrade Path for Switch 1 Owners",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Nintendo Reveals Its Playable Gamescom Line-Up",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-06T04:01:12.956Z",
       "status": "quota",
@@ -2031,25 +2071,7 @@
       "totalCandidates": 47,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-30T20:00:33.675Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 100,
-      "written": [
-        {
-          "title": "The Elder Scrolls Online Content Delayed to 2027 Following Xbox Layoffs",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "09488d04-the-elder-scrolls-online-content-delayed-to-2027-following-x"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-06T04:01:12.956Z"
+  "lastUpdated": "2026-08-06T06:01:21.232Z"
 }
