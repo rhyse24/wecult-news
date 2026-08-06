@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1234,
+  "totalArticles": 1235,
   "runs": [
+    {
+      "timestamp": "2026-08-06T04:01:12.956Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Lands Biggest Tuesday in Box Office History",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "e6a85c88-spider-man-brand-new-day-lands-biggest-tuesday-in-box-office"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-06T02:01:11.290Z",
       "status": "quota",
@@ -2031,39 +2049,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-30T17:39:54.740Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 277,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Spider-Man: Brand New Day Post-Credits Scene Explained",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 17,
-          "slug": "e501058a-spider-man-brand-new-day-post-credits-scene-explained"
-        },
-        {
-          "title": "Julie Delpy, Emma D’Arcy and Takehiro Hira Join Sonoya Mizuno’s ‘Stages’ for A24 as Focus Boards for International",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "531a843e-julie-delpy-emma-darcy-and-takehiro-hira-join-sonoya-mizunos"
-        },
-        {
-          "title": "Marvel, ‘Star Wars’ and DC’s Biggest Fans Discuss Why Their Favorite Franchises Are Struggling: ‘I’m Still Waiting for “Blade”’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "2c95aa88-marvel-star-wars-and-dcs-biggest-fans-discuss-why-their-favo"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-06T02:01:11.290Z"
+  "lastUpdated": "2026-08-06T04:01:12.956Z"
 }
