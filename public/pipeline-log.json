@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1245,
+  "totalArticles": 1248,
   "runs": [
+    {
+      "timestamp": "2026-08-06T22:01:24.477Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 274,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "7 Perfect Double Features To Watch With 'The Odyssey'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 18,
+          "slug": "f7185fa0-7-perfect-double-features-to-watch-with-the-odyssey"
+        },
+        {
+          "title": "Eric Roth, Brian Kavanaugh-Jones and Cate Blanchett’s Dirty Films to Exec Produce Paparazzi Tragicomedy ‘The Present Times’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "0a0581da-eric-roth-brian-kavanaugh-jones-and-cate-blanchetts-dirty-fi"
+        },
+        {
+          "title": "Kit Connor in Talks to Play Cyclops in Marvel’s ‘X-Men’ Reboot",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "e806d214-kit-connor-in-talks-to-play-cyclops-in-marvels-x-men-reboot"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-06T20:01:12.455Z",
       "status": "quota",
@@ -2082,61 +2114,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-31T08:01:09.530Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 265,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "‘Wonder Man’ Star Yahya Abdul-Mateen II Speaks Out After Marvel Series Canceled: ‘That’s Life… Everything Will Shake Out’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "7e5d7cd0-wonder-man-star-yahya-abdul-mateen-ii-speaks-out-after-marve"
-        },
-        {
-          "title": "Star Trek: Strange New Worlds Reveals A Dire Prophecy For Kirk That Comes True In A Star Trek Movie",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 11,
-          "slug": "3e5e6ab3-star-trek-strange-new-worlds-reveals-a-dire-prophecy-for-kir"
-        },
-        {
-          "title": "Tom Holland Was In This Acclaimed Historical TV Show Before Becoming Marvel's Spider-Man",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "0871385c-tom-holland-was-in-this-acclaimed-historical-tv-show-before-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Disney cancels Wonder Man while co-creator is on Spider-Man: Brand New Day press tour",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "5 Yellowstone Characters Who Could Return On Marshals",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Disney Expected to Sell 50% Stake in A+E to Hearst for More Than $1 Billion",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-06T20:01:12.455Z"
+  "lastUpdated": "2026-08-06T22:01:24.477Z"
 }
