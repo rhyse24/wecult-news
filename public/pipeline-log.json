@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1240,
+  "totalArticles": 1242,
   "runs": [
+    {
+      "timestamp": "2026-08-06T10:01:18.205Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 268,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Star Michael Mando on Finally Returning as Scorpion: “This Is Level One of the Character’s Potential”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "slug": "8aa93eab-spider-man-brand-new-day-star-michael-mando-on-finally-retur"
+        },
+        {
+          "title": "BMW Owners Angry ‘Spider-Man: Brand New Day’ Ads Are Suddenly in Their Cars: “F*** This”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "466ae647-bmw-owners-angry-spider-man-brand-new-day-ads-are-suddenly-i"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Apple TV+’s “Ted Lasso” Gets Back on the Pitch For a Welcome Season 4",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Best Adventure Movies in Film History",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-06T08:12:37.051Z",
       "status": "success",
@@ -2085,33 +2125,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-31T00:17:08.043Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Wonder Man Canceled At Disney+, Despite Earlier Season 2 Renewal",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "2195751d-wonder-man-canceled-at-disney-despite-earlier-season-2-renew"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Star Trek: Strange New Worlds Reveals A Dire Prophecy For Kirk That Comes True In A Star Trek Movie",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-06T08:12:37.051Z"
+  "lastUpdated": "2026-08-06T10:01:18.205Z"
 }
