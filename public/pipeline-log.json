@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1242,
+  "totalArticles": 1244,
   "runs": [
+    {
+      "timestamp": "2026-08-06T12:01:12.358Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 47,
+      "written": [
+        {
+          "title": "What To Watch Thursday: My Life With The Walter Boys Returns, NFL Hall Of Fame Game, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "52b1c4d2-what-to-watch-thursday-my-life-with-the-walter-boys-returns-"
+        },
+        {
+          "title": "The Shards Episodes 1 and 2 Review: Meet the Teen American Psychos of Autoerotic Autofiction",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 12,
+          "slug": "99e3ac41-the-shards-episodes-1-and-2-review-meet-the-teen-american-ps"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘The Shards’ Star Igby Rigney on Wooing Ryan Murphy, Never Meeting Bret Easton Ellis and Not Worrying About Sex Scenes: ‘It’s Like Doing a Dance Under a Microscope’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-06T10:01:18.205Z",
       "status": "quota",
@@ -2100,32 +2133,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-07-31T02:01:07.760Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 271,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "‘Spider-Man: Brand New Day’: Sadie Sink Is [SPOILER]. How Her Role Sets Up Marvel’s Next Reboot",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "19cdf153-spider-man-brand-new-day-sadie-sink-is-spoiler-how-her-role-"
-        },
-        {
-          "title": "‘Spider-Man: Brand New Day’ Early Cut ‘Took Notes From Random People’ at Test Screenings and ‘We Hated It,’ Says Tom Holland: ‘It Totally Didn’t Work’",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "bdff49a1-spider-man-brand-new-day-early-cut-took-notes-from-random-pe"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-06T10:01:18.205Z"
+  "lastUpdated": "2026-08-06T12:01:12.358Z"
 }
