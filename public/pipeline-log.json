@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1249,
+  "totalArticles": 1251,
   "runs": [
+    {
+      "timestamp": "2026-08-07T02:01:11.655Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 271,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "Spider-Man: Brand New Day Director Says Sadie Sink’s Character Wasn’t a Marvel Mandate",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "slug": "b16c67b6-spider-man-brand-new-day-director-says-sadie-sinks-character"
+        },
+        {
+          "title": "Uli Latukefu Will Reportedly Play The Legend of Zelda Movie’s Villain",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "e838d1ce-uli-latukefu-will-reportedly-play-the-legend-of-zelda-movies"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-07T00:01:14.217Z",
       "status": "quota",
@@ -2007,78 +2032,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-31T12:06:26.883Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 261,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "What To Watch Friday: Batman: Caped Crusader Returns, Fightland Begins, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "9f638ab5-what-to-watch-friday-batman-caped-crusader-returns-fightland"
-        },
-        {
-          "title": "Cape Fear fails to justify itself in a fitfully entertaining finale",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 10,
-          "slug": "1bd80193-cape-fear-fails-to-justify-itself-in-a-fitfully-entertaining"
-        },
-        {
-          "title": "Disney Expected to Sell 50% Stake in A+E to Hearst for More Than $1 Billion",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "09ff95b1-disney-expected-to-sell-50-stake-in-ae-to-hearst-for-more-th"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Disney cancels Wonder Man while co-creator is on Spider-Man: Brand New Day press tour",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Rafal Jaki, Machine Gamu Launch Brain Alive Manga With Planned English Release This Fall",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 11,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Stuart Fails To Save The Universe Episode 2 Surprises With Another Big Bang Theory Legacy Cast Member — Plus, A Last Name Mystery Solved?",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        },
-        {
-          "title": "5 Yellowstone Characters Who Could Return On Marshals",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Wonder Man star Yahya Abdul-Mateen II issues very chill \"That's life, right?\" to cancelation news",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-07T00:01:14.217Z"
+  "lastUpdated": "2026-08-07T02:01:11.655Z"
 }
