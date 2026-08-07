@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1252,
+  "totalArticles": 1255,
   "runs": [
+    {
+      "timestamp": "2026-08-07T06:01:23.307Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 265,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "GTA 6 Trailer Being Paywalled Behind Netflix Is Upsetting A Lot Of People, But It’s A Sign Of The Times",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "b9ac3894-gta-6-trailer-being-paywalled-behind-netflix-is-upsetting-a-"
+        },
+        {
+          "title": "When does Fortnite Override launch? Chapter 7 Season 4 release date and what to expect",
+          "category": "games",
+          "source": "Dot Esports",
+          "score": 12,
+          "slug": "bdd99aa3-when-does-fortnite-override-launch-chapter-7-season-4-releas"
+        },
+        {
+          "title": "'This Is Unbelievably Scummy' - GTA 6 Fans Are Annoyed By Netflix's Paywalled Extended Look at the Game",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "b9be7e20-this-is-unbelievably-scummy---gta-6-fans-are-annoyed-by-netf"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Hideki Kamiya Reveals Spider-Man 2 Scene That Inspired Key Game Sequence in Okami",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-07T04:01:15.001Z",
       "status": "quota",
@@ -2029,25 +2069,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-31T16:04:06.137Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 85,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Everything You Need To Know About Spider-Man: Brand New Day’s Post-Credits Scene",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 14,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-07T04:01:15.001Z"
+  "lastUpdated": "2026-08-07T06:01:23.307Z"
 }
