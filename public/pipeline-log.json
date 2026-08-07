@@ -2,6 +2,16 @@
   "totalArticles": 1265,
   "runs": [
     {
+      "timestamp": "2026-08-07T22:51:47.813Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 48,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-07T21:10:27.668Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2053,39 +2063,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-01T08:01:16.719Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 271,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "3 Beloved Movies To Watch on Prime Video This Weekend (Aug 1-2)",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "slug": "0cb9529b-3-beloved-movies-to-watch-on-prime-video-this-weekend-aug-1-"
-        },
-        {
-          "title": "‘Spider-Man: Brand New Day’ Leaks Online: Millions Watched Bootleg Before It Was Taken Down",
-          "category": "film",
-          "source": "Variety",
-          "score": 15,
-          "slug": "936648b0-spider-man-brand-new-day-leaks-online-millions-watched-bootl"
-        },
-        {
-          "title": "Home Entertainment Guide July 2026: Obsession, The Drama, Is God Is, More",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 14,
-          "slug": "5ec54134-home-entertainment-guide-july-2026-obsession-the-drama-is-go"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-07T21:10:27.668Z"
+  "lastUpdated": "2026-08-07T22:51:47.813Z"
 }
