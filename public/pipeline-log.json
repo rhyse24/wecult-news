@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1261,
+  "totalArticles": 1263,
   "runs": [
+    {
+      "timestamp": "2026-08-07T13:42:16.316Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 264,
+      "totalCandidates": 89,
+      "written": [
+        {
+          "title": "Halo 1 Co-Creator Reveals His Verdict On The Campaign Evolved Remake",
+          "category": "games",
+          "source": "Pure Xbox",
+          "score": 15,
+          "slug": "8181c886-halo-1-co-creator-reveals-his-verdict-on-the-campaign-evolve"
+        },
+        {
+          "title": "GTA 6 boss says discs “don’t really make sense” as PlayStation ditches them too",
+          "category": "games",
+          "source": "Dexerto",
+          "score": 14,
+          "slug": "1702dbbf-gta-6-boss-says-discs-dont-really-make-sense-as-playstation-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Rockstar Owner Take-Two Confirms GTA 6 Release Date Still on Track, Says 'GTA 6: An Extended Look' Will Help Grow 'Consumers' Passion and Anticipation'",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Hideki Kamiya Reveals Spider-Man 2 Scene That Inspired Key Game Sequence in Okami",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-07T11:40:41.719Z",
       "status": "success",
@@ -2072,40 +2112,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-31T21:27:03.501Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 94,
-      "written": [
-        {
-          "title": "Spider-Man: Brand New Day Is The Platonic Ideal Of An MCU Movie",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 14,
-          "slug": "3da8ba5d-spider-man-brand-new-day-is-the-platonic-ideal-of-an-mcu-mov"
-        },
-        {
-          "title": "9 Games To Play After 007 First Light",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 14,
-          "slug": "bc08b71d-9-games-to-play-after-007-first-light"
-        }
-      ],
-      "rejected": [
-        {
-          "title": " Anthropic sees OpenAI cybersecurity disaster and says 'hold my beer,' reveals it accidentally hacked 3 companies in as many months without noticing ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 15,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-07T11:40:41.719Z"
+  "lastUpdated": "2026-08-07T13:42:16.316Z"
 }
