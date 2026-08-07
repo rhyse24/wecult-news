@@ -1,6 +1,42 @@
 {
-  "totalArticles": 1251,
+  "totalArticles": 1252,
   "runs": [
+    {
+      "timestamp": "2026-08-07T04:01:15.001Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 267,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Giorgia Whigham Joins Kevin Bacon in Amazon MGM Horror Thriller ‘Summoner’ (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "84084996-giorgia-whigham-joins-kevin-bacon-in-amazon-mgm-horror-thril"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Scores Biggest First Week in Box Office History",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Robert Pattinson Catches Predators in New Trailer for Primetime",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 14,
+          "reason": "quality_gate",
+          "errors": [
+            "TR body too short: 209 words (need ≥220)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-07T02:01:11.655Z",
       "status": "quota",
@@ -2011,28 +2047,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-31T14:01:18.992Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 265,
-      "totalCandidates": 86,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Everything You Need To Know About Spider-Man: Brand New Day’s Post-Credits Scene",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 16,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-07T02:01:11.655Z"
+  "lastUpdated": "2026-08-07T04:01:15.001Z"
 }
