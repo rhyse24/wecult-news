@@ -1,6 +1,49 @@
 {
-  "totalArticles": 1258,
+  "totalArticles": 1261,
   "runs": [
+    {
+      "timestamp": "2026-08-07T11:40:41.719Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 259,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Robert Pattinson Terrifies as Chris Hansen in Full Primetime Trailer",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 16,
+          "slug": "9d11a939-robert-pattinson-terrifies-as-chris-hansen-in-full-primetime"
+        },
+        {
+          "title": "‘Spider-Man: Brand New Day’ Scores Biggest First Week in Box Office History",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "slug": "0bee635c-spider-man-brand-new-day-scores-biggest-first-week-in-box-of"
+        },
+        {
+          "title": "3 Perfect Movie Masterpieces Streaming on Netflix This Weekend (Aug 8-9)",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "6c952d88-3-perfect-movie-masterpieces-streaming-on-netflix-this-weeke"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Apple TV+’s “Ted Lasso” Gets Back on the Pitch For a Welcome Season 4",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-07T07:22:05.599Z",
       "status": "success",
@@ -2062,25 +2105,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-31T19:40:29.204Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 96,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Spider-Man: Brand New Day Is The Platonic Ideal Of An MCU Movie",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 14,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-07T07:22:05.599Z"
+  "lastUpdated": "2026-08-07T11:40:41.719Z"
 }
