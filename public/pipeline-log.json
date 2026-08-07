@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1263,
+  "totalArticles": 1264,
   "runs": [
+    {
+      "timestamp": "2026-08-07T15:41:18.260Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Hidden Heroes: A Descendants Story Ordered At Disney+ And Disney Channel — Movie's Full Cast Revealed",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "889f5755-hidden-heroes-a-descendants-story-ordered-at-disney-and-disn"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-07T13:42:16.316Z",
       "status": "quota",
@@ -2086,33 +2104,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-31T23:28:47.235Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "Jon Bernthal on His ‘Brotherly Dynamic’ With Tom Holland in ‘Spider-Man’ and ‘The Odyssey,’ and Why Punisher Is Peter Parker’s ‘Cautionary Tale’",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "571e9c4c-jon-bernthal-on-his-brotherly-dynamic-with-tom-holland-in-sp"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "3 Beloved Movies To Watch on Prime Video This Weekend (Aug 1-2)",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 18,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-07T13:42:16.316Z"
+  "lastUpdated": "2026-08-07T15:41:18.260Z"
 }
