@@ -2,6 +2,24 @@
   "totalArticles": 1265,
   "runs": [
     {
+      "timestamp": "2026-08-07T21:10:27.668Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 283,
+      "totalCandidates": 48,
+      "written": [],
+      "rejected": [
+        {
+          "title": "TVLine Asks: Did You Catch Ted Lasso/Severance Crossover? Does DWTS Pro Make You Feel Old? Who's Trying To Contact Stuart? ﻿And More!",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-07T19:23:11.679Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2067,25 +2085,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-01T06:01:24.839Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "Tom Holland Warns That You Don’t Want Marvel To Release Spider-Man: Brand New Day‘s “Fan Cut”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 18,
-          "slug": "b34ea82e-tom-holland-warns-that-you-dont-want-marvel-to-release-spide"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-07T19:23:11.679Z"
+  "lastUpdated": "2026-08-07T21:10:27.668Z"
 }
