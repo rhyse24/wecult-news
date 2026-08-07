@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1248,
+  "totalArticles": 1249,
   "runs": [
+    {
+      "timestamp": "2026-08-07T00:01:14.217Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "Why Otto Hightower From House Of The Dragon Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "7a84a3dd-why-otto-hightower-from-house-of-the-dragon-looks-so-familia"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-06T22:01:24.477Z",
       "status": "success",
@@ -2060,61 +2078,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-31T10:01:06.784Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 258,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "‘Devil Wears Prada 2’ Is Officially Streaming on Hulu and Disney+",
-          "category": "film",
-          "source": "Variety",
-          "score": 13,
-          "slug": "2dc2d7e8-devil-wears-prada-2-is-officially-streaming-on-hulu-and-disn"
-        },
-        {
-          "title": "Oscar-Qualifying Bengaluru International Short Film Festival Expands to 10 Arenas, Adds AI and Dance Competitions (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "8b427614-oscar-qualifying-bengaluru-international-short-film-festival"
-        },
-        {
-          "title": "Spider-Man: The Last Blockbuster Franchise Hollywood Hasn’t Screwed Up",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 8,
-          "slug": "60168d0f-spider-man-the-last-blockbuster-franchise-hollywood-hasnt-sc"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Sadie Sink’s Secret Role in ‘Spider-Man: Brand New Day’ Finally Revealed",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Spider-Man: Brand New Day’ Credits Scene Explained: Will Tom Holland Return in ‘Avengers: Doomsday’ or ‘Secret Wars’?",
-          "category": "film",
-          "source": "Variety",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Spider-Man: Brand New Day May Have Teased The MCU Debut Of Miles Morales",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-06T22:01:24.477Z"
+  "lastUpdated": "2026-08-07T00:01:14.217Z"
 }
