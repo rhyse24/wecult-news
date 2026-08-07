@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1255,
+  "totalArticles": 1258,
   "runs": [
+    {
+      "timestamp": "2026-08-07T07:22:05.599Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 263,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "Spaceship Earth TV Series, Inspired By EPCOT Ride, In The Works At Disney+",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "3bab1b6b-spaceship-earth-tv-series-inspired-by-epcot-ride-in-the-work"
+        },
+        {
+          "title": "10 Best Animated Sitcoms Streaming On Netflix Right Now",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "6181fee8-10-best-animated-sitcoms-streaming-on-netflix-right-now"
+        },
+        {
+          "title": "Big Bang Theory Star Breaks Down Godzilla-Style Return In Stuart Fails To Save The Universe Episode 3: 'My Goal Height Has Always Been 5 Feet'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "c819ac71-big-bang-theory-star-breaks-down-godzilla-style-return-in-st"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-07T06:01:23.307Z",
       "status": "success",
@@ -2048,28 +2080,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-07-31T17:42:50.731Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 90,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Spider-Man: Brand New Day Is The Platonic Ideal Of An MCU Movie",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 14,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-07T06:01:23.307Z"
+  "lastUpdated": "2026-08-07T07:22:05.599Z"
 }
