@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1267,
+  "totalArticles": 1270,
   "runs": [
+    {
+      "timestamp": "2026-08-08T07:08:39.683Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 281,
+      "totalCandidates": 101,
+      "written": [
+        {
+          "title": "Obsession Star Inde Navarrette Wants to Voice a Resident Evil Character",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "4f4e47e2-obsession-star-inde-navarrette-wants-to-voice-a-resident-evi"
+        },
+        {
+          "title": "THQ Nordic Showcase 2026: All The News, Trailers, And Reveals",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "3667c58a-thq-nordic-showcase-2026-all-the-news-trailers-and-reveals"
+        },
+        {
+          "title": "Final Fantasy VII Revelation \"New Look\" Announced For Opening Night Live",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 12,
+          "slug": "c0d712c7-final-fantasy-vii-revelation-new-look-announced-for-opening-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-08T05:23:14.100Z",
       "status": "quota",
@@ -1980,39 +2012,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-01T18:10:16.725Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 245,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Breaks Box Office Record Already, Despite Leaking on X",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 15,
-          "slug": "cdcd8750-spider-man-brand-new-day-breaks-box-office-record-already-de"
-        },
-        {
-          "title": "Juliette Lewis on Fiery ‘Cape Fear’ Finale, ‘Nostalgic’ Nods to 1991 Film and Why Crystal Will ‘Haunt’ Max Forever",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "1664ac28-juliette-lewis-on-fiery-cape-fear-finale-nostalgic-nods-to-1"
-        },
-        {
-          "title": "10 Most Underrated TV Shows Of 2026 (So Far)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "ae8ce4e0-10-most-underrated-tv-shows-of-2026-so-far"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-08T05:23:14.100Z"
+  "lastUpdated": "2026-08-08T07:08:39.683Z"
 }
