@@ -2,6 +2,16 @@
   "totalArticles": 1267,
   "runs": [
     {
+      "timestamp": "2026-08-08T03:44:09.349Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 266,
+      "totalCandidates": 98,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-08T01:54:15.100Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2017,39 +2027,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-01T13:36:39.617Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 251,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "Hard-to-Please Frank Miller Praises ‘Spider-Man: Brand New Day’: “Fan’s Dream Come True”",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "slug": "911f83b5-hard-to-please-frank-miller-praises-spider-man-brand-new-day"
-        },
-        {
-          "title": "21 ‘Spider-Man: Brand New Day’ Moments With Bigger Marvel Connections",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "a6598470-21-spider-man-brand-new-day-moments-with-bigger-marvel-conne"
-        },
-        {
-          "title": "Christopher Nolan on the Flaws of Film Criticism and the Shared Philosophy of Oppenheimer and The Odyssey",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 12,
-          "slug": "8ea073b4-christopher-nolan-on-the-flaws-of-film-criticism-and-the-sha"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-08T01:54:15.100Z"
+  "lastUpdated": "2026-08-08T03:44:09.349Z"
 }
