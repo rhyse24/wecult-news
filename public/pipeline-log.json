@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1265,
+  "totalArticles": 1267,
   "runs": [
+    {
+      "timestamp": "2026-08-08T01:54:15.100Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 47,
+      "written": [
+        {
+          "title": "Ratings: House Of The Dragon Flies Near Top Of Streaming Charts",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "16ca8668-ratings-house-of-the-dragon-flies-near-top-of-streaming-char"
+        },
+        {
+          "title": "The Odyssey just sailed past the billion-dollar mark",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 17,
+          "slug": "8d7511c9-the-odyssey-just-sailed-past-the-billion-dollar-mark"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "TVLine Asks: Did You Catch Ted Lasso/Severance Crossover? Does DWTS Pro Make You Feel Old? Who's Trying To Contact Stuart? ﻿And More!",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-08T00:00:43.675Z",
       "status": "quota",
@@ -2016,39 +2049,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-01T12:01:20.043Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 250,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "15 Best TV Shows Like Young Sherlock",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "64ea3624-15-best-tv-shows-like-young-sherlock"
-        },
-        {
-          "title": "When Will ‘Spider-Man: Brand New Day’ Stream on Netflix?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 12,
-          "slug": "105c03c0-when-will-spider-man-brand-new-day-stream-on-netflix"
-        },
-        {
-          "title": "Crosstalk: Does Spider-Man: Brand New Day reboot our interest in Marvel movies?",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "13b2eda3-crosstalk-does-spider-man-brand-new-day-reboot-our-interest-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-08T00:00:43.675Z"
+  "lastUpdated": "2026-08-08T01:54:15.100Z"
 }
