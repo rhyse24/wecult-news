@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1273,
+  "totalArticles": 1276,
   "runs": [
+    {
+      "timestamp": "2026-08-08T10:00:51.638Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Quote Of The Day By Hannah Waddingham: 'I Don't Want Anyone To Ever Think That They've Got The Measure Of Me...'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "cd82cf24-quote-of-the-day-by-hannah-waddingham-i-dont-want-anyone-to-"
+        },
+        {
+          "title": "What Rockstar Games’ Netflix Pact for ‘GTA 6’ Reveal Signals About Hollywood’s Growing Relationship With Gaming",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 11,
+          "slug": "a91475a2-what-rockstar-games-netflix-pact-for-gta-6-reveal-signals-ab"
+        },
+        {
+          "title": "Jason Bateman Got His Comedy Start On This Once-Beloved '80s Sitcom",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "88f488c3-jason-bateman-got-his-comedy-start-on-this-once-beloved-80s-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-08T09:00:05.557Z",
       "status": "success",
@@ -2008,25 +2040,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-01T22:50:44.285Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 239,
-      "totalCandidates": 39,
-      "written": [],
-      "rejected": [
-        {
-          "title": "\"High-quality bootleg\" of Spider-Man: Brand New Day survived for nine hours on Twitter/X",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-08T09:00:05.557Z"
+  "lastUpdated": "2026-08-08T10:00:51.638Z"
 }
