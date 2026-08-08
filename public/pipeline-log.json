@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1284,
+  "totalArticles": 1285,
   "runs": [
+    {
+      "timestamp": "2026-08-08T22:26:47.544Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 214,
+      "totalCandidates": 23,
+      "written": [
+        {
+          "title": "Box Office: ‘Spider-Man: Brand New Day’ Swings into Second Weekend With $43 Million on Friday",
+          "category": "film",
+          "source": "Variety",
+          "score": 15,
+          "slug": "7c93eecc-box-office-spider-man-brand-new-day-swings-into-second-weeke"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-08T20:07:30.946Z",
       "status": "quota",
@@ -1903,68 +1921,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-02T12:43:19.349Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 198,
-      "totalCandidates": 20,
-      "written": [
-        {
-          "title": "A-List Cast Continues to Make “Lioness” the Queen of the Streaming Jungle",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 8,
-          "slug": "bcdac5fb-a-list-cast-continues-to-make-lioness-the-queen-of-the-strea"
-        },
-        {
-          "title": "Nicole Kidman and Sandra Bullock Surprise Fans at ‘Practical Magic’ Screening in Hollywood Forever Cemetery for L.A.’s Cinespia",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "8f4d0beb-nicole-kidman-and-sandra-bullock-surprise-fans-at-practical-"
-        },
-        {
-          "title": "Vin Diesel Says ‘Fast Forever’ Has the ‘Best Script I Have Read in Decades’: ‘I Am Still Crying’",
-          "category": "film",
-          "source": "Variety",
-          "score": 6,
-          "slug": "aea5156a-vin-diesel-says-fast-forever-has-the-best-script-i-have-read"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Spider-Man: Brand New Day’ Breaks Opening Day Record With $168 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "6 Best Superhero Movies Released Since 2010",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Spider-Man: Brand New Day: Where Does Spidey Go from Here?",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "8 Disney Movie Endings That Are Genuine Masterpieces",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-08T20:07:30.946Z"
+  "lastUpdated": "2026-08-08T22:26:47.544Z"
 }
