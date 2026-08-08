@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1276,
+  "totalArticles": 1279,
   "runs": [
+    {
+      "timestamp": "2026-08-08T12:00:42.147Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 263,
+      "totalCandidates": 26,
+      "written": [
+        {
+          "title": "David Fincher’s American Squid Game Remake Reportedly Not Moving Forward at Netflix",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 12,
+          "slug": "2bac250e-david-finchers-american-squid-game-remake-reportedly-not-mov"
+        },
+        {
+          "title": "X-Men ’97 Gives Us the Resurrection We Expected in “The Dead Man’s Hand”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "f99a422a-x-men-97-gives-us-the-resurrection-we-expected-in-the-dead-m"
+        },
+        {
+          "title": "What Should You Watch This Weekend? (August 7-9)",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 9,
+          "slug": "c7a8dd16-what-should-you-watch-this-weekend-august-7-9"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-08T10:00:51.638Z",
       "status": "success",
@@ -1993,54 +2025,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-02T01:11:21.567Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 237,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "Before Breaking Bad, Jonathan Banks Starred In A Forgotten '90s Sitcom",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "9cdfdfda-before-breaking-bad-jonathan-banks-starred-in-a-forgotten-90"
-        },
-        {
-          "title": "‘Wonder Man’ Star Yahya Abdul-Mateen II Reacts to Marvel Series Cancellation: “See You at the Emmys”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "slug": "d4b414a4-wonder-man-star-yahya-abdul-mateen-ii-reacts-to-marvel-serie"
-        },
-        {
-          "title": "5 Game Of Thrones Characters Whose Stories Were The Most Ruined By The Final Season",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "92ca2d68-5-game-of-thrones-characters-whose-stories-were-the-most-rui"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "\"High-quality bootleg\" of Spider-Man: Brand New Day survived for nine hours on Twitter/X",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Underrated TV Shows Streaming On Peacock",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-08T10:00:51.638Z"
+  "lastUpdated": "2026-08-08T12:00:42.147Z"
 }
