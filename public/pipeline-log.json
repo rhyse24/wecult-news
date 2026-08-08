@@ -2,6 +2,31 @@
   "totalArticles": 1265,
   "runs": [
     {
+      "timestamp": "2026-08-08T00:00:43.675Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 40,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Ratings: House Of The Dragon Flies Near Top Of Streaming Charts",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "TVLine Asks: Did You Catch Ted Lasso/Severance Crossover? Does DWTS Pro Make You Feel Old? Who's Trying To Contact Stuart? ﻿And More!",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-07T22:51:47.813Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2023,47 +2048,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-01T10:01:20.002Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 263,
-      "totalCandidates": 91,
-      "written": [
-        {
-          "title": "Talking Point: What Are You Playing This Weekend? (1st August)",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 12,
-          "slug": "69605bcc-talking-point-what-are-you-playing-this-weekend-1st-august"
-        },
-        {
-          "title": "Pokemon Go August 2026 Events: Raid Bosses, Spotlight Hours, Pokemon Debuts, And More",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 11,
-          "slug": "b6ceb17d-pokemon-go-august-2026-events-raid-bosses-spotlight-hours-po"
-        },
-        {
-          "title": "Analyst data: Assassin's Creed Odyssey experiences surge in daily active users following Christopher Nolan film",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 10,
-          "slug": "1b4e55a9-analyst-data-assassins-creed-odyssey-experiences-surge-in-da"
-        }
-      ],
-      "rejected": [
-        {
-          "title": " Anthropic sees OpenAI cybersecurity disaster and says 'hold my beer,' reveals it accidentally hacked 3 companies in as many months without noticing ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 12,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-07T22:51:47.813Z"
+  "lastUpdated": "2026-08-08T00:00:43.675Z"
 }
