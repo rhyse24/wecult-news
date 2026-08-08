@@ -1,6 +1,60 @@
 {
-  "totalArticles": 1270,
+  "totalArticles": 1273,
   "runs": [
+    {
+      "timestamp": "2026-08-08T09:00:05.557Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 276,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "10 Greatest Batman Movie Villains",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "71694498-10-greatest-batman-movie-villains"
+        },
+        {
+          "title": "Variety Toasts Young Hollywood’s Hottest at Cover Bash With Tate McRae, Sombr, Tyriq Withers and Malachi Barton",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "slug": "fa5b34fc-variety-toasts-young-hollywoods-hottest-at-cover-bash-with-t"
+        },
+        {
+          "title": "‘The Last House’ Ending Breakdown: Why Is the Family Trapped Inside Their Home?",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "4635801c-the-last-house-ending-breakdown-why-is-the-family-trapped-in"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Anya Taylor-Joy's Marvel Debut Deserved So Much Better Than What We Got ",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "3 Near-Perfect Movies Officially on Prime Video This Weekend (Aug 8-9)",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The Biggest Problem With Spider-Man: Brand New Day That Nobody Is Talking About",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-08T07:08:39.683Z",
       "status": "success",
@@ -1972,47 +2026,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-01T20:28:01.572Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 241,
-      "totalCandidates": 23,
-      "written": [
-        {
-          "title": "Spider-Man: Brand New Day Shows How to Do a Shared Universe Right",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "slug": "9bfc6cc9-spider-man-brand-new-day-shows-how-to-do-a-shared-universe-r"
-        },
-        {
-          "title": "6 Scariest Movies Released Since 2010",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "b5c0d578-6-scariest-movies-released-since-2010"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Spider-Man: Brand New Day’ Breaks Opening Day Record With $168 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "New to Streaming: Maddie’s Secret, Our Land (Nuestra Tierra), Leviticus, The Drama & More",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-08T07:08:39.683Z"
+  "lastUpdated": "2026-08-08T09:00:05.557Z"
 }
