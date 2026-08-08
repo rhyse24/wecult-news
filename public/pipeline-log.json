@@ -1,6 +1,42 @@
 {
-  "totalArticles": 1282,
+  "totalArticles": 1284,
   "runs": [
+    {
+      "timestamp": "2026-08-08T20:07:30.946Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 240,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Bill Maher’s Joke About Ariana Grande’s Weight Draws Groans From ‘Real Time’ Audience",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "7de52d3b-bill-mahers-joke-about-ariana-grandes-weight-draws-groans-fr"
+        },
+        {
+          "title": "Who Are the Most Disliked Characters From Taylor Sheridan’s Shows?",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 10,
+          "slug": "18a86c3f-who-are-the-most-disliked-characters-from-taylor-sheridans-s"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "What To Watch This Week: 30 Premieres, Finales, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 7,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-08T18:02:48.829Z",
       "status": "quota",
@@ -1928,39 +1964,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-02T10:00:44.334Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 215,
-      "totalCandidates": 11,
-      "written": [
-        {
-          "title": "Spider-Man: Brand New Day Is a Reminder We Could All Use Right Now",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 14,
-          "slug": "43ad1793-spider-man-brand-new-day-is-a-reminder-we-could-all-use-righ"
-        },
-        {
-          "title": "Mahershala Ali Says He’s Done With Marvel’s Blade Reboot",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 9,
-          "slug": "50f7a061-mahershala-ali-says-hes-done-with-marvels-blade-reboot"
-        },
-        {
-          "title": "What to Watch and Read This Weekend: Will I Love Boosters Fix Me?",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 9,
-          "slug": "ec815e43-what-to-watch-and-read-this-weekend-will-i-love-boosters-fix"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-08T18:02:48.829Z"
+  "lastUpdated": "2026-08-08T20:07:30.946Z"
 }
