@@ -2,6 +2,27 @@
   "totalArticles": 1301,
   "runs": [
     {
+      "timestamp": "2026-08-09T22:05:34.962Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 170,
+      "totalCandidates": 19,
+      "written": [],
+      "rejected": [
+        {
+          "title": "15 Best MCU Duos",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 770 words (max 580)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-09T19:41:42.816Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1865,25 +1886,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-03T19:43:13.288Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 232,
-      "totalCandidates": 39,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Before House Of The Dragon, Criston Cole Actor Fabien Frankel Starred In A Classic Cop Drama Reboot",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-09T19:41:42.816Z"
+  "lastUpdated": "2026-08-09T22:05:34.962Z"
 }
