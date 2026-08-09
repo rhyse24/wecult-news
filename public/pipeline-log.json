@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1289,
+  "totalArticles": 1292,
   "runs": [
+    {
+      "timestamp": "2026-08-09T08:36:13.350Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 227,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "‘Abbott Elementary’ Stars Sheryl Lee Ralph and Janelle James on the Paramount-Warner Bros. Merger: ‘We’ve Lost Too Many People’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "e5c7ad96-abbott-elementary-stars-sheryl-lee-ralph-and-janelle-james-o"
+        },
+        {
+          "title": "Star Detective Precure! Film's New Video Reveals Cast for Guest Characters",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 8,
+          "slug": "46a366fa-star-detective-precure-films-new-video-reveals-cast-for-gues"
+        },
+        {
+          "title": "‘Anna Pigeon’: Tracy Spiridakos Explains Anna’s Big Decision & Confronting Jeremiah Paulson",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 6,
+          "slug": "bda117d3-anna-pigeon-tracy-spiridakos-explains-annas-big-decision-con"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-09T06:24:50.137Z",
       "status": "quota",
@@ -1868,25 +1900,7 @@
       "totalCandidates": 34,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-03T02:42:03.057Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 165,
-      "totalCandidates": 35,
-      "written": [],
-      "rejected": [
-        {
-          "title": "House Of The Dragon Reveals Ormund's King's Landing Spy — Did You Guess Who It Is? Read Episode 7 Recap",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 19,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-09T06:24:50.137Z"
+  "lastUpdated": "2026-08-09T08:36:13.350Z"
 }
