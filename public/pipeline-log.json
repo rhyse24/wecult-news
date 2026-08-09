@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1288,
+  "totalArticles": 1289,
   "runs": [
+    {
+      "timestamp": "2026-08-09T06:24:50.137Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 219,
+      "totalCandidates": 23,
+      "written": [
+        {
+          "title": "Every Marvel Villain In Spider-Man: Brand New Day's Opening Montage Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "slug": "b074df85-every-marvel-villain-in-spider-man-brand-new-days-opening-mo"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Swinging to Best-Ever 10-Day Start With $143M Second Weekend",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-09T04:17:58.955Z",
       "status": "quota",
@@ -1860,39 +1886,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-02T23:52:24.236Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 167,
-      "totalCandidates": 66,
-      "written": [
-        {
-          "title": " Owlcat co-founder says the studio won't turn its back on hardcore RPGs as it hits 600 employees and preps its own Mass Effect killer ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "1e25c589-owlcat-co-founder-says-the-studio-wont-turn-its-back-on-hard"
-        },
-        {
-          "title": " Champion modder ports the OG 'Father' Nier back into the PC remaster, original voiceovers and all ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "d8617f85-champion-modder-ports-the-og-father-nier-back-into-the-pc-re"
-        },
-        {
-          "title": "As hype builds for Final Fantasy 7 Revelation, Remake and Rebirth continue to sell well",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 10,
-          "slug": "9da0132d-as-hype-builds-for-final-fantasy-7-revelation-remake-and-reb"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-09T04:17:58.955Z"
+  "lastUpdated": "2026-08-09T06:24:50.137Z"
 }
