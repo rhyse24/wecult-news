@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1298,
+  "totalArticles": 1301,
   "runs": [
+    {
+      "timestamp": "2026-08-09T19:41:42.816Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 178,
+      "totalCandidates": 6,
+      "written": [
+        {
+          "title": "Book Review: “Finding Renée Richards: The Groundbreaking Story of Tennis’s Trans Pioneer”",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 7,
+          "slug": "8cb8f1b2-book-review-finding-rene-richards-the-groundbreaking-story-o"
+        },
+        {
+          "title": "‘Grief became my brand’: Freya Bromley on writing about personal tragedy",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 4,
+          "slug": "34948744-grief-became-my-brand-freya-bromley-on-writing-about-persona"
+        },
+        {
+          "title": "Thanks to Strange New Worlds, It Turns Out That Kirk Knows Spock’s Greatest Secret After All ",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 4,
+          "slug": "6fd268e8-thanks-to-strange-new-worlds-it-turns-out-that-kirk-knows-sp"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-09T17:36:01.522Z",
       "status": "quota",
@@ -1851,39 +1883,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-03T16:54:19.170Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 228,
-      "totalCandidates": 40,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Before House Of The Dragon, Criston Cole Actor Fabien Frankel Starred In A Classic Cop Drama Reboot",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Ted Lasso Refresher: Who's Returning For Season 4 — And Where They Left Off",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "What To Watch Monday: Futurama Returns, The Librarians Episode 2, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-09T17:36:01.522Z"
+  "lastUpdated": "2026-08-09T19:41:42.816Z"
 }
