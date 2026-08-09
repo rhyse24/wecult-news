@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1285,
+  "totalArticles": 1286,
   "runs": [
+    {
+      "timestamp": "2026-08-09T00:41:56.862Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 240,
+      "totalCandidates": 94,
+      "written": [
+        {
+          "title": "'They Fundamentally Don't Understand Art' — Doom Dev Blasts Xbox After Microsoft 'Gutted' id Software With Layoffs",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "47981de4-they-fundamentally-dont-understand-art-doom-dev-blasts-xbox-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-08T22:26:47.544Z",
       "status": "quota",
@@ -1896,32 +1914,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-02T15:21:06.762Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 182,
-      "totalCandidates": 75,
-      "written": [
-        {
-          "title": " One of Kerbal Space Program's biggest inspirations was a promotional Flash game for Top Gear: 'That was the most similar game to KSP that I could find back then' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "4ad7259e-one-of-kerbal-space-programs-biggest-inspirations-was-a-prom"
-        },
-        {
-          "title": " I enjoyed this video of Oblivion Remastered actor Wes Johnson goofing around in a sound booth dressed as Sheogorath, but a patch for the PC version would be nice too, Bethesda ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "05e26fd1-i-enjoyed-this-video-of-oblivion-remastered-actor-wes-johnso"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-08T22:26:47.544Z"
+  "lastUpdated": "2026-08-09T00:41:56.862Z"
 }
