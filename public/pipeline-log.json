@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1286,
+  "totalArticles": 1288,
   "runs": [
+    {
+      "timestamp": "2026-08-09T02:01:04.111Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 239,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "5 Superman: The Animated Series Episodes That Perfectly Define The Man Of Steel",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "bc58ba7f-5-superman-the-animated-series-episodes-that-perfectly-defin"
+        },
+        {
+          "title": "Who Played The Gremlin In William Shatner's Classic Twilight Zone Episode",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "a93cf7ab-who-played-the-gremlin-in-william-shatners-classic-twilight-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-09T00:41:56.862Z",
       "status": "quota",
@@ -1874,47 +1899,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-02T18:05:02.746Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 171,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "\"High-quality bootleg\" of Spider-Man: Brand New Day survived for nine hours on Twitter/X",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 11,
-          "slug": "df391520-high-quality-bootleg-of-spider-man-brand-new-day-survived-fo"
-        },
-        {
-          "title": "What To Watch Sunday: Lioness And The Librarians Return, Grantchester Ends, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "685d9888-what-to-watch-sunday-lioness-and-the-librarians-return-grant"
-        },
-        {
-          "title": "‘Gabby Dollhouse’ Casts Gabby’s Little Sister for Netflix Series (Exclusive)",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 8,
-          "slug": "95db0ba0-gabby-dollhouse-casts-gabbys-little-sister-for-netflix-serie"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Wonder Man’ Co-Creator Says ‘Contracts Were Signed, Schedules Were Cleared’ Before Marvel Series Was Canceled: ‘This Is Not a Marketing Stunt’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-09T00:41:56.862Z"
+  "lastUpdated": "2026-08-09T02:01:04.111Z"
 }
