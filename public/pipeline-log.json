@@ -2,6 +2,16 @@
   "totalArticles": 1296,
   "runs": [
     {
+      "timestamp": "2026-08-09T15:27:12.605Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 186,
+      "totalCandidates": 33,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-09T13:13:00.402Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1858,68 +1868,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-03T10:26:41.327Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 179,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "In ‘Donkey Princess,’ a Young Royal Travels Through Worlds – and Film Genres – in Search of Love (Exclusive Trailer)",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 8,
-          "slug": "a9d2532a-in-donkey-princess-a-young-royal-travels-through-worlds-and-"
-        },
-        {
-          "title": "15 Sci-Fi Movies Like 'Interstellar'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "slug": "2cf12789-15-sci-fi-movies-like-interstellar"
-        },
-        {
-          "title": "Action Man Movie, Based on Iconic British Toy Originally Inspired by ‘G.I. Joe,’ in Development With Working Title and Hasbro",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "805da368-action-man-movie-based-on-iconic-british-toy-originally-insp"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Korea Box Office: ‘Spider-Man: Brand New Day’ Captures 81% Market Share in Colossal Debut",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Spider-Man: Brand New Day’ Soars to $355M for Second-Biggest Opening Weekend Ever",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Did Zendaya Just Troll the Internet With Her ‘Spider-Man: Brand New Day’ Press Tour Looks?",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Imtiaz Ali, Anurag Kashyap Team to Present Coming-of-Age Film ‘Bobby Beauty Parlour’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-09T13:13:00.402Z"
+  "lastUpdated": "2026-08-09T15:27:12.605Z"
 }
