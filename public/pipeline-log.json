@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1292,
+  "totalArticles": 1295,
   "runs": [
+    {
+      "timestamp": "2026-08-09T10:51:24.955Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 201,
+      "totalCandidates": 83,
+      "written": [
+        {
+          "title": "Upcoming PS5 Games: The Future of PlayStation Exclusives",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 12,
+          "slug": "31dd42e5-upcoming-ps5-games-the-future-of-playstation-exclusives"
+        },
+        {
+          "title": "The Sunday Papers",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 11,
+          "slug": "0d96c48d-the-sunday-papers"
+        },
+        {
+          "title": " Lae'zel actor Devora Wilde didn't know she was in Space Marine 2 until players told her ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "ca7b984d-laezel-actor-devora-wilde-didnt-know-she-was-in-space-marine"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-09T08:36:13.350Z",
       "status": "success",
@@ -1890,17 +1922,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-03T06:00:44.091Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 166,
-      "totalCandidates": 34,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-09T08:36:13.350Z"
+  "lastUpdated": "2026-08-09T10:51:24.955Z"
 }
