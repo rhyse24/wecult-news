@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1317,
+  "totalArticles": 1318,
   "runs": [
+    {
+      "timestamp": "2026-08-10T21:41:37.148Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 241,
+      "totalCandidates": 90,
+      "written": [
+        {
+          "title": "Sonic the Hedgehog is Joining Fortnite, and Yes You'll Be Able to Dash Up Walls in the Green Hill Zone",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "fbfa3e7c-sonic-the-hedgehog-is-joining-fortnite-and-yes-youll-be-able"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Arc System Launches Marvel Tokon PC Update, and Some Players Are Saying It's Fixing Most of Their Issues",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Grand Theft Auto Players Fundraise $50k for Sick Fan Trying to Make It to GTA 6",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-10T19:38:25.898Z",
       "status": "quota",
@@ -1891,39 +1924,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-04T16:00:45.758Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "Ted Lasso Refresher: Who's Not Returning For Season 4 — And Where They Left Off",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "822d6a4c-ted-lasso-refresher-whos-not-returning-for-season-4-and-wher"
-        },
-        {
-          "title": "‘White Lotus’ Swaps the Palais for a Castle: Season 4 Cast Laura Dern, AJ Michalka and Marissa Long Drop by Disneyland Paris",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "5397718d-white-lotus-swaps-the-palais-for-a-castle-season-4-cast-laur"
-        },
-        {
-          "title": "George R.R. Martin Says He Battled Depression This Year: “The Worst May Be Yet to Come”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "c6e44dff-george-rr-martin-says-he-battled-depression-this-year-the-wo"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-10T19:38:25.898Z"
+  "lastUpdated": "2026-08-10T21:41:37.148Z"
 }
