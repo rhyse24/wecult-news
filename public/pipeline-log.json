@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1303,
+  "totalArticles": 1306,
   "runs": [
+    {
+      "timestamp": "2026-08-10T02:01:05.825Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 148,
+      "totalCandidates": 58,
+      "written": [
+        {
+          "title": "Marvel Tokon PC Launch Is So Bad That Famed FGC Content Creator Maximilian Dood Uninstalled the Game on Stream",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "8feeb93b-marvel-tokon-pc-launch-is-so-bad-that-famed-fgc-content-crea"
+        },
+        {
+          "title": "Blizzard Reportedly Leads Xbox as 'Top-Performing' Studio Thanks to Overwatch and Diablo",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "ad5ecb95-blizzard-reportedly-leads-xbox-as-top-performing-studio-than"
+        },
+        {
+          "title": "'If You're Not a Netflix Subscriber, You Definitely Should Be' — Take-Two Boss Teases Grand Theft Auto VI: An Extended Look",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "slug": "b7448587-if-youre-not-a-netflix-subscriber-you-definitely-should-be-t"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-10T00:27:35.273Z",
       "status": "quota",
@@ -1868,32 +1900,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-03T23:24:54.759Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 244,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "‘The Devil Wears Prada 2’ Hits 15.2 Million Views in Five Days on Streaming, Disney’s Biggest Live-Action Movie Premiere Since ‘Deadpool & Wolverine’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "afe94ad7-the-devil-wears-prada-2-hits-152-million-views-in-five-days-"
-        },
-        {
-          "title": "Spider-Man: Brand New Day knocks The Odyssey from the box office throne",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "slug": "e9324e2a-spider-man-brand-new-day-knocks-the-odyssey-from-the-box-off"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-10T00:27:35.273Z"
+  "lastUpdated": "2026-08-10T02:01:05.825Z"
 }
