@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1306,
+  "totalArticles": 1309,
   "runs": [
+    {
+      "timestamp": "2026-08-10T07:04:02.201Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 168,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "‘House of the Dragon’ Star James Norton on the Irony of Ormund’s [SPOILER], His ‘Oddly Intimate’ Dynamic With Roddy the Ruin and Why His Love for Daeron Needed to Feel ‘Real’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "slug": "7fe9dfa6-house-of-the-dragon-star-james-norton-on-the-irony-of-ormund"
+        },
+        {
+          "title": "‘House of the Dragon’ Boss Explains Finale’s Big Book Change",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 16,
+          "slug": "beefec71-house-of-the-dragon-boss-explains-finales-big-book-change"
+        },
+        {
+          "title": "What's on TV this week—House Of The Dragon finale and Reacher premiere",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 14,
+          "slug": "919afd35-whats-on-tv-this-weekhouse-of-the-dragon-finale-and-reacher-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "House Of The Dragon Finale: [Spoiler]'s Death 'Condemns Rhaenyra To The Path She's Chosen,' Emma D'Arcy Says",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-10T04:34:37.038Z",
       "status": "quota",
@@ -1882,17 +1922,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-04T04:00:36.628Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 246,
-      "totalCandidates": 27,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-10T04:34:37.038Z"
+  "lastUpdated": "2026-08-10T07:04:02.201Z"
 }
