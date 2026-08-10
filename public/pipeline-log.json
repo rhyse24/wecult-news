@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1301,
+  "totalArticles": 1303,
   "runs": [
+    {
+      "timestamp": "2026-08-10T00:27:35.273Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 158,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "8 Best Movie Scores of the 2020s So Far",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "slug": "a8f00829-8-best-movie-scores-of-the-2020s-so-far"
+        },
+        {
+          "title": "‘Spider-Man: Brand New Day’ Scores $145M for Third-Best Second Weekend Ever",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "slug": "25fea2f2-spider-man-brand-new-day-scores-145m-for-third-best-second-w"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-09T22:05:34.962Z",
       "status": "quota",
@@ -1868,25 +1893,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-03T21:36:37.449Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 242,
-      "totalCandidates": 44,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Before House Of The Dragon, Criston Cole Actor Fabien Frankel Starred In A Classic Cop Drama Reboot",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-09T22:05:34.962Z"
+  "lastUpdated": "2026-08-10T00:27:35.273Z"
 }
