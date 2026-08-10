@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1316,
+  "totalArticles": 1317,
   "runs": [
+    {
+      "timestamp": "2026-08-10T19:38:25.898Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 229,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "Why Roderick Dustin From House Of The Dragon Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "08aad6aa-why-roderick-dustin-from-house-of-the-dragon-looks-so-famili"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-10T17:28:30.258Z",
       "status": "quota",
@@ -1905,25 +1923,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-04T14:00:47.222Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 260,
-      "totalCandidates": 85,
-      "written": [
-        {
-          "title": "Rumours of an unannounced Elder Scrolls game are bogus, sadly",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 16,
-          "slug": "92f94557-rumours-of-an-unannounced-elder-scrolls-game-are-bogus-sadly"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-10T17:28:30.258Z"
+  "lastUpdated": "2026-08-10T19:38:25.898Z"
 }
