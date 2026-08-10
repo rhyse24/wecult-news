@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1315,
+  "totalArticles": 1316,
   "runs": [
+    {
+      "timestamp": "2026-08-10T17:28:30.258Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 232,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "The Last House Ending and Meaning Explained",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "slug": "0fa1479a-the-last-house-ending-and-meaning-explained"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "6 Best Soft Sci-Fi Movies Released Since 2010",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "20 Movies That Made Everyone Want the Same Job",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-10T15:17:52.203Z",
       "status": "quota",
@@ -1890,32 +1923,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-04T12:00:44.356Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 250,
-      "totalCandidates": 23,
-      "written": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Lands Biggest Opening Weekend in Middle East Box Office History",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "00bd0c83-spider-man-brand-new-day-lands-biggest-opening-weekend-in-mi"
-        },
-        {
-          "title": "3 Beloved Movie Masterpieces To Watch on Netflix This Week (Aug 3-7)",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "slug": "b4383f3c-3-beloved-movie-masterpieces-to-watch-on-netflix-this-week-a"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-10T15:17:52.203Z"
+  "lastUpdated": "2026-08-10T17:28:30.258Z"
 }
