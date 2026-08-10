@@ -2,6 +2,16 @@
   "totalArticles": 1306,
   "runs": [
     {
+      "timestamp": "2026-08-10T04:34:37.038Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 157,
+      "totalCandidates": 26,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-10T02:01:05.825Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1882,25 +1892,7 @@
       "totalCandidates": 27,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-04T02:00:36.649Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 245,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": " 'I would die': Obsession star Inde Navarrette would love a role in Resident Evil ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 16,
-          "slug": "1de28f13-i-would-die-obsession-star-inde-navarrette-would-love-a-role"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-10T02:01:05.825Z"
+  "lastUpdated": "2026-08-10T04:34:37.038Z"
 }
