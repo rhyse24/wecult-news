@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1310,
+  "totalArticles": 1313,
   "runs": [
+    {
+      "timestamp": "2026-08-10T13:17:29.154Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 200,
+      "totalCandidates": 77,
+      "written": [
+        {
+          "title": "House Of The Dragon's Battle Of Tumbleton Greatly Differs From The Book",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "slug": "5b99439b-house-of-the-dragons-battle-of-tumbleton-greatly-differs-fro"
+        },
+        {
+          "title": "Former Ubisoft Barcelona workers launch Dark Ritual Studios, an indie developer focused on \"craftsmanship over scale\"",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 14,
+          "slug": "3e94e97a-former-ubisoft-barcelona-workers-launch-dark-ritual-studios-"
+        },
+        {
+          "title": "Review: LEGO Party! Nintendo Switch 2 Edition (Switch 2) - Comes At The Party King And Doesn't Miss",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 13,
+          "slug": "5de3632b-review-lego-party-nintendo-switch-2-edition-switch-2---comes"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-10T12:02:02.408Z",
       "status": "quota",
@@ -1868,50 +1900,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-04T08:00:44.877Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 247,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "10 Best Guest Stars On 9-1-1",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "0c7c213d-10-best-guest-stars-on-9-1-1"
-        },
-        {
-          "title": "Fox Sued Marvel Over This Now-Forgotten Mutant TV Show",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "46e63c28-fox-sued-marvel-over-this-now-forgotten-mutant-tv-show"
-        },
-        {
-          "title": "Casting News: Task Season 2 Adds 6, Dave Bautista Eyes God Of War, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "9c36ed01-casting-news-task-season-2-adds-6-dave-bautista-eyes-god-of-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Hyun Bin, Jung Woosung Collide Again as ‘Made in Korea’ Sets September Return on Disney+ and Hulu",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-10T12:02:02.408Z"
+  "lastUpdated": "2026-08-10T13:17:29.154Z"
 }
