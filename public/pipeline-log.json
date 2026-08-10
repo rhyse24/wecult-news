@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1309,
+  "totalArticles": 1310,
   "runs": [
+    {
+      "timestamp": "2026-08-10T12:02:02.408Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 187,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "China Box Office: ‘Spider-Man’ Holds No. 1 as ‘The Odyssey’ Storms Previews",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 18,
+          "slug": "224d1b3d-china-box-office-spider-man-holds-no-1-as-the-odyssey-storms"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-10T07:04:02.201Z",
       "status": "success",
@@ -1893,36 +1911,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-04T06:00:46.085Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 246,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "5 Reasons ‘Spider-Man: Brand New Day’ Crushed Superhero Fatigue",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "slug": "43a73fc5-5-reasons-spider-man-brand-new-day-crushed-superhero-fatigue"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Mary Rivera, ‘Spider-Man: No Way Home’ Actress, Dies at 82",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-10T07:04:02.201Z"
+  "lastUpdated": "2026-08-10T12:02:02.408Z"
 }
