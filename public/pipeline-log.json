@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1313,
+  "totalArticles": 1315,
   "runs": [
+    {
+      "timestamp": "2026-08-10T15:17:52.203Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 213,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "Disney Plans Hours of Commemorative 9/11 Coverage Across ABC, Disney+, Nat Geo, More",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "cff3b61a-disney-plans-hours-of-commemorative-911-coverage-across-abc-"
+        },
+        {
+          "title": "Jonas Brothers Podcast Coming to Disney+ and Hulu, Along With Five Other iHeartMedia Shows",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "2f96cdcb-jonas-brothers-podcast-coming-to-disney-and-hulu-along-with-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "House Of The Dragon Finale: [Spoiler]'s Death 'Condemns Rhaenyra To The Path She's Chosen,' Emma D'Arcy Says",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Harry Potter’ Series Star Bel Powley Says ‘I Strongly Disagree With J.K. Rowling’s Views on Gender’: ‘The Trans Community Deserve Safety and Dignity’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘House of the Dragon’ Star Steve Toussaint Explains Corlys & Daemon Tumbleton Ending",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-10T13:17:29.154Z",
       "status": "success",
@@ -1868,39 +1915,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-04T10:00:46.067Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 252,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "The Ninth Jedi Trailer Arrives Just Days Before the Star Wars Series’ Premiere",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 14,
-          "slug": "82504bcc-the-ninth-jedi-trailer-arrives-just-days-before-the-star-war"
-        },
-        {
-          "title": "Large Happenings for a Small Mouse: Brian Jacques’ Redwall",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 12,
-          "slug": "d2c63013-large-happenings-for-a-small-mouse-brian-jacques-redwall"
-        },
-        {
-          "title": "There’s only so long you can say no to Henry VIII",
-          "category": "books",
-          "source": "Book Riot",
-          "score": 10,
-          "slug": "2fa83374-theres-only-so-long-you-can-say-no-to-henry-viii"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-10T13:17:29.154Z"
+  "lastUpdated": "2026-08-10T15:17:52.203Z"
 }
