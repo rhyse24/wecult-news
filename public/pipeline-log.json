@@ -2,6 +2,24 @@
   "totalArticles": 1318,
   "runs": [
     {
+      "timestamp": "2026-08-11T02:01:08.877Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 245,
+      "totalCandidates": 29,
+      "written": [],
+      "rejected": [
+        {
+          "title": "3 Biggest Movies To Watch on Netflix This Week (Aug 10-14)",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 14,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-11T00:00:53.530Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1869,39 +1887,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-04T19:42:04.443Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 282,
-      "totalCandidates": 87,
-      "written": [
-        {
-          "title": "Fortnite, Grand Theft Auto 5 Continue to Top PS5, Xbox Series X/S Most-Played Charts in the US",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 17,
-          "slug": "eca3dd7e-fortnite-grand-theft-auto-5-continue-to-top-ps5-xbox-series-"
-        },
-        {
-          "title": "Aliens: Fireteam Elite 2’s Hunter Class Showcased in Latest Trailer",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 14,
-          "slug": "a81191a0-aliens-fireteam-elite-2s-hunter-class-showcased-in-latest-tr"
-        },
-        {
-          "title": "FC 27’s The Grounds Looks Like PlayStation Home For Football Fans",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "59ff70a7-fc-27s-the-grounds-looks-like-playstation-home-for-football-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-11T00:00:53.530Z"
+  "lastUpdated": "2026-08-11T02:01:08.877Z"
 }
