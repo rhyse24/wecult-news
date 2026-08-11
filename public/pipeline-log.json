@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1321,
+  "totalArticles": 1324,
   "runs": [
+    {
+      "timestamp": "2026-08-11T09:18:07.038Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 251,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Camp Rock 3 Confirms Demi Lovato Will Return As Mitchie — Get A Nostalgic First Look At Her Cameo",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "2eaae5a7-camp-rock-3-confirms-demi-lovato-will-return-as-mitchie-get-"
+        },
+        {
+          "title": "‘Mobile Suit Gundam RG XARX-ZERO’ Director Kamiyama Kenji Built His New Series Around a Metaphor for AI Fears: ‘Will We End Up Being Used by It?’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "b1f44174-mobile-suit-gundam-rg-xarx-zero-director-kamiyama-kenji-buil"
+        },
+        {
+          "title": "Who Is Ramona's Father In Sterling Point? The Twist Explained",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "8aa60c01-who-is-ramonas-father-in-sterling-point-the-twist-explained"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "House Of The Dragon Season 3's Don 'Bop' Monahan Tribute Explained",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-11T07:14:02.102Z",
       "status": "success",
@@ -1927,25 +1967,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-05T02:50:02.172Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "Naomi Watts’ Secret ‘Spider-Man: Brand New Day’ Role Reunited Her With Tom Holland, 12 Years After ‘The Impossible’: ‘From Playing Your Mom to Your AI’",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "126852c7-naomi-watts-secret-spider-man-brand-new-day-role-reunited-he"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-11T07:14:02.102Z"
+  "lastUpdated": "2026-08-11T09:18:07.038Z"
 }
