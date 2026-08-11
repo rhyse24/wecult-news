@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1328,
+  "totalArticles": 1329,
   "runs": [
+    {
+      "timestamp": "2026-08-11T17:06:36.859Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 271,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "Apple TV Enlisted A Classic '70s Sitcom To Welcome Ted Lasso Back With Season 4",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "06078c20-apple-tv-enlisted-a-classic-70s-sitcom-to-welcome-ted-lasso-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-11T15:08:09.976Z",
       "status": "quota",
@@ -1928,39 +1946,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-05T10:01:11.478Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "Ted Lasso Season 4 Review: A Welcome, If Uneven, Return",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "slug": "5b836e9c-ted-lasso-season-4-review-a-welcome-if-uneven-return"
-        },
-        {
-          "title": "20 Best Movies Of 2026 (So Far)",
-          "category": "film",
-          "source": "WhatCulture Film",
-          "score": 13,
-          "slug": "f47120ad-20-best-movies-of-2026-so-far"
-        },
-        {
-          "title": "“Sterling Point” Might Be Your Next Messy Teen Drama Escape",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 12,
-          "slug": "bcb841ee-sterling-point-might-be-your-next-messy-teen-drama-escape"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-11T15:08:09.976Z"
+  "lastUpdated": "2026-08-11T17:06:36.859Z"
 }
