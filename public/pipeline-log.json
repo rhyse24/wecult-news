@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1329,
+  "totalArticles": 1330,
   "runs": [
+    {
+      "timestamp": "2026-08-11T19:06:41.512Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "‘The Last House’ Debuts With 27.5 Million Views in Three Days",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "a183de08-the-last-house-debuts-with-275-million-views-in-three-days"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The Odyssey’s Wild Success Echoes Core Batman Lesson for Christopher Nolan",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-11T17:06:36.859Z",
       "status": "quota",
@@ -1899,54 +1925,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-05T12:01:12.827Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 268,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "Ted Lasso's season 4 premiere could've been an email",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "slug": "ff5202ef-ted-lassos-season-4-premiere-couldve-been-an-email"
-        },
-        {
-          "title": "Disney Streaming Profit Doubles in June Quarter, Company Shifting Consumer Products to Studios Division",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "7da6af9f-disney-streaming-profit-doubles-in-june-quarter-company-shif"
-        },
-        {
-          "title": "Quote Of The Day By Tom Holland: 'If You Try Your Hardest And It's Not As Good As You'd Hoped, You Still Have That Sense Of Not Letting Yourself Down...'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "60d95f43-quote-of-the-day-by-tom-holland-if-you-try-your-hardest-and-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "What To Watch Wednesday: ﻿Sterling Point And The Shards Premiere, Ted Lasso And The Challenge Return, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "‘Ted Lasso’ Season 4 Is Both a Promising Reboot and a Tedious Sequel: TV Review",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-11T17:06:36.859Z"
+  "lastUpdated": "2026-08-11T19:06:41.512Z"
 }
