@@ -2,6 +2,16 @@
   "totalArticles": 1337,
   "runs": [
     {
+      "timestamp": "2026-08-12T13:18:24.716Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 268,
+      "totalCandidates": 80,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-12T11:19:20.361Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1833,47 +1843,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-06T06:01:21.232Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 282,
-      "totalCandidates": 92,
-      "written": [
-        {
-          "title": " Former Bethesda lead artist is looking forward to Fallout 3's remaster because the game they released was '100% not what we intended, and it was very, very constrained' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "55a9ee06-former-bethesda-lead-artist-is-looking-forward-to-fallout-3s"
-        },
-        {
-          "title": "\"Believable and consistent up close\": What the dinosaurs of The Lost Wild share with Microsoft’s cancelled Everwild, according to the designer who worked on both",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 12,
-          "slug": "68ef7632-believable-and-consistent-up-close-what-the-dinosaurs-of-the"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Minecraft Is Coming to Nintendo Switch 2 Soon With an Upgrade Path for Switch 1 Owners",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Nintendo Reveals Its Playable Gamescom Line-Up",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-12T11:19:20.361Z"
+  "lastUpdated": "2026-08-12T13:18:24.716Z"
 }
