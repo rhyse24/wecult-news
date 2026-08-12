@@ -2,6 +2,16 @@
   "totalArticles": 1346,
   "runs": [
     {
+      "timestamp": "2026-08-12T20:51:07.530Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 39,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-12T20:00:54.757Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1753,25 +1763,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-07T00:01:14.217Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "Why Otto Hightower From House Of The Dragon Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "7a84a3dd-why-otto-hightower-from-house-of-the-dragon-looks-so-familia"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-12T20:00:54.757Z"
+  "lastUpdated": "2026-08-12T20:51:07.530Z"
 }
