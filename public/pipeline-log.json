@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1337,
+  "totalArticles": 1338,
   "runs": [
+    {
+      "timestamp": "2026-08-12T15:01:09.498Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Disney Confirms D23 Kingdom Hearts Panel Details, and Given Who's on It, We're Expecting Kingdom Hearts 4 News",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "0a214c97-disney-confirms-d23-kingdom-hearts-panel-details-and-given-w"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-12T13:18:24.716Z",
       "status": "quota",
@@ -1793,57 +1811,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-06T08:12:37.051Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "FX's The Shards: Which Parts Of Bret Easton Ellis' Story Actually Happened — And What Did He Make Up?",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "a313a8bf-fxs-the-shards-which-parts-of-bret-easton-ellis-story-actual"
-        },
-        {
-          "title": "Bella Thorne and Zendaya Got Pitted Against Each Other During Disney Fame and Snuck Off Set to ‘Hash It Out’ After Things ‘Got Pretty Bad’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "slug": "27fbddab-bella-thorne-and-zendaya-got-pitted-against-each-other-durin"
-        },
-        {
-          "title": "Disney flirting with letting you look at a bunch of ads so you can watch TikToks on Disney+",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 10,
-          "slug": "698a8f83-disney-flirting-with-letting-you-look-at-a-bunch-of-ads-so-y"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Spider-Man: Brand New Day is already the highest-grossing film of 2026",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        },
-        {
-          "title": "The Shards Episodes 1 and 2 Review: Meet the Teen American Psychos of Autoerotic Autofiction",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 12,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-12T13:18:24.716Z"
+  "lastUpdated": "2026-08-12T15:01:09.498Z"
 }
