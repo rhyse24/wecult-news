@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1343,
+  "totalArticles": 1345,
   "runs": [
+    {
+      "timestamp": "2026-08-12T19:06:15.899Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 256,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "‘The End of Oak Street’ Review: End-of-the-Summer Trash That’s Like a Loopier (and in Some Ways Better) ‘Jurassic’ Movie",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "70914593-the-end-of-oak-street-review-end-of-the-summer-trash-thats-l"
+        },
+        {
+          "title": "‘Spider-Man: Brand New Day’ Writers Believe There’s One Line Jean Grey Didn’t Cross",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "73dc885d-spider-man-brand-new-day-writers-believe-theres-one-line-jea"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-12T18:01:00.757Z",
       "status": "success",
@@ -1760,25 +1785,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-06T20:01:12.455Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 92,
-      "written": [
-        {
-          "title": "Spider-Man: Brand New Day’s Biggest Question May Have Been Answered By This Small Scene In No Way Home",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 14,
-          "slug": "20f0f58c-spider-man-brand-new-days-biggest-question-may-have-been-ans"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-12T18:01:00.757Z"
+  "lastUpdated": "2026-08-12T19:06:15.899Z"
 }
