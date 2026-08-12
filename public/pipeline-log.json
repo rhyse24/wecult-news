@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1336,
+  "totalArticles": 1337,
   "runs": [
+    {
+      "timestamp": "2026-08-12T11:19:20.361Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "Jamie Tartt's Ted Lasso Exit Explained",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "05a4e0b8-jamie-tartts-ted-lasso-exit-explained"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Why Alice Chilton From Ted Lasso Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-12T07:38:29.754Z",
       "status": "success",
@@ -1847,25 +1873,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-06T04:01:12.956Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Lands Biggest Tuesday in Box Office History",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "e6a85c88-spider-man-brand-new-day-lands-biggest-tuesday-in-box-office"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-12T07:38:29.754Z"
+  "lastUpdated": "2026-08-12T11:19:20.361Z"
 }
