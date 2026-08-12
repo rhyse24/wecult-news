@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1346,
+  "totalArticles": 1348,
   "runs": [
+    {
+      "timestamp": "2026-08-12T22:01:05.277Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 261,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "Inside ‘House of the Dragon’ Season 3’s Best Storyline: “It’s a Bit Like a Boxing Ring”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 16,
+          "slug": "44ae3e3d-inside-house-of-the-dragon-season-3s-best-storyline-its-a-bi"
+        },
+        {
+          "title": "6 Years Ago Today, Marvel's Longest Live-Action TV Series Ended Exactly Where It Began",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "fa72565c-6-years-ago-today-marvels-longest-live-action-tv-series-ende"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-12T20:51:07.530Z",
       "status": "quota",
@@ -1738,32 +1763,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-07T02:01:11.655Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 271,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "Spider-Man: Brand New Day Director Says Sadie Sink’s Character Wasn’t a Marvel Mandate",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 14,
-          "slug": "b16c67b6-spider-man-brand-new-day-director-says-sadie-sinks-character"
-        },
-        {
-          "title": "Uli Latukefu Will Reportedly Play The Legend of Zelda Movie’s Villain",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 11,
-          "slug": "e838d1ce-uli-latukefu-will-reportedly-play-the-legend-of-zelda-movies"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-12T20:51:07.530Z"
+  "lastUpdated": "2026-08-12T22:01:05.277Z"
 }
