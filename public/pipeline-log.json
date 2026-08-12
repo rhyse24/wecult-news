@@ -2,6 +2,16 @@
   "totalArticles": 1331,
   "runs": [
     {
+      "timestamp": "2026-08-12T00:01:00.082Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 37,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-11T22:53:47.575Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1860,50 +1870,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-05T17:44:19.834Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "‘The Odyssey’ Translator Emily Wilson Doubles Down  Against Nolan’s ‘Emotionally Empty’ Movie: ‘We Need Art That Is Truthful’ About the ‘Necessity of Compassion’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "faf39b2a-the-odyssey-translator-emily-wilson-doubles-down-against-nol"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Becomes Highest-Grossing Movie of 2026 in 7 Days With $1.15 Billion",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Apple TV+’s “Ted Lasso” Gets Back on the Pitch For a Welcome Season 4",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Most Challenging Movies of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-11T22:53:47.575Z"
+  "lastUpdated": "2026-08-12T00:01:00.082Z"
 }
