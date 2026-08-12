@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1331,
+  "totalArticles": 1333,
   "runs": [
+    {
+      "timestamp": "2026-08-12T05:40:01.948Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 267,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "Jason Sudeikis Makes Cameo at Mumford & Sons Concert to Perform ‘Ted Lasso’ Theme Song",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 16,
+          "slug": "7c4ca663-jason-sudeikis-makes-cameo-at-mumford-sons-concert-to-perfor"
+        },
+        {
+          "title": "Why Ser Torrhen Manderly From House Of The Dragon Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "a6e31208-why-ser-torrhen-manderly-from-house-of-the-dragon-looks-so-f"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-12T04:01:00.871Z",
       "status": "quota",
@@ -1834,17 +1859,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-06T00:11:02.261Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 286,
-      "totalCandidates": 48,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-12T04:01:00.871Z"
+  "lastUpdated": "2026-08-12T05:40:01.948Z"
 }
