@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1333,
+  "totalArticles": 1336,
   "runs": [
+    {
+      "timestamp": "2026-08-12T07:38:29.754Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 265,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "The Odyssey’s Wild Success Echoes Core Batman Lesson for Christopher Nolan",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "slug": "f26b6850-the-odysseys-wild-success-echoes-core-batman-lesson-for-chri"
+        },
+        {
+          "title": "Season 4 of Prime Video’s “Reacher” Might Be the Best Yet",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 12,
+          "slug": "99f6d414-season-4-of-prime-videos-reacher-might-be-the-best-yet"
+        },
+        {
+          "title": "Makeup Oscar Record Holder Recalls Turning Jim Carrey Into the Grinch, Transforming Jacko for ‘Thriller’ and Playing King Kong",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "1c5e9636-makeup-oscar-record-holder-recalls-turning-jim-carrey-into-t"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-12T05:40:01.948Z",
       "status": "quota",
@@ -1833,33 +1865,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-06T02:01:11.290Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 285,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "The Kansas City Mayor Didn’t Watch ‘Ted Lasso’ — Until Ted Lasso Came to Town",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "slug": "190b31a9-the-kansas-city-mayor-didnt-watch-ted-lasso-until-ted-lasso-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Spider-Man: Brand New Day is already the highest-grossing film of 2026",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-12T05:40:01.948Z"
+  "lastUpdated": "2026-08-12T07:38:29.754Z"
 }
