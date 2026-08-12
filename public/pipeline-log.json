@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1345,
+  "totalArticles": 1346,
   "runs": [
+    {
+      "timestamp": "2026-08-12T20:00:54.757Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Phasmophobia Studio Launches A Publishing Label With These Five Exciting Games",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 15,
+          "slug": "275c6666-phasmophobia-studio-launches-a-publishing-label-with-these-f"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-12T19:06:15.899Z",
       "status": "quota",
@@ -1753,39 +1771,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-06T22:01:24.477Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 274,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "7 Perfect Double Features To Watch With 'The Odyssey'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 18,
-          "slug": "f7185fa0-7-perfect-double-features-to-watch-with-the-odyssey"
-        },
-        {
-          "title": "Eric Roth, Brian Kavanaugh-Jones and Cate Blanchett’s Dirty Films to Exec Produce Paparazzi Tragicomedy ‘The Present Times’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "0a0581da-eric-roth-brian-kavanaugh-jones-and-cate-blanchetts-dirty-fi"
-        },
-        {
-          "title": "Kit Connor in Talks to Play Cyclops in Marvel’s ‘X-Men’ Reboot",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "e806d214-kit-connor-in-talks-to-play-cyclops-in-marvels-x-men-reboot"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-12T19:06:15.899Z"
+  "lastUpdated": "2026-08-12T20:00:54.757Z"
 }
