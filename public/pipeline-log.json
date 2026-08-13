@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1365,
+  "totalArticles": 1366,
   "runs": [
+    {
+      "timestamp": "2026-08-13T14:44:18.397Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 256,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "Netflix’s ‘My Brilliant Career’ Is a Spunky Reimagining of the Australian Period Drama: TV Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "45617a98-netflixs-my-brilliant-career-is-a-spunky-reimagining-of-the-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Megan and Cupcake Ready for Preschool,’ a New Hybrid Live-Action and Animated Series Heads to Disney Jr.",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-13T12:27:05.037Z",
       "status": "success",
@@ -1768,25 +1794,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-07T19:23:11.679Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 282,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Only 10 Marvel Characters Are More Powerful Than Thanos",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "slug": "cb8c840a-only-10-marvel-characters-are-more-powerful-than-thanos"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-13T12:27:05.037Z"
+  "lastUpdated": "2026-08-13T14:44:18.397Z"
 }
