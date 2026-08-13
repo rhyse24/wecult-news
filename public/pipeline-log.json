@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1366,
+  "totalArticles": 1369,
   "runs": [
+    {
+      "timestamp": "2026-08-13T17:07:35.037Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 261,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "House of Harkness: Inside One of Marvel Comics’ Best Graphic Novels of 2026",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "1a1314ec-house-of-harkness-inside-one-of-marvel-comics-best-graphic-n"
+        },
+        {
+          "title": "“I know how to pretend to be something I’m not” — Star Trek: Strange New Worlds: “A Case of Chiaroscuro”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "19f27e69-i-know-how-to-pretend-to-be-something-im-not-star-trek-stran"
+        },
+        {
+          "title": "Two More DC Projects Are No Longer in the Works",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "3674a131-two-more-dc-projects-are-no-longer-in-the-works"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-13T14:44:18.397Z",
       "status": "quota",
@@ -1776,25 +1808,7 @@
       "totalCandidates": 48,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-07T21:10:27.668Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 48,
-      "written": [],
-      "rejected": [
-        {
-          "title": "TVLine Asks: Did You Catch Ted Lasso/Severance Crossover? Does DWTS Pro Make You Feel Old? Who's Trying To Contact Stuart? ﻿And More!",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-13T14:44:18.397Z"
+  "lastUpdated": "2026-08-13T17:07:35.037Z"
 }
