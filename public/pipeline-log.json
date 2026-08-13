@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1348,
+  "totalArticles": 1351,
   "runs": [
+    {
+      "timestamp": "2026-08-13T00:01:05.434Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 259,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "Walt Disney Studios Promotes Melissa Stone to Publicity Chief",
+          "category": "film",
+          "source": "Variety",
+          "score": 16,
+          "slug": "e293e213-walt-disney-studios-promotes-melissa-stone-to-publicity-chie"
+        },
+        {
+          "title": "Bob Chapek, Who Was Ousted as Disney’s CEO, Pens Memoir in Which He Wonders if He Became ‘the Scapegoat’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "8be62690-bob-chapek-who-was-ousted-as-disneys-ceo-pens-memoir-in-whic"
+        },
+        {
+          "title": "Move Over, Roy Kent: Ted Lasso Season 4 Establishes The Show's New MVP",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "slug": "3f1dcfd9-move-over-roy-kent-ted-lasso-season-4-establishes-the-shows-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The End of Oak Street Review: David Robert Mitchell Makes Fun, Forgettable Return",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-12T22:01:05.277Z",
       "status": "quota",
@@ -1727,43 +1767,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-07T04:01:15.001Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Giorgia Whigham Joins Kevin Bacon in Amazon MGM Horror Thriller ‘Summoner’ (Exclusive)",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "slug": "84084996-giorgia-whigham-joins-kevin-bacon-in-amazon-mgm-horror-thril"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Scores Biggest First Week in Box Office History",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Robert Pattinson Catches Predators in New Trailer for Primetime",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 14,
-          "reason": "quality_gate",
-          "errors": [
-            "TR body too short: 209 words (need ≥220)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-12T22:01:05.277Z"
+  "lastUpdated": "2026-08-13T00:01:05.434Z"
 }
