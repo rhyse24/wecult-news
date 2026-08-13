@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1359,
+  "totalArticles": 1362,
   "runs": [
+    {
+      "timestamp": "2026-08-13T10:05:33.260Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 252,
+      "totalCandidates": 90,
+      "written": [
+        {
+          "title": "Review: Super Mario Sunshine (GameCube) - Not What We Expected, But It Still Shines",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 13,
+          "slug": "bc41574f-review-super-mario-sunshine-gamecube---not-what-we-expected-"
+        },
+        {
+          "title": "Three Games Are Available Today Across Various Tiers Of Xbox Game Pass (August 13)",
+          "category": "games",
+          "source": "Pure Xbox",
+          "score": 13,
+          "slug": "5e736606-three-games-are-available-today-across-various-tiers-of-xbox"
+        },
+        {
+          "title": "Round Up: The Reviews For The Elder Scrolls IV: Oblivion Remastered On Switch 2 Are In",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 12,
+          "slug": "0bd5cca6-round-up-the-reviews-for-the-elder-scrolls-iv-oblivion-remas"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-13T07:49:04.861Z",
       "status": "success",
@@ -1717,25 +1749,7 @@
       "totalCandidates": 33,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-07T15:41:18.260Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Hidden Heroes: A Descendants Story Ordered At Disney+ And Disney Channel — Movie's Full Cast Revealed",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "889f5755-hidden-heroes-a-descendants-story-ordered-at-disney-and-disn"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-13T07:49:04.861Z"
+  "lastUpdated": "2026-08-13T10:05:33.260Z"
 }
