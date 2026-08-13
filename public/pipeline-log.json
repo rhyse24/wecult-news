@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1354,
+  "totalArticles": 1356,
   "runs": [
+    {
+      "timestamp": "2026-08-13T05:42:49.982Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 255,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "Union County Review: Finding Grace in the Slow, Humbling Work of Recovery",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 10,
+          "slug": "99f6566e-union-county-review-finding-grace-in-the-slow-humbling-work-"
+        },
+        {
+          "title": "10 Most Universally Beloved Superhero Movies of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "bb448648-10-most-universally-beloved-superhero-movies-of-all-time"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘End of Oak Street’ Box Office Aims to Take Bite Out of ‘Spider-Man: Brand New Day’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The End of Oak Street Review: David Robert Mitchell Makes Fun, Forgettable Return",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-13T04:01:36.842Z",
       "status": "quota",
@@ -1695,50 +1735,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-07T11:40:41.719Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 259,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Robert Pattinson Terrifies as Chris Hansen in Full Primetime Trailer",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 16,
-          "slug": "9d11a939-robert-pattinson-terrifies-as-chris-hansen-in-full-primetime"
-        },
-        {
-          "title": "‘Spider-Man: Brand New Day’ Scores Biggest First Week in Box Office History",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "slug": "0bee635c-spider-man-brand-new-day-scores-biggest-first-week-in-box-of"
-        },
-        {
-          "title": "3 Perfect Movie Masterpieces Streaming on Netflix This Weekend (Aug 8-9)",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "6c952d88-3-perfect-movie-masterpieces-streaming-on-netflix-this-weeke"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Apple TV+’s “Ted Lasso” Gets Back on the Pitch For a Welcome Season 4",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-13T04:01:36.842Z"
+  "lastUpdated": "2026-08-13T05:42:49.982Z"
 }
