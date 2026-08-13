@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1362,
+  "totalArticles": 1365,
   "runs": [
+    {
+      "timestamp": "2026-08-13T12:27:05.037Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 250,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Haugesund New Nordic Films Reveals Standout 36 Nordic Projects and 15 Fresh Pics Set to Woo 300 Industry Attendees",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "b3bd7b21-haugesund-new-nordic-films-reveals-standout-36-nordic-projec"
+        },
+        {
+          "title": "X-Files Creator Chris Carter: ‘Vrach Frankenshteyn’ Director’s Cut Is More Horror, Less Romance",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 9,
+          "slug": "529d38ec-x-files-creator-chris-carter-vrach-frankenshteyn-directors-c"
+        },
+        {
+          "title": "15 Terrible Movies That Are Still Somehow Awesome",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 9,
+          "slug": "39127383-15-terrible-movies-that-are-still-somehow-awesome"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘End of Oak Street’ Box Office Aims to Take Bite Out of ‘Spider-Man: Brand New Day’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The End of Oak Street Review: David Robert Mitchell Makes Fun, Forgettable Return",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-13T10:05:33.260Z",
       "status": "success",
@@ -1739,17 +1786,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-07T17:33:04.836Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 33,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-13T10:05:33.260Z"
+  "lastUpdated": "2026-08-13T12:27:05.037Z"
 }
