@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1353,
+  "totalArticles": 1354,
   "runs": [
+    {
+      "timestamp": "2026-08-13T04:01:36.842Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 256,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "House of the Dragon’s Most Shocking Book Change Has Infamous Real History Roots",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 11,
+          "slug": "d0827233-house-of-the-dragons-most-shocking-book-change-has-infamous-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-13T02:01:00.103Z",
       "status": "quota",
@@ -1720,39 +1738,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-07T07:22:05.599Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 263,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "Spaceship Earth TV Series, Inspired By EPCOT Ride, In The Works At Disney+",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "3bab1b6b-spaceship-earth-tv-series-inspired-by-epcot-ride-in-the-work"
-        },
-        {
-          "title": "10 Best Animated Sitcoms Streaming On Netflix Right Now",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "6181fee8-10-best-animated-sitcoms-streaming-on-netflix-right-now"
-        },
-        {
-          "title": "Big Bang Theory Star Breaks Down Godzilla-Style Return In Stuart Fails To Save The Universe Episode 3: 'My Goal Height Has Always Been 5 Feet'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "c819ac71-big-bang-theory-star-breaks-down-godzilla-style-return-in-st"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-13T02:01:00.103Z"
+  "lastUpdated": "2026-08-13T04:01:36.842Z"
 }
