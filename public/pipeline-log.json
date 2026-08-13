@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1356,
+  "totalArticles": 1359,
   "runs": [
+    {
+      "timestamp": "2026-08-13T07:49:04.861Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 254,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Ewan McGregor Says ‘Come On, Disney!’ While Pressuring Studio to Let Him Play Obi-Wan Kenobi Again: ‘They Just Seem Not to Be Ready’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "0fa7f155-ewan-mcgregor-says-come-on-disney-while-pressuring-studio-to"
+        },
+        {
+          "title": "How an Abandoned Shopping Mall Was Transformed into the Las Vegas Strip for ‘Fallout’ Season Two",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 8,
+          "slug": "75e14093-how-an-abandoned-shopping-mall-was-transformed-into-the-las-"
+        },
+        {
+          "title": "Live-Action High School Family: Kokosei Kazoku Film Reveals More Cast",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 8,
+          "slug": "176b2d00-live-action-high-school-family-kokosei-kazoku-film-reveals-m"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The DCU is Avoiding the MCU’s Television Mistake",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 10,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-13T05:42:49.982Z",
       "status": "quota",
@@ -1695,47 +1735,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-07T13:42:16.316Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 264,
-      "totalCandidates": 89,
-      "written": [
-        {
-          "title": "Halo 1 Co-Creator Reveals His Verdict On The Campaign Evolved Remake",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 15,
-          "slug": "8181c886-halo-1-co-creator-reveals-his-verdict-on-the-campaign-evolve"
-        },
-        {
-          "title": "GTA 6 boss says discs “don’t really make sense” as PlayStation ditches them too",
-          "category": "games",
-          "source": "Dexerto",
-          "score": 14,
-          "slug": "1702dbbf-gta-6-boss-says-discs-dont-really-make-sense-as-playstation-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Rockstar Owner Take-Two Confirms GTA 6 Release Date Still on Track, Says 'GTA 6: An Extended Look' Will Help Grow 'Consumers' Passion and Anticipation'",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Hideki Kamiya Reveals Spider-Man 2 Scene That Inspired Key Game Sequence in Okami",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-13T05:42:49.982Z"
+  "lastUpdated": "2026-08-13T07:49:04.861Z"
 }
