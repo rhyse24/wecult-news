@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1374,
+  "totalArticles": 1376,
   "runs": [
+    {
+      "timestamp": "2026-08-14T11:36:23.684Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 87,
+      "written": [
+        {
+          "title": "Spider-Man: Beyond The Spider-Verse Trailer Leaked",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 12,
+          "slug": "7bbe8825-spider-man-beyond-the-spider-verse-trailer-leaked"
+        },
+        {
+          "title": "Magic: The Gathering's The Hobbit Booster Boxes Secure a New Price Cut on Launch Day",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "3dab671c-magic-the-gatherings-the-hobbit-booster-boxes-secure-a-new-p"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Battlefield 6 Shows Off Free Top Gun Update’s New Features With Exhilarating Cinematic Trailer",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-14T05:59:53.861Z",
       "status": "quota",
@@ -1777,39 +1810,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-08T07:08:39.683Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 281,
-      "totalCandidates": 101,
-      "written": [
-        {
-          "title": "Obsession Star Inde Navarrette Wants to Voice a Resident Evil Character",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "4f4e47e2-obsession-star-inde-navarrette-wants-to-voice-a-resident-evi"
-        },
-        {
-          "title": "THQ Nordic Showcase 2026: All The News, Trailers, And Reveals",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "3667c58a-thq-nordic-showcase-2026-all-the-news-trailers-and-reveals"
-        },
-        {
-          "title": "Final Fantasy VII Revelation \"New Look\" Announced For Opening Night Live",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 12,
-          "slug": "c0d712c7-final-fantasy-vii-revelation-new-look-announced-for-opening-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-14T05:59:53.861Z"
+  "lastUpdated": "2026-08-14T11:36:23.684Z"
 }
