@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1372,
+  "totalArticles": 1374,
   "runs": [
+    {
+      "timestamp": "2026-08-14T05:59:53.861Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 268,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "Tramell Tillman Says ‘I Had to Sign NDAs’ Before Even Meeting for ‘Spider-Man: Brand New Day’ Role: ‘A Little Frustrating Because Everything Was Shrouded in Secrecy’",
+          "category": "film",
+          "source": "Variety",
+          "score": 15,
+          "slug": "dbf6b230-tramell-tillman-says-i-had-to-sign-ndas-before-even-meeting-"
+        },
+        {
+          "title": "10 Best Sci-Fi Action Movies in Film History",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "ca32cb3c-10-best-sci-fi-action-movies-in-film-history"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-14T03:30:28.317Z",
       "status": "quota",
@@ -1784,17 +1809,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-08T05:23:14.100Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 282,
-      "totalCandidates": 103,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-14T03:30:28.317Z"
+  "lastUpdated": "2026-08-14T05:59:53.861Z"
 }
