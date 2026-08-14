@@ -2,6 +2,16 @@
   "totalArticles": 1380,
   "runs": [
     {
+      "timestamp": "2026-08-14T22:00:58.419Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 255,
+      "totalCandidates": 35,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-14T19:24:33.225Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1723,47 +1733,7 @@
       "totalCandidates": 89,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-08T14:00:48.378Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 249,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "10 Most Perfect Movie Plot Twists of the 2010s",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "9a11678a-10-most-perfect-movie-plot-twists-of-the-2010s"
-        },
-        {
-          "title": "3 Near-Perfect Movies Officially on Prime Video This Weekend (Aug 8-9)",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "9d726e65-3-near-perfect-movies-officially-on-prime-video-this-weekend"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The Biggest Problem With Spider-Man: Brand New Day That Nobody Is Talking About",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "Anya Taylor-Joy's Marvel Debut Deserved So Much Better Than What We Got ",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-14T19:24:33.225Z"
+  "lastUpdated": "2026-08-14T22:00:58.419Z"
 }
