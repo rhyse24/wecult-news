@@ -2,6 +2,27 @@
   "totalArticles": 1380,
   "runs": [
     {
+      "timestamp": "2026-08-14T19:24:33.225Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 258,
+      "totalCandidates": 37,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Stuart Fails To Save The Universe Renewed For Season 2 At HBO Max",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 18,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-14T16:44:24.171Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1742,39 +1763,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-08T12:00:42.147Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 263,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "David Fincher’s American Squid Game Remake Reportedly Not Moving Forward at Netflix",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 12,
-          "slug": "2bac250e-david-finchers-american-squid-game-remake-reportedly-not-mov"
-        },
-        {
-          "title": "X-Men ’97 Gives Us the Resurrection We Expected in “The Dead Man’s Hand”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "f99a422a-x-men-97-gives-us-the-resurrection-we-expected-in-the-dead-m"
-        },
-        {
-          "title": "What Should You Watch This Weekend? (August 7-9)",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 9,
-          "slug": "c7a8dd16-what-should-you-watch-this-weekend-august-7-9"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-14T16:44:24.171Z"
+  "lastUpdated": "2026-08-14T19:24:33.225Z"
 }
