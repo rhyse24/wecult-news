@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1387,
+  "totalArticles": 1390,
   "runs": [
+    {
+      "timestamp": "2026-08-15T10:00:56.689Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 246,
+      "totalCandidates": 17,
+      "written": [
+        {
+          "title": "What to Watch and Read This Weekend: The Intergalactic Adventures of Coach Taylor in Lanterns",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 17,
+          "slug": "5991f49f-what-to-watch-and-read-this-weekend-the-intergalactic-advent"
+        },
+        {
+          "title": "Solo Writer Jon Kasdan’s New Project Is a Supernatural YA Rom-Com for Netflix",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 12,
+          "slug": "9a86b865-solo-writer-jon-kasdans-new-project-is-a-supernatural-ya-rom"
+        },
+        {
+          "title": "X-Men ’97 Rushes to the Season Finale in “Survival of the Fittest”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "56be7336-x-men-97-rushes-to-the-season-finale-in-survival-of-the-fitt"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-15T08:00:53.220Z",
       "status": "success",
@@ -1746,25 +1778,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-09T04:17:58.955Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 237,
-      "totalCandidates": 23,
-      "written": [],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Swinging to Best-Ever 10-Day Start With $143M Second Weekend",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-15T08:00:53.220Z"
+  "lastUpdated": "2026-08-15T10:00:56.689Z"
 }
