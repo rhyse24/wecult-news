@@ -2,6 +2,16 @@
   "totalArticles": 1398,
   "runs": [
     {
+      "timestamp": "2026-08-15T22:00:22.690Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 231,
+      "totalCandidates": 40,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-15T20:00:25.287Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1787,40 +1797,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-09T17:36:01.522Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 176,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "What To Watch Sunday: House Of The Dragon Finale, RHOA Reunion And Ultimate Girls Trip Begin, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "8b31eda2-what-to-watch-sunday-house-of-the-dragon-finale-rhoa-reunion"
-        },
-        {
-          "title": "Quotes Of The Week: Ted Lasso, Lucky, The Shards, Stuart Fails To Save The Universe, And More﻿",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "3ea79af8-quotes-of-the-week-ted-lasso-lucky-the-shards-stuart-fails-t"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "How the Late-Night Emmy Became the Anti-Trump Award",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-15T20:00:25.287Z"
+  "lastUpdated": "2026-08-15T22:00:22.690Z"
 }
