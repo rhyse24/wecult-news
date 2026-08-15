@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1394,
+  "totalArticles": 1396,
   "runs": [
+    {
+      "timestamp": "2026-08-15T18:00:27.697Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 225,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Box Office: ‘The End of Oak Street’ Chomps on $8.1 Million, But ‘Spider-Man: Brand New Day’ Is Still No. 1 With $19 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "62adfc6e-box-office-the-end-of-oak-street-chomps-on-81-million-but-sp"
+        },
+        {
+          "title": "VisionQuest Trailer Reveals First Look At Ultron's MCU Return [D23]",
+          "category": "film",
+          "source": "Looper",
+          "score": 13,
+          "slug": "68099fdd-visionquest-trailer-reveals-first-look-at-ultrons-mcu-return"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Avengers: Doomsday’ Footage Shows Off a “Broken” Doctor Doom",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Avengers: Doomsday's Second Trailer Has Marvel Fans Saying The Same Thing",
+          "category": "film",
+          "source": "Looper",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-15T16:00:51.920Z",
       "status": "quota",
@@ -1765,36 +1805,7 @@
       "totalCandidates": 33,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-09T13:13:00.402Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 199,
-      "totalCandidates": 22,
-      "written": [
-        {
-          "title": "8 Best Acting Performances in The Odyssey",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 17,
-          "slug": "47565b9d-8-best-acting-performances-in-the-odyssey"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "5 Movies Tom Cruise Should Have Won an Oscar For",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-15T16:00:51.920Z"
+  "lastUpdated": "2026-08-15T18:00:27.697Z"
 }
