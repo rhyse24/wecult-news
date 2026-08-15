@@ -1,6 +1,73 @@
 {
-  "totalArticles": 1384,
+  "totalArticles": 1387,
   "runs": [
+    {
+      "timestamp": "2026-08-15T08:00:53.220Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 250,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "VisionQuest Trailer: Paul Bettany's Synthezoid Makes His Long-Awaited Return In First Footage From Disney+ Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 16,
+          "slug": "3d09ccff-visionquest-trailer-paul-bettanys-synthezoid-makes-his-long-"
+        },
+        {
+          "title": "Ahsoka Lands Season 2 Premiere Date At Disney+ — Get A Sneak Peek",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "e847360c-ahsoka-lands-season-2-premiere-date-at-disney-get-a-sneak-pe"
+        },
+        {
+          "title": "Will There Be a ‘My Brilliant Career’ Season 2? What Cast Has Said",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 8,
+          "slug": "4800f6c9-will-there-be-a-my-brilliant-career-season-2-what-cast-has-s"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Why Elspeth Sampson From Reacher Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Stuart Fails To Save The Universe Renewed For Season 2 At HBO Max",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        },
+        {
+          "title": "10 Best TV Shows Like Emmy Rossum's Furious",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "Adam Scott Says Daughter Had to Watch His ‘Office’ Audition Tape in Acting Class: “What Not to Do”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 9,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-15T06:00:56.559Z",
       "status": "quota",
@@ -1697,32 +1764,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-09T02:01:04.111Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 239,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "5 Superman: The Animated Series Episodes That Perfectly Define The Man Of Steel",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "bc58ba7f-5-superman-the-animated-series-episodes-that-perfectly-defin"
-        },
-        {
-          "title": "Who Played The Gremlin In William Shatner's Classic Twilight Zone Episode",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "a93cf7ab-who-played-the-gremlin-in-william-shatners-classic-twilight-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-15T06:00:56.559Z"
+  "lastUpdated": "2026-08-15T08:00:53.220Z"
 }
