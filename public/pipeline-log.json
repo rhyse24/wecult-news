@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1396,
+  "totalArticles": 1398,
   "runs": [
+    {
+      "timestamp": "2026-08-15T20:00:25.287Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 226,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": " Matthew McConaughey could have played Joel in The Last of Us, but says 'it just wasn't for me at the time' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "8fd96bfa-matthew-mcconaughey-could-have-played-joel-in-the-last-of-us"
+        },
+        {
+          "title": "Can we stop delisting original games to force remasters?",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 13,
+          "slug": "d8c46e11-can-we-stop-delisting-original-games-to-force-remasters"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-15T18:00:27.697Z",
       "status": "quota",
@@ -1795,17 +1820,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-09T15:27:12.605Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 186,
-      "totalCandidates": 33,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-15T18:00:27.697Z"
+  "lastUpdated": "2026-08-15T20:00:25.287Z"
 }
