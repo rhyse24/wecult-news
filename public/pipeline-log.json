@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1381,
+  "totalArticles": 1383,
   "runs": [
+    {
+      "timestamp": "2026-08-15T05:00:22.665Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 254,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "The Simpsons: Hit & Run 'Coming Back in Some Form,' Creator Matt Groening Says",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "1b3fa899-the-simpsons-hit-run-coming-back-in-some-form-creator-matt-g"
+        },
+        {
+          "title": " Before Grand Theft Auto Online, GTA 4's multiplayer added 'glorious chaos' to the open world sandbox ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "38061063-before-grand-theft-auto-online-gta-4s-multiplayer-added-glor"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-15T03:16:49.151Z",
       "status": "quota",
@@ -1689,25 +1714,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-08T22:26:47.544Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 214,
-      "totalCandidates": 23,
-      "written": [
-        {
-          "title": "Box Office: ‘Spider-Man: Brand New Day’ Swings into Second Weekend With $43 Million on Friday",
-          "category": "film",
-          "source": "Variety",
-          "score": 15,
-          "slug": "7c93eecc-box-office-spider-man-brand-new-day-swings-into-second-weeke"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-15T03:16:49.151Z"
+  "lastUpdated": "2026-08-15T05:00:22.665Z"
 }
