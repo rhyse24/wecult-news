@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1390,
+  "totalArticles": 1391,
   "runs": [
+    {
+      "timestamp": "2026-08-15T12:01:03.582Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 237,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "HBO’s “Lanterns” Anchors Superhero Storytelling to Human Condition",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 14,
+          "slug": "8d5fb2db-hbos-lanterns-anchors-superhero-storytelling-to-human-condit"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Avengers: Doomsday’ Footage Shows Off a “Broken” Doctor Doom",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Avengers: Doomsday's Second Trailer Has Marvel Fans Saying The Same Thing",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-15T10:00:56.689Z",
       "status": "success",
@@ -1752,33 +1785,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-09T06:24:50.137Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 219,
-      "totalCandidates": 23,
-      "written": [
-        {
-          "title": "Every Marvel Villain In Spider-Man: Brand New Day's Opening Montage Explained",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "slug": "b074df85-every-marvel-villain-in-spider-man-brand-new-days-opening-mo"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Swinging to Best-Ever 10-Day Start With $143M Second Weekend",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-15T10:00:56.689Z"
+  "lastUpdated": "2026-08-15T12:01:03.582Z"
 }
