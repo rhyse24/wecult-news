@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1380,
+  "totalArticles": 1381,
   "runs": [
+    {
+      "timestamp": "2026-08-15T01:26:07.718Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 256,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "TVLine Asks: Will Blue Bloods Couple Reunite On Boston Blue? Which Stuart Cameo Surprised The Most? Where's Nate On Ted Lasso? And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "c466e192-tvline-asks-will-blue-bloods-couple-reunite-on-boston-blue-w"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-15T00:20:28.284Z",
       "status": "quota",
@@ -1715,25 +1733,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-08T18:02:48.829Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 241,
-      "totalCandidates": 88,
-      "written": [
-        {
-          "title": "Somebody get Robert Pattinson a video game role already",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 13,
-          "slug": "55be2f52-somebody-get-robert-pattinson-a-video-game-role-already"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-15T00:20:28.284Z"
+  "lastUpdated": "2026-08-15T01:26:07.718Z"
 }
