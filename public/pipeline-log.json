@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1393,
+  "totalArticles": 1394,
   "runs": [
+    {
+      "timestamp": "2026-08-15T16:00:51.920Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 222,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Mahershala Ali Starred In This Forgotten Sci-Fi TV Show That's Worth Revisiting",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "d6ffe137-mahershala-ali-starred-in-this-forgotten-sci-fi-tv-show-that"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘VisionQuest’ Trailer: Paul Bettany and James Spader Return as Vision and Ultron in ‘WandaVision’ Trilogy Finale",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Ahsoka’ Season 2 Trailer: Ahsoka and Anakin Reunite as Grand Admiral Thrawn Declares War on the Rebels",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Jon Favreau’s ‘Oswald the Lucky Rabbit’ Miniseries Sets February Release Date on Disney+",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-15T14:00:54.899Z",
       "status": "quota",
@@ -1754,39 +1794,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-09T10:51:24.955Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 201,
-      "totalCandidates": 83,
-      "written": [
-        {
-          "title": "Upcoming PS5 Games: The Future of PlayStation Exclusives",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 12,
-          "slug": "31dd42e5-upcoming-ps5-games-the-future-of-playstation-exclusives"
-        },
-        {
-          "title": "The Sunday Papers",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 11,
-          "slug": "0d96c48d-the-sunday-papers"
-        },
-        {
-          "title": " Lae'zel actor Devora Wilde didn't know she was in Space Marine 2 until players told her ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "ca7b984d-laezel-actor-devora-wilde-didnt-know-she-was-in-space-marine"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-15T14:00:54.899Z"
+  "lastUpdated": "2026-08-15T16:00:51.920Z"
 }
