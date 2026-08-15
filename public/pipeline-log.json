@@ -2,6 +2,16 @@
   "totalArticles": 1381,
   "runs": [
     {
+      "timestamp": "2026-08-15T03:16:49.151Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 253,
+      "totalCandidates": 82,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-15T01:26:07.718Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1697,43 +1707,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-08T20:07:30.946Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 240,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Bill Maher’s Joke About Ariana Grande’s Weight Draws Groans From ‘Real Time’ Audience",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "7de52d3b-bill-mahers-joke-about-ariana-grandes-weight-draws-groans-fr"
-        },
-        {
-          "title": "Who Are the Most Disliked Characters From Taylor Sheridan’s Shows?",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 10,
-          "slug": "18a86c3f-who-are-the-most-disliked-characters-from-taylor-sheridans-s"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "What To Watch This Week: 30 Premieres, Finales, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 7,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-15T01:26:07.718Z"
+  "lastUpdated": "2026-08-15T03:16:49.151Z"
 }
