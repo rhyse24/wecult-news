@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1383,
+  "totalArticles": 1384,
   "runs": [
+    {
+      "timestamp": "2026-08-15T06:00:56.559Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 250,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "‘Avengers: Doomsday’ Trailer: Robert Downey Jr.’s Doctor Doom Faces Off Against Mister Fantastic, X-Men and Avengers With Army of Sentinels",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "slug": "3138502a-avengers-doomsday-trailer-robert-downey-jrs-doctor-doom-face"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Marvel’s ‘X-Men’ Reboot Sets May 2028 Release Date",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-15T05:00:22.665Z",
       "status": "quota",
@@ -1696,25 +1722,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-09T00:41:56.862Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 240,
-      "totalCandidates": 94,
-      "written": [
-        {
-          "title": "'They Fundamentally Don't Understand Art' — Doom Dev Blasts Xbox After Microsoft 'Gutted' id Software With Layoffs",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "47981de4-they-fundamentally-dont-understand-art-doom-dev-blasts-xbox-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-15T05:00:22.665Z"
+  "lastUpdated": "2026-08-15T06:00:56.559Z"
 }
