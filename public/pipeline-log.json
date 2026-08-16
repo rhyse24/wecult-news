@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1413,
+  "totalArticles": 1414,
   "runs": [
+    {
+      "timestamp": "2026-08-16T18:30:52.274Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 177,
+      "totalCandidates": 61,
+      "written": [
+        {
+          "title": " David Brevik, creator of Diablo, reveals the 'worst ending' to any game he's played:  'But I really love the game. It's amazing' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "0fa8c332-david-brevik-creator-of-diablo-reveals-the-worst-ending-to-a"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-16T16:23:40.625Z",
       "status": "quota",
@@ -1766,25 +1784,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-10T19:38:25.898Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 229,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "Why Roderick Dustin From House Of The Dragon Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "08aad6aa-why-roderick-dustin-from-house-of-the-dragon-looks-so-famili"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-16T16:23:40.625Z"
+  "lastUpdated": "2026-08-16T18:30:52.274Z"
 }
