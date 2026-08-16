@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1402,
+  "totalArticles": 1405,
   "runs": [
+    {
+      "timestamp": "2026-08-16T08:00:21.941Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 229,
+      "totalCandidates": 70,
+      "written": [
+        {
+          "title": "'I Want to Set the Record Straight: That Is Not Happening' — Kingdom Hearts 4 Devs Say KH4 '100%' Will Not Be Delayed Past Late 2027 Launch | D23 2026",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "9f1cfedf-i-want-to-set-the-record-straight-that-is-not-happening-king"
+        },
+        {
+          "title": " Poll: Do you turn your PC off at night? ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "bf7d269f-poll-do-you-turn-your-pc-off-at-night"
+        },
+        {
+          "title": "I Hope GTA 6 Borrows a Lot From GTA 4",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 10,
+          "slug": "8b6936e8-i-hope-gta-6-borrows-a-lot-from-gta-4"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Call Of Duty: Modern Warfare 4 Open Beta Adds Campaign Mission 'Entrenched'",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-16T06:00:20.164Z",
       "status": "quota",
@@ -1744,47 +1784,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-10T07:04:02.201Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 168,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "‘House of the Dragon’ Star James Norton on the Irony of Ormund’s [SPOILER], His ‘Oddly Intimate’ Dynamic With Roddy the Ruin and Why His Love for Daeron Needed to Feel ‘Real’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 19,
-          "slug": "7fe9dfa6-house-of-the-dragon-star-james-norton-on-the-irony-of-ormund"
-        },
-        {
-          "title": "‘House of the Dragon’ Boss Explains Finale’s Big Book Change",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "slug": "beefec71-house-of-the-dragon-boss-explains-finales-big-book-change"
-        },
-        {
-          "title": "What's on TV this week—House Of The Dragon finale and Reacher premiere",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 14,
-          "slug": "919afd35-whats-on-tv-this-weekhouse-of-the-dragon-finale-and-reacher-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "House Of The Dragon Finale: [Spoiler]'s Death 'Condemns Rhaenyra To The Path She's Chosen,' Emma D'Arcy Says",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-16T06:00:20.164Z"
+  "lastUpdated": "2026-08-16T08:00:21.941Z"
 }
