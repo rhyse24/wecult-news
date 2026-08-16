@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1416,
+  "totalArticles": 1418,
   "runs": [
+    {
+      "timestamp": "2026-08-16T22:00:24.492Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 170,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "Box Office: ‘Spider-Man: Brand New Day’ Remains No. 1 With $70 Million, ‘End of Oak Street’ Debuts to $21 Million",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "986fe6a5-box-office-spider-man-brand-new-day-remains-no-1-with-70-mil"
+        },
+        {
+          "title": "‘I Don’t Know’: Kenneth Branagh on Directing,  ‘Harry Potter’ and How Christopher Nolan Had Him Speaking Russian Backwards",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "cffcf5e0-i-dont-know-kenneth-branagh-on-directing-harry-potter-and-ho"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Hits $2B Globally to Top ‘No Way Home’ as Sony’s Biggest Release",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-16T20:36:10.149Z",
       "status": "quota",
@@ -1766,17 +1799,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-11T00:00:53.530Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 243,
-      "totalCandidates": 30,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-16T20:36:10.149Z"
+  "lastUpdated": "2026-08-16T22:00:24.492Z"
 }
