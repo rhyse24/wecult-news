@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1400,
+  "totalArticles": 1402,
   "runs": [
+    {
+      "timestamp": "2026-08-16T06:00:20.164Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 230,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "If You Miss ‘House of the Dragon,’ Watch These 15 TV Shows & Movies",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 12,
+          "slug": "7962c80d-if-you-miss-house-of-the-dragon-watch-these-15-tv-shows-movi"
+        },
+        {
+          "title": "Spoiler Space: The end of The End Of Oak Street is even kookier than its premise",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "slug": "6a5f3e20-spoiler-space-the-end-of-the-end-of-oak-street-is-even-kooki"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-16T04:49:09.454Z",
       "status": "quota",
@@ -1759,17 +1784,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-10T04:34:37.038Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 157,
-      "totalCandidates": 26,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-16T04:49:09.454Z"
+  "lastUpdated": "2026-08-16T06:00:20.164Z"
 }
