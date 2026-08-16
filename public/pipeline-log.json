@@ -2,6 +2,16 @@
   "totalArticles": 1400,
   "runs": [
     {
+      "timestamp": "2026-08-16T04:49:09.454Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 233,
+      "totalCandidates": 41,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-16T03:12:03.577Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1759,39 +1769,7 @@
       "totalCandidates": 26,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-10T02:01:05.825Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 148,
-      "totalCandidates": 58,
-      "written": [
-        {
-          "title": "Marvel Tokon PC Launch Is So Bad That Famed FGC Content Creator Maximilian Dood Uninstalled the Game on Stream",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "8feeb93b-marvel-tokon-pc-launch-is-so-bad-that-famed-fgc-content-crea"
-        },
-        {
-          "title": "Blizzard Reportedly Leads Xbox as 'Top-Performing' Studio Thanks to Overwatch and Diablo",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "ad5ecb95-blizzard-reportedly-leads-xbox-as-top-performing-studio-than"
-        },
-        {
-          "title": "'If You're Not a Netflix Subscriber, You Definitely Should Be' — Take-Two Boss Teases Grand Theft Auto VI: An Extended Look",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 10,
-          "slug": "b7448587-if-youre-not-a-netflix-subscriber-you-definitely-should-be-t"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-16T03:12:03.577Z"
+  "lastUpdated": "2026-08-16T04:49:09.454Z"
 }
