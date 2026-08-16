@@ -1,6 +1,60 @@
 {
-  "totalArticles": 1405,
+  "totalArticles": 1408,
   "runs": [
+    {
+      "timestamp": "2026-08-16T10:00:25.234Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 213,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "‘Monsters, Inc.’ Themed Land Will Open at Disney World in 2027",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "8989a25d-monsters-inc-themed-land-will-open-at-disney-world-in-2027"
+        },
+        {
+          "title": "Avengers: Doomsday's Second Trailer Has Marvel Fans Saying The Same Thing",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "slug": "9e3db4c2-avengers-doomsdays-second-trailer-has-marvel-fans-saying-the"
+        },
+        {
+          "title": "‘Shame and Money’ Director on Sundance-Winning Drama About a Kosovo Family in Free Fall: ‘It’s a Look Into the Past and a Warning to the Future’",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "10170006-shame-and-money-director-on-sundance-winning-drama-about-a-k"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Still Soaring to Top Its Third Weekend With $67M",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Scariest Movies in Film History",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "10 Greatest American Movies of the Last 15 Years",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-16T08:00:21.941Z",
       "status": "success",
@@ -1766,25 +1820,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-10T12:02:02.408Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 187,
-      "totalCandidates": 21,
-      "written": [
-        {
-          "title": "China Box Office: ‘Spider-Man’ Holds No. 1 as ‘The Odyssey’ Storms Previews",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 18,
-          "slug": "224d1b3d-china-box-office-spider-man-holds-no-1-as-the-odyssey-storms"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-16T08:00:21.941Z"
+  "lastUpdated": "2026-08-16T10:00:25.234Z"
 }
