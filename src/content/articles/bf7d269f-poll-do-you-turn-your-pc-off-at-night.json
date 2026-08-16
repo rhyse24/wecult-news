@@ -1,0 +1,33 @@
+{
+  "id": "bf7d269f-poll-do-you-turn-your-pc-off-at-night",
+  "slug": "bf7d269f-poll-do-you-turn-your-pc-off-at-night",
+  "category": "games",
+  "author": "WeCult Editorial",
+  "source_name": "PC Gamer",
+  "source_url": "https://www.pcgamer.com/hardware/poll-do-you-turn-your-pc-off-at-night/",
+  "original_title": " Poll: Do you turn your PC off at night? ",
+  "published_at": "2026-08-16T08:03:25.617Z",
+  "source_published_at": "2026-08-16T04:53:38.000Z",
+  "fetched_at": "2026-08-16T08:03:25.617Z",
+  "summary_en": "The debate rages on: should your powerful gaming PC be powered down completely each night, or is leaving it on a perfectly acceptable practice? PC Gamer dives into the community's habits.",
+  "ai_analysis": "This deep dive into PC shutdown habits reveals a fascinating divide among gamers, touching on power consumption, component longevity, and the sheer convenience of modern boot times.",
+  "story_type": "analysis",
+  "article_type": "analysis",
+  "translations": {
+    "en": {
+      "title": "PC Gamer Poll: Do You Shut Down Your Gaming Rig Every Night?",
+      "summary": "The debate rages on: should your powerful gaming PC be powered down completely each night, or is leaving it on a perfectly acceptable practice? PC Gamer dives into the community's habits.",
+      "body": "The hum of a gaming PC is a familiar sound to many, but what happens to that machine when the gaming sessions end for the day? A recent discussion, sparked by a poll from our colleagues at PC Gamer, has ignited a surprisingly passionate debate among PC enthusiasts: do you shut down your computer every night, or do you leave it on?\n\nFor years, the question of whether to power down or sleep has been a recurring one. Some argue that the minuscule boot times of modern PCs render leaving them on unnecessary, potentially adding to electricity bills and, some believe, increasing wear and tear. The argument is simple: why keep a powerful machine running when it's not in use? Yet, the convenience of instant access to your games and desktop cannot be overstated. The process of booting up a PC, once a ritual involving a cup of coffee, is now often a matter of seconds, ready for action before you can even decide what to play next.\n\nThis isn't just a theoretical discussion; it's a habit ingrained in many of us. Some players, like PC Gamer's strategic director Evan Lahti, are firmly in the 'turn it off' camp, citing concerns about dust accumulation and energy consumption. On the other hand, habits formed during bygone eras, like running a Bulletin Board System (BBS), have led others, such as US news lead Andy Chalk, to maintain the practice of leaving their PCs on around the clock. Even former hardware editor Jarred Walton had a nuanced approach, shutting down his desktop due to bright RGB lighting but leaving his laptop powered on.\n\n## The Community Weighs In\n\nThe sentiment among gamers is as varied as their hardware setups. While many express a preference for shutting down their PCs nightly to conserve energy and minimize component stress, a significant portion of the community admits to leaving their machines on 24/7 for the sheer ease of it. This convenience factor is hard to ignore; waking up and immediately diving into a game or work without waiting for a boot sequence is a luxury many have grown accustomed to. Ultimately, the 'best' approach often boils down to personal preference, usage patterns, and individual priorities regarding electricity costs and the perceived lifespan of their hardware. There's no single right answer, only what works best for each individual gamer.\n\n## What's Next\n\nAs technology continues to evolve, so too will our relationship with our gaming rigs. With advancements in SSD technology and power management, the lines between sleep, hibernate, and full shutdown may continue to blur. For now, the debate offers a fascinating glimpse into the diverse habits and priorities of the global PC gaming community, reminding us that even in the most technical of hobbies, personal preference reigns supreme."
+    },
+    "tr": null,
+    "es": null
+  },
+  "content_raw": "An electrician once told me that turning your computer off and then on again uses more electricity than just leaving it on for hours, an oversimplification if not an outright lie that I believed for years. While it is true that turning your PC off and on puts wear and tear on the components, so does leaving it on for hours and hours. Now that turning a PC on takes an amount of time so miniscule you don't even have a chance to get a drink before it's ready to go, there's no good excuse for adding to your power bill by leaving it on. Of course, we do things we have no good excuse for all the time, like starting another campaign as Karl Franz in Total War: Warhammer despite all the other campaigns we haven't even tried yet. Where do you stand on this, the most divisive issue in PC gaming this side of Dragon Age 2's relative position in the series tier list? Our strategic director Evan Lahti is team turn if off, because any more hours his PC is on are hours dust is being sucked into the system. Meanwhile, our US news lead Andy Chalk got into the habit of leaving his on back when he ran a BBS and still does. Our former hardware editor Jarred Walton used to turn his desktop PC off because its RGB lights were too bright, but would leave his laptop on, necessitating the addition of a third option to my otherwise neat poll.",
+  "tags": [
+    "games",
+    "poll",
+    "gaming"
+  ],
+  "image_url": "/article-images/bf7d269f.avif",
+  "trending_score": 11
+}
