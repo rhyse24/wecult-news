@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1399,
+  "totalArticles": 1400,
   "runs": [
+    {
+      "timestamp": "2026-08-16T03:12:03.577Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 235,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "The Top Fantasy Movie From Every Decade",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "490db448-the-top-fantasy-movie-from-every-decade"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Still Soaring to Top Its Third Weekend With $67M",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Avengers: Doomsday's Second Trailer Has Marvel Fans Saying The Same Thing",
+          "category": "film",
+          "source": "Looper",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-16T01:37:46.578Z",
       "status": "quota",
@@ -1758,32 +1791,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-10T00:27:35.273Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 158,
-      "totalCandidates": 20,
-      "written": [
-        {
-          "title": "8 Best Movie Scores of the 2020s So Far",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "slug": "a8f00829-8-best-movie-scores-of-the-2020s-so-far"
-        },
-        {
-          "title": "‘Spider-Man: Brand New Day’ Scores $145M for Third-Best Second Weekend Ever",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "slug": "25fea2f2-spider-man-brand-new-day-scores-145m-for-third-best-second-w"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-16T01:37:46.578Z"
+  "lastUpdated": "2026-08-16T03:12:03.577Z"
 }
