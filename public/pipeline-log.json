@@ -2,6 +2,16 @@
   "totalArticles": 1398,
   "runs": [
     {
+      "timestamp": "2026-08-16T00:00:26.261Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 223,
+      "totalCandidates": 32,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-15T22:00:22.690Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1765,39 +1775,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-09T19:41:42.816Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 178,
-      "totalCandidates": 6,
-      "written": [
-        {
-          "title": "Book Review: “Finding Renée Richards: The Groundbreaking Story of Tennis’s Trans Pioneer”",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 7,
-          "slug": "8cb8f1b2-book-review-finding-rene-richards-the-groundbreaking-story-o"
-        },
-        {
-          "title": "‘Grief became my brand’: Freya Bromley on writing about personal tragedy",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 4,
-          "slug": "34948744-grief-became-my-brand-freya-bromley-on-writing-about-persona"
-        },
-        {
-          "title": "Thanks to Strange New Worlds, It Turns Out That Kirk Knows Spock’s Greatest Secret After All ",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 4,
-          "slug": "6fd268e8-thanks-to-strange-new-worlds-it-turns-out-that-kirk-knows-sp"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-15T22:00:22.690Z"
+  "lastUpdated": "2026-08-16T00:00:26.261Z"
 }
