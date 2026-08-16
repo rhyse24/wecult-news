@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1408,
+  "totalArticles": 1411,
   "runs": [
+    {
+      "timestamp": "2026-08-16T12:06:17.233Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 201,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "What To Watch Sunday: Lanterns Premiere, Disney Princess Special, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "d7e12e3b-what-to-watch-sunday-lanterns-premiere-disney-princess-speci"
+        },
+        {
+          "title": "RuPaul's Drag Race Renewed For Season 19 On MTV; All Stars 12 Also Ordered On Paramount+",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "eb599b03-rupauls-drag-race-renewed-for-season-19-on-mtv-all-stars-12-"
+        },
+        {
+          "title": "Disney Leaders Talk Streaming Strategy and Growth Drivers: Sports, Local Language, Vertical Media and Emerging Formats",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "ac54d4d3-disney-leaders-talk-streaming-strategy-and-growth-drivers-sp"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-16T10:00:25.234Z",
       "status": "success",
@@ -1788,39 +1820,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-10T13:17:29.154Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 200,
-      "totalCandidates": 77,
-      "written": [
-        {
-          "title": "House Of The Dragon's Battle Of Tumbleton Greatly Differs From The Book",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "slug": "5b99439b-house-of-the-dragons-battle-of-tumbleton-greatly-differs-fro"
-        },
-        {
-          "title": "Former Ubisoft Barcelona workers launch Dark Ritual Studios, an indie developer focused on \"craftsmanship over scale\"",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 14,
-          "slug": "3e94e97a-former-ubisoft-barcelona-workers-launch-dark-ritual-studios-"
-        },
-        {
-          "title": "Review: LEGO Party! Nintendo Switch 2 Edition (Switch 2) - Comes At The Party King And Doesn't Miss",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 13,
-          "slug": "5de3632b-review-lego-party-nintendo-switch-2-edition-switch-2---comes"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-16T10:00:25.234Z"
+  "lastUpdated": "2026-08-16T12:06:17.233Z"
 }
