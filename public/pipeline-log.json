@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1411,
+  "totalArticles": 1412,
   "runs": [
+    {
+      "timestamp": "2026-08-16T14:16:46.181Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 188,
+      "totalCandidates": 4,
+      "written": [
+        {
+          "title": "As the Old Files Open, One Family Confronts Another’s Dark Nazi Past",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 7,
+          "slug": "71d94e7e-as-the-old-files-open-one-family-confronts-anothers-dark-naz"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-16T12:06:17.233Z",
       "status": "success",
@@ -1773,54 +1791,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-10T15:17:52.203Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 213,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "Disney Plans Hours of Commemorative 9/11 Coverage Across ABC, Disney+, Nat Geo, More",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "cff3b61a-disney-plans-hours-of-commemorative-911-coverage-across-abc-"
-        },
-        {
-          "title": "Jonas Brothers Podcast Coming to Disney+ and Hulu, Along With Five Other iHeartMedia Shows",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "2f96cdcb-jonas-brothers-podcast-coming-to-disney-and-hulu-along-with-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "House Of The Dragon Finale: [Spoiler]'s Death 'Condemns Rhaenyra To The Path She's Chosen,' Emma D'Arcy Says",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Harry Potter’ Series Star Bel Powley Says ‘I Strongly Disagree With J.K. Rowling’s Views on Gender’: ‘The Trans Community Deserve Safety and Dignity’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘House of the Dragon’ Star Steve Toussaint Explains Corlys & Daemon Tumbleton Ending",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-16T12:06:17.233Z"
+  "lastUpdated": "2026-08-16T14:16:46.181Z"
 }
