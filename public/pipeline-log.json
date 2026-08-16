@@ -1,6 +1,35 @@
 {
-  "totalArticles": 1398,
+  "totalArticles": 1399,
   "runs": [
+    {
+      "timestamp": "2026-08-16T01:37:46.578Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 233,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "Doom stands Sentinel over Disney's new \"special look\" at Avengers: Doomsday",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 14,
+          "slug": "f9d1819a-doom-stands-sentinel-over-disneys-new-special-look-at-avenge"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Before Ted Lasso, Hannah Waddingham Appeared On A Live-Action DC Comics Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "quality_gate",
+          "errors": [
+            "TR body too short: 209 words (need ≥220)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-16T00:00:26.261Z",
       "status": "quota",
@@ -1754,28 +1783,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-09T22:05:34.962Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 170,
-      "totalCandidates": 19,
-      "written": [],
-      "rejected": [
-        {
-          "title": "15 Best MCU Duos",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 770 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-16T00:00:26.261Z"
+  "lastUpdated": "2026-08-16T01:37:46.578Z"
 }
