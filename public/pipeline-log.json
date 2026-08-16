@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1414,
+  "totalArticles": 1416,
   "runs": [
+    {
+      "timestamp": "2026-08-16T20:36:10.149Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 173,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "Before Ted Lasso, Hannah Waddingham Played A Game Of Thrones Villain",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "311e3885-before-ted-lasso-hannah-waddingham-played-a-game-of-thrones-"
+        },
+        {
+          "title": "Why Amisha Hoth From Reacher Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "23603287-why-amisha-hoth-from-reacher-looks-so-familiar"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-16T18:30:52.274Z",
       "status": "quota",
@@ -1751,40 +1776,7 @@
       "totalCandidates": 30,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-10T21:41:37.148Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 241,
-      "totalCandidates": 90,
-      "written": [
-        {
-          "title": "Sonic the Hedgehog is Joining Fortnite, and Yes You'll Be Able to Dash Up Walls in the Green Hill Zone",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "fbfa3e7c-sonic-the-hedgehog-is-joining-fortnite-and-yes-youll-be-able"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Arc System Launches Marvel Tokon PC Update, and Some Players Are Saying It's Fixing Most of Their Issues",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Grand Theft Auto Players Fundraise $50k for Sick Fan Trying to Make It to GTA 6",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-16T18:30:52.274Z"
+  "lastUpdated": "2026-08-16T20:36:10.149Z"
 }
