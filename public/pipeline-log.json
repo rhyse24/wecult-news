@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1424,
+  "totalArticles": 1425,
   "runs": [
+    {
+      "timestamp": "2026-08-17T06:47:29.453Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 168,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "Lanterns Episode 1 Review: Hued Detective",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 15,
+          "slug": "352e4c75-lanterns-episode-1-review-hued-detective"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-17T04:10:28.282Z",
       "status": "success",
@@ -1801,68 +1819,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-11T07:14:02.102Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 249,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "Every Marvel Movie And TV Show Spider-Man: Brand New Day Sets Up",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "slug": "0c9cd6cf-every-marvel-movie-and-tv-show-spider-man-brand-new-day-sets"
-        },
-        {
-          "title": "J.J. Abrams on ‘The End of Oak Street’ Theories and Daughter Gracie’s Acting Debut: “I Know How Hard She’s Working”",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 9,
-          "slug": "1bad1812-jj-abrams-on-the-end-of-oak-street-theories-and-daughter-gra"
-        },
-        {
-          "title": "Christopher Nolan and Park Chan-wook Discuss The Odyssey, Magic, and Filmmaking Techniques",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 9,
-          "slug": "6bdeb989-christopher-nolan-and-park-chan-wook-discuss-the-odyssey-mag"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day,’ ‘The Odyssey’ Battle Atop U.K., Ireland Box Office",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "3 Biggest Movies To Watch on Netflix This Week (Aug 10-14)",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 14,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "20 Movies That Made Everyone Want the Same Job",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 12,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "20 Biggest Wasted Opportunities In The MCU",
-          "category": "film",
-          "source": "WhatCulture Film",
-          "score": 11,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-17T04:10:28.282Z"
+  "lastUpdated": "2026-08-17T06:47:29.453Z"
 }
