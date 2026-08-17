@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1425,
+  "totalArticles": 1428,
   "runs": [
+    {
+      "timestamp": "2026-08-17T12:05:20.384Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 208,
+      "totalCandidates": 75,
+      "written": [
+        {
+          "title": "The Real Reason GTA 6’s Gameplay Reveal Is a Timed Netflix Exclusive",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 15,
+          "slug": "17da1cc6-the-real-reason-gta-6s-gameplay-reveal-is-a-timed-netflix-ex"
+        },
+        {
+          "title": "15 Marvel Movies And Shows You Need To Watch Before Avengers: Doomsday",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "slug": "1b0f6af7-15-marvel-movies-and-shows-you-need-to-watch-before-avengers"
+        },
+        {
+          "title": " The Elder Scrolls 6 is probably subtitled Sentinel, and there's been an easter egg in Starfield hinting at it this whole time ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "31c771c6-the-elder-scrolls-6-is-probably-subtitled-sentinel-and-there"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-17T06:47:29.453Z",
       "status": "quota",
@@ -1779,47 +1811,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-11T09:18:07.038Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 251,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Camp Rock 3 Confirms Demi Lovato Will Return As Mitchie — Get A Nostalgic First Look At Her Cameo",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "2eaae5a7-camp-rock-3-confirms-demi-lovato-will-return-as-mitchie-get-"
-        },
-        {
-          "title": "‘Mobile Suit Gundam RG XARX-ZERO’ Director Kamiyama Kenji Built His New Series Around a Metaphor for AI Fears: ‘Will We End Up Being Used by It?’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "b1f44174-mobile-suit-gundam-rg-xarx-zero-director-kamiyama-kenji-buil"
-        },
-        {
-          "title": "Who Is Ramona's Father In Sterling Point? The Twist Explained",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "8aa60c01-who-is-ramonas-father-in-sterling-point-the-twist-explained"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "House Of The Dragon Season 3's Don 'Bop' Monahan Tribute Explained",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-17T06:47:29.453Z"
+  "lastUpdated": "2026-08-17T12:05:20.384Z"
 }
