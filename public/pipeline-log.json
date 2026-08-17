@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1428,
+  "totalArticles": 1429,
   "runs": [
+    {
+      "timestamp": "2026-08-17T16:10:03.243Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 241,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "New Avengers: Doomsday Trailer Features an Iron Man Callback",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 17,
+          "slug": "e1d8e136-new-avengers-doomsday-trailer-features-an-iron-man-callback"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Hits $2B Globally to Top ‘No Way Home’ as Sony’s Biggest Release",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-17T12:05:20.384Z",
       "status": "success",
@@ -1786,32 +1812,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-11T11:19:07.035Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 251,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "Only Murders in the Dorm: 7 Books That Explore Academia’s Dark Sides",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 16,
-          "slug": "1f2430c2-only-murders-in-the-dorm-7-books-that-explore-academias-dark"
-        },
-        {
-          "title": "House of the Dragon Showrunner Wants the Series Finale to Be “Inevitable” but “Completely Surprising”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "20ed1750-house-of-the-dragon-showrunner-wants-the-series-finale-to-be"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-17T12:05:20.384Z"
+  "lastUpdated": "2026-08-17T16:10:03.243Z"
 }
