@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1421,
+  "totalArticles": 1424,
   "runs": [
+    {
+      "timestamp": "2026-08-17T04:10:28.282Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 174,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "Lanterns: Guardians of the Universe, Abin Sur, and the Green Lantern Corps Explained",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "slug": "894124c5-lanterns-guardians-of-the-universe-abin-sur-and-the-green-la"
+        },
+        {
+          "title": "Dwayne Johnson Leads Crowd in ‘Happy Birthday’ Song for Daughter Simone After Receiving Disney Legends Award at D23",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "fd38a482-dwayne-johnson-leads-crowd-in-happy-birthday-song-for-daught"
+        },
+        {
+          "title": "10 Best Oscar-Winning Period Movies",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "slug": "0853903e-10-best-oscar-winning-period-movies"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Hits $2B Globally to Top ‘No Way Home’ as Sony’s Biggest Release",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Anne Hathaway Tears Up as She’s Named a Disney Legend (and Her 2026 Box Office Crosses $2 Billion): ‘I’m One of the Most Insanely Lucky People in the World’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-17T01:35:08.552Z",
       "status": "quota",
@@ -1815,32 +1862,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-11T05:13:16.352Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 249,
-      "totalCandidates": 30,
-      "written": [],
-      "rejected": [
-        {
-          "title": "3 Biggest Movies To Watch on Netflix This Week (Aug 10-14)",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 14,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "20 Movies That Made Everyone Want the Same Job",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 12,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-17T01:35:08.552Z"
+  "lastUpdated": "2026-08-17T04:10:28.282Z"
 }
