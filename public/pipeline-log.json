@@ -1,6 +1,35 @@
 {
-  "totalArticles": 1432,
+  "totalArticles": 1433,
   "runs": [
+    {
+      "timestamp": "2026-08-18T03:33:06.517Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 258,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Lanterns Begins a Story Spanning Decades in Its Premiere",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 18,
+          "slug": "7af1fe47-lanterns-begins-a-story-spanning-decades-in-its-premiere"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The End of Oak Street Might Be the Return of Good Bad Movies",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 16,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-17T23:45:58.914Z",
       "status": "quota",
@@ -1808,25 +1837,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-11T17:06:36.859Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 271,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "Apple TV Enlisted A Classic '70s Sitcom To Welcome Ted Lasso Back With Season 4",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "06078c20-apple-tv-enlisted-a-classic-70s-sitcom-to-welcome-ted-lasso-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-17T23:45:58.914Z"
+  "lastUpdated": "2026-08-18T03:33:06.517Z"
 }
