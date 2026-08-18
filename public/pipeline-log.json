@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1439,
+  "totalArticles": 1441,
   "runs": [
+    {
+      "timestamp": "2026-08-18T15:21:08.734Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Why Zoe Macon From Lanterns Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "784c96ff-why-zoe-macon-from-lanterns-looks-so-familiar"
+        },
+        {
+          "title": "The dinosaurs in The End Of Oak Street demand respect, not affection",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 14,
+          "slug": "5edc1caf-the-dinosaurs-in-the-end-of-oak-street-demand-respect-not-af"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-18T11:39:13.922Z",
       "status": "success",
@@ -1847,17 +1872,7 @@
       "totalCandidates": 37,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-11T22:53:47.575Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 37,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-18T11:39:13.922Z"
+  "lastUpdated": "2026-08-18T15:21:08.734Z"
 }
