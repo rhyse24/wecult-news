@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1441,
+  "totalArticles": 1443,
   "runs": [
+    {
+      "timestamp": "2026-08-18T18:45:45.899Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Kevin Hart and Henry Cavill’s Netflix Spy Comedy Adds Jason Isaacs, Justine Lupe and Aja Naomi King (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "dca4a355-kevin-hart-and-henry-cavills-netflix-spy-comedy-adds-jason-i"
+        },
+        {
+          "title": "Hold Up, Does Avengers: Doomsday Have Two Doctor Dooms?",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "slug": "ce223089-hold-up-does-avengers-doomsday-have-two-doctor-dooms"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-18T15:21:08.734Z",
       "status": "quota",
@@ -1862,17 +1887,7 @@
       "totalCandidates": 37,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-12T00:01:00.082Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 37,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-18T15:21:08.734Z"
+  "lastUpdated": "2026-08-18T18:45:45.899Z"
 }
