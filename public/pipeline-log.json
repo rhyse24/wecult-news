@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1446,
+  "totalArticles": 1449,
   "runs": [
+    {
+      "timestamp": "2026-08-19T01:56:58.791Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 53,
+      "written": [
+        {
+          "title": "Let Backrooms, Obsession, and Oak Street be your off-ramps to The Twilight Zone",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "c6030135-let-backrooms-obsession-and-oak-street-be-your-off-ramps-to-"
+        },
+        {
+          "title": "‘House of the Dragon’ Star Wants to Know: “Where the F*** Is Mushroom?”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 14,
+          "slug": "6490433f-house-of-the-dragon-star-wants-to-know-where-the-f-is-mushro"
+        },
+        {
+          "title": "Shawn Hatosy on ‘The Pitt,’ Calls for a Night Shift Spinoff and Projects That Got Away — Including ‘Breaking Bad’!",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 13,
+          "slug": "1eed8d6f-shawn-hatosy-on-the-pitt-calls-for-a-night-shift-spinoff-and"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-18T22:21:56.558Z",
       "status": "success",
@@ -1907,17 +1939,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-12T04:01:00.871Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 37,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-18T22:21:56.558Z"
+  "lastUpdated": "2026-08-19T01:56:58.791Z"
 }
