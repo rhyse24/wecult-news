@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1451,
+  "totalArticles": 1454,
   "runs": [
+    {
+      "timestamp": "2026-08-19T11:07:20.210Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "Ted Lasso decides to (thankfully) focus on the Lady Greyhounds",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "6681cc67-ted-lasso-decides-to-thankfully-focus-on-the-lady-greyhounds"
+        },
+        {
+          "title": "Ted Lasso Season 4 Release Schedule: When Do New Episodes Come Out On Apple TV?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "d3342e1d-ted-lasso-season-4-release-schedule-when-do-new-episodes-com"
+        },
+        {
+          "title": "What To Watch Wednesday: ﻿Average Joe Returns, Lucky Ends, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "17e6b43f-what-to-watch-wednesday-average-joe-returns-lucky-ends-and-m"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-19T05:28:49.532Z",
       "status": "quota",
@@ -1907,39 +1939,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-12T07:38:29.754Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 265,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "The Odyssey’s Wild Success Echoes Core Batman Lesson for Christopher Nolan",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "slug": "f26b6850-the-odysseys-wild-success-echoes-core-batman-lesson-for-chri"
-        },
-        {
-          "title": "Season 4 of Prime Video’s “Reacher” Might Be the Best Yet",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 12,
-          "slug": "99f6d414-season-4-of-prime-videos-reacher-might-be-the-best-yet"
-        },
-        {
-          "title": "Makeup Oscar Record Holder Recalls Turning Jim Carrey Into the Grinch, Transforming Jacko for ‘Thriller’ and Playing King Kong",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "1c5e9636-makeup-oscar-record-holder-recalls-turning-jim-carrey-into-t"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-19T05:28:49.532Z"
+  "lastUpdated": "2026-08-19T11:07:20.210Z"
 }
