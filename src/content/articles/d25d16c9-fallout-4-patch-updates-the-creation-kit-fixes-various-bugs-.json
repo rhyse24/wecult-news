@@ -1,0 +1,36 @@
+{
+  "id": "d25d16c9-fallout-4-patch-updates-the-creation-kit-fixes-various-bugs-",
+  "slug": "d25d16c9-fallout-4-patch-updates-the-creation-kit-fixes-various-bugs-",
+  "category": "games",
+  "author": "WeCult Editorial",
+  "source_name": "IGN Games",
+  "source_url": "https://www.ign.com/articles/fallout-4-patch-updates-the-creation-kit-fixes-various-bugs-including-steam-deck-crash",
+  "original_title": "Fallout 4 Patch Updates the Creation Kit, Fixes Various Bugs Including Steam Deck Crash",
+  "published_at": "2026-08-18T22:24:52.144Z",
+  "source_published_at": "2026-08-18T16:31:28.000Z",
+  "fetched_at": "2026-08-18T22:24:52.144Z",
+  "summary_en": "Bethesda has rolled out a significant update for the decade-old RPG, addressing a persistent Steam Deck crash and enhancing the Creation Kit for modders. This patch brings much-needed stability and opens new avenues for community-driven content.",
+  "ai_analysis": "This patch is a testament to Bethesda's continued support for Fallout 4, especially its robust modding scene, while also acknowledging the growing importance of handheld PC gaming.",
+  "story_type": "release",
+  "article_type": "release",
+  "translations": {
+    "en": {
+      "title": "Fallout 4 Finally Fixes Steam Deck Crash, Boosts Mod Support",
+      "summary": "Bethesda has rolled out a significant update for the decade-old RPG, addressing a persistent Steam Deck crash and enhancing the Creation Kit for modders. This patch brings much-needed stability and opens new avenues for community-driven content.",
+      "body": "## A Patch for the Wasteland\n\n**Fallout 4** players, especially those venturing through the Commonwealth on a **Steam Deck**, have reason to celebrate. Bethesda has released a crucial update that tackles a long-standing crash tied to the virtual keyboard on Valve's popular handheld. This fix is more than just a minor tweak; it's a significant quality-of-life improvement for a growing segment of the player base who enjoy the post-apocalyptic RPG on the go.\n\nBeyond the **Steam Deck** specific fix, the patch introduces substantial enhancements to the **Creation Kit**, the powerful toolset that fuels **Fallout 4**'s legendary modding community. The BA2 archive limit has been dramatically increased from 256 to a much more accommodating 1024. This change is a boon for modders working with extensive collections of assets, allowing for larger and more complex mods without hitting artificial ceilings. Furthermore, **Creations** up to 2GB in size can now be uploaded for Xbox, broadening the reach of ambitious mod projects. Support for PlayStation **Creations** has also been expanded with new file types and the ability to add Bink files, further integrating the platform into the modding ecosystem.\n\n## For the Dedicated Survivors\n\nThis update is a clear nod to the enduring passion of the **Fallout 4** community. The increased archive limit and expanded upload options for **Creations** signal Bethesda's commitment to supporting the game's vibrant modding scene, which has kept the game fresh for years. For **Steam Deck** users, the virtual keyboard crash was a frustrating barrier, and its resolution means a smoother, more immersive experience on the handheld. Bethesda even advised players to log in and save their load order before the update, highlighting the importance of preserving their carefully crafted mod setups. This proactive communication underscores the developer's awareness of how integral mods are to the **Fallout 4** experience for many players.\n\n## What’s Next for the Commonwealth\n\nWhile this patch focuses on **Fallout 4**, Bethesda has also confirmed that a similar update for **The Elder Scrolls V: Skyrim** is in the works, with more details to be shared soon. For now, **Fallout 4** players can download the latest update to enjoy a more stable and mod-friendly wasteland, particularly on their **Steam Deck** devices."
+    },
+    "tr": null,
+    "es": null
+  },
+  "content_raw": "Bethesda has released a new patch for Fallout 4 that updates the Creation Kit and makes a number of crash and bug fixes. The update, out now for the 11-year-old open-world post-apocalyptic role-playing game, increases the BA2 archive limit from 256 to 1024 to better accommodate larger collections of mods, Bethesda said in patch notes published on Steam . Meanwhile, Creations up to 2GB in size can now be uploaded for Xbox. As for crash fixes, Bethesda said the update fixed a crash when the player opens the Virtual Keyboard on a Steam Deck device, which will help out players on Valve’s handheld. Bethesda had warned Fallout 4 players to log into their game before today’s update to save their load order. Once your load order is saved, you’ll be able to re-download your entire Creations list at once when the update is live. Bethesda has said it’s also working on a Skyrim update, with details coming soon. Fallout 4 update - August 18 patch notes: Added and Updated Features Game Increased the BA2 archive limit from 256 to 1024 to better accommodate larger collections of mods. Added localized strings fixes for UI and platform terminology. Creation Kit Archives are now supported on PlayStation. New file types (.nif, .dds, .bink, .cdx, .csg, .wav, and .fuz (with embedded .wav)) for PlayStation Creations. Bink files can now be added to Creation uploads via an Extra Files browser. Added Localization export support. Creations up to 2GB in size can now be uploaded for Xbox. Updated \"Search and Replace\" to align with Starfield, adding buttons for \"Select Form in Object Window\" and \"Open Form Editor.\" Crashes Game Fixed a crash when the player opens the Virtual Keyboard on a Steam Deck device. Fixed a top crash that would occur due to a streaming audio error. Fixed a crash on the Microsoft Store when players enter the Creations menus after resuming internet connectivity. Bug Fixes Game Exiting out of Search when viewing a specific Creation now properly returns the player to the Details page of that Creation. Creations category lists should now return ordered results more consistently. Error messages from the Bethesda.Net service now contain error codes that can be provided to Customer Service for investigation. Creation Kit Archiving a plugin that uses pre-existing assets in a new form no longer causes the pre-existing assets to be duplicated. Material or Heightmap terrain edits now cause grass to generate properly. Running LipGen from the command line or launch argument now properly generates .lip files. Miscellaneous Updated the game credits. Wesley is Director, News at IGN. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.",
+  "tags": [
+    "games",
+    "fallout",
+    "patch",
+    "updates",
+    "creation",
+    "fixes"
+  ],
+  "image_url": "/article-images/d25d16c9.avif",
+  "trending_score": 13
+}
