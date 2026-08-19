@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1455,
+  "totalArticles": 1456,
   "runs": [
+    {
+      "timestamp": "2026-08-19T18:10:44.526Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 273,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Becomes Fastest Movie to Hit $800M at Domestic Box Office",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "cf00c9ff-spider-man-brand-new-day-becomes-fastest-movie-to-hit-800m-a"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-19T14:45:59.356Z",
       "status": "quota",
@@ -1921,17 +1939,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-12T13:18:24.716Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 80,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-19T14:45:59.356Z"
+  "lastUpdated": "2026-08-19T18:10:44.526Z"
 }
