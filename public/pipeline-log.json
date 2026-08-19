@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1449,
+  "totalArticles": 1451,
   "runs": [
+    {
+      "timestamp": "2026-08-19T05:28:49.532Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "The Major Marvel Netflix Character Cut From Spider-Man: Brand New Day",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "slug": "9f3b756f-the-major-marvel-netflix-character-cut-from-spider-man-brand"
+        },
+        {
+          "title": "8 Most Suspenseful Thrillers of the Last 100 Years",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "20cc2354-8-most-suspenseful-thrillers-of-the-last-100-years"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-19T01:56:58.791Z",
       "status": "success",
@@ -1914,32 +1939,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-12T05:40:01.948Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "Jason Sudeikis Makes Cameo at Mumford & Sons Concert to Perform ‘Ted Lasso’ Theme Song",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "slug": "7c4ca663-jason-sudeikis-makes-cameo-at-mumford-sons-concert-to-perfor"
-        },
-        {
-          "title": "Why Ser Torrhen Manderly From House Of The Dragon Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "a6e31208-why-ser-torrhen-manderly-from-house-of-the-dragon-looks-so-f"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-19T01:56:58.791Z"
+  "lastUpdated": "2026-08-19T05:28:49.532Z"
 }
