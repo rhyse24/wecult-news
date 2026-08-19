@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1454,
+  "totalArticles": 1455,
   "runs": [
+    {
+      "timestamp": "2026-08-19T14:45:59.356Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 88,
+      "written": [
+        {
+          "title": "Redfall Bosses Explain What Happened With The Failed Xbox Exclusive",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 15,
+          "slug": "8c4f72f9-redfall-bosses-explain-what-happened-with-the-failed-xbox-ex"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-19T11:07:20.210Z",
       "status": "success",
@@ -1913,33 +1931,7 @@
       "totalCandidates": 80,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-12T11:19:20.361Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "Jamie Tartt's Ted Lasso Exit Explained",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "05a4e0b8-jamie-tartts-ted-lasso-exit-explained"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Why Alice Chilton From Ted Lasso Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-19T11:07:20.210Z"
+  "lastUpdated": "2026-08-19T14:45:59.356Z"
 }
