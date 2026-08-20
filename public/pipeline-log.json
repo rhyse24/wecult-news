@@ -1,6 +1,49 @@
 {
-  "totalArticles": 1461,
+  "totalArticles": 1464,
   "runs": [
+    {
+      "timestamp": "2026-08-20T08:13:55.924Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 84,
+      "written": [
+        {
+          "title": " Will the next Mass Effect actually release under EA's new owners? 'I'll believe it when I see it,' says former EA manager turned Newzoo analyst ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "91172320-will-the-next-mass-effect-actually-release-under-eas-new-own"
+        },
+        {
+          "title": "GTA 6 Extended Look Netflix & YouTube global release times and what to expect",
+          "category": "games",
+          "source": "Dot Esports",
+          "score": 12,
+          "slug": "e6efb67e-gta-6-extended-look-netflix-youtube-global-release-times-and"
+        },
+        {
+          "title": "Modern Warfare 4 Beta Reveals Multiplayer Matchmaking Plans, Will Continue to Use Divisive New Matchmaking System",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "008088c8-modern-warfare-4-beta-reveals-multiplayer-matchmaking-plans-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "14 Games That Give You The Absolute Best Bang For Your Buck",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 14,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 725 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-20T04:45:02.005Z",
       "status": "quota",
@@ -1937,39 +1980,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-12T18:01:00.757Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 265,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "X-Men ’97 Season 2 Post-Credits Scene Uses a Cute Easter Egg To Set Up a Returning Character",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "1cdfd175-x-men-97-season-2-post-credits-scene-uses-a-cute-easter-egg-"
-        },
-        {
-          "title": "Rosario Dawson’s Mom Said It Sucks That Dawson’s Character Was Cut from Spider-Man: Brand New Day",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 14,
-          "slug": "41f34846-rosario-dawsons-mom-said-it-sucks-that-dawsons-character-was"
-        },
-        {
-          "title": "8 Horror Novels That Use the Ocean as Their Setting",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 9,
-          "slug": "da8525fa-8-horror-novels-that-use-the-ocean-as-their-setting"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-20T04:45:02.005Z"
+  "lastUpdated": "2026-08-20T08:13:55.924Z"
 }
