@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1458,
+  "totalArticles": 1459,
   "runs": [
+    {
+      "timestamp": "2026-08-20T01:03:28.782Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 273,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "Murderbot Season 2 Has an Incredible New Cast",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "d6557958-murderbot-season-2-has-an-incredible-new-cast"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-19T21:41:27.482Z",
       "status": "quota",
@@ -1936,25 +1954,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-12T16:01:03.263Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "Box Office: ‘End of Oak Street’ Targets $25 Million Debut, ‘Spider-Man: Brand New Day’ to Remain No. 1",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "176b68c4-box-office-end-of-oak-street-targets-25-million-debut-spider"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-19T21:41:27.482Z"
+  "lastUpdated": "2026-08-20T01:03:28.782Z"
 }
