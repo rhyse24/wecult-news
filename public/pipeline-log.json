@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1459,
+  "totalArticles": 1461,
   "runs": [
+    {
+      "timestamp": "2026-08-20T04:45:02.005Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Anne Hathaway Pushed ‘Really Hard’ to Bring Julie Andrews Back for ‘Princess Diaries 3’ but the Icon Passed on the Role: ‘Whatever She Wants’",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "00745d73-anne-hathaway-pushed-really-hard-to-bring-julie-andrews-back"
+        },
+        {
+          "title": "Naomi Watts to Receive Zurich Film Festival’s Golden Eye Award for ‘The Housewife’",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "fc534cff-naomi-watts-to-receive-zurich-film-festivals-golden-eye-awar"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Aims to Swing Past ‘Insidious’ Sequel for Fourth Box Office Win",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-20T01:03:28.782Z",
       "status": "quota",
@@ -1936,25 +1969,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-12T16:59:35.737Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 264,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "Ted Lasso's Tanya Reynolds Unpacks Alice's Feelings Toward Rebecca — Plus, Why Is Rebecca Keeping Keeley In The Dark?",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "3e094a93-ted-lassos-tanya-reynolds-unpacks-alices-feelings-toward-reb"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-20T01:03:28.782Z"
+  "lastUpdated": "2026-08-20T04:45:02.005Z"
 }
