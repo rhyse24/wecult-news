@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1464,
+  "totalArticles": 1467,
   "runs": [
+    {
+      "timestamp": "2026-08-20T12:14:22.322Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 272,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "Where Was ‘Outer Banks’ Filmed? Complete Seasons 1-5 Filming Locations Guide",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 18,
+          "slug": "9feb7d68-where-was-outer-banks-filmed-complete-seasons-1-5-filming-lo"
+        },
+        {
+          "title": "‘Sid & Zoey’ YA Supernatural Horror Romance Series: What We Know So Far",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "e097b793-sid-zoey-ya-supernatural-horror-romance-series-what-we-know-"
+        },
+        {
+          "title": "What To Watch Thursday: Outer Banks Ends, ﻿ABC Game Shows Wrap, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "3b5d20f8-what-to-watch-thursday-outer-banks-ends-abc-game-shows-wrap-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-20T08:13:55.924Z",
       "status": "success",
@@ -1955,32 +1987,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-12T19:06:15.899Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 256,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "‘The End of Oak Street’ Review: End-of-the-Summer Trash That’s Like a Loopier (and in Some Ways Better) ‘Jurassic’ Movie",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "70914593-the-end-of-oak-street-review-end-of-the-summer-trash-thats-l"
-        },
-        {
-          "title": "‘Spider-Man: Brand New Day’ Writers Believe There’s One Line Jean Grey Didn’t Cross",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "73dc885d-spider-man-brand-new-day-writers-believe-theres-one-line-jea"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-20T08:13:55.924Z"
+  "lastUpdated": "2026-08-20T12:14:22.322Z"
 }
