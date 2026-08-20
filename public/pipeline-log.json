@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1469,
+  "totalArticles": 1471,
   "runs": [
+    {
+      "timestamp": "2026-08-20T19:40:11.763Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 267,
+      "totalCandidates": 98,
+      "written": [
+        {
+          "title": " The latest GTA 6 leak confirms the leaker likely has or had access to a playable build ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 15,
+          "slug": "e3bc4d22-the-latest-gta-6-leak-confirms-the-leaker-likely-has-or-had-"
+        },
+        {
+          "title": "'I Bet Many of You Would Not Like It'  — Halo Co-Creator Says He Would Make Series 'Darker' if He Made a New Game",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "5eb8ce01-i-bet-many-of-you-would-not-like-it-halo-co-creator-says-he-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-20T15:48:28.642Z",
       "status": "quota",
@@ -2002,17 +2027,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-12T20:51:07.530Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 259,
-      "totalCandidates": 39,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-20T15:48:28.642Z"
+  "lastUpdated": "2026-08-20T19:40:11.763Z"
 }
