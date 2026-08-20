@@ -1,6 +1,49 @@
 {
-  "totalArticles": 1467,
+  "totalArticles": 1469,
   "runs": [
+    {
+      "timestamp": "2026-08-20T15:48:28.642Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "8 Greatest Remakes of Classic Horror Movies",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "c1f79018-8-greatest-remakes-of-classic-horror-movies"
+        },
+        {
+          "title": "Only 4 Upcoming 2026 Movies Can Cross the Billion-Dollar Mark",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "89244566-only-4-upcoming-2026-movies-can-cross-the-billion-dollar-mar"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Aims to Swing Past ‘Insidious’ Sequel for Fourth Box Office Win",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "10 Best Hong Kong Martial Arts Movies of the 1970s",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 645 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-20T12:14:22.322Z",
       "status": "success",
@@ -1969,25 +2012,7 @@
       "totalCandidates": 39,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-12T20:00:54.757Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 259,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "Phasmophobia Studio Launches A Publishing Label With These Five Exciting Games",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 15,
-          "slug": "275c6666-phasmophobia-studio-launches-a-publishing-label-with-these-f"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-20T12:14:22.322Z"
+  "lastUpdated": "2026-08-20T15:48:28.642Z"
 }
