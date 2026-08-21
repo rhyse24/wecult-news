@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1476,
+  "totalArticles": 1479,
   "runs": [
+    {
+      "timestamp": "2026-08-21T06:41:14.267Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 274,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Stuart Fails To Save The Universe Star Talks Kripke's Sexual Fluidity, Jokes Euphoria Would've Shown More Than Episode 5 Did",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "fd2699dd-stuart-fails-to-save-the-universe-star-talks-kripkes-sexual-"
+        },
+        {
+          "title": "5 TV Shows That Adapted The Story Of The Odyssey",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "29d2e246-5-tv-shows-that-adapted-the-story-of-the-odyssey"
+        },
+        {
+          "title": "How ‘Star Trek: Strange New Worlds’ Pulled Off That Madcap Puppet Episode",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "70b83f89-how-star-trek-strange-new-worlds-pulled-off-that-madcap-pupp"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-21T03:12:03.681Z",
       "status": "quota",
@@ -1994,32 +2026,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-13T02:01:00.103Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 257,
-      "totalCandidates": 84,
-      "written": [
-        {
-          "title": "Hogwarts Legacy 2 Is Officially in the Works, Confirms Warner Bros.",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "4dd301dd-hogwarts-legacy-2-is-officially-in-the-works-confirms-warner"
-        },
-        {
-          "title": "Xbox Reveals Stunning 3D-Moulded Gears of War: E-Day Limited Edition Controllers",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "31c2c678-xbox-reveals-stunning-3d-moulded-gears-of-war-e-day-limited-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-21T03:12:03.681Z"
+  "lastUpdated": "2026-08-21T06:41:14.267Z"
 }
