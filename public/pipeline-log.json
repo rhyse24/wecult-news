@@ -1,6 +1,35 @@
 {
-  "totalArticles": 1485,
+  "totalArticles": 1486,
   "runs": [
+    {
+      "timestamp": "2026-08-21T18:34:01.005Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Yahya Abdul-Mateen II Opens Up About ‘Wonder Man’ Un-Renewal: “It’s a Lesson in Life”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 13,
+          "slug": "06e47233-yahya-abdul-mateen-ii-opens-up-about-wonder-man-un-renewal-i"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Bass X Machina’ Deep Dive: Everything We Learned About The New Series At Anime NYC",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-21T14:26:46.547Z",
       "status": "success",
@@ -2000,47 +2029,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-13T07:49:04.861Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 254,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Ewan McGregor Says ‘Come On, Disney!’ While Pressuring Studio to Let Him Play Obi-Wan Kenobi Again: ‘They Just Seem Not to Be Ready’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "slug": "0fa7f155-ewan-mcgregor-says-come-on-disney-while-pressuring-studio-to"
-        },
-        {
-          "title": "How an Abandoned Shopping Mall Was Transformed into the Las Vegas Strip for ‘Fallout’ Season Two",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 8,
-          "slug": "75e14093-how-an-abandoned-shopping-mall-was-transformed-into-the-las-"
-        },
-        {
-          "title": "Live-Action High School Family: Kokosei Kazoku Film Reveals More Cast",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 8,
-          "slug": "176b2d00-live-action-high-school-family-kokosei-kazoku-film-reveals-m"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The DCU is Avoiding the MCU’s Television Mistake",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 10,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-21T14:26:46.547Z"
+  "lastUpdated": "2026-08-21T18:34:01.005Z"
 }
