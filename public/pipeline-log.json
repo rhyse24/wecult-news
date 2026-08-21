@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1474,
+  "totalArticles": 1476,
   "runs": [
+    {
+      "timestamp": "2026-08-21T03:12:03.681Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "‘The Odyssey’ Beats ‘Deadpool & Wolverine’ to Become Biggest R-Rated Movie Ever",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "edf33cb0-the-odyssey-beats-deadpool-wolverine-to-become-biggest-r-rat"
+        },
+        {
+          "title": "10 Best Avengers Movie Character Entrances",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "slug": "4bd4b087-10-best-avengers-movie-character-entrances"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-20T23:26:20.604Z",
       "status": "success",
@@ -1994,47 +2019,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-13T00:01:05.434Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 259,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "Walt Disney Studios Promotes Melissa Stone to Publicity Chief",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "slug": "e293e213-walt-disney-studios-promotes-melissa-stone-to-publicity-chie"
-        },
-        {
-          "title": "Bob Chapek, Who Was Ousted as Disney’s CEO, Pens Memoir in Which He Wonders if He Became ‘the Scapegoat’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "8be62690-bob-chapek-who-was-ousted-as-disneys-ceo-pens-memoir-in-whic"
-        },
-        {
-          "title": "Move Over, Roy Kent: Ted Lasso Season 4 Establishes The Show's New MVP",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "slug": "3f1dcfd9-move-over-roy-kent-ted-lasso-season-4-establishes-the-shows-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The End of Oak Street Review: David Robert Mitchell Makes Fun, Forgettable Return",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-20T23:26:20.604Z"
+  "lastUpdated": "2026-08-21T03:12:03.681Z"
 }
