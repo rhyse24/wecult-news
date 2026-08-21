@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1482,
+  "totalArticles": 1485,
   "runs": [
+    {
+      "timestamp": "2026-08-21T14:26:46.547Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Chris Hansen Didn’t Watch ‘Primetime’ Screening Because “A24 Wanted Me to Sign Away My Rights”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "79fd315b-chris-hansen-didnt-watch-primetime-screening-because-a24-wan"
+        },
+        {
+          "title": "Liminal Spaces, Transitional States: Alexander Ullom on “It Ends”",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 10,
+          "slug": "435a0c55-liminal-spaces-transitional-states-alexander-ullom-on-it-end"
+        },
+        {
+          "title": "10 Most Universally Loved Movie Trilogies of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "d21e38d8-10-most-universally-loved-movie-trilogies-of-all-time"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Greatest Neo-Noirs of the '90s",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-21T10:28:20.248Z",
       "status": "success",
@@ -2000,47 +2040,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-13T05:42:49.982Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 255,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "Union County Review: Finding Grace in the Slow, Humbling Work of Recovery",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 10,
-          "slug": "99f6566e-union-county-review-finding-grace-in-the-slow-humbling-work-"
-        },
-        {
-          "title": "10 Most Universally Beloved Superhero Movies of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "bb448648-10-most-universally-beloved-superhero-movies-of-all-time"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘End of Oak Street’ Box Office Aims to Take Bite Out of ‘Spider-Man: Brand New Day’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The End of Oak Street Review: David Robert Mitchell Makes Fun, Forgettable Return",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-21T10:28:20.248Z"
+  "lastUpdated": "2026-08-21T14:26:46.547Z"
 }
