@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1479,
+  "totalArticles": 1482,
   "runs": [
+    {
+      "timestamp": "2026-08-21T10:28:20.248Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 269,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": " Metal Gear Solid 4: Guns of the Patriots review ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 15,
+          "slug": "10166acc-metal-gear-solid-4-guns-of-the-patriots-review"
+        },
+        {
+          "title": "Spider-Man: Brand New Day Slammed For Its Use Of AI",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "slug": "1c75d3ea-spider-man-brand-new-day-slammed-for-its-use-of-ai"
+        },
+        {
+          "title": "Everything we know about Exodus: Release date, story, gameplay, companions, and more",
+          "category": "games",
+          "source": "Dot Esports",
+          "score": 13,
+          "slug": "91d2b513-everything-we-know-about-exodus-release-date-story-gameplay-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-21T06:41:14.267Z",
       "status": "success",
@@ -2008,25 +2040,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-13T04:01:36.842Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 256,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "House of the Dragon’s Most Shocking Book Change Has Infamous Real History Roots",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 11,
-          "slug": "d0827233-house-of-the-dragons-most-shocking-book-change-has-infamous-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-21T06:41:14.267Z"
+  "lastUpdated": "2026-08-21T10:28:20.248Z"
 }
