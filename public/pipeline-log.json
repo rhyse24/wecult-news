@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1471,
+  "totalArticles": 1474,
   "runs": [
+    {
+      "timestamp": "2026-08-20T23:26:20.604Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 276,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Dave Bautista Officially Set as Kratos in ‘God of War’ TV Series",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 18,
+          "slug": "36b2c315-dave-bautista-officially-set-as-kratos-in-god-of-war-tv-seri"
+        },
+        {
+          "title": "The Odyssey defies gods, trillionaires, and Deadpool to become biggest R-rated movie ever",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 17,
+          "slug": "d0c860b8-the-odyssey-defies-gods-trillionaires-and-deadpool-to-become"
+        },
+        {
+          "title": "‘Lanterns’ EP Damon Lindelof Weighs In on 2026’s Adaptation Wars: “Shouldn’t We Be Beyond This by Now?”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 16,
+          "slug": "16581c2b-lanterns-ep-damon-lindelof-weighs-in-on-2026s-adaptation-war"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-20T19:40:11.763Z",
       "status": "quota",
@@ -2002,32 +2034,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-12T22:01:05.277Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 261,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "Inside ‘House of the Dragon’ Season 3’s Best Storyline: “It’s a Bit Like a Boxing Ring”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "slug": "44ae3e3d-inside-house-of-the-dragon-season-3s-best-storyline-its-a-bi"
-        },
-        {
-          "title": "6 Years Ago Today, Marvel's Longest Live-Action TV Series Ended Exactly Where It Began",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "fa72565c-6-years-ago-today-marvels-longest-live-action-tv-series-ende"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-20T19:40:11.763Z"
+  "lastUpdated": "2026-08-20T23:26:20.604Z"
 }
