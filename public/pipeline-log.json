@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1486,
+  "totalArticles": 1489,
   "runs": [
+    {
+      "timestamp": "2026-08-21T22:28:38.637Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Why The Vast of Night Mysteriously Disappeared From Streaming",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "c6942124-why-the-vast-of-night-mysteriously-disappeared-from-streamin"
+        },
+        {
+          "title": "What Should You Watch This Weekend?",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 10,
+          "slug": "6e6df6f6-what-should-you-watch-this-weekend"
+        },
+        {
+          "title": "Jess Lourey on Paul Michael Stephani and Writing a Novel Inspired by a Serial Killer",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 9,
+          "slug": "8ce7ee28-jess-lourey-on-paul-michael-stephani-and-writing-a-novel-ins"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-21T18:34:01.005Z",
       "status": "quota",
@@ -1997,39 +2029,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-13T10:05:33.260Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 252,
-      "totalCandidates": 90,
-      "written": [
-        {
-          "title": "Review: Super Mario Sunshine (GameCube) - Not What We Expected, But It Still Shines",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 13,
-          "slug": "bc41574f-review-super-mario-sunshine-gamecube---not-what-we-expected-"
-        },
-        {
-          "title": "Three Games Are Available Today Across Various Tiers Of Xbox Game Pass (August 13)",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 13,
-          "slug": "5e736606-three-games-are-available-today-across-various-tiers-of-xbox"
-        },
-        {
-          "title": "Round Up: The Reviews For The Elder Scrolls IV: Oblivion Remastered On Switch 2 Are In",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 12,
-          "slug": "0bd5cca6-round-up-the-reviews-for-the-elder-scrolls-iv-oblivion-remas"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-21T18:34:01.005Z"
+  "lastUpdated": "2026-08-21T22:28:38.637Z"
 }
