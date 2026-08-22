@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1489,
+  "totalArticles": 1491,
   "runs": [
+    {
+      "timestamp": "2026-08-22T02:31:18.735Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 262,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "‘The Odyssey’ Sets Digital, 4K Blu-ray Release Dates",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "d1cac579-the-odyssey-sets-digital-4k-blu-ray-release-dates"
+        },
+        {
+          "title": "‘Insidious: Out of the Further’ Hunts Down $3M in Box Office Previews",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "slug": "2b5dd6bc-insidious-out-of-the-further-hunts-down-3m-in-box-office-pre"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-21T22:28:38.637Z",
       "status": "success",
@@ -1982,54 +2007,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-13T12:27:05.037Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 250,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "Haugesund New Nordic Films Reveals Standout 36 Nordic Projects and 15 Fresh Pics Set to Woo 300 Industry Attendees",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "b3bd7b21-haugesund-new-nordic-films-reveals-standout-36-nordic-projec"
-        },
-        {
-          "title": "X-Files Creator Chris Carter: ‘Vrach Frankenshteyn’ Director’s Cut Is More Horror, Less Romance",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 9,
-          "slug": "529d38ec-x-files-creator-chris-carter-vrach-frankenshteyn-directors-c"
-        },
-        {
-          "title": "15 Terrible Movies That Are Still Somehow Awesome",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 9,
-          "slug": "39127383-15-terrible-movies-that-are-still-somehow-awesome"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘End of Oak Street’ Box Office Aims to Take Bite Out of ‘Spider-Man: Brand New Day’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The End of Oak Street Review: David Robert Mitchell Makes Fun, Forgettable Return",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-21T22:28:38.637Z"
+  "lastUpdated": "2026-08-22T02:31:18.735Z"
 }
