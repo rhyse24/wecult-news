@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1491,
+  "totalArticles": 1494,
   "runs": [
+    {
+      "timestamp": "2026-08-22T10:41:40.053Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 255,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": "Among Shadows is a Nightreign-style dark fantasy RPG with a touch of Among Us that makes me think wistfully of Dark Souls at its most treacherous",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 12,
+          "slug": "13a7b53e-among-shadows-is-a-nightreign-style-dark-fantasy-rpg-with-a-"
+        },
+        {
+          "title": "Double Fine confirms it owns all its games' IP and publishing rights after Xbox split",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 11,
+          "slug": "f82bfccb-double-fine-confirms-it-owns-all-its-games-ip-and-publishing"
+        },
+        {
+          "title": " Still more GTA 6 details from the latest leaked video: traffic cameras, car trackers, and drivers that put up a fight ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "8638c381-still-more-gta-6-details-from-the-latest-leaked-video-traffi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-22T06:48:45.851Z",
       "status": "quota",
@@ -1959,39 +1991,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-13T17:07:35.037Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 261,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "House of Harkness: Inside One of Marvel Comics’ Best Graphic Novels of 2026",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "1a1314ec-house-of-harkness-inside-one-of-marvel-comics-best-graphic-n"
-        },
-        {
-          "title": "“I know how to pretend to be something I’m not” — Star Trek: Strange New Worlds: “A Case of Chiaroscuro”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "19f27e69-i-know-how-to-pretend-to-be-something-im-not-star-trek-stran"
-        },
-        {
-          "title": "Two More DC Projects Are No Longer in the Works",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "3674a131-two-more-dc-projects-are-no-longer-in-the-works"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-22T06:48:45.851Z"
+  "lastUpdated": "2026-08-22T10:41:40.053Z"
 }
