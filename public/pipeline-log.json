@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1497,
+  "totalArticles": 1500,
   "runs": [
+    {
+      "timestamp": "2026-08-22T18:24:05.300Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 240,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "Why Do We Love Spider-Man So Much?",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "39843bf1-why-do-we-love-spider-man-so-much"
+        },
+        {
+          "title": "Actor Michael Wright, Star of ‘The Five Heartbeats’ and ‘V,’ Dies at 70",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "3d0cf1dc-actor-michael-wright-star-of-the-five-heartbeats-and-v-dies-"
+        },
+        {
+          "title": "'Insidious: Out of the Further's Stars Promise \"There's Much More to This Franchise\"",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "slug": "0dcd0f0a-insidious-out-of-the-furthers-stars-promise-theres-much-more"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Box Office: ‘Insidious: Out of the Further’ Takes First Place on Friday With $10.6 Million, But ‘Spider-Man: Brand New Day’ Will Win the Weekend",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-22T14:30:38.190Z",
       "status": "success",
@@ -1987,25 +2027,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-13T22:16:03.401Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 260,
-      "totalCandidates": 92,
-      "written": [
-        {
-          "title": "The 10 Most Expensive MTG Cards in The Hobbit Set",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 16,
-          "slug": "47ce83d9-the-10-most-expensive-mtg-cards-in-the-hobbit-set"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-22T14:30:38.190Z"
+  "lastUpdated": "2026-08-22T18:24:05.300Z"
 }
