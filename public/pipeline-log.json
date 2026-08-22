@@ -2,6 +2,16 @@
   "totalArticles": 1491,
   "runs": [
     {
+      "timestamp": "2026-08-22T06:48:45.851Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 260,
+      "totalCandidates": 85,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-22T02:31:18.735Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1981,33 +1991,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-13T14:44:18.397Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 256,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "Netflix’s ‘My Brilliant Career’ Is a Spunky Reimagining of the Australian Period Drama: TV Review",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "45617a98-netflixs-my-brilliant-career-is-a-spunky-reimagining-of-the-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Megan and Cupcake Ready for Preschool,’ a New Hybrid Live-Action and Animated Series Heads to Disney Jr.",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-22T02:31:18.735Z"
+  "lastUpdated": "2026-08-22T06:48:45.851Z"
 }
