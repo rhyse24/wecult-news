@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1494,
+  "totalArticles": 1497,
   "runs": [
+    {
+      "timestamp": "2026-08-22T14:30:38.190Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 249,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "Emily Watson Says ‘Dune: Prophecy’ Season 2 Will Have ‘Lots of New Elements,’ Led Her on ‘A Quest in a Way Actors Always Get to Do and Actresses Don’t’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "3dad46c9-emily-watson-says-dune-prophecy-season-2-will-have-lots-of-n"
+        },
+        {
+          "title": "‘Aegon’s Conquest’: Could ‘Game of Thrones’ TV Characters Appear in Movie?",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 10,
+          "slug": "15328442-aegons-conquest-could-game-of-thrones-tv-characters-appear-i"
+        },
+        {
+          "title": "‘Bass X Machina’ Deep Dive: Everything We Learned About The New Series At Anime NYC",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "d5729748-bass-x-machina-deep-dive-everything-we-learned-about-the-new"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-22T10:41:40.053Z",
       "status": "success",
@@ -1973,25 +2005,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-13T19:40:46.825Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 264,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Becomes Fastest Movie to Hit $700M at Domestic Box Office",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "56581fd9-spider-man-brand-new-day-becomes-fastest-movie-to-hit-700m-a"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-22T10:41:40.053Z"
+  "lastUpdated": "2026-08-22T14:30:38.190Z"
 }
