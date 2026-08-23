@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1503,
+  "totalArticles": 1506,
   "runs": [
+    {
+      "timestamp": "2026-08-23T02:18:53.770Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 228,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "10 Most Underrated Episodes Of The Twilight Zone",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "a874e755-10-most-underrated-episodes-of-the-twilight-zone"
+        },
+        {
+          "title": "Taylor Sheridan Accused of Stealing ‘Yellowstone’ From 2016 Pitch in Copyright Lawsuit",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "b307d2c7-taylor-sheridan-accused-of-stealing-yellowstone-from-2016-pi"
+        },
+        {
+          "title": "How ‘Abbott Elementary’ Pulled Off Its Big Phillies Game Episode",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "bce980b1-how-abbott-elementary-pulled-off-its-big-phillies-game-episo"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-22T22:19:26.602Z",
       "status": "success",
@@ -2031,17 +2063,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-14T03:30:28.317Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 264,
-      "totalCandidates": 29,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-22T22:19:26.602Z"
+  "lastUpdated": "2026-08-23T02:18:53.770Z"
 }
