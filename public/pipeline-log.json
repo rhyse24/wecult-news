@@ -2,6 +2,27 @@
   "totalArticles": 1506,
   "runs": [
     {
+      "timestamp": "2026-08-23T06:27:47.887Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 231,
+      "totalCandidates": 19,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Box Office: ‘Insidious: Out of the Further’ Takes First Place on Friday With $10.6 Million, but ‘Spider-Man: Brand New Day’ Will Win the Weekend",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-23T02:18:53.770Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2038,32 +2059,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-14T05:59:53.861Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Tramell Tillman Says ‘I Had to Sign NDAs’ Before Even Meeting for ‘Spider-Man: Brand New Day’ Role: ‘A Little Frustrating Because Everything Was Shrouded in Secrecy’",
-          "category": "film",
-          "source": "Variety",
-          "score": 15,
-          "slug": "dbf6b230-tramell-tillman-says-i-had-to-sign-ndas-before-even-meeting-"
-        },
-        {
-          "title": "10 Best Sci-Fi Action Movies in Film History",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "ca32cb3c-10-best-sci-fi-action-movies-in-film-history"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-23T02:18:53.770Z"
+  "lastUpdated": "2026-08-23T06:27:47.887Z"
 }
