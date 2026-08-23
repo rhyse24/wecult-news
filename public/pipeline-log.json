@@ -1,6 +1,42 @@
 {
-  "totalArticles": 1509,
+  "totalArticles": 1511,
   "runs": [
+    {
+      "timestamp": "2026-08-23T14:16:32.541Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 197,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "One Piece Expands Season 3 Cast As Netflix Series Journeys To Alabasta",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "b3948047-one-piece-expands-season-3-cast-as-netflix-series-journeys-t"
+        },
+        {
+          "title": "One Piece Announces 2 New Anime Films",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 11,
+          "slug": "f9e9210c-one-piece-announces-2-new-anime-films"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Squid Game’ & ‘Umbrella Academy’ Stars Join Ryu Jun Yeol in Netflix’s Australian Mystery Thriller ‘Outback’",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 9,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-23T10:27:40.307Z",
       "status": "success",
@@ -2033,32 +2069,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-14T14:11:58.326Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 265,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Ted Lasso's Jason Sudeikis And Brett Goldstein Team With Sesame Street's Elmo And Oscar For Daily Affirmations — Watch Or Scram!",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "8c4e5681-ted-lassos-jason-sudeikis-and-brett-goldstein-team-with-sesa"
-        },
-        {
-          "title": "Why Tamara Green From Reacher Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "20eccbd0-why-tamara-green-from-reacher-looks-so-familiar"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-23T10:27:40.307Z"
+  "lastUpdated": "2026-08-23T14:16:32.541Z"
 }
