@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1500,
+  "totalArticles": 1503,
   "runs": [
+    {
+      "timestamp": "2026-08-22T22:19:26.602Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 231,
+      "totalCandidates": 89,
+      "written": [
+        {
+          "title": "Rockstar takes GTA 6 leaker’s channels offline after they apparently record themselves playing the game",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 13,
+          "slug": "e9f98ac0-rockstar-takes-gta-6-leakers-channels-offline-after-they-app"
+        },
+        {
+          "title": "Microsoft will no longer share sales data with Circana, indicating more trouble in paradise",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 12,
+          "slug": "a321d815-microsoft-will-no-longer-share-sales-data-with-circana-indic"
+        },
+        {
+          "title": "Former Rockstar Developer Reacts To GTA 6 Leaks",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 12,
+          "slug": "6de3e9de-former-rockstar-developer-reacts-to-gta-6-leaks"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-22T18:24:05.300Z",
       "status": "success",
@@ -2009,25 +2041,7 @@
       "totalCandidates": 29,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-14T00:50:15.771Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 263,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "‘House of the Dragon’ Season 3 Finale Hits 21 Million Viewers in Three Days",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 17,
-          "slug": "83fa4c0f-house-of-the-dragon-season-3-finale-hits-21-million-viewers-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-22T18:24:05.300Z"
+  "lastUpdated": "2026-08-22T22:19:26.602Z"
 }
