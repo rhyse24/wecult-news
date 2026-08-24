@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1513,
+  "totalArticles": 1516,
   "runs": [
+    {
+      "timestamp": "2026-08-24T07:02:57.398Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 180,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Lanterns: What Does ‘Mogo Doesn’t Socialize’ Mean?",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 15,
+          "slug": "8273ce43-lanterns-what-does-mogo-doesnt-socialize-mean"
+        },
+        {
+          "title": "Lanterns: The Manhunters Are The Messiest Bad Guys in DC History",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 15,
+          "slug": "fd9b6996-lanterns-the-manhunters-are-the-messiest-bad-guys-in-dc-hist"
+        },
+        {
+          "title": "Lanterns Episode 2 Review: Charging Up By Powering Down",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 15,
+          "slug": "d87f123f-lanterns-episode-2-review-charging-up-by-powering-down"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-24T04:03:04.578Z",
       "status": "quota",
@@ -2067,25 +2099,7 @@
       "totalCandidates": 82,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-15T01:26:07.718Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 256,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "TVLine Asks: Will Blue Bloods Couple Reunite On Boston Blue? Which Stuart Cameo Surprised The Most? Where's Nate On Ted Lasso? And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "c466e192-tvline-asks-will-blue-bloods-couple-reunite-on-boston-blue-w"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-24T04:03:04.578Z"
+  "lastUpdated": "2026-08-24T07:02:57.398Z"
 }
