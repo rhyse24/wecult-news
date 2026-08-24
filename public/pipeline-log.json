@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1516,
+  "totalArticles": 1519,
   "runs": [
+    {
+      "timestamp": "2026-08-24T10:28:23.511Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 197,
+      "totalCandidates": 13,
+      "written": [
+        {
+          "title": "The New York Times Names the 50 Best Thrillers",
+          "category": "books",
+          "source": "Book Riot",
+          "score": 9,
+          "slug": "26a394f5-the-new-york-times-names-the-50-best-thrillers"
+        },
+        {
+          "title": "Iceland’s Murder Rate Is Off the Charts — in Its Books, at Least",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 7,
+          "slug": "27357456-icelands-murder-rate-is-off-the-charts-in-its-books-at-least"
+        },
+        {
+          "title": "The Disappearers by Marlon James review – a scorching exposé of homophobia in Jamaica",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 6,
+          "slug": "463c0137-the-disappearers-by-marlon-james-review-a-scorching-expos-of"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-24T07:02:57.398Z",
       "status": "success",
@@ -2089,17 +2121,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-15T03:16:49.151Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 253,
-      "totalCandidates": 82,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-24T07:02:57.398Z"
+  "lastUpdated": "2026-08-24T10:28:23.511Z"
 }
