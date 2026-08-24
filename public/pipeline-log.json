@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1519,
+  "totalArticles": 1522,
   "runs": [
+    {
+      "timestamp": "2026-08-24T14:03:44.836Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 217,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "‘Game of Thrones’ Star Kristofer Hivju Turns to Rom-Com With ‘True Love’ by ‘Little Did I Know’s’ Martina Haag (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "fdfda81f-game-of-thrones-star-kristofer-hivju-turns-to-rom-com-with-t"
+        },
+        {
+          "title": "Robert Downey Jr. Understands the Biggest Problem Facing Avengers: Doomsday",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "slug": "43026c54-robert-downey-jr-understands-the-biggest-problem-facing-aven"
+        },
+        {
+          "title": "We Were Warned: On “Terminator 2: Judgment Day” at 35 ",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 10,
+          "slug": "69173166-we-were-warned-on-terminator-2-judgment-day-at-35"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-24T10:28:23.511Z",
       "status": "success",
@@ -2096,32 +2128,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-15T05:00:22.665Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 254,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "The Simpsons: Hit & Run 'Coming Back in Some Form,' Creator Matt Groening Says",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "1b3fa899-the-simpsons-hit-run-coming-back-in-some-form-creator-matt-g"
-        },
-        {
-          "title": " Before Grand Theft Auto Online, GTA 4's multiplayer added 'glorious chaos' to the open world sandbox ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "38061063-before-grand-theft-auto-online-gta-4s-multiplayer-added-glor"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-24T10:28:23.511Z"
+  "lastUpdated": "2026-08-24T14:03:44.836Z"
 }
