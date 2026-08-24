@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1524,
+  "totalArticles": 1525,
   "runs": [
+    {
+      "timestamp": "2026-08-24T21:03:34.378Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 226,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "Kit Harington Joins ‘Harry Potter’ Season 2 as Gilderoy Lockhart, Replacing Nicholas Hoult",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "fd7e8593-kit-harington-joins-harry-potter-season-2-as-gilderoy-lockha"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-24T17:39:06.423Z",
       "status": "quota",
@@ -2060,74 +2078,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-15T08:00:53.220Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 250,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "VisionQuest Trailer: Paul Bettany's Synthezoid Makes His Long-Awaited Return In First Footage From Disney+ Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 16,
-          "slug": "3d09ccff-visionquest-trailer-paul-bettanys-synthezoid-makes-his-long-"
-        },
-        {
-          "title": "Ahsoka Lands Season 2 Premiere Date At Disney+ — Get A Sneak Peek",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "e847360c-ahsoka-lands-season-2-premiere-date-at-disney-get-a-sneak-pe"
-        },
-        {
-          "title": "Will There Be a ‘My Brilliant Career’ Season 2? What Cast Has Said",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 8,
-          "slug": "4800f6c9-will-there-be-a-my-brilliant-career-season-2-what-cast-has-s"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Why Elspeth Sampson From Reacher Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Stuart Fails To Save The Universe Renewed For Season 2 At HBO Max",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        },
-        {
-          "title": "10 Best TV Shows Like Emmy Rossum's Furious",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "Adam Scott Says Daughter Had to Watch His ‘Office’ Audition Tape in Acting Class: “What Not to Do”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 9,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-24T17:39:06.423Z"
+  "lastUpdated": "2026-08-24T21:03:34.378Z"
 }
