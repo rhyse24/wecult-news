@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1522,
+  "totalArticles": 1524,
   "runs": [
+    {
+      "timestamp": "2026-08-24T17:39:06.423Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 226,
+      "totalCandidates": 84,
+      "written": [
+        {
+          "title": "GTA 6 Leaker Drops New Nudity-Filled Gameplay, Polls People on Whether to Release Story Spoilers",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "6ce95071-gta-6-leaker-drops-new-nudity-filled-gameplay-polls-people-o"
+        },
+        {
+          "title": "Nautus Exclusive Hands-On Preview: It Feels Like Mash-Up of Steamworld Dig and Subnautica",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "c0ef0500-nautus-exclusive-hands-on-preview-it-feels-like-mash-up-of-s"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-24T14:03:44.836Z",
       "status": "success",
@@ -2102,33 +2127,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-15T06:00:56.559Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 250,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "‘Avengers: Doomsday’ Trailer: Robert Downey Jr.’s Doctor Doom Faces Off Against Mister Fantastic, X-Men and Avengers With Army of Sentinels",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "slug": "3138502a-avengers-doomsday-trailer-robert-downey-jrs-doctor-doom-face"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Marvel’s ‘X-Men’ Reboot Sets May 2028 Release Date",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-24T14:03:44.836Z"
+  "lastUpdated": "2026-08-24T17:39:06.423Z"
 }
