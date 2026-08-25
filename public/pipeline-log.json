@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1525,
+  "totalArticles": 1528,
   "runs": [
+    {
+      "timestamp": "2026-08-25T00:19:05.804Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 233,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "‘Insidious: Out of the Further’ Director Jacob Chase to Helm Horror Movie ‘Sleepover’ for Blumhouse Atomic Monster and Universal",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "f57a128b-insidious-out-of-the-further-director-jacob-chase-to-helm-ho"
+        },
+        {
+          "title": "Disney Offers Executives Voluntary Early Retirement Packages Amid Overall Cost-Cutting Plans",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "636f27cf-disney-offers-executives-voluntary-early-retirement-packages"
+        },
+        {
+          "title": "Former Child Star Raquel Lee Sues Disney Over Alleged Rape at 14 by Ex-Employee",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "bd930d55-former-child-star-raquel-lee-sues-disney-over-alleged-rape-a"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-24T21:03:34.378Z",
       "status": "quota",
@@ -2046,39 +2078,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-15T10:00:56.689Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 246,
-      "totalCandidates": 17,
-      "written": [
-        {
-          "title": "What to Watch and Read This Weekend: The Intergalactic Adventures of Coach Taylor in Lanterns",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 17,
-          "slug": "5991f49f-what-to-watch-and-read-this-weekend-the-intergalactic-advent"
-        },
-        {
-          "title": "Solo Writer Jon Kasdan’s New Project Is a Supernatural YA Rom-Com for Netflix",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 12,
-          "slug": "9a86b865-solo-writer-jon-kasdans-new-project-is-a-supernatural-ya-rom"
-        },
-        {
-          "title": "X-Men ’97 Rushes to the Season Finale in “Survival of the Fittest”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "56be7336-x-men-97-rushes-to-the-season-finale-in-survival-of-the-fitt"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-24T21:03:34.378Z"
+  "lastUpdated": "2026-08-25T00:19:05.804Z"
 }
