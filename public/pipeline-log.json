@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1535,
+  "totalArticles": 1537,
   "runs": [
+    {
+      "timestamp": "2026-08-25T17:00:33.740Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 258,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": "Latest GTA 6 Leak References Irony Of The Game Being A Digital-Exclusive",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 15,
+          "slug": "7195ec7b-latest-gta-6-leak-references-irony-of-the-game-being-a-digit"
+        },
+        {
+          "title": "Despite being a Switch 2 exclusive, The Duskbloods closed network test had more applications than Elden Ring Nightreign",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 14,
+          "slug": "4ed3a598-despite-being-a-switch-2-exclusive-the-duskbloods-closed-net"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-25T13:39:22.904Z",
       "status": "quota",
@@ -2051,32 +2076,7 @@
       "totalCandidates": 40,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-15T20:00:25.287Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 226,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": " Matthew McConaughey could have played Joel in The Last of Us, but says 'it just wasn't for me at the time' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "8fd96bfa-matthew-mcconaughey-could-have-played-joel-in-the-last-of-us"
-        },
-        {
-          "title": "Can we stop delisting original games to force remasters?",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 13,
-          "slug": "d8c46e11-can-we-stop-delisting-original-games-to-force-remasters"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-25T13:39:22.904Z"
+  "lastUpdated": "2026-08-25T17:00:33.740Z"
 }
