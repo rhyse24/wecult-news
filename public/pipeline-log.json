@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1537,
+  "totalArticles": 1540,
   "runs": [
+    {
+      "timestamp": "2026-08-25T18:44:26.301Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 263,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Hits No. 2 on All-Time Domestic Chart, Topping ‘Avengers: Endgame’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "3e2ec929-spider-man-brand-new-day-hits-no-2-on-all-time-domestic-char"
+        },
+        {
+          "title": "‘The Dog Stars’ Jacob Elordi and Margaret Qualley on Why Apocalypse Movies Hit Different Right Now",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 14,
+          "slug": "bec460a0-the-dog-stars-jacob-elordi-and-margaret-qualley-on-why-apoca"
+        },
+        {
+          "title": "‘Backrooms’ Sets HBO Max Streaming Release Date",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "slug": "9b69c2a8-backrooms-sets-hbo-max-streaming-release-date"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-25T17:00:33.740Z",
       "status": "quota",
@@ -2066,17 +2098,7 @@
       "totalCandidates": 32,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-15T22:00:22.690Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 231,
-      "totalCandidates": 40,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-25T17:00:33.740Z"
+  "lastUpdated": "2026-08-25T18:44:26.301Z"
 }
