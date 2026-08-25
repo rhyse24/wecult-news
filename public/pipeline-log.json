@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1531,
+  "totalArticles": 1534,
   "runs": [
+    {
+      "timestamp": "2026-08-25T10:03:20.079Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 243,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "Na Hong-Jin’s ‘Hope,’ Netflix’s ‘Dead-End Job’ and ‘Blue Road,’ Disney+’s ‘The Remarried Empress’ Among Selections as Busan Unveils Korean Cinema Today, On Screen Lineups",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "4b9e59c5-na-hong-jins-hope-netflixs-dead-end-job-and-blue-road-disney"
+        },
+        {
+          "title": "Ridley Scott’s ‘The Dog Stars’: First Reactions",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "679e933b-ridley-scotts-the-dog-stars-first-reactions"
+        },
+        {
+          "title": "Brian Kavanaugh-Jones Joins ‘Backrooms’ Producer Oddfellows as Partner, Co-President",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "slug": "72162f9c-brian-kavanaugh-jones-joins-backrooms-producer-oddfellows-as"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jacob Chase Talks Personalizing ‘Insidious: Out of the Further’ and That Time He Made Ben Affleck’s Batman Cackle",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-25T06:37:23.004Z",
       "status": "quota",
@@ -2023,47 +2063,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-15T16:00:51.920Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 222,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Mahershala Ali Starred In This Forgotten Sci-Fi TV Show That's Worth Revisiting",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "d6ffe137-mahershala-ali-starred-in-this-forgotten-sci-fi-tv-show-that"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘VisionQuest’ Trailer: Paul Bettany and James Spader Return as Vision and Ultron in ‘WandaVision’ Trilogy Finale",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 19,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Ahsoka’ Season 2 Trailer: Ahsoka and Anakin Reunite as Grand Admiral Thrawn Declares War on the Rebels",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Jon Favreau’s ‘Oswald the Lucky Rabbit’ Miniseries Sets February Release Date on Disney+",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-25T06:37:23.004Z"
+  "lastUpdated": "2026-08-25T10:03:20.079Z"
 }
