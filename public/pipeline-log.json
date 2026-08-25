@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1529,
+  "totalArticles": 1531,
   "runs": [
+    {
+      "timestamp": "2026-08-25T06:37:23.004Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 230,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "Billie Piper confirms she's not The Doctor, kind of",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "slug": "e33116e9-billie-piper-confirms-shes-not-the-doctor-kind-of"
+        },
+        {
+          "title": "Reacher Was Partly Inspired By A Character Robert Urich Played In An '80s Crime Drama",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "2c5069e8-reacher-was-partly-inspired-by-a-character-robert-urich-play"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The Manhunters' comic history could hold the secret to Lanterns",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-25T03:38:19.417Z",
       "status": "quota",
@@ -2030,40 +2063,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-15T14:00:54.899Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 229,
-      "totalCandidates": 73,
-      "written": [
-        {
-          "title": "Talking Point: What Are You Playing This Weekend? (15th August)",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 13,
-          "slug": "3813acc0-talking-point-what-are-you-playing-this-weekend-15th-august"
-        },
-        {
-          "title": " Here's a first for Call of Duty: The Modern Warfare 4 beta will have a campaign mission and Warzone stuff ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 12,
-          "slug": "0f89893e-heres-a-first-for-call-of-duty-the-modern-warfare-4-beta-wil"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "I Hope GTA 6 Borrows a Lot From GTA 4",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-25T03:38:19.417Z"
+  "lastUpdated": "2026-08-25T06:37:23.004Z"
 }
