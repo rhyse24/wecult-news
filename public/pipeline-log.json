@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1528,
+  "totalArticles": 1529,
   "runs": [
+    {
+      "timestamp": "2026-08-25T03:38:19.417Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 232,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": " A disturbing '90s point-and-click horror game about waking up in a rundown asylum with no recollection of who you are is getting a glow up in 2026 ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "5f0bd7a5-a-disturbing-90s-point-and-click-horror-game-about-waking-up"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-25T00:19:05.804Z",
       "status": "success",
@@ -2045,40 +2063,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-15T12:01:03.582Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 237,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "HBO’s “Lanterns” Anchors Superhero Storytelling to Human Condition",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 14,
-          "slug": "8d5fb2db-hbos-lanterns-anchors-superhero-storytelling-to-human-condit"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Avengers: Doomsday’ Footage Shows Off a “Broken” Doctor Doom",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Avengers: Doomsday's Second Trailer Has Marvel Fans Saying The Same Thing",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-25T00:19:05.804Z"
+  "lastUpdated": "2026-08-25T03:38:19.417Z"
 }
