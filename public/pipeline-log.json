@@ -1,6 +1,59 @@
 {
-  "totalArticles": 1534,
+  "totalArticles": 1535,
   "runs": [
+    {
+      "timestamp": "2026-08-25T13:39:22.904Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 245,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Disney’s Lavish K-Drama ‘The Remarried Empress’ Sets Busan Premiere Ahead of Streaming Launch",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "2b8fa62a-disneys-lavish-k-drama-the-remarried-empress-sets-busan-prem"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Kit Harington Cast in ‘Harry Potter’ Season 2 as Gilderoy Lockhart, Replacing Nicholas Hoult",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Love Bait’ Netflix K-Drama: Everything We Know About the Upcoming Romance Thriller",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 8,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 15 words (max 12)"
+          ]
+        },
+        {
+          "title": "Nicola Coughlan and Arthur Hughes Cast in Netflix’s Roald Dahl ‘Tales of the Unexpected’ Series",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 8,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        },
+        {
+          "title": "Hayley Atwell didn't appreciate being \"frisbeed to death\" in Multiverse Of Madness",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 8,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-25T10:03:20.079Z",
       "status": "success",
@@ -2023,47 +2076,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-15T18:00:27.697Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 225,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "Box Office: ‘The End of Oak Street’ Chomps on $8.1 Million, But ‘Spider-Man: Brand New Day’ Is Still No. 1 With $19 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "62adfc6e-box-office-the-end-of-oak-street-chomps-on-81-million-but-sp"
-        },
-        {
-          "title": "VisionQuest Trailer Reveals First Look At Ultron's MCU Return [D23]",
-          "category": "film",
-          "source": "Looper",
-          "score": 13,
-          "slug": "68099fdd-visionquest-trailer-reveals-first-look-at-ultrons-mcu-return"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Avengers: Doomsday’ Footage Shows Off a “Broken” Doctor Doom",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Avengers: Doomsday's Second Trailer Has Marvel Fans Saying The Same Thing",
-          "category": "film",
-          "source": "Looper",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-25T10:03:20.079Z"
+  "lastUpdated": "2026-08-25T13:39:22.904Z"
 }
