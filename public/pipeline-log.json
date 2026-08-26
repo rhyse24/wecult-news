@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1543,
+  "totalArticles": 1544,
   "runs": [
+    {
+      "timestamp": "2026-08-26T06:01:55.540Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 263,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "5 Thor Moments That Prove Chris Hemsworth Is the True King of the MCU",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "19b95f92-5-thor-moments-that-prove-chris-hemsworth-is-the-true-king-o"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘The Dog Stars’ Review: Jacob Elordi’s Sensitive Survivalist Can’t Sustain a Dreary Dystopian Adventure",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-26T02:04:07.767Z",
       "status": "quota",
@@ -2077,40 +2103,7 @@
       "totalCandidates": 41,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-16T03:12:03.577Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 235,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "The Top Fantasy Movie From Every Decade",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "490db448-the-top-fantasy-movie-from-every-decade"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Still Soaring to Top Its Third Weekend With $67M",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Avengers: Doomsday's Second Trailer Has Marvel Fans Saying The Same Thing",
-          "category": "film",
-          "source": "Looper",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-26T02:04:07.767Z"
+  "lastUpdated": "2026-08-26T06:01:55.540Z"
 }
