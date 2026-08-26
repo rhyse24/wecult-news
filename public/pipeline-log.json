@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1552,
+  "totalArticles": 1555,
   "runs": [
+    {
+      "timestamp": "2026-08-26T21:22:06.817Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 272,
+      "totalCandidates": 94,
+      "written": [
+        {
+          "title": "GTA 6 confirms realistic NPCs, deeper relationships, body changes, social media system & more",
+          "category": "games",
+          "source": "Dexerto",
+          "score": 14,
+          "slug": "66505706-gta-6-confirms-realistic-npcs-deeper-relationships-body-chan"
+        },
+        {
+          "title": "Rockstar Games Doubled in Size for GTA 6, Hired Real World Professionals for Fashion, Vehicles, and More",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "91428dec-rockstar-games-doubled-in-size-for-gta-6-hired-real-world-pr"
+        },
+        {
+          "title": "Call of Duty: Modern Warfare 4 for Switch 2 Is Up for Preorder",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "9c001270-call-of-duty-modern-warfare-4-for-switch-2-is-up-for-preorde"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-26T17:45:41.842Z",
       "status": "quota",
@@ -2063,61 +2095,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-16T10:00:25.234Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 213,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "‘Monsters, Inc.’ Themed Land Will Open at Disney World in 2027",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "8989a25d-monsters-inc-themed-land-will-open-at-disney-world-in-2027"
-        },
-        {
-          "title": "Avengers: Doomsday's Second Trailer Has Marvel Fans Saying The Same Thing",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "slug": "9e3db4c2-avengers-doomsdays-second-trailer-has-marvel-fans-saying-the"
-        },
-        {
-          "title": "‘Shame and Money’ Director on Sundance-Winning Drama About a Kosovo Family in Free Fall: ‘It’s a Look Into the Past and a Warning to the Future’",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "10170006-shame-and-money-director-on-sundance-winning-drama-about-a-k"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Still Soaring to Top Its Third Weekend With $67M",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Scariest Movies in Film History",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 9,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "10 Greatest American Movies of the Last 15 Years",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-26T17:45:41.842Z"
+  "lastUpdated": "2026-08-26T21:22:06.817Z"
 }
