@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1550,
+  "totalArticles": 1552,
   "runs": [
+    {
+      "timestamp": "2026-08-26T17:45:41.842Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "Avengers Endgame: Encore Trailer Promises a Curious Doomsday Reward",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 14,
+          "slug": "f720cbdc-avengers-endgame-encore-trailer-promises-a-curious-doomsday-"
+        },
+        {
+          "title": "Josh Brolin Officially Won't Rule Out a Thanos Return to the MCU",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "slug": "628b75b3-josh-brolin-officially-wont-rule-out-a-thanos-return-to-the-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-26T14:00:31.994Z",
       "status": "success",
@@ -2092,47 +2117,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-16T08:00:21.941Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 229,
-      "totalCandidates": 70,
-      "written": [
-        {
-          "title": "'I Want to Set the Record Straight: That Is Not Happening' — Kingdom Hearts 4 Devs Say KH4 '100%' Will Not Be Delayed Past Late 2027 Launch | D23 2026",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "9f1cfedf-i-want-to-set-the-record-straight-that-is-not-happening-king"
-        },
-        {
-          "title": " Poll: Do you turn your PC off at night? ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "bf7d269f-poll-do-you-turn-your-pc-off-at-night"
-        },
-        {
-          "title": "I Hope GTA 6 Borrows a Lot From GTA 4",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 10,
-          "slug": "8b6936e8-i-hope-gta-6-borrows-a-lot-from-gta-4"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Call Of Duty: Modern Warfare 4 Open Beta Adds Campaign Mission 'Entrenched'",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-26T14:00:31.994Z"
+  "lastUpdated": "2026-08-26T17:45:41.842Z"
 }
