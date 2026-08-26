@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1540,
+  "totalArticles": 1542,
   "runs": [
+    {
+      "timestamp": "2026-08-25T22:11:50.090Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 260,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "Nick Offerman on Auditioning for ‘The Office’ Pre ‘Parks and Rec,’ and Scoring Emmy Noms for ‘Death by Lightning’ and ‘Margo’s Got Money Troubles’",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "46063d53-nick-offerman-on-auditioning-for-the-office-pre-parks-and-re"
+        },
+        {
+          "title": "The Walking Dead Universe on Netflix: A Complete Guide to Every Series Coming Soon and What’s Next",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 11,
+          "slug": "399122c9-the-walking-dead-universe-on-netflix-a-complete-guide-to-eve"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Save The Dates: Backrooms Hits Streaming, Stranger Things: Tales From '85 Season 2 Trailer, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 21,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-25T18:44:26.301Z",
       "status": "success",
@@ -2088,17 +2121,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-16T00:00:26.261Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 223,
-      "totalCandidates": 32,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-25T18:44:26.301Z"
+  "lastUpdated": "2026-08-25T22:11:50.090Z"
 }
