@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1547,
+  "totalArticles": 1550,
   "runs": [
+    {
+      "timestamp": "2026-08-26T14:00:31.994Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "‘Alice and Steve’ Renewed for Season 2 at Disney+ and Hulu",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 18,
+          "slug": "5a50a768-alice-and-steve-renewed-for-season-2-at-disney-and-hulu"
+        },
+        {
+          "title": "Disney+ Greenlights Wedding Planner Rom-Com Drama From Playwright Kate Cortesi",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 13,
+          "slug": "10dee02a-disney-greenlights-wedding-planner-rom-com-drama-from-playwr"
+        },
+        {
+          "title": "Ted Lasso puts its signature folksy spin on the Mean Girls formula",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "c919a65b-ted-lasso-puts-its-signature-folksy-spin-on-the-mean-girls-f"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-26T10:02:07.339Z",
       "status": "success",
@@ -2100,32 +2132,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-16T06:00:20.164Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 230,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "If You Miss ‘House of the Dragon,’ Watch These 15 TV Shows & Movies",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 12,
-          "slug": "7962c80d-if-you-miss-house-of-the-dragon-watch-these-15-tv-shows-movi"
-        },
-        {
-          "title": "Spoiler Space: The end of The End Of Oak Street is even kookier than its premise",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "6a5f3e20-spoiler-space-the-end-of-the-end-of-oak-street-is-even-kooki"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-26T10:02:07.339Z"
+  "lastUpdated": "2026-08-26T14:00:31.994Z"
 }
