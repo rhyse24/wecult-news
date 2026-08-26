@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1542,
+  "totalArticles": 1543,
   "runs": [
+    {
+      "timestamp": "2026-08-26T02:04:07.767Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 262,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Lanterns Isn’t Sure It’s Ready for a “Trust Fall”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 16,
+          "slug": "61182dc3-lanterns-isnt-sure-its-ready-for-a-trust-fall"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-25T22:11:50.090Z",
       "status": "quota",
@@ -2092,36 +2110,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-16T01:37:46.578Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 233,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "Doom stands Sentinel over Disney's new \"special look\" at Avengers: Doomsday",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 14,
-          "slug": "f9d1819a-doom-stands-sentinel-over-disneys-new-special-look-at-avenge"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Before Ted Lasso, Hannah Waddingham Appeared On A Live-Action DC Comics Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "quality_gate",
-          "errors": [
-            "TR body too short: 209 words (need ≥220)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-25T22:11:50.090Z"
+  "lastUpdated": "2026-08-26T02:04:07.767Z"
 }
