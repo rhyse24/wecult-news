@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1544,
+  "totalArticles": 1547,
   "runs": [
+    {
+      "timestamp": "2026-08-26T10:02:07.339Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 263,
+      "totalCandidates": 78,
+      "written": [
+        {
+          "title": "The Biggest Gaming Stories That Happened Since GTA 5 Came Out 13 Years Ago",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "bf68ca07-the-biggest-gaming-stories-that-happened-since-gta-5-came-ou"
+        },
+        {
+          "title": "Executives from EA and Tencent to speak alongside Netflix, Sony, and Disney at FT Business of Entertainment summit",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 12,
+          "slug": "a89eef9d-executives-from-ea-and-tencent-to-speak-alongside-netflix-so"
+        },
+        {
+          "title": "Final Fantasy 7 Revelation Gets New Trailer at Gamescom 2026 Showing off Submarine Combat, Weapons, and More",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 12,
+          "slug": "2c840d27-final-fantasy-7-revelation-gets-new-trailer-at-gamescom-2026"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-26T06:01:55.540Z",
       "status": "quota",
@@ -2093,17 +2125,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-16T04:49:09.454Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 233,
-      "totalCandidates": 41,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-26T06:01:55.540Z"
+  "lastUpdated": "2026-08-26T10:02:07.339Z"
 }
