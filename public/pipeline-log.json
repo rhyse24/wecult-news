@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1563,
+  "totalArticles": 1566,
   "runs": [
+    {
+      "timestamp": "2026-08-27T13:15:17.202Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 272,
+      "totalCandidates": 100,
+      "written": [
+        {
+          "title": "Bethesda Is Giving Away Free Copies of The Elder Scrolls Online with This New Fantasy Novel",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "9da7443a-bethesda-is-giving-away-free-copies-of-the-elder-scrolls-onl"
+        },
+        {
+          "title": "Elden Ring’s Messmer The Impaler Actor Is Reportedly In The Running To Be The Next James Bond",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "d003995d-elden-rings-messmer-the-impaler-actor-is-reportedly-in-the-r"
+        },
+        {
+          "title": "GTA 6 Wants To Remind You That Looks Matter In The Influencer Hustle Of Vice City",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "fdc97572-gta-6-wants-to-remind-you-that-looks-matter-in-the-influence"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-27T09:10:04.076Z",
       "status": "success",
@@ -2090,25 +2122,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-16T18:30:52.274Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 177,
-      "totalCandidates": 61,
-      "written": [
-        {
-          "title": " David Brevik, creator of Diablo, reveals the 'worst ending' to any game he's played:  'But I really love the game. It's amazing' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "0fa8c332-david-brevik-creator-of-diablo-reveals-the-worst-ending-to-a"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-27T09:10:04.076Z"
+  "lastUpdated": "2026-08-27T13:15:17.202Z"
 }
