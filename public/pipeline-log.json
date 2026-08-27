@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1560,
+  "totalArticles": 1563,
   "runs": [
+    {
+      "timestamp": "2026-08-27T09:10:04.076Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 47,
+      "written": [
+        {
+          "title": "‘Harry Potter’ Back to Hogwarts Initiative to Donate Over 200,000 Books to Schools and Hospitals (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "cef17981-harry-potter-back-to-hogwarts-initiative-to-donate-over-2000"
+        },
+        {
+          "title": "Uchū Nanchara Kotetsu-kun Film Streams 1st 2 Minutes, Casts Shōko Nakagawa",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 11,
+          "slug": "6a6da9da-uch-nanchara-kotetsu-kun-film-streams-1st-2-minutes-casts-sh"
+        },
+        {
+          "title": "Emmy-Winning Baobab Studios Lands Naver Ventures Investment, Sets ‘Shine’ as Flagship Title (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "cfce6996-emmy-winning-baobab-studios-lands-naver-ventures-investment-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-27T05:07:10.696Z",
       "status": "quota",
@@ -2076,33 +2108,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-16T16:23:40.625Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 182,
-      "totalCandidates": 22,
-      "written": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Hits $2 Billion Worldwide in Three Weeks",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "c1eecf26-spider-man-brand-new-day-hits-2-billion-worldwide-in-three-w"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Spider-Man: Brand New Day’ Remains No. 1 With $70 Million, ‘End of Oak Street’ Debuts to $21 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-27T05:07:10.696Z"
+  "lastUpdated": "2026-08-27T09:10:04.076Z"
 }
