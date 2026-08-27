@@ -2,6 +2,24 @@
   "totalArticles": 1566,
   "runs": [
     {
+      "timestamp": "2026-08-27T17:27:03.596Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 283,
+      "totalCandidates": 31,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Marvel Launches ‘Countdown to Avengers: Doomsday Official Podcast’ Ahead of Movie’s December Debut",
+          "category": "film",
+          "source": "Variety",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-27T13:15:17.202Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2097,32 +2115,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-16T20:36:10.149Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 173,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "Before Ted Lasso, Hannah Waddingham Played A Game Of Thrones Villain",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "311e3885-before-ted-lasso-hannah-waddingham-played-a-game-of-thrones-"
-        },
-        {
-          "title": "Why Amisha Hoth From Reacher Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "23603287-why-amisha-hoth-from-reacher-looks-so-familiar"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-27T13:15:17.202Z"
+  "lastUpdated": "2026-08-27T17:27:03.596Z"
 }
