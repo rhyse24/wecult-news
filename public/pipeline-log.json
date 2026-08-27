@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1555,
+  "totalArticles": 1558,
   "runs": [
+    {
+      "timestamp": "2026-08-27T01:11:37.154Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 274,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "The 10 Best TV Shows Like Lanterns",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "a06a365f-the-10-best-tv-shows-like-lanterns"
+        },
+        {
+          "title": "‘The Witcher’ Co-Producer Rae Benjamin to Receive Starz #TakeTheLead Award at Humanitas Event, Presented by Russell T Davies",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "ba238142-the-witcher-co-producer-rae-benjamin-to-receive-starz-taketh"
+        },
+        {
+          "title": "A very not-mad Chris Hansen buys ads before every screening of Primetime",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "slug": "c9826d10-a-very-not-mad-chris-hansen-buys-ads-before-every-screening-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-26T21:22:06.817Z",
       "status": "success",
@@ -2063,39 +2095,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-16T12:06:17.233Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 201,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "What To Watch Sunday: Lanterns Premiere, Disney Princess Special, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "d7e12e3b-what-to-watch-sunday-lanterns-premiere-disney-princess-speci"
-        },
-        {
-          "title": "RuPaul's Drag Race Renewed For Season 19 On MTV; All Stars 12 Also Ordered On Paramount+",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "eb599b03-rupauls-drag-race-renewed-for-season-19-on-mtv-all-stars-12-"
-        },
-        {
-          "title": "Disney Leaders Talk Streaming Strategy and Growth Drivers: Sports, Local Language, Vertical Media and Emerging Formats",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "ac54d4d3-disney-leaders-talk-streaming-strategy-and-growth-drivers-sp"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-26T21:22:06.817Z"
+  "lastUpdated": "2026-08-27T01:11:37.154Z"
 }
