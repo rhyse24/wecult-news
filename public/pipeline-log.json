@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1558,
+  "totalArticles": 1560,
   "runs": [
+    {
+      "timestamp": "2026-08-27T05:07:10.696Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "‘Coyote vs. Acme’ Cast and Crew Held a ‘Funeral Screening’ After the Movie Was Shelved: ‘Was Emotional in So Many Ways’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "e83ae3c0-coyote-vs-acme-cast-and-crew-held-a-funeral-screening-after-"
+        },
+        {
+          "title": "Lee Chang-dong Returns in First Trailer for Possible Love, South Korea’s Oscar Entry",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 12,
+          "slug": "392219c4-lee-chang-dong-returns-in-first-trailer-for-possible-love-so"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-27T01:11:37.154Z",
       "status": "success",
@@ -2077,25 +2102,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-16T14:16:46.181Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 188,
-      "totalCandidates": 4,
-      "written": [
-        {
-          "title": "As the Old Files Open, One Family Confronts Another’s Dark Nazi Past",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 7,
-          "slug": "71d94e7e-as-the-old-files-open-one-family-confronts-anothers-dark-naz"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-27T01:11:37.154Z"
+  "lastUpdated": "2026-08-27T05:07:10.696Z"
 }
