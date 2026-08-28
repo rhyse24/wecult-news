@@ -1,6 +1,49 @@
 {
-  "totalArticles": 1570,
+  "totalArticles": 1573,
   "runs": [
+    {
+      "timestamp": "2026-08-28T12:33:56.567Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 282,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Grant Morrison Wants More Sci-Fi in Lanterns: “Why Try to Make a Green Lantern Show on a Budget?”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 16,
+          "slug": "a40fcf32-grant-morrison-wants-more-sci-fi-in-lanterns-why-try-to-make"
+        },
+        {
+          "title": "New Report Reveals Top Actors for the Next James Bond",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "8e699d40-new-report-reveals-top-actors-for-the-next-james-bond"
+        },
+        {
+          "title": "Lit Hub Daily: August 28, 2026",
+          "category": "books",
+          "source": "Literary Hub",
+          "score": 12,
+          "slug": "226f3f56-lit-hub-daily-august-28-2026"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Love Faces Temporal & Political Challenges in Outlander: Blood of My Blood Season 2 Trailer",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 12,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 15 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-28T09:13:04.144Z",
       "status": "success",
@@ -1996,39 +2039,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-17T12:05:20.384Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 208,
-      "totalCandidates": 75,
-      "written": [
-        {
-          "title": "The Real Reason GTA 6’s Gameplay Reveal Is a Timed Netflix Exclusive",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 15,
-          "slug": "17da1cc6-the-real-reason-gta-6s-gameplay-reveal-is-a-timed-netflix-ex"
-        },
-        {
-          "title": "15 Marvel Movies And Shows You Need To Watch Before Avengers: Doomsday",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "slug": "1b0f6af7-15-marvel-movies-and-shows-you-need-to-watch-before-avengers"
-        },
-        {
-          "title": " The Elder Scrolls 6 is probably subtitled Sentinel, and there's been an easter egg in Starfield hinting at it this whole time ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "31c771c6-the-elder-scrolls-6-is-probably-subtitled-sentinel-and-there"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-28T09:13:04.144Z"
+  "lastUpdated": "2026-08-28T12:33:56.567Z"
 }
