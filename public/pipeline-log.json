@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1567,
+  "totalArticles": 1570,
   "runs": [
+    {
+      "timestamp": "2026-08-28T09:13:04.144Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 286,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "What Time Does ‘Grand Theft Auto VI: An Extended Look’ Drop on Netflix Today?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 15,
+          "slug": "c3f4983a-what-time-does-grand-theft-auto-vi-an-extended-look-drop-on-"
+        },
+        {
+          "title": "‘GTA 6’ Drops 27 Minutes of New In-Game Footage on Netflix Amid Ongoing Rockstar Games Leaks",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 11,
+          "slug": "91ba5381-gta-6-drops-27-minutes-of-new-in-game-footage-on-netflix-ami"
+        },
+        {
+          "title": "Peter Cullen Played A Robotic Villain In This Beloved '80s Live-Action Sci-Fi Show",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "4ca09dfd-peter-cullen-played-a-robotic-villain-in-this-beloved-80s-li"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-28T06:01:03.208Z",
       "status": "quota",
@@ -1996,25 +2028,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-17T06:47:29.453Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 168,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "Lanterns Episode 1 Review: Hued Detective",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 15,
-          "slug": "352e4c75-lanterns-episode-1-review-hued-detective"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-28T06:01:03.208Z"
+  "lastUpdated": "2026-08-28T09:13:04.144Z"
 }
