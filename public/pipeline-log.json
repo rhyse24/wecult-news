@@ -2,6 +2,16 @@
   "totalArticles": 1566,
   "runs": [
     {
+      "timestamp": "2026-08-28T00:33:33.188Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 286,
+      "totalCandidates": 29,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-27T21:12:07.441Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2049,50 +2059,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-17T00:18:06.364Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 172,
-      "totalCandidates": 58,
-      "written": [
-        {
-          "title": "The Blood of Dawnwalker Director Likens Parrying to Guitar Hero, Believes Most “Will Play This Way”",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 12,
-          "slug": "0c68d337-the-blood-of-dawnwalker-director-likens-parrying-to-guitar-h"
-        },
-        {
-          "title": "Fortnite's Missable Override Trailer Moment Teases Cyberpunk 2077's Return",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 12,
-          "slug": "1c511eee-fortnites-missable-override-trailer-moment-teases-cyberpunk-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Simu Liu Says Sleeping Dogs Movie Has 'a REAL Path Forward' Amid Dealmaking With Square Enix",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        },
-        {
-          "title": "Kingdom Hearts 4 Gets Extended Gameplay Trailer Featuring Playable Mickey, Donald, and Goofy | D23 2026",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-27T21:12:07.441Z"
+  "lastUpdated": "2026-08-28T00:33:33.188Z"
 }
