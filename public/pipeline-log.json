@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1573,
+  "totalArticles": 1574,
   "runs": [
+    {
+      "timestamp": "2026-08-28T16:01:05.195Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Stephen Curry Doc on Hitting 4,000 3-Pointers Set for Imax Run from Disney in October (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "8068ab24-stephen-curry-doc-on-hitting-4000-3-pointers-set-for-imax-ru"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-28T12:33:56.567Z",
       "status": "success",
@@ -2013,33 +2031,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-17T16:10:03.243Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 241,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "New Avengers: Doomsday Trailer Features an Iron Man Callback",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 17,
-          "slug": "e1d8e136-new-avengers-doomsday-trailer-features-an-iron-man-callback"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Hits $2B Globally to Top ‘No Way Home’ as Sony’s Biggest Release",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-28T12:33:56.567Z"
+  "lastUpdated": "2026-08-28T16:01:05.195Z"
 }
