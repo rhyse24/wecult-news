@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1566,
+  "totalArticles": 1567,
   "runs": [
+    {
+      "timestamp": "2026-08-28T06:01:03.208Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 286,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "Oscars: 7 Films That Could Define the Awards Season, From ‘The Odyssey’ to ‘Michael’",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "861d2095-oscars-7-films-that-could-define-the-awards-season-from-the-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-28T04:01:02.215Z",
       "status": "quota",
@@ -1996,54 +2014,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-17T04:10:28.282Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 174,
-      "totalCandidates": 20,
-      "written": [
-        {
-          "title": "Lanterns: Guardians of the Universe, Abin Sur, and the Green Lantern Corps Explained",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "slug": "894124c5-lanterns-guardians-of-the-universe-abin-sur-and-the-green-la"
-        },
-        {
-          "title": "Dwayne Johnson Leads Crowd in ‘Happy Birthday’ Song for Daughter Simone After Receiving Disney Legends Award at D23",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "fd38a482-dwayne-johnson-leads-crowd-in-happy-birthday-song-for-daught"
-        },
-        {
-          "title": "10 Best Oscar-Winning Period Movies",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "slug": "0853903e-10-best-oscar-winning-period-movies"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Hits $2B Globally to Top ‘No Way Home’ as Sony’s Biggest Release",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Anne Hathaway Tears Up as She’s Named a Disney Legend (and Her 2026 Box Office Crosses $2 Billion): ‘I’m One of the Most Insanely Lucky People in the World’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-28T04:01:02.215Z"
+  "lastUpdated": "2026-08-28T06:01:03.208Z"
 }
