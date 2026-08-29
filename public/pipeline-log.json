@@ -1,6 +1,35 @@
 {
-  "totalArticles": 1576,
+  "totalArticles": 1577,
   "runs": [
+    {
+      "timestamp": "2026-08-29T02:01:03.564Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "What’s Coming to Disney+ in September 2026",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "2d007bdc-whats-coming-to-disney-in-september-2026"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Before Becoming Ted Lasso's Jamie Tartt, Phil Dunster Was In A Popular British Spy Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-28T22:51:59.688Z",
       "status": "quota",
@@ -1987,36 +2016,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-18T03:33:06.517Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 258,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "Lanterns Begins a Story Spanning Decades in Its Premiere",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 18,
-          "slug": "7af1fe47-lanterns-begins-a-story-spanning-decades-in-its-premiere"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The End of Oak Street Might Be the Return of Good Bad Movies",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 16,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-28T22:51:59.688Z"
+  "lastUpdated": "2026-08-29T02:01:03.564Z"
 }
