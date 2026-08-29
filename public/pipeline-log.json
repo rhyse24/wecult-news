@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1587,
+  "totalArticles": 1590,
   "runs": [
+    {
+      "timestamp": "2026-08-29T13:18:39.377Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 262,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Unphased by discourse, Emily Wilson is translating The Odyssey, again",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 14,
+          "slug": "442f5e34-unphased-by-discourse-emily-wilson-is-translating-the-odysse"
+        },
+        {
+          "title": "Owen Thiele on Portraying Queer Friendship in ‘Adults,’ Working With Connor Storrie and Being a ‘Nepo Grandchild’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "7b759b5e-owen-thiele-on-portraying-queer-friendship-in-adults-working"
+        },
+        {
+          "title": "The blurst of times continues in new trailer for A Tale Of Two Cities",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "slug": "8e5c2668-the-blurst-of-times-continues-in-new-trailer-for-a-tale-of-t"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-29T10:00:59.553Z",
       "status": "success",
@@ -1992,47 +2024,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-18T22:21:56.558Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 270,
-      "totalCandidates": 95,
-      "written": [
-        {
-          "title": "Fallout 4 Patch Updates the Creation Kit, Fixes Various Bugs Including Steam Deck Crash",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "d25d16c9-fallout-4-patch-updates-the-creation-kit-fixes-various-bugs-"
-        },
-        {
-          "title": "Game Subscriptions You Might Secretly Already Have",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "295db1a5-game-subscriptions-you-might-secretly-already-have"
-        },
-        {
-          "title": "Apparent GTA 6 Footage And Map Leak As Rockstar Issues Takedowns",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "0311ba12-apparent-gta-6-footage-and-map-leak-as-rockstar-issues-taked"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Xbox Game Pass August 2026 Wave 2 Lineup Announced",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-29T10:00:59.553Z"
+  "lastUpdated": "2026-08-29T13:18:39.377Z"
 }
