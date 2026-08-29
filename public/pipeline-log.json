@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1591,
+  "totalArticles": 1593,
   "runs": [
+    {
+      "timestamp": "2026-08-29T20:01:02.577Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 234,
+      "totalCandidates": 22,
+      "written": [
+        {
+          "title": "Box Office: ‘The Dog Stars’ Struggles With Just $3 Million on Friday; ‘Spider-Man: Brand New Day’ to Win Weekend Again",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "dbb31fba-box-office-the-dog-stars-struggles-with-just-3-million-on-fr"
+        },
+        {
+          "title": "8 Movies That Blindsided the Box Office in 2026",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "e7c88833-8-movies-that-blindsided-the-box-office-in-2026"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-29T16:35:28.190Z",
       "status": "quota",
@@ -1985,32 +2010,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-19T05:28:49.532Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "The Major Marvel Netflix Character Cut From Spider-Man: Brand New Day",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "slug": "9f3b756f-the-major-marvel-netflix-character-cut-from-spider-man-brand"
-        },
-        {
-          "title": "8 Most Suspenseful Thrillers of the Last 100 Years",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "20cc2354-8-most-suspenseful-thrillers-of-the-last-100-years"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-29T16:35:28.190Z"
+  "lastUpdated": "2026-08-29T20:01:02.577Z"
 }
