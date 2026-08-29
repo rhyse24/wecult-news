@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1577,
+  "totalArticles": 1580,
   "runs": [
+    {
+      "timestamp": "2026-08-29T03:35:03.944Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 280,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Still in More Theaters Than Any Other Movie 5 Weekends Later",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "slug": "ad628074-spider-man-brand-new-day-still-in-more-theaters-than-any-oth"
+        },
+        {
+          "title": "‘Coyote vs. Acme’ Star Will Forte, Director Celebrate Film Finally Hitting Theaters After Being Shelved by Warner Bros.: “Proof Movies Don’t Just Go Away”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "87ca1711-coyote-vs-acme-star-will-forte-director-celebrate-film-final"
+        },
+        {
+          "title": "55 Years Later, These Are the 10 Best Movies of 1971",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "c7be8bc5-55-years-later-these-are-the-10-best-movies-of-1971"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-29T02:01:03.564Z",
       "status": "quota",
@@ -1984,39 +2016,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-18T07:37:44.027Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 257,
-      "totalCandidates": 23,
-      "written": [
-        {
-          "title": "‘Spider-Man: Brand New Day,’ ‘The Odyssey’ Continue Tussle Atop U.K., Ireland Box Office",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "slug": "6f6af6fd-spider-man-brand-new-day-the-odyssey-continue-tussle-atop-uk"
-        },
-        {
-          "title": "5 Recent Box Office Flops Everyone Saw Coming",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "2f4e5a3f-5-recent-box-office-flops-everyone-saw-coming"
-        },
-        {
-          "title": "All 7 X-Men Actors Announced at D23",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "e2cf4d0a-all-7-x-men-actors-announced-at-d23"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-29T02:01:03.564Z"
+  "lastUpdated": "2026-08-29T03:35:03.944Z"
 }
