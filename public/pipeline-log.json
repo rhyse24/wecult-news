@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1581,
+  "totalArticles": 1584,
   "runs": [
+    {
+      "timestamp": "2026-08-29T08:00:58.578Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 274,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "‘The Whisper Man’ Netflix Review: Star-Studded Serial Killer Thriller Falls Short of Its Terrifying Promise",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "74151aaf-the-whisper-man-netflix-review-star-studded-serial-killer-th"
+        },
+        {
+          "title": "Before Becoming Ted Lasso's Jamie Tartt, Phil Dunster Was In A Popular British Spy Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "5fc5497b-before-becoming-ted-lassos-jamie-tartt-phil-dunster-was-in-a"
+        },
+        {
+          "title": "10 Best TV Shows Like Ransom Canyon",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "91a9473c-10-best-tv-shows-like-ransom-canyon"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-29T06:24:59.744Z",
       "status": "quota",
@@ -1985,32 +2017,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-18T15:21:08.734Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Why Zoe Macon From Lanterns Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "784c96ff-why-zoe-macon-from-lanterns-looks-so-familiar"
-        },
-        {
-          "title": "The dinosaurs in The End Of Oak Street demand respect, not affection",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 14,
-          "slug": "5edc1caf-the-dinosaurs-in-the-end-of-oak-street-demand-respect-not-af"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-29T06:24:59.744Z"
+  "lastUpdated": "2026-08-29T08:00:58.578Z"
 }
