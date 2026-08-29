@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1580,
+  "totalArticles": 1581,
   "runs": [
+    {
+      "timestamp": "2026-08-29T06:24:59.744Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 90,
+      "written": [
+        {
+          "title": " 'Claude Strife': DLSS 5 has escaped into the wild, and things are immediately weird ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "a3a4a51c-claude-strife-dlss-5-has-escaped-into-the-wild-and-things-ar"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Rockstar Approached Netflix for Exclusive GTA 6 Extended Look, Not the Other Way Around",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-29T03:35:03.944Z",
       "status": "success",
@@ -1984,39 +2010,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-18T11:39:13.922Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 255,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "Deus Ex, System Shock, and Thief Developer Legend Warren Spector Announces Retirement",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "3c9bb3e1-deus-ex-system-shock-and-thief-developer-legend-warren-spect"
-        },
-        {
-          "title": "Five Games Are Leaving Xbox Game Pass In Late August 2026",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 13,
-          "slug": "e9d97423-five-games-are-leaving-xbox-game-pass-in-late-august-2026"
-        },
-        {
-          "title": "Samsung and Activision partner on Modern Warfare 4 with Odyssey G9 display tie-in",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 13,
-          "slug": "f6d565d4-samsung-and-activision-partner-on-modern-warfare-4-with-odys"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-29T03:35:03.944Z"
+  "lastUpdated": "2026-08-29T06:24:59.744Z"
 }
