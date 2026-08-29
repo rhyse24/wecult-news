@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1584,
+  "totalArticles": 1587,
   "runs": [
+    {
+      "timestamp": "2026-08-29T10:00:59.553Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 269,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Kartik Aaryan’s ‘Captain India’ Sets September London Shoot (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "7615c37c-kartik-aaryans-captain-india-sets-september-london-shoot-exc"
+        },
+        {
+          "title": "Shailene Woodley Was Crushed When She Found Out Her Scenes in ‘Amazing Spider-Man 2’ Were Cut: The Role of Mary Jane Was ‘My Dream’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "5d03aea9-shailene-woodley-was-crushed-when-she-found-out-her-scenes-i"
+        },
+        {
+          "title": "Meet Fernando Lindez, the ‘Elite’ Star Turned Hollywood Romantic Lead in ‘The Last Sunrise’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "slug": "14ac3ab2-meet-fernando-lindez-the-elite-star-turned-hollywood-romanti"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘The Song of Scorpions,’ ‘Qissa’ Director Anup Singh Sets Mumbai Film ‘Lasya: The Gentle Dance’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-29T08:00:58.578Z",
       "status": "success",
@@ -1992,32 +2032,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-18T18:45:45.899Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "Kevin Hart and Henry Cavill’s Netflix Spy Comedy Adds Jason Isaacs, Justine Lupe and Aja Naomi King (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "dca4a355-kevin-hart-and-henry-cavills-netflix-spy-comedy-adds-jason-i"
-        },
-        {
-          "title": "Hold Up, Does Avengers: Doomsday Have Two Doctor Dooms?",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "slug": "ce223089-hold-up-does-avengers-doomsday-have-two-doctor-dooms"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-29T08:00:58.578Z"
+  "lastUpdated": "2026-08-29T10:00:59.553Z"
 }
