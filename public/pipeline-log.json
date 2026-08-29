@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1574,
+  "totalArticles": 1576,
   "runs": [
+    {
+      "timestamp": "2026-08-28T22:51:59.688Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 93,
+      "written": [
+        {
+          "title": "12 Game, Movie, and TV Show Trailers You Might Have Missed This Week",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "33f8bc00-12-game-movie-and-tv-show-trailers-you-might-have-missed-thi"
+        },
+        {
+          "title": "Kick Streamer Neon Responds After Rockstar Seemingly Includes a Reference to Him in GTA 6 Netflix Showcase",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "bf6d7f9b-kick-streamer-neon-responds-after-rockstar-seemingly-include"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-28T18:01:02.614Z",
       "status": "quota",
@@ -1991,17 +2016,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-17T23:45:58.914Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 259,
-      "totalCandidates": 27,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-28T18:01:02.614Z"
+  "lastUpdated": "2026-08-28T22:51:59.688Z"
 }
