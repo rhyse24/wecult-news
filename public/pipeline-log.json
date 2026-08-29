@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1590,
+  "totalArticles": 1591,
   "runs": [
+    {
+      "timestamp": "2026-08-29T16:35:28.190Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 247,
+      "totalCandidates": 88,
+      "written": [
+        {
+          "title": "IGN's Top-Reviewed Nintendo Switch 2 Games",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "96cbb2c2-igns-top-reviewed-nintendo-switch-2-games"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-29T13:18:39.377Z",
       "status": "success",
@@ -1992,39 +2010,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-19T01:56:58.791Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 270,
-      "totalCandidates": 53,
-      "written": [
-        {
-          "title": "Let Backrooms, Obsession, and Oak Street be your off-ramps to The Twilight Zone",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "slug": "c6030135-let-backrooms-obsession-and-oak-street-be-your-off-ramps-to-"
-        },
-        {
-          "title": "‘House of the Dragon’ Star Wants to Know: “Where the F*** Is Mushroom?”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 14,
-          "slug": "6490433f-house-of-the-dragon-star-wants-to-know-where-the-f-is-mushro"
-        },
-        {
-          "title": "Shawn Hatosy on ‘The Pitt,’ Calls for a Night Shift Spinoff and Projects That Got Away — Including ‘Breaking Bad’!",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "slug": "1eed8d6f-shawn-hatosy-on-the-pitt-calls-for-a-night-shift-spinoff-and"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-29T13:18:39.377Z"
+  "lastUpdated": "2026-08-29T16:35:28.190Z"
 }
