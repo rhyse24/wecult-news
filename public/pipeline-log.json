@@ -2,6 +2,31 @@
   "totalArticles": 1605,
   "runs": [
     {
+      "timestamp": "2026-08-30T19:57:46.132Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 179,
+      "totalCandidates": 16,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Box Office: ‘The Dog Stars’ Bombs With $8 Million; ‘Spider-Man’ Continues Reign in Fifth Weekend",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Chris Hansen Gives Robert Pattinson Credit for His “Pretty Good Imitation” in ‘Primetime’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-08-30T15:44:35.248Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2031,40 +2056,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-20T04:45:02.005Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Anne Hathaway Pushed ‘Really Hard’ to Bring Julie Andrews Back for ‘Princess Diaries 3’ but the Icon Passed on the Role: ‘Whatever She Wants’",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "00745d73-anne-hathaway-pushed-really-hard-to-bring-julie-andrews-back"
-        },
-        {
-          "title": "Naomi Watts to Receive Zurich Film Festival’s Golden Eye Award for ‘The Housewife’",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "fc534cff-naomi-watts-to-receive-zurich-film-festivals-golden-eye-awar"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Aims to Swing Past ‘Insidious’ Sequel for Fourth Box Office Win",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-30T15:44:35.248Z"
+  "lastUpdated": "2026-08-30T19:57:46.132Z"
 }
