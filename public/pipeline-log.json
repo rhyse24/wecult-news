@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1603,
+  "totalArticles": 1605,
   "runs": [
+    {
+      "timestamp": "2026-08-30T15:44:35.248Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 188,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "This Forgotten Fox Sitcom Feels Like Pixar's Inside Out For Adults",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "40a97266-this-forgotten-fox-sitcom-feels-like-pixars-inside-out-for-a"
+        },
+        {
+          "title": "Sadsack Microsoft asking around whether anyone wants to try making a Halo show again",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "slug": "198014d1-sadsack-microsoft-asking-around-whether-anyone-wants-to-try-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Why Captain Josephina Carrillo From Lioness Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-30T11:39:45.067Z",
       "status": "success",
@@ -2031,25 +2064,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-20T01:03:28.782Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "Murderbot Season 2 Has an Incredible New Cast",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "d6557958-murderbot-season-2-has-an-incredible-new-cast"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-30T11:39:45.067Z"
+  "lastUpdated": "2026-08-30T15:44:35.248Z"
 }
