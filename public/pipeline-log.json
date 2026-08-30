@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1595,
+  "totalArticles": 1597,
   "runs": [
+    {
+      "timestamp": "2026-08-30T03:11:47.017Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 233,
+      "totalCandidates": 17,
+      "written": [
+        {
+          "title": "Lilly Wachowski Still Wants to Adapt Bang Bang Bodhisattva",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 9,
+          "slug": "a0a32919-lilly-wachowski-still-wants-to-adapt-bang-bang-bodhisattva"
+        },
+        {
+          "title": "August’s Best Reviewed Nonfiction",
+          "category": "books",
+          "source": "Literary Hub",
+          "score": 8,
+          "slug": "ebf72a04-augusts-best-reviewed-nonfiction"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-29T23:22:22.130Z",
       "status": "quota",
@@ -1985,25 +2010,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-19T14:45:59.356Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 88,
-      "written": [
-        {
-          "title": "Redfall Bosses Explain What Happened With The Failed Xbox Exclusive",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 15,
-          "slug": "8c4f72f9-redfall-bosses-explain-what-happened-with-the-failed-xbox-ex"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-29T23:22:22.130Z"
+  "lastUpdated": "2026-08-30T03:11:47.017Z"
 }
