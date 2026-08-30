@@ -1,6 +1,49 @@
 {
-  "totalArticles": 1600,
+  "totalArticles": 1603,
   "runs": [
+    {
+      "timestamp": "2026-08-30T11:39:45.067Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 204,
+      "totalCandidates": 80,
+      "written": [
+        {
+          "title": "GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 12,
+          "slug": "64417579-gta-6-will-have-no-microtransactions-or-generative-ai-at-lau"
+        },
+        {
+          "title": "Join Us: Watch 11 Minutes of Exclusive Gameplay from the Upcoming Cult Simulator | gamescom 2026",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "c8522e9b-join-us-watch-11-minutes-of-exclusive-gameplay-from-the-upco"
+        },
+        {
+          "title": " PSA: Swap the radial ability menu in Star Wars Zero Company for more of a trad XCOM-style experience ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "6cb8fe42-psa-swap-the-radial-ability-menu-in-star-wars-zero-company-f"
+        }
+      ],
+      "rejected": [
+        {
+          "title": " Activision serves cease and desist to infamous Call of Duty cheat maker—and films the whole thing: 'We will find you' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-30T07:21:30.318Z",
       "status": "success",
@@ -2006,40 +2049,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-19T21:41:27.482Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 264,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "Lanterns is “for the fans” in refreshing ways",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "slug": "f411ee37-lanterns-is-for-the-fans-in-refreshing-ways"
-        },
-        {
-          "title": "Lanterns Is a Gamble That DC Needs to Make Again in the Future",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 15,
-          "slug": "60d02c06-lanterns-is-a-gamble-that-dc-needs-to-make-again-in-the-futu"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Ted Lasso's Lady Greyhounds Unpack Gemma's Head-Versus-Heart Dilemma, Lizzie's Life Beyond Motherhood, And What's Holding Boots Back",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-30T07:21:30.318Z"
+  "lastUpdated": "2026-08-30T11:39:45.067Z"
 }
