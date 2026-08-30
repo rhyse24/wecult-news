@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1593,
+  "totalArticles": 1595,
   "runs": [
+    {
+      "timestamp": "2026-08-29T23:22:22.130Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 237,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "10 Yellowstone Characters Who Could Return In Dutton Ranch",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "fc4a0ecb-10-yellowstone-characters-who-could-return-in-dutton-ranch"
+        },
+        {
+          "title": "Why Tyland Lannister From House Of The Dragon Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "9fc8c913-why-tyland-lannister-from-house-of-the-dragon-looks-so-famil"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-29T20:01:02.577Z",
       "status": "quota",
@@ -1978,39 +2003,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-19T11:07:20.210Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 266,
-      "totalCandidates": 50,
-      "written": [
-        {
-          "title": "Ted Lasso decides to (thankfully) focus on the Lady Greyhounds",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "slug": "6681cc67-ted-lasso-decides-to-thankfully-focus-on-the-lady-greyhounds"
-        },
-        {
-          "title": "Ted Lasso Season 4 Release Schedule: When Do New Episodes Come Out On Apple TV?",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "d3342e1d-ted-lasso-season-4-release-schedule-when-do-new-episodes-com"
-        },
-        {
-          "title": "What To Watch Wednesday: ﻿Average Joe Returns, Lucky Ends, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "17e6b43f-what-to-watch-wednesday-average-joe-returns-lucky-ends-and-m"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-29T20:01:02.577Z"
+  "lastUpdated": "2026-08-29T23:22:22.130Z"
 }
