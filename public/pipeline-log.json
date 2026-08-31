@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1606,
+  "totalArticles": 1609,
   "runs": [
+    {
+      "timestamp": "2026-08-31T03:54:02.284Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 184,
+      "totalCandidates": 87,
+      "written": [
+        {
+          "title": "Fable's Main Quest Will Take About 20 Hours to Beat",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "slug": "fd24d7ee-fables-main-quest-will-take-about-20-hours-to-beat"
+        },
+        {
+          "title": "GTA 5's Michael Actor Defends GTA 6 After Doubters Say Rockstar's Games Look Too Similar",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "18b6d008-gta-5s-michael-actor-defends-gta-6-after-doubters-say-rockst"
+        },
+        {
+          "title": "This forgotten Rainbow Six spinoff would have thrived in a post-ARC Raiders world",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 13,
+          "slug": "7f9ba099-this-forgotten-rainbow-six-spinoff-would-have-thrived-in-a-p"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-30T23:55:56.314Z",
       "status": "quota",
@@ -2007,39 +2039,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-20T12:14:22.322Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 50,
-      "written": [
-        {
-          "title": "Where Was ‘Outer Banks’ Filmed? Complete Seasons 1-5 Filming Locations Guide",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 18,
-          "slug": "9feb7d68-where-was-outer-banks-filmed-complete-seasons-1-5-filming-lo"
-        },
-        {
-          "title": "‘Sid & Zoey’ YA Supernatural Horror Romance Series: What We Know So Far",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "e097b793-sid-zoey-ya-supernatural-horror-romance-series-what-we-know-"
-        },
-        {
-          "title": "What To Watch Thursday: Outer Banks Ends, ﻿ABC Game Shows Wrap, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "3b5d20f8-what-to-watch-thursday-outer-banks-ends-abc-game-shows-wrap-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-30T23:55:56.314Z"
+  "lastUpdated": "2026-08-31T03:54:02.284Z"
 }
