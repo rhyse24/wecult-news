@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1616,
+  "totalArticles": 1618,
   "runs": [
+    {
+      "timestamp": "2026-08-31T20:01:02.282Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 228,
+      "totalCandidates": 75,
+      "written": [
+        {
+          "title": "The Blood of Dawnwalker Review",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "bf6b34cc-the-blood-of-dawnwalker-review"
+        },
+        {
+          "title": "Housemarque Co-Founder Ilari Kuittinen Announces Exit from Saros Developer After 31 Years",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "e9d6d4af-housemarque-co-founder-ilari-kuittinen-announces-exit-from-s"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-31T18:23:54.862Z",
       "status": "quota",
@@ -1992,39 +2017,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-21T06:41:14.267Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 274,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Stuart Fails To Save The Universe Star Talks Kripke's Sexual Fluidity, Jokes Euphoria Would've Shown More Than Episode 5 Did",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "fd2699dd-stuart-fails-to-save-the-universe-star-talks-kripkes-sexual-"
-        },
-        {
-          "title": "5 TV Shows That Adapted The Story Of The Odyssey",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "29d2e246-5-tv-shows-that-adapted-the-story-of-the-odyssey"
-        },
-        {
-          "title": "How ‘Star Trek: Strange New Worlds’ Pulled Off That Madcap Puppet Episode",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "70b83f89-how-star-trek-strange-new-worlds-pulled-off-that-madcap-pupp"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-31T18:23:54.862Z"
+  "lastUpdated": "2026-08-31T20:01:02.282Z"
 }
