@@ -2,6 +2,16 @@
   "totalArticles": 1618,
   "runs": [
     {
+      "timestamp": "2026-08-31T22:01:02.319Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 228,
+      "totalCandidates": 33,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-31T20:01:02.282Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1985,39 +1995,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-21T10:28:20.248Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 269,
-      "totalCandidates": 85,
-      "written": [
-        {
-          "title": " Metal Gear Solid 4: Guns of the Patriots review ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 15,
-          "slug": "10166acc-metal-gear-solid-4-guns-of-the-patriots-review"
-        },
-        {
-          "title": "Spider-Man: Brand New Day Slammed For Its Use Of AI",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "slug": "1c75d3ea-spider-man-brand-new-day-slammed-for-its-use-of-ai"
-        },
-        {
-          "title": "Everything we know about Exodus: Release date, story, gameplay, companions, and more",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 13,
-          "slug": "91d2b513-everything-we-know-about-exodus-release-date-story-gameplay-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-31T20:01:02.282Z"
+  "lastUpdated": "2026-08-31T22:01:02.319Z"
 }
