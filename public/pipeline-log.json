@@ -2,6 +2,16 @@
   "totalArticles": 1615,
   "runs": [
     {
+      "timestamp": "2026-08-31T15:20:01.561Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 212,
+      "totalCandidates": 37,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-08-31T11:45:59.206Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2021,39 +2031,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-20T23:26:20.604Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 276,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Dave Bautista Officially Set as Kratos in ‘God of War’ TV Series",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 18,
-          "slug": "36b2c315-dave-bautista-officially-set-as-kratos-in-god-of-war-tv-seri"
-        },
-        {
-          "title": "The Odyssey defies gods, trillionaires, and Deadpool to become biggest R-rated movie ever",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 17,
-          "slug": "d0c860b8-the-odyssey-defies-gods-trillionaires-and-deadpool-to-become"
-        },
-        {
-          "title": "‘Lanterns’ EP Damon Lindelof Weighs In on 2026’s Adaptation Wars: “Shouldn’t We Be Beyond This by Now?”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "slug": "16581c2b-lanterns-ep-damon-lindelof-weighs-in-on-2026s-adaptation-war"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-08-31T11:45:59.206Z"
+  "lastUpdated": "2026-08-31T15:20:01.561Z"
 }
