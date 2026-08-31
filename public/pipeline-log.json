@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1609,
+  "totalArticles": 1612,
   "runs": [
+    {
+      "timestamp": "2026-08-31T07:47:18.869Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 182,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Lanterns' John Stewart Is A Lesson In Textbook Compartmentalization — Allow Aaron Pierre To Explain",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "4385a66d-lanterns-john-stewart-is-a-lesson-in-textbook-compartmentali"
+        },
+        {
+          "title": "What’s Happening with the Netflix ‘Minecraft’ Series?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 11,
+          "slug": "f2536f9f-whats-happening-with-the-netflix-minecraft-series"
+        },
+        {
+          "title": "10 Best New Movies on Netflix In September 2026",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "24e1bd75-10-best-new-movies-on-netflix-in-september-2026"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-31T03:54:02.284Z",
       "status": "success",
@@ -1996,50 +2028,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-20T15:48:28.642Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "8 Greatest Remakes of Classic Horror Movies",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "c1f79018-8-greatest-remakes-of-classic-horror-movies"
-        },
-        {
-          "title": "Only 4 Upcoming 2026 Movies Can Cross the Billion-Dollar Mark",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "89244566-only-4-upcoming-2026-movies-can-cross-the-billion-dollar-mar"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Aims to Swing Past ‘Insidious’ Sequel for Fourth Box Office Win",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Best Hong Kong Martial Arts Movies of the 1970s",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 645 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-31T03:54:02.284Z"
+  "lastUpdated": "2026-08-31T07:47:18.869Z"
 }
