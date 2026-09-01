@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1625,
+  "totalArticles": 1628,
   "runs": [
+    {
+      "timestamp": "2026-09-01T10:01:02.147Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 238,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "SND Swoops on Toronto-Bound Bérénice Bejo Starrer  ‘Alice: Pioneer of Cinema’ Ahead of Unifrance Rendez-Vous in Le Havre (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "slug": "ac248b6f-snd-swoops-on-toronto-bound-brnice-bejo-starrer-alice-pionee"
+        },
+        {
+          "title": "Xolo Maridueña Was Not Sure Blue Beetle Would Ever Come Back, Until James Gunn Called Him About the ‘Superman’ Sequel: ‘The Most Humbled’",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "b2f1e063-xolo-mariduea-was-not-sure-blue-beetle-would-ever-come-back-"
+        },
+        {
+          "title": "Vicon Acquires Facial Capture Firm Captive Devices (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "eb869be8-vicon-acquires-facial-capture-firm-captive-devices-exclusive"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "London Film Festival Sets Screen Talks With Andrew Scott, Cynthia Erivo, Jesse Eisenberg, Sofia Coppola and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-01T08:01:04.696Z",
       "status": "success",
@@ -1951,32 +1991,7 @@
       "totalCandidates": 85,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-22T02:31:18.735Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 262,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "‘The Odyssey’ Sets Digital, 4K Blu-ray Release Dates",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "d1cac579-the-odyssey-sets-digital-4k-blu-ray-release-dates"
-        },
-        {
-          "title": "‘Insidious: Out of the Further’ Hunts Down $3M in Box Office Previews",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "slug": "2b5dd6bc-insidious-out-of-the-further-hunts-down-3m-in-box-office-pre"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-01T08:01:04.696Z"
+  "lastUpdated": "2026-09-01T10:01:02.147Z"
 }
