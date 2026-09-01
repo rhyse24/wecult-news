@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1628,
+  "totalArticles": 1631,
   "runs": [
+    {
+      "timestamp": "2026-09-01T13:36:10.649Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 254,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": "The Witcher 4 Probably Won’t Be On A Disc, But Dev Teases Physical “Feelies” Of Some Type",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "ac1254a8-the-witcher-4-probably-wont-be-on-a-disc-but-dev-teases-phys"
+        },
+        {
+          "title": " The Witcher 3 Remastered should run just fine on the Steam Deck, say devs ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "11dd893c-the-witcher-3-remastered-should-run-just-fine-on-the-steam-d"
+        },
+        {
+          "title": "Here's A Look At 30 New GTA 6 Screenshots To Hype You Up After The Extended Preview",
+          "category": "games",
+          "source": "Pure Xbox",
+          "score": 13,
+          "slug": "b9d8cff4-heres-a-look-at-30-new-gta-6-screenshots-to-hype-you-up-afte"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-01T10:01:02.147Z",
       "status": "success",
@@ -1981,17 +2013,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-22T06:48:45.851Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 260,
-      "totalCandidates": 85,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-01T10:01:02.147Z"
+  "lastUpdated": "2026-09-01T13:36:10.649Z"
 }
