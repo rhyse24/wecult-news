@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1620,
+  "totalArticles": 1622,
   "runs": [
+    {
+      "timestamp": "2026-09-01T04:21:56.699Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 231,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Whose show is Lanterns anyway?",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "fcee4fc3-whose-show-is-lanterns-anyway"
+        },
+        {
+          "title": "‘Gargoyles’ Live-Action Series Not Moving Forward at Disney+",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "80945af1-gargoyles-live-action-series-not-moving-forward-at-disney"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-01T01:14:23.444Z",
       "status": "quota",
@@ -1951,36 +1976,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-21T18:34:01.005Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Yahya Abdul-Mateen II Opens Up About ‘Wonder Man’ Un-Renewal: “It’s a Lesson in Life”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "slug": "06e47233-yahya-abdul-mateen-ii-opens-up-about-wonder-man-un-renewal-i"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Bass X Machina’ Deep Dive: Everything We Learned About The New Series At Anime NYC",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-01T01:14:23.444Z"
+  "lastUpdated": "2026-09-01T04:21:56.699Z"
 }
