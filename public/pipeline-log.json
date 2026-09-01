@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1622,
+  "totalArticles": 1625,
   "runs": [
+    {
+      "timestamp": "2026-09-01T08:01:04.696Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 233,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "Lanterns Sheds Light on Some Essential Backstory in “OutKast”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 17,
+          "slug": "8ceee3ff-lanterns-sheds-light-on-some-essential-backstory-in-outkast"
+        },
+        {
+          "title": "Celebrating the Great Tim Curry’s Ten Greatest Roles",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 12,
+          "slug": "64237ec4-celebrating-the-great-tim-currys-ten-greatest-roles"
+        },
+        {
+          "title": "7 Books That Take Readers to Extraordinary, Uncharted Regions",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 8,
+          "slug": "ef2bfdf6-7-books-that-take-readers-to-extraordinary-uncharted-regions"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-01T04:21:56.699Z",
       "status": "quota",
@@ -1944,39 +1976,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-21T22:28:38.637Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 266,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Why The Vast of Night Mysteriously Disappeared From Streaming",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 11,
-          "slug": "c6942124-why-the-vast-of-night-mysteriously-disappeared-from-streamin"
-        },
-        {
-          "title": "What Should You Watch This Weekend?",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 10,
-          "slug": "6e6df6f6-what-should-you-watch-this-weekend"
-        },
-        {
-          "title": "Jess Lourey on Paul Michael Stephani and Writing a Novel Inspired by a Serial Killer",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 9,
-          "slug": "8ce7ee28-jess-lourey-on-paul-michael-stephani-and-writing-a-novel-ins"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-01T04:21:56.699Z"
+  "lastUpdated": "2026-09-01T08:01:04.696Z"
 }
