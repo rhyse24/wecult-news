@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1631,
+  "totalArticles": 1633,
   "runs": [
+    {
+      "timestamp": "2026-09-01T17:26:56.455Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "Coyote vs. Acme Reception Confirms the Looney Tunes Have Long Deserved Better",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 19,
+          "slug": "69580d62-coyote-vs-acme-reception-confirms-the-looney-tunes-have-long"
+        },
+        {
+          "title": "HBO Max to Revamp Harry Potter Film Rewatch Podcast Into Companion Series for New TV Show (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 16,
+          "slug": "074fd445-hbo-max-to-revamp-harry-potter-film-rewatch-podcast-into-com"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "5 Best TV Shows You Probably Didn't Know Were Based On Comics",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-01T13:36:10.649Z",
       "status": "success",
@@ -1981,39 +2014,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-22T10:41:40.053Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 255,
-      "totalCandidates": 85,
-      "written": [
-        {
-          "title": "Among Shadows is a Nightreign-style dark fantasy RPG with a touch of Among Us that makes me think wistfully of Dark Souls at its most treacherous",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 12,
-          "slug": "13a7b53e-among-shadows-is-a-nightreign-style-dark-fantasy-rpg-with-a-"
-        },
-        {
-          "title": "Double Fine confirms it owns all its games' IP and publishing rights after Xbox split",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 11,
-          "slug": "f82bfccb-double-fine-confirms-it-owns-all-its-games-ip-and-publishing"
-        },
-        {
-          "title": " Still more GTA 6 details from the latest leaked video: traffic cameras, car trackers, and drivers that put up a fight ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "8638c381-still-more-gta-6-details-from-the-latest-leaked-video-traffi"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-01T13:36:10.649Z"
+  "lastUpdated": "2026-09-01T17:26:56.455Z"
 }
