@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1618,
+  "totalArticles": 1620,
   "runs": [
+    {
+      "timestamp": "2026-09-01T01:14:23.444Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 232,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "AMC Theatres Launches Indie Distribution Label Leawood Films; Veteran Hollywood Execs to Advise",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "450b8aee-amc-theatres-launches-indie-distribution-label-leawood-films"
+        },
+        {
+          "title": "5 Movie Trilogies That Ended Poorly",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "263ba10f-5-movie-trilogies-that-ended-poorly"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-08-31T22:01:02.319Z",
       "status": "quota",
@@ -1955,47 +1980,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-21T14:26:46.547Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 270,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Chris Hansen Didn’t Watch ‘Primetime’ Screening Because “A24 Wanted Me to Sign Away My Rights”",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "79fd315b-chris-hansen-didnt-watch-primetime-screening-because-a24-wan"
-        },
-        {
-          "title": "Liminal Spaces, Transitional States: Alexander Ullom on “It Ends”",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 10,
-          "slug": "435a0c55-liminal-spaces-transitional-states-alexander-ullom-on-it-end"
-        },
-        {
-          "title": "10 Most Universally Loved Movie Trilogies of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "d21e38d8-10-most-universally-loved-movie-trilogies-of-all-time"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Greatest Neo-Noirs of the '90s",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-08-31T22:01:02.319Z"
+  "lastUpdated": "2026-09-01T01:14:23.444Z"
 }
