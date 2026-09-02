@@ -2,6 +2,16 @@
   "totalArticles": 1641,
   "runs": [
     {
+      "timestamp": "2026-09-02T20:36:57.721Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 45,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-09-02T17:25:47.472Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1917,43 +1927,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-23T14:16:32.541Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 197,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "One Piece Expands Season 3 Cast As Netflix Series Journeys To Alabasta",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "b3948047-one-piece-expands-season-3-cast-as-netflix-series-journeys-t"
-        },
-        {
-          "title": "One Piece Announces 2 New Anime Films",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 11,
-          "slug": "f9e9210c-one-piece-announces-2-new-anime-films"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Squid Game’ & ‘Umbrella Academy’ Stars Join Ryu Jun Yeol in Netflix’s Australian Mystery Thriller ‘Outback’",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 9,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-02T17:25:47.472Z"
+  "lastUpdated": "2026-09-02T20:36:57.721Z"
 }
