@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1639,
+  "totalArticles": 1641,
   "runs": [
+    {
+      "timestamp": "2026-09-02T14:01:44.810Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "7 Best Movies To Watch if You Love HBO's Lanterns ",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 21,
+          "slug": "19855fce-7-best-movies-to-watch-if-you-love-hbos-lanterns"
+        },
+        {
+          "title": "‘Spider-Man: Brand New Day’ Stays in Full Swing Atop U.K., Ireland Box Office as ‘The Odyssey’ Continues Voyage",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "slug": "27ce79ed-spider-man-brand-new-day-stays-in-full-swing-atop-uk-ireland"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-02T08:29:28.957Z",
       "status": "success",
@@ -1950,28 +1975,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-23T06:27:47.887Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 231,
-      "totalCandidates": 19,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Insidious: Out of the Further’ Takes First Place on Friday With $10.6 Million, but ‘Spider-Man: Brand New Day’ Will Win the Weekend",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-02T08:29:28.957Z"
+  "lastUpdated": "2026-09-02T14:01:44.810Z"
 }
