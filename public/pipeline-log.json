@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1634,
+  "totalArticles": 1636,
   "runs": [
+    {
+      "timestamp": "2026-09-02T00:59:10.881Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 87,
+      "written": [
+        {
+          "title": "Resident Evil 2 Director Hideki Kamiya Says Capcom Has Grown 'Numb' To How Scary New RE Games Are",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 18,
+          "slug": "b536e006-resident-evil-2-director-hideki-kamiya-says-capcom-has-grown"
+        },
+        {
+          "title": " Ken and Ryu work things out in a new trailer for Street Fighter ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 18,
+          "slug": "6fc12808-ken-and-ryu-work-things-out-in-a-new-trailer-for-street-figh"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "GTA 6’s Extended Look Trailer Seemingly Paid Off For Netflix With Massive Viewership",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-01T21:02:40.184Z",
       "status": "quota",
@@ -1960,47 +1993,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-22T18:24:05.300Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 240,
-      "totalCandidates": 20,
-      "written": [
-        {
-          "title": "Why Do We Love Spider-Man So Much?",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "39843bf1-why-do-we-love-spider-man-so-much"
-        },
-        {
-          "title": "Actor Michael Wright, Star of ‘The Five Heartbeats’ and ‘V,’ Dies at 70",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "3d0cf1dc-actor-michael-wright-star-of-the-five-heartbeats-and-v-dies-"
-        },
-        {
-          "title": "'Insidious: Out of the Further's Stars Promise \"There's Much More to This Franchise\"",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 9,
-          "slug": "0dcd0f0a-insidious-out-of-the-furthers-stars-promise-theres-much-more"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Insidious: Out of the Further’ Takes First Place on Friday With $10.6 Million, But ‘Spider-Man: Brand New Day’ Will Win the Weekend",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-01T21:02:40.184Z"
+  "lastUpdated": "2026-09-02T00:59:10.881Z"
 }
