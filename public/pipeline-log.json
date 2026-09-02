@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1636,
+  "totalArticles": 1639,
   "runs": [
+    {
+      "timestamp": "2026-09-02T08:29:28.957Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 283,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Hyun Bin and Woo Do-hwan Turn Against Each Other in Hulu and Disney+’s ‘Made in Korea’ Season 2",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "2b187b2d-hyun-bin-and-woo-do-hwan-turn-against-each-other-in-hulu-and"
+        },
+        {
+          "title": "‘The Whisper Man’ Debuts As Sixth Biggest Movie of 2026 in Netflix Top 10s with 23.2M Views",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "ad5247c5-the-whisper-man-debuts-as-sixth-biggest-movie-of-2026-in-net"
+        },
+        {
+          "title": "Ji Chang-wook and Imada Mio’s Korean-Japanese Romcom ‘Merry Berry Love’ Sets October Disney+, Hulu Bow",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "5147c98c-ji-chang-wook-and-imada-mios-korean-japanese-romcom-merry-be"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-02T04:52:35.925Z",
       "status": "quota",
@@ -1939,39 +1971,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-23T02:18:53.770Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 228,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "10 Most Underrated Episodes Of The Twilight Zone",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "a874e755-10-most-underrated-episodes-of-the-twilight-zone"
-        },
-        {
-          "title": "Taylor Sheridan Accused of Stealing ‘Yellowstone’ From 2016 Pitch in Copyright Lawsuit",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "slug": "b307d2c7-taylor-sheridan-accused-of-stealing-yellowstone-from-2016-pi"
-        },
-        {
-          "title": "How ‘Abbott Elementary’ Pulled Off Its Big Phillies Game Episode",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "slug": "bce980b1-how-abbott-elementary-pulled-off-its-big-phillies-game-episo"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-02T04:52:35.925Z"
+  "lastUpdated": "2026-09-02T08:29:28.957Z"
 }
