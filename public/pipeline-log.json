@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1651,
+  "totalArticles": 1653,
   "runs": [
+    {
+      "timestamp": "2026-09-03T22:01:19.986Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "‘Atonement’ Trailer: First Look at Reed Van Dyk’s Searing War Movie About Combat Guilt and the Anguish of Loss (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "9b4aa598-atonement-trailer-first-look-at-reed-van-dyks-searing-war-mo"
+        },
+        {
+          "title": "It’s ‘John Wick’ Meets Bigfoot as Genre Banner Badlands Picks up Horror Script ‘Wildman’ (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "c6d266e8-its-john-wick-meets-bigfoot-as-genre-banner-badlands-picks-u"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-03T19:11:54.427Z",
       "status": "quota",
@@ -1861,25 +1886,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-24T21:03:34.378Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 226,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "Kit Harington Joins ‘Harry Potter’ Season 2 as Gilderoy Lockhart, Replacing Nicholas Hoult",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "fd7e8593-kit-harington-joins-harry-potter-season-2-as-gilderoy-lockha"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-03T19:11:54.427Z"
+  "lastUpdated": "2026-09-03T22:01:19.986Z"
 }
