@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1644,
+  "totalArticles": 1645,
   "runs": [
+    {
+      "timestamp": "2026-09-03T02:56:00.469Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Over 600 Unused Voice Lines From Resident Evil 4 Leak Online, Showing That Capcom Intended to Connect the Game to Village",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 18,
+          "slug": "4e2b4a0e-over-600-unused-voice-lines-from-resident-evil-4-leak-online"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-02T23:44:22.193Z",
       "status": "success",
@@ -1915,33 +1933,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-23T21:24:29.870Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 179,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "5 Best Sam Peckinpah Western Movies",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "aed6a6b4-5-best-sam-peckinpah-western-movies"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Box Office: ‘Spider-Man: Brand New Day’ Triumphs Again in Fourth Weekend With $39 Million, ‘Insidious 6’ Launches to $25 Million",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-02T23:44:22.193Z"
+  "lastUpdated": "2026-09-03T02:56:00.469Z"
 }
