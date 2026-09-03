@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1645,
+  "totalArticles": 1648,
   "runs": [
+    {
+      "timestamp": "2026-09-03T06:16:04.983Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 274,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Andrew Garfield Hasn’t Seen ‘Spider-Man: Brand New Day’ Yet and Insists He’s Not in ‘Avengers: Doomsday’",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "9ddeaa34-andrew-garfield-hasnt-seen-spider-man-brand-new-day-yet-and-"
+        },
+        {
+          "title": "Ryan Reynolds Praises ‘The Odyssey’ After Passing ‘Deadpool & Wolverine’ to Become Biggest R-Rated Movie Ever: ‘Christopher Nolan Literally Breathes The Rarest Air on Earth’",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "b780640d-ryan-reynolds-praises-the-odyssey-after-passing-deadpool-wol"
+        },
+        {
+          "title": "George Lucas Says Opening Lucas Museum ‘Almost Broke My Will’: ‘It’s Taken So Long to Get Here’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "a25639d0-george-lucas-says-opening-lucas-museum-almost-broke-my-will-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-03T02:56:00.469Z",
       "status": "quota",
@@ -1905,35 +1937,7 @@
       "totalCandidates": 38,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-24T00:52:45.721Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 175,
-      "totalCandidates": 34,
-      "written": [],
-      "rejected": [
-        {
-          "title": "‘One Piece’ Season 3 Casts Its Koza, Toto, Pell and Chaka",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Shelley Fabares, Star Of Coach And The Donna Reed Show, Dead At 82",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-03T02:56:00.469Z"
+  "lastUpdated": "2026-09-03T06:16:04.983Z"
 }
