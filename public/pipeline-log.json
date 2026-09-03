@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1648,
+  "totalArticles": 1649,
   "runs": [
+    {
+      "timestamp": "2026-09-03T12:42:28.443Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "Guy Ritchie romp The Gentlemen expands its empire of excess in season 2",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "a367fc2d-guy-ritchie-romp-the-gentlemen-expands-its-empire-of-excess-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-03T09:41:51.140Z",
       "status": "quota",
@@ -1905,39 +1923,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-24T07:02:57.398Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 180,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Lanterns: What Does ‘Mogo Doesn’t Socialize’ Mean?",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 15,
-          "slug": "8273ce43-lanterns-what-does-mogo-doesnt-socialize-mean"
-        },
-        {
-          "title": "Lanterns: The Manhunters Are The Messiest Bad Guys in DC History",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 15,
-          "slug": "fd9b6996-lanterns-the-manhunters-are-the-messiest-bad-guys-in-dc-hist"
-        },
-        {
-          "title": "Lanterns Episode 2 Review: Charging Up By Powering Down",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 15,
-          "slug": "d87f123f-lanterns-episode-2-review-charging-up-by-powering-down"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-03T09:41:51.140Z"
+  "lastUpdated": "2026-09-03T12:42:28.443Z"
 }
