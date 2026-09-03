@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1641,
+  "totalArticles": 1644,
   "runs": [
+    {
+      "timestamp": "2026-09-02T23:44:22.193Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 278,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Brad Bird’s ‘Ray Gunn’: Netflix Release Date, Runtime, Plot, Cast & Everything We Know",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 15,
+          "slug": "12660a93-brad-birds-ray-gunn-netflix-release-date-runtime-plot-cast-e"
+        },
+        {
+          "title": "Carla Jeffery, Star Of Disney Channel's Zombies, Dead At 33",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "3c6980b6-carla-jeffery-star-of-disney-channels-zombies-dead-at-33"
+        },
+        {
+          "title": "10 Best TV Shows Like SEAL Team",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "5c34ace2-10-best-tv-shows-like-seal-team"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-02T20:36:57.721Z",
       "status": "quota",
@@ -1909,25 +1941,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-23T17:45:37.174Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 182,
-      "totalCandidates": 79,
-      "written": [
-        {
-          "title": "Marvel’s Wolverine Limited-Edition PS5 Controller Is Still Available for Preorder (But It May Sell Out)",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "3fdaf6dc-marvels-wolverine-limited-edition-ps5-controller-is-still-av"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-02T20:36:57.721Z"
+  "lastUpdated": "2026-09-02T23:44:22.193Z"
 }
