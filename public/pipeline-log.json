@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1653,
+  "totalArticles": 1655,
   "runs": [
+    {
+      "timestamp": "2026-09-04T00:36:32.720Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Turkish GTA 6 Fans Want Language Support So Badly, They Professionally Dubbed the Gameplay Reveal",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "bfdfddfe-turkish-gta-6-fans-want-language-support-so-badly-they-profe"
+        },
+        {
+          "title": "Miami-Dade Sheriff and Commissioner Slam City's Proposed GTA 6 Takeover for 'Promoting Fictional Version of Our Community Defined by Crime and Violence'",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "bbb936be-miami-dade-sheriff-and-commissioner-slam-citys-proposed-gta-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-03T22:01:19.986Z",
       "status": "quota",
@@ -1854,39 +1879,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-25T00:19:05.804Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 233,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "‘Insidious: Out of the Further’ Director Jacob Chase to Helm Horror Movie ‘Sleepover’ for Blumhouse Atomic Monster and Universal",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "f57a128b-insidious-out-of-the-further-director-jacob-chase-to-helm-ho"
-        },
-        {
-          "title": "Disney Offers Executives Voluntary Early Retirement Packages Amid Overall Cost-Cutting Plans",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "636f27cf-disney-offers-executives-voluntary-early-retirement-packages"
-        },
-        {
-          "title": "Former Child Star Raquel Lee Sues Disney Over Alleged Rape at 14 by Ex-Employee",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "bd930d55-former-child-star-raquel-lee-sues-disney-over-alleged-rape-a"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-03T22:01:19.986Z"
+  "lastUpdated": "2026-09-04T00:36:32.720Z"
 }
