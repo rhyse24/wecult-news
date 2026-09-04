@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1660,
+  "totalArticles": 1663,
   "runs": [
+    {
+      "timestamp": "2026-09-04T10:08:38.808Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 73,
+      "written": [
+        {
+          "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 14,
+          "slug": "3d5902df-gta-6-netflix-preview-causes-playstation-and-xbox-hardware-s"
+        },
+        {
+          "title": "Miami-Dade police outraged by proposals to turn parts of Miami into GTA 6, saying that Rockstar's game embodies what they \"work every single day to prevent\"",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 13,
+          "slug": "5831d874-miami-dade-police-outraged-by-proposals-to-turn-parts-of-mia"
+        },
+        {
+          "title": "GTA 6 Marketing Plans Hit A Roadblock With Miami Officials",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 12,
+          "slug": "71052fcc-gta-6-marketing-plans-hit-a-roadblock-with-miami-officials"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Round Up: What Was Announced in Sony's State of Play Livestream for September 2026?",
+          "category": "games",
+          "source": "Push Square",
+          "score": 12,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-04T06:57:02.592Z",
       "status": "success",
@@ -1845,47 +1885,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-25T10:03:20.079Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 243,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "Na Hong-Jin’s ‘Hope,’ Netflix’s ‘Dead-End Job’ and ‘Blue Road,’ Disney+’s ‘The Remarried Empress’ Among Selections as Busan Unveils Korean Cinema Today, On Screen Lineups",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "4b9e59c5-na-hong-jins-hope-netflixs-dead-end-job-and-blue-road-disney"
-        },
-        {
-          "title": "Ridley Scott’s ‘The Dog Stars’: First Reactions",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "679e933b-ridley-scotts-the-dog-stars-first-reactions"
-        },
-        {
-          "title": "Brian Kavanaugh-Jones Joins ‘Backrooms’ Producer Oddfellows as Partner, Co-President",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 10,
-          "slug": "72162f9c-brian-kavanaugh-jones-joins-backrooms-producer-oddfellows-as"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jacob Chase Talks Personalizing ‘Insidious: Out of the Further’ and That Time He Made Ben Affleck’s Batman Cackle",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-04T06:57:02.592Z"
+  "lastUpdated": "2026-09-04T10:08:38.808Z"
 }
