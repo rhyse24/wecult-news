@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1655,
+  "totalArticles": 1657,
   "runs": [
+    {
+      "timestamp": "2026-09-04T03:53:41.204Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "The Odyssey to just go on conquering IMAX screens for another month",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "19ddcd3d-the-odyssey-to-just-go-on-conquering-imax-screens-for-anothe"
+        },
+        {
+          "title": "Rick Riordan’s ‘Kane Chronicles’ Series in the Works at Disney+",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "2fe7e948-rick-riordans-kane-chronicles-series-in-the-works-at-disney"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-04T00:36:32.720Z",
       "status": "quota",
@@ -1861,25 +1886,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-25T03:38:19.417Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 232,
-      "totalCandidates": 91,
-      "written": [
-        {
-          "title": " A disturbing '90s point-and-click horror game about waking up in a rundown asylum with no recollection of who you are is getting a glow up in 2026 ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "5f0bd7a5-a-disturbing-90s-point-and-click-horror-game-about-waking-up"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-04T00:36:32.720Z"
+  "lastUpdated": "2026-09-04T03:53:41.204Z"
 }
