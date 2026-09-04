@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1663,
+  "totalArticles": 1665,
   "runs": [
+    {
+      "timestamp": "2026-09-04T14:01:01.643Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 268,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Dave Bautista Reveals Body Transformation To Play Kratos On God Of War Prime Video Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "e3b2ea79-dave-bautista-reveals-body-transformation-to-play-kratos-on-"
+        },
+        {
+          "title": "‘Boys of Tommen’ Adds Jonathan Forbes, Cobhan O’brien, Harvey Moloney and More to Cast (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "fe2dfa8d-boys-of-tommen-adds-jonathan-forbes-cobhan-obrien-harvey-mol"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Ratings: Ted Lasso Season 4 Starts Strong — But Which Streaming Original Came In At No. 1?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-04T10:08:38.808Z",
       "status": "success",
@@ -1832,60 +1865,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-25T13:39:22.904Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 245,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Disney’s Lavish K-Drama ‘The Remarried Empress’ Sets Busan Premiere Ahead of Streaming Launch",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "2b8fa62a-disneys-lavish-k-drama-the-remarried-empress-sets-busan-prem"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Kit Harington Cast in ‘Harry Potter’ Season 2 as Gilderoy Lockhart, Replacing Nicholas Hoult",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Love Bait’ Netflix K-Drama: Everything We Know About the Upcoming Romance Thriller",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 8,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 15 words (max 12)"
-          ]
-        },
-        {
-          "title": "Nicola Coughlan and Arthur Hughes Cast in Netflix’s Roald Dahl ‘Tales of the Unexpected’ Series",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 8,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        },
-        {
-          "title": "Hayley Atwell didn't appreciate being \"frisbeed to death\" in Multiverse Of Madness",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 8,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-04T10:08:38.808Z"
+  "lastUpdated": "2026-09-04T14:01:01.643Z"
 }
