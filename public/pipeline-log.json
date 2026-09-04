@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1657,
+  "totalArticles": 1660,
   "runs": [
+    {
+      "timestamp": "2026-09-04T06:57:02.592Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 272,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "Oasis Documentary Directors on Filming the Brothers’ First Reunion in 15 Years and Why There Wasn’t Much Emotion in the Room: ‘It’s the Gallaghers, It’s Not ‘Dawson’s Creek”",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "2e101b61-oasis-documentary-directors-on-filming-the-brothers-first-re"
+        },
+        {
+          "title": "AR Content, Vertigo, Blumhouse Atomic Monster Set Remake of Genre-Bending, Satirical French Horror ‘Vincent Must Die’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "slug": "1b75c96e-ar-content-vertigo-blumhouse-atomic-monster-set-remake-of-ge"
+        },
+        {
+          "title": "“Chad Powers” Remains a Ludicrous, Warm-Hearted Show in Season 2",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 11,
+          "slug": "ad346646-chad-powers-remains-a-ludicrous-warm-hearted-show-in-season-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-04T03:53:41.204Z",
       "status": "quota",
@@ -1853,40 +1885,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-25T06:37:23.004Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 230,
-      "totalCandidates": 51,
-      "written": [
-        {
-          "title": "Billie Piper confirms she's not The Doctor, kind of",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "e33116e9-billie-piper-confirms-shes-not-the-doctor-kind-of"
-        },
-        {
-          "title": "Reacher Was Partly Inspired By A Character Robert Urich Played In An '80s Crime Drama",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "2c5069e8-reacher-was-partly-inspired-by-a-character-robert-urich-play"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The Manhunters' comic history could hold the secret to Lanterns",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-04T03:53:41.204Z"
+  "lastUpdated": "2026-09-04T06:57:02.592Z"
 }
