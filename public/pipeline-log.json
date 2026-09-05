@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1670,
+  "totalArticles": 1673,
   "runs": [
+    {
+      "timestamp": "2026-09-05T10:01:05.162Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 272,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "Silo Sets Premiere Date For Fourth And Final Season On Apple TV — Plus, Get A Sneak Peek",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "ba663eae-silo-sets-premiere-date-for-fourth-and-final-season-on-apple"
+        },
+        {
+          "title": "5 Ways House Of The Dragon Is Better Than Game Of Thrones",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "df7fdb78-5-ways-house-of-the-dragon-is-better-than-game-of-thrones"
+        },
+        {
+          "title": "Maria Bartiromo vs. Fox News: Anchor’s Pivot Between MAGA Politics and Wall Street Likely Spurred Fallout",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "9810759a-maria-bartiromo-vs-fox-news-anchors-pivot-between-maga-polit"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Lanterns’ Writer Responds to Buzzy Episode Three Reaction: “I Just Hope People Will Stick It Out With John”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-05T06:44:41.968Z",
       "status": "quota",
@@ -1826,33 +1866,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-26T06:01:55.540Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 263,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "5 Thor Moments That Prove Chris Hemsworth Is the True King of the MCU",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "19b95f92-5-thor-moments-that-prove-chris-hemsworth-is-the-true-king-o"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘The Dog Stars’ Review: Jacob Elordi’s Sensitive Survivalist Can’t Sustain a Dreary Dystopian Adventure",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-05T06:44:41.968Z"
+  "lastUpdated": "2026-09-05T10:01:05.162Z"
 }
