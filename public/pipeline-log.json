@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1676,
+  "totalArticles": 1679,
   "runs": [
+    {
+      "timestamp": "2026-09-05T15:43:07.776Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 252,
+      "totalCandidates": 23,
+      "written": [
+        {
+          "title": "5 Sci-Fi Franchises That Are Officially Better Than Star Wars",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "dd641228-5-sci-fi-franchises-that-are-officially-better-than-star-war"
+        },
+        {
+          "title": "‘Primetime’ Review: Robert Pattinson Leads a Dazzling Cast in a Lurid Horror-Movie Portrait of a ‘Predator’-Hunter’s Predatory Instinct",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "d6723f13-primetime-review-robert-pattinson-leads-a-dazzling-cast-in-a"
+        },
+        {
+          "title": "Oscar Season Now: Welcome to the Rest of the Year",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 10,
+          "slug": "d8582362-oscar-season-now-welcome-to-the-rest-of-the-year"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "8 Movies To Watch If You Loved Widow's Bay",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-05T12:01:00.898Z",
       "status": "success",
@@ -1834,39 +1874,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-26T14:00:31.994Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 270,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "‘Alice and Steve’ Renewed for Season 2 at Disney+ and Hulu",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 18,
-          "slug": "5a50a768-alice-and-steve-renewed-for-season-2-at-disney-and-hulu"
-        },
-        {
-          "title": "Disney+ Greenlights Wedding Planner Rom-Com Drama From Playwright Kate Cortesi",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "slug": "10dee02a-disney-greenlights-wedding-planner-rom-com-drama-from-playwr"
-        },
-        {
-          "title": "Ted Lasso puts its signature folksy spin on the Mean Girls formula",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "slug": "c919a65b-ted-lasso-puts-its-signature-folksy-spin-on-the-mean-girls-f"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-05T12:01:00.898Z"
+  "lastUpdated": "2026-09-05T15:43:07.776Z"
 }
