@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1667,
+  "totalArticles": 1668,
   "runs": [
+    {
+      "timestamp": "2026-09-05T03:45:24.094Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "14 Predictions for the September 2026 Nintendo Direct and Zelda 40th Anniversary Direct",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "16fdb76d-14-predictions-for-the-september-2026-nintendo-direct-and-ze"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-04T20:38:08.150Z",
       "status": "quota",
@@ -1827,40 +1845,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-25T22:11:50.090Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 260,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "Nick Offerman on Auditioning for ‘The Office’ Pre ‘Parks and Rec,’ and Scoring Emmy Noms for ‘Death by Lightning’ and ‘Margo’s Got Money Troubles’",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "46063d53-nick-offerman-on-auditioning-for-the-office-pre-parks-and-re"
-        },
-        {
-          "title": "The Walking Dead Universe on Netflix: A Complete Guide to Every Series Coming Soon and What’s Next",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 11,
-          "slug": "399122c9-the-walking-dead-universe-on-netflix-a-complete-guide-to-eve"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Save The Dates: Backrooms Hits Streaming, Stranger Things: Tales From '85 Season 2 Trailer, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 21,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-04T20:38:08.150Z"
+  "lastUpdated": "2026-09-05T03:45:24.094Z"
 }
