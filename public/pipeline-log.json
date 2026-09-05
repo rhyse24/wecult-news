@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1679,
+  "totalArticles": 1680,
   "runs": [
+    {
+      "timestamp": "2026-09-05T19:41:05.968Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 243,
+      "totalCandidates": 84,
+      "written": [
+        {
+          "title": "The Blood of Dawnwalker Passes 1 Million Copies Sold in Just 2 Days",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "6e72a0b6-the-blood-of-dawnwalker-passes-1-million-copies-sold-in-just"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-05T15:43:07.776Z",
       "status": "success",
@@ -1849,32 +1867,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-26T17:45:41.842Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "Avengers Endgame: Encore Trailer Promises a Curious Doomsday Reward",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 14,
-          "slug": "f720cbdc-avengers-endgame-encore-trailer-promises-a-curious-doomsday-"
-        },
-        {
-          "title": "Josh Brolin Officially Won't Rule Out a Thanos Return to the MCU",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "slug": "628b75b3-josh-brolin-officially-wont-rule-out-a-thanos-return-to-the-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-05T15:43:07.776Z"
+  "lastUpdated": "2026-09-05T19:41:05.968Z"
 }
