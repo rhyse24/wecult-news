@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1673,
+  "totalArticles": 1676,
   "runs": [
+    {
+      "timestamp": "2026-09-05T12:01:00.898Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 22,
+      "written": [
+        {
+          "title": "Obsession’s Inde Navarrette Will Star in The Waffle House Index",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "slug": "69a7c844-obsessions-inde-navarrette-will-star-in-the-waffle-house-ind"
+        },
+        {
+          "title": "Rick Riordan’s Kane Chronicles Are Coming to Disney+",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 12,
+          "slug": "0e983505-rick-riordans-kane-chronicles-are-coming-to-disney"
+        },
+        {
+          "title": "Netflix’s New Dungeons & Dragons Project is Ravenloft",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "9879885c-netflixs-new-dungeons-dragons-project-is-ravenloft"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-05T10:01:05.162Z",
       "status": "success",
@@ -1834,39 +1866,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-26T10:02:07.339Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 263,
-      "totalCandidates": 78,
-      "written": [
-        {
-          "title": "The Biggest Gaming Stories That Happened Since GTA 5 Came Out 13 Years Ago",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "bf68ca07-the-biggest-gaming-stories-that-happened-since-gta-5-came-ou"
-        },
-        {
-          "title": "Executives from EA and Tencent to speak alongside Netflix, Sony, and Disney at FT Business of Entertainment summit",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 12,
-          "slug": "a89eef9d-executives-from-ea-and-tencent-to-speak-alongside-netflix-so"
-        },
-        {
-          "title": "Final Fantasy 7 Revelation Gets New Trailer at Gamescom 2026 Showing off Submarine Combat, Weapons, and More",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 12,
-          "slug": "2c840d27-final-fantasy-7-revelation-gets-new-trailer-at-gamescom-2026"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-05T10:01:05.162Z"
+  "lastUpdated": "2026-09-05T12:01:00.898Z"
 }
