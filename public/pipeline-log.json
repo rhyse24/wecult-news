@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1690,
+  "totalArticles": 1691,
   "runs": [
+    {
+      "timestamp": "2026-09-06T14:11:38.014Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 199,
+      "totalCandidates": 23,
+      "written": [
+        {
+          "title": "‘From Inside Out – The Architecture of Peter Zumthor’ Review: Wim Wenders’ Latest 3D Documentary Is an Architectural Marvel",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "49a44d73-from-inside-out-the-architecture-of-peter-zumthor-review-wim"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-06T10:27:02.271Z",
       "status": "success",
@@ -1865,39 +1883,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-27T13:15:17.202Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 100,
-      "written": [
-        {
-          "title": "Bethesda Is Giving Away Free Copies of The Elder Scrolls Online with This New Fantasy Novel",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "9da7443a-bethesda-is-giving-away-free-copies-of-the-elder-scrolls-onl"
-        },
-        {
-          "title": "Elden Ring’s Messmer The Impaler Actor Is Reportedly In The Running To Be The Next James Bond",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "d003995d-elden-rings-messmer-the-impaler-actor-is-reportedly-in-the-r"
-        },
-        {
-          "title": "GTA 6 Wants To Remind You That Looks Matter In The Influencer Hustle Of Vice City",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "fdc97572-gta-6-wants-to-remind-you-that-looks-matter-in-the-influence"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-06T10:27:02.271Z"
+  "lastUpdated": "2026-09-06T14:11:38.014Z"
 }
