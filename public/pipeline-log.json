@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1684,
+  "totalArticles": 1687,
   "runs": [
+    {
+      "timestamp": "2026-09-06T06:36:25.899Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 236,
+      "totalCandidates": 83,
+      "written": [
+        {
+          "title": "Insomniac Clears the Air After Marvel's Wolverine Fans Confuse Lady Deathstrike for Psylocke",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "7af0137d-insomniac-clears-the-air-after-marvels-wolverine-fans-confus"
+        },
+        {
+          "title": "Talking Point: What Are You Playing This Weekend? (5th September)",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 11,
+          "slug": "60c0ec10-talking-point-what-are-you-playing-this-weekend-5th-septembe"
+        },
+        {
+          "title": "Fall’s Video Game Release Slate Is Intimidatingly Good And Completely Doomed",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 10,
+          "slug": "079b81d7-falls-video-game-release-slate-is-intimidatingly-good-and-co"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-06T03:00:58.182Z",
       "status": "quota",
@@ -1850,32 +1882,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-27T05:07:10.696Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "‘Coyote vs. Acme’ Cast and Crew Held a ‘Funeral Screening’ After the Movie Was Shelved: ‘Was Emotional in So Many Ways’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "e83ae3c0-coyote-vs-acme-cast-and-crew-held-a-funeral-screening-after-"
-        },
-        {
-          "title": "Lee Chang-dong Returns in First Trailer for Possible Love, South Korea’s Oscar Entry",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 12,
-          "slug": "392219c4-lee-chang-dong-returns-in-first-trailer-for-possible-love-so"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-06T03:00:58.182Z"
+  "lastUpdated": "2026-09-06T06:36:25.899Z"
 }
