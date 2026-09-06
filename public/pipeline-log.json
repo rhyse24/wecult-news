@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1687,
+  "totalArticles": 1690,
   "runs": [
+    {
+      "timestamp": "2026-09-06T10:27:02.271Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 217,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "Quote Of The Day By Maya Hawke: 'I Think The World Is In So Much Chaos And In So Much Pain, That Actually Now Enthusiasm Is The Move! It's...'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "60a85bf9-quote-of-the-day-by-maya-hawke-i-think-the-world-is-in-so-mu"
+        },
+        {
+          "title": "Why Tracer From Lioness Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "6c4f4bbc-why-tracer-from-lioness-looks-so-familiar"
+        },
+        {
+          "title": "Dungeons And Dragons directors still holding out hope they can roll up another movie",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "slug": "f09a78ee-dungeons-and-dragons-directors-still-holding-out-hope-they-c"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘A Tale of Two Cities’ Review: Kit Harington Has Done Far, Far Better Things Than This Bland MGM+ Dickens Adaptation",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 14,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Take this job and…: 17 films that extol the virtues of anti-work",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-06T06:36:25.899Z",
       "status": "success",
@@ -1850,39 +1897,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-27T09:10:04.076Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 270,
-      "totalCandidates": 47,
-      "written": [
-        {
-          "title": "‘Harry Potter’ Back to Hogwarts Initiative to Donate Over 200,000 Books to Schools and Hospitals (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "cef17981-harry-potter-back-to-hogwarts-initiative-to-donate-over-2000"
-        },
-        {
-          "title": "Uchū Nanchara Kotetsu-kun Film Streams 1st 2 Minutes, Casts Shōko Nakagawa",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 11,
-          "slug": "6a6da9da-uch-nanchara-kotetsu-kun-film-streams-1st-2-minutes-casts-sh"
-        },
-        {
-          "title": "Emmy-Winning Baobab Studios Lands Naver Ventures Investment, Sets ‘Shine’ as Flagship Title (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "cfce6996-emmy-winning-baobab-studios-lands-naver-ventures-investment-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-06T06:36:25.899Z"
+  "lastUpdated": "2026-09-06T10:27:02.271Z"
 }
