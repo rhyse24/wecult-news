@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1692,
+  "totalArticles": 1693,
   "runs": [
+    {
+      "timestamp": "2026-09-06T19:32:42.159Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 187,
+      "totalCandidates": 74,
+      "written": [
+        {
+          "title": "GTA 6 Lead Has Finally Explained Trailer 1's Song Choice",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 14,
+          "slug": "c69784c7-gta-6-lead-has-finally-explained-trailer-1s-song-choice"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-06T16:00:28.470Z",
       "status": "quota",
@@ -1873,17 +1891,7 @@
       "totalCandidates": 29,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-27T21:12:07.441Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 288,
-      "totalCandidates": 30,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-06T16:00:28.470Z"
+  "lastUpdated": "2026-09-06T19:32:42.159Z"
 }
