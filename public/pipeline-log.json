@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1691,
+  "totalArticles": 1692,
   "runs": [
+    {
+      "timestamp": "2026-09-06T16:00:28.470Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 188,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "What To Watch Sunday: Kit Harington In A Tale Of Two Cities, Marlow Murder Club Returns, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "7919f199-what-to-watch-sunday-kit-harington-in-a-tale-of-two-cities-m"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-06T14:11:38.014Z",
       "status": "quota",
@@ -1865,25 +1883,7 @@
       "totalCandidates": 30,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-27T17:27:03.596Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 31,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Marvel Launches ‘Countdown to Avengers: Doomsday Official Podcast’ Ahead of Movie’s December Debut",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-06T14:11:38.014Z"
+  "lastUpdated": "2026-09-06T16:00:28.470Z"
 }
