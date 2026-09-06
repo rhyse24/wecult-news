@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1680,
+  "totalArticles": 1682,
   "runs": [
+    {
+      "timestamp": "2026-09-05T23:24:50.537Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 242,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "Everything looks sticky and nobody says \"vampire\" in the trailer for Disney+ and Hulu's City Of Blood",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 14,
+          "slug": "9da9d623-everything-looks-sticky-and-nobody-says-vampire-in-the-trail"
+        },
+        {
+          "title": "Mandy Moore on Hilary Duff’s Musical Comeback and Playing an ‘Absolute Bitch’ in Dan Fogelman’s NFL Family Drama ‘The Land’: It’s ‘”Friday Night Lights” and “Succession” All Rolled Into One’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "0adbfece-mandy-moore-on-hilary-duffs-musical-comeback-and-playing-an-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-05T19:41:05.968Z",
       "status": "quota",
@@ -1835,39 +1860,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-26T21:22:06.817Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 94,
-      "written": [
-        {
-          "title": "GTA 6 confirms realistic NPCs, deeper relationships, body changes, social media system & more",
-          "category": "games",
-          "source": "Dexerto",
-          "score": 14,
-          "slug": "66505706-gta-6-confirms-realistic-npcs-deeper-relationships-body-chan"
-        },
-        {
-          "title": "Rockstar Games Doubled in Size for GTA 6, Hired Real World Professionals for Fashion, Vehicles, and More",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "91428dec-rockstar-games-doubled-in-size-for-gta-6-hired-real-world-pr"
-        },
-        {
-          "title": "Call of Duty: Modern Warfare 4 for Switch 2 Is Up for Preorder",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "9c001270-call-of-duty-modern-warfare-4-for-switch-2-is-up-for-preorde"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-05T19:41:05.968Z"
+  "lastUpdated": "2026-09-05T23:24:50.537Z"
 }
