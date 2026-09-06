@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1682,
+  "totalArticles": 1684,
   "runs": [
+    {
+      "timestamp": "2026-09-06T03:00:58.182Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 238,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "‘Elsinore’ Revisits Daniel Day-Lewis’ Infamous Walk-Off During ’80s ‘Hamlet’ Production",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "c62758e8-elsinore-revisits-daniel-day-lewis-infamous-walk-off-during-"
+        },
+        {
+          "title": "The Perfect ‘Godfather’ Cast if the Movie Were Made in 2026",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "slug": "7523d922-the-perfect-godfather-cast-if-the-movie-were-made-in-2026"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jeff Zucker on His Venice Film Festival Debut for A24’s ‘Primetime’: “This Is Very Surreal”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Oasis: Don’t Look Back in Anger’ Review: An Uncharacteristically Polite and Sentimental Portrait of a Raucous Band and Phenomenon",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Primetime’: Robert Pattinson Earns Raves as Chris Hansen — Here’s What Critics Are Saying",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-05T23:24:50.537Z",
       "status": "quota",
@@ -1828,39 +1875,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-27T01:11:37.154Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 274,
-      "totalCandidates": 51,
-      "written": [
-        {
-          "title": "The 10 Best TV Shows Like Lanterns",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "a06a365f-the-10-best-tv-shows-like-lanterns"
-        },
-        {
-          "title": "‘The Witcher’ Co-Producer Rae Benjamin to Receive Starz #TakeTheLead Award at Humanitas Event, Presented by Russell T Davies",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "ba238142-the-witcher-co-producer-rae-benjamin-to-receive-starz-taketh"
-        },
-        {
-          "title": "A very not-mad Chris Hansen buys ads before every screening of Primetime",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "c9826d10-a-very-not-mad-chris-hansen-buys-ads-before-every-screening-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-05T23:24:50.537Z"
+  "lastUpdated": "2026-09-06T03:00:58.182Z"
 }
