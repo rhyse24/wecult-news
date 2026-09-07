@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1703,
+  "totalArticles": 1706,
   "runs": [
+    {
+      "timestamp": "2026-09-07T16:34:08.643Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 221,
+      "totalCandidates": 84,
+      "written": [
+        {
+          "title": "PlayStation Reportedly Plotting New Killzone — but Is It a Remake or a Remaster?",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "c275afda-playstation-reportedly-plotting-new-killzone-but-is-it-a-rem"
+        },
+        {
+          "title": " Scuf Omega review ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "ad8422c8-scuf-omega-review"
+        },
+        {
+          "title": "Steam Has Generated $15 Billion in Revenue in 2026 So Far, Says Analyst",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 12,
+          "slug": "0d7a9e54-steam-has-generated-15-billion-in-revenue-in-2026-so-far-say"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-07T10:39:45.302Z",
       "status": "success",
@@ -1892,50 +1924,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-28T12:33:56.567Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 282,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Grant Morrison Wants More Sci-Fi in Lanterns: “Why Try to Make a Green Lantern Show on a Budget?”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 16,
-          "slug": "a40fcf32-grant-morrison-wants-more-sci-fi-in-lanterns-why-try-to-make"
-        },
-        {
-          "title": "New Report Reveals Top Actors for the Next James Bond",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "8e699d40-new-report-reveals-top-actors-for-the-next-james-bond"
-        },
-        {
-          "title": "Lit Hub Daily: August 28, 2026",
-          "category": "books",
-          "source": "Literary Hub",
-          "score": 12,
-          "slug": "226f3f56-lit-hub-daily-august-28-2026"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Love Faces Temporal & Political Challenges in Outlander: Blood of My Blood Season 2 Trailer",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 15 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-07T10:39:45.302Z"
+  "lastUpdated": "2026-09-07T16:34:08.643Z"
 }
