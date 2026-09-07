@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1696,
+  "totalArticles": 1699,
   "runs": [
+    {
+      "timestamp": "2026-09-07T02:45:37.154Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 184,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Lanterns Episode 4 Review: Hard Traveling Heroes",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 15,
+          "slug": "05135d3b-lanterns-episode-4-review-hard-traveling-heroes"
+        },
+        {
+          "title": "Former Star Trek Boss Thinks The Next Generation Was Canceled At Least 3 Seasons Too Soon",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "a717e151-former-star-trek-boss-thinks-the-next-generation-was-cancele"
+        },
+        {
+          "title": "5 Things Dutton Ranch Does Better Than Yellowstone",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "26706dbe-5-things-dutton-ranch-does-better-than-yellowstone"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-06T22:57:19.962Z",
       "status": "success",
@@ -1903,17 +1935,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-28T04:01:02.215Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 286,
-      "totalCandidates": 29,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-06T22:57:19.962Z"
+  "lastUpdated": "2026-09-07T02:45:37.154Z"
 }
