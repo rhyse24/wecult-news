@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1699,
+  "totalArticles": 1700,
   "runs": [
+    {
+      "timestamp": "2026-09-07T06:45:41.415Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 188,
+      "totalCandidates": 3,
+      "written": [
+        {
+          "title": "Hawking by Graham Farmelo review – the dark side of genius",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 6,
+          "slug": "93a05640-hawking-by-graham-farmelo-review-the-dark-side-of-genius"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-07T02:45:37.154Z",
       "status": "success",
@@ -1917,25 +1935,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-28T06:01:03.208Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 286,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "Oscars: 7 Films That Could Define the Awards Season, From ‘The Odyssey’ to ‘Michael’",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "861d2095-oscars-7-films-that-could-define-the-awards-season-from-the-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-07T02:45:37.154Z"
+  "lastUpdated": "2026-09-07T06:45:41.415Z"
 }
