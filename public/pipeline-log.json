@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1706,
+  "totalArticles": 1709,
   "runs": [
+    {
+      "timestamp": "2026-09-07T20:07:02.783Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 217,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "Why Rod Serling Only Adapted One Ray Bradbury Story For The Twilight Zone",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "f982ad75-why-rod-serling-only-adapted-one-ray-bradbury-story-for-the-"
+        },
+        {
+          "title": "Shooter: Why USA Network Canceled The Ryan Phillippe And Omar Epps Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "3db80631-shooter-why-usa-network-canceled-the-ryan-phillippe-and-omar"
+        },
+        {
+          "title": "Why Jack Reacher Is A Drifter With No Belongings, According To Author Lee Child",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "1494551c-why-jack-reacher-is-a-drifter-with-no-belongings-according-t"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-07T16:34:08.643Z",
       "status": "success",
@@ -1906,25 +1938,7 @@
       "totalCandidates": 95,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-28T16:01:05.195Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 279,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Stephen Curry Doc on Hitting 4,000 3-Pointers Set for Imax Run from Disney in October (Exclusive)",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "slug": "8068ab24-stephen-curry-doc-on-hitting-4000-3-pointers-set-for-imax-ru"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-07T16:34:08.643Z"
+  "lastUpdated": "2026-09-07T20:07:02.783Z"
 }
