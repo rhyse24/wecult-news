@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1700,
+  "totalArticles": 1703,
   "runs": [
+    {
+      "timestamp": "2026-09-07T10:39:45.302Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 193,
+      "totalCandidates": 19,
+      "written": [
+        {
+          "title": "Nathan Fielder and Lance Oppenheim’s Elizabeth Holmes Doc ‘You Can See Everything’: First Reactions",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "0f166a74-nathan-fielder-and-lance-oppenheims-elizabeth-holmes-doc-you"
+        },
+        {
+          "title": "Gary Oldman Says a James Bond Has Been Picked — and He’s Hoping It’s Jack Lowden",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "00ef2060-gary-oldman-says-a-james-bond-has-been-picked-and-hes-hoping"
+        },
+        {
+          "title": "France’s Halley Production Boards Thriller ‘Carro Seco,’ About Killer Who Targets Unscrupulous Barcelona Real Estate Speculators (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "2f74ef44-frances-halley-production-boards-thriller-carro-seco-about-k"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-07T06:45:41.415Z",
       "status": "quota",
@@ -1903,39 +1935,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-28T09:13:04.144Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 286,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "What Time Does ‘Grand Theft Auto VI: An Extended Look’ Drop on Netflix Today?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 15,
-          "slug": "c3f4983a-what-time-does-grand-theft-auto-vi-an-extended-look-drop-on-"
-        },
-        {
-          "title": "‘GTA 6’ Drops 27 Minutes of New In-Game Footage on Netflix Amid Ongoing Rockstar Games Leaks",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 11,
-          "slug": "91ba5381-gta-6-drops-27-minutes-of-new-in-game-footage-on-netflix-ami"
-        },
-        {
-          "title": "Peter Cullen Played A Robotic Villain In This Beloved '80s Live-Action Sci-Fi Show",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "4ca09dfd-peter-cullen-played-a-robotic-villain-in-this-beloved-80s-li"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-07T06:45:41.415Z"
+  "lastUpdated": "2026-09-07T10:39:45.302Z"
 }
