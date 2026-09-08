@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1714,
+  "totalArticles": 1717,
   "runs": [
+    {
+      "timestamp": "2026-09-08T07:34:55.057Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 217,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Breaking Bad: How Every Main Character Dies In The Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "f5eb3147-breaking-bad-how-every-main-character-dies-in-the-series"
+        },
+        {
+          "title": "No, seriously, what is Peter Parker's job in Spider-Man: Brand New Day?",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "slug": "0034ae9b-no-seriously-what-is-peter-parkers-job-in-spider-man-brand-n"
+        },
+        {
+          "title": "An explosive Lanterns still stays stubbornly grounded in character",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 11,
+          "slug": "513373fa-an-explosive-lanterns-still-stays-stubbornly-grounded-in-cha"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-08T03:37:37.005Z",
       "status": "quota",
@@ -1931,36 +1963,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-29T02:01:03.564Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 282,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "What’s Coming to Disney+ in September 2026",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "2d007bdc-whats-coming-to-disney-in-september-2026"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Before Becoming Ted Lasso's Jamie Tartt, Phil Dunster Was In A Popular British Spy Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-08T03:37:37.005Z"
+  "lastUpdated": "2026-09-08T07:34:55.057Z"
 }
