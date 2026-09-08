@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1709,
+  "totalArticles": 1712,
   "runs": [
+    {
+      "timestamp": "2026-09-07T23:41:18.669Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 217,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day,’ The Odyssey’ Rule Low-Key Labor Day Box Office",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "slug": "68d15dd2-spider-man-brand-new-day-the-odyssey-rule-low-key-labor-day-"
+        },
+        {
+          "title": "3 Greatest Movies to Stream on Prime Video This Week (Sept 7-11)",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "9489eb8f-3-greatest-movies-to-stream-on-prime-video-this-week-sept-7-"
+        },
+        {
+          "title": "The 20 Most Anticipated Movies at TIFF 2026",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "3f301417-the-20-most-anticipated-movies-at-tiff-2026"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-07T20:07:02.783Z",
       "status": "success",
@@ -1928,17 +1960,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-28T18:01:02.614Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 95,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-07T20:07:02.783Z"
+  "lastUpdated": "2026-09-07T23:41:18.669Z"
 }
