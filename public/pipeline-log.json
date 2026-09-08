@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1712,
+  "totalArticles": 1714,
   "runs": [
+    {
+      "timestamp": "2026-09-08T03:37:37.005Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 217,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "NHL 27 Is Using AI-Generated Voiceover for In-Game Commentators, John Buccigross Says",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "bcae626d-nhl-27-is-using-ai-generated-voiceover-for-in-game-commentat"
+        },
+        {
+          "title": "Final Fantasy Resonance Mod Brings Back Classic FF Character Ariana Grande",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "fe915dd0-final-fantasy-resonance-mod-brings-back-classic-ff-character"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-07T23:41:18.669Z",
       "status": "success",
@@ -1935,32 +1960,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-28T22:51:59.688Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 93,
-      "written": [
-        {
-          "title": "12 Game, Movie, and TV Show Trailers You Might Have Missed This Week",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "33f8bc00-12-game-movie-and-tv-show-trailers-you-might-have-missed-thi"
-        },
-        {
-          "title": "Kick Streamer Neon Responds After Rockstar Seemingly Includes a Reference to Him in GTA 6 Netflix Showcase",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "bf6d7f9b-kick-streamer-neon-responds-after-rockstar-seemingly-include"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-07T23:41:18.669Z"
+  "lastUpdated": "2026-09-08T03:37:37.005Z"
 }
