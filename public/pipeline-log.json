@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1718,
+  "totalArticles": 1719,
   "runs": [
+    {
+      "timestamp": "2026-09-08T18:44:03.191Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 262,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "10 Best British Drama Hidden Gems on Netflix to Watch Right Now",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 16,
+          "slug": "3c766b9e-10-best-british-drama-hidden-gems-on-netflix-to-watch-right-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-08T15:16:23.447Z",
       "status": "quota",
@@ -1916,39 +1934,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-29T08:00:58.578Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 274,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "‘The Whisper Man’ Netflix Review: Star-Studded Serial Killer Thriller Falls Short of Its Terrifying Promise",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "74151aaf-the-whisper-man-netflix-review-star-studded-serial-killer-th"
-        },
-        {
-          "title": "Before Becoming Ted Lasso's Jamie Tartt, Phil Dunster Was In A Popular British Spy Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "5fc5497b-before-becoming-ted-lassos-jamie-tartt-phil-dunster-was-in-a"
-        },
-        {
-          "title": "10 Best TV Shows Like Ransom Canyon",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "91a9473c-10-best-tv-shows-like-ransom-canyon"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-08T15:16:23.447Z"
+  "lastUpdated": "2026-09-08T18:44:03.191Z"
 }
