@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1717,
+  "totalArticles": 1718,
   "runs": [
+    {
+      "timestamp": "2026-09-08T11:46:24.194Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 238,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "‘Elite’ Star Ester Expósito Circles ‘Stink Eye,’ an Iberseries Co-Production & Financing Forum Title (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "c39fd08f-elite-star-ester-expsito-circles-stink-eye-an-iberseries-co-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-08T07:34:55.057Z",
       "status": "success",
@@ -1931,39 +1949,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-29T03:35:03.944Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 280,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Still in More Theaters Than Any Other Movie 5 Weekends Later",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "slug": "ad628074-spider-man-brand-new-day-still-in-more-theaters-than-any-oth"
-        },
-        {
-          "title": "‘Coyote vs. Acme’ Star Will Forte, Director Celebrate Film Finally Hitting Theaters After Being Shelved by Warner Bros.: “Proof Movies Don’t Just Go Away”",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "87ca1711-coyote-vs-acme-star-will-forte-director-celebrate-film-final"
-        },
-        {
-          "title": "55 Years Later, These Are the 10 Best Movies of 1971",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "c7be8bc5-55-years-later-these-are-the-10-best-movies-of-1971"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-08T07:34:55.057Z"
+  "lastUpdated": "2026-09-08T11:46:24.194Z"
 }
