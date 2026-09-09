@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1726,
+  "totalArticles": 1729,
   "runs": [
+    {
+      "timestamp": "2026-09-09T10:39:00.705Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 258,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "Lanterns Locates “The Weenie” and Quits Beating About the Bush",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 16,
+          "slug": "f4cb07ea-lanterns-locates-the-weenie-and-quits-beating-about-the-bush"
+        },
+        {
+          "title": "All About My Mother by Rachael Stirling review – a joyous love letter to Diana Rigg",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 11,
+          "slug": "8414ab37-all-about-my-mother-by-rachael-stirling-review-a-joyous-love"
+        },
+        {
+          "title": "📚 The most Googled book series",
+          "category": "books",
+          "source": "Book Riot",
+          "score": 10,
+          "slug": "ec72e166-the-most-googled-book-series"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-09T07:07:19.903Z",
       "status": "success",
@@ -1905,32 +1937,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-29T23:22:22.130Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 237,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "10 Yellowstone Characters Who Could Return In Dutton Ranch",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "fc4a0ecb-10-yellowstone-characters-who-could-return-in-dutton-ranch"
-        },
-        {
-          "title": "Why Tyland Lannister From House Of The Dragon Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "9fc8c913-why-tyland-lannister-from-house-of-the-dragon-looks-so-famil"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-09T07:07:19.903Z"
+  "lastUpdated": "2026-09-09T10:39:00.705Z"
 }
