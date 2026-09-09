@@ -2,6 +2,16 @@
   "totalArticles": 1731,
   "runs": [
     {
+      "timestamp": "2026-09-09T18:01:34.780Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 80,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-09-09T14:11:16.633Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1890,54 +1900,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-30T07:21:30.318Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 227,
-      "totalCandidates": 21,
-      "written": [
-        {
-          "title": "Chris Hansen Says Robert Pattinson’s ‘Primetime’ Performance Is ‘Overly Dramatic,’ But His Wife and Kids Think It’s a ‘Pretty Good Imitation’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "f7234642-chris-hansen-says-robert-pattinsons-primetime-performance-is"
-        },
-        {
-          "title": "Anne Hathaway Joins Tom Cruise in ‘Days of Thunder’ Follow-Up; Paramount Sets Release Date (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 8,
-          "slug": "47f65c76-anne-hathaway-joins-tom-cruise-in-days-of-thunder-follow-up-"
-        },
-        {
-          "title": "Only 10 Movies From the 2010s Will Stand the Test of Time as Masterpieces",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 7,
-          "slug": "f6dc54d2-only-10-movies-from-the-2010s-will-stand-the-test-of-time-as"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Shailene Woodley Recalls Her “Dream” Role as Mary Jane Being Cut From ‘The Amazing Spider-Man 2’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The 10 Funniest Movies in Film History",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-09T14:11:16.633Z"
+  "lastUpdated": "2026-09-09T18:01:34.780Z"
 }
