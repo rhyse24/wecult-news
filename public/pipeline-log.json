@@ -1,6 +1,35 @@
 {
-  "totalArticles": 1722,
+  "totalArticles": 1723,
   "runs": [
+    {
+      "timestamp": "2026-09-09T03:56:31.183Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 260,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "Only 3 Giant Monster Movies Are Better Than 'Godzilla Minus One'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 18,
+          "slug": "49309c19-only-3-giant-monster-movies-are-better-than-godzilla-minus-o"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Godzilla Faces a New Enemy In Godzilla Minus Zero Trailer Ahead of NYFF Premiere",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 11,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 16 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-09T02:00:46.497Z",
       "status": "quota",
@@ -1894,25 +1923,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-29T16:35:28.190Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 247,
-      "totalCandidates": 88,
-      "written": [
-        {
-          "title": "IGN's Top-Reviewed Nintendo Switch 2 Games",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "96cbb2c2-igns-top-reviewed-nintendo-switch-2-games"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-09T02:00:46.497Z"
+  "lastUpdated": "2026-09-09T03:56:31.183Z"
 }
