@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1719,
+  "totalArticles": 1722,
   "runs": [
+    {
+      "timestamp": "2026-09-08T22:16:37.896Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 264,
+      "totalCandidates": 77,
+      "written": [
+        {
+          "title": "Nintendo Intentionally Included Loading Screens in The Legend of Zelda: Ocarina of Time Remake, and Fans Are Torn",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "785d67f2-nintendo-intentionally-included-loading-screens-in-the-legen"
+        },
+        {
+          "title": "Xbox’s Disc-To-Digital Program Has A Big Problem: Several Major Publishers Aren’t Participating",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "52e49864-xboxs-disc-to-digital-program-has-a-big-problem-several-majo"
+        },
+        {
+          "title": " Breaking Benjamin frontman pauses concert to rant about Fallout 4 modding beef: 'There was a modder in the community that was really mean to me' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "8ea99d56-breaking-benjamin-frontman-pauses-concert-to-rant-about-fall"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-08T18:44:03.191Z",
       "status": "quota",
@@ -1894,47 +1926,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-29T10:00:59.553Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 269,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "Kartik Aaryan’s ‘Captain India’ Sets September London Shoot (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "7615c37c-kartik-aaryans-captain-india-sets-september-london-shoot-exc"
-        },
-        {
-          "title": "Shailene Woodley Was Crushed When She Found Out Her Scenes in ‘Amazing Spider-Man 2’ Were Cut: The Role of Mary Jane Was ‘My Dream’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "5d03aea9-shailene-woodley-was-crushed-when-she-found-out-her-scenes-i"
-        },
-        {
-          "title": "Meet Fernando Lindez, the ‘Elite’ Star Turned Hollywood Romantic Lead in ‘The Last Sunrise’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 8,
-          "slug": "14ac3ab2-meet-fernando-lindez-the-elite-star-turned-hollywood-romanti"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘The Song of Scorpions,’ ‘Qissa’ Director Anup Singh Sets Mumbai Film ‘Lasya: The Gentle Dance’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-08T18:44:03.191Z"
+  "lastUpdated": "2026-09-08T22:16:37.896Z"
 }
