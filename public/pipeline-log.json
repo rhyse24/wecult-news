@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1723,
+  "totalArticles": 1726,
   "runs": [
+    {
+      "timestamp": "2026-09-09T07:07:19.903Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 260,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Jim Geoghan, ‘Suite Life of Zack & Cody’ Co-Creator, Dies at 79",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "8e99b9d5-jim-geoghan-suite-life-of-zack-cody-co-creator-dies-at-79"
+        },
+        {
+          "title": "Star Trek's Elegant In-Universe Reason Why Most Alien Races Are Humanoid",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "0d3b5148-star-treks-elegant-in-universe-reason-why-most-alien-races-a"
+        },
+        {
+          "title": "O.J. Simpson's Trial & Power Rangers Got A Beloved Disney Cartoon Canceled, According To Co-Creator",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "3d5a4aa2-oj-simpsons-trial-power-rangers-got-a-beloved-disney-cartoon"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-09T03:56:31.183Z",
       "status": "quota",
@@ -1898,32 +1930,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-29T20:01:02.577Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 234,
-      "totalCandidates": 22,
-      "written": [
-        {
-          "title": "Box Office: ‘The Dog Stars’ Struggles With Just $3 Million on Friday; ‘Spider-Man: Brand New Day’ to Win Weekend Again",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "dbb31fba-box-office-the-dog-stars-struggles-with-just-3-million-on-fr"
-        },
-        {
-          "title": "8 Movies That Blindsided the Box Office in 2026",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "e7c88833-8-movies-that-blindsided-the-box-office-in-2026"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-09T03:56:31.183Z"
+  "lastUpdated": "2026-09-09T07:07:19.903Z"
 }
