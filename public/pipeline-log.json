@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1729,
+  "totalArticles": 1731,
   "runs": [
+    {
+      "timestamp": "2026-09-09T14:11:16.633Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 268,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Chris Hansen Calls ‘Primetime’ an “Insult,” Has No Regrets About ‘Predator’ Sting That Ended in Suicide (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 15,
+          "slug": "9b629ee6-chris-hansen-calls-primetime-an-insult-has-no-regrets-about-"
+        },
+        {
+          "title": "Ellen Burstyn Was ‘Sure’ Her Career Would Be ‘Finished by 40’: ‘The Fact That I’m 93 and Working Is a Miracle’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "6c0f0a53-ellen-burstyn-was-sure-her-career-would-be-finished-by-40-th"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-09T10:39:00.705Z",
       "status": "success",
@@ -1912,32 +1937,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-30T03:11:47.017Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 233,
-      "totalCandidates": 17,
-      "written": [
-        {
-          "title": "Lilly Wachowski Still Wants to Adapt Bang Bang Bodhisattva",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 9,
-          "slug": "a0a32919-lilly-wachowski-still-wants-to-adapt-bang-bang-bodhisattva"
-        },
-        {
-          "title": "August’s Best Reviewed Nonfiction",
-          "category": "books",
-          "source": "Literary Hub",
-          "score": 8,
-          "slug": "ebf72a04-augusts-best-reviewed-nonfiction"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-09T10:39:00.705Z"
+  "lastUpdated": "2026-09-09T14:11:16.633Z"
 }
