@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1738,
+  "totalArticles": 1741,
   "runs": [
+    {
+      "timestamp": "2026-09-10T08:01:05.584Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 277,
+      "totalCandidates": 80,
+      "written": [
+        {
+          "title": "Marvel's Guardians of the Galaxy's Surprise Switch 2 Port Has Some Fans Hoping for a Sequel",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "7e17854c-marvels-guardians-of-the-galaxys-surprise-switch-2-port-has-"
+        },
+        {
+          "title": "Investor Accidentally Pitches Kickass Pokemon Apocalypse Movie",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 11,
+          "slug": "f02338b2-investor-accidentally-pitches-kickass-pokemon-apocalypse-mov"
+        },
+        {
+          "title": " Attendees will be able to check out a demo of The Witcher 3 DLC Songs of the Past behind closed doors at PAX Australia ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "888e4780-attendees-will-be-able-to-check-out-a-demo-of-the-witcher-3-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Kirby and the World Beyond coming to Nintendo Switch 2 in Spring 2027",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Nintendo Direct September 2026 No-Shows: From The Duskbloods to Mario",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-10T04:29:27.585Z",
       "status": "quota",
@@ -1855,33 +1902,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-30T23:55:56.314Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 179,
-      "totalCandidates": 16,
-      "written": [
-        {
-          "title": "Box Office: ‘The Dog Stars’ Bombs With $8 Million; ‘Spider-Man’ Continues Reign in Fifth Weekend",
-          "category": "film",
-          "source": "Variety",
-          "score": 15,
-          "slug": "e50423f7-box-office-the-dog-stars-bombs-with-8-million-spider-man-con"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Days of Thunder’ Star Randy Quaid Says Anne Hathaway Is ‘Woke’ and a ‘Horrible Choice’ for the Sequel: ‘You Need the Original Girl’",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-10T04:29:27.585Z"
+  "lastUpdated": "2026-09-10T08:01:05.584Z"
 }
