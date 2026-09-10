@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1736,
+  "totalArticles": 1738,
   "runs": [
+    {
+      "timestamp": "2026-09-10T04:29:27.585Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Hideo Kojima’s ‘Physint’ Moves From PlayStation to Xbox as ‘Death Stranding’ Creator Plots TV and Film Projects With New Publishing Partner",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "3480870b-hideo-kojimas-physint-moves-from-playstation-to-xbox-as-deat"
+        },
+        {
+          "title": "‘Avengers: Doomsday’ Has Already Made $50 Million in Pre-Sales, Three Months Before Release",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "af8b500d-avengers-doomsday-has-already-made-50-million-in-pre-sales-t"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-10T01:12:53.168Z",
       "status": "quota",
@@ -1856,32 +1881,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-30T19:57:46.132Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 179,
-      "totalCandidates": 16,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Box Office: ‘The Dog Stars’ Bombs With $8 Million; ‘Spider-Man’ Continues Reign in Fifth Weekend",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Chris Hansen Gives Robert Pattinson Credit for His “Pretty Good Imitation” in ‘Primetime’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-10T01:12:53.168Z"
+  "lastUpdated": "2026-09-10T04:29:27.585Z"
 }
