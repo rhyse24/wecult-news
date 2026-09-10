@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1734,
+  "totalArticles": 1736,
   "runs": [
+    {
+      "timestamp": "2026-09-10T01:12:53.168Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 47,
+      "written": [
+        {
+          "title": "Before Joining Reacher, Kevin Weisman Was Jennifer Garner's Version Of James Bond's Q",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "faf9a068-before-joining-reacher-kevin-weisman-was-jennifer-garners-ve"
+        },
+        {
+          "title": "New Data Suggests Long Waits Between Seasons Are Hurting Viewership on Netflix Hits",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "dc46d63e-new-data-suggests-long-waits-between-seasons-are-hurting-vie"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-09T22:00:54.803Z",
       "status": "success",
@@ -1856,40 +1881,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-30T15:44:35.248Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 188,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "This Forgotten Fox Sitcom Feels Like Pixar's Inside Out For Adults",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "40a97266-this-forgotten-fox-sitcom-feels-like-pixars-inside-out-for-a"
-        },
-        {
-          "title": "Sadsack Microsoft asking around whether anyone wants to try making a Halo show again",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "slug": "198014d1-sadsack-microsoft-asking-around-whether-anyone-wants-to-try-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Why Captain Josephina Carrillo From Lioness Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-09T22:00:54.803Z"
+  "lastUpdated": "2026-09-10T01:12:53.168Z"
 }
