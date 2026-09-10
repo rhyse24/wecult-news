@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1741,
+  "totalArticles": 1744,
   "runs": [
+    {
+      "timestamp": "2026-09-10T11:21:10.813Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Netflix’s YA Rowing Drama ‘Crew Girl’ Capsizes and Sinks: TV Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "9f63ffa3-netflixs-ya-rowing-drama-crew-girl-capsizes-and-sinks-tv-rev"
+        },
+        {
+          "title": "Christopher Hargadon on Crafting the Cultural History for Netflix’s ‘Avatar: The Last Airbender’ Seasons 2 & 3",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 11,
+          "slug": "a648536e-christopher-hargadon-on-crafting-the-cultural-history-for-ne"
+        },
+        {
+          "title": "‘Haunted Hotel’ Season 2 Sets Halloween Release Date at Netflix",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "dec4fc0c-haunted-hotel-season-2-sets-halloween-release-date-at-netfli"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-10T08:01:05.584Z",
       "status": "success",
@@ -1870,39 +1902,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-31T03:54:02.284Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 184,
-      "totalCandidates": 87,
-      "written": [
-        {
-          "title": "Fable's Main Quest Will Take About 20 Hours to Beat",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 16,
-          "slug": "fd24d7ee-fables-main-quest-will-take-about-20-hours-to-beat"
-        },
-        {
-          "title": "GTA 5's Michael Actor Defends GTA 6 After Doubters Say Rockstar's Games Look Too Similar",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "18b6d008-gta-5s-michael-actor-defends-gta-6-after-doubters-say-rockst"
-        },
-        {
-          "title": "This forgotten Rainbow Six spinoff would have thrived in a post-ARC Raiders world",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 13,
-          "slug": "7f9ba099-this-forgotten-rainbow-six-spinoff-would-have-thrived-in-a-p"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-10T08:01:05.584Z"
+  "lastUpdated": "2026-09-10T11:21:10.813Z"
 }
