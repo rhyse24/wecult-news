@@ -2,6 +2,24 @@
   "totalArticles": 1744,
   "runs": [
     {
+      "timestamp": "2026-09-10T14:44:11.779Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 36,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Only 4 Musical Movies From the 21st Century Are Genuinely Perfect",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-09-10T11:21:10.813Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1870,39 +1888,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-08-31T07:47:18.869Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 182,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Lanterns' John Stewart Is A Lesson In Textbook Compartmentalization — Allow Aaron Pierre To Explain",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "4385a66d-lanterns-john-stewart-is-a-lesson-in-textbook-compartmentali"
-        },
-        {
-          "title": "What’s Happening with the Netflix ‘Minecraft’ Series?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 11,
-          "slug": "f2536f9f-whats-happening-with-the-netflix-minecraft-series"
-        },
-        {
-          "title": "10 Best New Movies on Netflix In September 2026",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "slug": "24e1bd75-10-best-new-movies-on-netflix-in-september-2026"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-10T11:21:10.813Z"
+  "lastUpdated": "2026-09-10T14:44:11.779Z"
 }
