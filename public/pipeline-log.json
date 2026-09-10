@@ -2,6 +2,27 @@
   "totalArticles": 1744,
   "runs": [
     {
+      "timestamp": "2026-09-10T18:01:12.472Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 35,
+      "written": [],
+      "rejected": [
+        {
+          "title": "‘Hawaii Five-O’ Movie in the Works From ‘Spider-Man: Brand New Day’ Director Destin Daniel Cretton",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-09-10T14:44:11.779Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1838,57 +1859,7 @@
       "totalCandidates": 37,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-31T11:45:59.206Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 194,
-      "totalCandidates": 23,
-      "written": [
-        {
-          "title": "Korea Box Office: ‘The Odyssey’ Eclipses ‘Spider-Man: Brand New Day’",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "slug": "cb74eec9-korea-box-office-the-odyssey-eclipses-spider-man-brand-new-d"
-        },
-        {
-          "title": "Naomi Watts to Be Honored at San Sebastián Film Festival",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "4741673c-naomi-watts-to-be-honored-at-san-sebastin-film-festival"
-        },
-        {
-          "title": "Pink Floyd’s Roger Waters Boards Palestinian Art and Resistance Documentary ‘Freedom Theatre’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "5d4e6291-pink-floyds-roger-waters-boards-palestinian-art-and-resistan"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Coyote vs. Acme’ Snags No. 2 With $15.4M as ‘Spider-Man’ Nears ‘Avatar 2’; ‘Dog Stars’ Put to Sleep",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Helsinki’s Finnish Film Affair Unveils Film, Series Pitches and Panels, Strikes First Nordic Genre Lab Partnership (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 599 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-10T14:44:11.779Z"
+  "lastUpdated": "2026-09-10T18:01:12.472Z"
 }
