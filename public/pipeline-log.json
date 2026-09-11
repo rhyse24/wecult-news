@@ -2,6 +2,16 @@
   "totalArticles": 1755,
   "runs": [
     {
+      "timestamp": "2026-09-11T20:03:19.639Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 35,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-09-11T17:03:12.115Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1864,47 +1874,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-01T10:01:02.147Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 238,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "SND Swoops on Toronto-Bound Bérénice Bejo Starrer  ‘Alice: Pioneer of Cinema’ Ahead of Unifrance Rendez-Vous in Le Havre (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 11,
-          "slug": "ac248b6f-snd-swoops-on-toronto-bound-brnice-bejo-starrer-alice-pionee"
-        },
-        {
-          "title": "Xolo Maridueña Was Not Sure Blue Beetle Would Ever Come Back, Until James Gunn Called Him About the ‘Superman’ Sequel: ‘The Most Humbled’",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "b2f1e063-xolo-mariduea-was-not-sure-blue-beetle-would-ever-come-back-"
-        },
-        {
-          "title": "Vicon Acquires Facial Capture Firm Captive Devices (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "eb869be8-vicon-acquires-facial-capture-firm-captive-devices-exclusive"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "London Film Festival Sets Screen Talks With Andrew Scott, Cynthia Erivo, Jesse Eisenberg, Sofia Coppola and More",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-11T17:03:12.115Z"
+  "lastUpdated": "2026-09-11T20:03:19.639Z"
 }
