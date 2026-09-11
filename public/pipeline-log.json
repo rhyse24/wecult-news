@@ -2,6 +2,16 @@
   "totalArticles": 1747,
   "runs": [
     {
+      "timestamp": "2026-09-11T03:52:24.029Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 46,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-09-11T00:36:41.155Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1870,32 +1880,7 @@
       "totalCandidates": 33,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-31T20:01:02.282Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 228,
-      "totalCandidates": 75,
-      "written": [
-        {
-          "title": "The Blood of Dawnwalker Review",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "bf6b34cc-the-blood-of-dawnwalker-review"
-        },
-        {
-          "title": "Housemarque Co-Founder Ilari Kuittinen Announces Exit from Saros Developer After 31 Years",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "e9d6d4af-housemarque-co-founder-ilari-kuittinen-announces-exit-from-s"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-11T00:36:41.155Z"
+  "lastUpdated": "2026-09-11T03:52:24.029Z"
 }
