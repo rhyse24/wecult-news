@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1747,
+  "totalArticles": 1750,
   "runs": [
+    {
+      "timestamp": "2026-09-11T07:09:51.429Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 276,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Big Bang's Kaley Cuoco Says Making Stuart Fails To Save The Universe Episode 8 Was Like 'Shooting A Transformers Film' — Watch Interview",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "0c6c2cd0-big-bangs-kaley-cuoco-says-making-stuart-fails-to-save-the-u"
+        },
+        {
+          "title": "Before Reacher, Elspeth Sampson Actress Kathleen Robertson Starred On A Kelsey Grammer Drama",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "3af69fe4-before-reacher-elspeth-sampson-actress-kathleen-robertson-st"
+        },
+        {
+          "title": "‘Ted Lasso’ Season 4 Is Running Out of Time to Fix Itself",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 9,
+          "slug": "3d3f60b8-ted-lasso-season-4-is-running-out-of-time-to-fix-itself"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "CBS Files Motion to Dismiss Former ‘Matlock’ Writer’s Lawsuit Alleging Racist, Sexist Comments: ‘We Stand Firmly Behind Our Producers’ (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-11T03:52:24.029Z",
       "status": "quota",
@@ -1870,17 +1910,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-31T22:01:02.319Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 228,
-      "totalCandidates": 33,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-11T03:52:24.029Z"
+  "lastUpdated": "2026-09-11T07:09:51.429Z"
 }
