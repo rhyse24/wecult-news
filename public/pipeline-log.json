@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1750,
+  "totalArticles": 1753,
   "runs": [
+    {
+      "timestamp": "2026-09-11T10:28:46.136Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 279,
+      "totalCandidates": 93,
+      "written": [
+        {
+          "title": "How To Unlock All Season 6 Weapons In Black Ops 7 And Warzone",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "9a9f8667-how-to-unlock-all-season-6-weapons-in-black-ops-7-and-warzon"
+        },
+        {
+          "title": "\"I don't think it's worth any amount of money\" - Controversial real-life GTA 6 advertising campaign passed by City of Miami, but brand can only appear \"discreetly\"",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 12,
+          "slug": "a04cc01a-i-dont-think-its-worth-any-amount-of-money---controversial-r"
+        },
+        {
+          "title": "GTA 6 Netflix preview drove more than 100,000 sign-ups during its six-hour exclusivity window",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 11,
+          "slug": "4ba14638-gta-6-netflix-preview-drove-more-than-100000-sign-ups-during"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-11T07:09:51.429Z",
       "status": "success",
@@ -1885,32 +1917,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-01T01:14:23.444Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 232,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "AMC Theatres Launches Indie Distribution Label Leawood Films; Veteran Hollywood Execs to Advise",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "450b8aee-amc-theatres-launches-indie-distribution-label-leawood-films"
-        },
-        {
-          "title": "5 Movie Trilogies That Ended Poorly",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "263ba10f-5-movie-trilogies-that-ended-poorly"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-11T07:09:51.429Z"
+  "lastUpdated": "2026-09-11T10:28:46.136Z"
 }
