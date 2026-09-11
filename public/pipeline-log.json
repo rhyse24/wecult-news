@@ -1,6 +1,49 @@
 {
-  "totalArticles": 1744,
+  "totalArticles": 1747,
   "runs": [
+    {
+      "timestamp": "2026-09-11T00:36:41.155Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 278,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "‘Resident Evil’ Filmmaker Zach Cregger Reveals the Key Adjustment He Made After Test Screenings ",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 18,
+          "slug": "828d2d5a-resident-evil-filmmaker-zach-cregger-reveals-the-key-adjustm"
+        },
+        {
+          "title": "The Legend of Patricia Summersett’s ‘Zelda’: Voice Actress Behind Nintendo’s Iconic Princess on Franchise’s 40th Anniversary, Upcoming Live-Action Movie",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "971f3a15-the-legend-of-patricia-summersetts-zelda-voice-actress-behin"
+        },
+        {
+          "title": "5 Movies To Watch If You Like The Runner",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "slug": "9649b35b-5-movies-to-watch-if-you-like-the-runner"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "13 Most Powerful Versions Of Doctor Doom, Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 681 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-10T21:22:56.399Z",
       "status": "quota",
@@ -1852,25 +1895,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-08-31T18:23:54.862Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 227,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "15 Best TV Shows Like Avatar: The Last Airbender",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "cde3536b-15-best-tv-shows-like-avatar-the-last-airbender"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-10T21:22:56.399Z"
+  "lastUpdated": "2026-09-11T00:36:41.155Z"
 }
