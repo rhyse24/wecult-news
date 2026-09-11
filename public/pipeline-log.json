@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1753,
+  "totalArticles": 1754,
   "runs": [
+    {
+      "timestamp": "2026-09-11T14:01:30.001Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "‘Rojo’ Director Benjamín Naishtat on Awaited Toronto, San Sebastián Title ‘Glaxo,’ the Impunity of Power and Connecting via Genre ",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "f642e901-rojo-director-benjamn-naishtat-on-awaited-toronto-san-sebast"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Thailand Bets on Film Tourism to Turn Movie Locations Into Travel Destinations",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-11T10:28:46.136Z",
       "status": "success",
@@ -1892,32 +1918,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-01T04:21:56.699Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 231,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Whose show is Lanterns anyway?",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "slug": "fcee4fc3-whose-show-is-lanterns-anyway"
-        },
-        {
-          "title": "‘Gargoyles’ Live-Action Series Not Moving Forward at Disney+",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "80945af1-gargoyles-live-action-series-not-moving-forward-at-disney"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-11T10:28:46.136Z"
+  "lastUpdated": "2026-09-11T14:01:30.001Z"
 }
