@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1754,
+  "totalArticles": 1755,
   "runs": [
+    {
+      "timestamp": "2026-09-11T17:03:12.115Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 265,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "The 10 Best Netflix Original Musicals (And Why ‘Emilia Pérez’ Didn’t Make the Cut)",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "1bd5edf4-the-10-best-netflix-original-musicals-and-why-emilia-prez-di"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-11T14:01:30.001Z",
       "status": "quota",
@@ -1886,39 +1904,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-01T08:01:04.696Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 233,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "Lanterns Sheds Light on Some Essential Backstory in “OutKast”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 17,
-          "slug": "8ceee3ff-lanterns-sheds-light-on-some-essential-backstory-in-outkast"
-        },
-        {
-          "title": "Celebrating the Great Tim Curry’s Ten Greatest Roles",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 12,
-          "slug": "64237ec4-celebrating-the-great-tim-currys-ten-greatest-roles"
-        },
-        {
-          "title": "7 Books That Take Readers to Extraordinary, Uncharted Regions",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 8,
-          "slug": "ef2bfdf6-7-books-that-take-readers-to-extraordinary-uncharted-regions"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-11T14:01:30.001Z"
+  "lastUpdated": "2026-09-11T17:03:12.115Z"
 }
