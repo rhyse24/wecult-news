@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1755,
+  "totalArticles": 1757,
   "runs": [
+    {
+      "timestamp": "2026-09-11T22:01:36.122Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "I Can’t Tell If Hope Is a Good-Bad Movie or a Bad-Good One",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "187ff7d8-i-cant-tell-if-hope-is-a-good-bad-movie-or-a-bad-good-one"
+        },
+        {
+          "title": "Avatar: Seven Havens Trailer Takes Us Far Into a Troubled Future",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "dbfc9ee3-avatar-seven-havens-trailer-takes-us-far-into-a-troubled-fut"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-11T20:03:19.639Z",
       "status": "quota",
@@ -1842,39 +1867,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-01T13:36:10.649Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 254,
-      "totalCandidates": 85,
-      "written": [
-        {
-          "title": "The Witcher 4 Probably Won’t Be On A Disc, But Dev Teases Physical “Feelies” Of Some Type",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "ac1254a8-the-witcher-4-probably-wont-be-on-a-disc-but-dev-teases-phys"
-        },
-        {
-          "title": " The Witcher 3 Remastered should run just fine on the Steam Deck, say devs ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "11dd893c-the-witcher-3-remastered-should-run-just-fine-on-the-steam-d"
-        },
-        {
-          "title": "Here's A Look At 30 New GTA 6 Screenshots To Hype You Up After The Extended Preview",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 13,
-          "slug": "b9d8cff4-heres-a-look-at-30-new-gta-6-screenshots-to-hype-you-up-afte"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-11T20:03:19.639Z"
+  "lastUpdated": "2026-09-11T22:01:36.122Z"
 }
