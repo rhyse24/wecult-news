@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1764,
+  "totalArticles": 1767,
   "runs": [
+    {
+      "timestamp": "2026-09-12T11:19:16.008Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 263,
+      "totalCandidates": 86,
+      "written": [
+        {
+          "title": "The 9 Biggest Trailers Worth Watching This Week",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 17,
+          "slug": "6a8b9d23-the-9-biggest-trailers-worth-watching-this-week"
+        },
+        {
+          "title": "Wolverine Developer Insomniac Says Logan's Scent Trail Isn't Always on Amid 'Fart Gas' Toggle Requests",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "6b31260c-wolverine-developer-insomniac-says-logans-scent-trail-isnt-a"
+        },
+        {
+          "title": "Nintendo Confirms Zelda 40th Anniversary Collection Restocks",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 13,
+          "slug": "8088c11d-nintendo-confirms-zelda-40th-anniversary-collection-restocks"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Talking Point: What Are You Playing This Weekend? (12th September)",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 13,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-12T08:00:38.546Z",
       "status": "success",
@@ -1861,39 +1901,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-02T08:29:28.957Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 283,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Hyun Bin and Woo Do-hwan Turn Against Each Other in Hulu and Disney+’s ‘Made in Korea’ Season 2",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "2b187b2d-hyun-bin-and-woo-do-hwan-turn-against-each-other-in-hulu-and"
-        },
-        {
-          "title": "‘The Whisper Man’ Debuts As Sixth Biggest Movie of 2026 in Netflix Top 10s with 23.2M Views",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "ad5247c5-the-whisper-man-debuts-as-sixth-biggest-movie-of-2026-in-net"
-        },
-        {
-          "title": "Ji Chang-wook and Imada Mio’s Korean-Japanese Romcom ‘Merry Berry Love’ Sets October Disney+, Hulu Bow",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "5147c98c-ji-chang-wook-and-imada-mios-korean-japanese-romcom-merry-be"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-12T08:00:38.546Z"
+  "lastUpdated": "2026-09-12T11:19:16.008Z"
 }
