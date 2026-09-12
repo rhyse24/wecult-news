@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1759,
+  "totalArticles": 1761,
   "runs": [
+    {
+      "timestamp": "2026-09-12T06:00:37.670Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 268,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "Crew Girl Season 2: Will Netflix Renew? Everything We Know So Far",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "5bd018ca-crew-girl-season-2-will-netflix-renew-everything-we-know-so-"
+        },
+        {
+          "title": "Gary Oldman Predicts HBO’s ‘Harry Potter’ Series Will Be ‘More Satisfying’ for Fans Than the Movies",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "5a1fda9a-gary-oldman-predicts-hbos-harry-potter-series-will-be-more-s"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "All Five ‘Twilight’ Movies and ‘Dune: Part Two’ Are Now Streaming on Netflix UK",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-12T04:09:37.619Z",
       "status": "quota",
@@ -1827,40 +1860,7 @@
       "totalCandidates": 41,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-02T00:59:10.881Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 87,
-      "written": [
-        {
-          "title": "Resident Evil 2 Director Hideki Kamiya Says Capcom Has Grown 'Numb' To How Scary New RE Games Are",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 18,
-          "slug": "b536e006-resident-evil-2-director-hideki-kamiya-says-capcom-has-grown"
-        },
-        {
-          "title": " Ken and Ryu work things out in a new trailer for Street Fighter ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 18,
-          "slug": "6fc12808-ken-and-ryu-work-things-out-in-a-new-trailer-for-street-figh"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "GTA 6’s Extended Look Trailer Seemingly Paid Off For Netflix With Massive Viewership",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-12T04:09:37.619Z"
+  "lastUpdated": "2026-09-12T06:00:37.670Z"
 }
