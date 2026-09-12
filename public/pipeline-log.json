@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1758,
+  "totalArticles": 1759,
   "runs": [
+    {
+      "timestamp": "2026-09-12T04:09:37.619Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 86,
+      "written": [
+        {
+          "title": "GTA 6 Reviews Plague Real-Life Nudist Resort After Fans Draw Comparisons to Leaks",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "37ab470a-gta-6-reviews-plague-real-life-nudist-resort-after-fans-draw"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The 9 Biggest Trailers Worth Watching This Week",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 18,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-12T00:57:40.376Z",
       "status": "quota",
@@ -1834,25 +1860,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-01T21:02:40.184Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "Spider-Man: Brand New Day Proves Video Games Can Be Action Movie Storyboards",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 17,
-          "slug": "af563a5a-spider-man-brand-new-day-proves-video-games-can-be-action-mo"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-12T00:57:40.376Z"
+  "lastUpdated": "2026-09-12T04:09:37.619Z"
 }
