@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1768,
+  "totalArticles": 1770,
   "runs": [
+    {
+      "timestamp": "2026-09-12T16:00:37.677Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 247,
+      "totalCandidates": 26,
+      "written": [
+        {
+          "title": "Box Office: ‘Practical Magic 2’ Conjures Up $13 Million on Friday as ‘Spider-Man: Brand New Day’ Nears All-Time Domestic Box Office Record",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "93d42df1-box-office-practical-magic-2-conjures-up-13-million-on-frida"
+        },
+        {
+          "title": "Jorge Alonso’s Spanish Romance Drama ‘All That We Never Were’ Sells to France and India (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "902670f7-jorge-alonsos-spanish-romance-drama-all-that-we-never-were-s"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-12T14:25:39.576Z",
       "status": "quota",
@@ -1884,17 +1909,7 @@
       "totalCandidates": 45,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-02T17:25:47.472Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 42,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-12T14:25:39.576Z"
+  "lastUpdated": "2026-09-12T16:00:37.677Z"
 }
