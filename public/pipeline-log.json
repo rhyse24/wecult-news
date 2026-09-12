@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1767,
+  "totalArticles": 1768,
   "runs": [
+    {
+      "timestamp": "2026-09-12T14:25:39.576Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 251,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "Streaming Prices Continue to Balloon: Is ‘Streamflation’ at a Breaking Point?",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 8,
+          "slug": "4c43650a-streaming-prices-continue-to-balloon-is-streamflation-at-a-b"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-12T11:19:16.008Z",
       "status": "success",
@@ -1876,32 +1894,7 @@
       "totalCandidates": 42,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-02T14:01:44.810Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "7 Best Movies To Watch if You Love HBO's Lanterns ",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 21,
-          "slug": "19855fce-7-best-movies-to-watch-if-you-love-hbos-lanterns"
-        },
-        {
-          "title": "‘Spider-Man: Brand New Day’ Stays in Full Swing Atop U.K., Ireland Box Office as ‘The Odyssey’ Continues Voyage",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "slug": "27ce79ed-spider-man-brand-new-day-stays-in-full-swing-atop-uk-ireland"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-12T11:19:16.008Z"
+  "lastUpdated": "2026-09-12T14:25:39.576Z"
 }
