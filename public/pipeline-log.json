@@ -1,6 +1,49 @@
 {
-  "totalArticles": 1761,
+  "totalArticles": 1764,
   "runs": [
+    {
+      "timestamp": "2026-09-12T08:00:38.546Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "Sebastian Stan on Why ‘Fjord’ Is Being Called a ‘MAGA Movie’ and How Making ‘The Batman 2’ Feels Like ‘F—ing Godfather Part 2’",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "580af7cd-sebastian-stan-on-why-fjord-is-being-called-a-maga-movie-and"
+        },
+        {
+          "title": "‘Obsession’ One Year Later: Inde Navarrette and Curry Barker Dish on Memes, How Nikki Became More ‘Flirty’ and Their Wild Ride at TIFF",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "7ded8904-obsession-one-year-later-inde-navarrette-and-curry-barker-di"
+        },
+        {
+          "title": "‘The Julia Set’ Review: Chase Infiniti Confirms Her Movie-Star Mettle in Niki Byrne’s Riveting Math-Geek Bad Romance",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "3043b387-the-julia-set-review-chase-infiniti-confirms-her-movie-star-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "13 Most Powerful Versions Of Doctor Doom, Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 708 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-12T06:00:37.670Z",
       "status": "quota",
@@ -1850,17 +1893,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-02T04:52:35.925Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 41,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-12T06:00:37.670Z"
+  "lastUpdated": "2026-09-12T08:00:38.546Z"
 }
