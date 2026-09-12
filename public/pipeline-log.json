@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1770,
+  "totalArticles": 1771,
   "runs": [
+    {
+      "timestamp": "2026-09-12T19:28:21.788Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 246,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "10 Most Underrated NBC Shows Of All Time",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "caf72cc4-10-most-underrated-nbc-shows-of-all-time"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "15 Best Guest Stars On How I Met Your Mother",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-12T16:00:37.677Z",
       "status": "quota",
@@ -1899,17 +1925,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-02T20:36:57.721Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 45,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-12T16:00:37.677Z"
+  "lastUpdated": "2026-09-12T19:28:21.788Z"
 }
