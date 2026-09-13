@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1774,
+  "totalArticles": 1775,
   "runs": [
+    {
+      "timestamp": "2026-09-13T06:08:39.146Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 241,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "5 Best TV Shows To Watch After House Of The Dragon (That Aren't Game Of Thrones)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "2b7b916d-5-best-tv-shows-to-watch-after-house-of-the-dragon-that-aren"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-13T02:29:31.277Z",
       "status": "quota",
@@ -1897,39 +1915,7 @@
       "totalCandidates": 42,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-03T06:16:04.983Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 274,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Andrew Garfield Hasn’t Seen ‘Spider-Man: Brand New Day’ Yet and Insists He’s Not in ‘Avengers: Doomsday’",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "9ddeaa34-andrew-garfield-hasnt-seen-spider-man-brand-new-day-yet-and-"
-        },
-        {
-          "title": "Ryan Reynolds Praises ‘The Odyssey’ After Passing ‘Deadpool & Wolverine’ to Become Biggest R-Rated Movie Ever: ‘Christopher Nolan Literally Breathes The Rarest Air on Earth’",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "b780640d-ryan-reynolds-praises-the-odyssey-after-passing-deadpool-wol"
-        },
-        {
-          "title": "George Lucas Says Opening Lucas Museum ‘Almost Broke My Will’: ‘It’s Taken So Long to Get Here’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "a25639d0-george-lucas-says-opening-lucas-museum-almost-broke-my-will-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-13T02:29:31.277Z"
+  "lastUpdated": "2026-09-13T06:08:39.146Z"
 }
