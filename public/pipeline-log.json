@@ -1,6 +1,56 @@
 {
-  "totalArticles": 1778,
+  "totalArticles": 1781,
   "runs": [
+    {
+      "timestamp": "2026-09-13T10:01:06.345Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 224,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "Trans Pregnancy Drama ‘Aman’ Boards Parallax Films for Global Sales Ahead of Toronto and London Premieres (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "728d1131-trans-pregnancy-drama-aman-boards-parallax-films-for-global-"
+        },
+        {
+          "title": "Oscars: Philippines Selects Rafael Manuel’s ‘Filipiñana’ for International Feature Race",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "f933d1ad-oscars-philippines-selects-rafael-manuels-filipiana-for-inte"
+        },
+        {
+          "title": "Chris Rock’s Hollywood Send-Up ‘Misty Green’ Hits TIFF With Rosalind Eleazar’s Knockout Lead Performance ",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "3680e152-chris-rocks-hollywood-send-up-misty-green-hits-tiff-with-ros"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "TIFF 2026: Tender Loving Care, Bucking Fastard, A Long Winter",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        },
+        {
+          "title": "The Movie That Best Captured That Post-9/11 Feeling",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 8,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-13T08:00:30.128Z",
       "status": "success",
@@ -1919,25 +1969,7 @@
       "totalCandidates": 39,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-03T12:42:28.443Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "Guy Ritchie romp The Gentlemen expands its empire of excess in season 2",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "slug": "a367fc2d-guy-ritchie-romp-the-gentlemen-expands-its-empire-of-excess-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-13T08:00:30.128Z"
+  "lastUpdated": "2026-09-13T10:01:06.345Z"
 }
