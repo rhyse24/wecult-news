@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1775,
+  "totalArticles": 1778,
   "runs": [
+    {
+      "timestamp": "2026-09-13T08:00:30.128Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 241,
+      "totalCandidates": 12,
+      "written": [
+        {
+          "title": "Lit Hub Weekly: September 7 – 11, 2026",
+          "category": "books",
+          "source": "Literary Hub",
+          "score": 7,
+          "slug": "a6d25d43-lit-hub-weekly-september-7-11-2026"
+        },
+        {
+          "title": "Is The Uprising Really a Secret Robin Hood Movie?",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 6,
+          "slug": "46c024f9-is-the-uprising-really-a-secret-robin-hood-movie"
+        },
+        {
+          "title": "Lit Hub Daily: September 11, 2026",
+          "category": "books",
+          "source": "Literary Hub",
+          "score": 6,
+          "slug": "6ca9148f-lit-hub-daily-september-11-2026"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-13T06:08:39.146Z",
       "status": "quota",
@@ -1905,17 +1937,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-03T09:41:51.140Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 42,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-13T06:08:39.146Z"
+  "lastUpdated": "2026-09-13T08:00:30.128Z"
 }
