@@ -1,6 +1,42 @@
 {
-  "totalArticles": 1772,
+  "totalArticles": 1774,
   "runs": [
+    {
+      "timestamp": "2026-09-13T02:29:31.277Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 242,
+      "totalCandidates": 23,
+      "written": [
+        {
+          "title": "Slavoj Zizek Wants to Talk About Taylor Swift, Spider-Man and His Crush on Olivia Wilde",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "7bfc23d2-slavoj-zizek-wants-to-talk-about-taylor-swift-spider-man-and"
+        },
+        {
+          "title": "‘Letters From the Silenced Country’ Wins Golden Globes Impact Prize for Documentary Presented During Venice Film Festival (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "8fc678d6-letters-from-the-silenced-country-wins-golden-globes-impact-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "TIFF 2026: In the Heart of the South, Idda, Magazine",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-12T22:53:01.233Z",
       "status": "quota",
@@ -1893,25 +1929,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-03T02:56:00.469Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "Over 600 Unused Voice Lines From Resident Evil 4 Leak Online, Showing That Capcom Intended to Connect the Game to Village",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 18,
-          "slug": "4e2b4a0e-over-600-unused-voice-lines-from-resident-evil-4-leak-online"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-12T22:53:01.233Z"
+  "lastUpdated": "2026-09-13T02:29:31.277Z"
 }
