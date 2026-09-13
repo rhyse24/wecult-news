@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1781,
+  "totalArticles": 1784,
   "runs": [
+    {
+      "timestamp": "2026-09-13T14:04:00.633Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 210,
+      "totalCandidates": 75,
+      "written": [
+        {
+          "title": "Diablo 4's new season brings back Deckard Cain and all three Prime Evils as the game arrives on Switch 2",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 12,
+          "slug": "1d152711-diablo-4s-new-season-brings-back-deckard-cain-and-all-three-"
+        },
+        {
+          "title": "The Game Awards Stage Invader Officially Interviewing Joe Biden's Son",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 12,
+          "slug": "ce4e4a55-the-game-awards-stage-invader-officially-interviewing-joe-bi"
+        },
+        {
+          "title": "Rockstar had a mole in the union worker Discord server \"for over two and a half years\", GTA 6 company reveals during legal battle",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 11,
+          "slug": "811e1e18-rockstar-had-a-mole-in-the-union-worker-discord-server-for-o"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-13T10:01:06.345Z",
       "status": "success",
@@ -1959,17 +1991,7 @@
       "totalCandidates": 38,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-03T15:23:00.113Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 39,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-13T10:01:06.345Z"
+  "lastUpdated": "2026-09-13T14:04:00.633Z"
 }
