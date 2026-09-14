@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1794,
+  "totalArticles": 1797,
   "runs": [
+    {
+      "timestamp": "2026-09-14T12:06:17.741Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 215,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "Korea Box Office: ‘The Odyssey’ Secures Sixth Weekend Crown as ‘Obsession’ Ascends",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "c0323875-korea-box-office-the-odyssey-secures-sixth-weekend-crown-as-"
+        },
+        {
+          "title": "‘Club Kid’ Wins Top Prize at Deauville American Film Festival",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "963c669c-club-kid-wins-top-prize-at-deauville-american-film-festival"
+        },
+        {
+          "title": "Meet ‘Minotaur’: Watch the Exclusive Trailer for the Cannes-Winning Political Thriller",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "slug": "6e9d8223-meet-minotaur-watch-the-exclusive-trailer-for-the-cannes-win"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-14T08:01:11.092Z",
       "status": "success",
@@ -1981,39 +2013,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-04T06:57:02.592Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "Oasis Documentary Directors on Filming the Brothers’ First Reunion in 15 Years and Why There Wasn’t Much Emotion in the Room: ‘It’s the Gallaghers, It’s Not ‘Dawson’s Creek”",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "2e101b61-oasis-documentary-directors-on-filming-the-brothers-first-re"
-        },
-        {
-          "title": "AR Content, Vertigo, Blumhouse Atomic Monster Set Remake of Genre-Bending, Satirical French Horror ‘Vincent Must Die’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 11,
-          "slug": "1b75c96e-ar-content-vertigo-blumhouse-atomic-monster-set-remake-of-ge"
-        },
-        {
-          "title": "“Chad Powers” Remains a Ludicrous, Warm-Hearted Show in Season 2",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 11,
-          "slug": "ad346646-chad-powers-remains-a-ludicrous-warm-hearted-show-in-season-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-14T08:01:11.092Z"
+  "lastUpdated": "2026-09-14T12:06:17.741Z"
 }
