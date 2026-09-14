@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1788,
+  "totalArticles": 1791,
   "runs": [
+    {
+      "timestamp": "2026-09-14T04:01:04.573Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 193,
+      "totalCandidates": 69,
+      "written": [
+        {
+          "title": "All Fortnite Seasons in Order: Start and End Dates for Every Chapter",
+          "category": "games",
+          "source": "Dot Esports",
+          "score": 13,
+          "slug": "3eb02aa5-all-fortnite-seasons-in-order-start-and-end-dates-for-every-"
+        },
+        {
+          "title": "Diablo 5 Director Confirms Game is Already in Full Production",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "556d014a-diablo-5-director-confirms-game-is-already-in-full-productio"
+        },
+        {
+          "title": " ‘Hell Yes!’ - Diablo 4 Dev Team Reacts to the Franchise’s New Netflix Show",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "054ef633-hell-yes---diablo-4-dev-team-reacts-to-the-franchises-new-ne"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-14T02:04:47.029Z",
       "status": "quota",
@@ -1974,32 +2006,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-04T00:36:32.720Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "Turkish GTA 6 Fans Want Language Support So Badly, They Professionally Dubbed the Gameplay Reveal",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "bfdfddfe-turkish-gta-6-fans-want-language-support-so-badly-they-profe"
-        },
-        {
-          "title": "Miami-Dade Sheriff and Commissioner Slam City's Proposed GTA 6 Takeover for 'Promoting Fictional Version of Our Community Defined by Crime and Violence'",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "bbb936be-miami-dade-sheriff-and-commissioner-slam-citys-proposed-gta-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-14T02:04:47.029Z"
+  "lastUpdated": "2026-09-14T04:01:04.573Z"
 }
