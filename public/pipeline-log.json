@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1797,
+  "totalArticles": 1798,
   "runs": [
+    {
+      "timestamp": "2026-09-14T16:11:27.007Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 244,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Netflix at the 2026 Emmy Awards: Every Win So Far And Predictions Ahead of Tonight",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "57982375-netflix-at-the-2026-emmy-awards-every-win-so-far-and-predict"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-14T12:06:17.741Z",
       "status": "success",
@@ -1973,47 +1991,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-04T10:08:38.808Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 270,
-      "totalCandidates": 73,
-      "written": [
-        {
-          "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 14,
-          "slug": "3d5902df-gta-6-netflix-preview-causes-playstation-and-xbox-hardware-s"
-        },
-        {
-          "title": "Miami-Dade police outraged by proposals to turn parts of Miami into GTA 6, saying that Rockstar's game embodies what they \"work every single day to prevent\"",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 13,
-          "slug": "5831d874-miami-dade-police-outraged-by-proposals-to-turn-parts-of-mia"
-        },
-        {
-          "title": "GTA 6 Marketing Plans Hit A Roadblock With Miami Officials",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 12,
-          "slug": "71052fcc-gta-6-marketing-plans-hit-a-roadblock-with-miami-officials"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Round Up: What Was Announced in Sony's State of Play Livestream for September 2026?",
-          "category": "games",
-          "source": "Push Square",
-          "score": 12,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-14T12:06:17.741Z"
+  "lastUpdated": "2026-09-14T16:11:27.007Z"
 }
