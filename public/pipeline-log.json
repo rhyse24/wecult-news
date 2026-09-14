@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1791,
+  "totalArticles": 1794,
   "runs": [
+    {
+      "timestamp": "2026-09-14T08:01:11.092Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 187,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "Lanterns Rewrites the Worst Moment in Green Lantern History",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 13,
+          "slug": "c3b23496-lanterns-rewrites-the-worst-moment-in-green-lantern-history"
+        },
+        {
+          "title": "‘Lanterns’ Star Poorna Jagannathan Breaks Down Zoe’s Brutal Episode 5: ‘It’s a Faustian Play She Makes’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "2aabd7d0-lanterns-star-poorna-jagannathan-breaks-down-zoes-brutal-epi"
+        },
+        {
+          "title": "‘Diablo’ Animated Series Officially Back in Development at Netflix",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 11,
+          "slug": "7addf63e-diablo-animated-series-officially-back-in-development-at-net"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-14T04:01:04.573Z",
       "status": "success",
@@ -1981,32 +2013,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-04T03:53:41.204Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "The Odyssey to just go on conquering IMAX screens for another month",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "slug": "19ddcd3d-the-odyssey-to-just-go-on-conquering-imax-screens-for-anothe"
-        },
-        {
-          "title": "Rick Riordan’s ‘Kane Chronicles’ Series in the Works at Disney+",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "2fe7e948-rick-riordans-kane-chronicles-series-in-the-works-at-disney"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-14T04:01:04.573Z"
+  "lastUpdated": "2026-09-14T08:01:11.092Z"
 }
