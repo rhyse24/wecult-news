@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1798,
+  "totalArticles": 1800,
   "runs": [
+    {
+      "timestamp": "2026-09-14T18:01:17.601Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 255,
+      "totalCandidates": 83,
+      "written": [
+        {
+          "title": "Leon Kennedy Easter Egg Spotted In Zach Cregger Resident Evil Movie",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 16,
+          "slug": "13144a0d-leon-kennedy-easter-egg-spotted-in-zach-cregger-resident-evi"
+        },
+        {
+          "title": "Tom Holland Is Now The Highest-Grossing Actor Of All Time As Spider-Man: Brand New Day Crosses $2.4 Billion Mark",
+          "category": "games",
+          "source": "Kotaku",
+          "score": 14,
+          "slug": "a0170943-tom-holland-is-now-the-highest-grossing-actor-of-all-time-as"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-14T16:11:27.007Z",
       "status": "quota",
@@ -1958,40 +1983,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-04T14:01:01.643Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Dave Bautista Reveals Body Transformation To Play Kratos On God Of War Prime Video Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "e3b2ea79-dave-bautista-reveals-body-transformation-to-play-kratos-on-"
-        },
-        {
-          "title": "‘Boys of Tommen’ Adds Jonathan Forbes, Cobhan O’brien, Harvey Moloney and More to Cast (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "fe2dfa8d-boys-of-tommen-adds-jonathan-forbes-cobhan-obrien-harvey-mol"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Ratings: Ted Lasso Season 4 Starts Strong — But Which Streaming Original Came In At No. 1?",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-14T16:11:27.007Z"
+  "lastUpdated": "2026-09-14T18:01:17.601Z"
 }
