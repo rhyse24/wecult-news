@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1786,
+  "totalArticles": 1788,
   "runs": [
+    {
+      "timestamp": "2026-09-13T22:07:06.475Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 190,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "‘Practical Magic 2’ Summons $30M to End Spider-Man’s Streak at No. 1",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "a536e725-practical-magic-2-summons-30m-to-end-spider-mans-streak-at-n"
+        },
+        {
+          "title": "10 Movies You Need to Watch on Prime Video in September 2026",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "b9856581-10-movies-you-need-to-watch-on-prime-video-in-september-2026"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-13T18:06:06.517Z",
       "status": "quota",
@@ -1989,32 +2014,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-03T19:11:54.427Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "“There was a sadness to it. But he’s also pretty badass”: Lanterns Composer on Scoring John Stewart’s Theme",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 16,
-          "slug": "2c43838d-there-was-a-sadness-to-it-but-hes-also-pretty-badass-lantern"
-        },
-        {
-          "title": "“Just because it didn’t happen doesn’t mean it isn’t real” — Star Trek: Strange New Worlds: “Like Chronitons Through the Hourglass…”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "ca866f59-just-because-it-didnt-happen-doesnt-mean-it-isnt-real-star-t"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-13T18:06:06.517Z"
+  "lastUpdated": "2026-09-13T22:07:06.475Z"
 }
