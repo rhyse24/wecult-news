@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1814,
+  "totalArticles": 1816,
   "runs": [
+    {
+      "timestamp": "2026-09-15T21:37:29.040Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Thailand Film and Tourist Officials on the Rise of Thai Cinema, Global Productions and the Impact of ‘The White Lotus’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "5ed9179f-thailand-film-and-tourist-officials-on-the-rise-of-thai-cine"
+        },
+        {
+          "title": "The New ‘Wolverine’ Game Is “Unapologetically Violent.” But It’s About More Than the Body Count",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "3a772a6c-the-new-wolverine-game-is-unapologetically-violent-but-its-a"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-15T17:52:55.630Z",
       "status": "quota",
@@ -1948,47 +1973,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-05T15:43:07.776Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 252,
-      "totalCandidates": 23,
-      "written": [
-        {
-          "title": "5 Sci-Fi Franchises That Are Officially Better Than Star Wars",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "dd641228-5-sci-fi-franchises-that-are-officially-better-than-star-war"
-        },
-        {
-          "title": "‘Primetime’ Review: Robert Pattinson Leads a Dazzling Cast in a Lurid Horror-Movie Portrait of a ‘Predator’-Hunter’s Predatory Instinct",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "d6723f13-primetime-review-robert-pattinson-leads-a-dazzling-cast-in-a"
-        },
-        {
-          "title": "Oscar Season Now: Welcome to the Rest of the Year",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 10,
-          "slug": "d8582362-oscar-season-now-welcome-to-the-rest-of-the-year"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "8 Movies To Watch If You Loved Widow's Bay",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-15T17:52:55.630Z"
+  "lastUpdated": "2026-09-15T21:37:29.040Z"
 }
