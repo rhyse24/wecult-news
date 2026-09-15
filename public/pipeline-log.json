@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1813,
+  "totalArticles": 1814,
   "runs": [
+    {
+      "timestamp": "2026-09-15T17:52:55.630Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "Reacher Creator Explains How Alan Ritchson's Character Differs From Other Action Heroes",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "82e87f2e-reacher-creator-explains-how-alan-ritchsons-character-differ"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-15T14:16:16.813Z",
       "status": "success",
@@ -1970,39 +1988,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-05T12:01:00.898Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 266,
-      "totalCandidates": 22,
-      "written": [
-        {
-          "title": "Obsession’s Inde Navarrette Will Star in The Waffle House Index",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "69a7c844-obsessions-inde-navarrette-will-star-in-the-waffle-house-ind"
-        },
-        {
-          "title": "Rick Riordan’s Kane Chronicles Are Coming to Disney+",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 12,
-          "slug": "0e983505-rick-riordans-kane-chronicles-are-coming-to-disney"
-        },
-        {
-          "title": "Netflix’s New Dungeons & Dragons Project is Ravenloft",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "9879885c-netflixs-new-dungeons-dragons-project-is-ravenloft"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-15T14:16:16.813Z"
+  "lastUpdated": "2026-09-15T17:52:55.630Z"
 }
