@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1800,
+  "totalArticles": 1802,
   "runs": [
+    {
+      "timestamp": "2026-09-14T21:55:15.655Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 263,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "3 Movies Taking Over Netflix This Week (#1 Is a Taylor Sheridan Thriller)",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "c24c536d-3-movies-taking-over-netflix-this-week-1-is-a-taylor-sherida"
+        },
+        {
+          "title": "MoreThan Films Acquires Serville Poblete’s Buzzy Toronto Hangout Comedy ‘Sunburn’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "69208561-morethan-films-acquires-serville-pobletes-buzzy-toronto-hang"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The 6 Most Perfect Drama Movies Released Since 2010",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-14T18:01:17.601Z",
       "status": "quota",
@@ -1957,33 +1990,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-04T17:16:19.430Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "KJ Apa, Isabel May and Archie Renaux YA Romance ‘Falling’ Getting North America Theatrical Release From Brainstorm Media (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "7fcde32d-kj-apa-isabel-may-and-archie-renaux-ya-romance-falling-getti"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Onslaught’ Director Adam Wingard on Adding Kink to His Movie, Why the Bad Guys Look Like ICE Agents and Spending ‘A Decade Slaving Away in the Studio System’ Making ‘Godzilla’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-14T18:01:17.601Z"
+  "lastUpdated": "2026-09-14T21:55:15.655Z"
 }
