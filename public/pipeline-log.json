@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1807,
+  "totalArticles": 1810,
   "runs": [
+    {
+      "timestamp": "2026-09-15T10:22:35.897Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 264,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "‘Practical Magic 2’ Casts a Spell Over U.K., Ireland Box Office as Oasis Doc Rocks No. 2",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "677a337a-practical-magic-2-casts-a-spell-over-uk-ireland-box-office-a"
+        },
+        {
+          "title": "15 Movies To Watch if You Love 'Spirited Away'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "slug": "60727f16-15-movies-to-watch-if-you-love-spirited-away"
+        },
+        {
+          "title": "Prime Video’s ‘The House of the Spirits’ Showrunners Francisca Alegria and Fernanda Urrejola Lead Alma Media Lab Slate (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "f4ed6f5b-prime-videos-the-house-of-the-spirits-showrunners-francisca-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-15T06:16:13.013Z",
       "status": "quota",
@@ -1978,32 +2010,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-05T06:44:41.968Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "‘Tender Loving Care’ Review: Kate O’Flynn Lights Up Mike Leigh’s Warm, Gently Wrenching Study of Solace and Solidarity",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "9901828f-tender-loving-care-review-kate-oflynn-lights-up-mike-leighs-"
-        },
-        {
-          "title": "Lav Diaz Preps False Prophets Film and Jose Rizal’s ‘Noli Me Tangere’ Adaptation, Unpacks Venice Title ‘Let Us Through, Dear Ancestors’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "c529a042-lav-diaz-preps-false-prophets-film-and-jose-rizals-noli-me-t"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-15T06:16:13.013Z"
+  "lastUpdated": "2026-09-15T10:22:35.897Z"
 }
