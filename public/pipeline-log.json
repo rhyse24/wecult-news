@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1810,
+  "totalArticles": 1813,
   "runs": [
+    {
+      "timestamp": "2026-09-15T14:16:16.813Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 268,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": "Is Eternal Darkness Getting a Remaster? Nightdive Studios Raises Hopes That the GameCube Classic Will Return",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 20,
+          "slug": "3ed4a9c1-is-eternal-darkness-getting-a-remaster-nightdive-studios-rai"
+        },
+        {
+          "title": "Diablo 5 Doubles Down On The Darkness, But Hope Still Has A Place In Sanctuary",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 16,
+          "slug": "0369a799-diablo-5-doubles-down-on-the-darkness-but-hope-still-has-a-p"
+        },
+        {
+          "title": "Final Fantasy 7 Revelation Brings Back Snowboarding, And Red XIII Might Steal The Show Again",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "2530dd33-final-fantasy-7-revelation-brings-back-snowboarding-and-red-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-15T10:22:35.897Z",
       "status": "success",
@@ -1970,47 +2002,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-05T10:01:05.162Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 272,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "Silo Sets Premiere Date For Fourth And Final Season On Apple TV — Plus, Get A Sneak Peek",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "ba663eae-silo-sets-premiere-date-for-fourth-and-final-season-on-apple"
-        },
-        {
-          "title": "5 Ways House Of The Dragon Is Better Than Game Of Thrones",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "df7fdb78-5-ways-house-of-the-dragon-is-better-than-game-of-thrones"
-        },
-        {
-          "title": "Maria Bartiromo vs. Fox News: Anchor’s Pivot Between MAGA Politics and Wall Street Likely Spurred Fallout",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "9810759a-maria-bartiromo-vs-fox-news-anchors-pivot-between-maga-polit"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Lanterns’ Writer Responds to Buzzy Episode Three Reaction: “I Just Hope People Will Stick It Out With John”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-15T10:22:35.897Z"
+  "lastUpdated": "2026-09-15T14:16:16.813Z"
 }
