@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1819,
+  "totalArticles": 1822,
   "runs": [
+    {
+      "timestamp": "2026-09-16T09:16:11.056Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 277,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "‘Resident Evil’ First Reactions: Zach Cregger’s Zombie Horror Is ‘Gloriously Gory’ and One of ‘The Best Video Game Adaptations’ Ever",
+          "category": "film",
+          "source": "Variety",
+          "score": 15,
+          "slug": "0fd24e07-resident-evil-first-reactions-zach-creggers-zombie-horror-is"
+        },
+        {
+          "title": "John Abraham Starts Shooting Ribhu Dasgupta’s Psychological Thriller ‘Guru’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "20ce3a71-john-abraham-starts-shooting-ribhu-dasguptas-psychological-t"
+        },
+        {
+          "title": "A Dog with a Bone: Maria Sten on “Neagley”",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 12,
+          "slug": "0a2e7ddf-a-dog-with-a-bone-maria-sten-on-neagley"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-16T05:26:56.599Z",
       "status": "quota",
@@ -1945,54 +1977,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-06T03:00:58.182Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 238,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "‘Elsinore’ Revisits Daniel Day-Lewis’ Infamous Walk-Off During ’80s ‘Hamlet’ Production",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "c62758e8-elsinore-revisits-daniel-day-lewis-infamous-walk-off-during-"
-        },
-        {
-          "title": "The Perfect ‘Godfather’ Cast if the Movie Were Made in 2026",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 9,
-          "slug": "7523d922-the-perfect-godfather-cast-if-the-movie-were-made-in-2026"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Jeff Zucker on His Venice Film Festival Debut for A24’s ‘Primetime’: “This Is Very Surreal”",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Oasis: Don’t Look Back in Anger’ Review: An Uncharacteristically Polite and Sentimental Portrait of a Raucous Band and Phenomenon",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Primetime’: Robert Pattinson Earns Raves as Chris Hansen — Here’s What Critics Are Saying",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-16T05:26:56.599Z"
+  "lastUpdated": "2026-09-16T09:16:11.056Z"
 }
