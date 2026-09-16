@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1817,
+  "totalArticles": 1819,
   "runs": [
+    {
+      "timestamp": "2026-09-16T05:26:56.599Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 281,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "‘Neagley’ Review: Amazon’s ‘Reacher’ Spinoff Delivers Similarly Pulpy Pleasures, Despite Filler and Questionable Character Choices",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "240ae6b2-neagley-review-amazons-reacher-spinoff-delivers-similarly-pu"
+        },
+        {
+          "title": "Netflix’s 2026 Emmys: Full List of Wins, What Worked and What Didn’t",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "101de7ab-netflixs-2026-emmys-full-list-of-wins-what-worked-and-what-d"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Lanterns’ Stars Kelly Macdonald and Jason Ritter Talk Episode 5’s Reveal, Coen Brothers’ Influence and Gotham City Roots",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 9,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-16T01:33:19.362Z",
       "status": "quota",
@@ -1959,32 +1992,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-05T23:24:50.537Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 242,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "Everything looks sticky and nobody says \"vampire\" in the trailer for Disney+ and Hulu's City Of Blood",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 14,
-          "slug": "9da9d623-everything-looks-sticky-and-nobody-says-vampire-in-the-trail"
-        },
-        {
-          "title": "Mandy Moore on Hilary Duff’s Musical Comeback and Playing an ‘Absolute Bitch’ in Dan Fogelman’s NFL Family Drama ‘The Land’: It’s ‘”Friday Night Lights” and “Succession” All Rolled Into One’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "0adbfece-mandy-moore-on-hilary-duffs-musical-comeback-and-playing-an-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-16T01:33:19.362Z"
+  "lastUpdated": "2026-09-16T05:26:56.599Z"
 }
