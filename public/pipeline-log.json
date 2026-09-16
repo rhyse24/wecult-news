@@ -2,6 +2,16 @@
   "totalArticles": 1822,
   "runs": [
     {
+      "timestamp": "2026-09-16T16:30:13.013Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 46,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-09-16T09:16:11.056Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1945,39 +1955,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-06T06:36:25.899Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 236,
-      "totalCandidates": 83,
-      "written": [
-        {
-          "title": "Insomniac Clears the Air After Marvel's Wolverine Fans Confuse Lady Deathstrike for Psylocke",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "7af0137d-insomniac-clears-the-air-after-marvels-wolverine-fans-confus"
-        },
-        {
-          "title": "Talking Point: What Are You Playing This Weekend? (5th September)",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 11,
-          "slug": "60c0ec10-talking-point-what-are-you-playing-this-weekend-5th-septembe"
-        },
-        {
-          "title": "Fall’s Video Game Release Slate Is Intimidatingly Good And Completely Doomed",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 10,
-          "slug": "079b81d7-falls-video-game-release-slate-is-intimidatingly-good-and-co"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-16T09:16:11.056Z"
+  "lastUpdated": "2026-09-16T16:30:13.013Z"
 }
