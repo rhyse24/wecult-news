@@ -1,6 +1,35 @@
 {
-  "totalArticles": 1816,
+  "totalArticles": 1817,
   "runs": [
+    {
+      "timestamp": "2026-09-16T01:33:19.362Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 283,
+      "totalCandidates": 94,
+      "written": [
+        {
+          "title": "All Kingdom Hearts skins coming to Fortnite",
+          "category": "games",
+          "source": "Dot Esports",
+          "score": 12,
+          "slug": "51f24cb7-all-kingdom-hearts-skins-coming-to-fortnite"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Microsoft Reacts To Xbox Game Pass Rumor That Could Change The Service In A Big Way",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-15T21:37:29.040Z",
       "status": "quota",
@@ -1955,25 +1984,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-05T19:41:05.968Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 243,
-      "totalCandidates": 84,
-      "written": [
-        {
-          "title": "The Blood of Dawnwalker Passes 1 Million Copies Sold in Just 2 Days",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "6e72a0b6-the-blood-of-dawnwalker-passes-1-million-copies-sold-in-just"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-15T21:37:29.040Z"
+  "lastUpdated": "2026-09-16T01:33:19.362Z"
 }
