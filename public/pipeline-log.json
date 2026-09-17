@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1842,
+  "totalArticles": 1844,
   "runs": [
+    {
+      "timestamp": "2026-09-17T20:00:28.183Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "‘The Life and Deaths of Wilson Shedd’ Review: Amanda Seyfried and Scoot McNairy Bring Raw Intensity to Tim Blake Nelson’s Death Row Drama",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "9fc29fb3-the-life-and-deaths-of-wilson-shedd-review-amanda-seyfried-a"
+        },
+        {
+          "title": "Halle Berry, Regina King and Meg Ryan Announced as Jurors for Tribeca and Chanel’s Through Her Lens Filmmaker Program",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "db774160-halle-berry-regina-king-and-meg-ryan-announced-as-jurors-for"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "7 Horror Films to Prepare You for Zach Cregger's Resident Evil",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-17T18:01:23.539Z",
       "status": "quota",
@@ -1933,39 +1966,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-07T20:07:02.783Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 217,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "Why Rod Serling Only Adapted One Ray Bradbury Story For The Twilight Zone",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "f982ad75-why-rod-serling-only-adapted-one-ray-bradbury-story-for-the-"
-        },
-        {
-          "title": "Shooter: Why USA Network Canceled The Ryan Phillippe And Omar Epps Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "3db80631-shooter-why-usa-network-canceled-the-ryan-phillippe-and-omar"
-        },
-        {
-          "title": "Why Jack Reacher Is A Drifter With No Belongings, According To Author Lee Child",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "1494551c-why-jack-reacher-is-a-drifter-with-no-belongings-according-t"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-17T18:01:23.539Z"
+  "lastUpdated": "2026-09-17T20:00:28.183Z"
 }
