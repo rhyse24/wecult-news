@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1823,
+  "totalArticles": 1826,
   "runs": [
+    {
+      "timestamp": "2026-09-17T00:00:22.980Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 283,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": "Pirate Who Cracked Denuvo Games Like Resident Evil Requiem Plans to Keep Doing So Despite Being Sued",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 18,
+          "slug": "65e8fa38-pirate-who-cracked-denuvo-games-like-resident-evil-requiem-p"
+        },
+        {
+          "title": "Marvel's Wolverine Players Are Testing Its Motorcycle Sequence to See if Logan Can Die if You Don't Touch the Controller",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "39dbc1bb-marvels-wolverine-players-are-testing-its-motorcycle-sequenc"
+        },
+        {
+          "title": "Shinji Mikami to be inducted into the AIAS Hall of Fame later this week",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 12,
+          "slug": "ea10b10b-shinji-mikami-to-be-inducted-into-the-aias-hall-of-fame-late"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-16T21:08:40.406Z",
       "status": "quota",
@@ -1911,25 +1943,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-06T16:00:28.470Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 188,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "What To Watch Sunday: Kit Harington In A Tale Of Two Cities, Marlow Murder Club Returns, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "7919f199-what-to-watch-sunday-kit-harington-in-a-tale-of-two-cities-m"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-16T21:08:40.406Z"
+  "lastUpdated": "2026-09-17T00:00:22.980Z"
 }
