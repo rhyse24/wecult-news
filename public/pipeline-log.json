@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1829,
+  "totalArticles": 1832,
   "runs": [
+    {
+      "timestamp": "2026-09-17T06:16:57.121Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 280,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Ted Lasso Recap: The Lady Greyhounds Question The Philosophy Behind Believe, While Roy Confronts His Feelings For Keeley",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "c2cf404e-ted-lasso-recap-the-lady-greyhounds-question-the-philosophy-"
+        },
+        {
+          "title": "13 Years Later, Breaking Bad's Best Episode Is Still Nearly Impossible To Top",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "79c9a74a-13-years-later-breaking-bads-best-episode-is-still-nearly-im"
+        },
+        {
+          "title": "How Many More Seasons of Slow Horses Could There Be?",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 12,
+          "slug": "33eab8f7-how-many-more-seasons-of-slow-horses-could-there-be"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-17T03:04:55.967Z",
       "status": "success",
@@ -1933,39 +1965,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-06T22:57:19.962Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 178,
-      "totalCandidates": 19,
-      "written": [
-        {
-          "title": "Box Office: ‘Spider-Man: Brand New Day’ Remains No. 1 in Sixth Weekend, Nears ‘Avengers: Endgame’ All-Time Domestic Record",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "fd87d4a3-box-office-spider-man-brand-new-day-remains-no-1-in-sixth-we"
-        },
-        {
-          "title": "5 Spy TV Shows Way Better Than Lioness",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "slug": "efe87f79-5-spy-tv-shows-way-better-than-lioness"
-        },
-        {
-          "title": "Netflix Bets ‘Ink’ and Its Timely Rupert Murdoch Story Can Win Oscars for Danny Boyle and Guy Pearce",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "1a176996-netflix-bets-ink-and-its-timely-rupert-murdoch-story-can-win"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-17T03:04:55.967Z"
+  "lastUpdated": "2026-09-17T06:16:57.121Z"
 }
