@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1826,
+  "totalArticles": 1829,
   "runs": [
+    {
+      "timestamp": "2026-09-17T03:04:55.967Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 281,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "Box Office: ‘Resident Evil’ Reboot Targets Franchise-Best $45 Million Debut",
+          "category": "film",
+          "source": "Variety",
+          "score": 15,
+          "slug": "72eea651-box-office-resident-evil-reboot-targets-franchise-best-45-mi"
+        },
+        {
+          "title": "Mark Wahlberg’s Forgotten Sci-Fi Thriller Officially Disappears From Free Streaming",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "3185c1b9-mark-wahlbergs-forgotten-sci-fi-thriller-officially-disappea"
+        },
+        {
+          "title": "Flamingo Estate’s Richard Christiansen on Pamela Anderson’s Pickles, Julianne Moore’s Honey and the Dolly Parton Coffee That ‘Got Away’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "2e9feb7b-flamingo-estates-richard-christiansen-on-pamela-andersons-pi"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Resident Evil Review: Zach Cregger Crafts an Ideal Tribute to an Iconic Series",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-17T00:00:22.980Z",
       "status": "success",
@@ -1925,25 +1965,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-06T19:32:42.159Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 187,
-      "totalCandidates": 74,
-      "written": [
-        {
-          "title": "GTA 6 Lead Has Finally Explained Trailer 1's Song Choice",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 14,
-          "slug": "c69784c7-gta-6-lead-has-finally-explained-trailer-1s-song-choice"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-17T00:00:22.980Z"
+  "lastUpdated": "2026-09-17T03:04:55.967Z"
 }
