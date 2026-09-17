@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1841,
+  "totalArticles": 1842,
   "runs": [
+    {
+      "timestamp": "2026-09-17T18:01:23.539Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 47,
+      "written": [
+        {
+          "title": "What To Watch Thursday: Monster: The Lizzie Borden Story Premieres, The Traitors Heads To NBC, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "53fcb608-what-to-watch-thursday-monster-the-lizzie-borden-story-premi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-17T14:00:27.853Z",
       "status": "success",
@@ -1947,39 +1965,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-07T16:34:08.643Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 221,
-      "totalCandidates": 84,
-      "written": [
-        {
-          "title": "PlayStation Reportedly Plotting New Killzone — but Is It a Remake or a Remaster?",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "c275afda-playstation-reportedly-plotting-new-killzone-but-is-it-a-rem"
-        },
-        {
-          "title": " Scuf Omega review ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "ad8422c8-scuf-omega-review"
-        },
-        {
-          "title": "Steam Has Generated $15 Billion in Revenue in 2026 So Far, Says Analyst",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 12,
-          "slug": "0d7a9e54-steam-has-generated-15-billion-in-revenue-in-2026-so-far-say"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-17T14:00:27.853Z"
+  "lastUpdated": "2026-09-17T18:01:23.539Z"
 }
