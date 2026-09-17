@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1835,
+  "totalArticles": 1838,
   "runs": [
+    {
+      "timestamp": "2026-09-17T10:00:33.208Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 26,
+      "written": [
+        {
+          "title": "Paul Walter Hauser Explains Mystery Pin He Wore to ‘Resident Evil’ Premiere",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "20d2d567-paul-walter-hauser-explains-mystery-pin-he-wore-to-resident-"
+        },
+        {
+          "title": "‘Avengers’ Studio AGBO’s Chris Brearton, Dominic Hughes to Keynote Tokyo Market on Artist-Led AI in Storytelling",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "d53b6acf-avengers-studio-agbos-chris-brearton-dominic-hughes-to-keyno"
+        },
+        {
+          "title": "Resident Evil Review: Zach Cregger Crafts an Ideal Tribute to an Iconic Series",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 12,
+          "slug": "5ac8245e-resident-evil-review-zach-cregger-crafts-an-ideal-tribute-to"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-17T08:00:33.191Z",
       "status": "success",
@@ -1947,25 +1979,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-07T06:45:41.415Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 188,
-      "totalCandidates": 3,
-      "written": [
-        {
-          "title": "Hawking by Graham Farmelo review – the dark side of genius",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 6,
-          "slug": "93a05640-hawking-by-graham-farmelo-review-the-dark-side-of-genius"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-17T08:00:33.191Z"
+  "lastUpdated": "2026-09-17T10:00:33.208Z"
 }
