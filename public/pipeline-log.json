@@ -1,6 +1,63 @@
 {
-  "totalArticles": 1848,
+  "totalArticles": 1849,
   "runs": [
+    {
+      "timestamp": "2026-09-18T04:00:35.662Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "The Weight Review: Ethan Hawke is Good as Gold",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 10,
+          "slug": "f93fb2e7-the-weight-review-ethan-hawke-is-good-as-gold"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Resident Evil’ Video Game References: All the Zombies, Weapons and Easter Eggs in Zach Cregger’s Reboot",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Resident Evil (2026) Ending Explained: Who Survives Raccoon City?",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Resident Evil Review: A Decent Raccoon City Movie That Comes Well-Armed",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "If I Go Will They Miss Me Reviewing: Finding Poetic Beauty in Coming of Age",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        },
+        {
+          "title": "NYC Weekend Watch: Yuen Woo-ping, Hou Hsiao-hsien, In Vanda’s Room & More",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 10,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-18T02:00:28.224Z",
       "status": "quota",
@@ -1935,39 +1992,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-08T07:34:55.057Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 217,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Breaking Bad: How Every Main Character Dies In The Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "f5eb3147-breaking-bad-how-every-main-character-dies-in-the-series"
-        },
-        {
-          "title": "No, seriously, what is Peter Parker's job in Spider-Man: Brand New Day?",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "0034ae9b-no-seriously-what-is-peter-parkers-job-in-spider-man-brand-n"
-        },
-        {
-          "title": "An explosive Lanterns still stays stubbornly grounded in character",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 11,
-          "slug": "513373fa-an-explosive-lanterns-still-stays-stubbornly-grounded-in-cha"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-18T02:00:28.224Z"
+  "lastUpdated": "2026-09-18T04:00:35.662Z"
 }
