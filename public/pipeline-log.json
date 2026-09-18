@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1844,
+  "totalArticles": 1847,
   "runs": [
+    {
+      "timestamp": "2026-09-17T23:56:21.997Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 277,
+      "totalCandidates": 89,
+      "written": [
+        {
+          "title": "GTA 6 Will Feature The “Next Evolution Of In-Game Radio,” Rockstar Says",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "b6628354-gta-6-will-feature-the-next-evolution-of-in-game-radio-rocks"
+        },
+        {
+          "title": "Scientists Discovered A New Cat Before Rockstar Could Finish GTA 6",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "889cd122-scientists-discovered-a-new-cat-before-rockstar-could-finish"
+        },
+        {
+          "title": " Hideo Kojima announces Bill Skarsgård will star in stealth-action Physint, legendary designer Yoji Shinkawa also confirmed for character design ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "92a80bf2-hideo-kojima-announces-bill-skarsgrd-will-star-in-stealth-ac"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-17T20:00:28.183Z",
       "status": "quota",
@@ -1934,39 +1966,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-07T23:41:18.669Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 217,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "‘Spider-Man: Brand New Day,’ The Odyssey’ Rule Low-Key Labor Day Box Office",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "slug": "68d15dd2-spider-man-brand-new-day-the-odyssey-rule-low-key-labor-day-"
-        },
-        {
-          "title": "3 Greatest Movies to Stream on Prime Video This Week (Sept 7-11)",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "9489eb8f-3-greatest-movies-to-stream-on-prime-video-this-week-sept-7-"
-        },
-        {
-          "title": "The 20 Most Anticipated Movies at TIFF 2026",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "3f301417-the-20-most-anticipated-movies-at-tiff-2026"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-17T20:00:28.183Z"
+  "lastUpdated": "2026-09-17T23:56:21.997Z"
 }
