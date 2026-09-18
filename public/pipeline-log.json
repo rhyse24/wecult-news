@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1847,
+  "totalArticles": 1848,
   "runs": [
+    {
+      "timestamp": "2026-09-18T02:00:28.224Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 281,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "‘Far Cry’ FX Series Casts Brendan Gleeson, Jennifer Jason Leigh, Hamish Linklater, Sam Spruell, Jamie Demetriou",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "72cd274b-far-cry-fx-series-casts-brendan-gleeson-jennifer-jason-leigh"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Lizzie Borden’ Cast on Treating the Story as a Comedy, the Joy of Playing a Sadistic Character and Finding Empathy for a Bloody Monster: ‘I Understand This Person’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-17T23:56:21.997Z",
       "status": "success",
@@ -1941,32 +1967,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-08T03:37:37.005Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 217,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "NHL 27 Is Using AI-Generated Voiceover for In-Game Commentators, John Buccigross Says",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "bcae626d-nhl-27-is-using-ai-generated-voiceover-for-in-game-commentat"
-        },
-        {
-          "title": "Final Fantasy Resonance Mod Brings Back Classic FF Character Ariana Grande",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "fe915dd0-final-fantasy-resonance-mod-brings-back-classic-ff-character"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-17T23:56:21.997Z"
+  "lastUpdated": "2026-09-18T02:00:28.224Z"
 }
