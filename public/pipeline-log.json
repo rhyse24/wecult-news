@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1855,
+  "totalArticles": 1856,
   "runs": [
+    {
+      "timestamp": "2026-09-18T18:59:52.155Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 285,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Resident Evil: Austin Abrams Cracked His Tailbone on Set | Collider BTS",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "slug": "b5594847-resident-evil-austin-abrams-cracked-his-tailbone-on-set-coll"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-18T14:35:51.430Z",
       "status": "success",
@@ -2010,25 +2028,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-08T18:44:03.191Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 262,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "10 Best British Drama Hidden Gems on Netflix to Watch Right Now",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 16,
-          "slug": "3c766b9e-10-best-british-drama-hidden-gems-on-netflix-to-watch-right-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-18T14:35:51.430Z"
+  "lastUpdated": "2026-09-18T18:59:52.155Z"
 }
