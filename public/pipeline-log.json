@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1849,
+  "totalArticles": 1852,
   "runs": [
+    {
+      "timestamp": "2026-09-18T08:09:54.322Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 278,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "When will ‘Grey’s Anatomy’ Season 23 be on Netflix?",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "4986ad4f-when-will-greys-anatomy-season-23-be-on-netflix"
+        },
+        {
+          "title": "What’s Coming to Netflix in October 2026",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "076eb971-whats-coming-to-netflix-in-october-2026"
+        },
+        {
+          "title": "Celebrate Shrek's 25th birthday with a massive \"Shared Reality\" experience",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "slug": "99e2182a-celebrate-shreks-25th-birthday-with-a-massive-shared-reality"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Lizzie Borden’ Cast on Treating the Story as a Comedy, the Joy of Playing a Sadistic Character and Finding Empathy for a Bloody Monster: ‘I Understand This Person’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "VisionQuest Posters Introduce Another Member of the Young Avengers",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 10,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-18T04:00:35.662Z",
       "status": "quota",
@@ -1974,25 +2021,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-08T11:46:24.194Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 238,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "‘Elite’ Star Ester Expósito Circles ‘Stink Eye,’ an Iberseries Co-Production & Financing Forum Title (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "c39fd08f-elite-star-ester-expsito-circles-stink-eye-an-iberseries-co-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-18T04:00:35.662Z"
+  "lastUpdated": "2026-09-18T08:09:54.322Z"
 }
