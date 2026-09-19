@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1870,
+  "totalArticles": 1871,
   "runs": [
+    {
+      "timestamp": "2026-09-19T19:50:27.218Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "Box Office: Zach Cregger’s ‘Resident Evil’ Scares Up $26 Million on Opening Day",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "eef17060-box-office-zach-creggers-resident-evil-scares-up-26-million-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-19T16:00:25.042Z",
       "status": "quota",
@@ -2029,32 +2047,7 @@
       "totalCandidates": 80,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-09T14:11:16.633Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "Chris Hansen Calls ‘Primetime’ an “Insult,” Has No Regrets About ‘Predator’ Sting That Ended in Suicide (Exclusive)",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 15,
-          "slug": "9b629ee6-chris-hansen-calls-primetime-an-insult-has-no-regrets-about-"
-        },
-        {
-          "title": "Ellen Burstyn Was ‘Sure’ Her Career Would Be ‘Finished by 40’: ‘The Fact That I’m 93 and Working Is a Miracle’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "6c0f0a53-ellen-burstyn-was-sure-her-career-would-be-finished-by-40-th"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-19T16:00:25.042Z"
+  "lastUpdated": "2026-09-19T19:50:27.218Z"
 }
