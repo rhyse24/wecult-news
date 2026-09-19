@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1862,
+  "totalArticles": 1865,
   "runs": [
+    {
+      "timestamp": "2026-09-19T08:20:56.139Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 276,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "3 Movies Taking Over Prime Video This Weekend (Sep 19-20)",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "084559c6-3-movies-taking-over-prime-video-this-weekend-sep-19-20"
+        },
+        {
+          "title": "Dana Walden Envisions Partnerships Between Creators and Disney at Created in L.A. Kickoff Event: ‘Maybe We Can Tell Some Stories Together’",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "f4ab2f7b-dana-walden-envisions-partnerships-between-creators-and-disn"
+        },
+        {
+          "title": "'Optimus Prime: Awakening' Director Details Saying “Goodbye” to Peter Cullen",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "ecd4016b-optimus-prime-awakening-director-details-saying-goodbye-to-p"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Zach Cregger’s Resident Evil Ending Should Make Hardcore Gamers Happy",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-19T04:04:15.845Z",
       "status": "success",
@@ -2013,36 +2053,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-09T03:56:31.183Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 260,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "Only 3 Giant Monster Movies Are Better Than 'Godzilla Minus One'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 18,
-          "slug": "49309c19-only-3-giant-monster-movies-are-better-than-godzilla-minus-o"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Godzilla Faces a New Enemy In Godzilla Minus Zero Trailer Ahead of NYFF Premiere",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 11,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 16 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-19T04:04:15.845Z"
+  "lastUpdated": "2026-09-19T08:20:56.139Z"
 }
