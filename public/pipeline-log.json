@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1865,
+  "totalArticles": 1868,
   "runs": [
+    {
+      "timestamp": "2026-09-19T12:11:54.857Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Marvel's Wolverine Developer Nerfs Scent Trails and Audio Sense Indicators After 'Fart Gas' Backlash",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "ebd44c30-marvels-wolverine-developer-nerfs-scent-trails-and-audio-sen"
+        },
+        {
+          "title": "HoYoverse's Nodusfall might look like Elden Ring, but there's a promising dark fantasy action game here that took me by surprise",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 11,
+          "slug": "bc5b5433-hoyoverses-nodusfall-might-look-like-elden-ring-but-theres-a"
+        },
+        {
+          "title": " CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "2468ab0c-cd-projekt-says-abandoning-its-in-house-engine-for-the-witch"
+        }
+      ],
+      "rejected": [
+        {
+          "title": " The Resident Evil film should be more concerned with understanding the roots of its survival horror than adhering to strict lore accuracy ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-19T08:20:56.139Z",
       "status": "success",
@@ -2021,39 +2061,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-09T07:07:19.903Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 260,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Jim Geoghan, ‘Suite Life of Zack & Cody’ Co-Creator, Dies at 79",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "8e99b9d5-jim-geoghan-suite-life-of-zack-cody-co-creator-dies-at-79"
-        },
-        {
-          "title": "Star Trek's Elegant In-Universe Reason Why Most Alien Races Are Humanoid",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "0d3b5148-star-treks-elegant-in-universe-reason-why-most-alien-races-a"
-        },
-        {
-          "title": "O.J. Simpson's Trial & Power Rangers Got A Beloved Disney Cartoon Canceled, According To Co-Creator",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "3d5a4aa2-oj-simpsons-trial-power-rangers-got-a-beloved-disney-cartoon"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-19T08:20:56.139Z"
+  "lastUpdated": "2026-09-19T12:11:54.857Z"
 }
