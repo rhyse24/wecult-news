@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1868,
+  "totalArticles": 1870,
   "runs": [
+    {
+      "timestamp": "2026-09-19T16:00:25.042Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 263,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "10 Best Apple TV Shows Of 2026 (So Far)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "4c5fdbc1-10-best-apple-tv-shows-of-2026-so-far"
+        },
+        {
+          "title": "40 Years Ago, Harry Potter Director Chris Columbus Created A Sci-Fi Show Nobody Remembers Today",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "84643ff2-40-years-ago-harry-potter-director-chris-columbus-created-a-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-19T12:11:54.857Z",
       "status": "success",
@@ -2029,39 +2054,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-09T10:39:00.705Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 258,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "Lanterns Locates “The Weenie” and Quits Beating About the Bush",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 16,
-          "slug": "f4cb07ea-lanterns-locates-the-weenie-and-quits-beating-about-the-bush"
-        },
-        {
-          "title": "All About My Mother by Rachael Stirling review – a joyous love letter to Diana Rigg",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 11,
-          "slug": "8414ab37-all-about-my-mother-by-rachael-stirling-review-a-joyous-love"
-        },
-        {
-          "title": "📚 The most Googled book series",
-          "category": "books",
-          "source": "Book Riot",
-          "score": 10,
-          "slug": "ec72e166-the-most-googled-book-series"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-19T12:11:54.857Z"
+  "lastUpdated": "2026-09-19T16:00:25.042Z"
 }
