@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1856,
+  "totalArticles": 1859,
   "runs": [
+    {
+      "timestamp": "2026-09-18T23:28:58.325Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 285,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Trailer for ‘The Further Mis-Adventures of Cliff Booth’ Movie Playing in Theaters with Resident Evil Ahead of Global Drop",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 18,
+          "slug": "b9a9bcc1-trailer-for-the-further-mis-adventures-of-cliff-booth-movie-"
+        },
+        {
+          "title": "Pierce Brosnan and Helen Mirren on Their ‘MobLand’ Season 2 Return: “Pure Lunacy”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 16,
+          "slug": "96f414e9-pierce-brosnan-and-helen-mirren-on-their-mobland-season-2-re"
+        },
+        {
+          "title": "MobLand Season 2 Premiere Recap: The Harrigans' Downfall Begins With A Bloodbath — Plus, Grade It!",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "d7f31f3d-mobland-season-2-premiere-recap-the-harrigans-downfall-begin"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-18T18:59:52.155Z",
       "status": "quota",
@@ -1996,39 +2028,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-08T22:16:37.896Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 264,
-      "totalCandidates": 77,
-      "written": [
-        {
-          "title": "Nintendo Intentionally Included Loading Screens in The Legend of Zelda: Ocarina of Time Remake, and Fans Are Torn",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "785d67f2-nintendo-intentionally-included-loading-screens-in-the-legen"
-        },
-        {
-          "title": "Xbox’s Disc-To-Digital Program Has A Big Problem: Several Major Publishers Aren’t Participating",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "52e49864-xboxs-disc-to-digital-program-has-a-big-problem-several-majo"
-        },
-        {
-          "title": " Breaking Benjamin frontman pauses concert to rant about Fallout 4 modding beef: 'There was a modder in the community that was really mean to me' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "8ea99d56-breaking-benjamin-frontman-pauses-concert-to-rant-about-fall"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-18T18:59:52.155Z"
+  "lastUpdated": "2026-09-18T23:28:58.325Z"
 }
