@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1871,
+  "totalArticles": 1873,
   "runs": [
+    {
+      "timestamp": "2026-09-19T23:39:20.695Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 252,
+      "totalCandidates": 90,
+      "written": [
+        {
+          "title": "Zach Cregger’s Resident Evil movie breaks multiple records in gruesome opening week",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 16,
+          "slug": "e0190a08-zach-creggers-resident-evil-movie-breaks-multiple-records-in"
+        },
+        {
+          "title": "Reacher star Alan Ritchson to take the lead in upcoming Helldivers adaptation",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 16,
+          "slug": "baef7d35-reacher-star-alan-ritchson-to-take-the-lead-in-upcoming-hell"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-19T19:50:27.218Z",
       "status": "quota",
@@ -2037,17 +2062,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-09T18:01:34.780Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 80,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-19T19:50:27.218Z"
+  "lastUpdated": "2026-09-19T23:39:20.695Z"
 }
