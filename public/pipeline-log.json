@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1885,
+  "totalArticles": 1886,
   "runs": [
+    {
+      "timestamp": "2026-09-20T22:00:28.865Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 180,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "65 Years Ago, A British Sci-Fi Spy Series Launched And Became A Global Hit",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "66f315ec-65-years-ago-a-british-sci-fi-spy-series-launched-and-became"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-20T18:00:27.295Z",
       "status": "success",
@@ -2045,25 +2063,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-10T14:44:11.779Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 36,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Only 4 Musical Movies From the 21st Century Are Genuinely Perfect",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-20T18:00:27.295Z"
+  "lastUpdated": "2026-09-20T22:00:28.865Z"
 }
