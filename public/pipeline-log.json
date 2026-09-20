@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1874,
+  "totalArticles": 1876,
   "runs": [
+    {
+      "timestamp": "2026-09-20T06:47:56.224Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 249,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Resident Evil: The Biggest Changes from the Game Make for a Better Movie",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "slug": "cfb790ed-resident-evil-the-biggest-changes-from-the-game-make-for-a-b"
+        },
+        {
+          "title": "Venice Review: The Echo Chamber Creates Terrific Chemisty for Luca Marinelli and Alicia Vikander",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 8,
+          "slug": "da246297-venice-review-the-echo-chamber-creates-terrific-chemisty-for"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Resident Evil’ Feasting at Box Office as Zach Cregger’s Reboot Races Toward $55M Opening",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-20T03:23:33.212Z",
       "status": "quota",
@@ -2023,32 +2056,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-10T01:12:53.168Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 47,
-      "written": [
-        {
-          "title": "Before Joining Reacher, Kevin Weisman Was Jennifer Garner's Version Of James Bond's Q",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "faf9a068-before-joining-reacher-kevin-weisman-was-jennifer-garners-ve"
-        },
-        {
-          "title": "New Data Suggests Long Waits Between Seasons Are Hurting Viewership on Netflix Hits",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "dc46d63e-new-data-suggests-long-waits-between-seasons-are-hurting-vie"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-20T03:23:33.212Z"
+  "lastUpdated": "2026-09-20T06:47:56.224Z"
 }
