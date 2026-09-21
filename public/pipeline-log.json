@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1886,
+  "totalArticles": 1887,
   "runs": [
+    {
+      "timestamp": "2026-09-21T01:47:46.718Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 175,
+      "totalCandidates": 4,
+      "written": [
+        {
+          "title": "5 Takeaways From Ari Emanuel’s Memoir",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 7,
+          "slug": "b78c55e9-5-takeaways-from-ari-emanuels-memoir"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-20T22:00:28.865Z",
       "status": "quota",
@@ -2042,28 +2060,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-10T18:01:12.472Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 35,
-      "written": [],
-      "rejected": [
-        {
-          "title": "‘Hawaii Five-O’ Movie in the Works From ‘Spider-Man: Brand New Day’ Director Destin Daniel Cretton",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-20T22:00:28.865Z"
+  "lastUpdated": "2026-09-21T01:47:46.718Z"
 }
