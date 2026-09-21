@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1887,
+  "totalArticles": 1890,
   "runs": [
+    {
+      "timestamp": "2026-09-21T05:32:56.219Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 179,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "Korea Box Office: Local Comedy Remake ‘The Intern’ Leads Weekend Admissions as ‘The Odyssey’ Retains Revenue Crown",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "3a918074-korea-box-office-local-comedy-remake-the-intern-leads-weeken"
+        },
+        {
+          "title": "Ke Huy Quan on Receiving “Generous” $100K Residuals Check for ‘Indiana Jones and the Temple of Doom’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "3fc67cb9-ke-huy-quan-on-receiving-generous-100k-residuals-check-for-i"
+        },
+        {
+          "title": "Charlize Theron Says ‘The Odyssey’ Just Gave Hollywood a Much-Needed Reminder",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "slug": "cd22b964-charlize-theron-says-the-odyssey-just-gave-hollywood-a-much-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Resident Evil’ Bites Off $60M at Box Office for Zach Cregger’s Biggest Opening Yet",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-21T01:47:46.718Z",
       "status": "quota",
@@ -2039,28 +2079,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-10T21:22:56.399Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 33,
-      "written": [],
-      "rejected": [
-        {
-          "title": "13 Most Powerful Versions Of Doctor Doom, Explained",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 664 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-21T01:47:46.718Z"
+  "lastUpdated": "2026-09-21T05:32:56.219Z"
 }
