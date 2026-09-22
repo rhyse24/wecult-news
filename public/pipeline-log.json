@@ -2,6 +2,16 @@
   "totalArticles": 1911,
   "runs": [
     {
+      "timestamp": "2026-09-22T16:15:02.113Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 47,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-09-22T12:15:47.948Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2146,33 +2156,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-12T04:09:37.619Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 86,
-      "written": [
-        {
-          "title": "GTA 6 Reviews Plague Real-Life Nudist Resort After Fans Draw Comparisons to Leaks",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "37ab470a-gta-6-reviews-plague-real-life-nudist-resort-after-fans-draw"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The 9 Biggest Trailers Worth Watching This Week",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 18,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-22T12:15:47.948Z"
+  "lastUpdated": "2026-09-22T16:15:02.113Z"
 }
