@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1911,
+  "totalArticles": 1913,
   "runs": [
+    {
+      "timestamp": "2026-09-22T20:00:25.908Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 283,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "‘Monster: The Lizzie Borden Story’ Hits 12.1 Million Views in Four Days on Netflix",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "ec67df13-monster-the-lizzie-borden-story-hits-121-million-views-in-fo"
+        },
+        {
+          "title": "Disney’s Cathleen Taff Expands to Entertainment Studios and Consumer Products President",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "b1a42125-disneys-cathleen-taff-expands-to-entertainment-studios-and-c"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Darkwing Duck’ Reboot Ordered to Series at Disney+ With Mark Hamill, Seth Rogen in Lead Roles",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Daredevil: Born Again’ to End With Season 3 (Exclusive)",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-22T16:15:02.113Z",
       "status": "quota",
@@ -2123,40 +2163,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-12T06:00:37.670Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "Crew Girl Season 2: Will Netflix Renew? Everything We Know So Far",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "5bd018ca-crew-girl-season-2-will-netflix-renew-everything-we-know-so-"
-        },
-        {
-          "title": "Gary Oldman Predicts HBO’s ‘Harry Potter’ Series Will Be ‘More Satisfying’ for Fans Than the Movies",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "5a1fda9a-gary-oldman-predicts-hbos-harry-potter-series-will-be-more-s"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "All Five ‘Twilight’ Movies and ‘Dune: Part Two’ Are Now Streaming on Netflix UK",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-22T16:15:02.113Z"
+  "lastUpdated": "2026-09-22T20:00:25.908Z"
 }
