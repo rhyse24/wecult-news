@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1898,
+  "totalArticles": 1900,
   "runs": [
+    {
+      "timestamp": "2026-09-22T00:06:08.492Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 241,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "Daredevil: Born Again To End With Season 3 At Disney+ As Showrunner Exits",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "0f691bce-daredevil-born-again-to-end-with-season-3-at-disney-as-showr"
+        },
+        {
+          "title": "Resident Evil leaves the door open for more traditional, game-centric sequels",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "86f18769-resident-evil-leaves-the-door-open-for-more-traditional-game"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-21T20:23:47.408Z",
       "status": "quota",
@@ -2044,33 +2069,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-11T14:01:30.001Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "‘Rojo’ Director Benjamín Naishtat on Awaited Toronto, San Sebastián Title ‘Glaxo,’ the Impunity of Power and Connecting via Genre ",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "f642e901-rojo-director-benjamn-naishtat-on-awaited-toronto-san-sebast"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Thailand Bets on Film Tourism to Turn Movie Locations Into Travel Destinations",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-21T20:23:47.408Z"
+  "lastUpdated": "2026-09-22T00:06:08.492Z"
 }
