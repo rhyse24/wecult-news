@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1905,
+  "totalArticles": 1908,
   "runs": [
+    {
+      "timestamp": "2026-09-22T08:10:01.257Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 257,
+      "totalCandidates": 83,
+      "written": [
+        {
+          "title": "Call of Duty YouTuber Launches Petition to Remove Skill-Based Matchmaking Following Successful Destiny Protests",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "7e0a9317-call-of-duty-youtuber-launches-petition-to-remove-skill-base"
+        },
+        {
+          "title": "Activision cites data claiming cheating in games is an $8.5bn industry; 69% of online multiplayer studios consider cheating \"a significant or very significant problem\"",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 11,
+          "slug": "e17c0bec-activision-cites-data-claiming-cheating-in-games-is-an-85bn-"
+        },
+        {
+          "title": " I still can't believe we call them 'MOBAs' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "f0a6ab79-i-still-cant-believe-we-call-them-mobas"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Resident Evil Veronica Internally Delayed to Fall 2027 – Rumor",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Injustice 3 Leak Reportedly Reveals 2 Playable Characters",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-22T04:00:28.355Z",
       "status": "success",
@@ -2089,32 +2136,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-11T22:01:36.122Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "I Can’t Tell If Hope Is a Good-Bad Movie or a Bad-Good One",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "187ff7d8-i-cant-tell-if-hope-is-a-good-bad-movie-or-a-bad-good-one"
-        },
-        {
-          "title": "Avatar: Seven Havens Trailer Takes Us Far Into a Troubled Future",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "dbfc9ee3-avatar-seven-havens-trailer-takes-us-far-into-a-troubled-fut"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-22T04:00:28.355Z"
+  "lastUpdated": "2026-09-22T08:10:01.257Z"
 }
