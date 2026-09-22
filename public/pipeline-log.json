@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1900,
+  "totalArticles": 1902,
   "runs": [
+    {
+      "timestamp": "2026-09-22T02:00:24.131Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 254,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "‘Resident Evil’ Star Austin Abrams Breaks Down the “Risky and Gutsy” Ending",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "3a89ef0d-resident-evil-star-austin-abrams-breaks-down-the-risky-and-g"
+        },
+        {
+          "title": "Anne Hathaway to Campaign in Supporting Actress for Christopher Nolan’s ‘The Odyssey’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "c7757d18-anne-hathaway-to-campaign-in-supporting-actress-for-christop"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "5 Movies To Watch If You Like 2026's Resident Evil",
+          "category": "film",
+          "source": "Looper",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-22T00:06:08.492Z",
       "status": "quota",
@@ -2051,25 +2084,7 @@
       "totalCandidates": 35,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-11T17:03:12.115Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 265,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "The 10 Best Netflix Original Musicals (And Why ‘Emilia Pérez’ Didn’t Make the Cut)",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "1bd5edf4-the-10-best-netflix-original-musicals-and-why-emilia-prez-di"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-22T00:06:08.492Z"
+  "lastUpdated": "2026-09-22T02:00:24.131Z"
 }
