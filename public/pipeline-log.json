@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1917,
+  "totalArticles": 1918,
   "runs": [
+    {
+      "timestamp": "2026-09-23T16:22:28.842Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Sensor Tower: PC and PlayStation unit sales in Japan rise 13% to 21m during H1 2026, led by Resident Evil Requiem",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 19,
+          "slug": "20cc96ff-sensor-tower-pc-and-playstation-unit-sales-in-japan-rise-13-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-23T09:47:57.610Z",
       "status": "success",
@@ -2092,33 +2110,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-12T19:28:21.788Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 246,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "10 Most Underrated NBC Shows Of All Time",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "caf72cc4-10-most-underrated-nbc-shows-of-all-time"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "15 Best Guest Stars On How I Met Your Mother",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-23T09:47:57.610Z"
+  "lastUpdated": "2026-09-23T16:22:28.842Z"
 }
