@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1918,
+  "totalArticles": 1919,
   "runs": [
+    {
+      "timestamp": "2026-09-23T18:00:26.840Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 285,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Ted Lasso's Jeremy Swift Talks Roy And Keeley, [Spoiler]'s Power Play — And Whether Zelda Can Be Trusted",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "a29add60-ted-lassos-jeremy-swift-talks-roy-and-keeley-spoilers-power-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-23T16:22:28.842Z",
       "status": "quota",
@@ -2092,25 +2110,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-12T22:53:01.233Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 242,
-      "totalCandidates": 77,
-      "written": [
-        {
-          "title": "Diablo 5 Announced",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "f152f114-diablo-5-announced"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-23T16:22:28.842Z"
+  "lastUpdated": "2026-09-23T18:00:26.840Z"
 }
