@@ -1,6 +1,49 @@
 {
-  "totalArticles": 1914,
+  "totalArticles": 1917,
   "runs": [
+    {
+      "timestamp": "2026-09-23T09:47:57.610Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 279,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Why the ‘Anomaly’ and ‘Surprise’ of ‘Obsession’ and ‘Backrooms’ Shouldn’t Guide Where the Industry Looks Next",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "dc10d193-why-the-anomaly-and-surprise-of-obsession-and-backrooms-shou"
+        },
+        {
+          "title": "7 Movies To Watch Before 'Avengers Endgame: Encore'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "slug": "e521921f-7-movies-to-watch-before-avengers-endgame-encore"
+        },
+        {
+          "title": "Resident Evil (2026)'s Most Confusing Moments Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "slug": "a7d0e442-resident-evil-2026s-most-confusing-moments-explained"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Robert Pattinson Says ‘The Batman 2’ Is ‘So Ambitious’ and a ‘Different Take’ on the Franchise: ‘It’s a Real Left Turn From the First’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-23T06:24:23.048Z",
       "status": "quota",
@@ -2075,32 +2118,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-12T16:00:37.677Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 247,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "Box Office: ‘Practical Magic 2’ Conjures Up $13 Million on Friday as ‘Spider-Man: Brand New Day’ Nears All-Time Domestic Box Office Record",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "93d42df1-box-office-practical-magic-2-conjures-up-13-million-on-frida"
-        },
-        {
-          "title": "Jorge Alonso’s Spanish Romance Drama ‘All That We Never Were’ Sells to France and India (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "902670f7-jorge-alonsos-spanish-romance-drama-all-that-we-never-were-s"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-23T06:24:23.048Z"
+  "lastUpdated": "2026-09-23T09:47:57.610Z"
 }
