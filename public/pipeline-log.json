@@ -1,6 +1,46 @@
 {
-  "totalArticles": 1935,
+  "totalArticles": 1938,
   "runs": [
+    {
+      "timestamp": "2026-09-24T22:00:25.804Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 286,
+      "totalCandidates": 53,
+      "written": [
+        {
+          "title": "Before Resident Evil, Austin Abrams Played A Villain On TV's Ultimate Zombie Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "f71748eb-before-resident-evil-austin-abrams-played-a-villain-on-tvs-u"
+        },
+        {
+          "title": "Karen Page Actress Deborah Ann Woll Reacts To Daredevil: Born Again Cancellation",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "8bc32bb9-karen-page-actress-deborah-ann-woll-reacts-to-daredevil-born"
+        },
+        {
+          "title": "Variety Power of Women: Industry Leaders Mingle With Stars to Celebrate Female Empowerment and Philanthropy",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "6f3f8a89-variety-power-of-women-industry-leaders-mingle-with-stars-to"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Disney+, Hulu Raise Monthly Pricing on Streaming Plans in U.S. Again",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-24T20:07:53.909Z",
       "status": "quota",
@@ -2046,39 +2086,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-14T08:01:11.092Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 187,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "Lanterns Rewrites the Worst Moment in Green Lantern History",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 13,
-          "slug": "c3b23496-lanterns-rewrites-the-worst-moment-in-green-lantern-history"
-        },
-        {
-          "title": "‘Lanterns’ Star Poorna Jagannathan Breaks Down Zoe’s Brutal Episode 5: ‘It’s a Faustian Play She Makes’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "2aabd7d0-lanterns-star-poorna-jagannathan-breaks-down-zoes-brutal-epi"
-        },
-        {
-          "title": "‘Diablo’ Animated Series Officially Back in Development at Netflix",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 11,
-          "slug": "7addf63e-diablo-animated-series-officially-back-in-development-at-net"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-24T20:07:53.909Z"
+  "lastUpdated": "2026-09-24T22:00:25.804Z"
 }
