@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1927,
+  "totalArticles": 1930,
   "runs": [
+    {
+      "timestamp": "2026-09-24T10:53:19.560Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Sports Documentaries Coming to Netflix in 2026",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "2017daf3-sports-documentaries-coming-to-netflix-in-2026"
+        },
+        {
+          "title": "Netflix’s ‘A Different World’ Is a Bold, Fun and Timely Reboot Centering the Uniqueness of Gen Z: TV Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "22f6d3a2-netflixs-a-different-world-is-a-bold-fun-and-timely-reboot-c"
+        },
+        {
+          "title": "Netflix India Expanding Into Under-90-minute Films, Multiple Projects in the Works",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 11,
+          "slug": "f36ffd30-netflix-india-expanding-into-under-90-minute-films-multiple-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-24T08:00:21.790Z",
       "status": "success",
@@ -2035,40 +2067,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-13T18:06:06.517Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 193,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "Quotes Of The Week: Lanterns, Adults, Chad Powers, Ted Lasso And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "80ace2c7-quotes-of-the-week-lanterns-adults-chad-powers-ted-lasso-and"
-        },
-        {
-          "title": "The Odyssey just became Universal's highest-grossing movie ever",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 14,
-          "slug": "929b0363-the-odyssey-just-became-universals-highest-grossing-movie-ev"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "15 Best Animated TV Shows Streaming On Disney Plus Now",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 19,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-24T08:00:21.790Z"
+  "lastUpdated": "2026-09-24T10:53:19.560Z"
 }
