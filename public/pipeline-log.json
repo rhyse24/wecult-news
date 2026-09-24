@@ -1,6 +1,32 @@
 {
-  "totalArticles": 1921,
+  "totalArticles": 1922,
   "runs": [
+    {
+      "timestamp": "2026-09-24T03:04:17.426Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 277,
+      "totalCandidates": 83,
+      "written": [
+        {
+          "title": "Halo Fans Are Divided Over Whether Activision Should Reboot the Series and Start Fresh",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "58a4210b-halo-fans-are-divided-over-whether-activision-should-reboot-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": " Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-23T23:58:58.691Z",
       "status": "quota",
@@ -2067,39 +2093,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-13T08:00:30.128Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 241,
-      "totalCandidates": 12,
-      "written": [
-        {
-          "title": "Lit Hub Weekly: September 7 – 11, 2026",
-          "category": "books",
-          "source": "Literary Hub",
-          "score": 7,
-          "slug": "a6d25d43-lit-hub-weekly-september-7-11-2026"
-        },
-        {
-          "title": "Is The Uprising Really a Secret Robin Hood Movie?",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 6,
-          "slug": "46c024f9-is-the-uprising-really-a-secret-robin-hood-movie"
-        },
-        {
-          "title": "Lit Hub Daily: September 11, 2026",
-          "category": "books",
-          "source": "Literary Hub",
-          "score": 6,
-          "slug": "6ca9148f-lit-hub-daily-september-11-2026"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-23T23:58:58.691Z"
+  "lastUpdated": "2026-09-24T03:04:17.426Z"
 }
