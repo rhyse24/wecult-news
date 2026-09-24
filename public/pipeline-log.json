@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1930,
+  "totalArticles": 1933,
   "runs": [
+    {
+      "timestamp": "2026-09-24T14:00:28.147Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 276,
+      "totalCandidates": 86,
+      "written": [
+        {
+          "title": " Bethesda says that Obsidian's 'creative identity' will be preserved, just months after multiple projects were cancelled and it was told to make a Fallout game ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 15,
+          "slug": "743eb2db-bethesda-says-that-obsidians-creative-identity-will-be-prese"
+        },
+        {
+          "title": "Dutch consumer group files lawsuit against Epic for misleading young players on Fortnite, seeking more than €100m in compensation",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 14,
+          "slug": "6eb8d771-dutch-consumer-group-files-lawsuit-against-epic-for-misleadi"
+        },
+        {
+          "title": "The Witcher 3: Wild Hunt – Remastered Global Release Times Confirmed by CD Projekt",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "b3130e06-the-witcher-3-wild-hunt-remastered-global-release-times-conf"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-24T10:53:19.560Z",
       "status": "success",
@@ -2042,32 +2074,7 @@
       "totalCandidates": 67,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-13T22:07:06.475Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 190,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "‘Practical Magic 2’ Summons $30M to End Spider-Man’s Streak at No. 1",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "a536e725-practical-magic-2-summons-30m-to-end-spider-mans-streak-at-n"
-        },
-        {
-          "title": "10 Movies You Need to Watch on Prime Video in September 2026",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "b9856581-10-movies-you-need-to-watch-on-prime-video-in-september-2026"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-24T10:53:19.560Z"
+  "lastUpdated": "2026-09-24T14:00:28.147Z"
 }
