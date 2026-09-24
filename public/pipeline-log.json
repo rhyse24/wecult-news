@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1922,
+  "totalArticles": 1924,
   "runs": [
+    {
+      "timestamp": "2026-09-24T06:00:32.352Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "International Emmy Nominations: United Kingdom Leads This Year’s Tally; Canada’s ‘Heated Rivalry’ Doesn’t Make the Cut",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "285c6cc3-international-emmy-nominations-united-kingdom-leads-this-yea"
+        },
+        {
+          "title": "Disney+ And Hulu Are Hiking Their Prices Again — Find Out How Much You'll Pay",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 11,
+          "slug": "81e47cf7-disney-and-hulu-are-hiking-their-prices-again-find-out-how-m"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-24T03:04:17.426Z",
       "status": "quota",
@@ -2043,57 +2068,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-13T10:01:06.345Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 224,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Trans Pregnancy Drama ‘Aman’ Boards Parallax Films for Global Sales Ahead of Toronto and London Premieres (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "728d1131-trans-pregnancy-drama-aman-boards-parallax-films-for-global-"
-        },
-        {
-          "title": "Oscars: Philippines Selects Rafael Manuel’s ‘Filipiñana’ for International Feature Race",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "f933d1ad-oscars-philippines-selects-rafael-manuels-filipiana-for-inte"
-        },
-        {
-          "title": "Chris Rock’s Hollywood Send-Up ‘Misty Green’ Hits TIFF With Rosalind Eleazar’s Knockout Lead Performance ",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "3680e152-chris-rocks-hollywood-send-up-misty-green-hits-tiff-with-ros"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "TIFF 2026: Tender Loving Care, Bucking Fastard, A Long Winter",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        },
-        {
-          "title": "The Movie That Best Captured That Post-9/11 Feeling",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 8,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-24T03:04:17.426Z"
+  "lastUpdated": "2026-09-24T06:00:32.352Z"
 }
