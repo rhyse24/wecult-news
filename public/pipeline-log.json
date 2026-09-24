@@ -2,6 +2,16 @@
   "totalArticles": 1921,
   "runs": [
     {
+      "timestamp": "2026-09-23T23:58:58.691Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 280,
+      "totalCandidates": 83,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-09-23T20:53:36.515Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2089,25 +2099,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-13T06:08:39.146Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 241,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "5 Best TV Shows To Watch After House Of The Dragon (That Aren't Game Of Thrones)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "2b7b916d-5-best-tv-shows-to-watch-after-house-of-the-dragon-that-aren"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-23T20:53:36.515Z"
+  "lastUpdated": "2026-09-23T23:58:58.691Z"
 }
