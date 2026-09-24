@@ -2,6 +2,27 @@
   "totalArticles": 1933,
   "runs": [
     {
+      "timestamp": "2026-09-24T17:05:11.231Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 31,
+      "written": [],
+      "rejected": [
+        {
+          "title": "The 10 Most Enjoyable Fantasy Movies of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 685 words (max 580)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-09-24T14:00:28.147Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2064,17 +2085,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-14T02:04:47.029Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 193,
-      "totalCandidates": 67,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-24T14:00:28.147Z"
+  "lastUpdated": "2026-09-24T17:05:11.231Z"
 }
