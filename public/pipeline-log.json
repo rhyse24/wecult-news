@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1924,
+  "totalArticles": 1927,
   "runs": [
+    {
+      "timestamp": "2026-09-24T08:00:21.790Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "Sean Gunn Says He’s ‘Too Old’ and ‘Retired’ From Playing Rocket Raccoon in ‘Guardians of the Galaxy’: It ‘Hurts After a While’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "a3fa6ece-sean-gunn-says-hes-too-old-and-retired-from-playing-rocket-r"
+        },
+        {
+          "title": "‘Gremlins 3’ Delayed to 2028 by Warner Bros.",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "d40ff3c4-gremlins-3-delayed-to-2028-by-warner-bros"
+        },
+        {
+          "title": "‘Transformers: The Movie’ Extends Theatrical Run as “Apology Tour” Rerelease Surges at Box Office",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "926e8791-transformers-the-movie-extends-theatrical-run-as-apology-tou"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-24T06:00:32.352Z",
       "status": "quota",
@@ -2036,39 +2068,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-13T14:04:00.633Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 210,
-      "totalCandidates": 75,
-      "written": [
-        {
-          "title": "Diablo 4's new season brings back Deckard Cain and all three Prime Evils as the game arrives on Switch 2",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 12,
-          "slug": "1d152711-diablo-4s-new-season-brings-back-deckard-cain-and-all-three-"
-        },
-        {
-          "title": "The Game Awards Stage Invader Officially Interviewing Joe Biden's Son",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 12,
-          "slug": "ce4e4a55-the-game-awards-stage-invader-officially-interviewing-joe-bi"
-        },
-        {
-          "title": "Rockstar had a mole in the union worker Discord server \"for over two and a half years\", GTA 6 company reveals during legal battle",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 11,
-          "slug": "811e1e18-rockstar-had-a-mole-in-the-union-worker-discord-server-for-o"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-24T06:00:32.352Z"
+  "lastUpdated": "2026-09-24T08:00:21.790Z"
 }
