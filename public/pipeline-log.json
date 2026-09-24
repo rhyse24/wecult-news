@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1933,
+  "totalArticles": 1935,
   "runs": [
+    {
+      "timestamp": "2026-09-24T20:07:53.909Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 287,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "The 10 Most Enjoyable Fantasy Movies of All Time",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "93e9e62d-the-10-most-enjoyable-fantasy-movies-of-all-time"
+        },
+        {
+          "title": "Tom Hiddleston Recalls Trekking to Everest for ‘Tenzing’ and Kevin Feige Telling Him ‘Thor’ Wasn’t ‘Going to Be the Only Film’ He Would Play Loki In",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "e5d8ae00-tom-hiddleston-recalls-trekking-to-everest-for-tenzing-and-k"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-24T17:05:11.231Z",
       "status": "quota",
@@ -2053,39 +2078,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-14T04:01:04.573Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 193,
-      "totalCandidates": 69,
-      "written": [
-        {
-          "title": "All Fortnite Seasons in Order: Start and End Dates for Every Chapter",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 13,
-          "slug": "3eb02aa5-all-fortnite-seasons-in-order-start-and-end-dates-for-every-"
-        },
-        {
-          "title": "Diablo 5 Director Confirms Game is Already in Full Production",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "556d014a-diablo-5-director-confirms-game-is-already-in-full-productio"
-        },
-        {
-          "title": " ‘Hell Yes!’ - Diablo 4 Dev Team Reacts to the Franchise’s New Netflix Show",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "054ef633-hell-yes---diablo-4-dev-team-reacts-to-the-franchises-new-ne"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-24T17:05:11.231Z"
+  "lastUpdated": "2026-09-24T20:07:53.909Z"
 }
