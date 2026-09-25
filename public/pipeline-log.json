@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1949,
+  "totalArticles": 1952,
   "runs": [
+    {
+      "timestamp": "2026-09-25T21:12:12.201Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 280,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "Chris Hansen Reacts to ‘Primetime’ and Robert Pattinson’s Portrayal of Him: ‘So Bizarre’ and ‘Detached From Reality’",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "slug": "c88103d9-chris-hansen-reacts-to-primetime-and-robert-pattinsons-portr"
+        },
+        {
+          "title": "Alexander Ludwig on ‘Unabomber’ Movie, His ‘Hunger Games’ Death Scene and ‘White Lotus’ Season 4: ‘It’s F—ing Wild’",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "1975ce18-alexander-ludwig-on-unabomber-movie-his-hunger-games-death-s"
+        },
+        {
+          "title": "New to Streaming: Dead Souls, Brand New Landscape, Backrooms, Idiots & More",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 15,
+          "slug": "4406c6ec-new-to-streaming-dead-souls-brand-new-landscape-backrooms-id"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-25T17:19:14.321Z",
       "status": "success",
@@ -2067,39 +2099,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-15T02:00:20.705Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 256,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "David Harbour on Starring Alongside ‘Creative Powerhouse’ Robert Downey Jr. in ‘Avengers: Doomsday’ and Reuniting With Millie Bobby Brown for New Netflix Show",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "0478acb5-david-harbour-on-starring-alongside-creative-powerhouse-robe"
-        },
-        {
-          "title": "Takashi Miike understands the assignment in Bad Lieutenant: Tokyo trailer",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "64f5664c-takashi-miike-understands-the-assignment-in-bad-lieutenant-t"
-        },
-        {
-          "title": "Audience is growing with FX's Adults",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "f1bdc81e-audience-is-growing-with-fxs-adults"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-25T17:19:14.321Z"
+  "lastUpdated": "2026-09-25T21:12:12.201Z"
 }
