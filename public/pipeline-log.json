@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1946,
+  "totalArticles": 1949,
   "runs": [
+    {
+      "timestamp": "2026-09-25T17:19:14.321Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 278,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "16 Netflix Series Named in New York Times’ 100 Best TV Shows of the 21st Century",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "98c619a0-16-netflix-series-named-in-new-york-times-100-best-tv-shows-"
+        },
+        {
+          "title": "What’s Leaving Netflix in October 2026",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "776df1d1-whats-leaving-netflix-in-october-2026"
+        },
+        {
+          "title": "‘The Final Problem’ Netflix Review: José Coronado Stars in New Spanish Sherlock-Style Mystery",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "1205f81c-the-final-problem-netflix-review-jos-coronado-stars-in-new-s"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-25T08:51:48.251Z",
       "status": "success",
@@ -2067,40 +2099,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-14T21:55:15.655Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 263,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "3 Movies Taking Over Netflix This Week (#1 Is a Taylor Sheridan Thriller)",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "c24c536d-3-movies-taking-over-netflix-this-week-1-is-a-taylor-sherida"
-        },
-        {
-          "title": "MoreThan Films Acquires Serville Poblete’s Buzzy Toronto Hangout Comedy ‘Sunburn’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "69208561-morethan-films-acquires-serville-pobletes-buzzy-toronto-hang"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The 6 Most Perfect Drama Movies Released Since 2010",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-25T08:51:48.251Z"
+  "lastUpdated": "2026-09-25T17:19:14.321Z"
 }
