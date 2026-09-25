@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1938,
+  "totalArticles": 1941,
   "runs": [
+    {
+      "timestamp": "2026-09-25T01:05:44.286Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 285,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "Beware Boiúna Trailer Gives You a Killer Snake Movie to Feed Your Nightmares",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "77e19075-beware-boina-trailer-gives-you-a-killer-snake-movie-to-feed-"
+        },
+        {
+          "title": "10 Books Where the Main Character Is, or May Be, a Psychopath",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 8,
+          "slug": "c6a29427-10-books-where-the-main-character-is-or-may-be-a-psychopath"
+        },
+        {
+          "title": "Damien McCarthy’s Hokum Heads to Streaming in Time For Halloween",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 8,
+          "slug": "6bc29a5a-damien-mccarthys-hokum-heads-to-streaming-in-time-for-hallow"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-24T22:00:25.804Z",
       "status": "success",
@@ -2054,39 +2086,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-14T12:06:17.741Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 215,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "Korea Box Office: ‘The Odyssey’ Secures Sixth Weekend Crown as ‘Obsession’ Ascends",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "c0323875-korea-box-office-the-odyssey-secures-sixth-weekend-crown-as-"
-        },
-        {
-          "title": "‘Club Kid’ Wins Top Prize at Deauville American Film Festival",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "963c669c-club-kid-wins-top-prize-at-deauville-american-film-festival"
-        },
-        {
-          "title": "Meet ‘Minotaur’: Watch the Exclusive Trailer for the Cannes-Winning Political Thriller",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 8,
-          "slug": "6e9d8223-meet-minotaur-watch-the-exclusive-trailer-for-the-cannes-win"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-24T22:00:25.804Z"
+  "lastUpdated": "2026-09-25T01:05:44.286Z"
 }
