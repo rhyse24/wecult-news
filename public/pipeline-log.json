@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1943,
+  "totalArticles": 1946,
   "runs": [
+    {
+      "timestamp": "2026-09-25T08:51:48.251Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 282,
+      "totalCandidates": 87,
+      "written": [
+        {
+          "title": " Hooked on the brothers ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "7728a34a-hooked-on-the-brothers"
+        },
+        {
+          "title": "Ubisoft Almost Made a Zelda Game With Ganondorf as the Protagonist",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "e7625c47-ubisoft-almost-made-a-zelda-game-with-ganondorf-as-the-prota"
+        },
+        {
+          "title": "Xbox Says Its Share of GTA 6 Preorders Matches Its Share of the Console Market, Following PS5 Dominance Claim",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "42b04c7d-xbox-says-its-share-of-gta-6-preorders-matches-its-share-of-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-25T04:52:29.699Z",
       "status": "quota",
@@ -2068,32 +2100,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-14T18:01:17.601Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 255,
-      "totalCandidates": 83,
-      "written": [
-        {
-          "title": "Leon Kennedy Easter Egg Spotted In Zach Cregger Resident Evil Movie",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 16,
-          "slug": "13144a0d-leon-kennedy-easter-egg-spotted-in-zach-cregger-resident-evi"
-        },
-        {
-          "title": "Tom Holland Is Now The Highest-Grossing Actor Of All Time As Spider-Man: Brand New Day Crosses $2.4 Billion Mark",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 14,
-          "slug": "a0170943-tom-holland-is-now-the-highest-grossing-actor-of-all-time-as"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-25T04:52:29.699Z"
+  "lastUpdated": "2026-09-25T08:51:48.251Z"
 }
