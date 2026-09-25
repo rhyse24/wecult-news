@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1941,
+  "totalArticles": 1943,
   "runs": [
+    {
+      "timestamp": "2026-09-25T04:52:29.699Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "Inside the Bombshell Article That Inspired ‘Primetime’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "slug": "c21ff02e-inside-the-bombshell-article-that-inspired-primetime"
+        },
+        {
+          "title": "12 Takeaways From Ousted Disney CEO Bob Chapek’s New Book",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "6b42b053-12-takeaways-from-ousted-disney-ceo-bob-chapeks-new-book"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-25T01:05:44.286Z",
       "status": "success",
@@ -2068,25 +2093,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-14T16:11:27.007Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 244,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Netflix at the 2026 Emmy Awards: Every Win So Far And Predictions Ahead of Tonight",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "57982375-netflix-at-the-2026-emmy-awards-every-win-so-far-and-predict"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-25T01:05:44.286Z"
+  "lastUpdated": "2026-09-25T04:52:29.699Z"
 }
