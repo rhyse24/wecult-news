@@ -1,6 +1,39 @@
 {
-  "totalArticles": 1952,
+  "totalArticles": 1954,
   "runs": [
+    {
+      "timestamp": "2026-09-26T01:21:19.411Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": "Resident Evil's Behind-The-Scenes Reveals Its Haunting Practical Effects",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 19,
+          "slug": "e8be098f-resident-evils-behind-the-scenes-reveals-its-haunting-practi"
+        },
+        {
+          "title": "As Resident Evil Requiem Passes $500m Revenue, Analysis Shows 8.6% Sales Were on Xbox, With Remaining 91% Shared Between PS5 and Steam",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "slug": "32f61f62-as-resident-evil-requiem-passes-500m-revenue-analysis-shows-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "This Diablo 4 Trick Lets You Become Stronger Than Ever, But It Might Not Be Intended",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-25T21:12:12.201Z",
       "status": "success",
@@ -2074,32 +2107,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-15T06:16:13.013Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 255,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "Lanterns Goes for an Action-Packed Halfway Point in “Lights Out”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 17,
-          "slug": "84454059-lanterns-goes-for-an-action-packed-halfway-point-in-lights-o"
-        },
-        {
-          "title": "Lanterns May Have Explained Why Earth Ended Up With Guy Gardner (and His Haircut)",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "f9725b23-lanterns-may-have-explained-why-earth-ended-up-with-guy-gard"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-25T21:12:12.201Z"
+  "lastUpdated": "2026-09-26T01:21:19.411Z"
 }
