@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1954,
+  "totalArticles": 1957,
   "runs": [
+    {
+      "timestamp": "2026-09-26T05:43:19.549Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Chris Hansen Secretly Watched ‘Primetime’ in a Packed Theater — Here’s What He Thought",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 15,
+          "slug": "198f404b-chris-hansen-secretly-watched-primetime-in-a-packed-theater-"
+        },
+        {
+          "title": "Kevin Feige calls Florence Pugh's Yelena an anchor for Avengers: Doomsday",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "ad66c0b5-kevin-feige-calls-florence-pughs-yelena-an-anchor-for-avenge"
+        },
+        {
+          "title": "Lanterns Producer James Gunn Breaks Silence On Backlash Over Hal Jordan Story",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "15d04c78-lanterns-producer-james-gunn-breaks-silence-on-backlash-over"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-26T01:21:19.411Z",
       "status": "quota",
@@ -2075,39 +2107,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-15T10:22:35.897Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 264,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "‘Practical Magic 2’ Casts a Spell Over U.K., Ireland Box Office as Oasis Doc Rocks No. 2",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "677a337a-practical-magic-2-casts-a-spell-over-uk-ireland-box-office-a"
-        },
-        {
-          "title": "15 Movies To Watch if You Love 'Spirited Away'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "slug": "60727f16-15-movies-to-watch-if-you-love-spirited-away"
-        },
-        {
-          "title": "Prime Video’s ‘The House of the Spirits’ Showrunners Francisca Alegria and Fernanda Urrejola Lead Alma Media Lab Slate (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "f4ed6f5b-prime-videos-the-house-of-the-spirits-showrunners-francisca-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-26T01:21:19.411Z"
+  "lastUpdated": "2026-09-26T05:43:19.549Z"
 }
