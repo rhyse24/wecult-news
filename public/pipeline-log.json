@@ -1,6 +1,53 @@
 {
-  "totalArticles": 1957,
+  "totalArticles": 1960,
   "runs": [
+    {
+      "timestamp": "2026-09-26T10:02:23.262Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "‘Love Hypothesis’ Director Claire Scanlon Breaks Down the Biggest ‘Star Wars’ Easter Eggs, From Gracie Abrams’ Song to Color-Coded Wardrobes",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "2d5c7d2f-love-hypothesis-director-claire-scanlon-breaks-down-the-bigg"
+        },
+        {
+          "title": "‘Narcos’ Director Andrés Baiz Tackling Police Helicopter Thriller ‘Helo’ for Netflix (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "slug": "1ede1859-narcos-director-andrs-baiz-tackling-police-helicopter-thrill"
+        },
+        {
+          "title": "Officially Ranking Every Original Star Wars Trilogy Theatrical Cut",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "318508ea-officially-ranking-every-original-star-wars-trilogy-theatric"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘To Catch a Predator’ Host Chris Hansen Watches Robert Pattinson’s ‘Primetime’ — and He’s Not a Fan",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Primetime Review: A Thrilling Indictment",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 11,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-26T05:43:19.549Z",
       "status": "success",
@@ -2075,39 +2122,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-15T14:16:16.813Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 268,
-      "totalCandidates": 85,
-      "written": [
-        {
-          "title": "Is Eternal Darkness Getting a Remaster? Nightdive Studios Raises Hopes That the GameCube Classic Will Return",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 20,
-          "slug": "3ed4a9c1-is-eternal-darkness-getting-a-remaster-nightdive-studios-rai"
-        },
-        {
-          "title": "Diablo 5 Doubles Down On The Darkness, But Hope Still Has A Place In Sanctuary",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 16,
-          "slug": "0369a799-diablo-5-doubles-down-on-the-darkness-but-hope-still-has-a-p"
-        },
-        {
-          "title": "Final Fantasy 7 Revelation Brings Back Snowboarding, And Red XIII Might Steal The Show Again",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "2530dd33-final-fantasy-7-revelation-brings-back-snowboarding-and-red-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-26T05:43:19.549Z"
+  "lastUpdated": "2026-09-26T10:02:23.262Z"
 }
