@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1965,
+  "totalArticles": 1967,
   "runs": [
+    {
+      "timestamp": "2026-09-26T22:19:33.085Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 251,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "10 Perfect Double Features To Watch With Zach Cregger's 'Resident Evil'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "slug": "a8d7007b-10-perfect-double-features-to-watch-with-zach-creggers-resid"
+        },
+        {
+          "title": "5 Best Kyle Chandler TV Shows To Watch After Lanterns",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "slug": "cbffd1ed-5-best-kyle-chandler-tv-shows-to-watch-after-lanterns"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-26T18:20:37.203Z",
       "status": "quota",
@@ -2122,36 +2147,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-16T01:33:19.362Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 94,
-      "written": [
-        {
-          "title": "All Kingdom Hearts skins coming to Fortnite",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 12,
-          "slug": "51f24cb7-all-kingdom-hearts-skins-coming-to-fortnite"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Microsoft Reacts To Xbox Game Pass Rumor That Could Change The Service In A Big Way",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-26T18:20:37.203Z"
+  "lastUpdated": "2026-09-26T22:19:33.085Z"
 }
