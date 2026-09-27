@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1977,
+  "totalArticles": 1978,
   "runs": [
+    {
+      "timestamp": "2026-09-27T15:59:22.258Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 193,
+      "totalCandidates": 18,
+      "written": [
+        {
+          "title": "Box Office: ‘Avengers: Endgame Encore’ Returns to No. 1 With $26 Million, ‘Primetime’ Scores Impressive $19 Million Debut",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "baea4ce4-box-office-avengers-endgame-encore-returns-to-no-1-with-26-m"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-27T11:51:16.374Z",
       "status": "success",
@@ -2169,39 +2187,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-17T00:00:22.980Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 283,
-      "totalCandidates": 91,
-      "written": [
-        {
-          "title": "Pirate Who Cracked Denuvo Games Like Resident Evil Requiem Plans to Keep Doing So Despite Being Sued",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 18,
-          "slug": "65e8fa38-pirate-who-cracked-denuvo-games-like-resident-evil-requiem-p"
-        },
-        {
-          "title": "Marvel's Wolverine Players Are Testing Its Motorcycle Sequence to See if Logan Can Die if You Don't Touch the Controller",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "39dbc1bb-marvels-wolverine-players-are-testing-its-motorcycle-sequenc"
-        },
-        {
-          "title": "Shinji Mikami to be inducted into the AIAS Hall of Fame later this week",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 12,
-          "slug": "ea10b10b-shinji-mikami-to-be-inducted-into-the-aias-hall-of-fame-late"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-27T11:51:16.374Z"
+  "lastUpdated": "2026-09-27T15:59:22.258Z"
 }
