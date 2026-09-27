@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1970,
+  "totalArticles": 1971,
   "runs": [
+    {
+      "timestamp": "2026-09-27T06:01:18.750Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 241,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "Jon Watts to Direct Next ‘Star Wars’ Movie",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "ec896ac7-jon-watts-to-direct-next-star-wars-movie"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-27T04:01:19.589Z",
       "status": "quota",
@@ -2140,17 +2158,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-16T16:30:13.013Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 46,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-27T04:01:19.589Z"
+  "lastUpdated": "2026-09-27T06:01:18.750Z"
 }
