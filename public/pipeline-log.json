@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1974,
+  "totalArticles": 1977,
   "runs": [
+    {
+      "timestamp": "2026-09-27T11:51:16.374Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 218,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Tucker Carlson Returns to ‘SNL’ to Review ‘The Odyssey,’ Gender-Neutral ‘Spider-Man’ and Left-Wing ‘Obsession’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 15,
+          "slug": "14a0ccb6-tucker-carlson-returns-to-snl-to-review-the-odyssey-gender-n"
+        },
+        {
+          "title": "We Are Aliens Film, Eri Short Anime, Candy Caries Win at Ottawa Int'l Animation Festival",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 11,
+          "slug": "d22667e0-we-are-aliens-film-eri-short-anime-candy-caries-win-at-ottaw"
+        },
+        {
+          "title": "‘SNL’ Opens Season With Mamdani Hanging Out With BFF Trump, Natalie Harp Going ‘Obsession’ Over President",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "4753e875-snl-opens-season-with-mamdani-hanging-out-with-bff-trump-nat"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-27T07:50:31.990Z",
       "status": "success",
@@ -2169,25 +2201,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-16T21:08:40.406Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "Yellowstone Favorite Jefferson White Returning As Jimmy Hurdstrom In Marshals Season 2 — First Look",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "7a2ca1a1-yellowstone-favorite-jefferson-white-returning-as-jimmy-hurd"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-27T07:50:31.990Z"
+  "lastUpdated": "2026-09-27T11:51:16.374Z"
 }
