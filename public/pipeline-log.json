@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1968,
+  "totalArticles": 1970,
   "runs": [
+    {
+      "timestamp": "2026-09-27T04:01:19.589Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 243,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "‘We left Ireland because there wasn’t work – and we wanted to get the hell away’: Trespasses author Louise Kennedy",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 8,
+          "slug": "77726e10-we-left-ireland-because-there-wasnt-work-and-we-wanted-to-ge"
+        },
+        {
+          "title": "5 Powerful Horror Novels for Animal Lovers",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 7,
+          "slug": "c706e288-5-powerful-horror-novels-for-animal-lovers"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-27T02:10:01.222Z",
       "status": "quota",
@@ -2125,39 +2150,7 @@
       "totalCandidates": 46,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-16T09:16:11.056Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 277,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "‘Resident Evil’ First Reactions: Zach Cregger’s Zombie Horror Is ‘Gloriously Gory’ and One of ‘The Best Video Game Adaptations’ Ever",
-          "category": "film",
-          "source": "Variety",
-          "score": 15,
-          "slug": "0fd24e07-resident-evil-first-reactions-zach-creggers-zombie-horror-is"
-        },
-        {
-          "title": "John Abraham Starts Shooting Ribhu Dasgupta’s Psychological Thriller ‘Guru’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "20ce3a71-john-abraham-starts-shooting-ribhu-dasguptas-psychological-t"
-        },
-        {
-          "title": "A Dog with a Bone: Maria Sten on “Neagley”",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 12,
-          "slug": "0a2e7ddf-a-dog-with-a-bone-maria-sten-on-neagley"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-27T02:10:01.222Z"
+  "lastUpdated": "2026-09-27T04:01:19.589Z"
 }
