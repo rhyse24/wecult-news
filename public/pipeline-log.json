@@ -1,6 +1,31 @@
 {
-  "totalArticles": 1980,
+  "totalArticles": 1982,
   "runs": [
+    {
+      "timestamp": "2026-09-28T04:46:24.879Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 179,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Lanterns Has Fully and Officially Done Away With Green Lantern’s Ridiculous Weakness",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 17,
+          "slug": "de754dd2-lanterns-has-fully-and-officially-done-away-with-green-lante"
+        },
+        {
+          "title": "5 LEGO Animated Specials We Need After ‘LEGO One Piece’",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 15,
+          "slug": "fdae3c97-5-lego-animated-specials-we-need-after-lego-one-piece"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-28T01:24:17.854Z",
       "status": "quota",
@@ -2119,39 +2144,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-17T10:00:33.208Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 270,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "Paul Walter Hauser Explains Mystery Pin He Wore to ‘Resident Evil’ Premiere",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "20d2d567-paul-walter-hauser-explains-mystery-pin-he-wore-to-resident-"
-        },
-        {
-          "title": "‘Avengers’ Studio AGBO’s Chris Brearton, Dominic Hughes to Keynote Tokyo Market on Artist-Led AI in Storytelling",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "d53b6acf-avengers-studio-agbos-chris-brearton-dominic-hughes-to-keyno"
-        },
-        {
-          "title": "Resident Evil Review: Zach Cregger Crafts an Ideal Tribute to an Iconic Series",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 12,
-          "slug": "5ac8245e-resident-evil-review-zach-cregger-crafts-an-ideal-tribute-to"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-28T01:24:17.854Z"
+  "lastUpdated": "2026-09-28T04:46:24.879Z"
 }
