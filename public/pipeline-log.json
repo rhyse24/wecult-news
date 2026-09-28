@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1988,
+  "totalArticles": 1989,
   "runs": [
+    {
+      "timestamp": "2026-09-28T15:43:03.473Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 219,
+      "totalCandidates": 77,
+      "written": [
+        {
+          "title": "Resident Evil Movie Demolishes Franchise Record After Just Two Weekends",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 16,
+          "slug": "644c79fe-resident-evil-movie-demolishes-franchise-record-after-just-t"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-28T12:01:24.322Z",
       "status": "success",
@@ -2140,40 +2158,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-17T20:00:28.183Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "‘The Life and Deaths of Wilson Shedd’ Review: Amanda Seyfried and Scoot McNairy Bring Raw Intensity to Tim Blake Nelson’s Death Row Drama",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "9fc29fb3-the-life-and-deaths-of-wilson-shedd-review-amanda-seyfried-a"
-        },
-        {
-          "title": "Halle Berry, Regina King and Meg Ryan Announced as Jurors for Tribeca and Chanel’s Through Her Lens Filmmaker Program",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "db774160-halle-berry-regina-king-and-meg-ryan-announced-as-jurors-for"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "7 Horror Films to Prepare You for Zach Cregger's Resident Evil",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-28T12:01:24.322Z"
+  "lastUpdated": "2026-09-28T15:43:03.473Z"
 }
