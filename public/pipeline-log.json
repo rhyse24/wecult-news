@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1989,
+  "totalArticles": 1990,
   "runs": [
+    {
+      "timestamp": "2026-09-28T19:11:24.796Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 238,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Robert Pattinson’s Star Power and Gen Z: 5 Reasons ‘Primetime’ Became a Breakout Box Office Hit",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "slug": "c81d227a-robert-pattinsons-star-power-and-gen-z-5-reasons-primetime-b"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-28T15:43:03.473Z",
       "status": "quota",
@@ -2126,39 +2144,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-17T23:56:21.997Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 277,
-      "totalCandidates": 89,
-      "written": [
-        {
-          "title": "GTA 6 Will Feature The “Next Evolution Of In-Game Radio,” Rockstar Says",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "b6628354-gta-6-will-feature-the-next-evolution-of-in-game-radio-rocks"
-        },
-        {
-          "title": "Scientists Discovered A New Cat Before Rockstar Could Finish GTA 6",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "889cd122-scientists-discovered-a-new-cat-before-rockstar-could-finish"
-        },
-        {
-          "title": " Hideo Kojima announces Bill Skarsgård will star in stealth-action Physint, legendary designer Yoji Shinkawa also confirmed for character design ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "92a80bf2-hideo-kojima-announces-bill-skarsgrd-will-star-in-stealth-ac"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-28T15:43:03.473Z"
+  "lastUpdated": "2026-09-28T19:11:24.796Z"
 }
