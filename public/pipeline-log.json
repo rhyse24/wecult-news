@@ -1,6 +1,38 @@
 {
-  "totalArticles": 1985,
+  "totalArticles": 1988,
   "runs": [
+    {
+      "timestamp": "2026-09-28T12:01:24.322Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 206,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Japanese Adaptation of ‘Extraordinary Attorney Woo’ Sets October 2026 Netflix Release",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "b13801a2-japanese-adaptation-of-extraordinary-attorney-woo-sets-octob"
+        },
+        {
+          "title": "Lanterns finally gives us the buddy cop show we were promised, but still won't give us what we want",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "6b2cb5a8-lanterns-finally-gives-us-the-buddy-cop-show-we-were-promise"
+        },
+        {
+          "title": "Quote Of The Day By Ebon Moss-Bachrach: 'You Have To Be A Perennial! It's Very Important When You Work As An Actor, Or In Any...'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "b1863965-quote-of-the-day-by-ebon-moss-bachrach-you-have-to-be-a-pere"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-28T08:18:54.292Z",
       "status": "success",
@@ -2141,25 +2173,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-17T18:01:23.539Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 47,
-      "written": [
-        {
-          "title": "What To Watch Thursday: Monster: The Lizzie Borden Story Premieres, The Traitors Heads To NBC, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "53fcb608-what-to-watch-thursday-monster-the-lizzie-borden-story-premi"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-28T08:18:54.292Z"
+  "lastUpdated": "2026-09-28T12:01:24.322Z"
 }
