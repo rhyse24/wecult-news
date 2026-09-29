@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1990,
+  "totalArticles": 1991,
   "runs": [
+    {
+      "timestamp": "2026-09-29T04:28:10.189Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 239,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "One Piece Anime Confirms New Episodes to Return in 2027",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 13,
+          "slug": "f79420f1-one-piece-anime-confirms-new-episodes-to-return-in-2027"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-29T01:37:38.080Z",
       "status": "quota",
@@ -2034,54 +2052,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-18T08:09:54.322Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 278,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "When will ‘Grey’s Anatomy’ Season 23 be on Netflix?",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "slug": "4986ad4f-when-will-greys-anatomy-season-23-be-on-netflix"
-        },
-        {
-          "title": "What’s Coming to Netflix in October 2026",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "slug": "076eb971-whats-coming-to-netflix-in-october-2026"
-        },
-        {
-          "title": "Celebrate Shrek's 25th birthday with a massive \"Shared Reality\" experience",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "slug": "99e2182a-celebrate-shreks-25th-birthday-with-a-massive-shared-reality"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Lizzie Borden’ Cast on Treating the Story as a Comedy, the Joy of Playing a Sadistic Character and Finding Empathy for a Bloody Monster: ‘I Understand This Person’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "VisionQuest Posters Introduce Another Member of the Young Avengers",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 10,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-29T01:37:38.080Z"
+  "lastUpdated": "2026-09-29T04:28:10.189Z"
 }
