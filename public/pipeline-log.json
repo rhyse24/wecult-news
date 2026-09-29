@@ -1,6 +1,24 @@
 {
-  "totalArticles": 1999,
+  "totalArticles": 2000,
   "runs": [
+    {
+      "timestamp": "2026-09-29T18:47:45.705Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 264,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "New Anime on Netflix in October 2026: ‘Cyberpunk: Edgerunners’ Season 2 & More",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 18,
+          "slug": "da6cadff-new-anime-on-netflix-in-october-2026-cyberpunk-edgerunners-s"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-29T16:01:32.566Z",
       "status": "quota",
@@ -2011,47 +2029,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-19T12:11:54.857Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "Marvel's Wolverine Developer Nerfs Scent Trails and Audio Sense Indicators After 'Fart Gas' Backlash",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "ebd44c30-marvels-wolverine-developer-nerfs-scent-trails-and-audio-sen"
-        },
-        {
-          "title": "HoYoverse's Nodusfall might look like Elden Ring, but there's a promising dark fantasy action game here that took me by surprise",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 11,
-          "slug": "bc5b5433-hoyoverses-nodusfall-might-look-like-elden-ring-but-theres-a"
-        },
-        {
-          "title": " CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "2468ab0c-cd-projekt-says-abandoning-its-in-house-engine-for-the-witch"
-        }
-      ],
-      "rejected": [
-        {
-          "title": " The Resident Evil film should be more concerned with understanding the roots of its survival horror than adhering to strict lore accuracy ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-29T16:01:32.566Z"
+  "lastUpdated": "2026-09-29T18:47:45.705Z"
 }
