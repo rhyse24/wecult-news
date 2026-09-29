@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2000,
+  "totalArticles": 2003,
   "runs": [
+    {
+      "timestamp": "2026-09-29T22:01:26.110Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 269,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Curry Barker’s ‘Obsession’ Follow-Up ‘Anything But Ghosts’ Sets May 2027 Release Date From Focus Features, Blumhouse",
+          "category": "film",
+          "source": "Variety",
+          "score": 16,
+          "slug": "eaa753fa-curry-barkers-obsession-follow-up-anything-but-ghosts-sets-m"
+        },
+        {
+          "title": "Black Bear Names Dan Cohen as Head of Television Distribution, Launches Digital Networks Vertical",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "96b76f0b-black-bear-names-dan-cohen-as-head-of-television-distributio"
+        },
+        {
+          "title": "Enshrouded in Darkness: Lance Oppenheim, Merritt Wever, and Skyler Gisondo on “Primetime”",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 13,
+          "slug": "e83c92b9-enshrouded-in-darkness-lance-oppenheim-merritt-wever-and-sky"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-29T18:47:45.705Z",
       "status": "quota",
@@ -2004,32 +2036,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-19T16:00:25.042Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 263,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "10 Best Apple TV Shows Of 2026 (So Far)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "4c5fdbc1-10-best-apple-tv-shows-of-2026-so-far"
-        },
-        {
-          "title": "40 Years Ago, Harry Potter Director Chris Columbus Created A Sci-Fi Show Nobody Remembers Today",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "84643ff2-40-years-ago-harry-potter-director-chris-columbus-created-a-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-29T18:47:45.705Z"
+  "lastUpdated": "2026-09-29T22:01:26.110Z"
 }
