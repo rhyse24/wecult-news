@@ -1,6 +1,66 @@
 {
-  "totalArticles": 1996,
+  "totalArticles": 1999,
   "runs": [
+    {
+      "timestamp": "2026-09-29T11:04:19.113Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 236,
+      "totalCandidates": 75,
+      "written": [
+        {
+          "title": "Neil Druckmann confirms new The Last of Us projects in the works",
+          "category": "games",
+          "source": "Dexerto",
+          "score": 14,
+          "slug": "f15b66d1-neil-druckmann-confirms-new-the-last-of-us-projects-in-the-w"
+        },
+        {
+          "title": "God Of War Laufey Pre-Orders: Prices, Editions, Bonuses, And More",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 12,
+          "slug": "53b25d5d-god-of-war-laufey-pre-orders-prices-editions-bonuses-and-mor"
+        },
+        {
+          "title": " The Witcher 3 updated system requirements are in, and you will need an RTX 5080 for path tracing with DLSS and frame generation ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 11,
+          "slug": "e88ace19-the-witcher-3-updated-system-requirements-are-in-and-you-wil"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Zach Cregger's Resident Evil Movie Is So Popular, It Increased RE2 Remake Sales by More Than 50% on PS5",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Naughty Dog Is Working On Two New The Last Of Us Projects",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        },
+        {
+          "title": "Naughty Dog Will 'Fully Reveal' Intergalactic in 2027, but No Release Window Yet",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-29T08:01:27.178Z",
       "status": "success",
@@ -2035,39 +2095,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-18T23:28:58.325Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 285,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Trailer for ‘The Further Mis-Adventures of Cliff Booth’ Movie Playing in Theaters with Resident Evil Ahead of Global Drop",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 18,
-          "slug": "b9a9bcc1-trailer-for-the-further-mis-adventures-of-cliff-booth-movie-"
-        },
-        {
-          "title": "Pierce Brosnan and Helen Mirren on Their ‘MobLand’ Season 2 Return: “Pure Lunacy”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "slug": "96f414e9-pierce-brosnan-and-helen-mirren-on-their-mobland-season-2-re"
-        },
-        {
-          "title": "MobLand Season 2 Premiere Recap: The Harrigans' Downfall Begins With A Bloodbath — Plus, Grade It!",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "d7f31f3d-mobland-season-2-premiere-recap-the-harrigans-downfall-begin"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-29T08:01:27.178Z"
+  "lastUpdated": "2026-09-29T11:04:19.113Z"
 }
