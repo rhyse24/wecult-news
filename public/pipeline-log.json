@@ -2,6 +2,16 @@
   "totalArticles": 1999,
   "runs": [
     {
+      "timestamp": "2026-09-29T14:15:39.286Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 249,
+      "totalCandidates": 42,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-09-29T11:04:19.113Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2063,39 +2073,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-19T04:04:15.845Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 285,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Resident Evil Is a Joyful Blood Splatter of a Movie",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "e7c1ac21-resident-evil-is-a-joyful-blood-splatter-of-a-movie"
-        },
-        {
-          "title": "Lanterns’ Midseason Trailer Offers More Guy Gardner, More Sinestro, and More Questions",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "df229de2-lanterns-midseason-trailer-offers-more-guy-gardner-more-sine"
-        },
-        {
-          "title": "Doctor Who Won’t Return Until 2028 at Earliest",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 11,
-          "slug": "fa60f54a-doctor-who-wont-return-until-2028-at-earliest"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-29T11:04:19.113Z"
+  "lastUpdated": "2026-09-29T14:15:39.286Z"
 }
