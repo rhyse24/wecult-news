@@ -2,6 +2,16 @@
   "totalArticles": 1990,
   "runs": [
     {
+      "timestamp": "2026-09-29T01:37:38.080Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 246,
+      "totalCandidates": 44,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-09-28T22:37:27.634Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2071,64 +2081,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-18T04:00:35.662Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "The Weight Review: Ethan Hawke is Good as Gold",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 10,
-          "slug": "f93fb2e7-the-weight-review-ethan-hawke-is-good-as-gold"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Resident Evil’ Video Game References: All the Zombies, Weapons and Easter Eggs in Zach Cregger’s Reboot",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Resident Evil (2026) Ending Explained: Who Survives Raccoon City?",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Resident Evil Review: A Decent Raccoon City Movie That Comes Well-Armed",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "If I Go Will They Miss Me Reviewing: Finding Poetic Beauty in Coming of Age",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        },
-        {
-          "title": "NYC Weekend Watch: Yuen Woo-ping, Hou Hsiao-hsien, In Vanda’s Room & More",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 10,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-28T22:37:27.634Z"
+  "lastUpdated": "2026-09-29T01:37:38.080Z"
 }
