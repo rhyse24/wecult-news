@@ -1,6 +1,45 @@
 {
-  "totalArticles": 2010,
+  "totalArticles": 2011,
   "runs": [
+    {
+      "timestamp": "2026-09-30T14:01:44.548Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 260,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "‘The Twilight Zone’ and ‘Dynasty’ Lead Huge Wave of Retro TV Hits Coming to Netflix Canada",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "5ff45b9b-the-twilight-zone-and-dynasty-lead-huge-wave-of-retro-tv-hit"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Ted Lasso season 4 is just one odd choice stacked on top of another",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 15 words (max 12)"
+          ]
+        },
+        {
+          "title": "Christy Carlson Romano Says She and ‘Even Stevens’ Co-Star Shia LaBeouf Were ‘Like Oil and Water’ While Filming the Disney Channel Show",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-30T10:55:23.958Z",
       "status": "success",
@@ -2057,39 +2096,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-20T10:17:51.820Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 227,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "This Batman Beyond Spin-Off Ran For Two Seasons But Is Barely Remembered Today",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "3909a5d2-this-batman-beyond-spin-off-ran-for-two-seasons-but-is-barel"
-        },
-        {
-          "title": "Netflix Halloween 2026 Lineup: First Look at New Horror Movies & Series Coming Soon",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 9,
-          "slug": "76b97415-netflix-halloween-2026-lineup-first-look-at-new-horror-movie"
-        },
-        {
-          "title": "Ethan Hawke isn't letting Moon Knight's uncertain future get him down",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "slug": "d83e9784-ethan-hawke-isnt-letting-moon-knights-uncertain-future-get-h"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-30T10:55:23.958Z"
+  "lastUpdated": "2026-09-30T14:01:44.548Z"
 }
