@@ -1,6 +1,32 @@
 {
-  "totalArticles": 2003,
+  "totalArticles": 2004,
   "runs": [
+    {
+      "timestamp": "2026-09-30T01:14:01.206Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 266,
+      "totalCandidates": 89,
+      "written": [
+        {
+          "title": "Pokémon VGC Pro Begs Players to Wash Themselves After Opponent’s 'Putrid' Stench Makes Them Vomit",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "5e0755b2-pokmon-vgc-pro-begs-players-to-wash-themselves-after-opponen"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Halo's Former Franchise Creative Director Sees 3 Possible Paths for Activision's Halo",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-29T22:01:26.110Z",
       "status": "success",
@@ -2018,25 +2044,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-19T19:50:27.218Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 259,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "Box Office: Zach Cregger’s ‘Resident Evil’ Scares Up $26 Million on Opening Day",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "eef17060-box-office-zach-creggers-resident-evil-scares-up-26-million-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-29T22:01:26.110Z"
+  "lastUpdated": "2026-09-30T01:14:01.206Z"
 }
