@@ -2,6 +2,31 @@
   "totalArticles": 2004,
   "runs": [
     {
+      "timestamp": "2026-09-30T04:29:06.502Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 49,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Christy Carlson Romano Says She and ‘Even Stevens’ Co-Star Shia LaBeouf Were ‘Like Oil and Water’ While Filming the Disney Channel Show",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Connie Britton is pretending to be a teen's mom in unsettling Phony trailer",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-09-30T01:14:01.206Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2019,32 +2044,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-19T23:39:20.695Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 252,
-      "totalCandidates": 90,
-      "written": [
-        {
-          "title": "Zach Cregger’s Resident Evil movie breaks multiple records in gruesome opening week",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 16,
-          "slug": "e0190a08-zach-creggers-resident-evil-movie-breaks-multiple-records-in"
-        },
-        {
-          "title": "Reacher star Alan Ritchson to take the lead in upcoming Helldivers adaptation",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 16,
-          "slug": "baef7d35-reacher-star-alan-ritchson-to-take-the-lead-in-upcoming-hell"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-30T01:14:01.206Z"
+  "lastUpdated": "2026-09-30T04:29:06.502Z"
 }
