@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2011,
+  "totalArticles": 2012,
   "runs": [
+    {
+      "timestamp": "2026-09-30T16:01:45.360Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 265,
+      "totalCandidates": 79,
+      "written": [
+        {
+          "title": "Dune Awakening's creative director on copying Hollywood, in-game advertising, and why style beats photorealism",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 12,
+          "slug": "02d1d201-dune-awakenings-creative-director-on-copying-hollywood-in-ga"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-09-30T14:01:44.548Z",
       "status": "quota",
@@ -2064,39 +2082,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-20T14:00:29.463Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 211,
-      "totalCandidates": 78,
-      "written": [
-        {
-          "title": "Hideo Kojima Reveals What Happened With Sony in Exclusive First Interview Since PlayStation Ditched Physint",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "2b149a67-hideo-kojima-reveals-what-happened-with-sony-in-exclusive-fi"
-        },
-        {
-          "title": "10 Best teams for FC 27 Career Mode",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 15,
-          "slug": "50da87a1-10-best-teams-for-fc-27-career-mode"
-        },
-        {
-          "title": "Final Fantasy VII Revelation Could Have One Of The Biggest Download Sizes In Xbox History",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 13,
-          "slug": "9559cd4e-final-fantasy-vii-revelation-could-have-one-of-the-biggest-d"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-30T14:01:44.548Z"
+  "lastUpdated": "2026-09-30T16:01:45.360Z"
 }
