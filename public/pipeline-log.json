@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2007,
+  "totalArticles": 2010,
   "runs": [
+    {
+      "timestamp": "2026-09-30T10:55:23.958Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Florence Pugh Credits Tom Holland for ‘Spider-Man: Brand New Day’ Role: ‘This All Happened Because of Tom’",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "fd1e2295-florence-pugh-credits-tom-holland-for-spider-man-brand-new-d"
+        },
+        {
+          "title": "Digger Review: Tom Cruise Attempts Kubrickian Satire in Bold, Uneven Swing",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "slug": "94072bce-digger-review-tom-cruise-attempts-kubrickian-satire-in-bold-"
+        },
+        {
+          "title": "With ‘Digger,’ Tom Cruise Takes On His Riskiest Business Yet",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "fc95347b-with-digger-tom-cruise-takes-on-his-riskiest-business-yet"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "15 Movies To Watch if You Love 'Dune'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 585 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-30T07:31:27.317Z",
       "status": "success",
@@ -2046,40 +2089,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-20T06:47:56.224Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 249,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "Resident Evil: The Biggest Changes from the Game Make for a Better Movie",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "slug": "cfb790ed-resident-evil-the-biggest-changes-from-the-game-make-for-a-b"
-        },
-        {
-          "title": "Venice Review: The Echo Chamber Creates Terrific Chemisty for Luca Marinelli and Alicia Vikander",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 8,
-          "slug": "da246297-venice-review-the-echo-chamber-creates-terrific-chemisty-for"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Resident Evil’ Feasting at Box Office as Zach Cregger’s Reboot Races Toward $55M Opening",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-09-30T07:31:27.317Z"
+  "lastUpdated": "2026-09-30T10:55:23.958Z"
 }
