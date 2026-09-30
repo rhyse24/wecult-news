@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2012,
+  "totalArticles": 2013,
   "runs": [
+    {
+      "timestamp": "2026-09-30T20:50:36.686Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Tom Cruise’s ‘Digger’ Was Originally Titled ‘Blah, Blah, Blah,’ Iñárritu Reveals",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "f698fef7-tom-cruises-digger-was-originally-titled-blah-blah-blah-irri"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Florence Pugh Thanks Tom Holland for Her ‘Spider-Man: Brand New Day’ Casting: “This All Happened Because of Tom”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Digger Review: Alejandro G. Iñárritu’s Satire Is Stale But Never Boring",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "15 Movies To Watch if You Love 'Dune'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 925 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-09-30T18:01:22.257Z",
       "status": "quota",
@@ -2035,25 +2078,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-20T22:00:28.865Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 180,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "65 Years Ago, A British Sci-Fi Spy Series Launched And Became A Global Hit",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "66f315ec-65-years-ago-a-british-sci-fi-spy-series-launched-and-became"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-30T18:01:22.257Z"
+  "lastUpdated": "2026-09-30T20:50:36.686Z"
 }
