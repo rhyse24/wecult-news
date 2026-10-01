@@ -1,6 +1,53 @@
 {
-  "totalArticles": 2017,
+  "totalArticles": 2020,
   "runs": [
+    {
+      "timestamp": "2026-10-01T10:24:51.091Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 247,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "Nicolas Cage Says the MCU “Is Becoming a Well-Funded and Glorified WWE”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "f681f448-nicolas-cage-says-the-mcu-is-becoming-a-well-funded-and-glor"
+        },
+        {
+          "title": "Golden Globes Surprise: ‘Obsession’ Submitted for Musical/Comedy Categories (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "cb5eb827-golden-globes-surprise-obsession-submitted-for-musicalcomedy"
+        },
+        {
+          "title": "‘Miami Vice ’85’ Casts ‘Superman’ Star Edi Gathegi in Key Role (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "slug": "5785223b-miami-vice-85-casts-superman-star-edi-gathegi-in-key-role-ex"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "7 Must See Movies on Netflix this October",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Digger Review: Alejandro G. Iñárritu’s Satire Is Stale But Never Boring",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-01T07:17:48.761Z",
       "status": "success",
@@ -2008,33 +2055,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-21T16:41:26.309Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 233,
-      "totalCandidates": 23,
-      "written": [
-        {
-          "title": "New Resident Evil Movie Features an Unexpected Easter Egg",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "slug": "a904d3e1-new-resident-evil-movie-features-an-unexpected-easter-egg"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "5 Movies To Watch If You Like 2026's Resident Evil",
-          "category": "film",
-          "source": "Looper",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-01T07:17:48.761Z"
+  "lastUpdated": "2026-10-01T10:24:51.091Z"
 }
