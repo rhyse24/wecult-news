@@ -1,6 +1,32 @@
 {
-  "totalArticles": 2023,
+  "totalArticles": 2024,
   "runs": [
+    {
+      "timestamp": "2026-10-01T18:04:23.229Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 263,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "Jake Johnson Comedy ‘Sunset P.I.’ Casts Spencer Moss, Nelson Franklin and More (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "fe3e76c0-jake-johnson-comedy-sunset-pi-casts-spencer-moss-nelson-fran"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Pro ‘Fortnite’ Gamer Cody ‘Clix’ Conrod Launches New Holding Company Full Box to Align Owned Businesses, Collabs and Philanthropy (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 16,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-01T13:27:34.819Z",
       "status": "success",
@@ -2036,32 +2062,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-22T00:06:08.492Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 241,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "Daredevil: Born Again To End With Season 3 At Disney+ As Showrunner Exits",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "0f691bce-daredevil-born-again-to-end-with-season-3-at-disney-as-showr"
-        },
-        {
-          "title": "Resident Evil leaves the door open for more traditional, game-centric sequels",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "slug": "86f18769-resident-evil-leaves-the-door-open-for-more-traditional-game"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-01T13:27:34.819Z"
+  "lastUpdated": "2026-10-01T18:04:23.229Z"
 }
