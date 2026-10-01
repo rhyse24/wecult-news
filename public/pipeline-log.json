@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2014,
+  "totalArticles": 2017,
   "runs": [
+    {
+      "timestamp": "2026-10-01T07:17:48.761Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 269,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "Curry Barker’s Obsession Followup, Anything But Ghosts, Comes Out Next Year",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 12,
+          "slug": "5aa1aaeb-curry-barkers-obsession-followup-anything-but-ghosts-comes-o"
+        },
+        {
+          "title": "Forgotten Island Is a Rumination on Girlhood, Friendship, and Animation as an Medium",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "d77ab7f4-forgotten-island-is-a-rumination-on-girlhood-friendship-and-"
+        },
+        {
+          "title": "The Most Overlooked Member of the Found Family: The Weird Li’l Guy",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "743a19dc-the-most-overlooked-member-of-the-found-family-the-weird-lil"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-01T04:01:18.580Z",
       "status": "quota",
@@ -2002,39 +2034,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-21T13:08:29.955Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 216,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "First Trailer Released for Brad Pitt’s ‘The Further Mis-Adventures of Cliff Booth’",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 15,
-          "slug": "1e4eddc9-first-trailer-released-for-brad-pitts-the-further-mis-advent"
-        },
-        {
-          "title": "Lanterns remains an exercise in withholding while opening itself up to the wider DC Universe",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "slug": "37f0cae6-lanterns-remains-an-exercise-in-withholding-while-opening-it"
-        },
-        {
-          "title": "Lanterns Fills in the Gaps of the DCU After Superman",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 13,
-          "slug": "4b10b646-lanterns-fills-in-the-gaps-of-the-dcu-after-superman"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-01T04:01:18.580Z"
+  "lastUpdated": "2026-10-01T07:17:48.761Z"
 }
