@@ -2,6 +2,16 @@
   "totalArticles": 2013,
   "runs": [
     {
+      "timestamp": "2026-10-01T00:05:42.770Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 48,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-09-30T20:50:36.686Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2060,25 +2070,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-21T01:47:46.718Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 175,
-      "totalCandidates": 4,
-      "written": [
-        {
-          "title": "5 Takeaways From Ari Emanuel’s Memoir",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 7,
-          "slug": "b78c55e9-5-takeaways-from-ari-emanuels-memoir"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-09-30T20:50:36.686Z"
+  "lastUpdated": "2026-10-01T00:05:42.770Z"
 }
