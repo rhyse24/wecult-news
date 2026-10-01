@@ -2,6 +2,24 @@
   "totalArticles": 2014,
   "runs": [
     {
+      "timestamp": "2026-10-01T04:01:18.580Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 39,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Curry Barker’s Obsession Followup, Anything But Ghosts, Comes Out Next Year",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 12,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-10-01T02:01:16.493Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2016,39 +2034,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-21T09:19:45.933Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 195,
-      "totalCandidates": 63,
-      "written": [
-        {
-          "title": "Sony's Acclaimed Resident Evil Movie Breaks Box Office Records",
-          "category": "games",
-          "source": "Push Square",
-          "score": 15,
-          "slug": "f0e759cb-sonys-acclaimed-resident-evil-movie-breaks-box-office-record"
-        },
-        {
-          "title": "GUNNAR Fallout Review: A stylish solution to eye strain",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 11,
-          "slug": "13f8b73a-gunnar-fallout-review-a-stylish-solution-to-eye-strain"
-        },
-        {
-          "title": "Silent Hill: Townfall Review",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 10,
-          "slug": "8e2edac1-silent-hill-townfall-review"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-01T02:01:16.493Z"
+  "lastUpdated": "2026-10-01T04:01:18.580Z"
 }
