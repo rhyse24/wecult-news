@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2020,
+  "totalArticles": 2023,
   "runs": [
+    {
+      "timestamp": "2026-10-01T13:27:34.819Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 257,
+      "totalCandidates": 71,
+      "written": [
+        {
+          "title": "Capcom aren't just running out of Resident Evil games to remake - they're banking on it, with a mysterious \"crossover\" planned when the timelines collide",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 16,
+          "slug": "4f03ea55-capcom-arent-just-running-out-of-resident-evil-games-to-rema"
+        },
+        {
+          "title": "After 'Crunching Hard' Through Their Final Months, Gears of War: E-Day Developers Are Reportedly Now Expecting Layoffs",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "29b782df-after-crunching-hard-through-their-final-months-gears-of-war"
+        },
+        {
+          "title": "New Uncharted Game to be Developed After Intergalactic’s Release – Rumor",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 12,
+          "slug": "45353e0e-new-uncharted-game-to-be-developed-after-intergalactics-rele"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-01T10:24:51.091Z",
       "status": "success",
@@ -2029,33 +2061,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-21T20:23:47.408Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 248,
-      "totalCandidates": 77,
-      "written": [
-        {
-          "title": "Thief: The Dark Project Remastered Showcases Gameplay, Radial Menu in Latest Trailer",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 14,
-          "slug": "5e72f41c-thief-the-dark-project-remastered-showcases-gameplay-radial-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Resident Evil Veronica Internally Delayed to Fall 2027 – Rumor",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-01T10:24:51.091Z"
+  "lastUpdated": "2026-10-01T13:27:34.819Z"
 }
