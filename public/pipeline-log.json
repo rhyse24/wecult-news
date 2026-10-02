@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2034,
+  "totalArticles": 2037,
   "runs": [
+    {
+      "timestamp": "2026-10-02T16:01:23.905Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 274,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "Dan Houser on Leaving ‘GTA 6’ Studio Rockstar Games, Starting an Absurd New Company and Why He Doesn’t Play Open-World Games Anymore",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "25651f56-dan-houser-on-leaving-gta-6-studio-rockstar-games-starting-a"
+        },
+        {
+          "title": "Disney Licenses Slew of Titles to Netflix, Including All Five ‘Ice Age’ Movies, ‘Percy Jackson and the Olympians,’ ‘Felicity,’ ‘Will Trent,’ ‘Elio’ and More (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "d8d0ca60-disney-licenses-slew-of-titles-to-netflix-including-all-five"
+        },
+        {
+          "title": "A Different World Renewed For Season 2 At Netflix",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "2affce8f-a-different-world-renewed-for-season-2-at-netflix"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-02T10:49:12.320Z",
       "status": "success",
@@ -1962,47 +1994,7 @@
       "totalCandidates": 35,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-22T20:00:25.908Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "‘Monster: The Lizzie Borden Story’ Hits 12.1 Million Views in Four Days on Netflix",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "ec67df13-monster-the-lizzie-borden-story-hits-121-million-views-in-fo"
-        },
-        {
-          "title": "Disney’s Cathleen Taff Expands to Entertainment Studios and Consumer Products President",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "b1a42125-disneys-cathleen-taff-expands-to-entertainment-studios-and-c"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Darkwing Duck’ Reboot Ordered to Series at Disney+ With Mark Hamill, Seth Rogen in Lead Roles",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘Daredevil: Born Again’ to End With Season 3 (Exclusive)",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-02T10:49:12.320Z"
+  "lastUpdated": "2026-10-02T16:01:23.905Z"
 }
