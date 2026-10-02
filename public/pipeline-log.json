@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2026,
+  "totalArticles": 2028,
   "runs": [
+    {
+      "timestamp": "2026-10-02T00:51:05.977Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 264,
+      "totalCandidates": 96,
+      "written": [
+        {
+          "title": "New GTA 6 Age Rating Confirms Game Will Feature Sex Scenes",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "b1c18fbd-new-gta-6-age-rating-confirms-game-will-feature-sex-scenes"
+        },
+        {
+          "title": "Where To Buy Resident Evil's Limited Edition Popcorn Bucket",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "slug": "8fe48dbe-where-to-buy-resident-evils-limited-edition-popcorn-bucket"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-01T21:28:25.157Z",
       "status": "quota",
@@ -2014,47 +2039,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-22T04:00:28.355Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 253,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "Why Pierce Woodrow From Neagley Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "597f1670-why-pierce-woodrow-from-neagley-looks-so-familiar"
-        },
-        {
-          "title": "Before Lioness, Ian Bohen Played A Villain On A Hit Supernatural Drama",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "bff61b13-before-lioness-ian-bohen-played-a-villain-on-a-hit-supernatu"
-        },
-        {
-          "title": "Kit Harington Credits Harry Potter With Helping Him Through Sobriety Struggle",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 8,
-          "slug": "b91f1563-kit-harington-credits-harry-potter-with-helping-him-through-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Daredevil: Born Again’ Ending With Season 3",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-01T21:28:25.157Z"
+  "lastUpdated": "2026-10-02T00:51:05.977Z"
 }
