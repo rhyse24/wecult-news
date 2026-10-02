@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2031,
+  "totalArticles": 2034,
   "runs": [
+    {
+      "timestamp": "2026-10-02T10:49:12.320Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 264,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Digger Review: Alejandro G. Iñárritu’s Satire Is Stale But Never Boring",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 11,
+          "slug": "9436fb1e-digger-review-alejandro-g-irritus-satire-is-stale-but-never-"
+        },
+        {
+          "title": "3 Favorite Netflix Movies You Have to Watch This October",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "6143be31-3-favorite-netflix-movies-you-have-to-watch-this-october"
+        },
+        {
+          "title": "‘Digger’ Cast Praises Tom Cruise’s “Relentless’ Work Ethic",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "98cbba8e-digger-cast-praises-tom-cruises-relentless-work-ethic"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-02T07:20:42.129Z",
       "status": "success",
@@ -1970,17 +2002,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-22T16:15:02.113Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 47,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-02T07:20:42.129Z"
+  "lastUpdated": "2026-10-02T10:49:12.320Z"
 }
