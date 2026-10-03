@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2049,
+  "totalArticles": 2051,
   "runs": [
+    {
+      "timestamp": "2026-10-03T16:41:43.750Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 246,
+      "totalCandidates": 96,
+      "written": [
+        {
+          "title": "GTA 6 Interview With Rockstar President Cancelled Over \"Personal Reasons\"",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 14,
+          "slug": "2816d9e5-gta-6-interview-with-rockstar-president-cancelled-over-perso"
+        },
+        {
+          "title": " Bored with roguelikes? You might still want to play Dicevaders, a game about perfecting dice rolls ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "6c2b3465-bored-with-roguelikes-you-might-still-want-to-play-dicevader"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-03T12:58:17.987Z",
       "status": "success",
@@ -2031,40 +2056,7 @@
       "totalCandidates": 83,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-23T20:53:36.515Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "Exclusive: Renet Returns to Aid the Turtles in IDW Publishing’s Upcoming TMNT Comic",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 14,
-          "slug": "b9bd4aa7-exclusive-renet-returns-to-aid-the-turtles-in-idw-publishing"
-        },
-        {
-          "title": "Bleecker Street Sets ‘Tender Loving Care’ Awards Categories: ‘Widow’s Bay’ Breakout Kate O’Flynn Going Supporting (Exclusive)",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "slug": "c8a0bdfb-bleecker-street-sets-tender-loving-care-awards-categories-wi"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Everything Resident Evil (2026) Gets Right And Wrong About The Games",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-03T12:58:17.987Z"
+  "lastUpdated": "2026-10-03T16:41:43.750Z"
 }
