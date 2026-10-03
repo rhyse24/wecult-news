@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2043,
+  "totalArticles": 2046,
   "runs": [
+    {
+      "timestamp": "2026-10-03T09:14:35.065Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 269,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "‘I thought, if I’m going to die, I’m going to write a book first’: Pachinko author Min Jin Lee",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 11,
+          "slug": "d7860557-i-thought-if-im-going-to-die-im-going-to-write-a-book-first-"
+        },
+        {
+          "title": "The Transformers/G.I. Joe Crossover Movie Is Dead, and Danny McBride and Bradley Cooper’s G.I. Joe Movie Is Replacing It",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 9,
+          "slug": "b467bccf-the-transformersgi-joe-crossover-movie-is-dead-and-danny-mcb"
+        },
+        {
+          "title": "Fear Is a Universal Language: Seven Recent Works of Horror in Translation",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 9,
+          "slug": "6fae2853-fear-is-a-universal-language-seven-recent-works-of-horror-in"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-03T05:19:02.476Z",
       "status": "quota",
@@ -2018,25 +2050,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-23T16:22:28.842Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 279,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "Sensor Tower: PC and PlayStation unit sales in Japan rise 13% to 21m during H1 2026, led by Resident Evil Requiem",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 19,
-          "slug": "20cc96ff-sensor-tower-pc-and-playstation-unit-sales-in-japan-rise-13-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-03T05:19:02.476Z"
+  "lastUpdated": "2026-10-03T09:14:35.065Z"
 }
