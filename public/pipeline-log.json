@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2051,
+  "totalArticles": 2054,
   "runs": [
+    {
+      "timestamp": "2026-10-03T20:21:04.488Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 244,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "‘Coven Academy’ Creator Breaks Down Briar’s Family Tree, Dark Magic as an Addiction Metaphor, ‘Misogyny’ Against Witches — and a Deleted Kiss Scene",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "slug": "854742be-coven-academy-creator-breaks-down-briars-family-tree-dark-ma"
+        },
+        {
+          "title": "Every Time Mariska Hargitay Played Olivia Benson Outside Of Law & Order: SVU",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "913eeb57-every-time-mariska-hargitay-played-olivia-benson-outside-of-"
+        },
+        {
+          "title": "Jerry Golod, Producer of ‘Tales From the Darkside’ and Former CBS And NBC Executive, Dies at 87",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "4109e72e-jerry-golod-producer-of-tales-from-the-darkside-and-former-c"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-03T16:41:43.750Z",
       "status": "quota",
@@ -2046,17 +2078,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-23T23:58:58.691Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 280,
-      "totalCandidates": 83,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-03T16:41:43.750Z"
+  "lastUpdated": "2026-10-03T20:21:04.488Z"
 }
