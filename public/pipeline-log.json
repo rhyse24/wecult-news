@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2042,
+  "totalArticles": 2043,
   "runs": [
+    {
+      "timestamp": "2026-10-03T05:19:02.476Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 52,
+      "written": [
+        {
+          "title": "5 TV Shows To Watch If You Like Chad Powers",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "202896a5-5-tv-shows-to-watch-if-you-like-chad-powers"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Coven Academy Creator Breaks Down Season 1's Biggest Cliffhangers, Including The Kiss You Didn't See — Grade The Disney+ Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 19,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Save The Dates: Percy Jackson On Netflix, Beavis And Butt-Head Returns, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Disney remembers it can license exclusive content to Netflix for money",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-03T01:32:04.650Z",
       "status": "quota",
@@ -1996,50 +2036,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-23T09:47:57.610Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 279,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Why the ‘Anomaly’ and ‘Surprise’ of ‘Obsession’ and ‘Backrooms’ Shouldn’t Guide Where the Industry Looks Next",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "dc10d193-why-the-anomaly-and-surprise-of-obsession-and-backrooms-shou"
-        },
-        {
-          "title": "7 Movies To Watch Before 'Avengers Endgame: Encore'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "slug": "e521921f-7-movies-to-watch-before-avengers-endgame-encore"
-        },
-        {
-          "title": "Resident Evil (2026)'s Most Confusing Moments Explained",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "slug": "a7d0e442-resident-evil-2026s-most-confusing-moments-explained"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Robert Pattinson Says ‘The Batman 2’ Is ‘So Ambitious’ and a ‘Different Take’ on the Franchise: ‘It’s a Real Left Turn From the First’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-03T01:32:04.650Z"
+  "lastUpdated": "2026-10-03T05:19:02.476Z"
 }
