@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2046,
+  "totalArticles": 2049,
   "runs": [
+    {
+      "timestamp": "2026-10-03T12:58:17.987Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 261,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "17 Best New Movies Streaming in October: ’The Invite,’ ‘Disclosure Day,’ ‘Evil Dead Burn’ and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "slug": "847586fb-17-best-new-movies-streaming-in-october-the-invite-disclosur"
+        },
+        {
+          "title": "The 10 Most Badass Opening Scenes in Movie History",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "4fa09f25-the-10-most-badass-opening-scenes-in-movie-history"
+        },
+        {
+          "title": "‘Digger’: How Its Big Twist Saves the Movie From Being a Complete Disaster (Opinion)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "75920abc-digger-how-its-big-twist-saves-the-movie-from-being-a-comple"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-03T09:14:35.065Z",
       "status": "success",
@@ -2032,25 +2064,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-23T18:00:26.840Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 285,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Ted Lasso's Jeremy Swift Talks Roy And Keeley, [Spoiler]'s Power Play — And Whether Zelda Can Be Trusted",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "a29add60-ted-lassos-jeremy-swift-talks-roy-and-keeley-spoilers-power-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-03T09:14:35.065Z"
+  "lastUpdated": "2026-10-03T12:58:17.987Z"
 }
