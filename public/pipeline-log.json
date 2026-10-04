@@ -1,6 +1,53 @@
 {
-  "totalArticles": 2059,
+  "totalArticles": 2062,
   "runs": [
+    {
+      "timestamp": "2026-10-04T10:19:24.267Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 214,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "WB’s Value Lies in More than Just Capes, Harry Potter, and IP",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 9,
+          "slug": "395108bc-wbs-value-lies-in-more-than-just-capes-harry-potter-and-ip"
+        },
+        {
+          "title": "Tom Cruise Stands Up for ‘Digger’ Amid Tough Box Office: “I’m So Proud of What We Created”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "slug": "8af0b26b-tom-cruise-stands-up-for-digger-amid-tough-box-office-im-so-"
+        },
+        {
+          "title": "‘A Statement’ Review: Just What We Need Right Now — Another Movie About Climate Change! But Tom McCarthy’s Historically Based Talkfest Reveals How Much We Knew in 1980",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "c9fb207d-a-statement-review-just-what-we-need-right-now-another-movie"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Posterized October 2026: You Can See Everything, NAZA, Digger & More",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Tom Cruise’s ‘Digger’ Plunging at Box Office With Less Than $10M as ‘Verity’ Leads",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-04T06:20:17.401Z",
       "status": "quota",
@@ -2031,39 +2078,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-24T10:53:19.560Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Sports Documentaries Coming to Netflix in 2026",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "2017daf3-sports-documentaries-coming-to-netflix-in-2026"
-        },
-        {
-          "title": "Netflix’s ‘A Different World’ Is a Bold, Fun and Timely Reboot Centering the Uniqueness of Gen Z: TV Review",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "22f6d3a2-netflixs-a-different-world-is-a-bold-fun-and-timely-reboot-c"
-        },
-        {
-          "title": "Netflix India Expanding Into Under-90-minute Films, Multiple Projects in the Works",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 11,
-          "slug": "f36ffd30-netflix-india-expanding-into-under-90-minute-films-multiple-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-04T06:20:17.401Z"
+  "lastUpdated": "2026-10-04T10:19:24.267Z"
 }
