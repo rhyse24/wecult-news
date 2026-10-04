@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2056,
+  "totalArticles": 2058,
   "runs": [
+    {
+      "timestamp": "2026-10-04T02:30:04.311Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 236,
+      "totalCandidates": 93,
+      "written": [
+        {
+          "title": "Call of Duty: Modern Warfare 4 Video Reveals Major Change That Could End Wallhacks for Good",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "d2b08ff8-call-of-duty-modern-warfare-4-video-reveals-major-change-tha"
+        },
+        {
+          "title": "'I Did My Best' — Final Fantasy 7 Revelation Director Responds to Fans Asking for Full Disc Version",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "a1294b03-i-did-my-best-final-fantasy-7-revelation-director-responds-t"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-03T22:46:06.465Z",
       "status": "quota",
@@ -2052,32 +2077,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-24T06:00:32.352Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "International Emmy Nominations: United Kingdom Leads This Year’s Tally; Canada’s ‘Heated Rivalry’ Doesn’t Make the Cut",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "285c6cc3-international-emmy-nominations-united-kingdom-leads-this-yea"
-        },
-        {
-          "title": "Disney+ And Hulu Are Hiking Their Prices Again — Find Out How Much You'll Pay",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 11,
-          "slug": "81e47cf7-disney-and-hulu-are-hiking-their-prices-again-find-out-how-m"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-03T22:46:06.465Z"
+  "lastUpdated": "2026-10-04T02:30:04.311Z"
 }
