@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2065,
+  "totalArticles": 2068,
   "runs": [
+    {
+      "timestamp": "2026-10-04T18:16:19.779Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 180,
+      "totalCandidates": 73,
+      "written": [
+        {
+          "title": "Feature: We've Finally Played Xbox's New Fable Reboot, And Here's What We Think So Far",
+          "category": "games",
+          "source": "Pure Xbox",
+          "score": 13,
+          "slug": "cc98696e-feature-weve-finally-played-xboxs-new-fable-reboot-and-heres"
+        },
+        {
+          "title": "Warlock: Dungeons and Dragons Studio Focused on Making Spells “OP” and “Fun” First",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 12,
+          "slug": "b8961cb2-warlock-dungeons-and-dragons-studio-focused-on-making-spells"
+        },
+        {
+          "title": "SNL Weighs in on GTA 6 vs. The Legend of Zelda With Skit Featuring Jason and Link",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "f1641155-snl-weighs-in-on-gta-6-vs-the-legend-of-zelda-with-skit-feat"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Final Fantasy 7 Remake Trilogy Providing a Complete Experience in Each Game Was “Non-Negotiable”",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-04T14:19:20.963Z",
       "status": "success",
@@ -2057,28 +2097,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-24T17:05:11.231Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 279,
-      "totalCandidates": 31,
-      "written": [],
-      "rejected": [
-        {
-          "title": "The 10 Most Enjoyable Fantasy Movies of All Time",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 685 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-04T14:19:20.963Z"
+  "lastUpdated": "2026-10-04T18:16:19.779Z"
 }
