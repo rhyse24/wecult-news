@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2062,
+  "totalArticles": 2065,
   "runs": [
+    {
+      "timestamp": "2026-10-04T14:19:20.963Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 184,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "10 Longest-Running Netflix Original Shows (So Far)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "d2ce795c-10-longest-running-netflix-original-shows-so-far"
+        },
+        {
+          "title": "Yellowstone Creator Taylor Sheridan's Acting Debut Was On Walker, Texas Ranger",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "3c9288db-yellowstone-creator-taylor-sheridans-acting-debut-was-on-wal"
+        },
+        {
+          "title": "Why Aron Trask From Netflix's East Of Eden Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "4fb538b5-why-aron-trask-from-netflixs-east-of-eden-looks-so-familiar"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-04T10:19:24.267Z",
       "status": "success",
@@ -2046,39 +2078,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-24T14:00:28.147Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 276,
-      "totalCandidates": 86,
-      "written": [
-        {
-          "title": " Bethesda says that Obsidian's 'creative identity' will be preserved, just months after multiple projects were cancelled and it was told to make a Fallout game ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 15,
-          "slug": "743eb2db-bethesda-says-that-obsidians-creative-identity-will-be-prese"
-        },
-        {
-          "title": "Dutch consumer group files lawsuit against Epic for misleading young players on Fortnite, seeking more than €100m in compensation",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 14,
-          "slug": "6eb8d771-dutch-consumer-group-files-lawsuit-against-epic-for-misleadi"
-        },
-        {
-          "title": "The Witcher 3: Wild Hunt – Remastered Global Release Times Confirmed by CD Projekt",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "b3130e06-the-witcher-3-wild-hunt-remastered-global-release-times-conf"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-04T10:19:24.267Z"
+  "lastUpdated": "2026-10-04T14:19:20.963Z"
 }
