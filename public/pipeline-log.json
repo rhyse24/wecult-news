@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2054,
+  "totalArticles": 2056,
   "runs": [
+    {
+      "timestamp": "2026-10-03T22:46:06.465Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 240,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "Annabelle Wallis on the Defining Question of ‘Unabomber,’ a Potential James Wan Reunion and ‘Peaky Blinders’ What-Ifs",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "7eb87ee6-annabelle-wallis-on-the-defining-question-of-unabomber-a-pot"
+        },
+        {
+          "title": "Guillermo Del Toro Defends ‘Digger,’ Calls the Film ‘Daring, Bold and Cinematically Complex’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "caf76c1c-guillermo-del-toro-defends-digger-calls-the-film-daring-bold"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-03T20:21:04.488Z",
       "status": "success",
@@ -2052,33 +2077,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-24T03:04:17.426Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 277,
-      "totalCandidates": 83,
-      "written": [
-        {
-          "title": "Halo Fans Are Divided Over Whether Activision Should Reboot the Series and Start Fresh",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "58a4210b-halo-fans-are-divided-over-whether-activision-should-reboot-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": " Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-03T20:21:04.488Z"
+  "lastUpdated": "2026-10-03T22:46:06.465Z"
 }
