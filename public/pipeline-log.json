@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2074,
+  "totalArticles": 2077,
   "runs": [
+    {
+      "timestamp": "2026-10-05T10:27:36.995Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 189,
+      "totalCandidates": 19,
+      "written": [
+        {
+          "title": "5 Books to Have on Your Radar This Month",
+          "category": "books",
+          "source": "Book Riot",
+          "score": 10,
+          "slug": "f5acdabe-5-books-to-have-on-your-radar-this-month"
+        },
+        {
+          "title": "Book Review: ‘Cormac McCarthy: A Legacy Revisited,’ by Tracy Daugherty",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 6,
+          "slug": "ff76ee2e-book-review-cormac-mccarthy-a-legacy-revisited-by-tracy-daug"
+        },
+        {
+          "title": "Sleeping Beauties by David Byrne review – a quirky journey through the afterlife of invention",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 6,
+          "slug": "e63c6c87-sleeping-beauties-by-david-byrne-review-a-quirky-journey-thr"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-05T06:12:00.524Z",
       "status": "quota",
@@ -2057,32 +2089,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-25T04:52:29.699Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "Inside the Bombshell Article That Inspired ‘Primetime’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "slug": "c21ff02e-inside-the-bombshell-article-that-inspired-primetime"
-        },
-        {
-          "title": "12 Takeaways From Ousted Disney CEO Bob Chapek’s New Book",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "6b42b053-12-takeaways-from-ousted-disney-ceo-bob-chapeks-new-book"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-05T06:12:00.524Z"
+  "lastUpdated": "2026-10-05T10:27:36.995Z"
 }
