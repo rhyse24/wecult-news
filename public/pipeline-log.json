@@ -2,6 +2,24 @@
   "totalArticles": 2080,
   "runs": [
     {
+      "timestamp": "2026-10-05T20:37:30.914Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 248,
+      "totalCandidates": 76,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Marvel Rivals Fan Adds Resident Evil's Ada Wong As Free Psylocke Mod",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-10-05T14:35:36.171Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2057,39 +2075,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-25T17:19:14.321Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 278,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "16 Netflix Series Named in New York Times’ 100 Best TV Shows of the 21st Century",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "98c619a0-16-netflix-series-named-in-new-york-times-100-best-tv-shows-"
-        },
-        {
-          "title": "What’s Leaving Netflix in October 2026",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "776df1d1-whats-leaving-netflix-in-october-2026"
-        },
-        {
-          "title": "‘The Final Problem’ Netflix Review: José Coronado Stars in New Spanish Sherlock-Style Mystery",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "1205f81c-the-final-problem-netflix-review-jos-coronado-stars-in-new-s"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-05T14:35:36.171Z"
+  "lastUpdated": "2026-10-05T20:37:30.914Z"
 }
