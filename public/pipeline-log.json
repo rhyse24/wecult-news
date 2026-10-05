@@ -2,6 +2,24 @@
   "totalArticles": 2074,
   "runs": [
     {
+      "timestamp": "2026-10-05T06:12:00.524Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 168,
+      "totalCandidates": 6,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Lit Hub Weekly: September 28 – October 3, 2026",
+          "category": "books",
+          "source": "Literary Hub",
+          "score": 6,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-10-05T02:01:20.636Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2064,39 +2082,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-25T01:05:44.286Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 285,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "Beware Boiúna Trailer Gives You a Killer Snake Movie to Feed Your Nightmares",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "77e19075-beware-boina-trailer-gives-you-a-killer-snake-movie-to-feed-"
-        },
-        {
-          "title": "10 Books Where the Main Character Is, or May Be, a Psychopath",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 8,
-          "slug": "c6a29427-10-books-where-the-main-character-is-or-may-be-a-psychopath"
-        },
-        {
-          "title": "Damien McCarthy’s Hokum Heads to Streaming in Time For Halloween",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 8,
-          "slug": "6bc29a5a-damien-mccarthys-hokum-heads-to-streaming-in-time-for-hallow"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-05T02:01:20.636Z"
+  "lastUpdated": "2026-10-05T06:12:00.524Z"
 }
