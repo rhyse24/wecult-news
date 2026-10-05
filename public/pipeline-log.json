@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2077,
+  "totalArticles": 2080,
   "runs": [
+    {
+      "timestamp": "2026-10-05T14:35:36.171Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 221,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "Lanterns Finale Raises Questions for Man of Tomorrow",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "slug": "d20f6f8b-lanterns-finale-raises-questions-for-man-of-tomorrow"
+        },
+        {
+          "title": "The Possibility of Forgiveness: Reed Van Dyk, Boyd Holbrook, Hiam Abbass, and Kenneth Branagh on “Atonement”",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 10,
+          "slug": "f1e65e39-the-possibility-of-forgiveness-reed-van-dyk-boyd-holbrook-hi"
+        },
+        {
+          "title": "8 Movies To Watch if You Like 'The Love Hypothesis'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "3ac40c6d-8-movies-to-watch-if-you-like-the-love-hypothesis"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-05T10:27:36.995Z",
       "status": "success",
@@ -2057,39 +2089,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-25T08:51:48.251Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 282,
-      "totalCandidates": 87,
-      "written": [
-        {
-          "title": " Hooked on the brothers ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "7728a34a-hooked-on-the-brothers"
-        },
-        {
-          "title": "Ubisoft Almost Made a Zelda Game With Ganondorf as the Protagonist",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "e7625c47-ubisoft-almost-made-a-zelda-game-with-ganondorf-as-the-prota"
-        },
-        {
-          "title": "Xbox Says Its Share of GTA 6 Preorders Matches Its Share of the Console Market, Following PS5 Dominance Claim",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "42b04c7d-xbox-says-its-share-of-gta-6-preorders-matches-its-share-of-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-05T10:27:36.995Z"
+  "lastUpdated": "2026-10-05T14:35:36.171Z"
 }
