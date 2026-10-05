@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2071,
+  "totalArticles": 2074,
   "runs": [
+    {
+      "timestamp": "2026-10-05T02:01:20.636Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 172,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "‘Lanterns’ Finale: Hal Jordan’s Killer and Manhunter Revealed, Sinestro Creates [SPOILER], John Stewart Powers Up for ‘Superman’ Sequel",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 19,
+          "slug": "6cc08993-lanterns-finale-hal-jordans-killer-and-manhunter-revealed-si"
+        },
+        {
+          "title": "Lanterns Finale Solves The Mystery Of Hal's Death And Reveals Another [Spoiler] — Read Recap, And Grade The Episode!",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "82265a5f-lanterns-finale-solves-the-mystery-of-hals-death-and-reveals"
+        },
+        {
+          "title": "Burt Reynolds Starred In One Of The Twilight Zone's Worst Episodes",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "4e8780ed-burt-reynolds-starred-in-one-of-the-twilight-zones-worst-epi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-04T22:06:03.811Z",
       "status": "success",
@@ -2064,47 +2096,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-24T22:00:25.804Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 286,
-      "totalCandidates": 53,
-      "written": [
-        {
-          "title": "Before Resident Evil, Austin Abrams Played A Villain On TV's Ultimate Zombie Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "f71748eb-before-resident-evil-austin-abrams-played-a-villain-on-tvs-u"
-        },
-        {
-          "title": "Karen Page Actress Deborah Ann Woll Reacts To Daredevil: Born Again Cancellation",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "8bc32bb9-karen-page-actress-deborah-ann-woll-reacts-to-daredevil-born"
-        },
-        {
-          "title": "Variety Power of Women: Industry Leaders Mingle With Stars to Celebrate Female Empowerment and Philanthropy",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "6f3f8a89-variety-power-of-women-industry-leaders-mingle-with-stars-to"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Disney+, Hulu Raise Monthly Pricing on Streaming Plans in U.S. Again",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-04T22:06:03.811Z"
+  "lastUpdated": "2026-10-05T02:01:20.636Z"
 }
