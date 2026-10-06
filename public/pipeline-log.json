@@ -2,6 +2,24 @@
   "totalArticles": 2092,
   "runs": [
     {
+      "timestamp": "2026-10-06T18:52:48.632Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 29,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Steven Spielberg Returns to ‘Transformers’ Franchise, Michael Bay in Talks to Direct for Paramount",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-10-06T15:29:15.540Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2017,32 +2035,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-26T22:19:33.085Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 251,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "10 Perfect Double Features To Watch With Zach Cregger's 'Resident Evil'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "slug": "a8d7007b-10-perfect-double-features-to-watch-with-zach-creggers-resid"
-        },
-        {
-          "title": "5 Best Kyle Chandler TV Shows To Watch After Lanterns",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "slug": "cbffd1ed-5-best-kyle-chandler-tv-shows-to-watch-after-lanterns"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-06T15:29:15.540Z"
+  "lastUpdated": "2026-10-06T18:52:48.632Z"
 }
