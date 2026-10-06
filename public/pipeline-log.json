@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2080,
+  "totalArticles": 2082,
   "runs": [
+    {
+      "timestamp": "2026-10-06T00:07:54.173Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 254,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Marvel Rivals Fan Adds Resident Evil's Ada Wong As Free Psylocke Mod",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "slug": "5fc42253-marvel-rivals-fan-adds-resident-evils-ada-wong-as-free-psylo"
+        },
+        {
+          "title": "Ubisoft Boss Says Watch Dogs Is 'Important' to Company's Future, But Don't Expect Any New Entries Anytime Soon",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "51c8219e-ubisoft-boss-says-watch-dogs-is-important-to-companys-future"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-05T20:37:30.914Z",
       "status": "quota",
@@ -2043,39 +2068,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-25T21:12:12.201Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 280,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "Chris Hansen Reacts to ‘Primetime’ and Robert Pattinson’s Portrayal of Him: ‘So Bizarre’ and ‘Detached From Reality’",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "slug": "c88103d9-chris-hansen-reacts-to-primetime-and-robert-pattinsons-portr"
-        },
-        {
-          "title": "Alexander Ludwig on ‘Unabomber’ Movie, His ‘Hunger Games’ Death Scene and ‘White Lotus’ Season 4: ‘It’s F—ing Wild’",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "1975ce18-alexander-ludwig-on-unabomber-movie-his-hunger-games-death-s"
-        },
-        {
-          "title": "New to Streaming: Dead Souls, Brand New Landscape, Backrooms, Idiots & More",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 15,
-          "slug": "4406c6ec-new-to-streaming-dead-souls-brand-new-landscape-backrooms-id"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-05T20:37:30.914Z"
+  "lastUpdated": "2026-10-06T00:07:54.173Z"
 }
