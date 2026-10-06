@@ -2,6 +2,16 @@
   "totalArticles": 2092,
   "runs": [
     {
+      "timestamp": "2026-10-06T22:01:24.619Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 265,
+      "totalCandidates": 32,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-10-06T18:52:48.632Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1992,50 +2002,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-27T02:10:01.222Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 246,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "Curry Barker says Netflix offered to take Obsession straight to streaming",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "slug": "ede53553-curry-barker-says-netflix-offered-to-take-obsession-straight"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "15 Best TV Shows Based On Sci-Fi Books",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "hallucination_guard"
-        },
-        {
-          "title": "‘The Last of Us’ Season 3 Casts John Goodman, Video Game Stars Laura Bailey and Ian Alexander",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        },
-        {
-          "title": "Florence Pugh says Yelena was originally supposed to have an English accent, but it was \"so boring\"",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-06T18:52:48.632Z"
+  "lastUpdated": "2026-10-06T22:01:24.619Z"
 }
