@@ -1,6 +1,53 @@
 {
-  "totalArticles": 2089,
+  "totalArticles": 2092,
   "runs": [
+    {
+      "timestamp": "2026-10-06T11:45:24.563Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 246,
+      "totalCandidates": 53,
+      "written": [
+        {
+          "title": "One Of The Twilight Zone's Greatest Episodes Starred A Future Batman Villain",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "ce206d3d-one-of-the-twilight-zones-greatest-episodes-starred-a-future"
+        },
+        {
+          "title": "Darius Jabloński, Kadri Kousaar and Rodrigo Susarte Make the Cut at Tallinn TV Beats Co-Financing Market (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "fa19fb92-darius-jabloski-kadri-kousaar-and-rodrigo-susarte-make-the-c"
+        },
+        {
+          "title": "Best Horror of October 2026: ‘Other Mommy’ Goes for the Heart, ‘Carrie’ Returns, Josh Hartnett Hunts for Sea Monsters and More",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "005d1743-best-horror-of-october-2026-other-mommy-goes-for-the-heart-c"
+        }
+      ],
+      "rejected": [
+        {
+          "title": " TV Spy — The Diplomat, Fellow Travelers, and all the US dramas you can watch on UK services: 10-16 October ",
+          "category": "tv",
+          "source": "What to Watch",
+          "score": 13,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘East of Eden’ Star Mike Faist on Male Ego, Love Triangles and Still Learning from Steven Spielberg",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-06T07:37:09.328Z",
       "status": "success",
@@ -2010,54 +2057,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-26T14:20:03.215Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 259,
-      "totalCandidates": 50,
-      "written": [
-        {
-          "title": "Game Of Thrones Meets Vikings In Netflix's 5-Season Historical Drama Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "6ae75faf-game-of-thrones-meets-vikings-in-netflixs-5-season-historica"
-        },
-        {
-          "title": "Disney+, Hulu Raise Monthly Pricing on Streaming Plans in U.S. Again",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 9,
-          "slug": "517961e0-disney-hulu-raise-monthly-pricing-on-streaming-plans-in-us-a"
-        },
-        {
-          "title": "‘American Horror Story’ Is Back With 13: Here’s How All the Seasons Connect (So Far)",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 8,
-          "slug": "26051502-american-horror-story-is-back-with-13-heres-how-all-the-seas"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Best Hulu TV Shows Of 2026 (So Far)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Chris Hansen has finally watched Primetime, gives Robert Pattinson's performance a \"D\"",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-06T07:37:09.328Z"
+  "lastUpdated": "2026-10-06T11:45:24.563Z"
 }
