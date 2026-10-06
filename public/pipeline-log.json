@@ -1,6 +1,39 @@
 {
-  "totalArticles": 2082,
+  "totalArticles": 2084,
   "runs": [
+    {
+      "timestamp": "2026-10-06T02:01:11.543Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 252,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "‘Coven Academy’ Star Malina Weissman Unpacks Briar’s Backstory, Her Take on the Love Triangle and Her Hopes for Season 2",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "b0055d6c-coven-academy-star-malina-weissman-unpacks-briars-backstory-"
+        },
+        {
+          "title": "Lanterns Nearly Brought In Members Of The Green Lantern Corps For One Major Scene",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "1ccb7187-lanterns-nearly-brought-in-members-of-the-green-lantern-corp"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "One Of The Twilight Zone's Greatest Episodes Starred A Future Batman Villain",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-06T00:07:54.173Z",
       "status": "quota",
@@ -2035,40 +2068,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-26T01:21:19.411Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 91,
-      "written": [
-        {
-          "title": "Resident Evil's Behind-The-Scenes Reveals Its Haunting Practical Effects",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 19,
-          "slug": "e8be098f-resident-evils-behind-the-scenes-reveals-its-haunting-practi"
-        },
-        {
-          "title": "As Resident Evil Requiem Passes $500m Revenue, Analysis Shows 8.6% Sales Were on Xbox, With Remaining 91% Shared Between PS5 and Steam",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 16,
-          "slug": "32f61f62-as-resident-evil-requiem-passes-500m-revenue-analysis-shows-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "This Diablo 4 Trick Lets You Become Stronger Than Ever, But It Might Not Be Intended",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-06T00:07:54.173Z"
+  "lastUpdated": "2026-10-06T02:01:11.543Z"
 }
