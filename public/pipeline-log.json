@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2084,
+  "totalArticles": 2086,
   "runs": [
+    {
+      "timestamp": "2026-10-06T04:01:15.004Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 251,
+      "totalCandidates": 26,
+      "written": [
+        {
+          "title": "Why Did Tom Cruise’s ‘Digger’ Hit Rock Bottom at the Box Office?",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "5113e21b-why-did-tom-cruises-digger-hit-rock-bottom-at-the-box-office"
+        },
+        {
+          "title": "John Leguizamo on ‘The Odyssey,’ Non-Traditional Casting and Being Uninvited From ‘Spider-Man: Homecoming’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "6e5a7b57-john-leguizamo-on-the-odyssey-non-traditional-casting-and-be"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-06T02:01:11.543Z",
       "status": "quota",
@@ -2036,39 +2061,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-26T05:43:19.549Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 275,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Chris Hansen Secretly Watched ‘Primetime’ in a Packed Theater — Here’s What He Thought",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 15,
-          "slug": "198f404b-chris-hansen-secretly-watched-primetime-in-a-packed-theater-"
-        },
-        {
-          "title": "Kevin Feige calls Florence Pugh's Yelena an anchor for Avengers: Doomsday",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "slug": "ad66c0b5-kevin-feige-calls-florence-pughs-yelena-an-anchor-for-avenge"
-        },
-        {
-          "title": "Lanterns Producer James Gunn Breaks Silence On Backlash Over Hal Jordan Story",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "15d04c78-lanterns-producer-james-gunn-breaks-silence-on-backlash-over"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-06T02:01:11.543Z"
+  "lastUpdated": "2026-10-06T04:01:15.004Z"
 }
