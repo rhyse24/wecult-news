@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2096,
+  "totalArticles": 2098,
   "runs": [
+    {
+      "timestamp": "2026-10-07T05:37:01.929Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 256,
+      "totalCandidates": 87,
+      "written": [
+        {
+          "title": "Resident Evil games engagement leapt 50% following release of Zach Cregger's movie, but analysts say real value is in brand building",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 14,
+          "slug": "830ce7ce-resident-evil-games-engagement-leapt-50-following-release-of"
+        },
+        {
+          "title": "Xbox Reportedly Secures Exclusive Cloud Streaming Rights to GTA 6, Could Make Game Playable on PC at Launch",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "3037fe7f-xbox-reportedly-secures-exclusive-cloud-streaming-rights-to-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-07T02:32:26.849Z",
       "status": "quota",
@@ -1967,57 +1992,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-27T07:50:31.990Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 240,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "Resident Evil Requiem's made over $500m since release, but the new film didn't have as big of an impact as Capcom's price drops",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 11,
-          "slug": "7a763e9c-resident-evil-requiems-made-over-500m-since-release-but-the-"
-        },
-        {
-          "title": " Former Elder Scrolls designer Kurt Kuhlmann on Fallout: New Vegas diehards: 'I don't know that Todd wanted to create that situation again for The Elder Scrolls' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "593a7efc-former-elder-scrolls-designer-kurt-kuhlmann-on-fallout-new-v"
-        },
-        {
-          "title": "LYON ends Shopify Rebellion’s Cinderella run to secure final LCS Worlds spot",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 11,
-          "slug": "e35f6c03-lyon-ends-shopify-rebellions-cinderella-run-to-secure-final-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The Legend of Zelda: Ocarina of Time Remake Extended Clip Reveals Closer Look at Ganondorf",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Minecraft LIVE September 2026 — Everything Announced",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-07T02:32:26.849Z"
+  "lastUpdated": "2026-10-07T05:37:01.929Z"
 }
