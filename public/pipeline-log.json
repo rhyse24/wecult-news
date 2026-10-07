@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2092,
+  "totalArticles": 2094,
   "runs": [
+    {
+      "timestamp": "2026-10-06T23:39:59.953Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 265,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "20 Greatest Movie Villains Of The 2000s",
+          "category": "film",
+          "source": "WhatCulture Film",
+          "score": 12,
+          "slug": "8d273d36-20-greatest-movie-villains-of-the-2000s"
+        },
+        {
+          "title": "Saoirse Ronan Responds to Rumors That Husband Jack Lowden Will Be the Next James Bond",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "c68bae41-saoirse-ronan-responds-to-rumors-that-husband-jack-lowden-wi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-06T22:01:24.619Z",
       "status": "quota",
@@ -1977,32 +2002,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-27T04:01:19.589Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 243,
-      "totalCandidates": 20,
-      "written": [
-        {
-          "title": "‘We left Ireland because there wasn’t work – and we wanted to get the hell away’: Trespasses author Louise Kennedy",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 8,
-          "slug": "77726e10-we-left-ireland-because-there-wasnt-work-and-we-wanted-to-ge"
-        },
-        {
-          "title": "5 Powerful Horror Novels for Animal Lovers",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 7,
-          "slug": "c706e288-5-powerful-horror-novels-for-animal-lovers"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-06T22:01:24.619Z"
+  "lastUpdated": "2026-10-06T23:39:59.953Z"
 }
