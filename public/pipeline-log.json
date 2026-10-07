@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2101,
+  "totalArticles": 2104,
   "runs": [
+    {
+      "timestamp": "2026-10-07T12:23:36.988Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 254,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "What To Watch Wednesday: #OneChicago And Abbott Elementary Return, Carrie And Small Prophets Debut, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "9940e933-what-to-watch-wednesday-onechicago-and-abbott-elementary-ret"
+        },
+        {
+          "title": "Disney+ to Name New Australia Commissioner, Keeps Southeast Asia ‘On the Menu’ as It Triples Local Output",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "e62351ce-disney-to-name-new-australia-commissioner-keeps-southeast-as"
+        },
+        {
+          "title": "Why Netflix's East Of Eden Made Florence Pugh's Cathy The Central Character",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "cddee886-why-netflixs-east-of-eden-made-florence-pughs-cathy-the-cent"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-07T08:55:23.669Z",
       "status": "success",
@@ -1974,25 +2006,7 @@
       "totalCandidates": 72,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-27T15:59:22.258Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 193,
-      "totalCandidates": 18,
-      "written": [
-        {
-          "title": "Box Office: ‘Avengers: Endgame Encore’ Returns to No. 1 With $26 Million, ‘Primetime’ Scores Impressive $19 Million Debut",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "baea4ce4-box-office-avengers-endgame-encore-returns-to-no-1-with-26-m"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-07T08:55:23.669Z"
+  "lastUpdated": "2026-10-07T12:23:36.988Z"
 }
