@@ -1,6 +1,39 @@
 {
-  "totalArticles": 2094,
+  "totalArticles": 2096,
   "runs": [
+    {
+      "timestamp": "2026-10-07T02:32:26.849Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 260,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "Lanterns Finale Leaves Open the Comic Book Story of Hal Jordan’s Return",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 13,
+          "slug": "3fd81d1d-lanterns-finale-leaves-open-the-comic-book-story-of-hal-jord"
+        },
+        {
+          "title": "Disney's Percy Jackson Series Is Finding A New Audience On A Different Streaming Service",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "8b167a15-disneys-percy-jackson-series-is-finding-a-new-audience-on-a-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Lanterns Creators Sort of Clarify John Stewart’s Status After the Finale",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-06T23:39:59.953Z",
       "status": "quota",
@@ -1984,25 +2017,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-27T06:01:18.750Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 241,
-      "totalCandidates": 21,
-      "written": [
-        {
-          "title": "Jon Watts to Direct Next ‘Star Wars’ Movie",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "ec896ac7-jon-watts-to-direct-next-star-wars-movie"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-06T23:39:59.953Z"
+  "lastUpdated": "2026-10-07T02:32:26.849Z"
 }
