@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2108,
+  "totalArticles": 2111,
   "runs": [
+    {
+      "timestamp": "2026-10-08T08:01:14.570Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 254,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "How the ‘Ted Lasso’ Season 4 Finale Sets Up What Comes Next",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 14,
+          "slug": "eed782ac-how-the-ted-lasso-season-4-finale-sets-up-what-comes-next"
+        },
+        {
+          "title": "Josh Hartnett Leads Netflix’s Exhilarating Sea Monster Thriller ‘Below’: TV Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "04f19ad6-josh-hartnett-leads-netflixs-exhilarating-sea-monster-thrill"
+        },
+        {
+          "title": "Will Dutton Ranch And Marshals Season 2 Have A Crossover? Yellowstone Spin-Off Showrunner Responds",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "a949f30e-will-dutton-ranch-and-marshals-season-2-have-a-crossover-yel"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-08T06:01:34.078Z",
       "status": "quota",
@@ -1907,25 +1939,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-28T15:43:03.473Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 219,
-      "totalCandidates": 77,
-      "written": [
-        {
-          "title": "Resident Evil Movie Demolishes Franchise Record After Just Two Weekends",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 16,
-          "slug": "644c79fe-resident-evil-movie-demolishes-franchise-record-after-just-t"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-08T06:01:34.078Z"
+  "lastUpdated": "2026-10-08T08:01:14.570Z"
 }
