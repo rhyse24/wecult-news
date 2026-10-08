@@ -2,6 +2,16 @@
   "totalArticles": 2119,
   "runs": [
     {
+      "timestamp": "2026-10-08T19:23:48.984Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 265,
+      "totalCandidates": 37,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-10-08T16:01:25.595Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -2003,25 +2013,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-29T04:28:10.189Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 239,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "One Piece Anime Confirms New Episodes to Return in 2027",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 13,
-          "slug": "f79420f1-one-piece-anime-confirms-new-episodes-to-return-in-2027"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-08T16:01:25.595Z"
+  "lastUpdated": "2026-10-08T19:23:48.984Z"
 }
