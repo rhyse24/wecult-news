@@ -2,6 +2,16 @@
   "totalArticles": 2105,
   "runs": [
     {
+      "timestamp": "2026-10-07T23:09:48.086Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 31,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-10-07T19:48:48.213Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -1966,47 +1976,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-28T01:24:17.854Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 179,
-      "totalCandidates": 71,
-      "written": [
-        {
-          "title": "The Witcher 3 Remastered a 45GB PS5 Patch, Release Times Revealed",
-          "category": "games",
-          "source": "Push Square",
-          "score": 13,
-          "slug": "c155fc91-the-witcher-3-remastered-a-45gb-ps5-patch-release-times-reve"
-        },
-        {
-          "title": "Minecraft Dungeons 2 release countdown: Exact date and time",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 12,
-          "slug": "76aa70d9-minecraft-dungeons-2-release-countdown-exact-date-and-time"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Choreographer Shows Acrobatics Behind Resident Evil Film’s Weirdest Monster",
-          "category": "games",
-          "source": "Kotaku",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "100 Thieves ride Americas Stage 2 form to beat T1 2-0 at VALORANT Champions 2026",
-          "category": "games",
-          "source": "Dot Esports",
-          "score": 12,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-07T19:48:48.213Z"
+  "lastUpdated": "2026-10-07T23:09:48.086Z"
 }
