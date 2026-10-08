@@ -2,6 +2,16 @@
   "totalArticles": 2105,
   "runs": [
     {
+      "timestamp": "2026-10-08T02:17:23.112Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 257,
+      "totalCandidates": 29,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-10-07T23:09:48.086Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1951,32 +1961,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-28T04:46:24.879Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 179,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Lanterns Has Fully and Officially Done Away With Green Lantern’s Ridiculous Weakness",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 17,
-          "slug": "de754dd2-lanterns-has-fully-and-officially-done-away-with-green-lante"
-        },
-        {
-          "title": "5 LEGO Animated Specials We Need After ‘LEGO One Piece’",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 15,
-          "slug": "fdae3c97-5-lego-animated-specials-we-need-after-lego-one-piece"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-07T23:09:48.086Z"
+  "lastUpdated": "2026-10-08T02:17:23.112Z"
 }
