@@ -1,6 +1,53 @@
 {
-  "totalArticles": 2111,
+  "totalArticles": 2114,
   "runs": [
+    {
+      "timestamp": "2026-10-08T11:03:34.189Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 249,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "Only 3 Stephen King Movies Are Better Than 'The Shining'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "slug": "cf5b8112-only-3-stephen-king-movies-are-better-than-the-shining"
+        },
+        {
+          "title": "Wim Wenders Boards Peter Lindbergh Documentary ‘Truth:Beauty’",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "177efb77-wim-wenders-boards-peter-lindbergh-documentary-truthbeauty"
+        },
+        {
+          "title": "Nathan Fielder’s Elizabeth Holmes Doc ‘You Can See Everything’ Sets November U.K. Release Date",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "6d3f3143-nathan-fielders-elizabeth-holmes-doc-you-can-see-everything-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "5 Movies To Watch If You Like Tom Cruise's Digger",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "5 Best TV Shows Like Carrie",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-08T08:01:14.570Z",
       "status": "success",
@@ -1921,25 +1968,7 @@
       "totalCandidates": 42,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-28T19:11:24.796Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 238,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "Robert Pattinson’s Star Power and Gen Z: 5 Reasons ‘Primetime’ Became a Breakout Box Office Hit",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "slug": "c81d227a-robert-pattinsons-star-power-and-gen-z-5-reasons-primetime-b"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-08T08:01:14.570Z"
+  "lastUpdated": "2026-10-08T11:03:34.189Z"
 }
