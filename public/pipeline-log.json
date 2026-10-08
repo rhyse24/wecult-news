@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2114,
+  "totalArticles": 2117,
   "runs": [
+    {
+      "timestamp": "2026-10-08T14:13:22.365Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 77,
+      "written": [
+        {
+          "title": "Hellraiser: Revival Review",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "a89a5671-hellraiser-revival-review"
+        },
+        {
+          "title": "How to solve Basement Door Puzzle #8 in Disney Dreamlight Valley Haunted Floating Festival event",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 15,
+          "slug": "5b267ceb-how-to-solve-basement-door-puzzle-8-in-disney-dreamlight-val"
+        },
+        {
+          "title": "Xbox announces new XP division to deliver transmedia spinoffs including film, TV, and theme parks",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 14,
+          "slug": "8c58246c-xbox-announces-new-xp-division-to-deliver-transmedia-spinoff"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Resident Evil Requiem’s Expansion Will Focus on Oswell Spencer, Says Screenwriter",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-08T11:03:34.189Z",
       "status": "success",
@@ -1958,17 +1998,7 @@
       "totalCandidates": 44,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-28T22:37:27.634Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 245,
-      "totalCandidates": 42,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-08T11:03:34.189Z"
+  "lastUpdated": "2026-10-08T14:13:22.365Z"
 }
