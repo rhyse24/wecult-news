@@ -1,6 +1,39 @@
 {
-  "totalArticles": 2117,
+  "totalArticles": 2119,
   "runs": [
+    {
+      "timestamp": "2026-10-08T16:01:25.595Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Clever Netflix creature feature Below could be your next Widow’s Bay",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "22065b93-clever-netflix-creature-feature-below-could-be-your-next-wid"
+        },
+        {
+          "title": "Prime Video's Carrie Echoes David Lynch's Twin Peaks In Ways You Might Not Expect",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "ef6ecb9a-prime-videos-carrie-echoes-david-lynchs-twin-peaks-in-ways-y"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Luke Grimes And Kevin Costner Have 'Never Spoken' Since Yellowstone Ended, The Marshals Star Says",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-08T14:13:22.365Z",
       "status": "success",
@@ -1988,17 +2021,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-29T01:37:38.080Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 246,
-      "totalCandidates": 44,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-08T14:13:22.365Z"
+  "lastUpdated": "2026-10-08T16:01:25.595Z"
 }
