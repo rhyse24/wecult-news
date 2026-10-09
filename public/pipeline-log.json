@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2125,
+  "totalArticles": 2128,
   "runs": [
+    {
+      "timestamp": "2026-10-09T12:27:52.290Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 78,
+      "written": [
+        {
+          "title": "Final Fantasy 7 Remake Intergrade Drops to New All-Time Low Price on Switch 2",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "6d9c5fe2-final-fantasy-7-remake-intergrade-drops-to-new-all-time-low-"
+        },
+        {
+          "title": "If You Like Scrappy Old Resident Evil Games, I Recommend ANOMALITH's PS5 Demo",
+          "category": "games",
+          "source": "Push Square",
+          "score": 13,
+          "slug": "caa6de03-if-you-like-scrappy-old-resident-evil-games-i-recommend-anom"
+        },
+        {
+          "title": "Dragon Age Lead Mark Darrah Reveals Why The Veilguard Failed",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 12,
+          "slug": "160f8bde-dragon-age-lead-mark-darrah-reveals-why-the-veilguard-failed"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-09T09:08:54.674Z",
       "status": "success",
@@ -1952,25 +1984,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-29T16:01:32.566Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 258,
-      "totalCandidates": 48,
-      "written": [],
-      "rejected": [
-        {
-          "title": "New Anime on Netflix in October 2026: ‘Cyberpunk: Edgerunners’ Season 2 & More",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 18,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-09T09:08:54.674Z"
+  "lastUpdated": "2026-10-09T12:27:52.290Z"
 }
