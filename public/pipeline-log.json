@@ -2,6 +2,24 @@
   "totalArticles": 2122,
   "runs": [
     {
+      "timestamp": "2026-10-09T05:49:35.999Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 42,
+      "written": [],
+      "rejected": [
+        {
+          "title": "‘Your Friendly Neighborhood Spider-Man’ Season 2 Sets Release Date",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-10-09T02:08:28.784Z",
       "status": "success",
       "articlesWritten": 3,
@@ -1930,67 +1948,7 @@
       "totalCandidates": 42,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-29T11:04:19.113Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 236,
-      "totalCandidates": 75,
-      "written": [
-        {
-          "title": "Neil Druckmann confirms new The Last of Us projects in the works",
-          "category": "games",
-          "source": "Dexerto",
-          "score": 14,
-          "slug": "f15b66d1-neil-druckmann-confirms-new-the-last-of-us-projects-in-the-w"
-        },
-        {
-          "title": "God Of War Laufey Pre-Orders: Prices, Editions, Bonuses, And More",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 12,
-          "slug": "53b25d5d-god-of-war-laufey-pre-orders-prices-editions-bonuses-and-mor"
-        },
-        {
-          "title": " The Witcher 3 updated system requirements are in, and you will need an RTX 5080 for path tracing with DLSS and frame generation ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 11,
-          "slug": "e88ace19-the-witcher-3-updated-system-requirements-are-in-and-you-wil"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Zach Cregger's Resident Evil Movie Is So Popular, It Increased RE2 Remake Sales by More Than 50% on PS5",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Naughty Dog Is Working On Two New The Last Of Us Projects",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        },
-        {
-          "title": "Naughty Dog Will 'Fully Reveal' Intergalactic in 2027, but No Release Window Yet",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-09T02:08:28.784Z"
+  "lastUpdated": "2026-10-09T05:49:35.999Z"
 }
