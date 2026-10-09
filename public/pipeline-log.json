@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2128,
+  "totalArticles": 2130,
   "runs": [
+    {
+      "timestamp": "2026-10-09T18:01:24.134Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 279,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Sadie Sink in Talks to Star in ‘The Guest,’ Based on Emma Cline’s Bestseller",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "9fb685eb-sadie-sink-in-talks-to-star-in-the-guest-based-on-emma-cline"
+        },
+        {
+          "title": "Box Office: ‘Other Mommy’ Makes $3.6 Million in Previews",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "0c4f7d09-box-office-other-mommy-makes-36-million-in-previews"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-09T12:27:52.290Z",
       "status": "success",
@@ -1966,25 +1991,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-29T18:47:45.705Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 264,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "New Anime on Netflix in October 2026: ‘Cyberpunk: Edgerunners’ Season 2 & More",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 18,
-          "slug": "da6cadff-new-anime-on-netflix-in-october-2026-cyberpunk-edgerunners-s"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-09T12:27:52.290Z"
+  "lastUpdated": "2026-10-09T18:01:24.134Z"
 }
