@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2119,
+  "totalArticles": 2122,
   "runs": [
+    {
+      "timestamp": "2026-10-09T02:08:28.784Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "‘Other Mommy’ Review: Jessica Chastain’s Doppelgänger Horror Misfires in Every Direction",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "77e05b84-other-mommy-review-jessica-chastains-doppelgnger-horror-misf"
+        },
+        {
+          "title": "David Corenswet Proves He’s More Than Superman in ‘Mr. Irrelevant,’ a Potential ‘Blind Side’-Style Oscar Vehicle Following NFL Legends Screening in NYC",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "70bb7b55-david-corenswet-proves-hes-more-than-superman-in-mr-irreleva"
+        },
+        {
+          "title": "NYC Weekend Watch: Hou Hsiao-hsien, Henry Jaglom, Claire Atherton, Southland Tales & More",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 10,
+          "slug": "b16ea6e8-nyc-weekend-watch-hou-hsiao-hsien-henry-jaglom-claire-athert"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-08T22:46:11.188Z",
       "status": "quota",
@@ -1958,47 +1990,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-29T08:01:27.178Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 241,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "‘Avengers: Doomsday’ Star Alan Cumming Says ‘I Don’t Fully Understand the Plot’ and Only Acted With Florence Pugh’s Stunt Double",
-          "category": "film",
-          "source": "Variety",
-          "score": 15,
-          "slug": "384957fc-avengers-doomsday-star-alan-cumming-says-i-dont-fully-unders"
-        },
-        {
-          "title": "‘Avengers: Endgame Encore’ Tops U.K., Ireland Box Office",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "2b3ac0fd-avengers-endgame-encore-tops-uk-ireland-box-office"
-        },
-        {
-          "title": "Only 3 Western Movies Are Better Than 'Tombstone'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "c962824e-only-3-western-movies-are-better-than-tombstone"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Re-Release in the Works With New Footage",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-08T22:46:11.188Z"
+  "lastUpdated": "2026-10-09T02:08:28.784Z"
 }
