@@ -2,6 +2,16 @@
   "totalArticles": 2119,
   "runs": [
     {
+      "timestamp": "2026-10-08T22:46:11.188Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 272,
+      "totalCandidates": 36,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-10-08T19:23:48.984Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -1988,32 +1998,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-29T06:01:35.356Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 246,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Lanterns Breaks Our Holographic Heart in “The Jordan Boys’ Legacy”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "f5b2dbf8-lanterns-breaks-our-holographic-heart-in-the-jordan-boys-leg"
-        },
-        {
-          "title": "Somehow, the Skywalker Saga Continues; Jon Watts to Direct New Star Wars Movie",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 12,
-          "slug": "f85e0fa7-somehow-the-skywalker-saga-continues-jon-watts-to-direct-new"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-08T19:23:48.984Z"
+  "lastUpdated": "2026-10-08T22:46:11.188Z"
 }
