@@ -2,6 +2,403 @@
   "totalArticles": 2130,
   "runs": [
     {
+      "timestamp": "2026-10-09T21:22:18.062Z",
+      "status": "filtered",
+      "articlesWritten": 0,
+      "quotaExhausted": false,
+      "totalFetched": 274,
+      "totalCandidates": 55,
+      "written": [],
+      "rejected": [
+        {
+          "title": "5 Biggest Changes The Carrie TV Series Makes From Stephen King's Book",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "With ‘Below,’ Charlie Heaton Digs Into His Next Big Sci-Fi Adventure",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 16,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Carrie Finale: Mike Flanagan And Cast Talk Recreating Carrie White's Iconic (And Very Bloody) Prom — Watch",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "New Avatar Animated Series About Teen Kuruk Ordered At Paramount+, Seven Havens Scores Double Renewal",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Ben Affleck Thriller ‘Animals’ Leads a Massive 63-Title Drop on Netflix UK",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 14,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Matt Murdock Actor Charlie Cox Reacts To Daredevil: Born Again Cancellation",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Carrie: Mike Flanagan Reveals How He Changed Stephen King’s Mind",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 10,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Shari Redstone-Backed Sipur Studios Opens London Office, Sets Out International Strategy Including Boarding Olivier Dahan’s ‘Nana’ (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘WandaVision’ Creator Jac Schaeffer to Develop ‘Stargate’ Series at Amazon (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Amazon Viking Drama ‘Bloodaxe’ Sets Release Date, Debuts Fierce New Trailer at New York Comic Con",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "TV’s Newest Scream Queen Summer H. Howell Has Been Preparing for ‘Carrie’ Her Whole Life",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 9,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "ABC trying to puzzle out how to Americanize David Mitchell's Ludwig",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "VisionQuest: Paul Bettany and Terry Matalas Talk Ultron’s Return, Mindspaces, and Robot Families",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 8,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Dexter: Resurrection's Michael C. Hall Teases Dexter's Reunion With Charley In Season 2: 'It'll Be A Mess'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Chicago Med Twist: Colin Donnell To Return As Dr. Rhodes In Season 12 — Find Out What Brings Him Back",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "TVLine Asks: Did NCIS Pick The Right Director? Should New Abbott Teacher Stick Around? Was Survivor Exit A Quit? And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "S.W.A.T. Exiles Boss Shares A 'Running Joke' About The Show's New Couple — Plus, What's Up With Jude's Tattoo?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘Newlyweds’ Showrunner Gail Lerner Fired From NBC Sitcom Ahead of Premiere: ‘I’m So Sad’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Guillermo del Toro, Diego Luna, Alfonso Cuarón to Attend Morelia Fest as Director Daniela Michel Sees Shift to Intimate Mexican Stories",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Bela Bajaria on Netflix’s Epic TV Trek into Local Language Production: ‘There’s No Roadmap for This’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘Mystery Science Theater 3000: The RiffTrax Experiments’: Behind the Scenes of the Satellite of Love",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘Helluva Boss’ Actor Lashes Out at NYCC Heckler: ‘I’m Going to Jump Over This Fence and End You’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Sarah Rice Breaks Down Big ‘The Challenge’ Return & Reveals Why She’s at ‘Peace’ Over Exit",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Below review – a killer snot-berg causes chaos for Josh Hartnett",
+          "category": "tv",
+          "source": "Guardian TV",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Cupertino kicks off with an audacious and entertaining series premiere",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "The creator of The Boys is here to make zombies even nastier in first Crossed teaser",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 7,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘American Horror Story’ and Six Things We Learned From a Night With the Coven",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 6,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Keri Russell Told Matthew Rhys He Didn’t Have to Thank Her If He Won at the Emmys",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 6,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "The Most Powerful Women in International TV",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 6,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Mike Ditka, No-Nonsense Chicago Bears Legend and TV Analyst, Dies at 86",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 6,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "First Look at What’s Coming to Netflix in November 2026",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 6,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Little House on the Prairie Season 2 Wraps Filming as Netflix Rounds Out the Walnut Grove Cast",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 6,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "North American Anime, Manga Releases, October 4-10",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 6,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Ize Press Announces Print Editions of Regas, Eat Before You Go Webtoons",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 6,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Yen Press Licenses Fate/strange Fake, Kino's Journey, Spice and Wolf Diner: Gourmet Exploration, More Manga/Novels",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 6,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘Chicago P.D.’: Marina Squerciati on Burgess & Ruzez’s New House, LaRoyce Hawkins’ Exit",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 5,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Robby Hoffman Snags Stand-Up Sequel at Netflix",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 4,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Hallmark’s ‘Mistletoe Murders’ Finds New Streaming Home Ahead of Season 3 Release",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 4,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Director Anand Tiwari Sets Netflix Series ‘Janta Inter College’ Starring Vishal Jethwa and Palak Tiwari",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 4,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "The Ghost of Bongcheon-Dong Horror Webtoon Gets Live-Action Film Adaptation",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 4,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Chiikawa Anime Film Drops to #4, Star Detective Precure! Film to #5 in Japan",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 4,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "How I Became King by Eating Monsters Novels Get TV Anime by White Fox in 2027",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 4,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Pat Sajak Makes Rare Public Appearance 2 Years After ‘Wheel of Fortune’ Retirement",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 3,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘Sense and Sensibility’ Producer & Stars Reveal How the 2026 Film Is Different, From the Sisterly Bond to Hair Choices",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 3,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘The View’s Stars Attempt Amber Glenn’s Viral ‘Dancing With the Stars’ Trick",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 3,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "TNA’s Nic Nemeth Gets Candid About Personal Sacrifices & ‘Bound For Glory’ Challenge",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 3,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Jimmy Kimmel on Trump’s government: ‘There’s just so much lying and stealing’",
+          "category": "tv",
+          "source": "Guardian TV",
+          "score": 3,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "CBS Comedy Eternally Yours Examines the 500-Year Itch of Vampire Marriage",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 3,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Girls und Panzer Franchise Gets 2 New Games",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 3,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "My Sword Saint Master Is Too Cute to Live With! Anime's Teaser Unveils Cast, January Debut",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 3,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Anthropic updates policies to outlaw \"abusing\" its imaginary friends",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 2,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Patti Harrison is the (screaming) new face of The Onion's InfoWars takeover",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 2,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "The Traitors: New Blood serves one very silly poisoned apple",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 2,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "Sebastian Maniscalco asks for \"a little time\" to fix SiriusXM’s comedy problems",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 2,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "10 Star Trek Episodes They Should Have Made (It's Never Too Late)",
+          "category": "tv",
+          "source": "WhatCulture TV",
+          "score": 2,
+          "reason": "gemini_fail"
+        }
+      ],
+      "filterNote": "55 aday işlendi, tümü kalite/hallüsinasyon kontrolünden geçemedi"
+    },
+    {
       "timestamp": "2026-10-09T18:01:24.134Z",
       "status": "quota",
       "articlesWritten": 2,
@@ -1959,39 +2356,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-29T22:01:26.110Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 269,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Curry Barker’s ‘Obsession’ Follow-Up ‘Anything But Ghosts’ Sets May 2027 Release Date From Focus Features, Blumhouse",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "slug": "eaa753fa-curry-barkers-obsession-follow-up-anything-but-ghosts-sets-m"
-        },
-        {
-          "title": "Black Bear Names Dan Cohen as Head of Television Distribution, Launches Digital Networks Vertical",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "96b76f0b-black-bear-names-dan-cohen-as-head-of-television-distributio"
-        },
-        {
-          "title": "Enshrouded in Darkness: Lance Oppenheim, Merritt Wever, and Skyler Gisondo on “Primetime”",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 13,
-          "slug": "e83c92b9-enshrouded-in-darkness-lance-oppenheim-merritt-wever-and-sky"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-09T18:01:24.134Z"
+  "lastUpdated": "2026-10-09T21:22:18.062Z"
 }
