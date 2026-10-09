@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2122,
+  "totalArticles": 2125,
   "runs": [
+    {
+      "timestamp": "2026-10-09T09:08:54.674Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "‘Avatar: Seven Havens’ Takes the Franchise in an Intriguing, Postapocalyptic New Direction: TV Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 17,
+          "slug": "61b92381-avatar-seven-havens-takes-the-franchise-in-an-intriguing-pos"
+        },
+        {
+          "title": "SkyShowtime’s ‘The Homicide Unit,’ From Warner Bros., and Iceland’s ‘Fjord’ Boarded by Reinvent Yellow Sales (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "b1acd31b-skyshowtimes-the-homicide-unit-from-warner-bros-and-icelands"
+        },
+        {
+          "title": "‘An Innocent Girl’ Netflix Movie: Cast, Plot & Expected 2027 Release Date Window",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 12,
+          "slug": "b9858f4b-an-innocent-girl-netflix-movie-cast-plot-expected-2027-relea"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-09T05:49:35.999Z",
       "status": "quota",
@@ -1938,17 +1970,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-29T14:15:39.286Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 249,
-      "totalCandidates": 42,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-09T05:49:35.999Z"
+  "lastUpdated": "2026-10-09T09:08:54.674Z"
 }
