@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2130,
+  "totalArticles": 2133,
   "runs": [
+    {
+      "timestamp": "2026-10-10T04:46:49.704Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 274,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "5 Biggest Changes The Carrie TV Series Makes From Stephen King's Book",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "c5201c9f-5-biggest-changes-the-carrie-tv-series-makes-from-stephen-ki"
+        },
+        {
+          "title": "With ‘Below,’ Charlie Heaton Digs Into His Next Big Sci-Fi Adventure",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 14,
+          "slug": "7a149690-with-below-charlie-heaton-digs-into-his-next-big-sci-fi-adve"
+        },
+        {
+          "title": "Ben Affleck Thriller ‘Animals’ Leads a Massive 63-Title Drop on Netflix UK",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "2eeffdf7-ben-affleck-thriller-animals-leads-a-massive-63-title-drop-o"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Avatar: Seven Havens’ Renewed for Two More Seasons, ‘Avatar Kuruk: Wave of Chaos’ Series Announced at NYCC",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-10T01:31:52.111Z",
       "status": "quota",
@@ -2323,32 +2363,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-30T04:29:06.502Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 49,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Christy Carlson Romano Says She and ‘Even Stevens’ Co-Star Shia LaBeouf Were ‘Like Oil and Water’ While Filming the Disney Channel Show",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Connie Britton is pretending to be a teen's mom in unsettling Phony trailer",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-10T01:31:52.111Z"
+  "lastUpdated": "2026-10-10T04:46:49.704Z"
 }
