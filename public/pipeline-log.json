@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2142,
+  "totalArticles": 2145,
   "runs": [
+    {
+      "timestamp": "2026-10-10T15:50:16.272Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 251,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "‘Avatar: Seven Havens’ Renewed for Two More Seasons, ‘Avatar Kuruk: Wave of Chaos’ Series Announced at NYCC",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 17,
+          "slug": "323f7e19-avatar-seven-havens-renewed-for-two-more-seasons-avatar-kuru"
+        },
+        {
+          "title": "When Calls The Heart's Erin Krakow Starred In A Military Drama Before Her Hallmark Fame",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "57730f77-when-calls-the-hearts-erin-krakow-starred-in-a-military-dram"
+        },
+        {
+          "title": "AMC’s ‘Mayfair Witches: Salem Coven’ Gets December Debut as Catherine Zeta-Jones, Carrie-Anne Moss Tease ‘Kill Jackie’ and ‘Yaga’ at NYCC",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "1357e453-amcs-mayfair-witches-salem-coven-gets-december-debut-as-cath"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-10T12:01:08.547Z",
       "status": "success",
@@ -2306,25 +2338,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-30T16:01:45.360Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 265,
-      "totalCandidates": 79,
-      "written": [
-        {
-          "title": "Dune Awakening's creative director on copying Hollywood, in-game advertising, and why style beats photorealism",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 12,
-          "slug": "02d1d201-dune-awakenings-creative-director-on-copying-hollywood-in-ga"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-10T12:01:08.547Z"
+  "lastUpdated": "2026-10-10T15:50:16.272Z"
 }
