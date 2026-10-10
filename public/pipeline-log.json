@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2145,
+  "totalArticles": 2146,
   "runs": [
+    {
+      "timestamp": "2026-10-10T19:23:42.061Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 244,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "Box Office: ‘Other Mommy’ Spooks Up $12.6 Million on Opening Day, ‘The Social Reckoning’ Debuts to $2.15 Million on Friday",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "slug": "4802df42-box-office-other-mommy-spooks-up-126-million-on-opening-day-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-10T15:50:16.272Z",
       "status": "success",
@@ -2320,25 +2338,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-30T18:01:22.257Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 31,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Digger Review: Alejandro G. Iñárritu’s Satire Is Stale But Never Boring",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-10T15:50:16.272Z"
+  "lastUpdated": "2026-10-10T19:23:42.061Z"
 }
