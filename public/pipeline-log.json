@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2133,
+  "totalArticles": 2136,
   "runs": [
+    {
+      "timestamp": "2026-10-10T08:18:20.223Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 271,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "What to Watch and Read This Weekend: There’s Always Time for More Hobbits",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "6a799992-what-to-watch-and-read-this-weekend-theres-always-time-for-m"
+        },
+        {
+          "title": "Exclusive Cover Reveal of TECHNICOLOR HORSES by Michael Credico",
+          "category": "books",
+          "source": "Electric Literature",
+          "score": 9,
+          "slug": "a24b5b5f-exclusive-cover-reveal-of-technicolor-horses-by-michael-cred"
+        },
+        {
+          "title": "A Guide to the Dexter Spinoffs",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 9,
+          "slug": "2e724f88-a-guide-to-the-dexter-spinoffs"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-10T04:46:49.704Z",
       "status": "success",
@@ -2310,60 +2342,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-30T07:31:27.317Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 270,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Ted Lasso's Annette Badland Reflects On Mae's Journey With The Lady Greyhounds In Bittersweet Episode 9",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "e36536ef-ted-lassos-annette-badland-reflects-on-maes-journey-with-the"
-        },
-        {
-          "title": "Connie Britton is pretending to be a teen's mom in unsettling Phony trailer",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "slug": "7ee5b0d1-connie-britton-is-pretending-to-be-a-teens-mom-in-unsettling"
-        },
-        {
-          "title": " TV Spy — Marshals, Anna Pigeon Mysteries, and all the US dramas you can watch on UK services: 3-9 October ",
-          "category": "tv",
-          "source": "What to Watch",
-          "score": 10,
-          "slug": "490f3556-tv-spy-marshals-anna-pigeon-mysteries-and-all-the-us-dramas-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Christy Carlson Romano Says She and ‘Even Stevens’ Co-Star Shia LaBeouf Were ‘Like Oil and Water’ While Filming the Disney Channel Show",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        },
-        {
-          "title": "Save The Dates: Connie Britton's Hulu Show, Game Of Thrones Movie, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-10T04:46:49.704Z"
+  "lastUpdated": "2026-10-10T08:18:20.223Z"
 }
