@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2139,
+  "totalArticles": 2142,
   "runs": [
+    {
+      "timestamp": "2026-10-10T12:01:08.547Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 256,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Magic: The Gathering Marvel: Darkhold Destiny Preorders Are Now Live",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "1f05113f-magic-the-gathering-marvel-darkhold-destiny-preorders-are-no"
+        },
+        {
+          "title": "Countdown: Zelda: Ocarina Of Time Dungeon Crawl #4 - Still An All-Timer",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 13,
+          "slug": "f2d8cda8-countdown-zelda-ocarina-of-time-dungeon-crawl-4---still-an-a"
+        },
+        {
+          "title": "GTA 6 fan emails Rockstar asking for poster and actually gets one",
+          "category": "games",
+          "source": "Dexerto",
+          "score": 12,
+          "slug": "2d656d33-gta-6-fan-emails-rockstar-asking-for-poster-and-actually-get"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-10T10:01:36.721Z",
       "status": "success",
@@ -2292,46 +2324,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-09-30T14:01:44.548Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 260,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "‘The Twilight Zone’ and ‘Dynasty’ Lead Huge Wave of Retro TV Hits Coming to Netflix Canada",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "5ff45b9b-the-twilight-zone-and-dynasty-lead-huge-wave-of-retro-tv-hit"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Ted Lasso season 4 is just one odd choice stacked on top of another",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 15 words (max 12)"
-          ]
-        },
-        {
-          "title": "Christy Carlson Romano Says She and ‘Even Stevens’ Co-Star Shia LaBeouf Were ‘Like Oil and Water’ While Filming the Disney Channel Show",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-10T10:01:36.721Z"
+  "lastUpdated": "2026-10-10T12:01:08.547Z"
 }
