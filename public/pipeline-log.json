@@ -2,6 +2,24 @@
   "totalArticles": 2130,
   "runs": [
     {
+      "timestamp": "2026-10-10T01:31:52.111Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 50,
+      "written": [],
+      "rejected": [
+        {
+          "title": "‘Avatar: Seven Havens’ Renewed for Two More Seasons, ‘Avatar Kuruk: Wave of Chaos’ Series Announced at NYCC",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 18,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-10-09T21:22:18.062Z",
       "status": "filtered",
       "articlesWritten": 0,
@@ -2330,33 +2348,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-30T01:14:01.206Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 266,
-      "totalCandidates": 89,
-      "written": [
-        {
-          "title": "Pokémon VGC Pro Begs Players to Wash Themselves After Opponent’s 'Putrid' Stench Makes Them Vomit",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "5e0755b2-pokmon-vgc-pro-begs-players-to-wash-themselves-after-opponen"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Halo's Former Franchise Creative Director Sees 3 Possible Paths for Activision's Halo",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-09T21:22:18.062Z"
+  "lastUpdated": "2026-10-10T01:31:52.111Z"
 }
