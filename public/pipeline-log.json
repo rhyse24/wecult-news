@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2136,
+  "totalArticles": 2139,
   "runs": [
+    {
+      "timestamp": "2026-10-10T10:01:36.721Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 264,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Jason Blum on How ‘Other Mommy’ Got That Controversial Title, Kristen Bell Joins ‘Violent Night 2’ and More From Blumhouse at NYCC",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "a4201676-jason-blum-on-how-other-mommy-got-that-controversial-title-k"
+        },
+        {
+          "title": "Sebastian Stan Says Hollywood Is Finally Looking at Him Differently After 15 Years in Marvel",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "eae65b1f-sebastian-stan-says-hollywood-is-finally-looking-at-him-diff"
+        },
+        {
+          "title": "Minus Zero Director Reveals Why He Brought Back Godzilla’s Greatest Enemy (Exclusive)",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "slug": "1aac60b2-minus-zero-director-reveals-why-he-brought-back-godzillas-gr"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-10T08:18:20.223Z",
       "status": "success",
@@ -2299,50 +2331,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-09-30T10:55:23.958Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 266,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Florence Pugh Credits Tom Holland for ‘Spider-Man: Brand New Day’ Role: ‘This All Happened Because of Tom’",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "fd1e2295-florence-pugh-credits-tom-holland-for-spider-man-brand-new-d"
-        },
-        {
-          "title": "Digger Review: Tom Cruise Attempts Kubrickian Satire in Bold, Uneven Swing",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 12,
-          "slug": "94072bce-digger-review-tom-cruise-attempts-kubrickian-satire-in-bold-"
-        },
-        {
-          "title": "With ‘Digger,’ Tom Cruise Takes On His Riskiest Business Yet",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "fc95347b-with-digger-tom-cruise-takes-on-his-riskiest-business-yet"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "15 Movies To Watch if You Love 'Dune'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 585 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-10T08:18:20.223Z"
+  "lastUpdated": "2026-10-10T10:01:36.721Z"
 }
