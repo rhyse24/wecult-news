@@ -2,6 +2,24 @@
   "totalArticles": 2147,
   "runs": [
     {
+      "timestamp": "2026-10-11T05:40:11.775Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 245,
+      "totalCandidates": 49,
+      "written": [],
+      "rejected": [
+        {
+          "title": "Paramount+ throws two new seasons and a prequel at Avatar: Seven Havens",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-10-11T02:33:31.116Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2295,25 +2313,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-01T02:01:16.493Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "‘Ted Lasso’ Takes the Express Lane in Season 4’s Penultimate Episode",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 16,
-          "slug": "90f43ba9-ted-lasso-takes-the-express-lane-in-season-4s-penultimate-ep"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-11T02:33:31.116Z"
+  "lastUpdated": "2026-10-11T05:40:11.775Z"
 }
