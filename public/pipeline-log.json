@@ -1,6 +1,42 @@
 {
-  "totalArticles": 2150,
+  "totalArticles": 2152,
   "runs": [
+    {
+      "timestamp": "2026-10-11T12:34:31.603Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 215,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "‘Squid Game’ Producer Reads Founding Declaration as Asian Independent Producers Form Cross-Border Alliance at Busan",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "d4afa1e9-squid-game-producer-reads-founding-declaration-as-asian-inde"
+        },
+        {
+          "title": "10 Horror Movies With the Best Lore",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "682c56c7-10-horror-movies-with-the-best-lore"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Taiwan’s Sole Busan Competition Title ‘To Be Ordinary’ Marks Lee Yun Chan’s Return to Features After Two Decades",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 16 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-11T09:10:22.835Z",
       "status": "success",
@@ -2303,39 +2339,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-01T07:17:48.761Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 269,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "Curry Barker’s Obsession Followup, Anything But Ghosts, Comes Out Next Year",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 12,
-          "slug": "5aa1aaeb-curry-barkers-obsession-followup-anything-but-ghosts-comes-o"
-        },
-        {
-          "title": "Forgotten Island Is a Rumination on Girlhood, Friendship, and Animation as an Medium",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "d77ab7f4-forgotten-island-is-a-rumination-on-girlhood-friendship-and-"
-        },
-        {
-          "title": "The Most Overlooked Member of the Found Family: The Weird Li’l Guy",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "743a19dc-the-most-overlooked-member-of-the-found-family-the-weird-lil"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-11T09:10:22.835Z"
+  "lastUpdated": "2026-10-11T12:34:31.603Z"
 }
