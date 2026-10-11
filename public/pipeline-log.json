@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2146,
+  "totalArticles": 2147,
   "runs": [
+    {
+      "timestamp": "2026-10-11T02:33:31.116Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 246,
+      "totalCandidates": 79,
+      "written": [
+        {
+          "title": "Resident Evil 2 Remake Modder Creates Playable Couch Co-Op Mod",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "slug": "5aaa839a-resident-evil-2-remake-modder-creates-playable-couch-co-op-m"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-10T22:52:08.431Z",
       "status": "quota",
@@ -2295,17 +2313,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-01T00:05:42.770Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 48,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-10T22:52:08.431Z"
+  "lastUpdated": "2026-10-11T02:33:31.116Z"
 }
