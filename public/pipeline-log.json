@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2147,
+  "totalArticles": 2150,
   "runs": [
+    {
+      "timestamp": "2026-10-11T09:10:22.835Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 230,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Marvel, Kadokawa Launch 5 New Manga as Part of Partnership",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 11,
+          "slug": "3f2aab0d-marvel-kadokawa-launch-5-new-manga-as-part-of-partnership"
+        },
+        {
+          "title": "10 Best Crime Shows Streaming On Prime Video",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "fbdf111e-10-best-crime-shows-streaming-on-prime-video"
+        },
+        {
+          "title": "Quote Of The Day By Clint Eastwood: 'There's A Rebel Lying Deep In My Soul. Anytime Anybody Tells Me...'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "98355dfa-quote-of-the-day-by-clint-eastwood-theres-a-rebel-lying-deep"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Paramount+ throws two new seasons and a prequel at Avatar: Seven Havens",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-11T05:40:11.775Z",
       "status": "quota",
@@ -2295,25 +2335,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-01T04:01:18.580Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 39,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Curry Barker’s Obsession Followup, Anything But Ghosts, Comes Out Next Year",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 12,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-11T05:40:11.775Z"
+  "lastUpdated": "2026-10-11T09:10:22.835Z"
 }
