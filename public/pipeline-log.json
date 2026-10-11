@@ -1,6 +1,39 @@
 {
-  "totalArticles": 2153,
+  "totalArticles": 2155,
   "runs": [
+    {
+      "timestamp": "2026-10-11T18:01:16.358Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 187,
+      "totalCandidates": 78,
+      "written": [
+        {
+          "title": "Marvel Tokon DLC Roadmap Reveals First Look at Jane Foster Thor, Venom and Jubilee Coming in 2027",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "9ee3f367-marvel-tokon-dlc-roadmap-reveals-first-look-at-jane-foster-t"
+        },
+        {
+          "title": "Tekken 8 Yujiro Teaser Reveals Baki Rep's In-Game Render Is Just as Uncanny as Fans Expected",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "c773b3d0-tekken-8-yujiro-teaser-reveals-baki-reps-in-game-render-is-j"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Zach Cregger’s Resident Evil is officially the best-performing film in the series",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-11T16:01:21.455Z",
       "status": "quota",
@@ -2278,39 +2311,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-01T13:27:34.819Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 257,
-      "totalCandidates": 71,
-      "written": [
-        {
-          "title": "Capcom aren't just running out of Resident Evil games to remake - they're banking on it, with a mysterious \"crossover\" planned when the timelines collide",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 16,
-          "slug": "4f03ea55-capcom-arent-just-running-out-of-resident-evil-games-to-rema"
-        },
-        {
-          "title": "After 'Crunching Hard' Through Their Final Months, Gears of War: E-Day Developers Are Reportedly Now Expecting Layoffs",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "29b782df-after-crunching-hard-through-their-final-months-gears-of-war"
-        },
-        {
-          "title": "New Uncharted Game to be Developed After Intergalactic’s Release – Rumor",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 12,
-          "slug": "45353e0e-new-uncharted-game-to-be-developed-after-intergalactics-rele"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-11T16:01:21.455Z"
+  "lastUpdated": "2026-10-11T18:01:16.358Z"
 }
