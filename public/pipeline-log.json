@@ -2,6 +2,16 @@
   "totalArticles": 2155,
   "runs": [
     {
+      "timestamp": "2026-10-12T00:39:37.594Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 176,
+      "totalCandidates": 19,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-10-11T21:18:21.401Z",
       "status": "quota",
       "articlesWritten": 0,
@@ -2270,32 +2280,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-01T21:28:25.157Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 266,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "13 Films to See in October",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 15,
-          "slug": "34fdcbfe-13-films-to-see-in-october"
-        },
-        {
-          "title": "Josh Hartnett on Verity and Working with Warren Beatty, Oliver Stone, and Sofia Coppola",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 15,
-          "slug": "94e0339d-josh-hartnett-on-verity-and-working-with-warren-beatty-olive"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-11T21:18:21.401Z"
+  "lastUpdated": "2026-10-12T00:39:37.594Z"
 }
