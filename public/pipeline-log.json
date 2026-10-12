@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2157,
+  "totalArticles": 2160,
   "runs": [
+    {
+      "timestamp": "2026-10-12T07:25:43.514Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 172,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Every Time Bryan Cranston Played Walter White Outside Of Breaking Bad",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "45121dd8-every-time-bryan-cranston-played-walter-white-outside-of-bre"
+        },
+        {
+          "title": "TF1 Brings Hit Formats ‘Taskmaster,’ ‘Holey Moley’ to France as Part of Unscripted Push (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "862c9b2b-tf1-brings-hit-formats-taskmaster-holey-moley-to-france-as-p"
+        },
+        {
+          "title": "Studiocanal Boards Pan-Asian Survival Thriller ‘kiDnap Game’ Starring Kentaro Sakaguchi and Lee Joon-gi (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "99885b12-studiocanal-boards-pan-asian-survival-thriller-kidnap-game-s"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-12T04:01:05.397Z",
       "status": "quota",
@@ -2270,17 +2302,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-02T04:01:12.338Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 264,
-      "totalCandidates": 50,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-12T04:01:05.397Z"
+  "lastUpdated": "2026-10-12T07:25:43.514Z"
 }
