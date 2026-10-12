@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2155,
+  "totalArticles": 2157,
   "runs": [
+    {
+      "timestamp": "2026-10-12T04:01:05.397Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 176,
+      "totalCandidates": 19,
+      "written": [
+        {
+          "title": "China Box Office: ‘Resident Evil’ Dethrones ‘Traces of Justice’ to Claim Top Spot as Post-Holiday Market Cools",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "44fae245-china-box-office-resident-evil-dethrones-traces-of-justice-t"
+        },
+        {
+          "title": "‘The Riverbank,’ ‘Elza’ Top Rio Film Festival Awards as ‘On Behalf of My Son,’ ‘The French Teacher’ and ‘London’ Scoop Key Prizes",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "3a2bb3cf-the-riverbank-elza-top-rio-film-festival-awards-as-on-behalf"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-12T00:39:37.594Z",
       "status": "quota",
@@ -2255,32 +2280,7 @@
       "totalCandidates": 50,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-02T00:51:05.977Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 264,
-      "totalCandidates": 96,
-      "written": [
-        {
-          "title": "New GTA 6 Age Rating Confirms Game Will Feature Sex Scenes",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "b1c18fbd-new-gta-6-age-rating-confirms-game-will-feature-sex-scenes"
-        },
-        {
-          "title": "Where To Buy Resident Evil's Limited Edition Popcorn Bucket",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "slug": "8fe48dbe-where-to-buy-resident-evils-limited-edition-popcorn-bucket"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-12T00:39:37.594Z"
+  "lastUpdated": "2026-10-12T04:01:05.397Z"
 }
