@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2160,
+  "totalArticles": 2163,
   "runs": [
+    {
+      "timestamp": "2026-10-12T10:53:11.431Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 186,
+      "totalCandidates": 8,
+      "written": [
+        {
+          "title": "Classic Mexican Books",
+          "category": "books",
+          "source": "Book Riot",
+          "score": 5,
+          "slug": "a51166cb-classic-mexican-books"
+        },
+        {
+          "title": "5 New Novels This Fall That Prove Historical Romance Isn’t Dead",
+          "category": "books",
+          "source": "Book Riot",
+          "score": 5,
+          "slug": "9683b44c-5-new-novels-this-fall-that-prove-historical-romance-isnt-de"
+        },
+        {
+          "title": "5 Campus Mystery Novels",
+          "category": "books",
+          "source": "Book Riot",
+          "score": 5,
+          "slug": "6d385002-5-campus-mystery-novels"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Book Review: ‘Brother of the More Famous Jack,’ by Barbara Trapido",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 7,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-12T07:25:43.514Z",
       "status": "success",
@@ -2270,39 +2313,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-02T07:20:42.129Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 263,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "American Horror Story Season 13: A Beloved Character Makes The Ultimate Sacrifice In Week 2",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "2e5ed626-american-horror-story-season-13-a-beloved-character-makes-th"
-        },
-        {
-          "title": "‘Lanterns’ Episode 7 Hits 7 Million U.S. Viewers in Three Days as Season Reaches Average of Nearly 19 Million Globally",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "f10dd25f-lanterns-episode-7-hits-7-million-us-viewers-in-three-days-a"
-        },
-        {
-          "title": "Vision's on a quest to reunite with his family in new VisionQuest trailer",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 11,
-          "slug": "82727519-visions-on-a-quest-to-reunite-with-his-family-in-new-visionq"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-12T07:25:43.514Z"
+  "lastUpdated": "2026-10-12T10:53:11.431Z"
 }
