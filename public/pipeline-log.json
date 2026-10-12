@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2165,
+  "totalArticles": 2166,
   "runs": [
+    {
+      "timestamp": "2026-10-12T20:01:10.543Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 207,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Street Fighter 6 Reveals Movie Costumes for Zangief, E. Honda and Dhalsim | IGN Fall Fan Fest 2026 ",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 18,
+          "slug": "d7ca0d55-street-fighter-6-reveals-movie-costumes-for-zangief-e-honda-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-12T17:13:53.404Z",
       "status": "quota",
@@ -2270,32 +2288,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-02T18:01:25.301Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 91,
-      "written": [
-        {
-          "title": "System Shock 2 Remaster Is Free to Keep on the Epic Games Store Right Now",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "af854cd7-system-shock-2-remaster-is-free-to-keep-on-the-epic-games-st"
-        },
-        {
-          "title": "Batman, Lord of the Rings, and Harry Potter Feature in First Trailer for Skydance, the Newly Named Parent Company for a Merged Warner Bros. and Paramount",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "15dc4c8e-batman-lord-of-the-rings-and-harry-potter-feature-in-first-t"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-12T17:13:53.404Z"
+  "lastUpdated": "2026-10-12T20:01:10.543Z"
 }
