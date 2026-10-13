@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2182,
+  "totalArticles": 2183,
   "runs": [
+    {
+      "timestamp": "2026-10-13T20:21:50.097Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "In “VisionQuest,” Identities Might Change, but Family Is Forever",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 13,
+          "slug": "9982ee39-in-visionquest-identities-might-change-but-family-is-forever"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-13T16:46:25.184Z",
       "status": "success",
@@ -2265,32 +2283,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-03T22:46:06.465Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 240,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Annabelle Wallis on the Defining Question of ‘Unabomber,’ a Potential James Wan Reunion and ‘Peaky Blinders’ What-Ifs",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "7eb87ee6-annabelle-wallis-on-the-defining-question-of-unabomber-a-pot"
-        },
-        {
-          "title": "Guillermo Del Toro Defends ‘Digger,’ Calls the Film ‘Daring, Bold and Cinematically Complex’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "caf76c1c-guillermo-del-toro-defends-digger-calls-the-film-daring-bold"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-13T16:46:25.184Z"
+  "lastUpdated": "2026-10-13T20:21:50.097Z"
 }
