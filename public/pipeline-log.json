@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2176,
+  "totalArticles": 2179,
   "runs": [
+    {
+      "timestamp": "2026-10-13T13:06:40.017Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 235,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "MGM+ Horror Hit ‘From’ Heading to Netflix US For The First Time",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "fd340e5d-mgm-horror-hit-from-heading-to-netflix-us-for-the-first-time"
+        },
+        {
+          "title": "Why Tina Blake From Carrie Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "54b90043-why-tina-blake-from-carrie-looks-so-familiar"
+        },
+        {
+          "title": "Lanterns Writer Tom King Explains Why [SPOILER] Got Away With Killing Hal Jordan",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "f412f81c-lanterns-writer-tom-king-explains-why-spoiler-got-away-with-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-13T09:35:14.260Z",
       "status": "success",
@@ -2250,32 +2282,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-03T16:41:43.750Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 246,
-      "totalCandidates": 96,
-      "written": [
-        {
-          "title": "GTA 6 Interview With Rockstar President Cancelled Over \"Personal Reasons\"",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 14,
-          "slug": "2816d9e5-gta-6-interview-with-rockstar-president-cancelled-over-perso"
-        },
-        {
-          "title": " Bored with roguelikes? You might still want to play Dicevaders, a game about perfecting dice rolls ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "6c2b3465-bored-with-roguelikes-you-might-still-want-to-play-dicevader"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-13T09:35:14.260Z"
+  "lastUpdated": "2026-10-13T13:06:40.017Z"
 }
