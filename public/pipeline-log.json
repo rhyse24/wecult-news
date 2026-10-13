@@ -1,6 +1,39 @@
 {
-  "totalArticles": 2170,
+  "totalArticles": 2172,
   "runs": [
+    {
+      "timestamp": "2026-10-13T04:15:38.108Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 210,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Epic Games delays Disney game and tells developers to go \"AI first\"",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 12,
+          "slug": "fa660cb6-epic-games-delays-disney-game-and-tells-developers-to-go-ai-"
+        },
+        {
+          "title": "The Resident Evil movie gets the Kojima Paragraph of Approval: ‘It’s a film about the experience of playing RE with a controller in hand’",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 12,
+          "slug": "97863bf8-the-resident-evil-movie-gets-the-kojima-paragraph-of-approva"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Sorry, Street Fighter Movie, But Mondo Just Won The Poster Fight",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-13T01:05:15.629Z",
       "status": "quota",
@@ -2248,47 +2281,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-03T05:19:02.476Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 52,
-      "written": [
-        {
-          "title": "5 TV Shows To Watch If You Like Chad Powers",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "202896a5-5-tv-shows-to-watch-if-you-like-chad-powers"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Coven Academy Creator Breaks Down Season 1's Biggest Cliffhangers, Including The Kiss You Didn't See — Grade The Disney+ Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 19,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Save The Dates: Percy Jackson On Netflix, Beavis And Butt-Head Returns, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Disney remembers it can license exclusive content to Netflix for money",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-13T01:05:15.629Z"
+  "lastUpdated": "2026-10-13T04:15:38.108Z"
 }
