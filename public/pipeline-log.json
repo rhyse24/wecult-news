@@ -1,6 +1,32 @@
 {
-  "totalArticles": 2172,
+  "totalArticles": 2173,
   "runs": [
+    {
+      "timestamp": "2026-10-13T06:01:12.747Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 209,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "‘Breaking Bad’ Star RJ Mitte’s Cause of Death Confirmed as Suicide",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "1bbef588-breaking-bad-star-rj-mittes-cause-of-death-confirmed-as-suic"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Bryan Cranston Pays Tribute To Breaking Bad's RJ Mitte After His Death: 'I'll Miss You, Son'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-13T04:15:38.108Z",
       "status": "quota",
@@ -2249,39 +2275,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-03T09:14:35.065Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 269,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "‘I thought, if I’m going to die, I’m going to write a book first’: Pachinko author Min Jin Lee",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 11,
-          "slug": "d7860557-i-thought-if-im-going-to-die-im-going-to-write-a-book-first-"
-        },
-        {
-          "title": "The Transformers/G.I. Joe Crossover Movie Is Dead, and Danny McBride and Bradley Cooper’s G.I. Joe Movie Is Replacing It",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 9,
-          "slug": "b467bccf-the-transformersgi-joe-crossover-movie-is-dead-and-danny-mcb"
-        },
-        {
-          "title": "Fear Is a Universal Language: Seven Recent Works of Horror in Translation",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 9,
-          "slug": "6fae2853-fear-is-a-universal-language-seven-recent-works-of-horror-in"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-13T04:15:38.108Z"
+  "lastUpdated": "2026-10-13T06:01:12.747Z"
 }
