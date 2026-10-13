@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2169,
+  "totalArticles": 2170,
   "runs": [
+    {
+      "timestamp": "2026-10-13T01:05:15.629Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 207,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "VisionQuest Review: This Lazy Marvel Spin-Off Lacks Creative Vision",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "slug": "57adf4e3-visionquest-review-this-lazy-marvel-spin-off-lacks-creative-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-12T22:01:16.864Z",
       "status": "success",
@@ -2270,25 +2288,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-03T01:32:04.650Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 52,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Coven Academy Creator Breaks Down Season 1's Biggest Cliffhangers, Including The Kiss You Didn't See — Grade The Disney+ Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 19,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-12T22:01:16.864Z"
+  "lastUpdated": "2026-10-13T01:05:15.629Z"
 }
