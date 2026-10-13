@@ -1,0 +1,34 @@
+{
+  "id": "fa660cb6-epic-games-delays-disney-game-and-tells-developers-to-go-ai-",
+  "slug": "fa660cb6-epic-games-delays-disney-game-and-tells-developers-to-go-ai-",
+  "category": "games",
+  "author": "WeCult Editorial",
+  "source_name": "GamesIndustry.biz",
+  "source_url": "https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first",
+  "original_title": "Epic Games delays Disney game and tells developers to go \"AI first\"",
+  "published_at": "2026-10-13T04:18:31.081Z",
+  "source_published_at": "2026-10-12T19:54:58.000Z",
+  "fetched_at": "2026-10-13T04:18:31.081Z",
+  "summary_en": "Epic Games has reportedly delayed its highly anticipated multiplayer shooter, a collaboration with Walt Disney featuring Marvel and Star Wars characters. The unexpected shift stems from a directive for developers to embrace an 'AI first' production model.",
+  "ai_analysis": "This move signals a significant industry pivot, pushing generative AI from a supplementary tool to the core of game development, with potential implications for creative workflows and the final product.",
+  "story_type": "breaking",
+  "article_type": "breaking",
+  "translations": {
+    "en": {
+      "title": "Epic Games Halts Disney Shooter, Demands 'AI First' Development",
+      "summary": "Epic Games has reportedly delayed its highly anticipated multiplayer shooter, a collaboration with Walt Disney featuring Marvel and Star Wars characters. The unexpected shift stems from a directive for developers to embrace an 'AI first' production model.",
+      "body": "The ambitious collaboration between **Epic Games** and **Walt Disney Co.**, a multiplayer shooter intended to bring together iconic characters from the **Marvel** and **Star Wars** universes, has hit a major development snag. Originally slated for a March release, and at one point targeted for November 2026, the game's launch has been indefinitely postponed. The primary driver behind this delay isn't a technical hurdle or a content shortfall, but a fundamental change in development philosophy.\n\nSources from Bloomberg and GamesIndustry.biz reveal that **Epic Games** has instructed the development team to fundamentally retool their workflow. The directive is to adopt an \"AI first\" production model, moving away from traditional, hand-written code and established art pipelines. Instead, developers are being encouraged to leverage generative AI tools, such as **Anthropic's Claude**, for both code generation and asset creation. This represents a dramatic shift, prioritizing AI-driven processes over conventional development methods, raising questions about the project's future direction and the very nature of game creation.\n\n## A New Direction for Game Development?\n\nThis pivot to an \"AI first\" approach is more than just a production adjustment; it's a potential paradigm shift for the industry. While generative AI has been explored for various aspects of game development, from concept art to dialogue generation, **Epic Games'** directive suggests a commitment to making it the *primary* engine of creation. This move could accelerate development cycles and unlock new creative possibilities, but it also raises concerns among developers about job security and the potential homogenization of game design if AI-generated content becomes the norm without significant human oversight. Internal reviews, as reported, have already flagged concerns regarding the originality of the game's mechanics, which could be exacerbated by an over-reliance on AI tools.\n\n## What This Means for Fans\n\nFor fans eagerly awaiting a crossover of **Marvel** and **Star Wars** characters in a **Fortnite**-esque shooter experience, this news is undoubtedly a disappointment. The delay, coupled with the radical shift in development strategy, means the wait will be longer than anticipated. More importantly, it introduces an element of uncertainty about the final game. Will an \"AI first\" approach lead to a more innovative and unique experience, or will it result in a product that feels less handcrafted and more generic? The concerns about gameplay originality suggest that the path forward may be challenging, and the community will be watching closely to see how **Epic Games** balances AI capabilities with creative vision and player expectations.\n\n## What's Next\n\nWith the release date now unspecified, the focus shifts entirely to how **Epic Games** implements its \"AI first\" strategy. Details on the new production timeline and the specific AI tools being utilized beyond **Claude** have not yet been announced. Players will need to await further updates from **Epic Games** regarding the game's progress and revised launch window."
+    },
+    "tr": null,
+    "es": null
+  },
+  "content_raw": "Epic Games has delayed its upcoming Disney collaboration - a shooter featuring characters from the Marvel and Star Wars franchises - and told developers to move to an \"AI first\" production model. Read more",
+  "tags": [
+    "games",
+    "epic",
+    "disney",
+    "marvel"
+  ],
+  "image_url": "/article-images/fa660cb6.avif",
+  "trending_score": 12
+}
