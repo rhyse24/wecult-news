@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2179,
+  "totalArticles": 2182,
   "runs": [
+    {
+      "timestamp": "2026-10-13T16:46:25.184Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 261,
+      "totalCandidates": 92,
+      "written": [
+        {
+          "title": "Resident Evil’s Nintendo return shines brightest with stellar Switch 2 remake trilogy",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 18,
+          "slug": "3d17bf44-resident-evils-nintendo-return-shines-brightest-with-stellar"
+        },
+        {
+          "title": "Dan Houser Reveals Rockstar’s Struggle to Make Bully",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "67b52131-dan-houser-reveals-rockstars-struggle-to-make-bully"
+        },
+        {
+          "title": "God of War Laufey’s collector’s edition doesn’t even include the game",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 15,
+          "slug": "609db120-god-of-war-laufeys-collectors-edition-doesnt-even-include-th"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Wuxia, Anime, and Giant Hair: Street Fighter Director Explains ‘90s Influences",
+          "category": "games",
+          "source": "Den of Geek Games",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-13T13:06:40.017Z",
       "status": "success",
@@ -2250,39 +2290,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-03T20:21:04.488Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 244,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "‘Coven Academy’ Creator Breaks Down Briar’s Family Tree, Dark Magic as an Addiction Metaphor, ‘Misogyny’ Against Witches — and a Deleted Kiss Scene",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 19,
-          "slug": "854742be-coven-academy-creator-breaks-down-briars-family-tree-dark-ma"
-        },
-        {
-          "title": "Every Time Mariska Hargitay Played Olivia Benson Outside Of Law & Order: SVU",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "913eeb57-every-time-mariska-hargitay-played-olivia-benson-outside-of-"
-        },
-        {
-          "title": "Jerry Golod, Producer of ‘Tales From the Darkside’ and Former CBS And NBC Executive, Dies at 87",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "4109e72e-jerry-golod-producer-of-tales-from-the-darkside-and-former-c"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-13T13:06:40.017Z"
+  "lastUpdated": "2026-10-13T16:46:25.184Z"
 }
