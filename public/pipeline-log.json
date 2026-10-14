@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2190,
+  "totalArticles": 2192,
   "runs": [
+    {
+      "timestamp": "2026-10-14T22:01:12.008Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 54,
+      "written": [
+        {
+          "title": "Exit poll: What's going to keep you watching VisionQuest?",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 17,
+          "slug": "caef44b4-exit-poll-whats-going-to-keep-you-watching-visionquest"
+        },
+        {
+          "title": "Why Paladin From Marvel's VisionQuest Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "10561b5d-why-paladin-from-marvels-visionquest-looks-so-familiar"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-14T20:26:00.895Z",
       "status": "quota",
@@ -2178,39 +2203,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-05T02:01:20.636Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 172,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "‘Lanterns’ Finale: Hal Jordan’s Killer and Manhunter Revealed, Sinestro Creates [SPOILER], John Stewart Powers Up for ‘Superman’ Sequel",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 19,
-          "slug": "6cc08993-lanterns-finale-hal-jordans-killer-and-manhunter-revealed-si"
-        },
-        {
-          "title": "Lanterns Finale Solves The Mystery Of Hal's Death And Reveals Another [Spoiler] — Read Recap, And Grade The Episode!",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "82265a5f-lanterns-finale-solves-the-mystery-of-hals-death-and-reveals"
-        },
-        {
-          "title": "Burt Reynolds Starred In One Of The Twilight Zone's Worst Episodes",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "4e8780ed-burt-reynolds-starred-in-one-of-the-twilight-zones-worst-epi"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-14T20:26:00.895Z"
+  "lastUpdated": "2026-10-14T22:01:12.008Z"
 }
