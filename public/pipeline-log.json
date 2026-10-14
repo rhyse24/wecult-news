@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2186,
+  "totalArticles": 2189,
   "runs": [
+    {
+      "timestamp": "2026-10-14T09:50:53.567Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 274,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Noah Centineo, Andrew Koji’s ‘Street Fighter’: First Reactions",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "a25efde9-noah-centineo-andrew-kojis-street-fighter-first-reactions"
+        },
+        {
+          "title": "Wuxia, Anime, and Giant Hair: Street Fighter Director Explains ‘90s Influences",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "slug": "8fdefb28-wuxia-anime-and-giant-hair-street-fighter-director-explains-"
+        },
+        {
+          "title": "Edinburgh Film Festival Reveals Dates for 2027 Edition (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "af9d2446-edinburgh-film-festival-reveals-dates-for-2027-edition-exclu"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Only 4 Star Wars Movies Are Kind of Bad",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-14T06:01:13.112Z",
       "status": "quota",
@@ -2214,39 +2254,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-04T14:19:20.963Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 184,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "10 Longest-Running Netflix Original Shows (So Far)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "d2ce795c-10-longest-running-netflix-original-shows-so-far"
-        },
-        {
-          "title": "Yellowstone Creator Taylor Sheridan's Acting Debut Was On Walker, Texas Ranger",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "3c9288db-yellowstone-creator-taylor-sheridans-acting-debut-was-on-wal"
-        },
-        {
-          "title": "Why Aron Trask From Netflix's East Of Eden Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "4fb538b5-why-aron-trask-from-netflixs-east-of-eden-looks-so-familiar"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-14T06:01:13.112Z"
+  "lastUpdated": "2026-10-14T09:50:53.567Z"
 }
