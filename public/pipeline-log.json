@@ -2,6 +2,16 @@
   "totalArticles": 2190,
   "runs": [
     {
+      "timestamp": "2026-10-14T20:26:00.895Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 281,
+      "totalCandidates": 51,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-10-14T17:18:18.544Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2200,39 +2210,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-04T22:06:03.811Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 172,
-      "totalCandidates": 19,
-      "written": [
-        {
-          "title": "James Gunn Confirms He’s ‘Already’ Writing His Next Film Ahead of ‘Superman: Man of Tomorrow’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "f9b65218-james-gunn-confirms-hes-already-writing-his-next-film-ahead-"
-        },
-        {
-          "title": "10 Unconfirmed Characters Who Might Appear in ‘Avengers: Doomsday’",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "20e0200f-10-unconfirmed-characters-who-might-appear-in-avengers-dooms"
-        },
-        {
-          "title": "Box Office: ‘Digger’ Majorly Bombs With $8 Million Opening Weekend, ‘Verity’ Scores $32 Million Debut",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "2394685d-box-office-digger-majorly-bombs-with-8-million-opening-weeke"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-14T17:18:18.544Z"
+  "lastUpdated": "2026-10-14T20:26:00.895Z"
 }
