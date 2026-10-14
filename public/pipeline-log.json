@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2185,
+  "totalArticles": 2186,
   "runs": [
+    {
+      "timestamp": "2026-10-14T04:05:00.070Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Avatar: Seven Havens Creators Respond to Criticisms of Korra’s Portrayal",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "58659e74-avatar-seven-havens-creators-respond-to-criticisms-of-korras"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-14T00:01:14.140Z",
       "status": "quota",
@@ -2265,25 +2283,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-04T06:20:17.401Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 232,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "Pee-Wee Herman Actor Paul Reubens Played A Batman Villain You Probably Forgot About",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "d523b287-pee-wee-herman-actor-paul-reubens-played-a-batman-villain-yo"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-14T00:01:14.140Z"
+  "lastUpdated": "2026-10-14T04:05:00.070Z"
 }
