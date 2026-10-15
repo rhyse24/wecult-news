@@ -1,6 +1,53 @@
 {
-  "totalArticles": 2195,
+  "totalArticles": 2198,
   "runs": [
+    {
+      "timestamp": "2026-10-15T08:01:12.312Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "VisionQuest's Paladin Explained: What To Know About Todd Stashwick's Marvel Character",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "slug": "c113509b-visionquests-paladin-explained-what-to-know-about-todd-stash"
+        },
+        {
+          "title": "VisionQuest Episode 1 Recycles The Scariest Plot Point Of WandaVision",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "slug": "a851647b-visionquest-episode-1-recycles-the-scariest-plot-point-of-wa"
+        },
+        {
+          "title": "Every Major House & Faction In Dune Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "slug": "75f28fee-every-major-house-faction-in-dune-explained"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Street Fighter: Ryu and Ken's Fight Flooded the Set | Collider BTS",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Marvel's VisionQuest Leaves Critics Stunned In First Reactions",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-15T06:01:23.217Z",
       "status": "quota",
@@ -2157,25 +2204,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-05T20:37:30.914Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 248,
-      "totalCandidates": 76,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Marvel Rivals Fan Adds Resident Evil's Ada Wong As Free Psylocke Mod",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-15T06:01:23.217Z"
+  "lastUpdated": "2026-10-15T08:01:12.312Z"
 }
