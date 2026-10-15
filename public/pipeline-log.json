@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2202,
+  "totalArticles": 2204,
   "runs": [
+    {
+      "timestamp": "2026-10-15T18:01:23.578Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 282,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "‘Street Fighter’ Review: Video Game Fighter Film Knocks Itself Unconscious",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "f29fd1d9-street-fighter-review-video-game-fighter-film-knocks-itself-"
+        },
+        {
+          "title": "“The Diplomat” Season 4 Finds New Ways to Up the Series’ Geopolitical and Interpersonal Stakes",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 15,
+          "slug": "8a833f4d-the-diplomat-season-4-finds-new-ways-to-up-the-series-geopol"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-15T14:37:58.701Z",
       "status": "quota",
@@ -2182,32 +2207,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-06T04:01:15.004Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 251,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "Why Did Tom Cruise’s ‘Digger’ Hit Rock Bottom at the Box Office?",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "5113e21b-why-did-tom-cruises-digger-hit-rock-bottom-at-the-box-office"
-        },
-        {
-          "title": "John Leguizamo on ‘The Odyssey,’ Non-Traditional Casting and Being Uninvited From ‘Spider-Man: Homecoming’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "6e5a7b57-john-leguizamo-on-the-odyssey-non-traditional-casting-and-be"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-15T14:37:58.701Z"
+  "lastUpdated": "2026-10-15T18:01:23.578Z"
 }
