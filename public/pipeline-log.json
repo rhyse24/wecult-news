@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2198,
+  "totalArticles": 2201,
   "runs": [
+    {
+      "timestamp": "2026-10-15T11:17:10.788Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 269,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "‘The Unheard’ Netflix Limited Series Starring Kate Winslet & Maxine Peake: What We Know So Far",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "9d04e24a-the-unheard-netflix-limited-series-starring-kate-winslet-max"
+        },
+        {
+          "title": "Netflix’s ‘Victorious’ Spinoff ‘Hollywood Arts’ Is a Bland Copy of Shows From a Past Era: TV Review",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "68db2b99-netflixs-victorious-spinoff-hollywood-arts-is-a-bland-copy-o"
+        },
+        {
+          "title": "VisionQuest: Tommy Maximoff’s Story Is Even Weirder in the Comics",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 12,
+          "slug": "f6ac23e7-visionquest-tommy-maximoffs-story-is-even-weirder-in-the-com"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "What To Watch Thursday: The 9-1-1s, Grey's Anatomy, And The Diplomat Return, Crystal Lake Premieres, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-15T08:01:12.312Z",
       "status": "success",
@@ -2179,32 +2222,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-06T00:07:54.173Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 254,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "Marvel Rivals Fan Adds Resident Evil's Ada Wong As Free Psylocke Mod",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "slug": "5fc42253-marvel-rivals-fan-adds-resident-evils-ada-wong-as-free-psylo"
-        },
-        {
-          "title": "Ubisoft Boss Says Watch Dogs Is 'Important' to Company's Future, But Don't Expect Any New Entries Anytime Soon",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "51c8219e-ubisoft-boss-says-watch-dogs-is-important-to-companys-future"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-15T08:01:12.312Z"
+  "lastUpdated": "2026-10-15T11:17:10.788Z"
 }
