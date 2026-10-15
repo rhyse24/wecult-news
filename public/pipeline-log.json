@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2201,
+  "totalArticles": 2202,
   "runs": [
+    {
+      "timestamp": "2026-10-15T14:37:58.701Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Street Fighter Could Be In For A Rough First Round At The Box Office",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 16,
+          "slug": "bfa8439f-street-fighter-could-be-in-for-a-rough-first-round-at-the-bo"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-15T11:17:10.788Z",
       "status": "success",
@@ -2189,40 +2207,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-06T02:01:11.543Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 252,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "‘Coven Academy’ Star Malina Weissman Unpacks Briar’s Backstory, Her Take on the Love Triangle and Her Hopes for Season 2",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "b0055d6c-coven-academy-star-malina-weissman-unpacks-briars-backstory-"
-        },
-        {
-          "title": "Lanterns Nearly Brought In Members Of The Green Lantern Corps For One Major Scene",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "1ccb7187-lanterns-nearly-brought-in-members-of-the-green-lantern-corp"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "One Of The Twilight Zone's Greatest Episodes Starred A Future Batman Villain",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-15T11:17:10.788Z"
+  "lastUpdated": "2026-10-15T14:37:58.701Z"
 }
