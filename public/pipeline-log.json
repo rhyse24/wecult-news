@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2220,
+  "totalArticles": 2222,
   "runs": [
+    {
+      "timestamp": "2026-10-16T22:01:20.526Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Street Fighter: Cody Rhodes' Daughter Was Born During Filming | Set Stories",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "slug": "329285f5-street-fighter-cody-rhodes-daughter-was-born-during-filming-"
+        },
+        {
+          "title": "6 Forgotten Thrillers That Rival 'Se7en'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 14,
+          "slug": "2cee6bad-6-forgotten-thrillers-that-rival-se7en"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-16T17:57:15.721Z",
       "status": "success",
@@ -2188,39 +2213,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-07T08:55:23.669Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 254,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Mike Flanagan Finds New Power in Story of “Carrie”",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 12,
-          "slug": "be885738-mike-flanagan-finds-new-power-in-story-of-carrie"
-        },
-        {
-          "title": "The Batman: Part II Can’t Seem to Catch a Break",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 8,
-          "slug": "29952367-the-batman-part-ii-cant-seem-to-catch-a-break"
-        },
-        {
-          "title": "Singapore Film Festival Stands by ‘The Assassin(s)’ After Korean Conservatives Demand It Be Dropped",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "3c506e6f-singapore-film-festival-stands-by-the-assassins-after-korean"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-16T17:57:15.721Z"
+  "lastUpdated": "2026-10-16T22:01:20.526Z"
 }
