@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2212,
+  "totalArticles": 2215,
   "runs": [
+    {
+      "timestamp": "2026-10-16T10:31:16.736Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "New to Streaming: Hope, Buddy, Rose of Nevada, The Sun Never Sets & More",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 17,
+          "slug": "94ae377c-new-to-streaming-hope-buddy-rose-of-nevada-the-sun-never-set"
+        },
+        {
+          "title": "Robert De Niro’s Greatest Crime Thriller Is Officially on Netflix",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "edd75d26-robert-de-niros-greatest-crime-thriller-is-officially-on-net"
+        },
+        {
+          "title": "‘The Mandalorian and Grogu’ VFX Veteran Hal Hickel on Rotta’s Redesign, Phil Tippett and Jon Favreau’s ‘Less James Bond, More Jackass’ Approach",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "1188fb9a-the-mandalorian-and-grogu-vfx-veteran-hal-hickel-on-rottas-r"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Street Fighter Review: A Star-Studded, Violent, Love Letter to the ‘90s",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-16T06:56:29.704Z",
       "status": "success",
@@ -2181,32 +2221,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-06T23:39:59.953Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 265,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "20 Greatest Movie Villains Of The 2000s",
-          "category": "film",
-          "source": "WhatCulture Film",
-          "score": 12,
-          "slug": "8d273d36-20-greatest-movie-villains-of-the-2000s"
-        },
-        {
-          "title": "Saoirse Ronan Responds to Rumors That Husband Jack Lowden Will Be the Next James Bond",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "c68bae41-saoirse-ronan-responds-to-rumors-that-husband-jack-lowden-wi"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-16T06:56:29.704Z"
+  "lastUpdated": "2026-10-16T10:31:16.736Z"
 }
