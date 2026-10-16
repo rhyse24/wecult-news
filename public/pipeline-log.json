@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2217,
+  "totalArticles": 2220,
   "runs": [
+    {
+      "timestamp": "2026-10-16T17:57:15.721Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 264,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Netflix’s Odd Alien Comedy From the Makers of ‘Bluey’ Gets a Release Date and Teaser",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "509d3d51-netflixs-odd-alien-comedy-from-the-makers-of-bluey-gets-a-re"
+        },
+        {
+          "title": "Did Tulsa King's [Spoiler] And [Spoiler] Just Die In Season 4 Premiere?! — Read Recap",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "bfc5b7c3-did-tulsa-kings-spoiler-and-spoiler-just-die-in-season-4-pre"
+        },
+        {
+          "title": "What To Watch Friday: Tulsa King And Rainmaker Return, New Dark Matter And MobLand, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "ec26c573-what-to-watch-friday-tulsa-king-and-rainmaker-return-new-dar"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-16T14:04:32.635Z",
       "status": "quota",
@@ -2188,32 +2220,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-07T05:37:01.929Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 256,
-      "totalCandidates": 87,
-      "written": [
-        {
-          "title": "Resident Evil games engagement leapt 50% following release of Zach Cregger's movie, but analysts say real value is in brand building",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 14,
-          "slug": "830ce7ce-resident-evil-games-engagement-leapt-50-following-release-of"
-        },
-        {
-          "title": "Xbox Reportedly Secures Exclusive Cloud Streaming Rights to GTA 6, Could Make Game Playable on PC at Launch",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "3037fe7f-xbox-reportedly-secures-exclusive-cloud-streaming-rights-to-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-16T14:04:32.635Z"
+  "lastUpdated": "2026-10-16T17:57:15.721Z"
 }
