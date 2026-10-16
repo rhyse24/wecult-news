@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2215,
+  "totalArticles": 2217,
   "runs": [
+    {
+      "timestamp": "2026-10-16T14:04:32.635Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 273,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Here's Our First Look at Dark Link in The Legend of Zelda: Ocarina of Time Remake",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "38b3084b-heres-our-first-look-at-dark-link-in-the-legend-of-zelda-oca"
+        },
+        {
+          "title": "The Live-Action Cyberpunk 2077 Movie Won't Retrace the Game's Steps, CD Projekt Confirms",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "2aabba31-the-live-action-cyberpunk-2077-movie-wont-retrace-the-games-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-16T10:31:16.736Z",
       "status": "success",
@@ -2188,40 +2213,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-07T02:32:26.849Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 260,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "Lanterns Finale Leaves Open the Comic Book Story of Hal Jordan’s Return",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 13,
-          "slug": "3fd81d1d-lanterns-finale-leaves-open-the-comic-book-story-of-hal-jord"
-        },
-        {
-          "title": "Disney's Percy Jackson Series Is Finding A New Audience On A Different Streaming Service",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "8b167a15-disneys-percy-jackson-series-is-finding-a-new-audience-on-a-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Lanterns Creators Sort of Clarify John Stewart’s Status After the Finale",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-16T10:31:16.736Z"
+  "lastUpdated": "2026-10-16T14:04:32.635Z"
 }
