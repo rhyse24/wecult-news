@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2222,
+  "totalArticles": 2224,
   "runs": [
+    {
+      "timestamp": "2026-10-17T02:04:36.593Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 269,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "Whalefall restores the lost art of the movie tagline",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "0407b62e-whalefall-restores-the-lost-art-of-the-movie-tagline"
+        },
+        {
+          "title": "Crystal Lake Finale Includes A Major Throwback To Friday The 13th Part 2",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "7bcdc645-crystal-lake-finale-includes-a-major-throwback-to-friday-the"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-16T22:01:20.526Z",
       "status": "quota",
@@ -2181,39 +2206,7 @@
       "totalCandidates": 39,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-07T12:23:36.988Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 254,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "What To Watch Wednesday: #OneChicago And Abbott Elementary Return, Carrie And Small Prophets Debut, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "9940e933-what-to-watch-wednesday-onechicago-and-abbott-elementary-ret"
-        },
-        {
-          "title": "Disney+ to Name New Australia Commissioner, Keeps Southeast Asia ‘On the Menu’ as It Triples Local Output",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "e62351ce-disney-to-name-new-australia-commissioner-keeps-southeast-as"
-        },
-        {
-          "title": "Why Netflix's East Of Eden Made Florence Pugh's Cathy The Central Character",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "cddee886-why-netflixs-east-of-eden-made-florence-pughs-cathy-the-cent"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-16T22:01:20.526Z"
+  "lastUpdated": "2026-10-17T02:04:36.593Z"
 }
