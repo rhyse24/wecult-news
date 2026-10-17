@@ -1,6 +1,63 @@
 {
-  "totalArticles": 2227,
+  "totalArticles": 2230,
   "runs": [
+    {
+      "timestamp": "2026-10-17T10:16:54.497Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 264,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "‘Street Fighter’ Cast Guide: All the WWE Stars, UFC Champs and Celebs Playing Video Game Fighters in the Live-Action Movie",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "f18369c2-street-fighter-cast-guide-all-the-wwe-stars-ufc-champs-and-c"
+        },
+        {
+          "title": "The Impossible ‘Whalefall’: Director Brian Duffield Wanted a Challenge, So He Discovered a Way to Crush Austin Abrams in a Whale Stomach That Left Onlookers ‘Baffled’",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "95da3970-the-impossible-whalefall-director-brian-duffield-wanted-a-ch"
+        },
+        {
+          "title": "‘Red Rising’ Movie in the Works at Paramount With ‘Hunger Games’ Director Francis Lawrence",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "75f78900-red-rising-movie-in-the-works-at-paramount-with-hunger-games"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "“Tulsa King,” and Stallone, Start to Show Their Age in Season 4",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        },
+        {
+          "title": "Street Fighter Review: A Star-Studded, Violent, Love Letter to the ‘90s",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The Ending Of Street Fighter (2026) Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-17T06:10:56.338Z",
       "status": "success",
@@ -2210,25 +2267,7 @@
       "totalCandidates": 31,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-07T19:48:48.213Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 260,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Kyle Chandler Says Hal and Halogram Were “Never Fully Separated” in Lanterns",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 16,
-          "slug": "286102ca-kyle-chandler-says-hal-and-halogram-were-never-fully-separat"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-17T06:10:56.338Z"
+  "lastUpdated": "2026-10-17T10:16:54.497Z"
 }
