@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2230,
+  "totalArticles": 2233,
   "runs": [
+    {
+      "timestamp": "2026-10-17T14:26:12.025Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 261,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "J.K. Rowling’s Agent Slams Trans Rights Protest at ‘Harry Potter and the Cursed Child’ in London: It Put ‘Others at Risk’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "195385da-jk-rowlings-agent-slams-trans-rights-protest-at-harry-potter"
+        },
+        {
+          "title": "‘The Diplomat’ Composer Marcelo Zarvos Reveals the Inspiration Behind the Wylers’ “Devil’s Waltz”",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 8,
+          "slug": "0c636994-the-diplomat-composer-marcelo-zarvos-reveals-the-inspiration"
+        },
+        {
+          "title": "Heath Ledger Played An Irish Prince In A Forgotten Fantasy Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 7,
+          "slug": "64cd23ff-heath-ledger-played-an-irish-prince-in-a-forgotten-fantasy-s"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Kal Penn says there's still enough stupid in the chamber for Harold & Kumar 4",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-17T10:16:54.497Z",
       "status": "success",
@@ -2257,17 +2300,7 @@
       "totalCandidates": 29,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-07T23:09:48.086Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 259,
-      "totalCandidates": 31,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-17T10:16:54.497Z"
+  "lastUpdated": "2026-10-17T14:26:12.025Z"
 }
