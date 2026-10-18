@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2240,
+  "totalArticles": 2243,
   "runs": [
+    {
+      "timestamp": "2026-10-18T11:47:07.038Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 208,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Austin Abrams Still Won’t Admit Which Was Tougher to Shoot, ‘Whalefall’ or ‘Resident Evil’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 12,
+          "slug": "6fbe736f-austin-abrams-still-wont-admit-which-was-tougher-to-shoot-wh"
+        },
+        {
+          "title": "The Ending Of Street Fighter (2026) Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 10,
+          "slug": "594b8c8d-the-ending-of-street-fighter-2026-explained"
+        },
+        {
+          "title": "Quentin Tarantino Confirms He’s ‘Written a Script’ for His Tenth Film, But Won’t Pursue It Yet Because He Wants to ‘Live a Little’",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "af291c30-quentin-tarantino-confirms-hes-written-a-script-for-his-tent"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-18T08:01:05.082Z",
       "status": "success",
@@ -2250,47 +2282,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-08T14:13:22.365Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 77,
-      "written": [
-        {
-          "title": "Hellraiser: Revival Review",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "a89a5671-hellraiser-revival-review"
-        },
-        {
-          "title": "How to solve Basement Door Puzzle #8 in Disney Dreamlight Valley Haunted Floating Festival event",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 15,
-          "slug": "5b267ceb-how-to-solve-basement-door-puzzle-8-in-disney-dreamlight-val"
-        },
-        {
-          "title": "Xbox announces new XP division to deliver transmedia spinoffs including film, TV, and theme parks",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 14,
-          "slug": "8c58246c-xbox-announces-new-xp-division-to-deliver-transmedia-spinoff"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Resident Evil Requiem’s Expansion Will Focus on Oswell Spencer, Says Screenwriter",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-18T08:01:05.082Z"
+  "lastUpdated": "2026-10-18T11:47:07.038Z"
 }
