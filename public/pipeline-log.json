@@ -1,6 +1,39 @@
 {
-  "totalArticles": 2234,
+  "totalArticles": 2236,
   "runs": [
+    {
+      "timestamp": "2026-10-18T02:11:13.686Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 231,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "‘Street Fighter’ Scoring $31M at Box Office as ‘You Can See Everything’ Rises and ‘Whalefall’ Sinks",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "bb83502a-street-fighter-scoring-31m-at-box-office-as-you-can-see-ever"
+        },
+        {
+          "title": "James McAvoy Says ‘Split’ Is The Only Film That ‘Really Consistently Pays Me’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "77b56f7c-james-mcavoy-says-split-is-the-only-film-that-really-consist"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Austin Abrams Still Won’t Admit Which Was Tougher to Shoot, ‘Whalefall’ or ‘Resident Evil’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-17T22:30:52.924Z",
       "status": "quota",
@@ -2275,32 +2308,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-08T06:01:34.078Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 256,
-      "totalCandidates": 77,
-      "written": [
-        {
-          "title": "Gears of War E-Day Is a 'Natural Choice to Be an Exclusive' – Studio Head Mike Crump Claims Series Carries the Banner for Xbox",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 18,
-          "slug": "f4db3ab1-gears-of-war-e-day-is-a-natural-choice-to-be-an-exclusive-st"
-        },
-        {
-          "title": "Resident Evil Movie Will Become Zach Cregger’s Biggest Ever, Surpassing Weapons",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 14,
-          "slug": "6547e94b-resident-evil-movie-will-become-zach-creggers-biggest-ever-s"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-17T22:30:52.924Z"
+  "lastUpdated": "2026-10-18T02:11:13.686Z"
 }
