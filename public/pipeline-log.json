@@ -1,6 +1,35 @@
 {
-  "totalArticles": 2236,
+  "totalArticles": 2237,
   "runs": [
+    {
+      "timestamp": "2026-10-18T06:01:02.655Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 230,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Countdown: Zelda: Ocarina Of Time Dungeon Crawl #5 - This One's Fire, Bro",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 12,
+          "slug": "e0394697-countdown-zelda-ocarina-of-time-dungeon-crawl-5---this-ones-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Resident Evil 2, 3 and 4 Remake Are Now Available on Nintendo Switch 2",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-18T02:11:13.686Z",
       "status": "quota",
@@ -2276,39 +2305,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-08T08:01:14.570Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 254,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "How the ‘Ted Lasso’ Season 4 Finale Sets Up What Comes Next",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 14,
-          "slug": "eed782ac-how-the-ted-lasso-season-4-finale-sets-up-what-comes-next"
-        },
-        {
-          "title": "Josh Hartnett Leads Netflix’s Exhilarating Sea Monster Thriller ‘Below’: TV Review",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "04f19ad6-josh-hartnett-leads-netflixs-exhilarating-sea-monster-thrill"
-        },
-        {
-          "title": "Will Dutton Ranch And Marshals Season 2 Have A Crossover? Yellowstone Spin-Off Showrunner Responds",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "a949f30e-will-dutton-ranch-and-marshals-season-2-have-a-crossover-yel"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-18T02:11:13.686Z"
+  "lastUpdated": "2026-10-18T06:01:02.655Z"
 }
