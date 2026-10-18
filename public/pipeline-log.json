@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2246,
+  "totalArticles": 2247,
   "runs": [
+    {
+      "timestamp": "2026-10-18T19:26:54.105Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 179,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "HBO's Westworld Had A Subtle Game Of Thrones 'Crossover' In Season 3",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "e6d4d9f4-hbos-westworld-had-a-subtle-game-of-thrones-crossover-in-sea"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-18T15:33:33.758Z",
       "status": "success",
@@ -2271,17 +2289,7 @@
       "totalCandidates": 36,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-08T19:23:48.984Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 265,
-      "totalCandidates": 37,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-18T15:33:33.758Z"
+  "lastUpdated": "2026-10-18T19:26:54.105Z"
 }
