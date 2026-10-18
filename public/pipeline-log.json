@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2237,
+  "totalArticles": 2240,
   "runs": [
+    {
+      "timestamp": "2026-10-18T08:01:05.082Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 230,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "15 The Twilight Zone Episodes Everyone Should Watch At Least Once",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "743d0285-15-the-twilight-zone-episodes-everyone-should-watch-at-least"
+        },
+        {
+          "title": "‘Dancing With the Stars’ Pulls Val Chmerkovskiy After ‘Inappropriate’ Carrie Ann Inaba Slap Joke: ‘The Well-Being’ of Our Staff Is ‘Non-Negotiable’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "9f7ef7e4-dancing-with-the-stars-pulls-val-chmerkovskiy-after-inapprop"
+        },
+        {
+          "title": "Mike Flanagan's Only Unfinished Netflix Series Is An Underrated Horror Gem",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 7,
+          "slug": "8532ee5c-mike-flanagans-only-unfinished-netflix-series-is-an-underrat"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-18T06:01:02.655Z",
       "status": "quota",
@@ -2258,54 +2290,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-08T11:03:34.189Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 249,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "Only 3 Stephen King Movies Are Better Than 'The Shining'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "slug": "cf5b8112-only-3-stephen-king-movies-are-better-than-the-shining"
-        },
-        {
-          "title": "Wim Wenders Boards Peter Lindbergh Documentary ‘Truth:Beauty’",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "177efb77-wim-wenders-boards-peter-lindbergh-documentary-truthbeauty"
-        },
-        {
-          "title": "Nathan Fielder’s Elizabeth Holmes Doc ‘You Can See Everything’ Sets November U.K. Release Date",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "6d3f3143-nathan-fielders-elizabeth-holmes-doc-you-can-see-everything-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "5 Movies To Watch If You Like Tom Cruise's Digger",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "5 Best TV Shows Like Carrie",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-18T06:01:02.655Z"
+  "lastUpdated": "2026-10-18T08:01:05.082Z"
 }
