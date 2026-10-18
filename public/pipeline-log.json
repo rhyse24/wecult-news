@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2233,
+  "totalArticles": 2234,
   "runs": [
+    {
+      "timestamp": "2026-10-17T22:30:52.924Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 234,
+      "totalCandidates": 17,
+      "written": [
+        {
+          "title": "What to Watch and Read This Weekend: I Don’t Know What to Do With the Netflix Volcano Sacrifice Movie",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "slug": "23e1c4da-what-to-watch-and-read-this-weekend-i-dont-know-what-to-do-w"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-17T18:43:50.250Z",
       "status": "quota",
@@ -2282,25 +2300,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-08T04:01:13.724Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 256,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "Sebastian Stan Doesn’t Know How ‘Avengers: Doomsday’ Turned Out, But Says It’s ‘Probably Heartbreaking’: ‘We’ll See Who Makes It’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "696b7e29-sebastian-stan-doesnt-know-how-avengers-doomsday-turned-out-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-17T18:43:50.250Z"
+  "lastUpdated": "2026-10-17T22:30:52.924Z"
 }
