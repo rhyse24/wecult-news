@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2252,
+  "totalArticles": 2255,
   "runs": [
+    {
+      "timestamp": "2026-10-19T12:05:11.444Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 211,
+      "totalCandidates": 76,
+      "written": [
+        {
+          "title": "GTA 6 Release Date: When Does Grand Theft Auto 6 Launch?",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 14,
+          "slug": "865efe32-gta-6-release-date-when-does-grand-theft-auto-6-launch"
+        },
+        {
+          "title": "Modern Warfare 4 Pays Tribute to Call of Duty Co-Creator Vince Zampella",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "ee7f7d5c-modern-warfare-4-pays-tribute-to-call-of-duty-co-creator-vin"
+        },
+        {
+          "title": "Xbox Game Pass Is Losing 8 More Games In October",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "e9c8ba52-xbox-game-pass-is-losing-8-more-games-in-october"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Modder Uses AI to Put Shadow of War's Nemesis System in Rockstar's Red Dead Redemption 2",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-19T08:52:13.291Z",
       "status": "success",
@@ -2250,39 +2293,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-09T12:27:52.290Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 78,
-      "written": [
-        {
-          "title": "Final Fantasy 7 Remake Intergrade Drops to New All-Time Low Price on Switch 2",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "6d9c5fe2-final-fantasy-7-remake-intergrade-drops-to-new-all-time-low-"
-        },
-        {
-          "title": "If You Like Scrappy Old Resident Evil Games, I Recommend ANOMALITH's PS5 Demo",
-          "category": "games",
-          "source": "Push Square",
-          "score": 13,
-          "slug": "caa6de03-if-you-like-scrappy-old-resident-evil-games-i-recommend-anom"
-        },
-        {
-          "title": "Dragon Age Lead Mark Darrah Reveals Why The Veilguard Failed",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 12,
-          "slug": "160f8bde-dragon-age-lead-mark-darrah-reveals-why-the-veilguard-failed"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-19T08:52:13.291Z"
+  "lastUpdated": "2026-10-19T12:05:11.444Z"
 }
