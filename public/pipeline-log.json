@@ -2,6 +2,24 @@
   "totalArticles": 2247,
   "runs": [
     {
+      "timestamp": "2026-10-18T23:12:19.602Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 170,
+      "totalCandidates": 17,
+      "written": [],
+      "rejected": [
+        {
+          "title": "10 Most Popular Movie Masterpieces of the Past 6 Years",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-10-18T19:26:54.105Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2279,17 +2297,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-08T22:46:11.188Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 272,
-      "totalCandidates": 36,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-18T19:26:54.105Z"
+  "lastUpdated": "2026-10-18T23:12:19.602Z"
 }
