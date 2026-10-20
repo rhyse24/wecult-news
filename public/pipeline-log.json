@@ -1,6 +1,32 @@
 {
-  "totalArticles": 2258,
+  "totalArticles": 2259,
   "runs": [
+    {
+      "timestamp": "2026-10-20T01:12:22.648Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 239,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "What’s Coming to Netflix This Week: October 19 to 25, 2026",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 11,
+          "slug": "6688ee9b-whats-coming-to-netflix-this-week-october-19-to-25-2026"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Criminal Minds Star Paget Brewster Voices An Incredibly Important But Rarely Seen Disney Character",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-19T22:00:52.156Z",
       "status": "success",
@@ -1906,25 +1932,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-10T01:31:52.111Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 50,
-      "written": [],
-      "rejected": [
-        {
-          "title": "‘Avatar: Seven Havens’ Renewed for Two More Seasons, ‘Avatar Kuruk: Wave of Chaos’ Series Announced at NYCC",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 18,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-19T22:00:52.156Z"
+  "lastUpdated": "2026-10-20T01:12:22.648Z"
 }
