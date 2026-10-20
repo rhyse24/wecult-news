@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2265,
+  "totalArticles": 2268,
   "runs": [
+    {
+      "timestamp": "2026-10-20T10:01:13.355Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 243,
+      "totalCandidates": 93,
+      "written": [
+        {
+          "title": "Round Up: The Reviews For The Street Fighter Movie Are In",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 13,
+          "slug": "f94711e6-round-up-the-reviews-for-the-street-fighter-movie-are-in"
+        },
+        {
+          "title": "There's Real Force Behind These Star Wars Battlefront 3 Rumors",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "7f98d8b6-theres-real-force-behind-these-star-wars-battlefront-3-rumor"
+        },
+        {
+          "title": "How To Pass The Judge’s Test In Castlevania: Belmont’s Curse",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 11,
+          "slug": "458a3bf1-how-to-pass-the-judges-test-in-castlevania-belmonts-curse"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Call of Duty: Modern Warfare 4 Pop-Up: The DMZ Has Never Been This Much Fun",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-20T08:01:14.336Z",
       "status": "success",
@@ -1900,39 +1940,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-10T10:01:36.721Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 264,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Jason Blum on How ‘Other Mommy’ Got That Controversial Title, Kristen Bell Joins ‘Violent Night 2’ and More From Blumhouse at NYCC",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "a4201676-jason-blum-on-how-other-mommy-got-that-controversial-title-k"
-        },
-        {
-          "title": "Sebastian Stan Says Hollywood Is Finally Looking at Him Differently After 15 Years in Marvel",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "eae65b1f-sebastian-stan-says-hollywood-is-finally-looking-at-him-diff"
-        },
-        {
-          "title": "Minus Zero Director Reveals Why He Brought Back Godzilla’s Greatest Enemy (Exclusive)",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "slug": "1aac60b2-minus-zero-director-reveals-why-he-brought-back-godzillas-gr"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-20T08:01:14.336Z"
+  "lastUpdated": "2026-10-20T10:01:13.355Z"
 }
