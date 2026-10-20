@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2262,
+  "totalArticles": 2265,
   "runs": [
+    {
+      "timestamp": "2026-10-20T08:01:14.336Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 235,
+      "totalCandidates": 23,
+      "written": [
+        {
+          "title": "Michael Douglas Says Marvel ‘Wouldn’t Let Me’ Quit After Asking Studio for ‘Ant-Man’ Character to Be Killed Off",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "d25d0b3f-michael-douglas-says-marvel-wouldnt-let-me-quit-after-asking"
+        },
+        {
+          "title": "Anurag Kashyap and Vasan Bala Present Mumbai Cab Thriller ‘Aakhri Ride’ for Halloween Release (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "eef1856d-anurag-kashyap-and-vasan-bala-present-mumbai-cab-thriller-aa"
+        },
+        {
+          "title": "‘You Can See Everything’ Is a Gothic Romance for the Ages",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 9,
+          "slug": "d3c38063-you-can-see-everything-is-a-gothic-romance-for-the-ages"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Street Fighter (2026)'s Most Confusing Moments Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-20T04:25:46.464Z",
       "status": "success",
@@ -1892,39 +1932,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-10T08:18:20.223Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 271,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "What to Watch and Read This Weekend: There’s Always Time for More Hobbits",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "6a799992-what-to-watch-and-read-this-weekend-theres-always-time-for-m"
-        },
-        {
-          "title": "Exclusive Cover Reveal of TECHNICOLOR HORSES by Michael Credico",
-          "category": "books",
-          "source": "Electric Literature",
-          "score": 9,
-          "slug": "a24b5b5f-exclusive-cover-reveal-of-technicolor-horses-by-michael-cred"
-        },
-        {
-          "title": "A Guide to the Dexter Spinoffs",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 9,
-          "slug": "2e724f88-a-guide-to-the-dexter-spinoffs"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-20T04:25:46.464Z"
+  "lastUpdated": "2026-10-20T08:01:14.336Z"
 }
