@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2259,
+  "totalArticles": 2262,
   "runs": [
+    {
+      "timestamp": "2026-10-20T04:25:46.464Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 238,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "Babylon 5 Rewatch: Crusade’s “Racing the Night”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "3d0868ff-babylon-5-rewatch-crusades-racing-the-night"
+        },
+        {
+          "title": "Five Horror Books Told From the Monster’s POV",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "fcc1392e-five-horror-books-told-from-the-monsters-pov"
+        },
+        {
+          "title": "10 New Books Coming Out This Week",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 8,
+          "slug": "ab512ec9-10-new-books-coming-out-this-week"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-20T01:12:22.648Z",
       "status": "quota",
@@ -1892,47 +1924,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-10T04:46:49.704Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 274,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "5 Biggest Changes The Carrie TV Series Makes From Stephen King's Book",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "c5201c9f-5-biggest-changes-the-carrie-tv-series-makes-from-stephen-ki"
-        },
-        {
-          "title": "With ‘Below,’ Charlie Heaton Digs Into His Next Big Sci-Fi Adventure",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 14,
-          "slug": "7a149690-with-below-charlie-heaton-digs-into-his-next-big-sci-fi-adve"
-        },
-        {
-          "title": "Ben Affleck Thriller ‘Animals’ Leads a Massive 63-Title Drop on Netflix UK",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "2eeffdf7-ben-affleck-thriller-animals-leads-a-massive-63-title-drop-o"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Avatar: Seven Havens’ Renewed for Two More Seasons, ‘Avatar Kuruk: Wave of Chaos’ Series Announced at NYCC",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-20T01:12:22.648Z"
+  "lastUpdated": "2026-10-20T04:25:46.464Z"
 }
