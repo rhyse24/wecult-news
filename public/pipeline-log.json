@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2271,
+  "totalArticles": 2274,
   "runs": [
+    {
+      "timestamp": "2026-10-20T17:18:54.513Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 277,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "'Clayface' Director Confirms James Gunn Gave Him Complete Freedom To Reinvent Gotham",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "slug": "fffe5216-clayface-director-confirms-james-gunn-gave-him-complete-free"
+        },
+        {
+          "title": "Christopher Nolan’s ‘The Prestige’ Sets Re-Release With First-Ever Imax and 70mm Screenings",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "0e2d7d80-christopher-nolans-the-prestige-sets-re-release-with-first-e"
+        },
+        {
+          "title": "Timothée Chalamet and Hans Zimmer’s ‘Desert Chant’ From ‘Dune: Part Three’ Soundtrack Released",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "5acc945d-timothe-chalamet-and-hans-zimmers-desert-chant-from-dune-par"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Movies To Watch While Waiting for ‘Grand Theft Auto VI’",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-20T13:36:34.170Z",
       "status": "success",
@@ -1908,39 +1948,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-10T15:50:16.272Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 251,
-      "totalCandidates": 50,
-      "written": [
-        {
-          "title": "‘Avatar: Seven Havens’ Renewed for Two More Seasons, ‘Avatar Kuruk: Wave of Chaos’ Series Announced at NYCC",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 17,
-          "slug": "323f7e19-avatar-seven-havens-renewed-for-two-more-seasons-avatar-kuru"
-        },
-        {
-          "title": "When Calls The Heart's Erin Krakow Starred In A Military Drama Before Her Hallmark Fame",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "57730f77-when-calls-the-hearts-erin-krakow-starred-in-a-military-dram"
-        },
-        {
-          "title": "AMC’s ‘Mayfair Witches: Salem Coven’ Gets December Debut as Catherine Zeta-Jones, Carrie-Anne Moss Tease ‘Kill Jackie’ and ‘Yaga’ at NYCC",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "1357e453-amcs-mayfair-witches-salem-coven-gets-december-debut-as-cath"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-20T13:36:34.170Z"
+  "lastUpdated": "2026-10-20T17:18:54.513Z"
 }
