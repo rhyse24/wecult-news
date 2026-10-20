@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2274,
+  "totalArticles": 2276,
   "runs": [
+    {
+      "timestamp": "2026-10-20T20:54:23.362Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 274,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": "Shrek 2 Remastered Reveal Trailer Parodies GTA 6, Sets November Release Date",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "5c3fe10e-shrek-2-remastered-reveal-trailer-parodies-gta-6-sets-novemb"
+        },
+        {
+          "title": "Fortnite's Nikki Skin Sparks Debate Among Horror Fans, With Some Calling for a Boycott",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "f280070d-fortnites-nikki-skin-sparks-debate-among-horror-fans-with-so"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-20T17:18:54.513Z",
       "status": "success",
@@ -1930,25 +1955,7 @@
       "totalCandidates": 79,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-10T19:23:42.061Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 244,
-      "totalCandidates": 20,
-      "written": [
-        {
-          "title": "Box Office: ‘Other Mommy’ Spooks Up $12.6 Million on Opening Day, ‘The Social Reckoning’ Debuts to $2.15 Million on Friday",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "slug": "4802df42-box-office-other-mommy-spooks-up-126-million-on-opening-day-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-20T17:18:54.513Z"
+  "lastUpdated": "2026-10-20T20:54:23.362Z"
 }
