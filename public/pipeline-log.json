@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2268,
+  "totalArticles": 2271,
   "runs": [
+    {
+      "timestamp": "2026-10-20T13:36:34.170Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 252,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": " TV Spy — Sheriff Country, Dexter: Resurrection, and all the US dramas you can watch on UK services: 24-30 October ",
+          "category": "tv",
+          "source": "What to Watch",
+          "score": 13,
+          "slug": "d766422e-tv-spy-sheriff-country-dexter-resurrection-and-all-the-us-dr"
+        },
+        {
+          "title": "Criminal Minds Star Paget Brewster Voices An Incredibly Important But Rarely Seen Disney Character",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "c19f4840-criminal-minds-star-paget-brewster-voices-an-incredibly-impo"
+        },
+        {
+          "title": "Guillermo del Toro: ‘It Pains Me Deeply to See Past Generations Fail the Next, We’re Handing Down a World in Ruins’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "a8c894ed-guillermo-del-toro-it-pains-me-deeply-to-see-past-generation"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-20T10:01:13.355Z",
       "status": "success",
@@ -1908,39 +1940,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-10T12:01:08.547Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 256,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "Magic: The Gathering Marvel: Darkhold Destiny Preorders Are Now Live",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "1f05113f-magic-the-gathering-marvel-darkhold-destiny-preorders-are-no"
-        },
-        {
-          "title": "Countdown: Zelda: Ocarina Of Time Dungeon Crawl #4 - Still An All-Timer",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 13,
-          "slug": "f2d8cda8-countdown-zelda-ocarina-of-time-dungeon-crawl-4---still-an-a"
-        },
-        {
-          "title": "GTA 6 fan emails Rockstar asking for poster and actually gets one",
-          "category": "games",
-          "source": "Dexerto",
-          "score": 12,
-          "slug": "2d656d33-gta-6-fan-emails-rockstar-asking-for-poster-and-actually-get"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-20T10:01:13.355Z"
+  "lastUpdated": "2026-10-20T13:36:34.170Z"
 }
