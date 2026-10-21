@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2279,
+  "totalArticles": 2282,
   "runs": [
+    {
+      "timestamp": "2026-10-21T04:41:13.531Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "10 Movies To Watch While Waiting for ‘Grand Theft Auto VI’",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "slug": "5f5b9e78-10-movies-to-watch-while-waiting-for-grand-theft-auto-vi"
+        },
+        {
+          "title": "James Bond Auction: Daniel Craig’s ‘Skyfall’ Suit, Ana de Armas’ ‘No Time to Die’ Dress Heading to Block",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "5e87ad25-james-bond-auction-daniel-craigs-skyfall-suit-ana-de-armas-n"
+        },
+        {
+          "title": "Lance Oppenheim Bribed Robert Pattinson With 200 Zyn Canisters to Star in ‘Primetime’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "34bb6e31-lance-oppenheim-bribed-robert-pattinson-with-200-zyn-caniste"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-21T00:44:03.504Z",
       "status": "success",
@@ -1959,25 +1991,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-11T02:33:31.116Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 246,
-      "totalCandidates": 79,
-      "written": [
-        {
-          "title": "Resident Evil 2 Remake Modder Creates Playable Couch Co-Op Mod",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "slug": "5aaa839a-resident-evil-2-remake-modder-creates-playable-couch-co-op-m"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-21T00:44:03.504Z"
+  "lastUpdated": "2026-10-21T04:41:13.531Z"
 }
