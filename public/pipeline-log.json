@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2276,
+  "totalArticles": 2279,
   "runs": [
+    {
+      "timestamp": "2026-10-21T00:44:03.504Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "Elizabeth Holmes Mania: ‘You Can See Everything’ Drives 186% Viewership Spike for Amanda Seyfried’s ‘The Dropout’ (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 16,
+          "slug": "6b1e130c-elizabeth-holmes-mania-you-can-see-everything-drives-186-vie"
+        },
+        {
+          "title": "Analesa Fisher on Joining ‘Cyberpunk: Edgerunners’ Season 2 and Voicing Omi",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 16,
+          "slug": "7972fb63-analesa-fisher-on-joining-cyberpunk-edgerunners-season-2-and"
+        },
+        {
+          "title": "Does VisionQuest still want us to fear “Peepaw” Ultron?",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "44670e8d-does-visionquest-still-want-us-to-fear-peepaw-ultron"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-20T20:54:23.362Z",
       "status": "quota",
@@ -1945,17 +1977,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-10T22:52:08.431Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 243,
-      "totalCandidates": 79,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-20T20:54:23.362Z"
+  "lastUpdated": "2026-10-21T00:44:03.504Z"
 }
