@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2285,
+  "totalArticles": 2288,
   "runs": [
+    {
+      "timestamp": "2026-10-21T17:43:04.485Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 80,
+      "written": [
+        {
+          "title": "BioWare Shutting Down, Next Mass Effect Canceled",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "53114da7-bioware-shutting-down-next-mass-effect-canceled"
+        },
+        {
+          "title": "Everything Coming to Cyberpunk 2077 With the 2.5 Update, Including New Side Quests, New Double Trouble Perk, and Much More",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "72534a4c-everything-coming-to-cyberpunk-2077-with-the-25-update-inclu"
+        },
+        {
+          "title": "Exclusive — See 7 New Cards From Magic: The Gathering Star Trek, Including 1 That Remembers the Most Iconic Drink of TNG",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "2e7581b2-exclusive-see-7-new-cards-from-magic-the-gathering-star-trek"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-21T08:52:41.517Z",
       "status": "success",
@@ -1965,47 +1997,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-11T09:10:22.835Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 230,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Marvel, Kadokawa Launch 5 New Manga as Part of Partnership",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 11,
-          "slug": "3f2aab0d-marvel-kadokawa-launch-5-new-manga-as-part-of-partnership"
-        },
-        {
-          "title": "10 Best Crime Shows Streaming On Prime Video",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "fbdf111e-10-best-crime-shows-streaming-on-prime-video"
-        },
-        {
-          "title": "Quote Of The Day By Clint Eastwood: 'There's A Rebel Lying Deep In My Soul. Anytime Anybody Tells Me...'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "98355dfa-quote-of-the-day-by-clint-eastwood-theres-a-rebel-lying-deep"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Paramount+ throws two new seasons and a prequel at Avatar: Seven Havens",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-21T08:52:41.517Z"
+  "lastUpdated": "2026-10-21T17:43:04.485Z"
 }
