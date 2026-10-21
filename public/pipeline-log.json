@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2282,
+  "totalArticles": 2285,
   "runs": [
+    {
+      "timestamp": "2026-10-21T08:52:41.517Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "The Best Version of Clayface Isn’t in Batman: The Animated Series ",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 14,
+          "slug": "e76a9b16-the-best-version-of-clayface-isnt-in-batman-the-animated-ser"
+        },
+        {
+          "title": "VisionQuest Makes One of Marvel’s Lamer Villains Into Something Cool",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 13,
+          "slug": "2d601d9f-visionquest-makes-one-of-marvels-lamer-villains-into-somethi"
+        },
+        {
+          "title": "VisionQuest Episode 4 Review: Changing Channels",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 13,
+          "slug": "3d5b3bde-visionquest-episode-4-review-changing-channels"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-21T04:41:13.531Z",
       "status": "success",
@@ -1973,25 +2005,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-11T05:40:11.775Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 245,
-      "totalCandidates": 49,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Paramount+ throws two new seasons and a prequel at Avatar: Seven Havens",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-21T04:41:13.531Z"
+  "lastUpdated": "2026-10-21T08:52:41.517Z"
 }
