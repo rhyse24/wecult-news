@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2303,
+  "totalArticles": 2305,
   "runs": [
+    {
+      "timestamp": "2026-10-22T19:42:17.992Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 288,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Tom Skerritt, Picket Fences And Top Gun Star, Dead At 93",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "da2a8a38-tom-skerritt-picket-fences-and-top-gun-star-dead-at-93"
+        },
+        {
+          "title": "Carrie Renewed For Season 2 At Prime Video",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "edcbe454-carrie-renewed-for-season-2-at-prime-video"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-22T15:35:56.774Z",
       "status": "success",
@@ -2052,32 +2077,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-12T04:01:05.397Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 176,
-      "totalCandidates": 19,
-      "written": [
-        {
-          "title": "China Box Office: ‘Resident Evil’ Dethrones ‘Traces of Justice’ to Claim Top Spot as Post-Holiday Market Cools",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "44fae245-china-box-office-resident-evil-dethrones-traces-of-justice-t"
-        },
-        {
-          "title": "‘The Riverbank,’ ‘Elza’ Top Rio Film Festival Awards as ‘On Behalf of My Son,’ ‘The French Teacher’ and ‘London’ Scoop Key Prizes",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "3a2bb3cf-the-riverbank-elza-top-rio-film-festival-awards-as-on-behalf"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-22T15:35:56.774Z"
+  "lastUpdated": "2026-10-22T19:42:17.992Z"
 }
