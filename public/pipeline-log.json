@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2294,
+  "totalArticles": 2297,
   "runs": [
+    {
+      "timestamp": "2026-10-22T06:48:50.823Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "“I’m surrounded by broken machines” — VisionQuest’s “Reboot” and “Malware”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 17,
+          "slug": "c5c0de95-im-surrounded-by-broken-machines-visionquests-reboot-and-mal"
+        },
+        {
+          "title": "Crystal Lake‘s Project Argonaut Gives Jason Voorhees a Controversial Origin Story",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "slug": "bdf43f26-crystal-lakes-project-argonaut-gives-jason-voorhees-a-contro"
+        },
+        {
+          "title": "James Gunn Recommends 12 Body Horror Movies Ahead of Clayface",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "690093d1-james-gunn-recommends-12-body-horror-movies-ahead-of-clayfac"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "All Roads Lead to Ruin (and One Ring) in Season 3 The Rings of Power Trailer",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-22T02:22:14.180Z",
       "status": "success",
@@ -1974,40 +2017,7 @@
       "totalCandidates": 20,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-11T18:01:16.358Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 187,
-      "totalCandidates": 78,
-      "written": [
-        {
-          "title": "Marvel Tokon DLC Roadmap Reveals First Look at Jane Foster Thor, Venom and Jubilee Coming in 2027",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "9ee3f367-marvel-tokon-dlc-roadmap-reveals-first-look-at-jane-foster-t"
-        },
-        {
-          "title": "Tekken 8 Yujiro Teaser Reveals Baki Rep's In-Game Render Is Just as Uncanny as Fans Expected",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "c773b3d0-tekken-8-yujiro-teaser-reveals-baki-reps-in-game-render-is-j"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Zach Cregger’s Resident Evil is officially the best-performing film in the series",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-22T02:22:14.180Z"
+  "lastUpdated": "2026-10-22T06:48:50.823Z"
 }
