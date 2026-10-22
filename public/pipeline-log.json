@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2300,
+  "totalArticles": 2303,
   "runs": [
+    {
+      "timestamp": "2026-10-22T15:35:56.774Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 274,
+      "totalCandidates": 83,
+      "written": [
+        {
+          "title": "Why Street Fighter Movie Goes For “Gonzo” Vibes Instead of Gritty And Grounded",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 18,
+          "slug": "bd702ae2-why-street-fighter-movie-goes-for-gonzo-vibes-instead-of-gri"
+        },
+        {
+          "title": "First GTA 6 TV Commercial Strips Out Steamy Shower Scenes, but Shows More of Lucia's Fancy Hair Tech",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "aee32356-first-gta-6-tv-commercial-strips-out-steamy-shower-scenes-bu"
+        },
+        {
+          "title": "You Can Now Buy GTA 6 Burgers And Fried Chicken IRL, But It’s Not Cheap",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "593715f8-you-can-now-buy-gta-6-burgers-and-fried-chicken-irl-but-its-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Mass Effect 5 Trailer Reportedly Ready to Go Before BioWare Closure",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-22T11:20:06.180Z",
       "status": "success",
@@ -2037,17 +2077,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-12T00:39:37.594Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 176,
-      "totalCandidates": 19,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-22T11:20:06.180Z"
+  "lastUpdated": "2026-10-22T15:35:56.774Z"
 }
