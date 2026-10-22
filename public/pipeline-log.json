@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2291,
+  "totalArticles": 2294,
   "runs": [
+    {
+      "timestamp": "2026-10-22T02:22:14.180Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 41,
+      "written": [
+        {
+          "title": "‘Abbott Elementary’ Season 6 Premiere Hits 6.3 Million Viewers in Seven Days (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "f0f2ce07-abbott-elementary-season-6-premiere-hits-63-million-viewers-"
+        },
+        {
+          "title": "Clayface brings a Universal Monster sensibility back to the DC Universe",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "52700724-clayface-brings-a-universal-monster-sensibility-back-to-the-"
+        },
+        {
+          "title": "Glee Revival: Lea Michele Reportedly Returning As Rachel Berry — Who Else Is Coming Back?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "ca3b07bf-glee-revival-lea-michele-reportedly-returning-as-rachel-berr"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-21T22:00:29.870Z",
       "status": "success",
@@ -1975,25 +2007,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-11T16:01:21.455Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 197,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "Godzilla Minus Zero Film Streams Final Trailer",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 13,
-          "slug": "bae80750-godzilla-minus-zero-film-streams-final-trailer"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-21T22:00:29.870Z"
+  "lastUpdated": "2026-10-22T02:22:14.180Z"
 }
