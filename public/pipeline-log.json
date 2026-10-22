@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2297,
+  "totalArticles": 2300,
   "runs": [
+    {
+      "timestamp": "2026-10-22T11:20:06.180Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 260,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "Amanda Jiang to Star in ‘Dracula: The Crimson Code’ Alongside Joey Phillips, Richard Brake and Shayne Ward (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 15,
+          "slug": "f8a2493d-amanda-jiang-to-star-in-dracula-the-crimson-code-alongside-j"
+        },
+        {
+          "title": "‘White Lotus’ Breakout Adam DiMarco Attached to Star in Glassriver’s First Feature ‘Dark Ocean’ (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "11e6eeca-white-lotus-breakout-adam-dimarco-attached-to-star-in-glassr"
+        },
+        {
+          "title": "‘Street Fighter’ Director Kitao Sakurai Built a Career by Embracing the Ridiculous",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "3cdfd37a-street-fighter-director-kitao-sakurai-built-a-career-by-embr"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "DC Studios Boss Peter Safran Confirms a Major Batman Detail in ‘Clayface’",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-22T06:48:50.823Z",
       "status": "success",
@@ -2007,17 +2047,7 @@
       "totalCandidates": 19,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-11T21:18:21.401Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 177,
-      "totalCandidates": 20,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-22T06:48:50.823Z"
+  "lastUpdated": "2026-10-22T11:20:06.180Z"
 }
