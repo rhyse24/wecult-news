@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2288,
+  "totalArticles": 2291,
   "runs": [
+    {
+      "timestamp": "2026-10-21T22:00:29.870Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "‘Clayface’ Review: DC Comics Horror Movie Is Good, Gross Fun, With No Franchise Homework Required",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "1950925b-clayface-review-dc-comics-horror-movie-is-good-gross-fun-wit"
+        },
+        {
+          "title": "‘Clayface’ Review: DC Studios’ Batman Villain Origin Story Is a Bona Fide Body-Horror Delight",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 16,
+          "slug": "a8cb6c36-clayface-review-dc-studios-batman-villain-origin-story-is-a-"
+        },
+        {
+          "title": "10 Movies That Give 'The Godfather' a Run for Its Money",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "bc2e245c-10-movies-that-give-the-godfather-a-run-for-its-money"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-21T17:43:04.485Z",
       "status": "success",
@@ -1961,43 +1993,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-11T12:34:31.603Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 215,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "‘Squid Game’ Producer Reads Founding Declaration as Asian Independent Producers Form Cross-Border Alliance at Busan",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "d4afa1e9-squid-game-producer-reads-founding-declaration-as-asian-inde"
-        },
-        {
-          "title": "10 Horror Movies With the Best Lore",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "682c56c7-10-horror-movies-with-the-best-lore"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Taiwan’s Sole Busan Competition Title ‘To Be Ordinary’ Marks Lee Yun Chan’s Return to Features After Two Decades",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 16 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-21T17:43:04.485Z"
+  "lastUpdated": "2026-10-21T22:00:29.870Z"
 }
