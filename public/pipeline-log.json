@@ -1,6 +1,32 @@
 {
-  "totalArticles": 2305,
+  "totalArticles": 2306,
   "runs": [
+    {
+      "timestamp": "2026-10-22T23:25:47.539Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 285,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Wildwood Review: Magic and Terror on a Breathtaking Scale",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 13,
+          "slug": "80448123-wildwood-review-magic-and-terror-on-a-breathtaking-scale"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Wildwood’ Director Travis Knight on AI: ‘An Amazing Piece of Technology’ But ‘I’m Not Embracing It at All’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-22T19:42:17.992Z",
       "status": "quota",
@@ -2045,39 +2071,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-12T07:25:43.514Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 172,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Every Time Bryan Cranston Played Walter White Outside Of Breaking Bad",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "45121dd8-every-time-bryan-cranston-played-walter-white-outside-of-bre"
-        },
-        {
-          "title": "TF1 Brings Hit Formats ‘Taskmaster,’ ‘Holey Moley’ to France as Part of Unscripted Push (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "862c9b2b-tf1-brings-hit-formats-taskmaster-holey-moley-to-france-as-p"
-        },
-        {
-          "title": "Studiocanal Boards Pan-Asian Survival Thriller ‘kiDnap Game’ Starring Kentaro Sakaguchi and Lee Joon-gi (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "99885b12-studiocanal-boards-pan-asian-survival-thriller-kidnap-game-s"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-22T19:42:17.992Z"
+  "lastUpdated": "2026-10-22T23:25:47.539Z"
 }
