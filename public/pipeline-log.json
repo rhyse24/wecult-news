@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2311,
+  "totalArticles": 2314,
   "runs": [
+    {
+      "timestamp": "2026-10-23T10:31:41.155Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 277,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Clayface Review: A Horror Triumph for DC Studios",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "slug": "23f9986e-clayface-review-a-horror-triumph-for-dc-studios"
+        },
+        {
+          "title": "‘Bridgerton’ Breakout Hannah Dodd to Lead Lucas Jones’ Romantic Drama ‘Miss You Forever, Zara Drake’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "9e56ae41-bridgerton-breakout-hannah-dodd-to-lead-lucas-jones-romantic"
+        },
+        {
+          "title": "Netflix, ‘Elite’ Star Ester Expósito and Locarno Winner Mar Coll Adapt ‘La Regenta,’ a ‘Fresh Female Perspective’ on a Big Spanish Classic (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "809a751a-netflix-elite-star-ester-expsito-and-locarno-winner-mar-coll"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-23T06:36:04.885Z",
       "status": "quota",
@@ -2039,17 +2071,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-12T17:13:53.404Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 201,
-      "totalCandidates": 81,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-23T06:36:04.885Z"
+  "lastUpdated": "2026-10-23T10:31:41.155Z"
 }
