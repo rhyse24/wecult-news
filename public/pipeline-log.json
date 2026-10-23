@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2306,
+  "totalArticles": 2309,
   "runs": [
+    {
+      "timestamp": "2026-10-23T02:58:25.781Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 283,
+      "totalCandidates": 97,
+      "written": [
+        {
+          "title": "Cyberpunk 2 Associate Director Says Half of Game's Quest Team Are Former Modders",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "99c50b0b-cyberpunk-2-associate-director-says-half-of-games-quest-team"
+        },
+        {
+          "title": "EA Has A New Plan For Madden, And It Leans Into Everything The Company Gets Wrong",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "e9076f24-ea-has-a-new-plan-for-madden-and-it-leans-into-everything-th"
+        },
+        {
+          "title": "GTA 6’s New TV Trailer Is A Bit Different, See It For Yourself",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "927750b9-gta-6s-new-tv-trailer-is-a-bit-different-see-it-for-yourself"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-22T23:25:47.539Z",
       "status": "quota",
@@ -2028,50 +2060,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-12T10:53:11.431Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 186,
-      "totalCandidates": 8,
-      "written": [
-        {
-          "title": "Classic Mexican Books",
-          "category": "books",
-          "source": "Book Riot",
-          "score": 5,
-          "slug": "a51166cb-classic-mexican-books"
-        },
-        {
-          "title": "5 New Novels This Fall That Prove Historical Romance Isn’t Dead",
-          "category": "books",
-          "source": "Book Riot",
-          "score": 5,
-          "slug": "9683b44c-5-new-novels-this-fall-that-prove-historical-romance-isnt-de"
-        },
-        {
-          "title": "5 Campus Mystery Novels",
-          "category": "books",
-          "source": "Book Riot",
-          "score": 5,
-          "slug": "6d385002-5-campus-mystery-novels"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Book Review: ‘Brother of the More Famous Jack,’ by Barbara Trapido",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 7,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-22T23:25:47.539Z"
+  "lastUpdated": "2026-10-23T02:58:25.781Z"
 }
