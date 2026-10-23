@@ -2,6 +2,16 @@
   "totalArticles": 2314,
   "runs": [
     {
+      "timestamp": "2026-10-23T16:36:11.861Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 285,
+      "totalCandidates": 47,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-10-23T10:31:41.155Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2053,25 +2063,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-12T20:01:10.543Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 207,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "Street Fighter 6 Reveals Movie Costumes for Zangief, E. Honda and Dhalsim | IGN Fall Fan Fest 2026 ",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 18,
-          "slug": "d7ca0d55-street-fighter-6-reveals-movie-costumes-for-zangief-e-honda-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-23T10:31:41.155Z"
+  "lastUpdated": "2026-10-23T16:36:11.861Z"
 }
