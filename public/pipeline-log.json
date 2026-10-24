@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2325,
+  "totalArticles": 2328,
   "runs": [
+    {
+      "timestamp": "2026-10-24T10:53:41.749Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "Clayface  Writes Checks Its Body Horror Can’t Quite Cash",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "slug": "9d3a9ff8-clayface-writes-checks-its-body-horror-cant-quite-cash"
+        },
+        {
+          "title": "Let’s Talk About the Best Scenes in Lanterns",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "3da6add5-lets-talk-about-the-best-scenes-in-lanterns"
+        },
+        {
+          "title": "VisionQuest Showrunner Teased Butcherbird’s Importance Months Before the Big Reveal",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "75bf7980-visionquest-showrunner-teased-butcherbirds-importance-months"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-24T07:07:30.704Z",
       "status": "success",
@@ -2035,39 +2067,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-13T09:35:14.260Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 224,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "Jeremy Renner Says ‘Avengers: Doomsday’ Superheroes ‘Will Probably Lose’ Without Hawkeye: ‘They Didn’t Call Me, So It’s Their Fault’",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "9c4df3ab-jeremy-renner-says-avengers-doomsday-superheroes-will-probab"
-        },
-        {
-          "title": "‘God of War’s’ Bruno Velazquez, ‘Mandalorian & Grogu’s’ Hal Hickel Detail Cinema-Gaming Crossover at View Conference",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "fc77cf9c-god-of-wars-bruno-velazquez-mandalorian-grogus-hal-hickel-de"
-        },
-        {
-          "title": "‘Daredevil’ Star Officially Hints at New Defenders Series After Shock Cancellation [Exclusive]",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "441dee66-daredevil-star-officially-hints-at-new-defenders-series-afte"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-24T07:07:30.704Z"
+  "lastUpdated": "2026-10-24T10:53:41.749Z"
 }
