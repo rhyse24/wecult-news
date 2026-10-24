@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2316,
+  "totalArticles": 2319,
   "runs": [
+    {
+      "timestamp": "2026-10-23T23:47:18.436Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 288,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Mass Effect Fans Call for EA Boycott as Petition to Save BioWare's Canceled Game Garners More than 75,000 Signatures",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "227af266-mass-effect-fans-call-for-ea-boycott-as-petition-to-save-bio"
+        },
+        {
+          "title": " Why private equity acquisitions like the one that just claimed BioWare are so dreaded ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "533810c9-why-private-equity-acquisitions-like-the-one-that-just-claim"
+        },
+        {
+          "title": " Time could be running out for Arkane ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "a2d31b0b-time-could-be-running-out-for-arkane"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-23T20:10:06.215Z",
       "status": "quota",
@@ -2030,25 +2062,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-13T01:05:15.629Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 207,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "VisionQuest Review: This Lazy Marvel Spin-Off Lacks Creative Vision",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "slug": "57adf4e3-visionquest-review-this-lazy-marvel-spin-off-lacks-creative-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-23T20:10:06.215Z"
+  "lastUpdated": "2026-10-23T23:47:18.436Z"
 }
