@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2319,
+  "totalArticles": 2322,
   "runs": [
+    {
+      "timestamp": "2026-10-24T03:21:11.150Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 284,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "Sandra Hüller Joins ‘Avengers: Doomsday’ in Cameo Role",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "slug": "c5f24e05-sandra-hller-joins-avengers-doomsday-in-cameo-role"
+        },
+        {
+          "title": "New ‘Alien’ Movie in the Works With Writer Aaron Guzikowski (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 15,
+          "slug": "b10dca8d-new-alien-movie-in-the-works-with-writer-aaron-guzikowski-ex"
+        },
+        {
+          "title": "Zendaya Sets ‘Dune 3’ Oscar Campaign for Best Actress in Category Shake-Up (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "9290b17a-zendaya-sets-dune-3-oscar-campaign-for-best-actress-in-categ"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-23T23:47:18.436Z",
       "status": "success",
@@ -2029,40 +2061,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-13T04:15:38.108Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 210,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "Epic Games delays Disney game and tells developers to go \"AI first\"",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 12,
-          "slug": "fa660cb6-epic-games-delays-disney-game-and-tells-developers-to-go-ai-"
-        },
-        {
-          "title": "The Resident Evil movie gets the Kojima Paragraph of Approval: ‘It’s a film about the experience of playing RE with a controller in hand’",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 12,
-          "slug": "97863bf8-the-resident-evil-movie-gets-the-kojima-paragraph-of-approva"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Sorry, Street Fighter Movie, But Mondo Just Won The Poster Fight",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-23T23:47:18.436Z"
+  "lastUpdated": "2026-10-24T03:21:11.150Z"
 }
