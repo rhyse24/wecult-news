@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2322,
+  "totalArticles": 2325,
   "runs": [
+    {
+      "timestamp": "2026-10-24T07:07:30.704Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 280,
+      "totalCandidates": 47,
+      "written": [
+        {
+          "title": "Glee’s pro-LGBTQ+ vision captured 2010s hope. Can a reboot handle Trump’s America? | Alim Kheraj",
+          "category": "tv",
+          "source": "Guardian TV",
+          "score": 14,
+          "slug": "153d818f-glees-pro-lgbtq-vision-captured-2010s-hope-can-a-reboot-hand"
+        },
+        {
+          "title": "Lupin review – the French super-thief is magnetic in his blockbuster return",
+          "category": "tv",
+          "source": "Guardian TV",
+          "score": 12,
+          "slug": "7f551288-lupin-review-the-french-super-thief-is-magnetic-in-his-block"
+        },
+        {
+          "title": "5 S.W.A.T Characters We Hope Make A Guest Appearance On Exiles",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "c7c740f3-5-swat-characters-we-hope-make-a-guest-appearance-on-exiles"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-24T03:21:11.150Z",
       "status": "success",
@@ -2035,33 +2067,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-13T06:01:12.747Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 209,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "‘Breaking Bad’ Star RJ Mitte’s Cause of Death Confirmed as Suicide",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "1bbef588-breaking-bad-star-rj-mittes-cause-of-death-confirmed-as-suic"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Bryan Cranston Pays Tribute To Breaking Bad's RJ Mitte After His Death: 'I'll Miss You, Son'",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-24T03:21:11.150Z"
+  "lastUpdated": "2026-10-24T07:07:30.704Z"
 }
