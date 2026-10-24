@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2331,
+  "totalArticles": 2332,
   "runs": [
+    {
+      "timestamp": "2026-10-24T18:43:14.680Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 250,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": " New Blood CEO confirms it: the worst way to sell immersive sims like Gloomwood and Fallen Aces is to call them immersive sims ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "2f9d7d27-new-blood-ceo-confirms-it-the-worst-way-to-sell-immersive-si"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-24T14:51:17.611Z",
       "status": "success",
@@ -2035,47 +2053,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-13T16:46:25.184Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 261,
-      "totalCandidates": 92,
-      "written": [
-        {
-          "title": "Resident Evil’s Nintendo return shines brightest with stellar Switch 2 remake trilogy",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 18,
-          "slug": "3d17bf44-resident-evils-nintendo-return-shines-brightest-with-stellar"
-        },
-        {
-          "title": "Dan Houser Reveals Rockstar’s Struggle to Make Bully",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "67b52131-dan-houser-reveals-rockstars-struggle-to-make-bully"
-        },
-        {
-          "title": "God of War Laufey’s collector’s edition doesn’t even include the game",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 15,
-          "slug": "609db120-god-of-war-laufeys-collectors-edition-doesnt-even-include-th"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Wuxia, Anime, and Giant Hair: Street Fighter Director Explains ‘90s Influences",
-          "category": "games",
-          "source": "Den of Geek Games",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-24T14:51:17.611Z"
+  "lastUpdated": "2026-10-24T18:43:14.680Z"
 }
