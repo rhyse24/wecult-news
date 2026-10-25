@@ -1,6 +1,32 @@
 {
-  "totalArticles": 2337,
+  "totalArticles": 2338,
   "runs": [
+    {
+      "timestamp": "2026-10-25T06:00:49.052Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 240,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "Resident Evil's Austin Abrams Starred In A Charming Christmas Series Streaming On Netflix",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "2f5fc6c4-resident-evils-austin-abrams-starred-in-a-charming-christmas"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "10 Best Sci-Fi Shows With More Than 100 Episodes",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-25T04:00:53.636Z",
       "status": "quota",
@@ -2076,17 +2102,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-14T06:01:13.112Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 33,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-25T04:00:53.636Z"
+  "lastUpdated": "2026-10-25T06:00:49.052Z"
 }
