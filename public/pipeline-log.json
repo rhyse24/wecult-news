@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2338,
+  "totalArticles": 2341,
   "runs": [
+    {
+      "timestamp": "2026-10-25T09:54:34.771Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 220,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "Sandra Hüller Set for Cameo Role in ‘Avengers: Doomsday’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 12,
+          "slug": "de13346e-sandra-hller-set-for-cameo-role-in-avengers-doomsday"
+        },
+        {
+          "title": "Horror Fans, Rejoice: FilmQuest Breakout ‘The Crawling’ Is the Gutsy Alien Freakout of Your Dreams",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "a2b5b9c3-horror-fans-rejoice-filmquest-breakout-the-crawling-is-the-g"
+        },
+        {
+          "title": "‘Street Fighter’ Breakout Callina Liang Talks Embracing Fan Skepticism and Reveals Two Key Scrapped Moments",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 9,
+          "slug": "8a1a6a10-street-fighter-breakout-callina-liang-talks-embracing-fan-sk"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-25T06:00:49.052Z",
       "status": "quota",
@@ -2062,47 +2094,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-14T09:50:53.567Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 274,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "Noah Centineo, Andrew Koji’s ‘Street Fighter’: First Reactions",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "a25efde9-noah-centineo-andrew-kojis-street-fighter-first-reactions"
-        },
-        {
-          "title": "Wuxia, Anime, and Giant Hair: Street Fighter Director Explains ‘90s Influences",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 12,
-          "slug": "8fdefb28-wuxia-anime-and-giant-hair-street-fighter-director-explains-"
-        },
-        {
-          "title": "Edinburgh Film Festival Reveals Dates for 2027 Edition (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "af9d2446-edinburgh-film-festival-reveals-dates-for-2027-edition-exclu"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Only 4 Star Wars Movies Are Kind of Bad",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-25T06:00:49.052Z"
+  "lastUpdated": "2026-10-25T09:54:34.771Z"
 }
