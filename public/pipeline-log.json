@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2344,
+  "totalArticles": 2346,
   "runs": [
+    {
+      "timestamp": "2026-10-25T17:49:25.066Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 176,
+      "totalCandidates": 69,
+      "written": [
+        {
+          "title": "Rumored Lucia Actress Goes Viral After Dodging Swarm of GTA 6 Comments During Livestream",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "36fbe6ac-rumored-lucia-actress-goes-viral-after-dodging-swarm-of-gta-"
+        },
+        {
+          "title": "Cyberpunk: Edgerunners Season 2 is more than a retread of Netflix's beloved first season - it's a story that truly understands what it means to exist in Night City",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 13,
+          "slug": "15651b9c-cyberpunk-edgerunners-season-2-is-more-than-a-retread-of-net"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-25T13:44:17.616Z",
       "status": "success",
@@ -2123,17 +2148,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-14T20:26:00.895Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 51,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-25T13:44:17.616Z"
+  "lastUpdated": "2026-10-25T17:49:25.066Z"
 }
