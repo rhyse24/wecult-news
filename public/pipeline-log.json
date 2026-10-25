@@ -1,6 +1,39 @@
 {
-  "totalArticles": 2335,
+  "totalArticles": 2337,
   "runs": [
+    {
+      "timestamp": "2026-10-25T04:00:53.636Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 240,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "Gun Store Weapons Locker Key location in Modern Warfare 4 DMZ",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 11,
+          "slug": "fea6d3d8-gun-store-weapons-locker-key-location-in-modern-warfare-4-dm"
+        },
+        {
+          "title": "After PvE vs. PvP, MW4 DMZ players are arguing about a possibly overpowered operator trait",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 11,
+          "slug": "d685169c-after-pve-vs-pvp-mw4-dmz-players-are-arguing-about-a-possibl"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Call of Duty: Modern Warfare 4 | Critical Consensus",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-25T02:05:03.778Z",
       "status": "quota",
@@ -2053,25 +2086,7 @@
       "totalCandidates": 33,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-14T04:05:00.070Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Avatar: Seven Havens Creators Respond to Criticisms of Korra’s Portrayal",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "58659e74-avatar-seven-havens-creators-respond-to-criticisms-of-korras"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-25T02:05:03.778Z"
+  "lastUpdated": "2026-10-25T04:00:53.636Z"
 }
