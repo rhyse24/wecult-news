@@ -1,6 +1,42 @@
 {
-  "totalArticles": 2334,
+  "totalArticles": 2335,
   "runs": [
+    {
+      "timestamp": "2026-10-25T02:05:03.778Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 242,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Inde Navarrette Teases Her Rogue Southern Accent for New ‘X-Men’ Film: “Sugar!”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "297719f3-inde-navarrette-teases-her-rogue-southern-accent-for-new-x-m"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Box Office: ‘Clayface’ Lands at No. 1 with $10.4 Million Debut, ‘You Can See Everything’ Adds $6.14 Million on Friday",
+          "category": "film",
+          "source": "Variety",
+          "score": 15,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        },
+        {
+          "title": "Sandra Hüller Set for Cameo Role in ‘Avengers: Doomsday’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-24T22:19:16.754Z",
       "status": "quota",
@@ -2035,32 +2071,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-14T00:01:14.140Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "Netflix Top 10s: Josh Hartnett’s ‘Below’ and Ben Affleck’s ‘Animals’ Top The Charts",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 16,
-          "slug": "ff270e8c-netflix-top-10s-josh-hartnetts-below-and-ben-afflecks-animal"
-        },
-        {
-          "title": "RJ Mitte's 5 Best Walter White Jr. Scenes On Breaking Bad",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "d7d3c528-rj-mittes-5-best-walter-white-jr-scenes-on-breaking-bad"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-24T22:19:16.754Z"
+  "lastUpdated": "2026-10-25T02:05:03.778Z"
 }
