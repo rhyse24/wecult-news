@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2332,
+  "totalArticles": 2334,
   "runs": [
+    {
+      "timestamp": "2026-10-24T22:19:16.754Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 244,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "10 ‘Avengers: Doomsday’ Burning Questions We Need Answered",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 15,
+          "slug": "fe93c5dc-10-avengers-doomsday-burning-questions-we-need-answered"
+        },
+        {
+          "title": "10 Best Animated Shows Streaming On Paramount Plus",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "slug": "44b312db-10-best-animated-shows-streaming-on-paramount-plus"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-24T18:43:14.680Z",
       "status": "quota",
@@ -2035,25 +2060,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-13T20:21:50.097Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "In “VisionQuest,” Identities Might Change, but Family Is Forever",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 13,
-          "slug": "9982ee39-in-visionquest-identities-might-change-but-family-is-forever"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-24T18:43:14.680Z"
+  "lastUpdated": "2026-10-24T22:19:16.754Z"
 }
