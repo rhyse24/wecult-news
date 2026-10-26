@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2356,
+  "totalArticles": 2359,
   "runs": [
+    {
+      "timestamp": "2026-10-26T18:00:54.094Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 244,
+      "totalCandidates": 81,
+      "written": [
+        {
+          "title": "\"IT FLIPS UP,\" Fallout New Vegas modders yell after releasing a funky Pip-Boy based on cancelled entry Van Buren's design docs",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 15,
+          "slug": "42b0ad71-it-flips-up-fallout-new-vegas-modders-yell-after-releasing-a"
+        },
+        {
+          "title": "Sony Awarded a Hacker $50,000 for Privately Reporting a PS5 Exploit He Found With AI — Now He's Public Enemy Number One",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "02384407-sony-awarded-a-hacker-50000-for-privately-reporting-a-ps5-ex"
+        },
+        {
+          "title": "Cyberpunk 2077 Hits Its Biggest Steam Player Peak Since Phantom Liberty, And You Can Guess Why",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "d2e81425-cyberpunk-2077-hits-its-biggest-steam-player-peak-since-phan"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Xbox Is Officially Up For 'Game Of The Year' At The Golden Joystick Awards 2026",
+          "category": "games",
+          "source": "Pure Xbox",
+          "score": 15,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-26T10:00:54.053Z",
       "status": "success",
@@ -2136,50 +2179,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-15T11:17:10.788Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 269,
-      "totalCandidates": 50,
-      "written": [
-        {
-          "title": "‘The Unheard’ Netflix Limited Series Starring Kate Winslet & Maxine Peake: What We Know So Far",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "9d04e24a-the-unheard-netflix-limited-series-starring-kate-winslet-max"
-        },
-        {
-          "title": "Netflix’s ‘Victorious’ Spinoff ‘Hollywood Arts’ Is a Bland Copy of Shows From a Past Era: TV Review",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "68db2b99-netflixs-victorious-spinoff-hollywood-arts-is-a-bland-copy-o"
-        },
-        {
-          "title": "VisionQuest: Tommy Maximoff’s Story Is Even Weirder in the Comics",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 12,
-          "slug": "f6ac23e7-visionquest-tommy-maximoffs-story-is-even-weirder-in-the-com"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "What To Watch Thursday: The 9-1-1s, Grey's Anatomy, And The Diplomat Return, Crystal Lake Premieres, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-26T10:00:54.053Z"
+  "lastUpdated": "2026-10-26T18:00:54.094Z"
 }
