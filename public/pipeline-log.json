@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2350,
+  "totalArticles": 2353,
   "runs": [
+    {
+      "timestamp": "2026-10-26T08:00:56.875Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 166,
+      "totalCandidates": 3,
+      "written": [
+        {
+          "title": "Music Against the Night by Yiyun Li review – a virtuosic interrogation of the power of art",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 6,
+          "slug": "7fa680ef-music-against-the-night-by-yiyun-li-review-a-virtuosic-inter"
+        },
+        {
+          "title": "How ‘The Curious Case of Benjamin Button’ Grew Up",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 4,
+          "slug": "733d89f1-how-the-curious-case-of-benjamin-button-grew-up"
+        },
+        {
+          "title": "Stephen Fry: ‘Sherlock Holmes altered the course of my whole life’",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 3,
+          "slug": "cf4e2f91-stephen-fry-sherlock-holmes-altered-the-course-of-my-whole-l"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-26T06:02:59.911Z",
       "status": "quota",
@@ -2140,25 +2172,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-15T06:01:23.217Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 55,
-      "written": [
-        {
-          "title": "R.J. Mitte Remembered by ‘Breaking Bad’ Casting Director Sharon Bialy",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 13,
-          "slug": "164507dd-rj-mitte-remembered-by-breaking-bad-casting-director-sharon-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-26T06:02:59.911Z"
+  "lastUpdated": "2026-10-26T08:00:56.875Z"
 }
