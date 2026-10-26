@@ -2,6 +2,16 @@
   "totalArticles": 2359,
   "runs": [
     {
+      "timestamp": "2026-10-26T21:42:28.855Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 256,
+      "totalCandidates": 38,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-10-26T18:00:54.094Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2161,25 +2171,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-15T14:37:58.701Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "Street Fighter Could Be In For A Rough First Round At The Box Office",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 16,
-          "slug": "bfa8439f-street-fighter-could-be-in-for-a-rough-first-round-at-the-bo"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-26T18:00:54.094Z"
+  "lastUpdated": "2026-10-26T21:42:28.855Z"
 }
