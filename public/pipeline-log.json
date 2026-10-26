@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2346,
+  "totalArticles": 2349,
   "runs": [
+    {
+      "timestamp": "2026-10-25T22:00:18.096Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 162,
+      "totalCandidates": 17,
+      "written": [
+        {
+          "title": "‘Clayface’ Director James Watkins Explains That [SPOILER] Cameo, Introducing Gotham City to the DC Universe and All the Shape-Shifting Kills",
+          "category": "film",
+          "source": "Variety",
+          "score": 15,
+          "slug": "0026d811-clayface-director-james-watkins-explains-that-spoiler-cameo-"
+        },
+        {
+          "title": "Box Office: ‘You Can See Everything’ Scores $19.5 Million in Huge Second Weekend, ‘Clayface’ Leads With $24 Million Debut",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "0de4005a-box-office-you-can-see-everything-scores-195-million-in-huge"
+        },
+        {
+          "title": "‘Clayface’s Max Minghella Reveals How DC's Most Disturbing Movie Pulled Off Its Grotesque Effects",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "b1b4383c-clayfaces-max-minghella-reveals-how-dcs-most-disturbing-movi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-25T17:49:25.066Z",
       "status": "quota",
@@ -2123,32 +2155,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-14T22:01:12.008Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 54,
-      "written": [
-        {
-          "title": "Exit poll: What's going to keep you watching VisionQuest?",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 17,
-          "slug": "caef44b4-exit-poll-whats-going-to-keep-you-watching-visionquest"
-        },
-        {
-          "title": "Why Paladin From Marvel's VisionQuest Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "10561b5d-why-paladin-from-marvels-visionquest-looks-so-familiar"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-25T17:49:25.066Z"
+  "lastUpdated": "2026-10-25T22:00:18.096Z"
 }
