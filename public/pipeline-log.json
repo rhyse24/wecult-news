@@ -1,6 +1,60 @@
 {
-  "totalArticles": 2353,
+  "totalArticles": 2356,
   "runs": [
+    {
+      "timestamp": "2026-10-26T10:00:54.053Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 175,
+      "totalCandidates": 18,
+      "written": [
+        {
+          "title": "An Austrian Filmmaker Who Documented the L.A. Wildfires Hopes His Film Will Start Conversations",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "cc779c52-an-austrian-filmmaker-who-documented-the-la-wildfires-hopes-"
+        },
+        {
+          "title": "‘Saiyaara’ Star Ahaan Panday and Sharvari’s Ali Abbas Zafar Romantic Action-Drama for Yash Raj Films Unveils Title (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "a217cbc7-saiyaara-star-ahaan-panday-and-sharvaris-ali-abbas-zafar-rom"
+        },
+        {
+          "title": "Tokyo Film Festival to Reassess Its Global Standing Ahead of 40th Edition, Says Director Hisamatsu Takeo",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "a39d321b-tokyo-film-festival-to-reassess-its-global-standing-ahead-of"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Clayface’ Rolls to $24M Box Office Opening as ‘You Can See Everything’ Shines in Second Weekend",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Animated Movie ‘Apple Cadabra – I Shrunk Myself’ Boarded by Epsilon Film (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "reason": "gemini_fail"
+        },
+        {
+          "title": "‘VelociPastor 2’ Leaves FilmQuest Audience Roaring, Celebrating Human-Made Films in an AI Era",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-26T08:00:56.875Z",
       "status": "success",
@@ -2125,54 +2179,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-15T08:01:12.312Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 275,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "VisionQuest's Paladin Explained: What To Know About Todd Stashwick's Marvel Character",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "slug": "c113509b-visionquests-paladin-explained-what-to-know-about-todd-stash"
-        },
-        {
-          "title": "VisionQuest Episode 1 Recycles The Scariest Plot Point Of WandaVision",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "slug": "a851647b-visionquest-episode-1-recycles-the-scariest-plot-point-of-wa"
-        },
-        {
-          "title": "Every Major House & Faction In Dune Explained",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "slug": "75f28fee-every-major-house-faction-in-dune-explained"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Street Fighter: Ryu and Ken's Fight Flooded the Set | Collider BTS",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Marvel's VisionQuest Leaves Critics Stunned In First Reactions",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-26T08:00:56.875Z"
+  "lastUpdated": "2026-10-26T10:00:54.053Z"
 }
