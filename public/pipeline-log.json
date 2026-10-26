@@ -2,6 +2,27 @@
   "totalArticles": 2349,
   "runs": [
     {
+      "timestamp": "2026-10-26T02:06:50.186Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 161,
+      "totalCandidates": 37,
+      "written": [],
+      "rejected": [
+        {
+          "title": "15 Best TV Villains Of The 2020s (So Far)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 583 words (max 580)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-10-25T22:00:18.096Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2137,25 +2158,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-15T00:56:48.522Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "‘Whalefall’ Director Brian Duffield Talks Book Changes, Test Screening Challenges and How Those ‘Alien’ Rumors Started",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "da014713-whalefall-director-brian-duffield-talks-book-changes-test-sc"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-25T22:00:18.096Z"
+  "lastUpdated": "2026-10-26T02:06:50.186Z"
 }
