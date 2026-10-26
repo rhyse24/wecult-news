@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2349,
+  "totalArticles": 2350,
   "runs": [
+    {
+      "timestamp": "2026-10-26T06:02:59.911Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 167,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "15 Best TV Villains Of The 2020s (So Far)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "d1cfe3e4-15-best-tv-villains-of-the-2020s-so-far"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-26T02:06:50.186Z",
       "status": "quota",
@@ -2140,25 +2158,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-15T04:07:13.924Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 90,
-      "written": [
-        {
-          "title": "Xbox Survey About Exclusives Includes A Nuclear Strategy, But Wait Just A Minute",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "cbe393a6-xbox-survey-about-exclusives-includes-a-nuclear-strategy-but"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-26T02:06:50.186Z"
+  "lastUpdated": "2026-10-26T06:02:59.911Z"
 }
