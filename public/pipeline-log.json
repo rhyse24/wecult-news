@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2369,
+  "totalArticles": 2372,
   "runs": [
+    {
+      "timestamp": "2026-10-27T13:48:03.745Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 264,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "Only 10 Horror Movies From the '90s Are Truly Perfect From Start to Finish",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "a24032f1-only-10-horror-movies-from-the-90s-are-truly-perfect-from-st"
+        },
+        {
+          "title": "20 Greatest Movie Villains Of The 80s",
+          "category": "film",
+          "source": "WhatCulture Film",
+          "score": 10,
+          "slug": "215f6cda-20-greatest-movie-villains-of-the-80s"
+        },
+        {
+          "title": "‘iHunt: Killing Monsters in the Gig Economy’ Film Adaptation Set; Lilly Wachowski Among Exec Producers (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "55b1d11a-ihunt-killing-monsters-in-the-gig-economy-film-adaptation-se"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-27T10:00:52.996Z",
       "status": "success",
@@ -2173,33 +2205,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-16T03:53:11.252Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "GTA 6 Launch Trailer Breakdown And Theories",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 14,
-          "slug": "6601d674-gta-6-launch-trailer-breakdown-and-theories"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "The Live-Action Street Fighter Movie Curse Has Yet To Be Broken",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-27T10:00:52.996Z"
+  "lastUpdated": "2026-10-27T13:48:03.745Z"
 }
