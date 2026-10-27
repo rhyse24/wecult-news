@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2359,
+  "totalArticles": 2362,
   "runs": [
+    {
+      "timestamp": "2026-10-27T01:04:25.594Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 258,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "‘Coven Academy’ Renewed for Season 2 at Disney",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "6bf3303b-coven-academy-renewed-for-season-2-at-disney"
+        },
+        {
+          "title": "Wildwood doesn't shy away from death, which makes it all the better for young audiences",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "f3696e08-wildwood-doesnt-shy-away-from-death-which-makes-it-all-the-b"
+        },
+        {
+          "title": "Sylvester Stallone Defends Casting His Daughter Scarlet In Tulsa King Amid Nepotism Criticism",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "01bfc352-sylvester-stallone-defends-casting-his-daughter-scarlet-in-t"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-26T21:42:28.855Z",
       "status": "quota",
@@ -2146,32 +2178,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-15T18:01:23.578Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 282,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "‘Street Fighter’ Review: Video Game Fighter Film Knocks Itself Unconscious",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "f29fd1d9-street-fighter-review-video-game-fighter-film-knocks-itself-"
-        },
-        {
-          "title": "“The Diplomat” Season 4 Finds New Ways to Up the Series’ Geopolitical and Interpersonal Stakes",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 15,
-          "slug": "8a833f4d-the-diplomat-season-4-finds-new-ways-to-up-the-series-geopol"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-26T21:42:28.855Z"
+  "lastUpdated": "2026-10-27T01:04:25.594Z"
 }
