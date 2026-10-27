@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2366,
+  "totalArticles": 2369,
   "runs": [
+    {
+      "timestamp": "2026-10-27T10:00:52.996Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 257,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "Taylor Sheridan Wasn't Flattered By Hollywood Trying To Replicate Yellowstone's Success",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "ce505773-taylor-sheridan-wasnt-flattered-by-hollywood-trying-to-repli"
+        },
+        {
+          "title": "What’s Coming to Netflix This Week: October 26 to November 1, 2026",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "7b6da613-whats-coming-to-netflix-this-week-october-26-to-november-1-2"
+        },
+        {
+          "title": "Casting News: 30 Rock Reunion On Reggie Dinkins, Game Of Thrones Star's Horror Series, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "3eac40cb-casting-news-30-rock-reunion-on-reggie-dinkins-game-of-thron"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Supernatural Drama ‘Coven Academy’ Renewed for Season 2 at Disney",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-27T08:00:56.871Z",
       "status": "success",
@@ -2159,40 +2199,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-16T02:01:10.105Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 275,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "‘Street Fighter’ Eyes Box Office Victory as Buzzy Elizabeth Holmes Doc Heads for Strong Launch",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "56bd7a09-street-fighter-eyes-box-office-victory-as-buzzy-elizabeth-ho"
-        },
-        {
-          "title": "Jenna Ortega Says She Hopes ‘Klara and the Sun’ Encourages People to ‘Put Down the Computers and Phones’ as Dystopian Film World Premieres in London",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "5e2f096d-jenna-ortega-says-she-hopes-klara-and-the-sun-encourages-peo"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Street Fighter Review: A Star-Studded, Violent, Love Letter to the ‘90s",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-27T08:00:56.871Z"
+  "lastUpdated": "2026-10-27T10:00:52.996Z"
 }
