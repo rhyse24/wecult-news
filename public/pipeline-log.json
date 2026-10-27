@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2372,
+  "totalArticles": 2373,
   "runs": [
+    {
+      "timestamp": "2026-10-27T17:29:19.810Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 278,
+      "totalCandidates": 52,
+      "written": [
+        {
+          "title": "Kordell Stewart Hopes His New HBO Documentary Lands Him in the NFL Hall of Fame",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "ffd0cb27-kordell-stewart-hopes-his-new-hbo-documentary-lands-him-in-t"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-27T13:48:03.745Z",
       "status": "success",
@@ -2173,39 +2191,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-16T06:56:29.704Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 53,
-      "written": [
-        {
-          "title": "South Park takes on looksmaxxing, aura-farming and influencer nonsense with grotesque glee",
-          "category": "tv",
-          "source": "Guardian TV",
-          "score": 14,
-          "slug": "81d3b6b3-south-park-takes-on-looksmaxxing-aura-farming-and-influencer"
-        },
-        {
-          "title": "‘Avatar: Fire and Ash’ Composer and More Speak Out About AI at Ghent’s WSA Film Music Days: ‘We Must Continue to Defend Our Art’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "b48e9516-avatar-fire-and-ash-composer-and-more-speak-out-about-ai-at-"
-        },
-        {
-          "title": "‘DWTS’ Pro Val Chmerkovskiy Apologizes to Carrie Ann Inaba for “Careless” Will Smith Oscars Slap Reference: “I Will Do Better”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "8552af56-dwts-pro-val-chmerkovskiy-apologizes-to-carrie-ann-inaba-for"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-27T13:48:03.745Z"
+  "lastUpdated": "2026-10-27T17:29:19.810Z"
 }
