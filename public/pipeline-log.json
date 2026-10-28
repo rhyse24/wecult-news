@@ -1,6 +1,39 @@
 {
-  "totalArticles": 2373,
+  "totalArticles": 2375,
   "runs": [
+    {
+      "timestamp": "2026-10-28T00:49:42.358Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 285,
+      "totalCandidates": 87,
+      "written": [
+        {
+          "title": "Cyberpunk's Edgerunners 2 Update Isn't In The Best State On Switch 2",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 16,
+          "slug": "62fdb1fd-cyberpunks-edgerunners-2-update-isnt-in-the-best-state-on-sw"
+        },
+        {
+          "title": "GTA 6 Developers Are About To Do Something Historic",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "e7412755-gta-6-developers-are-about-to-do-something-historic"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Backrooms’ Officially Returns in 2027 With New Release",
+          "category": "games",
+          "source": "Collider Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-27T21:18:52.645Z",
       "status": "quota",
@@ -2136,32 +2169,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-16T14:04:32.635Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 273,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "Here's Our First Look at Dark Link in The Legend of Zelda: Ocarina of Time Remake",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "38b3084b-heres-our-first-look-at-dark-link-in-the-legend-of-zelda-oca"
-        },
-        {
-          "title": "The Live-Action Cyberpunk 2077 Movie Won't Retrace the Game's Steps, CD Projekt Confirms",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "2aabba31-the-live-action-cyberpunk-2077-movie-wont-retrace-the-games-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-27T21:18:52.645Z"
+  "lastUpdated": "2026-10-28T00:49:42.358Z"
 }
