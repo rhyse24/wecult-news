@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2375,
+  "totalArticles": 2376,
   "runs": [
+    {
+      "timestamp": "2026-10-28T04:23:22.928Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 288,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Who Plays The Handler In Marvel's VisionQuest?",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "slug": "a2c4cd96-who-plays-the-handler-in-marvels-visionquest"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-28T00:49:42.358Z",
       "status": "quota",
@@ -2137,39 +2155,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-16T17:57:15.721Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 264,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Netflix’s Odd Alien Comedy From the Makers of ‘Bluey’ Gets a Release Date and Teaser",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "509d3d51-netflixs-odd-alien-comedy-from-the-makers-of-bluey-gets-a-re"
-        },
-        {
-          "title": "Did Tulsa King's [Spoiler] And [Spoiler] Just Die In Season 4 Premiere?! — Read Recap",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "bfc5b7c3-did-tulsa-kings-spoiler-and-spoiler-just-die-in-season-4-pre"
-        },
-        {
-          "title": "What To Watch Friday: Tulsa King And Rainmaker Return, New Dark Matter And MobLand, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "ec26c573-what-to-watch-friday-tulsa-king-and-rainmaker-return-new-dar"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-28T00:49:42.358Z"
+  "lastUpdated": "2026-10-28T04:23:22.928Z"
 }
