@@ -1,6 +1,42 @@
 {
-  "totalArticles": 2385,
+  "totalArticles": 2387,
   "runs": [
+    {
+      "timestamp": "2026-10-28T20:35:06.513Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 288,
+      "totalCandidates": 89,
+      "written": [
+        {
+          "title": "Tenjutsu, the New Roguelike From Dead Cells’ Former Director, Launches in 2027",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "slug": "713cbfe4-tenjutsu-the-new-roguelike-from-dead-cells-former-director-l"
+        },
+        {
+          "title": "Call of Duty: Modern Warfare 4 Patch Makes It Impossible to Get a Nuke in Free-for-All",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "2ef1fdc0-call-of-duty-modern-warfare-4-patch-makes-it-impossible-to-g"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "20 Movies You Should Watch Before GTA 6",
+          "category": "games",
+          "source": "WhatCulture Games",
+          "score": 14,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 1045 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-28T17:06:18.656Z",
       "status": "success",
@@ -2123,64 +2159,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-17T10:16:54.497Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 264,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "‘Street Fighter’ Cast Guide: All the WWE Stars, UFC Champs and Celebs Playing Video Game Fighters in the Live-Action Movie",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "f18369c2-street-fighter-cast-guide-all-the-wwe-stars-ufc-champs-and-c"
-        },
-        {
-          "title": "The Impossible ‘Whalefall’: Director Brian Duffield Wanted a Challenge, So He Discovered a Way to Crush Austin Abrams in a Whale Stomach That Left Onlookers ‘Baffled’",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "95da3970-the-impossible-whalefall-director-brian-duffield-wanted-a-ch"
-        },
-        {
-          "title": "‘Red Rising’ Movie in the Works at Paramount With ‘Hunger Games’ Director Francis Lawrence",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "75f78900-red-rising-movie-in-the-works-at-paramount-with-hunger-games"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "“Tulsa King,” and Stallone, Start to Show Their Age in Season 4",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        },
-        {
-          "title": "Street Fighter Review: A Star-Studded, Violent, Love Letter to the ‘90s",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Ending Of Street Fighter (2026) Explained",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-28T17:06:18.656Z"
+  "lastUpdated": "2026-10-28T20:35:06.513Z"
 }
