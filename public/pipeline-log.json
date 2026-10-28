@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2379,
+  "totalArticles": 2382,
   "runs": [
+    {
+      "timestamp": "2026-10-28T11:35:40.586Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 281,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "Final Dune: Part 3 Trailer Confirms Timothée Chalamet Is the Oppressor",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "slug": "da2127d5-final-dune-part-3-trailer-confirms-timothe-chalamet-is-the-o"
+        },
+        {
+          "title": "The Black Tapes Podcast to Become MGM+ Series; Nikolaj Coster-Waldau Starring",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "6c0c2120-the-black-tapes-podcast-to-become-mgm-series-nikolaj-coster-"
+        },
+        {
+          "title": "Godzilla Minus Zero Director Finally Reveals What the Movie’s Title Means",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "438311f6-godzilla-minus-zero-director-finally-reveals-what-the-movies"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-28T08:00:58.330Z",
       "status": "success",
@@ -2137,32 +2169,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-17T02:04:36.593Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "Whalefall restores the lost art of the movie tagline",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "slug": "0407b62e-whalefall-restores-the-lost-art-of-the-movie-tagline"
-        },
-        {
-          "title": "Crystal Lake Finale Includes A Major Throwback To Friday The 13th Part 2",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "7bcdc645-crystal-lake-finale-includes-a-major-throwback-to-friday-the"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-28T08:00:58.330Z"
+  "lastUpdated": "2026-10-28T11:35:40.586Z"
 }
