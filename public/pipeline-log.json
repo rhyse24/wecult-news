@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2382,
+  "totalArticles": 2385,
   "runs": [
+    {
+      "timestamp": "2026-10-28T17:06:18.656Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 281,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "The 10 Most Suspenseful Movies in Film History ",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "3f89ec6e-the-10-most-suspenseful-movies-in-film-history"
+        },
+        {
+          "title": "Kathleen Kennedy to Lead LA Olympics Opening and Closing Ceremonies After ‘Star Wars’ Exit, Replacing Peter Rice",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "d942aef7-kathleen-kennedy-to-lead-la-olympics-opening-and-closing-cer"
+        },
+        {
+          "title": "Jamie Dornan Says There’s ‘Pressure’ to Taking Over Aragorn Role in ‘Lord of the Rings: Hunt for Gollum’: I’m Not ‘Trying to Outdo’ Viggo Mortensen",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "ffe31c6c-jamie-dornan-says-theres-pressure-to-taking-over-aragorn-rol"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "20 Movies You Should Watch Before GTA 6",
+          "category": "film",
+          "source": "WhatCulture Film",
+          "score": 16,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 970 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-28T11:35:40.586Z",
       "status": "success",
@@ -2137,39 +2180,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-17T06:10:56.338Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 84,
-      "written": [
-        {
-          "title": "Surprise! Aspyr Is Remastering A Shrek Game",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 13,
-          "slug": "d815bc78-surprise-aspyr-is-remastering-a-shrek-game"
-        },
-        {
-          "title": "Stop The Presses! Shrek 2 Is Officially Being Remastered For Xbox Series X|S",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 12,
-          "slug": "47426f07-stop-the-presses-shrek-2-is-officially-being-remastered-for-"
-        },
-        {
-          "title": "Where the Seeds Fall PC Demo is Out Now, Accompanied by a Cinematic Trailer",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 12,
-          "slug": "4a2ed701-where-the-seeds-fall-pc-demo-is-out-now-accompanied-by-a-cin"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-28T11:35:40.586Z"
+  "lastUpdated": "2026-10-28T17:06:18.656Z"
 }
