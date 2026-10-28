@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2376,
+  "totalArticles": 2379,
   "runs": [
+    {
+      "timestamp": "2026-10-28T08:00:58.330Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 289,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "How Marvel's VisionQuest Brings Back Iron Man Villain Raza After 18 Years",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "49f30c6f-how-marvels-visionquest-brings-back-iron-man-villain-raza-af"
+        },
+        {
+          "title": "VisionQuest Finally Introduces One of the Strangest Avengers",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 13,
+          "slug": "578262da-visionquest-finally-introduces-one-of-the-strangest-avengers"
+        },
+        {
+          "title": "VisionQuest Episode 6 Review: The Marvel Method Strikes Again",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 13,
+          "slug": "4726c5e5-visionquest-episode-6-review-the-marvel-method-strikes-again"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-28T04:23:22.928Z",
       "status": "quota",
@@ -2130,32 +2162,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-16T22:01:20.526Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 259,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "Street Fighter: Cody Rhodes' Daughter Was Born During Filming | Set Stories",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "slug": "329285f5-street-fighter-cody-rhodes-daughter-was-born-during-filming-"
-        },
-        {
-          "title": "6 Forgotten Thrillers That Rival 'Se7en'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 14,
-          "slug": "2cee6bad-6-forgotten-thrillers-that-rival-se7en"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-28T04:23:22.928Z"
+  "lastUpdated": "2026-10-28T08:00:58.330Z"
 }
