@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2396,
+  "totalArticles": 2399,
   "runs": [
+    {
+      "timestamp": "2026-10-29T15:00:23.223Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 280,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Joey King, LaKeith Stanfield to Star in Provocative Alien Romance Comedy ‘Safe Space,’ Lucky Number, CAA Media Finance and WME Independent Launching Sales at AFM (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "af9998a5-joey-king-lakeith-stanfield-to-star-in-provocative-alien-rom"
+        },
+        {
+          "title": "Jamie Lee Curtis, Filmmaker Skip Chaisson and Disney’s Frank Chiocchi Tapped for Clio Entertainment Honors (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "64184306-jamie-lee-curtis-filmmaker-skip-chaisson-and-disneys-frank-c"
+        },
+        {
+          "title": "‘Dune 3’ Popcorn Bucket Has Two Sandworms That ‘Make It Easier to Share’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "c60c9bae-dune-3-popcorn-bucket-has-two-sandworms-that-make-it-easier-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘The Hunger Games: Sunrise on the Reaping’ First Reactions",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-29T11:21:44.278Z",
       "status": "success",
@@ -2141,36 +2181,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-18T06:01:02.655Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 230,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "Countdown: Zelda: Ocarina Of Time Dungeon Crawl #5 - This One's Fire, Bro",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 12,
-          "slug": "e0394697-countdown-zelda-ocarina-of-time-dungeon-crawl-5---this-ones-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Resident Evil 2, 3 and 4 Remake Are Now Available on Nintendo Switch 2",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-29T11:21:44.278Z"
+  "lastUpdated": "2026-10-29T15:00:23.223Z"
 }
