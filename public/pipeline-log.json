@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2387,
+  "totalArticles": 2388,
   "runs": [
+    {
+      "timestamp": "2026-10-29T00:28:12.245Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 55,
+      "written": [
+        {
+          "title": "‘South Park’ to Fight for Its Beef in Latest Episode",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 14,
+          "slug": "b5e6318f-south-park-to-fight-for-its-beef-in-latest-episode"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-28T20:35:06.513Z",
       "status": "quota",
@@ -2116,50 +2134,7 @@
       "totalCandidates": 19,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-17T14:26:12.025Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 261,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "J.K. Rowling’s Agent Slams Trans Rights Protest at ‘Harry Potter and the Cursed Child’ in London: It Put ‘Others at Risk’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "195385da-jk-rowlings-agent-slams-trans-rights-protest-at-harry-potter"
-        },
-        {
-          "title": "‘The Diplomat’ Composer Marcelo Zarvos Reveals the Inspiration Behind the Wylers’ “Devil’s Waltz”",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 8,
-          "slug": "0c636994-the-diplomat-composer-marcelo-zarvos-reveals-the-inspiration"
-        },
-        {
-          "title": "Heath Ledger Played An Irish Prince In A Forgotten Fantasy Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 7,
-          "slug": "64cd23ff-heath-ledger-played-an-irish-prince-in-a-forgotten-fantasy-s"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Kal Penn says there's still enough stupid in the chamber for Harold & Kumar 4",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-28T20:35:06.513Z"
+  "lastUpdated": "2026-10-29T00:28:12.245Z"
 }
