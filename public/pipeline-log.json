@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2393,
+  "totalArticles": 2396,
   "runs": [
+    {
+      "timestamp": "2026-10-29T11:21:44.278Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 276,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "The Remarried Empress Webtoon Launches Side Stories Ahead of Disney+ Live-Action Series",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 15,
+          "slug": "9d7ec27c-the-remarried-empress-webtoon-launches-side-stories-ahead-of"
+        },
+        {
+          "title": "Avatar: The Last Airbender Season 3: Expected Netflix Release Date & Everything We Know",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 12,
+          "slug": "e986fa37-avatar-the-last-airbender-season-3-expected-netflix-release-"
+        },
+        {
+          "title": "VisionQuest Episode 5 Review: The New Age of Ultron",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 11,
+          "slug": "4713fac3-visionquest-episode-5-review-the-new-age-of-ultron"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-29T07:32:24.268Z",
       "status": "success",
@@ -2138,40 +2170,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-18T02:11:13.686Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 231,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "‘Street Fighter’ Scoring $31M at Box Office as ‘You Can See Everything’ Rises and ‘Whalefall’ Sinks",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "bb83502a-street-fighter-scoring-31m-at-box-office-as-you-can-see-ever"
-        },
-        {
-          "title": "James McAvoy Says ‘Split’ Is The Only Film That ‘Really Consistently Pays Me’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "77b56f7c-james-mcavoy-says-split-is-the-only-film-that-really-consist"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Austin Abrams Still Won’t Admit Which Was Tougher to Shoot, ‘Whalefall’ or ‘Resident Evil’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-29T07:32:24.268Z"
+  "lastUpdated": "2026-10-29T11:21:44.278Z"
 }
