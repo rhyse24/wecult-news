@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2390,
+  "totalArticles": 2393,
   "runs": [
+    {
+      "timestamp": "2026-10-29T07:32:24.268Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 282,
+      "totalCandidates": 73,
+      "written": [
+        {
+          "title": "A Famous GTA 4 Meme Is Now a Mechanic in GTA 6",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "aec3c785-a-famous-gta-4-meme-is-now-a-mechanic-in-gta-6"
+        },
+        {
+          "title": "GTA 6's Map Will Open Up Relatively Early and Let You Explore Freely, Developers Are Still Discovering New Parts of the World",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "1e259779-gta-6s-map-will-open-up-relatively-early-and-let-you-explore"
+        },
+        {
+          "title": "'Appreciate the Fans' — GTA 5 Cast Tell Jason and Lucia’s Actors the Most Important Things They Should Know Before GTA 6 Launches Them to Fame",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "41ae0b21-appreciate-the-fans-gta-5-cast-tell-jason-and-lucias-actors-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-29T04:04:22.081Z",
       "status": "quota",
@@ -2139,25 +2171,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-17T22:30:52.924Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 234,
-      "totalCandidates": 17,
-      "written": [
-        {
-          "title": "What to Watch and Read This Weekend: I Don’t Know What to Do With the Netflix Volcano Sacrifice Movie",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 14,
-          "slug": "23e1c4da-what-to-watch-and-read-this-weekend-i-dont-know-what-to-do-w"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-29T04:04:22.081Z"
+  "lastUpdated": "2026-10-29T07:32:24.268Z"
 }
