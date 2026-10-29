@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2399,
+  "totalArticles": 2400,
   "runs": [
+    {
+      "timestamp": "2026-10-29T18:33:40.964Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 281,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "VisionQuest Fans Spot The Return Of A Major Marvel Character From What If",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "68840beb-visionquest-fans-spot-the-return-of-a-major-marvel-character"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-29T15:00:23.223Z",
       "status": "success",
@@ -2149,39 +2167,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-18T08:01:05.082Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 230,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "15 The Twilight Zone Episodes Everyone Should Watch At Least Once",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "743d0285-15-the-twilight-zone-episodes-everyone-should-watch-at-least"
-        },
-        {
-          "title": "‘Dancing With the Stars’ Pulls Val Chmerkovskiy After ‘Inappropriate’ Carrie Ann Inaba Slap Joke: ‘The Well-Being’ of Our Staff Is ‘Non-Negotiable’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "9f7ef7e4-dancing-with-the-stars-pulls-val-chmerkovskiy-after-inapprop"
-        },
-        {
-          "title": "Mike Flanagan's Only Unfinished Netflix Series Is An Underrated Horror Gem",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 7,
-          "slug": "8532ee5c-mike-flanagans-only-unfinished-netflix-series-is-an-underrat"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-29T15:00:23.223Z"
+  "lastUpdated": "2026-10-29T18:33:40.964Z"
 }
