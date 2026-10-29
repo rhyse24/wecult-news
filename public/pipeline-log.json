@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2400,
+  "totalArticles": 2401,
   "runs": [
+    {
+      "timestamp": "2026-10-29T22:05:05.756Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 284,
+      "totalCandidates": 74,
+      "written": [
+        {
+          "title": "'Elden Ring' Creators' Next Fantasy Game Officially Delayed to 2027",
+          "category": "games",
+          "source": "Collider Games",
+          "score": 15,
+          "slug": "ab7be7cb-elden-ring-creators-next-fantasy-game-officially-delayed-to-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-29T18:33:40.964Z",
       "status": "quota",
@@ -2135,39 +2153,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-18T11:47:07.038Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 208,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Austin Abrams Still Won’t Admit Which Was Tougher to Shoot, ‘Whalefall’ or ‘Resident Evil’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 12,
-          "slug": "6fbe736f-austin-abrams-still-wont-admit-which-was-tougher-to-shoot-wh"
-        },
-        {
-          "title": "The Ending Of Street Fighter (2026) Explained",
-          "category": "film",
-          "source": "Looper",
-          "score": 10,
-          "slug": "594b8c8d-the-ending-of-street-fighter-2026-explained"
-        },
-        {
-          "title": "Quentin Tarantino Confirms He’s ‘Written a Script’ for His Tenth Film, But Won’t Pursue It Yet Because He Wants to ‘Live a Little’",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "af291c30-quentin-tarantino-confirms-hes-written-a-script-for-his-tent"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-29T18:33:40.964Z"
+  "lastUpdated": "2026-10-29T22:05:05.756Z"
 }
