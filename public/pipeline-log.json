@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2404,
+  "totalArticles": 2407,
   "runs": [
+    {
+      "timestamp": "2026-10-30T05:14:49.470Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 279,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Why Yellowstone Star Neal McDonough Refuses To Watch The Taylor Sheridan Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "fa47379d-why-yellowstone-star-neal-mcdonough-refuses-to-watch-the-tay"
+        },
+        {
+          "title": "From PUBG to Diablo: Every Video Game Adaptation Netflix Is Making Right Now",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 11,
+          "slug": "a0266603-from-pubg-to-diablo-every-video-game-adaptation-netflix-is-m"
+        },
+        {
+          "title": "Apple TV's Monarch: Legacy Of Monsters Season 3 Eyes Creative Overhaul With New Titans",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "3c736502-apple-tvs-monarch-legacy-of-monsters-season-3-eyes-creative-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "VisionQuest Snuck in a Cameo That Harkens Back to Ultron’s Finest Hour",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 15,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-30T01:40:38.728Z",
       "status": "success",
@@ -2135,25 +2175,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-18T19:26:54.105Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 179,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "HBO's Westworld Had A Subtle Game Of Thrones 'Crossover' In Season 3",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "e6d4d9f4-hbos-westworld-had-a-subtle-game-of-thrones-crossover-in-sea"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-30T01:40:38.728Z"
+  "lastUpdated": "2026-10-30T05:14:49.470Z"
 }
