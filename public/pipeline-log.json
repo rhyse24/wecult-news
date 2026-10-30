@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2407,
+  "totalArticles": 2410,
   "runs": [
+    {
+      "timestamp": "2026-10-30T09:27:07.591Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "Sir Patrick Stewart 1940-2026",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "737f0f92-sir-patrick-stewart-1940-2026"
+        },
+        {
+          "title": "Obsession Director Curry Barker Releases a Surprise Horror Short on YouTube",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "f81b9d2a-obsession-director-curry-barker-releases-a-surprise-horror-s"
+        },
+        {
+          "title": "Project Hail Mary Is Pushing Rocky for a Best Supporting Actor Oscar Nomination",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 9,
+          "slug": "8600214b-project-hail-mary-is-pushing-rocky-for-a-best-supporting-act"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "“Pretending you’re free when you’re just unwanted” — VisionQuest’s “Firewall” and “Deadlock”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-30T05:14:49.470Z",
       "status": "success",
@@ -2157,25 +2197,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-18T23:12:19.602Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 170,
-      "totalCandidates": 17,
-      "written": [],
-      "rejected": [
-        {
-          "title": "10 Most Popular Movie Masterpieces of the Past 6 Years",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-30T05:14:49.470Z"
+  "lastUpdated": "2026-10-30T09:27:07.591Z"
 }
