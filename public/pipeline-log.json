@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2401,
+  "totalArticles": 2404,
   "runs": [
+    {
+      "timestamp": "2026-10-30T01:40:38.728Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 279,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Patrick Stewart’s Final Movie Is ‘Avengers: Doomsday’; He Said Before His Death That ‘I Can’t Imagine Retiring. I’ll Forever Be an Actor’",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "c7bcaec0-patrick-stewarts-final-movie-is-avengers-doomsday-he-said-be"
+        },
+        {
+          "title": "Joseph Mazzello Leads Cecil Hotel Horror ‘A Grim Life,’ Cappu Films Boards Sales (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "12ff5b4c-joseph-mazzello-leads-cecil-hotel-horror-a-grim-life-cappu-f"
+        },
+        {
+          "title": "After 'Obsession' and 'Backrooms,' Here's What's Next for Horror",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 14,
+          "slug": "75e8c06c-after-obsession-and-backrooms-heres-whats-next-for-horror"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-29T22:05:05.756Z",
       "status": "quota",
@@ -2121,39 +2153,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-18T15:33:33.758Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 192,
-      "totalCandidates": 82,
-      "written": [
-        {
-          "title": "Feature: I'm Playing Samson On Xbox Series X, And Here's What I Think So Far",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 13,
-          "slug": "66393a02-feature-im-playing-samson-on-xbox-series-x-and-heres-what-i-"
-        },
-        {
-          "title": "GTA 6 Dev Rockstar Accused Of Rewarding Union Moles With Time Off",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 12,
-          "slug": "b4aa84ad-gta-6-dev-rockstar-accused-of-rewarding-union-moles-with-tim"
-        },
-        {
-          "title": "Fire Emblem’s Remarkable Comeback",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 11,
-          "slug": "9ad260ba-fire-emblems-remarkable-comeback"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-29T22:05:05.756Z"
+  "lastUpdated": "2026-10-30T01:40:38.728Z"
 }
