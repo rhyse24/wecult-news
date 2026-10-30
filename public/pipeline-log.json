@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2413,
+  "totalArticles": 2416,
   "runs": [
+    {
+      "timestamp": "2026-10-30T17:26:54.574Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 265,
+      "totalCandidates": 73,
+      "written": [
+        {
+          "title": "Hunter: The Reckoning – Deathwish Trailer Details Character Creation, Archetypes, and Flaws",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "slug": "981c085a-hunter-the-reckoning-deathwish-trailer-details-character-cre"
+        },
+        {
+          "title": " GTA 6's souped-up Red Dead Redemption 2-style morality system will scale from 'Professional' to 'Irredeemable' so players can decide what kind of criminal they want to be ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "7c860a90-gta-6s-souped-up-red-dead-redemption-2-style-morality-system"
+        },
+        {
+          "title": " Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "1c5f4448-screw-grand-theft-auto-6s-supercars-im-here-for-leonidas-rob"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-30T13:30:02.528Z",
       "status": "success",
@@ -2194,17 +2226,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-19T05:35:45.143Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 170,
-      "totalCandidates": 36,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-30T13:30:02.528Z"
+  "lastUpdated": "2026-10-30T17:26:54.574Z"
 }
