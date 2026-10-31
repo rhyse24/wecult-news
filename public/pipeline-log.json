@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2424,
+  "totalArticles": 2427,
   "runs": [
+    {
+      "timestamp": "2026-10-31T10:17:01.477Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 263,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "Final Fantasy XIV Game Reveals February 19 Early Access Date for 'Evercold' Expansion, New Job Zephyr",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 13,
+          "slug": "55e2b33d-final-fantasy-xiv-game-reveals-february-19-early-access-date"
+        },
+        {
+          "title": "Martin Scorsese says Seth Rogen \"ruined Cleopatra,\" \"everything\" by making fun of Kim Jong Un",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 10,
+          "slug": "17f9140b-martin-scorsese-says-seth-rogen-ruined-cleopatra-everything-"
+        },
+        {
+          "title": "5 Batman: The Animated Series Episodes To Watch On Halloween",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "1f6f1a91-5-batman-the-animated-series-episodes-to-watch-on-halloween"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Cliff Booth's Mis-Adventures banned from Regal, Cinemark IMAX screens",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body too long: 668 words (max 580)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-31T05:55:28.312Z",
       "status": "quota",
@@ -2187,50 +2230,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-19T22:00:52.156Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 241,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "3 Best Movies to Watch on Netflix This Week (Oct 19-23)",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 16,
-          "slug": "bc2f0206-3-best-movies-to-watch-on-netflix-this-week-oct-19-23"
-        },
-        {
-          "title": "Street Fighter: Ranking Every Movie World Warrior By Game Fidelity",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 15,
-          "slug": "cf92e073-street-fighter-ranking-every-movie-world-warrior-by-game-fid"
-        },
-        {
-          "title": "Hunter Schafer Reveals She Had Gender-Affirming Bottom Surgery",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "ee63ddc9-hunter-schafer-reveals-she-had-gender-affirming-bottom-surge"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Kris Bowers Set to Compose Original Score For Disney’s Animated Feature ‘Hexed’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 592 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-31T05:55:28.312Z"
+  "lastUpdated": "2026-10-31T10:17:01.477Z"
 }
