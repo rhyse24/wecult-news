@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2419,
+  "totalArticles": 2422,
   "runs": [
+    {
+      "timestamp": "2026-10-31T01:25:32.497Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "The Most Terrifying A24 Movie of All Time Is Officially on Prime Video",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 15,
+          "slug": "0100802b-the-most-terrifying-a24-movie-of-all-time-is-officially-on-p"
+        },
+        {
+          "title": "Jennifer Lawrence Says ‘Absolutely F—ing Not’ to Transforming Into X-Men’s Mystique Again",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "75fd18a1-jennifer-lawrence-says-absolutely-fing-not-to-transforming-i"
+        },
+        {
+          "title": "Director of 1994 ‘Street Fighter’ Defends His Movie Amid Debate Over Its Comedy: “It’s Intentionally Funny”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "8c86dbe1-director-of-1994-street-fighter-defends-his-movie-amid-debat"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-30T21:15:54.828Z",
       "status": "success",
@@ -2183,50 +2215,7 @@
       "totalCandidates": 24,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-19T12:05:11.444Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 211,
-      "totalCandidates": 76,
-      "written": [
-        {
-          "title": "GTA 6 Release Date: When Does Grand Theft Auto 6 Launch?",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 14,
-          "slug": "865efe32-gta-6-release-date-when-does-grand-theft-auto-6-launch"
-        },
-        {
-          "title": "Modern Warfare 4 Pays Tribute to Call of Duty Co-Creator Vince Zampella",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "ee7f7d5c-modern-warfare-4-pays-tribute-to-call-of-duty-co-creator-vin"
-        },
-        {
-          "title": "Xbox Game Pass Is Losing 8 More Games In October",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "e9c8ba52-xbox-game-pass-is-losing-8-more-games-in-october"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Modder Uses AI to Put Shadow of War's Nemesis System in Rockstar's Red Dead Redemption 2",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-30T21:15:54.828Z"
+  "lastUpdated": "2026-10-31T01:25:32.497Z"
 }
