@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2422,
+  "totalArticles": 2424,
   "runs": [
+    {
+      "timestamp": "2026-10-31T05:55:28.312Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 266,
+      "totalCandidates": 86,
+      "written": [
+        {
+          "title": "Final Fantasy XIV Evercold Delayed, New Release Date Announced at FFXIV Fan Fest",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "c69b947a-final-fantasy-xiv-evercold-delayed-new-release-date-announce"
+        },
+        {
+          "title": "Xbox's Doom, Wolfenstein Developers Working 'More Closely Than Ever' Following Xbox 'Reset' Layoffs",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "f05241cf-xboxs-doom-wolfenstein-developers-working-more-closely-than-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-31T01:25:32.497Z",
       "status": "success",
@@ -2205,17 +2230,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-19T18:48:54.747Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 240,
-      "totalCandidates": 24,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-10-31T01:25:32.497Z"
+  "lastUpdated": "2026-10-31T05:55:28.312Z"
 }
