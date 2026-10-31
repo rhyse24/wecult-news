@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2427,
+  "totalArticles": 2430,
   "runs": [
+    {
+      "timestamp": "2026-10-31T14:39:51.530Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 251,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "Before ‘Star Trek,’ Patrick Stewart Proved His Sci-Fi Chops in ‘Dune’",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "slug": "552b7ced-before-star-trek-patrick-stewart-proved-his-sci-fi-chops-in-"
+        },
+        {
+          "title": "6 Terrifying Horror Movies That Show 'Obsession' How It's Done",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "slug": "4d1c93f9-6-terrifying-horror-movies-that-show-obsession-how-its-done"
+        },
+        {
+          "title": "5 Movies To Watch If You Like Love Of Your Life",
+          "category": "film",
+          "source": "Looper",
+          "score": 8,
+          "slug": "358d9ae7-5-movies-to-watch-if-you-like-love-of-your-life"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-10-31T10:17:01.477Z",
       "status": "success",
@@ -2204,33 +2236,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-20T01:12:22.648Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 239,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "What’s Coming to Netflix This Week: October 19 to 25, 2026",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 11,
-          "slug": "6688ee9b-whats-coming-to-netflix-this-week-october-19-to-25-2026"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Criminal Minds Star Paget Brewster Voices An Incredibly Important But Rarely Seen Disney Character",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-31T10:17:01.477Z"
+  "lastUpdated": "2026-10-31T14:39:51.530Z"
 }
