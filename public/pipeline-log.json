@@ -1,6 +1,39 @@
 {
-  "totalArticles": 2440,
+  "totalArticles": 2442,
   "runs": [
+    {
+      "timestamp": "2026-11-01T19:01:24.723Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 185,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "Box Office: Zach Cregger’s ‘Resident Evil’ Reboot Hits $400 Million Globally",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "5f23a6b1-box-office-zach-creggers-resident-evil-reboot-hits-400-milli"
+        },
+        {
+          "title": "23 Best Movies New to Streaming in November: ‘Tony,’ ‘Misty Green,’ ‘Possible Love’ and More",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "30d0656d-23-best-movies-new-to-streaming-in-november-tony-misty-green"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Godzilla Minus Zero’ Crashes Into Tokyo Film Festival With Stars Ryunosuke Kamiki, Minami Hamabe in Tow",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-01T13:34:47.703Z",
       "status": "success",
@@ -2130,39 +2163,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-21T00:44:03.504Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 270,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "Elizabeth Holmes Mania: ‘You Can See Everything’ Drives 186% Viewership Spike for Amanda Seyfried’s ‘The Dropout’ (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 16,
-          "slug": "6b1e130c-elizabeth-holmes-mania-you-can-see-everything-drives-186-vie"
-        },
-        {
-          "title": "Analesa Fisher on Joining ‘Cyberpunk: Edgerunners’ Season 2 and Voicing Omi",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 16,
-          "slug": "7972fb63-analesa-fisher-on-joining-cyberpunk-edgerunners-season-2-and"
-        },
-        {
-          "title": "Does VisionQuest still want us to fear “Peepaw” Ultron?",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "slug": "44670e8d-does-visionquest-still-want-us-to-fear-peepaw-ultron"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-01T13:34:47.703Z"
+  "lastUpdated": "2026-11-01T19:01:24.723Z"
 }
