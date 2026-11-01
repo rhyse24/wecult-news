@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2432,
+  "totalArticles": 2434,
   "runs": [
+    {
+      "timestamp": "2026-11-01T06:15:49.700Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 238,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "‘Godzilla Minus Zero’ Stars Relive Hollywood Ovation and Fan Chants for Yamazaki Takashi at Tokyo Festival",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "5c4e5390-godzilla-minus-zero-stars-relive-hollywood-ovation-and-fan-c"
+        },
+        {
+          "title": "Frank Miller on Why He’s Relieved There Are Fewer Comic Book Adaptations Now: They Were ‘Really in Danger of Losing Their Souls’",
+          "category": "film",
+          "source": "Variety",
+          "score": 10,
+          "slug": "ccd51266-frank-miller-on-why-hes-relieved-there-are-fewer-comic-book-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-01T02:39:42.624Z",
       "status": "quota",
@@ -2138,39 +2163,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-20T13:36:34.170Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 252,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": " TV Spy — Sheriff Country, Dexter: Resurrection, and all the US dramas you can watch on UK services: 24-30 October ",
-          "category": "tv",
-          "source": "What to Watch",
-          "score": 13,
-          "slug": "d766422e-tv-spy-sheriff-country-dexter-resurrection-and-all-the-us-dr"
-        },
-        {
-          "title": "Criminal Minds Star Paget Brewster Voices An Incredibly Important But Rarely Seen Disney Character",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "c19f4840-criminal-minds-star-paget-brewster-voices-an-incredibly-impo"
-        },
-        {
-          "title": "Guillermo del Toro: ‘It Pains Me Deeply to See Past Generations Fail the Next, We’re Handing Down a World in Ruins’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "a8c894ed-guillermo-del-toro-it-pains-me-deeply-to-see-past-generation"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-01T02:39:42.624Z"
+  "lastUpdated": "2026-11-01T06:15:49.700Z"
 }
