@@ -2,6 +2,16 @@
   "totalArticles": 2432,
   "runs": [
     {
+      "timestamp": "2026-11-01T02:39:42.624Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 238,
+      "totalCandidates": 21,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-10-31T22:41:33.493Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2160,47 +2170,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-20T10:01:13.355Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 243,
-      "totalCandidates": 93,
-      "written": [
-        {
-          "title": "Round Up: The Reviews For The Street Fighter Movie Are In",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 13,
-          "slug": "f94711e6-round-up-the-reviews-for-the-street-fighter-movie-are-in"
-        },
-        {
-          "title": "There's Real Force Behind These Star Wars Battlefront 3 Rumors",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "7f98d8b6-theres-real-force-behind-these-star-wars-battlefront-3-rumor"
-        },
-        {
-          "title": "How To Pass The Judge’s Test In Castlevania: Belmont’s Curse",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 11,
-          "slug": "458a3bf1-how-to-pass-the-judges-test-in-castlevania-belmonts-curse"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Call of Duty: Modern Warfare 4 Pop-Up: The DMZ Has Never Been This Much Fun",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-10-31T22:41:33.493Z"
+  "lastUpdated": "2026-11-01T02:39:42.624Z"
 }
