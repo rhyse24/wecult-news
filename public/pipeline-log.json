@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2437,
+  "totalArticles": 2440,
   "runs": [
+    {
+      "timestamp": "2026-11-01T13:34:47.703Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 207,
+      "totalCandidates": 7,
+      "written": [
+        {
+          "title": "Why you should treat charisma as a red flag",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 11,
+          "slug": "deaf160e-why-you-should-treat-charisma-as-a-red-flag"
+        },
+        {
+          "title": "Book Review: ‘Sound Tracks,’ by Graeme Lawson",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 7,
+          "slug": "bb9ade87-book-review-sound-tracks-by-graeme-lawson"
+        },
+        {
+          "title": "Like many authors, I’m bombarded by scam fan mail. I wasn’t prepared for what would happen when I wrote back",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 6,
+          "slug": "f7bcdb64-like-many-authors-im-bombarded-by-scam-fan-mail-i-wasnt-prep"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-01T09:56:20.840Z",
       "status": "success",
@@ -2130,32 +2162,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-20T20:54:23.362Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 274,
-      "totalCandidates": 85,
-      "written": [
-        {
-          "title": "Shrek 2 Remastered Reveal Trailer Parodies GTA 6, Sets November Release Date",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "5c3fe10e-shrek-2-remastered-reveal-trailer-parodies-gta-6-sets-novemb"
-        },
-        {
-          "title": "Fortnite's Nikki Skin Sparks Debate Among Horror Fans, With Some Calling for a Boycott",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "f280070d-fortnites-nikki-skin-sparks-debate-among-horror-fans-with-so"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-01T09:56:20.840Z"
+  "lastUpdated": "2026-11-01T13:34:47.703Z"
 }
