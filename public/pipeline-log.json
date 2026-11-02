@@ -2,6 +2,16 @@
   "totalArticles": 2443,
   "runs": [
     {
+      "timestamp": "2026-11-02T03:04:46.376Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 178,
+      "totalCandidates": 40,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-11-02T00:01:08.336Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2095,39 +2105,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-21T17:43:04.485Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 80,
-      "written": [
-        {
-          "title": "BioWare Shutting Down, Next Mass Effect Canceled",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "53114da7-bioware-shutting-down-next-mass-effect-canceled"
-        },
-        {
-          "title": "Everything Coming to Cyberpunk 2077 With the 2.5 Update, Including New Side Quests, New Double Trouble Perk, and Much More",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "72534a4c-everything-coming-to-cyberpunk-2077-with-the-25-update-inclu"
-        },
-        {
-          "title": "Exclusive — See 7 New Cards From Magic: The Gathering Star Trek, Including 1 That Remembers the Most Iconic Drink of TNG",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "2e7581b2-exclusive-see-7-new-cards-from-magic-the-gathering-star-trek"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-02T00:01:08.336Z"
+  "lastUpdated": "2026-11-02T03:04:46.376Z"
 }
