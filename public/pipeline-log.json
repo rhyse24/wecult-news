@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2442,
+  "totalArticles": 2443,
   "runs": [
+    {
+      "timestamp": "2026-11-02T00:01:08.336Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 173,
+      "totalCandidates": 76,
+      "written": [
+        {
+          "title": "Joe Manganiello Says He 'Will Never Give Up Hope' on His D&D Dragonlance TV Series",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 12,
+          "slug": "373575f8-joe-manganiello-says-he-will-never-give-up-hope-on-his-dd-dr"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-01T22:22:35.735Z",
       "status": "quota",
@@ -2109,39 +2127,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-21T08:52:41.517Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 266,
-      "totalCandidates": 40,
-      "written": [
-        {
-          "title": "The Best Version of Clayface Isn’t in Batman: The Animated Series ",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 14,
-          "slug": "e76a9b16-the-best-version-of-clayface-isnt-in-batman-the-animated-ser"
-        },
-        {
-          "title": "VisionQuest Makes One of Marvel’s Lamer Villains Into Something Cool",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 13,
-          "slug": "2d601d9f-visionquest-makes-one-of-marvels-lamer-villains-into-somethi"
-        },
-        {
-          "title": "VisionQuest Episode 4 Review: Changing Channels",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 13,
-          "slug": "3d5b3bde-visionquest-episode-4-review-changing-channels"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-01T22:22:35.735Z"
+  "lastUpdated": "2026-11-02T00:01:08.336Z"
 }
