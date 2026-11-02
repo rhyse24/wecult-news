@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2451,
+  "totalArticles": 2452,
   "runs": [
+    {
+      "timestamp": "2026-11-02T20:01:09.533Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 250,
+      "totalCandidates": 25,
+      "written": [
+        {
+          "title": "Meta to Help Bring ‘The Hunger Games: Sunrise on the Reaping’ to 3D Screens — and Its $1,299 VR Glasses",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "6a48f392-meta-to-help-bring-the-hunger-games-sunrise-on-the-reaping-t"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-02T16:01:13.168Z",
       "status": "quota",
@@ -2043,47 +2061,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-22T15:35:56.774Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 274,
-      "totalCandidates": 83,
-      "written": [
-        {
-          "title": "Why Street Fighter Movie Goes For “Gonzo” Vibes Instead of Gritty And Grounded",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 18,
-          "slug": "bd702ae2-why-street-fighter-movie-goes-for-gonzo-vibes-instead-of-gri"
-        },
-        {
-          "title": "First GTA 6 TV Commercial Strips Out Steamy Shower Scenes, but Shows More of Lucia's Fancy Hair Tech",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "aee32356-first-gta-6-tv-commercial-strips-out-steamy-shower-scenes-bu"
-        },
-        {
-          "title": "You Can Now Buy GTA 6 Burgers And Fried Chicken IRL, But It’s Not Cheap",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "593715f8-you-can-now-buy-gta-6-burgers-and-fried-chicken-irl-but-its-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Mass Effect 5 Trailer Reportedly Ready to Go Before BioWare Closure",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-02T16:01:13.168Z"
+  "lastUpdated": "2026-11-02T20:01:09.533Z"
 }
