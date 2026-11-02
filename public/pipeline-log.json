@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2443,
+  "totalArticles": 2444,
   "runs": [
+    {
+      "timestamp": "2026-11-02T06:01:09.767Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 179,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "Dave Bautista Reveals He’s Gained 20 Pounds of Muscle Ahead of Playing Kratos in ‘God of War’ Series",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "442dfb30-dave-bautista-reveals-hes-gained-20-pounds-of-muscle-ahead-o"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-02T03:04:46.376Z",
       "status": "quota",
@@ -2073,39 +2091,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-21T22:00:29.870Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 266,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "‘Clayface’ Review: DC Comics Horror Movie Is Good, Gross Fun, With No Franchise Homework Required",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "1950925b-clayface-review-dc-comics-horror-movie-is-good-gross-fun-wit"
-        },
-        {
-          "title": "‘Clayface’ Review: DC Studios’ Batman Villain Origin Story Is a Bona Fide Body-Horror Delight",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 16,
-          "slug": "a8cb6c36-clayface-review-dc-studios-batman-villain-origin-story-is-a-"
-        },
-        {
-          "title": "10 Movies That Give 'The Godfather' a Run for Its Money",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 13,
-          "slug": "bc2e245c-10-movies-that-give-the-godfather-a-run-for-its-money"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-02T03:04:46.376Z"
+  "lastUpdated": "2026-11-02T06:01:09.767Z"
 }
