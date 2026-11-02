@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2447,
+  "totalArticles": 2450,
   "runs": [
+    {
+      "timestamp": "2026-11-02T11:22:17.640Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 205,
+      "totalCandidates": 69,
+      "written": [
+        {
+          "title": "14 Games Are Leaving Xbox Game Pass In Early November 2026",
+          "category": "games",
+          "source": "Pure Xbox",
+          "score": 14,
+          "slug": "0dc27cbf-14-games-are-leaving-xbox-game-pass-in-early-november-2026"
+        },
+        {
+          "title": "Phantom Blade Zero Sells 4 Million Copies in 72 Hours",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "a41f5c4d-phantom-blade-zero-sells-4-million-copies-in-72-hours"
+        },
+        {
+          "title": "Sony Issues Yet Another PS5 Firmware Update as Jailbreak Whac-a-Mole Continues Ahead of GTA 6 Release",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "9f96cb3b-sony-issues-yet-another-ps5-firmware-update-as-jailbreak-wha"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-02T08:01:15.845Z",
       "status": "success",
@@ -2073,50 +2105,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-22T06:48:50.823Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 266,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "“I’m surrounded by broken machines” — VisionQuest’s “Reboot” and “Malware”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 17,
-          "slug": "c5c0de95-im-surrounded-by-broken-machines-visionquests-reboot-and-mal"
-        },
-        {
-          "title": "Crystal Lake‘s Project Argonaut Gives Jason Voorhees a Controversial Origin Story",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 14,
-          "slug": "bdf43f26-crystal-lakes-project-argonaut-gives-jason-voorhees-a-contro"
-        },
-        {
-          "title": "James Gunn Recommends 12 Body Horror Movies Ahead of Clayface",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "690093d1-james-gunn-recommends-12-body-horror-movies-ahead-of-clayfac"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "All Roads Lead to Ruin (and One Ring) in Season 3 The Rings of Power Trailer",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-02T08:01:15.845Z"
+  "lastUpdated": "2026-11-02T11:22:17.640Z"
 }
