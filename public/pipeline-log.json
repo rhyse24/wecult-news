@@ -1,6 +1,63 @@
 {
-  "totalArticles": 2444,
+  "totalArticles": 2447,
   "runs": [
+    {
+      "timestamp": "2026-11-02T08:01:15.845Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 181,
+      "totalCandidates": 17,
+      "written": [
+        {
+          "title": "‘The Mongoose’ Review: Liam Neeson Goes on the Run in a Bland Actioner",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "53d6f5d1-the-mongoose-review-liam-neeson-goes-on-the-run-in-a-bland-a"
+        },
+        {
+          "title": "Siddhant Chaturvedi, Alizeh, Jimmy Shergill’s 1990s British Punjabi Music Drama ‘Bolo Bolo Bolo,’ Directed by Vikas Bahl, Wraps U.K. Shoot (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "39639702-siddhant-chaturvedi-alizeh-jimmy-shergills-1990s-british-pun"
+        },
+        {
+          "title": "Isabelle Huppert Vampire Film ‘The Blood Countess’ Was Cut Against Director’s Wishes, Ulrike Ottinger Tells Tokyo Event",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "232f161b-isabelle-huppert-vampire-film-the-blood-countess-was-cut-aga"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "China Box Office: ‘Resident Evil’ Holds Top Spot for Fourth Straight Frame as 2014’s ‘John Wick’ Debuts in Third",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘You Can See Everything,’ ‘Clayface’ Fighting for No. 1 in Quiet Halloween Weekend",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        },
+        {
+          "title": "10 Best Children & Family Movies on Netflix Right Now",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-02T06:01:09.767Z",
       "status": "quota",
@@ -2059,39 +2116,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-22T02:22:14.180Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 41,
-      "written": [
-        {
-          "title": "‘Abbott Elementary’ Season 6 Premiere Hits 6.3 Million Viewers in Seven Days (EXCLUSIVE)",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "f0f2ce07-abbott-elementary-season-6-premiere-hits-63-million-viewers-"
-        },
-        {
-          "title": "Clayface brings a Universal Monster sensibility back to the DC Universe",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "slug": "52700724-clayface-brings-a-universal-monster-sensibility-back-to-the-"
-        },
-        {
-          "title": "Glee Revival: Lea Michele Reportedly Returning As Rachel Berry — Who Else Is Coming Back?",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "ca3b07bf-glee-revival-lea-michele-reportedly-returning-as-rachel-berr"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-02T06:01:09.767Z"
+  "lastUpdated": "2026-11-02T08:01:15.845Z"
 }
