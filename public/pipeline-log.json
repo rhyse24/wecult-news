@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2452,
+  "totalArticles": 2454,
   "runs": [
+    {
+      "timestamp": "2026-11-02T22:40:16.969Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 257,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "How Marvel's VisionQuest Pays Homage To NCIS Guest Star William Katt's '80s Superhero Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "dbd5bb11-how-marvels-visionquest-pays-homage-to-ncis-guest-star-willi"
+        },
+        {
+          "title": "War Is Coming in the ‘Percy Jackson’ Season 3 Trailer",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 15,
+          "slug": "70e2f960-war-is-coming-in-the-percy-jackson-season-3-trailer"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-02T20:01:09.533Z",
       "status": "quota",
@@ -2036,32 +2061,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-22T19:42:17.992Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 288,
-      "totalCandidates": 49,
-      "written": [
-        {
-          "title": "Tom Skerritt, Picket Fences And Top Gun Star, Dead At 93",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "da2a8a38-tom-skerritt-picket-fences-and-top-gun-star-dead-at-93"
-        },
-        {
-          "title": "Carrie Renewed For Season 2 At Prime Video",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 14,
-          "slug": "edcbe454-carrie-renewed-for-season-2-at-prime-video"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-02T20:01:09.533Z"
+  "lastUpdated": "2026-11-02T22:40:16.969Z"
 }
