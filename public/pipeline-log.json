@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2461,
+  "totalArticles": 2464,
   "runs": [
+    {
+      "timestamp": "2026-11-03T12:16:13.775Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 258,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "Long-Lost Trailer for Canceled Jurassic Park Animated Series Reportedly Surfaces Online",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "slug": "761c58e8-long-lost-trailer-for-canceled-jurassic-park-animated-series"
+        },
+        {
+          "title": "Percy Jackson & the Olympians Season 3 Trailer Sees the Titans Take Annabeth",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "slug": "9e8f8de5-percy-jackson-the-olympians-season-3-trailer-sees-the-titans"
+        },
+        {
+          "title": "Citizen Kim by Jonathan Van Meter review – Kardashian under the microscope",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 11,
+          "slug": "1e0e1aa2-citizen-kim-by-jonathan-van-meter-review-kardashian-under-th"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-03T08:40:43.921Z",
       "status": "success",
@@ -2043,39 +2075,7 @@
       "totalCandidates": 47,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-23T10:31:41.155Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 277,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Clayface Review: A Horror Triumph for DC Studios",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "slug": "23f9986e-clayface-review-a-horror-triumph-for-dc-studios"
-        },
-        {
-          "title": "‘Bridgerton’ Breakout Hannah Dodd to Lead Lucas Jones’ Romantic Drama ‘Miss You Forever, Zara Drake’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "9e56ae41-bridgerton-breakout-hannah-dodd-to-lead-lucas-jones-romantic"
-        },
-        {
-          "title": "Netflix, ‘Elite’ Star Ester Expósito and Locarno Winner Mar Coll Adapt ‘La Regenta,’ a ‘Fresh Female Perspective’ on a Big Spanish Classic (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "809a751a-netflix-elite-star-ester-expsito-and-locarno-winner-mar-coll"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-03T08:40:43.921Z"
+  "lastUpdated": "2026-11-03T12:16:13.775Z"
 }
