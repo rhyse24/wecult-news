@@ -1,6 +1,53 @@
 {
-  "totalArticles": 2458,
+  "totalArticles": 2461,
   "runs": [
+    {
+      "timestamp": "2026-11-03T08:40:43.921Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 259,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "Dancing With The Stars Recap: Which Couple's Happily-Ever-After Was Cut Short On Disney Night?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "5ad5a1c3-dancing-with-the-stars-recap-which-couples-happily-ever-afte"
+        },
+        {
+          "title": "Disney Expected to Lay Off Thousands of Staffers in Biggest Round of Cuts This Year",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "b76fc230-disney-expected-to-lay-off-thousands-of-staffers-in-biggest-"
+        },
+        {
+          "title": "A Royal Surprise: ‘The Remarried Empress’ Releases One Day Early on Disney+ and Hulu",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "167aca42-a-royal-surprise-the-remarried-empress-releases-one-day-earl"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "James Spader Had One Request For His Ultron Look In Marvel's VisionQuest",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Bill Hader to Guest Star on ‘Abbott Elementary’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-03T05:14:30.753Z",
       "status": "quota",
@@ -2028,32 +2075,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-23T06:36:04.885Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 47,
-      "written": [
-        {
-          "title": "‘Nobody Wants This’ Creator Erin Foster Reacts to Adam Brody Saying He Supports “A Free Palestine”: “It’s Complicated”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "ce42ad87-nobody-wants-this-creator-erin-foster-reacts-to-adam-brody-s"
-        },
-        {
-          "title": "VisionQuest Explores the Tension Between Marvel Magic and Marvel Science",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 11,
-          "slug": "f01c54b3-visionquest-explores-the-tension-between-marvel-magic-and-ma"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-03T05:14:30.753Z"
+  "lastUpdated": "2026-11-03T08:40:43.921Z"
 }
