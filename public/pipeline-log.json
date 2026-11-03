@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2467,
+  "totalArticles": 2468,
   "runs": [
+    {
+      "timestamp": "2026-11-03T21:19:24.238Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": "Xbox Made an Alligator-Shaped Series X, and You Can Win It Before GTA 6 Launches",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "bfa8720d-xbox-made-an-alligator-shaped-series-x-and-you-can-win-it-be"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-03T18:01:25.959Z",
       "status": "quota",
@@ -2058,39 +2076,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-23T23:47:18.436Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 288,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "Mass Effect Fans Call for EA Boycott as Petition to Save BioWare's Canceled Game Garners More than 75,000 Signatures",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "227af266-mass-effect-fans-call-for-ea-boycott-as-petition-to-save-bio"
-        },
-        {
-          "title": " Why private equity acquisitions like the one that just claimed BioWare are so dreaded ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "533810c9-why-private-equity-acquisitions-like-the-one-that-just-claim"
-        },
-        {
-          "title": " Time could be running out for Arkane ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "a2d31b0b-time-could-be-running-out-for-arkane"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-03T18:01:25.959Z"
+  "lastUpdated": "2026-11-03T21:19:24.238Z"
 }
