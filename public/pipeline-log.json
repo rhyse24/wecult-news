@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2454,
+  "totalArticles": 2457,
   "runs": [
+    {
+      "timestamp": "2026-11-03T02:01:05.883Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 262,
+      "totalCandidates": 94,
+      "written": [
+        {
+          "title": "Blackpink's Jisoo Confirms She Referenced Resident Evil's Ada Wong in New Music Video",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 18,
+          "slug": "dcf85075-blackpinks-jisoo-confirms-she-referenced-resident-evils-ada-"
+        },
+        {
+          "title": "New 'Fallout' Release Officially Changes the Brotherhood of Steel Forever",
+          "category": "games",
+          "source": "Collider Games",
+          "score": 15,
+          "slug": "2b4ebe06-new-fallout-release-officially-changes-the-brotherhood-of-st"
+        },
+        {
+          "title": "Terminally Ill GTA 6 Fan Dies 3 Weeks Before Game's Launch, Fans Pay Their Respects",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "e137c2da-terminally-ill-gta-6-fan-dies-3-weeks-before-games-launch-fa"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-02T22:40:16.969Z",
       "status": "quota",
@@ -2035,33 +2067,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-22T23:25:47.539Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 285,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Wildwood Review: Magic and Terror on a Breathtaking Scale",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 13,
-          "slug": "80448123-wildwood-review-magic-and-terror-on-a-breathtaking-scale"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Wildwood’ Director Travis Knight on AI: ‘An Amazing Piece of Technology’ But ‘I’m Not Embracing It at All’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-02T22:40:16.969Z"
+  "lastUpdated": "2026-11-03T02:01:05.883Z"
 }
