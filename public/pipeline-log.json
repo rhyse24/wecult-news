@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2457,
+  "totalArticles": 2458,
   "runs": [
+    {
+      "timestamp": "2026-11-03T05:14:30.753Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 259,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "Mckenna Grace Says She’s Terrified to Do Nudity for Roles",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "4c11eba0-mckenna-grace-says-shes-terrified-to-do-nudity-for-roles"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-03T02:01:05.883Z",
       "status": "success",
@@ -2035,39 +2053,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-23T02:58:25.781Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 283,
-      "totalCandidates": 97,
-      "written": [
-        {
-          "title": "Cyberpunk 2 Associate Director Says Half of Game's Quest Team Are Former Modders",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "99c50b0b-cyberpunk-2-associate-director-says-half-of-games-quest-team"
-        },
-        {
-          "title": "EA Has A New Plan For Madden, And It Leans Into Everything The Company Gets Wrong",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "e9076f24-ea-has-a-new-plan-for-madden-and-it-leans-into-everything-th"
-        },
-        {
-          "title": "GTA 6’s New TV Trailer Is A Bit Different, See It For Yourself",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "927750b9-gta-6s-new-tv-trailer-is-a-bit-different-see-it-for-yourself"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-03T02:01:05.883Z"
+  "lastUpdated": "2026-11-03T05:14:30.753Z"
 }
