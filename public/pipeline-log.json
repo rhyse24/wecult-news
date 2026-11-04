@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2468,
+  "totalArticles": 2471,
   "runs": [
+    {
+      "timestamp": "2026-11-04T00:54:05.946Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "Why Ultron Is Human For Most Of Marvel's VisionQuest, Explained By Showrunner",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "98798a98-why-ultron-is-human-for-most-of-marvels-visionquest-explaine"
+        },
+        {
+          "title": "‘Resident Evil’: Hidden Details From the Games to Watch for in the 2026 Movie",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 15,
+          "slug": "88b0ce5b-resident-evil-hidden-details-from-the-games-to-watch-for-in-"
+        },
+        {
+          "title": "Casting News: Bill Hader Enrolls At Abbott Elementary, The Beast In Me Season 2 Update, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "87ad5c80-casting-news-bill-hader-enrolls-at-abbott-elementary-the-bea"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-03T21:19:24.238Z",
       "status": "quota",
@@ -2044,39 +2076,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-24T03:21:11.150Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 284,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "Sandra Hüller Joins ‘Avengers: Doomsday’ in Cameo Role",
-          "category": "film",
-          "source": "Variety",
-          "score": 19,
-          "slug": "c5f24e05-sandra-hller-joins-avengers-doomsday-in-cameo-role"
-        },
-        {
-          "title": "New ‘Alien’ Movie in the Works With Writer Aaron Guzikowski (Exclusive)",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 15,
-          "slug": "b10dca8d-new-alien-movie-in-the-works-with-writer-aaron-guzikowski-ex"
-        },
-        {
-          "title": "Zendaya Sets ‘Dune 3’ Oscar Campaign for Best Actress in Category Shake-Up (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "9290b17a-zendaya-sets-dune-3-oscar-campaign-for-best-actress-in-categ"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-03T21:19:24.238Z"
+  "lastUpdated": "2026-11-04T00:54:05.946Z"
 }
