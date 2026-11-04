@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2471,
+  "totalArticles": 2472,
   "runs": [
+    {
+      "timestamp": "2026-11-04T04:41:03.142Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 276,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Weta FX and TAICCA Partner to Turn Taiwan Into an AI Screen Production Hub for Asia (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "80963075-weta-fx-and-taicca-partner-to-turn-taiwan-into-an-ai-screen-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-04T00:54:05.946Z",
       "status": "success",
@@ -2044,39 +2062,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-24T07:07:30.704Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 280,
-      "totalCandidates": 47,
-      "written": [
-        {
-          "title": "Glee’s pro-LGBTQ+ vision captured 2010s hope. Can a reboot handle Trump’s America? | Alim Kheraj",
-          "category": "tv",
-          "source": "Guardian TV",
-          "score": 14,
-          "slug": "153d818f-glees-pro-lgbtq-vision-captured-2010s-hope-can-a-reboot-hand"
-        },
-        {
-          "title": "Lupin review – the French super-thief is magnetic in his blockbuster return",
-          "category": "tv",
-          "source": "Guardian TV",
-          "score": 12,
-          "slug": "7f551288-lupin-review-the-french-super-thief-is-magnetic-in-his-block"
-        },
-        {
-          "title": "5 S.W.A.T Characters We Hope Make A Guest Appearance On Exiles",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "c7c740f3-5-swat-characters-we-hope-make-a-guest-appearance-on-exiles"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-04T00:54:05.946Z"
+  "lastUpdated": "2026-11-04T04:41:03.142Z"
 }
