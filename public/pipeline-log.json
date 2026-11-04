@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2475,
+  "totalArticles": 2478,
   "runs": [
+    {
+      "timestamp": "2026-11-04T12:08:18.324Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 271,
+      "totalCandidates": 48,
+      "written": [
+        {
+          "title": "An emotional VisionQuest journeys to the center of the synthezoid",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 13,
+          "slug": "b8d627e7-an-emotional-visionquest-journeys-to-the-center-of-the-synth"
+        },
+        {
+          "title": "VisionQuest Finally Introduces the Very First Marvel Hero",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 13,
+          "slug": "9ac07001-visionquest-finally-introduces-the-very-first-marvel-hero"
+        },
+        {
+          "title": "What To Watch Wednesday: Chicago Fire Hits Episode 300, All's Fair And Stick Return, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "dda0a81d-what-to-watch-wednesday-chicago-fire-hits-episode-300-alls-f"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Who Is Dr. Phineas Horton? Marvel's VisionQuest Character Explained",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-04T08:20:41.750Z",
       "status": "success",
@@ -2022,47 +2062,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-24T14:51:17.611Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 262,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "5 Reasons You're Wrong About 'Spider-Man: Homecoming'",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "slug": "1bd89986-5-reasons-youre-wrong-about-spider-man-homecoming"
-        },
-        {
-          "title": "Sexy, Gripping Folk Horror Series “Yaga” Is a Surefire Hit",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 11,
-          "slug": "4f47ab79-sexy-gripping-folk-horror-series-yaga-is-a-surefire-hit"
-        },
-        {
-          "title": "Every Version Of Clayface In DC Comics Explained",
-          "category": "film",
-          "source": "Looper",
-          "score": 11,
-          "slug": "35f15810-every-version-of-clayface-in-dc-comics-explained"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Sandra Hüller Set for Cameo Role in ‘Avengers: Doomsday’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-04T08:20:41.750Z"
+  "lastUpdated": "2026-11-04T12:08:18.324Z"
 }
