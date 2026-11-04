@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2478,
+  "totalArticles": 2481,
   "runs": [
+    {
+      "timestamp": "2026-11-04T17:51:30.751Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 282,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Apple TV’s “Stick” Stays On Par For Its Second Season",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 15,
+          "slug": "4ec2941b-apple-tvs-stick-stays-on-par-for-its-second-season"
+        },
+        {
+          "title": "Bill Nighy, Hayley Atwell and Maisie Williams Lead Voice Cast of Animated Feature ‘The Last Dino’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "0355f4b1-bill-nighy-hayley-atwell-and-maisie-williams-lead-voice-cast"
+        },
+        {
+          "title": "Tinie Tempah, Nathalie Emmanuel, Russell Tovey Set for HollyShorts U.K. Honors (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "dd0ede12-tinie-tempah-nathalie-emmanuel-russell-tovey-set-for-hollysh"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-04T12:08:18.324Z",
       "status": "success",
@@ -2044,25 +2076,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-24T18:43:14.680Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 250,
-      "totalCandidates": 85,
-      "written": [
-        {
-          "title": " New Blood CEO confirms it: the worst way to sell immersive sims like Gloomwood and Fallen Aces is to call them immersive sims ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "2f9d7d27-new-blood-ceo-confirms-it-the-worst-way-to-sell-immersive-si"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-04T12:08:18.324Z"
+  "lastUpdated": "2026-11-04T17:51:30.751Z"
 }
