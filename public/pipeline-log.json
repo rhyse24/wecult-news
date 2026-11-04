@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2472,
+  "totalArticles": 2475,
   "runs": [
+    {
+      "timestamp": "2026-11-04T08:20:41.750Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 275,
+      "totalCandidates": 92,
+      "written": [
+        {
+          "title": "The Elder Scrolls 6: Sentinel is confirmed, finally getting new trailer and full name, 8 years, 4 months, and 23 days after its reveal",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 12,
+          "slug": "723347a0-the-elder-scrolls-6-sentinel-is-confirmed-finally-getting-ne"
+        },
+        {
+          "title": "7 Years Later, ‘Game of Thrones’ Officially Revives Daenerys Targaryen",
+          "category": "games",
+          "source": "Collider Games",
+          "score": 12,
+          "slug": "b390bc71-7-years-later-game-of-thrones-officially-revives-daenerys-ta"
+        },
+        {
+          "title": "007 First Light Gets Free Trial For Select PlayStation Plus Subscribers",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 11,
+          "slug": "b15ecf11-007-first-light-gets-free-trial-for-select-playstation-plus-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-04T04:41:03.142Z",
       "status": "quota",
@@ -2030,39 +2062,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-24T10:53:41.749Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 275,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Clayface  Writes Checks Its Body Horror Can’t Quite Cash",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "9d3a9ff8-clayface-writes-checks-its-body-horror-cant-quite-cash"
-        },
-        {
-          "title": "Let’s Talk About the Best Scenes in Lanterns",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 11,
-          "slug": "3da6add5-lets-talk-about-the-best-scenes-in-lanterns"
-        },
-        {
-          "title": "VisionQuest Showrunner Teased Butcherbird’s Importance Months Before the Big Reveal",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 11,
-          "slug": "75bf7980-visionquest-showrunner-teased-butcherbirds-importance-months"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-04T04:41:03.142Z"
+  "lastUpdated": "2026-11-04T08:20:41.750Z"
 }
