@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2488,
+  "totalArticles": 2491,
   "runs": [
+    {
+      "timestamp": "2026-11-05T12:41:28.193Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 287,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "Godzilla Minus Zero Director Explains Why He Didn’t Want a Monster vs. Monster Movie",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "slug": "8b2cea1d-godzilla-minus-zero-director-explains-why-he-didnt-want-a-mo"
+        },
+        {
+          "title": "VisionQuest Creator Wants Marvel’s Original Human Torch to Return for a WWII Story",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "slug": "c0ec2309-visionquest-creator-wants-marvels-original-human-torch-to-re"
+        },
+        {
+          "title": "Book Review: ‘The King Under the Mountain,’ by D.J. Taylor",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 11,
+          "slug": "869f5c96-book-review-the-king-under-the-mountain-by-dj-taylor"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "A Real Boy — VisionQuest’s “Immolation”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-05T09:02:13.553Z",
       "status": "success",
@@ -2065,39 +2105,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-25T09:54:34.771Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 220,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Sandra Hüller Set for Cameo Role in ‘Avengers: Doomsday’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 12,
-          "slug": "de13346e-sandra-hller-set-for-cameo-role-in-avengers-doomsday"
-        },
-        {
-          "title": "Horror Fans, Rejoice: FilmQuest Breakout ‘The Crawling’ Is the Gutsy Alien Freakout of Your Dreams",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "a2b5b9c3-horror-fans-rejoice-filmquest-breakout-the-crawling-is-the-g"
-        },
-        {
-          "title": "‘Street Fighter’ Breakout Callina Liang Talks Embracing Fan Skepticism and Reveals Two Key Scrapped Moments",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 9,
-          "slug": "8a1a6a10-street-fighter-breakout-callina-liang-talks-embracing-fan-sk"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-05T09:02:13.553Z"
+  "lastUpdated": "2026-11-05T12:41:28.193Z"
 }
