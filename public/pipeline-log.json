@@ -1,6 +1,60 @@
 {
-  "totalArticles": 2485,
+  "totalArticles": 2488,
   "runs": [
+    {
+      "timestamp": "2026-11-05T09:02:13.553Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 287,
+      "totalCandidates": 58,
+      "written": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Spins Up Massive Numbers for Sony’s Quarterly Earnings",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "5dfb9ccb-spider-man-brand-new-day-spins-up-massive-numbers-for-sonys-"
+        },
+        {
+          "title": "‘The Take’ Netflix Heist-Thriller Starring Denzel Washington, Daisy Edger Jones & Robert Pattinson: What We Know So Far",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 10,
+          "slug": "28732c54-the-take-netflix-heist-thriller-starring-denzel-washington-d"
+        },
+        {
+          "title": "The Greatest review – Amazon’s sturdy Muhammad Ali series is a tale told too many times",
+          "category": "tv",
+          "source": "Guardian TV",
+          "score": 8,
+          "slug": "6f126dd6-the-greatest-review-amazons-sturdy-muhammad-ali-series-is-a-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "VisionQuest Episode 7 Review: Viz Didn’t Start the Fire",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "All's Fair Season 2 Premiere: Who Got Hit? Who Came Out? And Who's Trying To Kill Kim Kardashian's Allura?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "What’s Coming to Netflix in November 2026",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-05T05:30:49.266Z",
       "status": "quota",
@@ -2043,33 +2097,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-25T06:00:49.052Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 240,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "Resident Evil's Austin Abrams Starred In A Charming Christmas Series Streaming On Netflix",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "2f5fc6c4-resident-evils-austin-abrams-starred-in-a-charming-christmas"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "10 Best Sci-Fi Shows With More Than 100 Episodes",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-05T05:30:49.266Z"
+  "lastUpdated": "2026-11-05T09:02:13.553Z"
 }
