@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2491,
+  "totalArticles": 2494,
   "runs": [
+    {
+      "timestamp": "2026-11-05T16:23:20.855Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 278,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "Only 3 Movies Are More Entertaining Than The Lord of the Rings",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "slug": "664c45a4-only-3-movies-are-more-entertaining-than-the-lord-of-the-rin"
+        },
+        {
+          "title": "Concourse Launching Sales on Taylor Cohen’s EDM Thriller ‘Strobe’ Ahead of AFM (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 15,
+          "slug": "5b409150-concourse-launching-sales-on-taylor-cohens-edm-thriller-stro"
+        },
+        {
+          "title": "Season 2 Proves That “Black Doves” Might Be Netflix’s Best Show",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 15,
+          "slug": "dea5d320-season-2-proves-that-black-doves-might-be-netflixs-best-show"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-05T12:41:28.193Z",
       "status": "success",
@@ -2048,64 +2080,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-25T13:44:17.616Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 199,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "Before Crystal Lake, William Catlett Played A Vicious Arrowverse Villain",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "6d44304b-before-crystal-lake-william-catlett-played-a-vicious-arrowve"
-        },
-        {
-          "title": "‘SNL U.K.’ Weekend Update Tackles Meghan Markle Dad Allegations, James Bond Auditions and ‘Glee’ Reboot",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "24c87666-snl-uk-weekend-update-tackles-meghan-markle-dad-allegations-"
-        },
-        {
-          "title": "Shia LaBeouf Would Trash-Talk ‘Lizzie McGuire’ While Filming ‘Even Stevens,’ Says Christy Carlson Romano: ‘He Wanted to Be the Number One Show’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "19882ccb-shia-labeouf-would-trash-talk-lizzie-mcguire-while-filming-e"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘KPop Demon Hunters,’ ‘Squid Game’ Stars Fete Netflix’s Korea Decade as Ted Sarandos Teases ‘Tantara,’ ‘All of Us Are Dead’ Season 2",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 16 words (max 12)"
-          ]
-        },
-        {
-          "title": "Zoey Deutch and Jon Hamm Comedy ‘Gail Daughtry and the Celebrity Sex Pass’ Sets Netflix Streaming Debut",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "10 Best Sci-Fi Shows With More Than 100 Episodes",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-05T12:41:28.193Z"
+  "lastUpdated": "2026-11-05T16:23:20.855Z"
 }
