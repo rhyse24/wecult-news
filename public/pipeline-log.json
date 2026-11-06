@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2503,
+  "totalArticles": 2506,
   "runs": [
+    {
+      "timestamp": "2026-11-06T18:18:12.707Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 269,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "Second Trailer for ‘The Further Mis-Adventures of Cliff Booth’ Lands After Playing With IMAX Re-Release",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 15,
+          "slug": "a07ac9b5-second-trailer-for-the-further-mis-adventures-of-cliff-booth"
+        },
+        {
+          "title": "Netflix’s Animated ‘Twilight’ Series Gets Major Update: Two Seasons Confirmed",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "68499907-netflixs-animated-twilight-series-gets-major-update-two-seas"
+        },
+        {
+          "title": "Nobody Wants This Renewed For Season 4 At Netflix",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "9b940708-nobody-wants-this-renewed-for-season-4-at-netflix"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-06T11:07:03.723Z",
       "status": "success",
@@ -2045,61 +2077,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-26T10:00:54.053Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 175,
-      "totalCandidates": 18,
-      "written": [
-        {
-          "title": "An Austrian Filmmaker Who Documented the L.A. Wildfires Hopes His Film Will Start Conversations",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "cc779c52-an-austrian-filmmaker-who-documented-the-la-wildfires-hopes-"
-        },
-        {
-          "title": "‘Saiyaara’ Star Ahaan Panday and Sharvari’s Ali Abbas Zafar Romantic Action-Drama for Yash Raj Films Unveils Title (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "a217cbc7-saiyaara-star-ahaan-panday-and-sharvaris-ali-abbas-zafar-rom"
-        },
-        {
-          "title": "Tokyo Film Festival to Reassess Its Global Standing Ahead of 40th Edition, Says Director Hisamatsu Takeo",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "a39d321b-tokyo-film-festival-to-reassess-its-global-standing-ahead-of"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Clayface’ Rolls to $24M Box Office Opening as ‘You Can See Everything’ Shines in Second Weekend",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Animated Movie ‘Apple Cadabra – I Shrunk Myself’ Boarded by Epsilon Film (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "‘VelociPastor 2’ Leaves FilmQuest Audience Roaring, Celebrating Human-Made Films in an AI Era",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-06T11:07:03.723Z"
+  "lastUpdated": "2026-11-06T18:18:12.707Z"
 }
