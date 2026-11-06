@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2499,
+  "totalArticles": 2500,
   "runs": [
+    {
+      "timestamp": "2026-11-06T07:29:20.325Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 267,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Priyanka Chopra Jonas, Russell Crowe Sci-Fi Thriller ‘Bluefly’ Adds ‘Beast’ Star Daniel MacPherson (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "5cc2003c-priyanka-chopra-jonas-russell-crowe-sci-fi-thriller-bluefly-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-06T03:54:52.089Z",
       "status": "quota",
@@ -2066,25 +2084,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-26T06:02:59.911Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 167,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "15 Best TV Villains Of The 2020s (So Far)",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "d1cfe3e4-15-best-tv-villains-of-the-2020s-so-far"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-06T03:54:52.089Z"
+  "lastUpdated": "2026-11-06T07:29:20.325Z"
 }
