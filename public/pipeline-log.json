@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2506,
+  "totalArticles": 2508,
   "runs": [
+    {
+      "timestamp": "2026-11-06T20:01:20.367Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 34,
+      "written": [
+        {
+          "title": "Box Office: ‘Godzilla Minus Zero’ Stomps to $6.7 Million in Previews",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "slug": "343a1160-box-office-godzilla-minus-zero-stomps-to-67-million-in-previ"
+        },
+        {
+          "title": "Adam Driver Explains Why He’s Starring in Marvel’s ‘X-Men’ Reboot After Years of Turning Down MCU Offers: ‘Felt Like the Right Time’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "526c8fca-adam-driver-explains-why-hes-starring-in-marvels-x-men-reboo"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-06T18:18:12.707Z",
       "status": "success",
@@ -2034,50 +2059,7 @@
       "totalCandidates": 38,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-26T18:00:54.094Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 244,
-      "totalCandidates": 81,
-      "written": [
-        {
-          "title": "\"IT FLIPS UP,\" Fallout New Vegas modders yell after releasing a funky Pip-Boy based on cancelled entry Van Buren's design docs",
-          "category": "games",
-          "source": "Rock Paper Shotgun",
-          "score": 15,
-          "slug": "42b0ad71-it-flips-up-fallout-new-vegas-modders-yell-after-releasing-a"
-        },
-        {
-          "title": "Sony Awarded a Hacker $50,000 for Privately Reporting a PS5 Exploit He Found With AI — Now He's Public Enemy Number One",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "02384407-sony-awarded-a-hacker-50000-for-privately-reporting-a-ps5-ex"
-        },
-        {
-          "title": "Cyberpunk 2077 Hits Its Biggest Steam Player Peak Since Phantom Liberty, And You Can Guess Why",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "d2e81425-cyberpunk-2077-hits-its-biggest-steam-player-peak-since-phan"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Xbox Is Officially Up For 'Game Of The Year' At The Golden Joystick Awards 2026",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 15,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-06T18:18:12.707Z"
+  "lastUpdated": "2026-11-06T20:01:20.367Z"
 }
