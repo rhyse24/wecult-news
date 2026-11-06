@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2497,
+  "totalArticles": 2499,
   "runs": [
+    {
+      "timestamp": "2026-11-06T00:01:16.567Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 264,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Nintendo Switch 2 Sells Over 26 Million Units",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 13,
+          "slug": "06e24649-nintendo-switch-2-sells-over-26-million-units"
+        },
+        {
+          "title": "20th Television Comms SVP Shari Rosenblum to Exit Studio After 26 Years",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "583f7042-20th-television-comms-svp-shari-rosenblum-to-exit-studio-aft"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-05T20:01:18.778Z",
       "status": "success",
@@ -2055,39 +2080,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-25T22:00:18.096Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 162,
-      "totalCandidates": 17,
-      "written": [
-        {
-          "title": "‘Clayface’ Director James Watkins Explains That [SPOILER] Cameo, Introducing Gotham City to the DC Universe and All the Shape-Shifting Kills",
-          "category": "film",
-          "source": "Variety",
-          "score": 15,
-          "slug": "0026d811-clayface-director-james-watkins-explains-that-spoiler-cameo-"
-        },
-        {
-          "title": "Box Office: ‘You Can See Everything’ Scores $19.5 Million in Huge Second Weekend, ‘Clayface’ Leads With $24 Million Debut",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "0de4005a-box-office-you-can-see-everything-scores-195-million-in-huge"
-        },
-        {
-          "title": "‘Clayface’s Max Minghella Reveals How DC's Most Disturbing Movie Pulled Off Its Grotesque Effects",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "b1b4383c-clayfaces-max-minghella-reveals-how-dcs-most-disturbing-movi"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-05T20:01:18.778Z"
+  "lastUpdated": "2026-11-06T00:01:16.567Z"
 }
