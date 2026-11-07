@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2515,
+  "totalArticles": 2518,
   "runs": [
+    {
+      "timestamp": "2026-11-07T14:14:46.377Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 249,
+      "totalCandidates": 19,
+      "written": [
+        {
+          "title": "New Godzilla Minus Zero Trailer Shows [REDACTED]",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 16,
+          "slug": "df8531df-new-godzilla-minus-zero-trailer-shows-redacted"
+        },
+        {
+          "title": "Lit Hub Weekly: November 2 – 6, 2026",
+          "category": "books",
+          "source": "Literary Hub",
+          "score": 10,
+          "slug": "4d8479af-lit-hub-weekly-november-2-6-2026"
+        },
+        {
+          "title": "Twelve crime movies where justice actually prevails",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 8,
+          "slug": "9010af2e-twelve-crime-movies-where-justice-actually-prevails"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-07T10:35:31.820Z",
       "status": "success",
@@ -2017,39 +2049,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-27T13:48:03.745Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 264,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "Only 10 Horror Movies From the '90s Are Truly Perfect From Start to Finish",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "a24032f1-only-10-horror-movies-from-the-90s-are-truly-perfect-from-st"
-        },
-        {
-          "title": "20 Greatest Movie Villains Of The 80s",
-          "category": "film",
-          "source": "WhatCulture Film",
-          "score": 10,
-          "slug": "215f6cda-20-greatest-movie-villains-of-the-80s"
-        },
-        {
-          "title": "‘iHunt: Killing Monsters in the Gig Economy’ Film Adaptation Set; Lilly Wachowski Among Exec Producers (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "55b1d11a-ihunt-killing-monsters-in-the-gig-economy-film-adaptation-se"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-07T10:35:31.820Z"
+  "lastUpdated": "2026-11-07T14:14:46.377Z"
 }
