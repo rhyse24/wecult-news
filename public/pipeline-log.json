@@ -2,6 +2,16 @@
   "totalArticles": 2509,
   "runs": [
     {
+      "timestamp": "2026-11-06T23:59:55.829Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 266,
+      "totalCandidates": 95,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-11-06T22:01:16.470Z",
       "status": "quota",
       "articlesWritten": 1,
@@ -2035,39 +2045,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-27T01:04:25.594Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 258,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "‘Coven Academy’ Renewed for Season 2 at Disney",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "6bf3303b-coven-academy-renewed-for-season-2-at-disney"
-        },
-        {
-          "title": "Wildwood doesn't shy away from death, which makes it all the better for young audiences",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "slug": "f3696e08-wildwood-doesnt-shy-away-from-death-which-makes-it-all-the-b"
-        },
-        {
-          "title": "Sylvester Stallone Defends Casting His Daughter Scarlet In Tulsa King Amid Nepotism Criticism",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "01bfc352-sylvester-stallone-defends-casting-his-daughter-scarlet-in-t"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-06T22:01:16.470Z"
+  "lastUpdated": "2026-11-06T23:59:55.829Z"
 }
