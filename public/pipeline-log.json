@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2521,
+  "totalArticles": 2522,
   "runs": [
+    {
+      "timestamp": "2026-11-07T21:23:41.611Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 230,
+      "totalCandidates": 80,
+      "written": [
+        {
+          "title": "The Best GTA Alternatives For Kids And Families",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "96c237fe-the-best-gta-alternatives-for-kids-and-families"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-07T18:00:25.640Z",
       "status": "success",
@@ -2085,17 +2103,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-27T21:18:52.645Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 283,
-      "totalCandidates": 86,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-07T18:00:25.640Z"
+  "lastUpdated": "2026-11-07T21:23:41.611Z"
 }
