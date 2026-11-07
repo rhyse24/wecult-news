@@ -1,6 +1,70 @@
 {
-  "totalArticles": 2518,
+  "totalArticles": 2521,
   "runs": [
+    {
+      "timestamp": "2026-11-07T18:00:25.640Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 237,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "Star Wars: Ben Solo Never Needed To Come Back Anyway",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 9,
+          "slug": "01bde903-star-wars-ben-solo-never-needed-to-come-back-anyway"
+        },
+        {
+          "title": "5 Most Disappointing Streaming Movies Of 2026",
+          "category": "film",
+          "source": "Looper",
+          "score": 9,
+          "slug": "3864510d-5-most-disappointing-streaming-movies-of-2026"
+        },
+        {
+          "title": "Oscar Predictions: Production Design — Could Something as Innovative and Cool as ‘Backrooms’ Find Love?",
+          "category": "film",
+          "source": "Variety",
+          "score": 7,
+          "slug": "ca128048-oscar-predictions-production-design-could-something-as-innov"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Godzilla Minus Zero’ Director Takashi Yamazaki Dreamed of Seeing His Hometown Destroyed by King Ghidorah. He Finally Made It Happen.",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Godzilla Minus Zero: Exploring the Ending and the Nuclear Destruction of Ideals",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "James Bond Surprise: Robert Pattinson Screen Tested to Play 007",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "“Call of Duty: Modern Warfare 4” is the Best in the Series in Years",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 8,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-07T14:14:46.377Z",
       "status": "success",
@@ -2031,25 +2095,7 @@
       "totalCandidates": 86,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-27T17:29:19.810Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 278,
-      "totalCandidates": 52,
-      "written": [
-        {
-          "title": "Kordell Stewart Hopes His New HBO Documentary Lands Him in the NFL Hall of Fame",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 11,
-          "slug": "ffd0cb27-kordell-stewart-hopes-his-new-hbo-documentary-lands-him-in-t"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-07T14:14:46.377Z"
+  "lastUpdated": "2026-11-07T18:00:25.640Z"
 }
