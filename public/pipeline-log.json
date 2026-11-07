@@ -1,6 +1,39 @@
 {
-  "totalArticles": 2510,
+  "totalArticles": 2512,
   "runs": [
+    {
+      "timestamp": "2026-11-07T06:55:17.412Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 260,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "James Bond Shocker: Robert Pattinson and Nicholas Hoult Late Contenders for 007 After Auditioning for Denis Villeneuve",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "7c03a5cc-james-bond-shocker-robert-pattinson-and-nicholas-hoult-late-"
+        },
+        {
+          "title": "Discover an Underappreciated Jazz Legend in Exclusive Trailer for …And Damn He Could Play",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 10,
+          "slug": "aac16e98-discover-an-underappreciated-jazz-legend-in-exclusive-traile"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Godzilla Minus Zero: Exploring the Ending and the Nuclear Destruction of Ideals",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-07T03:29:51.771Z",
       "status": "quota",
@@ -2024,39 +2057,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-27T08:00:56.871Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 255,
-      "totalCandidates": 87,
-      "written": [
-        {
-          "title": "‘Cyberpunk: Edgerunners’ Officially Returns With a New Expansion",
-          "category": "games",
-          "source": "Collider Games",
-          "score": 16,
-          "slug": "965c24c4-cyberpunk-edgerunners-officially-returns-with-a-new-expansio"
-        },
-        {
-          "title": "GTA 6 Causes 17% Spike in Time Off Requests on Game's Release Date",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "d7763afd-gta-6-causes-17-spike-in-time-off-requests-on-games-release-"
-        },
-        {
-          "title": "Xbox Is Officially Up For 'Game Of The Year' At The Golden Joystick Awards 2026",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 12,
-          "slug": "c35da2ab-xbox-is-officially-up-for-game-of-the-year-at-the-golden-joy"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-07T03:29:51.771Z"
+  "lastUpdated": "2026-11-07T06:55:17.412Z"
 }
