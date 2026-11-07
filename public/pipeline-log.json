@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2512,
+  "totalArticles": 2515,
   "runs": [
+    {
+      "timestamp": "2026-11-07T10:35:31.820Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 252,
+      "totalCandidates": 42,
+      "written": [
+        {
+          "title": "‘The Remarried Empress’ Becomes Most-Viewed Local Original Premiere Ever on Disney+ and Hulu",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 17,
+          "slug": "88d52aea-the-remarried-empress-becomes-most-viewed-local-original-pre"
+        },
+        {
+          "title": "Before Spider-Man, Sam Raimi Made A '90s Spy Thriller Series That Failed To Take Off",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "d51a749b-before-spider-man-sam-raimi-made-a-90s-spy-thriller-series-t"
+        },
+        {
+          "title": "5 Beloved '70s Sitcoms That Don't Hold Up Today",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "03c00796-5-beloved-70s-sitcoms-that-dont-hold-up-today"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-07T06:55:17.412Z",
       "status": "quota",
@@ -2017,47 +2049,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-27T10:00:52.996Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 257,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "Taylor Sheridan Wasn't Flattered By Hollywood Trying To Replicate Yellowstone's Success",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "ce505773-taylor-sheridan-wasnt-flattered-by-hollywood-trying-to-repli"
-        },
-        {
-          "title": "What’s Coming to Netflix This Week: October 26 to November 1, 2026",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "slug": "7b6da613-whats-coming-to-netflix-this-week-october-26-to-november-1-2"
-        },
-        {
-          "title": "Casting News: 30 Rock Reunion On Reggie Dinkins, Game Of Thrones Star's Horror Series, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 9,
-          "slug": "3eac40cb-casting-news-30-rock-reunion-on-reggie-dinkins-game-of-thron"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Supernatural Drama ‘Coven Academy’ Renewed for Season 2 at Disney",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-07T06:55:17.412Z"
+  "lastUpdated": "2026-11-07T10:35:31.820Z"
 }
