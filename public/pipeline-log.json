@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2522,
+  "totalArticles": 2525,
   "runs": [
+    {
+      "timestamp": "2026-11-08T00:44:55.368Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 224,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "10 Yellowstone Characters Who Deserved More Screen Time",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "2d3e8403-10-yellowstone-characters-who-deserved-more-screen-time"
+        },
+        {
+          "title": "‘Pokemon’ Anime Studio OLM Trains AI Coloring Tool on Just Three Frames in Japan Government-Backed Project",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "c0c3fc1e-pokemon-anime-studio-olm-trains-ai-coloring-tool-on-just-thr"
+        },
+        {
+          "title": "Keira Knightley and ‘Black Doves’ Creator Joe Barton  Why Helen Should Have Been the One to Kill [SPOILER], That Oner and Hopes for Season 3",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "020ee993-keira-knightley-and-black-doves-creator-joe-barton-why-helen"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘The Remarried Empress’ Sets Disney+ and Hulu Record With Biggest Local Original Launch Ever",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-07T21:23:41.611Z",
       "status": "quota",
@@ -2070,40 +2110,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-28T00:49:42.358Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 285,
-      "totalCandidates": 87,
-      "written": [
-        {
-          "title": "Cyberpunk's Edgerunners 2 Update Isn't In The Best State On Switch 2",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 16,
-          "slug": "62fdb1fd-cyberpunks-edgerunners-2-update-isnt-in-the-best-state-on-sw"
-        },
-        {
-          "title": "GTA 6 Developers Are About To Do Something Historic",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "e7412755-gta-6-developers-are-about-to-do-something-historic"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Backrooms’ Officially Returns in 2027 With New Release",
-          "category": "games",
-          "source": "Collider Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-07T21:23:41.611Z"
+  "lastUpdated": "2026-11-08T00:44:55.368Z"
 }
