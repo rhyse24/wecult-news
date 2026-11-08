@@ -1,6 +1,56 @@
 {
-  "totalArticles": 2534,
+  "totalArticles": 2537,
   "runs": [
+    {
+      "timestamp": "2026-11-08T19:25:39.637Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 181,
+      "totalCandidates": 35,
+      "written": [
+        {
+          "title": "Why The Smallville Finale Didn't Show Tom Welling In The Full Superman Suit",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "2e1dca8d-why-the-smallville-finale-didnt-show-tom-welling-in-the-full"
+        },
+        {
+          "title": "Sunrise On The Reaping director thinks Plutarch Heavensbee could lead his own Hunger Games",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "slug": "c4b42c85-sunrise-on-the-reaping-director-thinks-plutarch-heavensbee-c"
+        },
+        {
+          "title": "Why Dolly Weaver From Marshals Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 7,
+          "slug": "b0f4c2fe-why-dolly-weaver-from-marshals-looks-so-familiar"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Welcome to El Bulli’: Ferran Adrià Chef Drama Sets Netflix Release Date",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 9,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        },
+        {
+          "title": "Elon Musk Is Portrayed on ‘SNL’: “The Worst Thing South Africa Has Ever Done”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-08T15:25:18.714Z",
       "status": "success",
@@ -2074,43 +2124,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-28T20:35:06.513Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 288,
-      "totalCandidates": 89,
-      "written": [
-        {
-          "title": "Tenjutsu, the New Roguelike From Dead Cells’ Former Director, Launches in 2027",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 14,
-          "slug": "713cbfe4-tenjutsu-the-new-roguelike-from-dead-cells-former-director-l"
-        },
-        {
-          "title": "Call of Duty: Modern Warfare 4 Patch Makes It Impossible to Get a Nuke in Free-for-All",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "2ef1fdc0-call-of-duty-modern-warfare-4-patch-makes-it-impossible-to-g"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "20 Movies You Should Watch Before GTA 6",
-          "category": "games",
-          "source": "WhatCulture Games",
-          "score": 14,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body too long: 1045 words (max 580)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-08T15:25:18.714Z"
+  "lastUpdated": "2026-11-08T19:25:39.637Z"
 }
