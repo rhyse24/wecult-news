@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2526,
+  "totalArticles": 2528,
   "runs": [
+    {
+      "timestamp": "2026-11-08T07:51:31.283Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 224,
+      "totalCandidates": 75,
+      "written": [
+        {
+          "title": " A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "73cf3891-a-bioware-documentary-was-already-in-the-works-when-the-shut"
+        },
+        {
+          "title": "8 Underrated Video Games That Are Bangers From Start to Finish",
+          "category": "games",
+          "source": "Collider Games",
+          "score": 12,
+          "slug": "665f2062-8-underrated-video-games-that-are-bangers-from-start-to-fini"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-08T04:10:40.941Z",
       "status": "quota",
@@ -2078,39 +2103,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-28T08:00:58.330Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 289,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "How Marvel's VisionQuest Brings Back Iron Man Villain Raza After 18 Years",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "49f30c6f-how-marvels-visionquest-brings-back-iron-man-villain-raza-af"
-        },
-        {
-          "title": "VisionQuest Finally Introduces One of the Strangest Avengers",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 13,
-          "slug": "578262da-visionquest-finally-introduces-one-of-the-strangest-avengers"
-        },
-        {
-          "title": "VisionQuest Episode 6 Review: The Marvel Method Strikes Again",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 13,
-          "slug": "4726c5e5-visionquest-episode-6-review-the-marvel-method-strikes-again"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-08T04:10:40.941Z"
+  "lastUpdated": "2026-11-08T07:51:31.283Z"
 }
