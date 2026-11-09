@@ -1,6 +1,39 @@
 {
-  "totalArticles": 2540,
+  "totalArticles": 2542,
   "runs": [
+    {
+      "timestamp": "2026-11-09T07:40:27.795Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 178,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "Godzilla Minus Zero Earns Record $32 Million in N. American Opening Weekend",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 14,
+          "slug": "5319cc99-godzilla-minus-zero-earns-record-32-million-in-n-american-op"
+        },
+        {
+          "title": "15 Best TV Shows Ending In 2027",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "b6e2aded-15-best-tv-shows-ending-in-2027"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "John Oliver Dunks on Midterms Losers Elon Musk and Haley Stevens",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-09T03:34:48.482Z",
       "status": "quota",
@@ -2109,39 +2142,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-29T07:32:24.268Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 282,
-      "totalCandidates": 73,
-      "written": [
-        {
-          "title": "A Famous GTA 4 Meme Is Now a Mechanic in GTA 6",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "aec3c785-a-famous-gta-4-meme-is-now-a-mechanic-in-gta-6"
-        },
-        {
-          "title": "GTA 6's Map Will Open Up Relatively Early and Let You Explore Freely, Developers Are Still Discovering New Parts of the World",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "1e259779-gta-6s-map-will-open-up-relatively-early-and-let-you-explore"
-        },
-        {
-          "title": "'Appreciate the Fans' — GTA 5 Cast Tell Jason and Lucia’s Actors the Most Important Things They Should Know Before GTA 6 Launches Them to Fame",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "41ae0b21-appreciate-the-fans-gta-5-cast-tell-jason-and-lucias-actors-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-09T03:34:48.482Z"
+  "lastUpdated": "2026-11-09T07:40:27.795Z"
 }
