@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2542,
+  "totalArticles": 2545,
   "runs": [
+    {
+      "timestamp": "2026-11-09T11:42:48.913Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 201,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "They Will Not Use My Tears for Their Entertainment",
+          "category": "books",
+          "source": "Book Riot",
+          "score": 10,
+          "slug": "e0cdc0a3-they-will-not-use-my-tears-for-their-entertainment"
+        },
+        {
+          "title": "New Fantasy YA Series Launching in 2026",
+          "category": "books",
+          "source": "Book Riot",
+          "score": 10,
+          "slug": "c3a7122a-new-fantasy-ya-series-launching-in-2026"
+        },
+        {
+          "title": "What is the Best Literary TV Adaptation of All Time?",
+          "category": "books",
+          "source": "Literary Hub",
+          "score": 10,
+          "slug": "9f373046-what-is-the-best-literary-tv-adaptation-of-all-time"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-09T07:40:27.795Z",
       "status": "quota",
@@ -2110,39 +2142,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-29T11:21:44.278Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 276,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "The Remarried Empress Webtoon Launches Side Stories Ahead of Disney+ Live-Action Series",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 15,
-          "slug": "9d7ec27c-the-remarried-empress-webtoon-launches-side-stories-ahead-of"
-        },
-        {
-          "title": "Avatar: The Last Airbender Season 3: Expected Netflix Release Date & Everything We Know",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 12,
-          "slug": "e986fa37-avatar-the-last-airbender-season-3-expected-netflix-release-"
-        },
-        {
-          "title": "VisionQuest Episode 5 Review: The New Age of Ultron",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 11,
-          "slug": "4713fac3-visionquest-episode-5-review-the-new-age-of-ultron"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-09T07:40:27.795Z"
+  "lastUpdated": "2026-11-09T11:42:48.913Z"
 }
