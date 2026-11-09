@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2539,
+  "totalArticles": 2540,
   "runs": [
+    {
+      "timestamp": "2026-11-09T03:34:48.482Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 174,
+      "totalCandidates": 19,
+      "written": [
+        {
+          "title": "The Only Magneto Recap You Need Before Avengers: Doomsday",
+          "category": "film",
+          "source": "Looper",
+          "score": 10,
+          "slug": "61f38193-the-only-magneto-recap-you-need-before-avengers-doomsday"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Godzilla Minus Zero’ and ‘Ramayana: Rise of a Legend’ Roar at International Box Office",
+          "category": "film",
+          "source": "Variety",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Denis Villeneuve Teases James Bond Progress at LACMA Art + Film Gala: ‘I’m Having a Great Time’",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Gangs of London’ Director Kim Hong-sun Shoots Korean Martial Arts Action Film ‘The Hit List’ With Jung Woo-sung, ‘Squid Game’ Star Wi Ha-jun",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-08T23:31:35.320Z",
       "status": "quota",
@@ -2098,40 +2141,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-29T04:04:22.081Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 33,
-      "written": [
-        {
-          "title": "‘The Hunger Games: Sunrise on the Reaping’ First Reactions Call Prequel the ‘Rogue One’ of the Franchise and Praise Joseph Zada as Haymitch",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "9bb13033-the-hunger-games-sunrise-on-the-reaping-first-reactions-call"
-        },
-        {
-          "title": "James Gunn Calls Batman, Superman and Wonder Woman the DCU’s ‘Diamond Characters,’ Says Krypto, John Stewart and Peacemaker Could ‘Turn Into Diamonds’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "f450a955-james-gunn-calls-batman-superman-and-wonder-woman-the-dcus-d"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "20 Movies You Should Watch Before GTA 6",
-          "category": "film",
-          "source": "WhatCulture Film",
-          "score": 13,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-08T23:31:35.320Z"
+  "lastUpdated": "2026-11-09T03:34:48.482Z"
 }
