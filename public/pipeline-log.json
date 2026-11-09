@@ -1,6 +1,53 @@
 {
-  "totalArticles": 2548,
+  "totalArticles": 2551,
   "runs": [
+    {
+      "timestamp": "2026-11-09T21:40:06.387Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 253,
+      "totalCandidates": 78,
+      "written": [
+        {
+          "title": "Epic Games Claims Ownership Over Jazz Jackrabbit in Fortnite Legal Tussle With Gears of War Creator",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "a9163c76-epic-games-claims-ownership-over-jazz-jackrabbit-in-fortnite"
+        },
+        {
+          "title": "Batman Video Game Fans Are Feeling the Pain Too After Today's James Gunn News",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "22b8dd5a-batman-video-game-fans-are-feeling-the-pain-too-after-todays"
+        },
+        {
+          "title": "GTA 5’s Trevor Should Be In GTA 6 Sitting On The Toilet To “Pass The Torch,” Actor Says",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "630defe7-gta-5s-trevor-should-be-in-gta-6-sitting-on-the-toilet-to-pa"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Capcom Just Sold 5 Million Copies of Resident Evil Games in 3 Months",
+          "category": "games",
+          "source": "Push Square",
+          "score": 16,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The Legend of Zelda: Ocarina of Time Remake Dataminers Uncover Potential Majora's Mask, Master Quest DLC Hints",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-09T15:43:21.418Z",
       "status": "success",
@@ -2116,25 +2163,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-29T18:33:40.964Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 281,
-      "totalCandidates": 50,
-      "written": [
-        {
-          "title": "VisionQuest Fans Spot The Return Of A Major Marvel Character From What If",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "68840beb-visionquest-fans-spot-the-return-of-a-major-marvel-character"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-09T15:43:21.418Z"
+  "lastUpdated": "2026-11-09T21:40:06.387Z"
 }
