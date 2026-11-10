@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2558,
+  "totalArticles": 2561,
   "runs": [
+    {
+      "timestamp": "2026-11-10T12:49:08.759Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 246,
+      "totalCandidates": 54,
+      "written": [
+        {
+          "title": "2026 video game release dates: PS5, PS4, Xbox, PC and Switch",
+          "category": "tv",
+          "source": "Radio Times",
+          "score": 15,
+          "slug": "f010ff61-2026-video-game-release-dates-ps5-ps4-xbox-pc-and-switch"
+        },
+        {
+          "title": "Filming Underway on Joshua Zetumer’s Netflix Thriller Series ‘Pagans’ & Cast Confirmed",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "61dd5f69-filming-underway-on-joshua-zetumers-netflix-thriller-series-"
+        },
+        {
+          "title": " TV Spy — Yellowjackets, The Altruists, and all the US dramas you can watch on UK services: 14-20 November ",
+          "category": "tv",
+          "source": "What to Watch",
+          "score": 13,
+          "slug": "306f521e-tv-spy-yellowjackets-the-altruists-and-all-the-us-dramas-you"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-10T08:48:07.280Z",
       "status": "success",
@@ -2126,47 +2158,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-30T09:27:07.591Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Sir Patrick Stewart 1940-2026",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "737f0f92-sir-patrick-stewart-1940-2026"
-        },
-        {
-          "title": "Obsession Director Curry Barker Releases a Surprise Horror Short on YouTube",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 10,
-          "slug": "f81b9d2a-obsession-director-curry-barker-releases-a-surprise-horror-s"
-        },
-        {
-          "title": "Project Hail Mary Is Pushing Rocky for a Best Supporting Actor Oscar Nomination",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 9,
-          "slug": "8600214b-project-hail-mary-is-pushing-rocky-for-a-best-supporting-act"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "“Pretending you’re free when you’re just unwanted” — VisionQuest’s “Firewall” and “Deadlock”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 14,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-10T08:48:07.280Z"
+  "lastUpdated": "2026-11-10T12:49:08.759Z"
 }
