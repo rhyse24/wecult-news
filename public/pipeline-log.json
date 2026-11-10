@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2561,
+  "totalArticles": 2564,
   "runs": [
+    {
+      "timestamp": "2026-11-10T16:52:21.301Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 255,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "Ebenezer: Ti West on Johnny Depp, the Freddy Krueger Homage and a ‘Gray’ Scrooge You Can Agree With",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 17,
+          "slug": "e9b44c82-ebenezer-ti-west-on-johnny-depp-the-freddy-krueger-homage-an"
+        },
+        {
+          "title": "Lee Chang-dong on Possible Love, Filmmaking Ethics, and Characters as Mirrors",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 10,
+          "slug": "db491179-lee-chang-dong-on-possible-love-filmmaking-ethics-and-charac"
+        },
+        {
+          "title": "BMG’s Concord Originals Preps Supernatural Gothic Horror Pic ‘Wolf at the Door’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "d06a7f20-bmgs-concord-originals-preps-supernatural-gothic-horror-pic-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-10T12:49:08.759Z",
       "status": "success",
@@ -2126,39 +2158,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-30T13:30:02.528Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 263,
-      "totalCandidates": 30,
-      "written": [
-        {
-          "title": "5 Movies To Watch If You Like Clayface",
-          "category": "film",
-          "source": "Looper",
-          "score": 12,
-          "slug": "ae37450d-5-movies-to-watch-if-you-like-clayface"
-        },
-        {
-          "title": "New to Streaming: If I Go Will They Miss Me, American Doctor, Filipiñana, Ali G: Who Iz I? & More",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 10,
-          "slug": "ddcad50b-new-to-streaming-if-i-go-will-they-miss-me-american-doctor-f"
-        },
-        {
-          "title": "Rock Singer Bára Basiková Lived Her Traumas in the Public Gaze, Documentary Director Helena Třeštíková Says",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "57ac20d3-rock-singer-bra-basikov-lived-her-traumas-in-the-public-gaze"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-10T12:49:08.759Z"
+  "lastUpdated": "2026-11-10T16:52:21.301Z"
 }
