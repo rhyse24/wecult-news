@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2564,
+  "totalArticles": 2567,
   "runs": [
+    {
+      "timestamp": "2026-11-10T20:53:14.870Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 260,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "Why Celeborn From The Lord Of The Rings: The Rings Of Power Looks So Familiar",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 19,
+          "slug": "9d8b993f-why-celeborn-from-the-lord-of-the-rings-the-rings-of-power-l"
+        },
+        {
+          "title": "Black Doves Season 2 Viewership Falls 65%: What It Means for Season 3",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "d093963a-black-doves-season-2-viewership-falls-65-what-it-means-for-s"
+        },
+        {
+          "title": "5 TV Shows To Watch If You Like Cyberpunk: Edgerunners",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "446eb3c3-5-tv-shows-to-watch-if-you-like-cyberpunk-edgerunners"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-10T16:52:21.301Z",
       "status": "success",
@@ -2126,39 +2158,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-30T17:26:54.574Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 265,
-      "totalCandidates": 73,
-      "written": [
-        {
-          "title": "Hunter: The Reckoning – Deathwish Trailer Details Character Creation, Archetypes, and Flaws",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 14,
-          "slug": "981c085a-hunter-the-reckoning-deathwish-trailer-details-character-cre"
-        },
-        {
-          "title": " GTA 6's souped-up Red Dead Redemption 2-style morality system will scale from 'Professional' to 'Irredeemable' so players can decide what kind of criminal they want to be ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "7c860a90-gta-6s-souped-up-red-dead-redemption-2-style-morality-system"
-        },
-        {
-          "title": " Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "1c5f4448-screw-grand-theft-auto-6s-supercars-im-here-for-leonidas-rob"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-10T16:52:21.301Z"
+  "lastUpdated": "2026-11-10T20:53:14.870Z"
 }
