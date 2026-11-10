@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2555,
+  "totalArticles": 2558,
   "runs": [
+    {
+      "timestamp": "2026-11-10T08:48:07.280Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 249,
+      "totalCandidates": 85,
+      "written": [
+        {
+          "title": "Rayman Legends Retold Reveals Rabbids Outfit Exclusive To Switch 2",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 14,
+          "slug": "24121356-rayman-legends-retold-reveals-rabbids-outfit-exclusive-to-sw"
+        },
+        {
+          "title": "Capcom Just Sold 5 Million Copies of Resident Evil Games in 3 Months",
+          "category": "games",
+          "source": "Push Square",
+          "score": 13,
+          "slug": "bbabf7de-capcom-just-sold-5-million-copies-of-resident-evil-games-in-"
+        },
+        {
+          "title": "GTA 6 Pre-Sales “Running Far in Excess of Our Expectations,” Says Take-Two CEO",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 12,
+          "slug": "e8678d3f-gta-6-pre-sales-running-far-in-excess-of-our-expectations-sa"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-10T04:53:36.180Z",
       "status": "success",
@@ -2134,47 +2166,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-30T05:14:49.470Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 279,
-      "totalCandidates": 45,
-      "written": [
-        {
-          "title": "Why Yellowstone Star Neal McDonough Refuses To Watch The Taylor Sheridan Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "fa47379d-why-yellowstone-star-neal-mcdonough-refuses-to-watch-the-tay"
-        },
-        {
-          "title": "From PUBG to Diablo: Every Video Game Adaptation Netflix Is Making Right Now",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 11,
-          "slug": "a0266603-from-pubg-to-diablo-every-video-game-adaptation-netflix-is-m"
-        },
-        {
-          "title": "Apple TV's Monarch: Legacy Of Monsters Season 3 Eyes Creative Overhaul With New Titans",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "3c736502-apple-tvs-monarch-legacy-of-monsters-season-3-eyes-creative-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "VisionQuest Snuck in a Cameo That Harkens Back to Ultron’s Finest Hour",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 15,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-10T04:53:36.180Z"
+  "lastUpdated": "2026-11-10T08:48:07.280Z"
 }
