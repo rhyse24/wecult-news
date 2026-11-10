@@ -1,6 +1,35 @@
 {
-  "totalArticles": 2551,
+  "totalArticles": 2552,
   "runs": [
+    {
+      "timestamp": "2026-11-10T01:28:32.964Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 252,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "Skydance Plans Launch of Bundled Paramount+, HBO Max in Early 2027",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "b3d5346e-skydance-plans-launch-of-bundled-paramount-hbo-max-in-early-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Olivia Cooke Says ‘House of the Dragon’ Fandom Led Her to Step Away From Social Media: ‘There’s a Lot of Ugliness,’ ‘Misogyny’ and ‘Racism’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-09T21:40:06.387Z",
       "status": "success",
@@ -2145,25 +2174,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-29T22:05:05.756Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 284,
-      "totalCandidates": 74,
-      "written": [
-        {
-          "title": "'Elden Ring' Creators' Next Fantasy Game Officially Delayed to 2027",
-          "category": "games",
-          "source": "Collider Games",
-          "score": 15,
-          "slug": "ab7be7cb-elden-ring-creators-next-fantasy-game-officially-delayed-to-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-09T21:40:06.387Z"
+  "lastUpdated": "2026-11-10T01:28:32.964Z"
 }
