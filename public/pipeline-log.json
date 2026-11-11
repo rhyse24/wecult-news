@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2577,
+  "totalArticles": 2580,
   "runs": [
+    {
+      "timestamp": "2026-11-11T19:50:59.442Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 27,
+      "written": [
+        {
+          "title": "‘Avengers: Endgame Encore’ Sets Disney+ Streaming Release Date",
+          "category": "film",
+          "source": "Variety",
+          "score": 16,
+          "slug": "af872298-avengers-endgame-encore-sets-disney-streaming-release-date"
+        },
+        {
+          "title": "Avengers: Doomsday – Who Are Doctor Doom’s Latverian Witches?",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "slug": "218bd755-avengers-doomsday-who-are-doctor-dooms-latverian-witches"
+        },
+        {
+          "title": "’Unguarded,’ Mario Casas’ Second Movie as a Director, Starring Mario and Oscar Casas, Joins Film Factory’s AFM Slate",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "b5346c4c-unguarded-mario-casas-second-movie-as-a-director-starring-ma"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Season 3 of “The Lord of the Rings: The Rings of Power” Feels Like Butter Scraped Over Too Much Bread",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 14,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-11T13:26:56.072Z",
       "status": "success",
@@ -2134,39 +2177,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-31T14:39:51.530Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 251,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "Before ‘Star Trek,’ Patrick Stewart Proved His Sci-Fi Chops in ‘Dune’",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 8,
-          "slug": "552b7ced-before-star-trek-patrick-stewart-proved-his-sci-fi-chops-in-"
-        },
-        {
-          "title": "6 Terrifying Horror Movies That Show 'Obsession' How It's Done",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "slug": "4d1c93f9-6-terrifying-horror-movies-that-show-obsession-how-its-done"
-        },
-        {
-          "title": "5 Movies To Watch If You Like Love Of Your Life",
-          "category": "film",
-          "source": "Looper",
-          "score": 8,
-          "slug": "358d9ae7-5-movies-to-watch-if-you-like-love-of-your-life"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-11T13:26:56.072Z"
+  "lastUpdated": "2026-11-11T19:50:59.442Z"
 }
