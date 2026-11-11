@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2567,
+  "totalArticles": 2570,
   "runs": [
+    {
+      "timestamp": "2026-11-11T00:49:33.023Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 262,
+      "totalCandidates": 92,
+      "written": [
+        {
+          "title": "PlayStation Plus Monthly Games for November 2026 Announced",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "4c1c97ed-playstation-plus-monthly-games-for-november-2026-announced"
+        },
+        {
+          "title": "Remember PS5-exclusive shooter Fairgame$? It’s reportedly canceled now, to no one’s surprise",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 14,
+          "slug": "d95f28ca-remember-ps5-exclusive-shooter-fairgame-its-reportedly-cance"
+        },
+        {
+          "title": "Fairgame$ Officially Cancelled Over 3 Years After Its Announcement",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "slug": "89aa7a07-fairgame-officially-cancelled-over-3-years-after-its-announc"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-10T20:53:14.870Z",
       "status": "success",
@@ -2126,39 +2158,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-30T21:15:54.828Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 265,
-      "totalCandidates": 47,
-      "written": [
-        {
-          "title": "Netflix UK Reveals Lineup of Licensed Christmas Classics for the 2026 Holiday Season",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 15,
-          "slug": "de712590-netflix-uk-reveals-lineup-of-licensed-christmas-classics-for"
-        },
-        {
-          "title": "‘The Hunchback, Soul of Paris’: Netflix’s New Quasimodo Movie Gets New Trailer",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 15,
-          "slug": "f012ac76-the-hunchback-soul-of-paris-netflixs-new-quasimodo-movie-get"
-        },
-        {
-          "title": "New K-Dramas on Netflix in November 2026",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "2ca79d19-new-k-dramas-on-netflix-in-november-2026"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-10T20:53:14.870Z"
+  "lastUpdated": "2026-11-11T00:49:33.023Z"
 }
