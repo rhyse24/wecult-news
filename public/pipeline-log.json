@@ -1,6 +1,56 @@
 {
-  "totalArticles": 2571,
+  "totalArticles": 2574,
   "runs": [
+    {
+      "timestamp": "2026-11-11T09:08:21.387Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 269,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "5 Burning VisionQuest Questions Marvel Fans Have After The Finale",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 15,
+          "slug": "667e81ef-5-burning-visionquest-questions-marvel-fans-have-after-the-f"
+        },
+        {
+          "title": "First Look & Release Date For Netflix Period Drama ‘The Age of Innocence’",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 12,
+          "slug": "ec9468c8-first-look-release-date-for-netflix-period-drama-the-age-of-"
+        },
+        {
+          "title": "The Oscar-winning Godzilla Minus Zero VFX team breaks down the sequel's biggest moments",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 12,
+          "slug": "ceb0e83c-the-oscar-winning-godzilla-minus-zero-vfx-team-breaks-down-t"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "VisionQuest's Finale Brings Back More Than One Familiar MCU Face — Grade The Episode (And That Mid-Credits Surprise!)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        },
+        {
+          "title": "What To Watch Wednesday: The Rings Of Power Returns, Chris Harrison's New Dating Show, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-11T04:58:01.486Z",
       "status": "quota",
@@ -2127,32 +2177,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-10-31T05:55:28.312Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 266,
-      "totalCandidates": 86,
-      "written": [
-        {
-          "title": "Final Fantasy XIV Evercold Delayed, New Release Date Announced at FFXIV Fan Fest",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "c69b947a-final-fantasy-xiv-evercold-delayed-new-release-date-announce"
-        },
-        {
-          "title": "Xbox's Doom, Wolfenstein Developers Working 'More Closely Than Ever' Following Xbox 'Reset' Layoffs",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "f05241cf-xboxs-doom-wolfenstein-developers-working-more-closely-than-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-11T04:58:01.486Z"
+  "lastUpdated": "2026-11-11T09:08:21.387Z"
 }
