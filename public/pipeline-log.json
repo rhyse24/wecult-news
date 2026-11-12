@@ -2,6 +2,27 @@
   "totalArticles": 2580,
   "runs": [
     {
+      "timestamp": "2026-11-12T00:01:20.583Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 267,
+      "totalCandidates": 93,
+      "written": [],
+      "rejected": [
+        {
+          "title": "The Expanse: Osiris Reborn Highlights Asteroid Assault in New Trailer, Voice Cast Partially Revealed",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
+    {
       "timestamp": "2026-11-11T19:50:59.442Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2159,25 +2180,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-31T18:43:34.948Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 238,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "‘It: Welcome to Derry’ Surprise Halloween Episode Drops on HBO Max",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "54fe8993-it-welcome-to-derry-surprise-halloween-episode-drops-on-hbo-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-11T19:50:59.442Z"
+  "lastUpdated": "2026-11-12T00:01:20.583Z"
 }
