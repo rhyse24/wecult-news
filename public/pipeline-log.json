@@ -1,6 +1,56 @@
 {
-  "totalArticles": 2586,
+  "totalArticles": 2589,
   "runs": [
+    {
+      "timestamp": "2026-11-12T10:13:42.899Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 264,
+      "totalCandidates": 30,
+      "written": [
+        {
+          "title": "Season 3 of “The Lord of the Rings: The Rings of Power” Feels Like Butter Scraped Over Too Much Bread",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 13,
+          "slug": "e13584ca-season-3-of-the-lord-of-the-rings-the-rings-of-power-feels-l"
+        },
+        {
+          "title": "James Bond Producer Barbara Broccoli to Be President of U.K.’s National Film and Television School",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "430468aa-james-bond-producer-barbara-broccoli-to-be-president-of-uks-"
+        },
+        {
+          "title": "Marvel's VisionQuest Finale Delivers A Perfect Agatha All Along Easter Egg",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "slug": "58ffe68f-marvels-visionquest-finale-delivers-a-perfect-agatha-all-alo"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Jamie Dornan Reveals Reaction to Aragorn Casting in ‘Lord of the Rings: Hunt for Gollum’: “I Cried”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        },
+        {
+          "title": "What VisionQuest's Surprise Post-Credits Return Means For Avengers: Doomsday",
+          "category": "film",
+          "source": "Looper",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-12T06:01:21.058Z",
       "status": "success",
@@ -2199,32 +2249,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-01T06:15:49.700Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 238,
-      "totalCandidates": 21,
-      "written": [
-        {
-          "title": "‘Godzilla Minus Zero’ Stars Relive Hollywood Ovation and Fan Chants for Yamazaki Takashi at Tokyo Festival",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "5c4e5390-godzilla-minus-zero-stars-relive-hollywood-ovation-and-fan-c"
-        },
-        {
-          "title": "Frank Miller on Why He’s Relieved There Are Fewer Comic Book Adaptations Now: They Were ‘Really in Danger of Losing Their Souls’",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "ccd51266-frank-miller-on-why-hes-relieved-there-are-fewer-comic-book-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-12T06:01:21.058Z"
+  "lastUpdated": "2026-11-12T10:13:42.899Z"
 }
