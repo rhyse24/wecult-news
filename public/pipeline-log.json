@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2583,
+  "totalArticles": 2586,
   "runs": [
+    {
+      "timestamp": "2026-11-12T06:01:21.058Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 53,
+      "written": [
+        {
+          "title": "How Sauron Turns Men Into Ringwraiths In The Lord Of The Rings",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "24d59db4-how-sauron-turns-men-into-ringwraiths-in-the-lord-of-the-rin"
+        },
+        {
+          "title": "Why The House Of The Dragon Fandom Made Olivia Cooke Leave Social Media",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "2a2d141d-why-the-house-of-the-dragon-fandom-made-olivia-cooke-leave-s"
+        },
+        {
+          "title": "Gang Dong-won, Kim Go-eun to Star in Netflix’s ‘The Twilight Between Us’ From ‘When Life Gives You Tangerines’ Director, ‘Queen of Tears’ Writer",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "1998efd0-gang-dong-won-kim-go-eun-to-star-in-netflixs-the-twilight-be"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Anatomy Of A Finale: Did VisionQuest resurrect your faith in the MCU?",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-12T02:01:20.257Z",
       "status": "success",
@@ -2184,17 +2224,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-01T02:39:42.624Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 238,
-      "totalCandidates": 21,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-12T02:01:20.257Z"
+  "lastUpdated": "2026-11-12T06:01:21.058Z"
 }
