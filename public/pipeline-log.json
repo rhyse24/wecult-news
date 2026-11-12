@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2589,
+  "totalArticles": 2592,
   "runs": [
+    {
+      "timestamp": "2026-11-12T14:25:29.282Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 76,
+      "written": [
+        {
+          "title": "Resident Evil Requiem Crowned 'Ultimate Game Of The Year' At The Golden Joysticks Awards",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 15,
+          "slug": "e13d6798-resident-evil-requiem-crowned-ultimate-game-of-the-year-at-t"
+        },
+        {
+          "title": "Popeyes Is Riding the GTA 6 Hype With a New 'Spice City' Chicken Sandwich",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "9dd193a6-popeyes-is-riding-the-gta-6-hype-with-a-new-spice-city-chick"
+        },
+        {
+          "title": "Intergalactic: The Heretic Prophet in 'Last Stages of Production,' Neil Druckmann calls it a Mash-up of Jak and Daxter, Uncharted and The Last of Us",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "f1271d45-intergalactic-the-heretic-prophet-in-last-stages-of-producti"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-12T10:13:42.899Z",
       "status": "success",
@@ -2217,39 +2249,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-01T09:56:20.840Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 223,
-      "totalCandidates": 43,
-      "written": [
-        {
-          "title": "Should You Watch ‘Collision Course’? Review of the New Netflix Thriller",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 12,
-          "slug": "e33d24f8-should-you-watch-collision-course-review-of-the-new-netflix-"
-        },
-        {
-          "title": "A year after scrapping streaming show, Disney confirms Princess And The Frog animated special still coming",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 11,
-          "slug": "8d952a3d-a-year-after-scrapping-streaming-show-disney-confirms-prince"
-        },
-        {
-          "title": "Paul Bettany Says He ‘Blew Out’ 10 Blood Vessels in His Eye While Filming ‘VisionQuest’: ‘I Was Just Wildly Overacting’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 9,
-          "slug": "4b4a045b-paul-bettany-says-he-blew-out-10-blood-vessels-in-his-eye-wh"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-12T10:13:42.899Z"
+  "lastUpdated": "2026-11-12T14:25:29.282Z"
 }
