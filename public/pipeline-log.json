@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2580,
+  "totalArticles": 2583,
   "runs": [
+    {
+      "timestamp": "2026-11-12T02:01:20.257Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 276,
+      "totalCandidates": 91,
+      "written": [
+        {
+          "title": "The Expanse: Osiris Reborn Highlights Asteroid Assault in New Trailer, Voice Cast Partially Revealed",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 14,
+          "slug": "9ed2c418-the-expanse-osiris-reborn-highlights-asteroid-assault-in-new"
+        },
+        {
+          "title": "Marvel 1943: Rise of Hydra Is Reportedly 'Close to Done,' Though at the Cost of Cutting Back on Content and Length",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "8da22de1-marvel-1943-rise-of-hydra-is-reportedly-close-to-done-though"
+        },
+        {
+          "title": "New Mega Man Legends Game, Movie, or TV Series Possibly In the Works After Fans Spot 'New Media' Listing",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "9d11b5ce-new-mega-man-legends-game-movie-or-tv-series-possibly-in-the"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-12T00:01:20.583Z",
       "status": "quota",
@@ -2162,25 +2194,7 @@
       "totalCandidates": 21,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-10-31T22:41:33.493Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 239,
-      "totalCandidates": 83,
-      "written": [
-        {
-          "title": "Nintendo Reveals Surprise Pikmin Day Direct",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "91c1224c-nintendo-reveals-surprise-pikmin-day-direct"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-12T00:01:20.583Z"
+  "lastUpdated": "2026-11-12T02:01:20.257Z"
 }
