@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2595,
+  "totalArticles": 2598,
   "runs": [
+    {
+      "timestamp": "2026-11-13T02:04:09.196Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 277,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "‘The Witcher’ Star Freya Allan to Lead Joachim Rønning’s Horror Movie ‘System’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "81772532-the-witcher-star-freya-allan-to-lead-joachim-rnnings-horror-"
+        },
+        {
+          "title": "Avengers: Doomsday is Getting One Thing Right About Doctor Doom (But Maybe Only One Thing)",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 13,
+          "slug": "73fa7dcf-avengers-doomsday-is-getting-one-thing-right-about-doctor-do"
+        },
+        {
+          "title": "Shop of Horrors: How Talent Representation Firm Verve Became Hollywood’s Home for Successful Scares",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "303134ff-shop-of-horrors-how-talent-representation-firm-verve-became-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Marvel's VisionQuest Post-Credits Scene Explained: Full Breakdown",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-12T22:23:49.224Z",
       "status": "success",
@@ -2224,17 +2264,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-01T22:22:35.735Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 181,
-      "totalCandidates": 74,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-12T22:23:49.224Z"
+  "lastUpdated": "2026-11-13T02:04:09.196Z"
 }
