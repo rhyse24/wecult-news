@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2604,
+  "totalArticles": 2607,
   "runs": [
+    {
+      "timestamp": "2026-11-13T13:48:07.090Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 277,
+      "totalCandidates": 31,
+      "written": [
+        {
+          "title": "Vampire Santa Claus Is Coming to Town in Ilja Rautsi’s Charades-Sold ‘Red Snow,’ Which Debuts Clip: ‘It’s a Gruesome Christmas Present’ (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "8cf78024-vampire-santa-claus-is-coming-to-town-in-ilja-rautsis-charad"
+        },
+        {
+          "title": "The B-Sides of Kurt Russell with Cory Everett",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 12,
+          "slug": "737f2ecb-the-b-sides-of-kurt-russell-with-cory-everett"
+        },
+        {
+          "title": "Sam Claflin Reveals Johnny Depp’s Unexpected Reaction to Seeing Him Again After 15 Years",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "slug": "ed116814-sam-claflin-reveals-johnny-depps-unexpected-reaction-to-seei"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-13T09:46:49.052Z",
       "status": "success",
@@ -2298,25 +2330,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-02T06:01:09.767Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 179,
-      "totalCandidates": 38,
-      "written": [
-        {
-          "title": "Dave Bautista Reveals He’s Gained 20 Pounds of Muscle Ahead of Playing Kratos in ‘God of War’ Series",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "442dfb30-dave-bautista-reveals-hes-gained-20-pounds-of-muscle-ahead-o"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-13T09:46:49.052Z"
+  "lastUpdated": "2026-11-13T13:48:07.090Z"
 }
