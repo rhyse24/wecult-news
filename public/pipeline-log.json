@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2607,
+  "totalArticles": 2610,
   "runs": [
+    {
+      "timestamp": "2026-11-13T20:00:30.483Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "Why Kathryn Hahn's Agatha Harkness Didn't Appear On Marvel's VisionQuest",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "slug": "9ad80883-why-kathryn-hahns-agatha-harkness-didnt-appear-on-marvels-vi"
+        },
+        {
+          "title": "The Game Awards to Reveal 2026 Nominees Next Week Ahead of ‘GTA 6’ Debut, PlayStation 5 Joins Livestreamers for December Show (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 16,
+          "slug": "cf922e21-the-game-awards-to-reveal-2026-nominees-next-week-ahead-of-g"
+        },
+        {
+          "title": "Netflix’s Longest-Running Scripted Shows",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "9f6e5631-netflixs-longest-running-scripted-shows"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Unauthorized ‘Gilmore Girls’ Doc ‘Drink Coffee, Talk Fast’ Sets Release Date as Series Alum Scott Patterson Joins as Producer (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-13T13:48:07.090Z",
       "status": "success",
@@ -2273,64 +2313,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-02T08:01:15.845Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 181,
-      "totalCandidates": 17,
-      "written": [
-        {
-          "title": "‘The Mongoose’ Review: Liam Neeson Goes on the Run in a Bland Actioner",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "53d6f5d1-the-mongoose-review-liam-neeson-goes-on-the-run-in-a-bland-a"
-        },
-        {
-          "title": "Siddhant Chaturvedi, Alizeh, Jimmy Shergill’s 1990s British Punjabi Music Drama ‘Bolo Bolo Bolo,’ Directed by Vikas Bahl, Wraps U.K. Shoot (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "39639702-siddhant-chaturvedi-alizeh-jimmy-shergills-1990s-british-pun"
-        },
-        {
-          "title": "Isabelle Huppert Vampire Film ‘The Blood Countess’ Was Cut Against Director’s Wishes, Ulrike Ottinger Tells Tokyo Event",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "232f161b-isabelle-huppert-vampire-film-the-blood-countess-was-cut-aga"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "China Box Office: ‘Resident Evil’ Holds Top Spot for Fourth Straight Frame as 2014’s ‘John Wick’ Debuts in Third",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "‘You Can See Everything,’ ‘Clayface’ Fighting for No. 1 in Quiet Halloween Weekend",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 8,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        },
-        {
-          "title": "10 Best Children & Family Movies on Netflix Right Now",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-13T13:48:07.090Z"
+  "lastUpdated": "2026-11-13T20:00:30.483Z"
 }
