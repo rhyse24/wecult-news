@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2601,
+  "totalArticles": 2604,
   "runs": [
+    {
+      "timestamp": "2026-11-13T09:46:49.052Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 86,
+      "written": [
+        {
+          "title": "The 10 Most Expensive Welcome To Night City Cards In The Cyberpunk TCG",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "slug": "dc60671e-the-10-most-expensive-welcome-to-night-city-cards-in-the-cyb"
+        },
+        {
+          "title": "Halo: Campaign Evolved to Get Firefight as a Free Update",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 12,
+          "slug": "bad7bbd9-halo-campaign-evolved-to-get-firefight-as-a-free-update"
+        },
+        {
+          "title": "Will GTA 6 break the internet? UK broadband operator braces for impact, saying \"GTA 6 has been on our radar for a long time\"",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 12,
+          "slug": "661dd820-will-gta-6-break-the-internet-uk-broadband-operator-braces-f"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Resident Evil Requiem wins four Golden Joystick Awards, including Ultimate and Console GOTY",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-13T05:45:23.132Z",
       "status": "success",
@@ -2276,17 +2316,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-02T03:04:46.376Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 178,
-      "totalCandidates": 40,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-13T05:45:23.132Z"
+  "lastUpdated": "2026-11-13T09:46:49.052Z"
 }
