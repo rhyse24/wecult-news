@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2592,
+  "totalArticles": 2595,
   "runs": [
+    {
+      "timestamp": "2026-11-12T22:23:49.224Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 283,
+      "totalCandidates": 54,
+      "written": [
+        {
+          "title": "Avatar: Seven Havens Book 2 Sets 2027 Release Date On Paramount+",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 18,
+          "slug": "87fc893c-avatar-seven-havens-book-2-sets-2027-release-date-on-paramou"
+        },
+        {
+          "title": "The WGA grants Ryan Reynolds and Hugh Jackman writing credit on Avengers: Doomsday",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "31c09446-the-wga-grants-ryan-reynolds-and-hugh-jackman-writing-credit"
+        },
+        {
+          "title": "Chris Colfer Says ‘Glee’ Reboot ‘Conversations’ About Kurt’s Return Are Ongoing: ‘From What I Heard, It Sounded Very Funny and Like a Good Idea’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "fa5ba7fe-chris-colfer-says-glee-reboot-conversations-about-kurts-retu"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-12T18:33:56.340Z",
       "status": "quota",
@@ -2202,40 +2234,7 @@
       "totalCandidates": 74,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-01T19:01:24.723Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 185,
-      "totalCandidates": 21,
-      "written": [
-        {
-          "title": "Box Office: Zach Cregger’s ‘Resident Evil’ Reboot Hits $400 Million Globally",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "5f23a6b1-box-office-zach-creggers-resident-evil-reboot-hits-400-milli"
-        },
-        {
-          "title": "23 Best Movies New to Streaming in November: ‘Tony,’ ‘Misty Green,’ ‘Possible Love’ and More",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "30d0656d-23-best-movies-new-to-streaming-in-november-tony-misty-green"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Godzilla Minus Zero’ Crashes Into Tokyo Film Festival With Stars Ryunosuke Kamiki, Minami Hamabe in Tow",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-12T18:33:56.340Z"
+  "lastUpdated": "2026-11-12T22:23:49.224Z"
 }
