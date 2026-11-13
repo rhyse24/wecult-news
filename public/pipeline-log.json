@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2598,
+  "totalArticles": 2601,
   "runs": [
+    {
+      "timestamp": "2026-11-13T05:45:23.132Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 270,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "The Good Daughter Ending Explained: Who Was Zach Culpepper's Accomplice? And Who Orchestrated The School Shooting?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "42593693-the-good-daughter-ending-explained-who-was-zach-culpeppers-a"
+        },
+        {
+          "title": "‘The Body’ Creator on the Dance Team’s Sexuality, What Happened to Grace and Whether God Is Real",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "f7f9b746-the-body-creator-on-the-dance-teams-sexuality-what-happened-"
+        },
+        {
+          "title": "Netflix Launches New ‘What’s Hot’ Hub Collecting Its Buzziest Titles, Top 10s and Genre Favorites in One Place",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 11,
+          "slug": "beb6055c-netflix-launches-new-whats-hot-hub-collecting-its-buzziest-t"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Avatar: Seven Havens’ Sets Season 2 Release Date at Paramount+",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-13T02:04:09.196Z",
       "status": "success",
@@ -2246,25 +2286,7 @@
       "totalCandidates": 40,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-02T00:01:08.336Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 173,
-      "totalCandidates": 76,
-      "written": [
-        {
-          "title": "Joe Manganiello Says He 'Will Never Give Up Hope' on His D&D Dragonlance TV Series",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 12,
-          "slug": "373575f8-joe-manganiello-says-he-will-never-give-up-hope-on-his-dd-dr"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-13T02:04:09.196Z"
+  "lastUpdated": "2026-11-13T05:45:23.132Z"
 }
