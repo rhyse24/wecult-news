@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2613,
+  "totalArticles": 2616,
   "runs": [
+    {
+      "timestamp": "2026-11-14T08:00:27.616Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 268,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Gambit Gets Serious: Channing Tatum’s Superhero Is ‘Not All Laughs’ in ‘Avengers: Doomsday’ as Kevin Feige Promises Fans a ‘Fully-Rounded Character’",
+          "category": "film",
+          "source": "Variety",
+          "score": 15,
+          "slug": "8bf4acef-gambit-gets-serious-channing-tatums-superhero-is-not-all-lau"
+        },
+        {
+          "title": "Avengers: Doomsday Is Way Too Late for Shang-Chi’s Return",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 14,
+          "slug": "e5c58e06-avengers-doomsday-is-way-too-late-for-shang-chis-return"
+        },
+        {
+          "title": "Producer Kevin J. Walsh Had Seen It All. Then ‘Being Heumann’ Came Along",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 9,
+          "slug": "a0d14189-producer-kevin-j-walsh-had-seen-it-all-then-being-heumann-ca"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "3 Best Prime Video Movies To Watch This Weekend (Nov 14-15)",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-14T04:12:56.026Z",
       "status": "quota",
@@ -2287,25 +2327,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-02T20:01:09.533Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 250,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Meta to Help Bring ‘The Hunger Games: Sunrise on the Reaping’ to 3D Screens — and Its $1,299 VR Glasses",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "6a48f392-meta-to-help-bring-the-hunger-games-sunrise-on-the-reaping-t"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-14T04:12:56.026Z"
+  "lastUpdated": "2026-11-14T08:00:27.616Z"
 }
