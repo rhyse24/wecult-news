@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2616,
+  "totalArticles": 2619,
   "runs": [
+    {
+      "timestamp": "2026-11-14T12:03:23.345Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 262,
+      "totalCandidates": 92,
+      "written": [
+        {
+          "title": "Resident Evil 1 Remake “Might Not Resonate” With Modern Fans, Capcom Says",
+          "category": "games",
+          "source": "TheGamer",
+          "score": 15,
+          "slug": "226e6087-resident-evil-1-remake-might-not-resonate-with-modern-fans-c"
+        },
+        {
+          "title": "George R. R. Martin’s Newest ‘Game of Thrones’ Spin-Off Officially Brings Back the Targaryens",
+          "category": "games",
+          "source": "Collider Games",
+          "score": 13,
+          "slug": "3b3367de-george-r-r-martins-newest-game-of-thrones-spin-off-officiall"
+        },
+        {
+          "title": "Call of Duty Endowment marks Remembrance Day with veterans' Valor Pack push",
+          "category": "games",
+          "source": "Eurogamer",
+          "score": 12,
+          "slug": "ac07c933-call-of-duty-endowment-marks-remembrance-day-with-veterans-v"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-14T08:00:27.616Z",
       "status": "success",
@@ -2302,32 +2334,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-02T22:40:16.969Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 257,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "How Marvel's VisionQuest Pays Homage To NCIS Guest Star William Katt's '80s Superhero Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 15,
-          "slug": "dbd5bb11-how-marvels-visionquest-pays-homage-to-ncis-guest-star-willi"
-        },
-        {
-          "title": "War Is Coming in the ‘Percy Jackson’ Season 3 Trailer",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 15,
-          "slug": "70e2f960-war-is-coming-in-the-percy-jackson-season-3-trailer"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-14T08:00:27.616Z"
+  "lastUpdated": "2026-11-14T12:03:23.345Z"
 }
