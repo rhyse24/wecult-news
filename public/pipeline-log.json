@@ -2,6 +2,16 @@
   "totalArticles": 2613,
   "runs": [
     {
+      "timestamp": "2026-11-14T04:12:56.026Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 270,
+      "totalCandidates": 33,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-11-14T00:01:17.105Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2295,25 +2305,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-02T16:01:13.168Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 225,
-      "totalCandidates": 47,
-      "written": [
-        {
-          "title": "Paul Bettany compromised his vision filming VisionQuest",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 14,
-          "slug": "3c6ca625-paul-bettany-compromised-his-vision-filming-visionquest"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-14T00:01:17.105Z"
+  "lastUpdated": "2026-11-14T04:12:56.026Z"
 }
