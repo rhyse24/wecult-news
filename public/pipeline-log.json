@@ -1,6 +1,35 @@
 {
-  "totalArticles": 2619,
+  "totalArticles": 2620,
   "runs": [
+    {
+      "timestamp": "2026-11-14T16:04:30.795Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 249,
+      "totalCandidates": 51,
+      "written": [
+        {
+          "title": "‘VisionQuest’ Finale Hits 3.7 Million Views in One Day",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 16,
+          "slug": "2f423779-visionquest-finale-hits-37-million-views-in-one-day"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Why Henry Cavill Left The Witcher",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "quality_gate",
+          "errors": [
+            "EN body has no section headings (need ≥1)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-14T12:03:23.345Z",
       "status": "success",
@@ -2302,39 +2331,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-03T02:01:05.883Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 262,
-      "totalCandidates": 94,
-      "written": [
-        {
-          "title": "Blackpink's Jisoo Confirms She Referenced Resident Evil's Ada Wong in New Music Video",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 18,
-          "slug": "dcf85075-blackpinks-jisoo-confirms-she-referenced-resident-evils-ada-"
-        },
-        {
-          "title": "New 'Fallout' Release Officially Changes the Brotherhood of Steel Forever",
-          "category": "games",
-          "source": "Collider Games",
-          "score": 15,
-          "slug": "2b4ebe06-new-fallout-release-officially-changes-the-brotherhood-of-st"
-        },
-        {
-          "title": "Terminally Ill GTA 6 Fan Dies 3 Weeks Before Game's Launch, Fans Pay Their Respects",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "e137c2da-terminally-ill-gta-6-fan-dies-3-weeks-before-games-launch-fa"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-14T12:03:23.345Z"
+  "lastUpdated": "2026-11-14T16:04:30.795Z"
 }
