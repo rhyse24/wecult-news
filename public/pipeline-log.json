@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2610,
+  "totalArticles": 2613,
   "runs": [
+    {
+      "timestamp": "2026-11-14T00:01:17.105Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 265,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "A Very Special Episode of UltraVision — VisionQuest’s “Forever”",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "slug": "6995253f-a-very-special-episode-of-ultravision-visionquests-forever"
+        },
+        {
+          "title": "Gala del Sol on Launching a Tropical Steampunk Universe with Rains Over Babel",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 13,
+          "slug": "8889486b-gala-del-sol-on-launching-a-tropical-steampunk-universe-with"
+        },
+        {
+          "title": "The Next Film From Disney and Pixar is a Crime Movie set in Italy… with Cats",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 11,
+          "slug": "f48d1460-the-next-film-from-disney-and-pixar-is-a-crime-movie-set-in-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-13T20:00:30.483Z",
       "status": "success",
@@ -2281,39 +2313,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-02T11:22:17.640Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 205,
-      "totalCandidates": 69,
-      "written": [
-        {
-          "title": "14 Games Are Leaving Xbox Game Pass In Early November 2026",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 14,
-          "slug": "0dc27cbf-14-games-are-leaving-xbox-game-pass-in-early-november-2026"
-        },
-        {
-          "title": "Phantom Blade Zero Sells 4 Million Copies in 72 Hours",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "a41f5c4d-phantom-blade-zero-sells-4-million-copies-in-72-hours"
-        },
-        {
-          "title": "Sony Issues Yet Another PS5 Firmware Update as Jailbreak Whac-a-Mole Continues Ahead of GTA 6 Release",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "9f96cb3b-sony-issues-yet-another-ps5-firmware-update-as-jailbreak-wha"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-13T20:00:30.483Z"
+  "lastUpdated": "2026-11-14T00:01:17.105Z"
 }
