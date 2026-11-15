@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2624,
+  "totalArticles": 2626,
   "runs": [
+    {
+      "timestamp": "2026-11-15T03:44:11.318Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 227,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "Kevin Feige didn't want Scarlet Witch to appear in VisionQuest, which is pretty funny",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "7eed6b4c-kevin-feige-didnt-want-scarlet-witch-to-appear-in-visionques"
+        },
+        {
+          "title": "Kids’ Choice Awards: ‘Spider-Man: Brand New Day,’ Zendaya, Tom Holland, BTS Among 2026 Winners",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "e4f04ba4-kids-choice-awards-spider-man-brand-new-day-zendaya-tom-holl"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-14T23:48:27.920Z",
       "status": "quota",
@@ -2300,39 +2325,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-03T12:16:13.775Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 258,
-      "totalCandidates": 29,
-      "written": [
-        {
-          "title": "Long-Lost Trailer for Canceled Jurassic Park Animated Series Reportedly Surfaces Online",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 14,
-          "slug": "761c58e8-long-lost-trailer-for-canceled-jurassic-park-animated-series"
-        },
-        {
-          "title": "Percy Jackson & the Olympians Season 3 Trailer Sees the Titans Take Annabeth",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 14,
-          "slug": "9e8f8de5-percy-jackson-the-olympians-season-3-trailer-sees-the-titans"
-        },
-        {
-          "title": "Citizen Kim by Jonathan Van Meter review – Kardashian under the microscope",
-          "category": "books",
-          "source": "The Guardian Books",
-          "score": 11,
-          "slug": "1e0e1aa2-citizen-kim-by-jonathan-van-meter-review-kardashian-under-th"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-14T23:48:27.920Z"
+  "lastUpdated": "2026-11-15T03:44:11.318Z"
 }
