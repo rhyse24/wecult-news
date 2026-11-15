@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2631,
+  "totalArticles": 2634,
   "runs": [
+    {
+      "timestamp": "2026-11-15T14:56:15.942Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 198,
+      "totalCandidates": 74,
+      "written": [
+        {
+          "title": "Resident Evil Requiem Star Hopes Grace Ashcroft Has 'a Long Way to Go' Even if She Won't 'Ever Be a Leon Character'",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "3b7a886f-resident-evil-requiem-star-hopes-grace-ashcroft-has-a-long-w"
+        },
+        {
+          "title": "I Loved My Xbox 360s–All Four Of Them",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "101268d5-i-loved-my-xbox-360sall-four-of-them"
+        },
+        {
+          "title": " Chronicles: Medieval developer declared bankruptcy on the day it announced it was in trouble, but development will continue after a $5 million reprieve from Coffee Stain ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "b03809c1-chronicles-medieval-developer-declared-bankruptcy-on-the-day"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-15T11:17:29.679Z",
       "status": "success",
@@ -2354,25 +2386,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-03T21:19:24.238Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 91,
-      "written": [
-        {
-          "title": "Xbox Made an Alligator-Shaped Series X, and You Can Win It Before GTA 6 Launches",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "bfa8720d-xbox-made-an-alligator-shaped-series-x-and-you-can-win-it-be"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-15T11:17:29.679Z"
+  "lastUpdated": "2026-11-15T14:56:15.942Z"
 }
