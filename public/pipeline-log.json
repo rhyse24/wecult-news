@@ -1,6 +1,63 @@
 {
-  "totalArticles": 2626,
+  "totalArticles": 2628,
   "runs": [
+    {
+      "timestamp": "2026-11-15T07:32:32.580Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 224,
+      "totalCandidates": 23,
+      "written": [
+        {
+          "title": "Adam Driver Says Disney Killing ‘The Hunt for Ben Solo’ Felt ‘Criminal’: ‘Steven Soderbergh Wants to Make a “Star Wars” Movie. What Are We Debating?’",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "9d8419d5-adam-driver-says-disney-killing-the-hunt-for-ben-solo-felt-c"
+        },
+        {
+          "title": "Legendary Game Returns in Remake of Nintendo’s “The Legend of Zelda: Ocarina of Time”",
+          "category": "film",
+          "source": "RogerEbert",
+          "score": 8,
+          "slug": "4058819f-legendary-game-returns-in-remake-of-nintendos-the-legend-of-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Chris Pratt Says He ‘Would Love’ James Gunn to Direct a Fourth ‘Guardians of the Galaxy’ Film After DC Exit",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Avengers: Doomsday Is Shaping Up To Be A Story About Fatherhood",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The Criterion Collection’s February 2027 Lineup Features Kung Fu Hustle, The Irishman, and Jay Kelly on 4K",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 8,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 14 words (max 12)"
+          ]
+        },
+        {
+          "title": "James Bond: Robert Pattinson Rumors Could Open the Way for a New Status Quo",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 8,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-15T03:44:11.318Z",
       "status": "quota",
@@ -2293,39 +2350,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-03T16:01:17.026Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 265,
-      "totalCandidates": 31,
-      "written": [
-        {
-          "title": "Josh O’Connor Describes Bond Rumors as ‘Incredibly Bizarre Pinch Me Moment’: ‘To Be Considered Is Extraordinary’",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "220e137f-josh-oconnor-describes-bond-rumors-as-incredibly-bizarre-pin"
-        },
-        {
-          "title": "Pierce Brosnan Approves of Callum Turner as James Bond: He’s ‘So Strong’ and I’m ‘Eager to See’ Who Becomes the Next 007",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "fa34e45e-pierce-brosnan-approves-of-callum-turner-as-james-bond-hes-s"
-        },
-        {
-          "title": "After Mortal Kombat and Street Fighter, This Fighting Game Needs a Movie Adaptation",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 12,
-          "slug": "5fefaa85-after-mortal-kombat-and-street-fighter-this-fighting-game-ne"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-15T03:44:11.318Z"
+  "lastUpdated": "2026-11-15T07:32:32.580Z"
 }
