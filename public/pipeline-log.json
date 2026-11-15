@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2628,
+  "totalArticles": 2631,
   "runs": [
+    {
+      "timestamp": "2026-11-15T11:17:29.679Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 205,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "Saturday Night Live Reveals Amanda Seyfried As December's First Host — Who's The Musical Guest?",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 9,
+          "slug": "1ec8f54b-saturday-night-live-reveals-amanda-seyfried-as-decembers-fir"
+        },
+        {
+          "title": "Dean Norris says Breaking Bad fans have given him so many minerals he now has his own collection",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "slug": "ee7a92ec-dean-norris-says-breaking-bad-fans-have-given-him-so-many-mi"
+        },
+        {
+          "title": "Japan's Video Game Rankings, November 2-8",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 8,
+          "slug": "0199d78c-japans-video-game-rankings-november-2-8"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Netflix Reveals Title, 2027 Release Window & First Look for ‘Magic: The Gathering: Planeswalker’ Animated Series",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 9,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-15T07:32:32.580Z",
       "status": "quota",
@@ -2332,25 +2372,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-03T18:01:25.959Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 269,
-      "totalCandidates": 83,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Video Game Release Dates: The Biggest Games Coming Soon",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-15T07:32:32.580Z"
+  "lastUpdated": "2026-11-15T11:17:29.679Z"
 }
