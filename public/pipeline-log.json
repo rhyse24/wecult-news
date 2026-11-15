@@ -1,6 +1,53 @@
 {
-  "totalArticles": 2634,
+  "totalArticles": 2637,
   "runs": [
+    {
+      "timestamp": "2026-11-15T18:35:42.743Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 176,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "Matt Damon Reveals Ben Affleck’s Review of ‘The Odyssey’ — and the One Performance He Couldn’t Stop Talking About",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 15,
+          "slug": "34c0aa60-matt-damon-reveals-ben-afflecks-review-of-the-odyssey-and-th"
+        },
+        {
+          "title": "6 Superhero Movies From the 2010s That Are 10/10 Masterpieces",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "a407c693-6-superhero-movies-from-the-2010s-that-are-1010-masterpieces"
+        },
+        {
+          "title": "The 8 Best Soft Sci-Fi Movies in Film History",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 10,
+          "slug": "03c73885-the-8-best-soft-sci-fi-movies-in-film-history"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Box Office: Johnny Depp’s ‘Ebenezer’ Opens to No. 1 With $19 Million, ‘How to Rob a Bank’ Stumbles With $5 Million Debut",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Chris Pratt Says He ‘Would Love’ James Gunn to Direct a Fourth ‘Guardians of the Galaxy’ Film After DC Exit",
+          "category": "film",
+          "source": "Variety",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-15T14:56:15.942Z",
       "status": "success",
@@ -2354,39 +2401,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-04T00:54:05.946Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 51,
-      "written": [
-        {
-          "title": "Why Ultron Is Human For Most Of Marvel's VisionQuest, Explained By Showrunner",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "slug": "98798a98-why-ultron-is-human-for-most-of-marvels-visionquest-explaine"
-        },
-        {
-          "title": "‘Resident Evil’: Hidden Details From the Games to Watch for in the 2026 Movie",
-          "category": "tv",
-          "source": "TV Insider",
-          "score": 15,
-          "slug": "88b0ce5b-resident-evil-hidden-details-from-the-games-to-watch-for-in-"
-        },
-        {
-          "title": "Casting News: Bill Hader Enrolls At Abbott Elementary, The Beast In Me Season 2 Update, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "87ad5c80-casting-news-bill-hader-enrolls-at-abbott-elementary-the-bea"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-15T14:56:15.942Z"
+  "lastUpdated": "2026-11-15T18:35:42.743Z"
 }
