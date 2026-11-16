@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2643,
+  "totalArticles": 2646,
   "runs": [
+    {
+      "timestamp": "2026-11-16T08:01:13.191Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 159,
+      "totalCandidates": 17,
+      "written": [
+        {
+          "title": "5 MCU TV Episodes To Watch Before 'Avengers: Doomsday'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 12,
+          "slug": "930f1961-5-mcu-tv-episodes-to-watch-before-avengers-doomsday"
+        },
+        {
+          "title": "‘Writing With Fire’ Directors’ Himalayan Story Lab Unveils Fourth Cohort, Taps Payal Kapadia and Shaunak Sen as Mentors (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "slug": "09eaf674-writing-with-fire-directors-himalayan-story-lab-unveils-four"
+        },
+        {
+          "title": "Nicholas Hoult’s New Heist Thriller Almost Had a Much Darker Ending",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "slug": "ba6335f5-nicholas-hoults-new-heist-thriller-almost-had-a-much-darker-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-16T06:04:51.787Z",
       "status": "quota",
@@ -2361,39 +2393,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-04T17:51:30.751Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 282,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Apple TV’s “Stick” Stays On Par For Its Second Season",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 15,
-          "slug": "4ec2941b-apple-tvs-stick-stays-on-par-for-its-second-season"
-        },
-        {
-          "title": "Bill Nighy, Hayley Atwell and Maisie Williams Lead Voice Cast of Animated Feature ‘The Last Dino’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "0355f4b1-bill-nighy-hayley-atwell-and-maisie-williams-lead-voice-cast"
-        },
-        {
-          "title": "Tinie Tempah, Nathalie Emmanuel, Russell Tovey Set for HollyShorts U.K. Honors (Exclusive)",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 13,
-          "slug": "dd0ede12-tinie-tempah-nathalie-emmanuel-russell-tovey-set-for-hollysh"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-16T06:04:51.787Z"
+  "lastUpdated": "2026-11-16T08:01:13.191Z"
 }
