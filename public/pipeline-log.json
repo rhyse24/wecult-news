@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2640,
+  "totalArticles": 2643,
   "runs": [
+    {
+      "timestamp": "2026-11-16T02:04:17.253Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 162,
+      "totalCandidates": 4,
+      "written": [
+        {
+          "title": "Fan Fiction Site AO3 Returns, and So Do Its Readers, in Droves",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 12,
+          "slug": "9a4e386a-fan-fiction-site-ao3-returns-and-so-do-its-readers-in-droves"
+        },
+        {
+          "title": "‘She was a monster’: the real Patricia Highsmith, by the people who knew her",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 3,
+          "slug": "8d1ef33b-she-was-a-monster-the-real-patricia-highsmith-by-the-people-"
+        },
+        {
+          "title": "The unexpected power of fleeting friendships",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 3,
+          "slug": "c58956b5-the-unexpected-power-of-fleeting-friendships"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-15T22:13:49.916Z",
       "status": "success",
@@ -2383,39 +2415,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-04T08:20:41.750Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 275,
-      "totalCandidates": 92,
-      "written": [
-        {
-          "title": "The Elder Scrolls 6: Sentinel is confirmed, finally getting new trailer and full name, 8 years, 4 months, and 23 days after its reveal",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 12,
-          "slug": "723347a0-the-elder-scrolls-6-sentinel-is-confirmed-finally-getting-ne"
-        },
-        {
-          "title": "7 Years Later, ‘Game of Thrones’ Officially Revives Daenerys Targaryen",
-          "category": "games",
-          "source": "Collider Games",
-          "score": 12,
-          "slug": "b390bc71-7-years-later-game-of-thrones-officially-revives-daenerys-ta"
-        },
-        {
-          "title": "007 First Light Gets Free Trial For Select PlayStation Plus Subscribers",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 11,
-          "slug": "b15ecf11-007-first-light-gets-free-trial-for-select-playstation-plus-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-15T22:13:49.916Z"
+  "lastUpdated": "2026-11-16T02:04:17.253Z"
 }
