@@ -1,6 +1,53 @@
 {
-  "totalArticles": 2649,
+  "totalArticles": 2652,
   "runs": [
+    {
+      "timestamp": "2026-11-16T16:06:58.013Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 212,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Major MCU Heroes Who Died Before ‘Avengers: Doomsday’",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 15,
+          "slug": "cc9326b1-major-mcu-heroes-who-died-before-avengers-doomsday"
+        },
+        {
+          "title": "Willie Geist Leaving Morning Joe For Expanded Role At NBC News",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "a6f9741f-willie-geist-leaving-morning-joe-for-expanded-role-at-nbc-ne"
+        },
+        {
+          "title": "Nicola Coughlan “Will Not Be Watching” HBO’s ‘Harry Potter’: “And I Would Never Be in It”",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "757fa7e2-nicola-coughlan-will-not-be-watching-hbos-harry-potter-and-i"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "First Look and Release Date Revealed for Netflix’s New Lavish Period Drama Series ‘The Palace of Secrets’",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Robert Pattinson Is Officially James Bond as Star Takes on 007 Role",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-16T12:02:33.987Z",
       "status": "success",
@@ -2375,25 +2422,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-05T01:37:46.973Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 286,
-      "totalCandidates": 86,
-      "written": [
-        {
-          "title": "GTA 6 Rakes in Over $750 Million in Preorders 2 Weeks Ahead of Release Date",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "f8603973-gta-6-rakes-in-over-750-million-in-preorders-2-weeks-ahead-o"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-16T12:02:33.987Z"
+  "lastUpdated": "2026-11-16T16:06:58.013Z"
 }
