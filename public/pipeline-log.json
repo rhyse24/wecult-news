@@ -2,6 +2,24 @@
   "totalArticles": 2643,
   "runs": [
     {
+      "timestamp": "2026-11-16T06:04:51.787Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 159,
+      "totalCandidates": 18,
+      "written": [],
+      "rejected": [
+        {
+          "title": "‘Avengers: Doomsday’ Including the Original X-Men ‘Just Felt Right,’ Says Kevin Feige: It’s a ‘Fun Way to Culminate’ 25 Years",
+          "category": "film",
+          "source": "Variety",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-11-16T02:04:17.253Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2375,47 +2393,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-04T12:08:18.324Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 271,
-      "totalCandidates": 48,
-      "written": [
-        {
-          "title": "An emotional VisionQuest journeys to the center of the synthezoid",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 13,
-          "slug": "b8d627e7-an-emotional-visionquest-journeys-to-the-center-of-the-synth"
-        },
-        {
-          "title": "VisionQuest Finally Introduces the Very First Marvel Hero",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 13,
-          "slug": "9ac07001-visionquest-finally-introduces-the-very-first-marvel-hero"
-        },
-        {
-          "title": "What To Watch Wednesday: Chicago Fire Hits Episode 300, All's Fair And Stick Return, And More",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "dda0a81d-what-to-watch-wednesday-chicago-fire-hits-episode-300-alls-f"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Who Is Dr. Phineas Horton? Marvel's VisionQuest Character Explained",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-16T02:04:17.253Z"
+  "lastUpdated": "2026-11-16T06:04:51.787Z"
 }
