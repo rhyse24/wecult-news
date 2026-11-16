@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2637,
+  "totalArticles": 2640,
   "runs": [
+    {
+      "timestamp": "2026-11-15T22:13:49.916Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 164,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "Ben Affleck picks Robert Pattinson over pal Matt Damon for The Odyssey acting honors",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 17,
+          "slug": "b8a0dc06-ben-affleck-picks-robert-pattinson-over-pal-matt-damon-for-t"
+        },
+        {
+          "title": "Star Trek: Strange New Worlds Star Anson Mount Played The Villain To Lex Luthor's 'Hero' On Smallville",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "eddb2d36-star-trek-strange-new-worlds-star-anson-mount-played-the-vil"
+        },
+        {
+          "title": "The Twilight Zone's First Pilot Was Actually Filmed For Another CBS Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "92a5f1a7-the-twilight-zones-first-pilot-was-actually-filmed-for-anoth"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-15T18:35:42.743Z",
       "status": "success",
@@ -2383,25 +2415,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-04T04:41:03.142Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 276,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Weta FX and TAICCA Partner to Turn Taiwan Into an AI Screen Production Hub for Asia (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "80963075-weta-fx-and-taicca-partner-to-turn-taiwan-into-an-ai-screen-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-15T18:35:42.743Z"
+  "lastUpdated": "2026-11-15T22:13:49.916Z"
 }
