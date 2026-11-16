@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2652,
+  "totalArticles": 2655,
   "runs": [
+    {
+      "timestamp": "2026-11-16T20:23:10.957Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 243,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "‘The Odyssey’ Cinematographer Hoyte van Hoytema Breaks Down Filming Climactic Thunderstorm Scene in Imax",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "e294b6fc-the-odyssey-cinematographer-hoyte-van-hoytema-breaks-down-fi"
+        },
+        {
+          "title": "Every MCU Post-Credits Scene That Sets Up Avengers: Doomsday Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 14,
+          "slug": "0c0141d2-every-mcu-post-credits-scene-that-sets-up-avengers-doomsday-"
+        },
+        {
+          "title": "In Choosing Robert Pattinson, Bond Producers Have Taken the Safe Bet — But Is It the Right One? (Opinion)",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "4b1bc431-in-choosing-robert-pattinson-bond-producers-have-taken-the-s"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-16T16:06:58.013Z",
       "status": "success",
@@ -2393,36 +2425,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-05T05:30:49.266Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 287,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Adam Driver Says ‘The Ship Has Sailed’ on ‘The Hunt for Ben Solo’ and He’s Done Playing Kylo Ren: ‘It’s Over’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "96332032-adam-driver-says-the-ship-has-sailed-on-the-hunt-for-ben-sol"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Pixar Names Jonathan Garson as President; Jim Morris Moves to Emeritus Role",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body ends mid-sentence"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-16T16:06:58.013Z"
+  "lastUpdated": "2026-11-16T20:23:10.957Z"
 }
