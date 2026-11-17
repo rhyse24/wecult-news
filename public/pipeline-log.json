@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2655,
+  "totalArticles": 2658,
   "runs": [
+    {
+      "timestamp": "2026-11-17T00:26:47.663Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 251,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "Delete GTA 6 For A Chance To Win Another Game",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "c5ec57e0-delete-gta-6-for-a-chance-to-win-another-game"
+        },
+        {
+          "title": "The Head Of GTA 6’s Parent Company Helped Make One Of The Best Christmas Movies Of All Time",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 13,
+          "slug": "eea9d1ff-the-head-of-gta-6s-parent-company-helped-make-one-of-the-bes"
+        },
+        {
+          "title": " GTA 6 online rumors: When might the inevitable multiplayer launch happen? ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "db32c4d6-gta-6-online-rumors-when-might-the-inevitable-multiplayer-la"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-16T20:23:10.957Z",
       "status": "success",
@@ -2371,61 +2403,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-05T09:02:13.553Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 287,
-      "totalCandidates": 58,
-      "written": [
-        {
-          "title": "‘Spider-Man: Brand New Day’ Spins Up Massive Numbers for Sony’s Quarterly Earnings",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "5dfb9ccb-spider-man-brand-new-day-spins-up-massive-numbers-for-sonys-"
-        },
-        {
-          "title": "‘The Take’ Netflix Heist-Thriller Starring Denzel Washington, Daisy Edger Jones & Robert Pattinson: What We Know So Far",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 10,
-          "slug": "28732c54-the-take-netflix-heist-thriller-starring-denzel-washington-d"
-        },
-        {
-          "title": "The Greatest review – Amazon’s sturdy Muhammad Ali series is a tale told too many times",
-          "category": "tv",
-          "source": "Guardian TV",
-          "score": 8,
-          "slug": "6f126dd6-the-greatest-review-amazons-sturdy-muhammad-ali-series-is-a-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "VisionQuest Episode 7 Review: Viz Didn’t Start the Fire",
-          "category": "tv",
-          "source": "Den of Geek TV",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "All's Fair Season 2 Premiere: Who Got Hit? Who Came Out? And Who's Trying To Kill Kim Kardashian's Allura?",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "What’s Coming to Netflix in November 2026",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-16T20:23:10.957Z"
+  "lastUpdated": "2026-11-17T00:26:47.663Z"
 }
