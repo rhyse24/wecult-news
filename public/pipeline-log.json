@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2662,
+  "totalArticles": 2665,
   "runs": [
+    {
+      "timestamp": "2026-11-17T13:37:01.133Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 257,
+      "totalCandidates": 55,
+      "written": [
+        {
+          "title": "Disney+ and Hulu App Merger Slated to Be Complete in December",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "c8b03802-disney-and-hulu-app-merger-slated-to-be-complete-in-december"
+        },
+        {
+          "title": " TV Spy — The Hunting Wives, Blade Runner 2099, and all the US dramas you can watch on UK services: 21-27 November ",
+          "category": "tv",
+          "source": "What to Watch",
+          "score": 13,
+          "slug": "36253c16-tv-spy-the-hunting-wives-blade-runner-2099-and-all-the-us-dr"
+        },
+        {
+          "title": "5 TV Shows To Watch If You Like The Body",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "ddbcb063-5-tv-shows-to-watch-if-you-like-the-body"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-17T09:12:40.777Z",
       "status": "success",
@@ -2374,39 +2406,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-05T20:01:18.778Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 277,
-      "totalCandidates": 84,
-      "written": [
-        {
-          "title": "Sensor Tower: GTA 6 pre-orders almost reach 8m, 74% bought on PlayStation 5",
-          "category": "games",
-          "source": "GamesIndustry.biz",
-          "score": 14,
-          "slug": "8a36f8a3-sensor-tower-gta-6-pre-orders-almost-reach-8m-74-bought-on-p"
-        },
-        {
-          "title": "'Pikmin 4 - Switch 2 Edition' Overview Trailer Showcases More Dandori Academy Exams",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 14,
-          "slug": "72630190-pikmin-4---switch-2-edition-overview-trailer-showcases-more-"
-        },
-        {
-          "title": "Rockstar Reveals Even More GTA 6 Screenshots as PS5 Release Draws Closer",
-          "category": "games",
-          "source": "Push Square",
-          "score": 14,
-          "slug": "62c2fcc9-rockstar-reveals-even-more-gta-6-screenshots-as-ps5-release-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-17T09:12:40.777Z"
+  "lastUpdated": "2026-11-17T13:37:01.133Z"
 }
