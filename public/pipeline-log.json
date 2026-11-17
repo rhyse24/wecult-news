@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2658,
+  "totalArticles": 2659,
   "runs": [
+    {
+      "timestamp": "2026-11-17T04:53:15.786Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 252,
+      "totalCandidates": 52,
+      "written": [
+        {
+          "title": "VisionQuest Proved That Wanda Maximoff Is an Anchor of the MCU",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 15,
+          "slug": "f61fcd9a-visionquest-proved-that-wanda-maximoff-is-an-anchor-of-the-m"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-17T00:26:47.663Z",
       "status": "success",
@@ -2363,47 +2381,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-05T12:41:28.193Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 287,
-      "totalCandidates": 37,
-      "written": [
-        {
-          "title": "Godzilla Minus Zero Director Explains Why He Didn’t Want a Monster vs. Monster Movie",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "8b2cea1d-godzilla-minus-zero-director-explains-why-he-didnt-want-a-mo"
-        },
-        {
-          "title": "VisionQuest Creator Wants Marvel’s Original Human Torch to Return for a WWII Story",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "slug": "c0ec2309-visionquest-creator-wants-marvels-original-human-torch-to-re"
-        },
-        {
-          "title": "Book Review: ‘The King Under the Mountain,’ by D.J. Taylor",
-          "category": "books",
-          "source": "NY Times Books",
-          "score": 11,
-          "slug": "869f5c96-book-review-the-king-under-the-mountain-by-dj-taylor"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "A Real Boy — VisionQuest’s “Immolation”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 15,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-17T00:26:47.663Z"
+  "lastUpdated": "2026-11-17T04:53:15.786Z"
 }
