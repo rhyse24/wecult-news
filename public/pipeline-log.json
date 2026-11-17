@@ -1,6 +1,32 @@
 {
-  "totalArticles": 2665,
+  "totalArticles": 2666,
   "runs": [
+    {
+      "timestamp": "2026-11-17T17:58:15.099Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 257,
+      "totalCandidates": 74,
+      "written": [
+        {
+          "title": "Exodus Reveals Female Protagonist and Voice Actor, Shown in New Trailer for Upcoming Mass Effect-Like RPG",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "ab57e7ff-exodus-reveals-female-protagonist-and-voice-actor-shown-in-n"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The New, Non-GTA 6 Games You Should Be Playing Right Now",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 18,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-17T13:37:01.133Z",
       "status": "success",
@@ -2381,32 +2407,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-06T00:01:16.567Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 264,
-      "totalCandidates": 44,
-      "written": [
-        {
-          "title": "Nintendo Switch 2 Sells Over 26 Million Units",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 13,
-          "slug": "06e24649-nintendo-switch-2-sells-over-26-million-units"
-        },
-        {
-          "title": "20th Television Comms SVP Shari Rosenblum to Exit Studio After 26 Years",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "583f7042-20th-television-comms-svp-shari-rosenblum-to-exit-studio-aft"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-17T13:37:01.133Z"
+  "lastUpdated": "2026-11-17T17:58:15.099Z"
 }
