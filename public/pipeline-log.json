@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2666,
+  "totalArticles": 2669,
   "runs": [
+    {
+      "timestamp": "2026-11-17T21:52:24.783Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 28,
+      "written": [
+        {
+          "title": "Avengers: Doomsday Can Give Us the Radical X-Men We Want",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 15,
+          "slug": "4545c573-avengers-doomsday-can-give-us-the-radical-x-men-we-want"
+        },
+        {
+          "title": "Elliot Page and Chris Columbus Board Queer Dark Comedy ‘Callback’ as Executive Producers (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "9d62c82c-elliot-page-and-chris-columbus-board-queer-dark-comedy-callb"
+        },
+        {
+          "title": "Why Denis Villeneuve Cast Robert Pattinson as James Bond: ‘I Need to Believe This Man Is a Killer’",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "cc398fda-why-denis-villeneuve-cast-robert-pattinson-as-james-bond-i-n"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-17T17:58:15.099Z",
       "status": "quota",
@@ -2382,32 +2414,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-06T03:54:52.089Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 268,
-      "totalCandidates": 33,
-      "written": [],
-      "rejected": [
-        {
-          "title": "Priyanka Chopra Jonas, Russell Crowe Sci-Fi Thriller ‘Bluefly’ Adds ‘Beast’ Star Daniel MacPherson (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "‘Lord of the Rings,’ ‘Avatar’ VFX House Weta FX to Invest in Taiwan’s Moonshine Studio Under AI Pact With TAICCA",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-17T17:58:15.099Z"
+  "lastUpdated": "2026-11-17T21:52:24.783Z"
 }
