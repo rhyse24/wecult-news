@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2681,
+  "totalArticles": 2684,
   "runs": [
+    {
+      "timestamp": "2026-11-18T18:19:16.838Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 268,
+      "totalCandidates": 47,
+      "written": [
+        {
+          "title": "‘The Traitors: New Blood’s Alan Cumming Reveals When He Feels Like a ‘James Bond Villain’ ",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 12,
+          "slug": "bb09e996-the-traitors-new-bloods-alan-cumming-reveals-when-he-feels-l"
+        },
+        {
+          "title": "Gabriel Luna on How Arnold Schwarzenegger’s Christmas Party Led Him to ‘The Terminal List’ and ‘Dexter: Resurrection’",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 11,
+          "slug": "255c9dad-gabriel-luna-on-how-arnold-schwarzeneggers-christmas-party-l"
+        },
+        {
+          "title": "Marshals Star Luke Grimes Admits He Struggled With One Major Change From Yellowstone",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "0c77f3bf-marshals-star-luke-grimes-admits-he-struggled-with-one-major"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-18T14:10:46.392Z",
       "status": "success",
@@ -2449,25 +2481,7 @@
       "totalCandidates": 95,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-06T22:01:16.470Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 271,
-      "totalCandidates": 47,
-      "written": [
-        {
-          "title": "12 Best New Movies on Netflix in November 2026",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 18,
-          "slug": "85173133-12-best-new-movies-on-netflix-in-november-2026"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-18T14:10:46.392Z"
+  "lastUpdated": "2026-11-18T18:19:16.838Z"
 }
