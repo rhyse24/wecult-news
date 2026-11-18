@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2678,
+  "totalArticles": 2681,
   "runs": [
+    {
+      "timestamp": "2026-11-18T14:10:46.392Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 255,
+      "totalCandidates": 82,
+      "written": [
+        {
+          "title": "6 things to know about how GTA 6 plays differently from past games",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 18,
+          "slug": "c8177e0e-6-things-to-know-about-how-gta-6-plays-differently-from-past"
+        },
+        {
+          "title": "All Disney Dreamlight Valley The Keepsake Sea recipes",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 15,
+          "slug": "ff4e68f1-all-disney-dreamlight-valley-the-keepsake-sea-recipes"
+        },
+        {
+          "title": "GTA 6 is the highest-rated game of all time",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 15,
+          "slug": "e1d22160-gta-6-is-the-highest-rated-game-of-all-time"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "\"It’s hard not to worry\": Even as GTA 6 launches on console amid glowing reviews, Rockstar devs are already concerned about getting laid off",
+          "category": "games",
+          "source": "Rock Paper Shotgun",
+          "score": 15,
+          "reason": "hallucination_guard"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-18T10:06:38.658Z",
       "status": "success",
@@ -2427,32 +2467,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-06T20:01:20.367Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 34,
-      "written": [
-        {
-          "title": "Box Office: ‘Godzilla Minus Zero’ Stomps to $6.7 Million in Previews",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "343a1160-box-office-godzilla-minus-zero-stomps-to-67-million-in-previ"
-        },
-        {
-          "title": "Adam Driver Explains Why He’s Starring in Marvel’s ‘X-Men’ Reboot After Years of Turning Down MCU Offers: ‘Felt Like the Right Time’",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "526c8fca-adam-driver-explains-why-hes-starring-in-marvels-x-men-reboo"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-18T10:06:38.658Z"
+  "lastUpdated": "2026-11-18T14:10:46.392Z"
 }
