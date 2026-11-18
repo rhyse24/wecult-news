@@ -1,6 +1,77 @@
 {
-  "totalArticles": 2675,
+  "totalArticles": 2678,
   "runs": [
+    {
+      "timestamp": "2026-11-18T10:06:38.658Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 261,
+      "totalCandidates": 26,
+      "written": [
+        {
+          "title": "The Hunger Games: Sunrise on the Reaping Review – Viva La Revolution",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 12,
+          "slug": "83e5fef1-the-hunger-games-sunrise-on-the-reaping-review-viva-la-revol"
+        },
+        {
+          "title": "Matt Damon Reveals Why Christopher Nolan Doesn’t Release Deleted Scenes",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "slug": "653c3554-matt-damon-reveals-why-christopher-nolan-doesnt-release-dele"
+        },
+        {
+          "title": "5 Must-See Cheesy Christmas Movies Coming Out in 2026",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 8,
+          "slug": "e18e8798-5-must-see-cheesy-christmas-movies-coming-out-in-2026"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Former Bond Villain Rami Malek Says Robert Pattinson Will Be an ‘Extraordinary’ 007: ‘I Could Not Be More Proud’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Robert Pattinson Is Officially the Next James Bond",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Hong Kong Golden Horse Nominee ‘We Are Born Good’ Heads to U.K. With Trinity CineAsia (EXCLUSIVE)",
+          "category": "film",
+          "source": "Variety",
+          "score": 9,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        },
+        {
+          "title": "10 Underrated Crime Movies You Probably Haven't Seen Before",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 9,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "Joseph Zada Spent a Month Watching “Everything Woody Harrelson Has Ever Done” to Prepare for ‘Hunger Games’ Role",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-18T06:00:48.323Z",
       "status": "success",
@@ -2381,39 +2452,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-06T18:18:12.707Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 269,
-      "totalCandidates": 42,
-      "written": [
-        {
-          "title": "Second Trailer for ‘The Further Mis-Adventures of Cliff Booth’ Lands After Playing With IMAX Re-Release",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 15,
-          "slug": "a07ac9b5-second-trailer-for-the-further-mis-adventures-of-cliff-booth"
-        },
-        {
-          "title": "Netflix’s Animated ‘Twilight’ Series Gets Major Update: Two Seasons Confirmed",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "68499907-netflixs-animated-twilight-series-gets-major-update-two-seas"
-        },
-        {
-          "title": "Nobody Wants This Renewed For Season 4 At Netflix",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "9b940708-nobody-wants-this-renewed-for-season-4-at-netflix"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-18T06:00:48.323Z"
+  "lastUpdated": "2026-11-18T10:06:38.658Z"
 }
