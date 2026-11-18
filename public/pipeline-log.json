@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2669,
+  "totalArticles": 2672,
   "runs": [
+    {
+      "timestamp": "2026-11-18T01:56:59.369Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Paul Bettany and Ruaridh Mollica Can Finally Talk About Those ‘VisionQuest’ Spoilers",
+          "category": "tv",
+          "source": "THR TV",
+          "score": 16,
+          "slug": "a42fc98f-paul-bettany-and-ruaridh-mollica-can-finally-talk-about-thos"
+        },
+        {
+          "title": "‘The Body’ Creator Quinn Shephard on Quitting Acting and Turning Religious Trauma Into Queer, Catholic Ecstasy",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "6f07c7c4-the-body-creator-quinn-shephard-on-quitting-acting-and-turni"
+        },
+        {
+          "title": "‘The Body’ Debuts With 5.1 Million Views in Five Days",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "ce549f50-the-body-debuts-with-51-million-views-in-five-days"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-17T21:52:24.783Z",
       "status": "success",
@@ -2396,25 +2428,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-06T07:29:20.325Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "Priyanka Chopra Jonas, Russell Crowe Sci-Fi Thriller ‘Bluefly’ Adds ‘Beast’ Star Daniel MacPherson (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "5cc2003c-priyanka-chopra-jonas-russell-crowe-sci-fi-thriller-bluefly-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-17T21:52:24.783Z"
+  "lastUpdated": "2026-11-18T01:56:59.369Z"
 }
