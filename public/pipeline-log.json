@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2672,
+  "totalArticles": 2675,
   "runs": [
+    {
+      "timestamp": "2026-11-18T06:00:48.323Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 264,
+      "totalCandidates": 32,
+      "written": [
+        {
+          "title": "Breaking news: a new James Bond has been chosen!",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 11,
+          "slug": "4af0a500-breaking-news-a-new-james-bond-has-been-chosen"
+        },
+        {
+          "title": "3 Body Problem’s Alien Invasian Arrives in Season 2 Teaser",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "f4c5fde8-3-body-problems-alien-invasian-arrives-in-season-2-teaser"
+        },
+        {
+          "title": "Neuromancer TV Series Will Tell a Story William Gibson Couldn’t Fit Into the Book",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 9,
+          "slug": "01e1cf6c-neuromancer-tv-series-will-tell-a-story-william-gibson-could"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-18T01:56:59.369Z",
       "status": "success",
@@ -2381,54 +2413,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-06T11:07:03.723Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 265,
-      "totalCandidates": 85,
-      "written": [
-        {
-          "title": "All weapons and loot in Fortnite Treasure Hunters",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 11,
-          "slug": "9a5ae604-all-weapons-and-loot-in-fortnite-treasure-hunters"
-        },
-        {
-          "title": "Best way to grind Research Points in Godzilla: Destroy All Monsters Melee Remastered",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 11,
-          "slug": "d3fcf43c-best-way-to-grind-research-points-in-godzilla-destroy-all-mo"
-        },
-        {
-          "title": "All Retro Rewind New Release Unique Games and SKU Codes",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 11,
-          "slug": "93a56bdc-all-retro-rewind-new-release-unique-games-and-sku-codes"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Scalpers Already Want Insane Sums For The Ocarina Remake With Exclusive Bits",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 13,
-          "reason": "gemini_fail"
-        },
-        {
-          "title": "Remakes and new games \"both have a place in the stable\" says Nintendo boss, buoyed by the success of Star Fox and Ocarina of Time",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 12,
-          "reason": "hallucination_guard"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-18T01:56:59.369Z"
+  "lastUpdated": "2026-11-18T06:00:48.323Z"
 }
