@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2687,
+  "totalArticles": 2689,
   "runs": [
+    {
+      "timestamp": "2026-11-19T02:29:54.175Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 262,
+      "totalCandidates": 97,
+      "written": [
+        {
+          "title": "PSN Down Sporadically for Some as GTA 6 Launches Around the World",
+          "category": "games",
+          "source": "Push Square",
+          "score": 14,
+          "slug": "de1fffbc-psn-down-sporadically-for-some-as-gta-6-launches-around-the-"
+        },
+        {
+          "title": "GTA 6 Launch Causes Massive Spike in Traffic for Internet Provider Xfinity",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "312147f2-gta-6-launch-causes-massive-spike-in-traffic-for-internet-pr"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The New, Non-GTA 6 Games You Should Be Playing Right Now",
+          "category": "games",
+          "source": "GameSpot",
+          "score": 14,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "Sunken Echo: The Helmet quest walkthrough in Disney Dreamlight Valley The Keepsake Sea",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-18T22:23:56.826Z",
       "status": "success",
@@ -2474,36 +2514,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-07T03:29:51.771Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 261,
-      "totalCandidates": 89,
-      "written": [
-        {
-          "title": "Outback Steakhouse reveals massive Thor’s hammer steak in yet another Avengers: Doomsday menu",
-          "category": "games",
-          "source": "Dexerto",
-          "score": 15,
-          "slug": "31fcbab0-outback-steakhouse-reveals-massive-thors-hammer-steak-in-yet"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "EA HQ Graced With 'Save Mass Effect' Truck as N7 Day Looms",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 15 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-18T22:23:56.826Z"
+  "lastUpdated": "2026-11-19T02:29:54.175Z"
 }
