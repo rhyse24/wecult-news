@@ -1,6 +1,32 @@
 {
-  "totalArticles": 2689,
+  "totalArticles": 2690,
   "runs": [
+    {
+      "timestamp": "2026-11-19T06:43:18.712Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 260,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "5 Harry Potter Characters Who Deserve Bigger Roles In The HBO TV Series",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "73c3b271-5-harry-potter-characters-who-deserve-bigger-roles-in-the-hb"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Seven Seas Licenses 'I am Blue, in Pain, and Fragile,' Predator Witches Audiobooks",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 11,
+          "reason": "gemini_fail"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-19T02:29:54.175Z",
       "status": "quota",
@@ -2481,40 +2507,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-07T06:55:17.412Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 260,
-      "totalCandidates": 32,
-      "written": [
-        {
-          "title": "James Bond Shocker: Robert Pattinson and Nicholas Hoult Late Contenders for 007 After Auditioning for Denis Villeneuve",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "7c03a5cc-james-bond-shocker-robert-pattinson-and-nicholas-hoult-late-"
-        },
-        {
-          "title": "Discover an Underappreciated Jazz Legend in Exclusive Trailer for …And Damn He Could Play",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 10,
-          "slug": "aac16e98-discover-an-underappreciated-jazz-legend-in-exclusive-traile"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Godzilla Minus Zero: Exploring the Ending and the Nuclear Destruction of Ideals",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-19T02:29:54.175Z"
+  "lastUpdated": "2026-11-19T06:43:18.712Z"
 }
