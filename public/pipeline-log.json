@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2693,
+  "totalArticles": 2696,
   "runs": [
+    {
+      "timestamp": "2026-11-19T15:04:05.997Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 257,
+      "totalCandidates": 45,
+      "written": [
+        {
+          "title": "Anthony Boyle on Becoming Sam Bankman-Fried for ‘The Altruists’ and Finding the Grey in History’s Villains: ‘I’ve Played More Real People Than Not’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 17,
+          "slug": "61a6a088-anthony-boyle-on-becoming-sam-bankman-fried-for-the-altruist"
+        },
+        {
+          "title": "‘Squid Game’ Creator Hwang Dong-hyuk Teases Possible Return to Franchise: ‘When I Have a Great Idea, I’ll Make Another One’",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "b444398c-squid-game-creator-hwang-dong-hyuk-teases-possible-return-to"
+        },
+        {
+          "title": "Rakuen Tsuihō -Expelled from Paradise- Kokoro no Resonance Film Opens at #5 in Japan",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 11,
+          "slug": "78cef9c1-rakuen-tsuih--expelled-from-paradise--kokoro-no-resonance-fi"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-19T10:54:36.942Z",
       "status": "success",
@@ -2475,39 +2507,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-07T14:14:46.377Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 249,
-      "totalCandidates": 19,
-      "written": [
-        {
-          "title": "New Godzilla Minus Zero Trailer Shows [REDACTED]",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 16,
-          "slug": "df8531df-new-godzilla-minus-zero-trailer-shows-redacted"
-        },
-        {
-          "title": "Lit Hub Weekly: November 2 – 6, 2026",
-          "category": "books",
-          "source": "Literary Hub",
-          "score": 10,
-          "slug": "4d8479af-lit-hub-weekly-november-2-6-2026"
-        },
-        {
-          "title": "Twelve crime movies where justice actually prevails",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 8,
-          "slug": "9010af2e-twelve-crime-movies-where-justice-actually-prevails"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-19T10:54:36.942Z"
+  "lastUpdated": "2026-11-19T15:04:05.997Z"
 }
