@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2696,
+  "totalArticles": 2699,
   "runs": [
+    {
+      "timestamp": "2026-11-19T19:10:35.574Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 277,
+      "totalCandidates": 105,
+      "written": [
+        {
+          "title": "Call of Duty: Modern Warfare 4 debuts as top-selling game in US for October 2026",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 17,
+          "slug": "f5aaaf43-call-of-duty-modern-warfare-4-debuts-as-top-selling-game-in-"
+        },
+        {
+          "title": "Assassin's Creed Maker Ubisoft Confirms Further Layoffs, With 166 Jobs Lost From 2 Major Studios",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 17,
+          "slug": "4c08ad08-assassins-creed-maker-ubisoft-confirms-further-layoffs-with-"
+        },
+        {
+          "title": " Peter Moore, who famously announced GTA 4 with a tattoo, posts fake GTA 6 tattoo pic and says he hopes it will give the industry 'a shot in the arm' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 15,
+          "slug": "4bd1036b-peter-moore-who-famously-announced-gta-4-with-a-tattoo-posts"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-19T15:04:05.997Z",
       "status": "success",
@@ -2443,71 +2475,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-07T18:00:25.640Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 237,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "Star Wars: Ben Solo Never Needed To Come Back Anyway",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 9,
-          "slug": "01bde903-star-wars-ben-solo-never-needed-to-come-back-anyway"
-        },
-        {
-          "title": "5 Most Disappointing Streaming Movies Of 2026",
-          "category": "film",
-          "source": "Looper",
-          "score": 9,
-          "slug": "3864510d-5-most-disappointing-streaming-movies-of-2026"
-        },
-        {
-          "title": "Oscar Predictions: Production Design — Could Something as Innovative and Cool as ‘Backrooms’ Find Love?",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "ca128048-oscar-predictions-production-design-could-something-as-innov"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Godzilla Minus Zero’ Director Takashi Yamazaki Dreamed of Seeing His Hometown Destroyed by King Ghidorah. He Finally Made It Happen.",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Godzilla Minus Zero: Exploring the Ending and the Nuclear Destruction of Ideals",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "James Bond Surprise: Robert Pattinson Screen Tested to Play 007",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 10,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "“Call of Duty: Modern Warfare 4” is the Best in the Series in Years",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 8,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-19T15:04:05.997Z"
+  "lastUpdated": "2026-11-19T19:10:35.574Z"
 }
