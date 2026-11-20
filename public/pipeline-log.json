@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2707,
+  "totalArticles": 2710,
   "runs": [
+    {
+      "timestamp": "2026-11-20T15:07:57.285Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 267,
+      "totalCandidates": 39,
+      "written": [
+        {
+          "title": "3 Best Movies on Netflix This Weekend (Nov 21-22)",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 16,
+          "slug": "16a97e54-3-best-movies-on-netflix-this-weekend-nov-21-22"
+        },
+        {
+          "title": "Travis Scott Officially Reveals Christopher Nolan’s Unexpected Role in Writing ’The Odyssey’s Final Song",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 14,
+          "slug": "87f126ca-travis-scott-officially-reveals-christopher-nolans-unexpecte"
+        },
+        {
+          "title": "Prince Harry Gives New James Bond Robert Pattinson the Royal Seal of Approval: ‘I Want to Make Sure That It’s in Good Hands’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "4b15adcb-prince-harry-gives-new-james-bond-robert-pattinson-the-royal"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-20T11:09:48.425Z",
       "status": "success",
@@ -2441,39 +2473,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-08T11:39:24.976Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 204,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "‘The Remarried Empress’ Sets Disney+ and Hulu Record With Biggest Local Original Launch Ever",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 14,
-          "slug": "3f4bed57-the-remarried-empress-sets-disney-and-hulu-record-with-bigge"
-        },
-        {
-          "title": "‘Insidious: Out of the Further’ Lands Netflix Streaming Debut Much Earlier Than Expected",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "8e6a3c04-insidious-out-of-the-further-lands-netflix-streaming-debut-m"
-        },
-        {
-          "title": "‘SNL’ Weekend Update Brutally Roasts Elon Musk Over ‘Epic’ Midterms Defeat",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "slug": "d003e33b-snl-weekend-update-brutally-roasts-elon-musk-over-epic-midte"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-20T11:09:48.425Z"
+  "lastUpdated": "2026-11-20T15:07:57.285Z"
 }
