@@ -1,6 +1,53 @@
 {
-  "totalArticles": 2710,
+  "totalArticles": 2713,
   "runs": [
+    {
+      "timestamp": "2026-11-20T18:42:49.636Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 96,
+      "written": [
+        {
+          "title": "‘GTA 6’ Officially Defeats Christopher Nolan’s ‘The Odyssey’ in Just 1 Day",
+          "category": "games",
+          "source": "Collider Games",
+          "score": 17,
+          "slug": "e7a2ed0c-gta-6-officially-defeats-christopher-nolans-the-odyssey-in-j"
+        },
+        {
+          "title": "New Official Fallout-Inspired Game Announced, And It's Unlike Anything We'd Ever Expected",
+          "category": "games",
+          "source": "Pure Xbox",
+          "score": 15,
+          "slug": "bc3f7b67-new-official-fallout-inspired-game-announced-and-its-unlike-"
+        },
+        {
+          "title": "GTA 6: 10 Things You MUST Do First",
+          "category": "games",
+          "source": "WhatCulture Games",
+          "score": 15,
+          "slug": "9ff4932f-gta-6-10-things-you-must-do-first"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "GTA 6 Doesn't Officially Have First-Person, but You Can Force It to — Here's How to Do It",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "hallucination_guard"
+        },
+        {
+          "title": "You Can Find the 'Bikini Girl' From the GTA 6 Trailer In-Game, With a Nod to All the Fan Theories",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-20T15:07:57.285Z",
       "status": "success",
@@ -2423,57 +2470,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-08T15:25:18.714Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 196,
-      "totalCandidates": 21,
-      "written": [
-        {
-          "title": "Bill Skarsgard Says He’s “Spent” Playing Bad Guys but Would Still Play a James Bond Villain",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 8,
-          "slug": "75cad3dc-bill-skarsgard-says-hes-spent-playing-bad-guys-but-would-sti"
-        },
-        {
-          "title": "‘The Undertaker’ Director Thiti Srinuan Reveals He Defecated on Camera for Real as an Actor in Thailand’s Taibaan Universe",
-          "category": "film",
-          "source": "Variety",
-          "score": 7,
-          "slug": "583eb54f-the-undertaker-director-thiti-srinuan-reveals-he-defecated-o"
-        },
-        {
-          "title": "Camerimage Opens With a Robot, an AI Reckoning and a Minute of Silence for Kraków",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 6,
-          "slug": "54c4d4f4-camerimage-opens-with-a-robot-an-ai-reckoning-and-a-minute-o"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Godzilla Minus Zero: Exploring the Ending and the Nuclear Destruction of Ideals",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "To Make a Doc About a Nomadic Cyclist, the ‘Perfect Road’ Filmmakers Spent 3 Months in a Campervan",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 6,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-20T15:07:57.285Z"
+  "lastUpdated": "2026-11-20T18:42:49.636Z"
 }
