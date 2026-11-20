@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2702,
+  "totalArticles": 2704,
   "runs": [
+    {
+      "timestamp": "2026-11-20T07:13:53.696Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 275,
+      "totalCandidates": 49,
+      "written": [
+        {
+          "title": "Christopher Nolan says you'll never see a director's cut of The Odyssey",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 15,
+          "slug": "987ba790-christopher-nolan-says-youll-never-see-a-directors-cut-of-th"
+        },
+        {
+          "title": "5 Years Ago Today: Prime Video Launched An Ambitious Fantasy Series Based On A Beloved Book Saga",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "00ef2367-5-years-ago-today-prime-video-launched-an-ambitious-fantasy-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-20T03:11:59.341Z",
       "status": "success",
@@ -2441,25 +2466,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-08T04:10:40.941Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 226,
-      "totalCandidates": 28,
-      "written": [
-        {
-          "title": "‘Godzilla Minus Zero’ Barrels Toward Historic $32M Box Office Launch With ‘Cat in the Hat’ at No. 2",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 14,
-          "slug": "68dda0ce-godzilla-minus-zero-barrels-toward-historic-32m-box-office-l"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-20T03:11:59.341Z"
+  "lastUpdated": "2026-11-20T07:13:53.696Z"
 }
