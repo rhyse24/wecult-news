@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2704,
+  "totalArticles": 2707,
   "runs": [
+    {
+      "timestamp": "2026-11-20T11:09:48.425Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 276,
+      "totalCandidates": 33,
+      "written": [
+        {
+          "title": "GTA 6‘s Bigfoot Mystery Has Roots in a Real Florida Legend",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 12,
+          "slug": "db43aa46-gta-6s-bigfoot-mystery-has-roots-in-a-real-florida-legend"
+        },
+        {
+          "title": "New Friday the 13th Movie Reveals a Cast of Mostly Unknown Actors",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 11,
+          "slug": "48d2f79a-new-friday-the-13th-movie-reveals-a-cast-of-mostly-unknown-a"
+        },
+        {
+          "title": "Hunger Games Director Says Reuniting Original Stars Helped Give Sunrise on the Reaping a Hopeful Ending",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "22517a6a-hunger-games-director-says-reuniting-original-stars-helped-g"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-20T07:13:53.696Z",
       "status": "quota",
@@ -2441,32 +2473,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-08T07:51:31.283Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 224,
-      "totalCandidates": 75,
-      "written": [
-        {
-          "title": " A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction' ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "73cf3891-a-bioware-documentary-was-already-in-the-works-when-the-shut"
-        },
-        {
-          "title": "8 Underrated Video Games That Are Bangers From Start to Finish",
-          "category": "games",
-          "source": "Collider Games",
-          "score": 12,
-          "slug": "665f2062-8-underrated-video-games-that-are-bangers-from-start-to-fini"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-20T07:13:53.696Z"
+  "lastUpdated": "2026-11-20T11:09:48.425Z"
 }
