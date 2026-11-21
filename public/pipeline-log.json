@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2726,
+  "totalArticles": 2729,
   "runs": [
+    {
+      "timestamp": "2026-11-21T18:47:29.233Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 250,
+      "totalCandidates": 50,
+      "written": [
+        {
+          "title": "Actor Awards Predictions: Andrew Garfield, Inde Navarrette and ‘The Odyssey’ Lead an Unsettled Film Race as ‘Widow’s Bay’ and HBO Max Could Rule TV",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "38af993e-actor-awards-predictions-andrew-garfield-inde-navarrette-and"
+        },
+        {
+          "title": "How VisionQuest Left Room For a Fascinating MCU Prequel Spinoff",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 14,
+          "slug": "d6d5bbf3-how-visionquest-left-room-for-a-fascinating-mcu-prequel-spin"
+        },
+        {
+          "title": "15 TV Shows Like MobLand",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "f65f0ab9-15-tv-shows-like-mobland"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-21T14:54:21.719Z",
       "status": "success",
@@ -2427,39 +2459,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-09T15:43:21.418Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 225,
-      "totalCandidates": 25,
-      "written": [
-        {
-          "title": "Disney+ and ‘The House of Flowers’ Director Manolo Caro Prep Series Adaptation of ‘Blood Wedding’ by Federico García Lorca (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 16,
-          "slug": "b84d80e2-disney-and-the-house-of-flowers-director-manolo-caro-prep-se"
-        },
-        {
-          "title": "Radio on the TV: The Best Films and Series About Life on the Airwaves",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 12,
-          "slug": "17b32a85-radio-on-the-tv-the-best-films-and-series-about-life-on-the-"
-        },
-        {
-          "title": "Watch Disney’s Holiday Short ‘The Invisible Horse’ From ‘Paddington in Peru’ Director Dougal Wilson",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 11,
-          "slug": "49b43cc0-watch-disneys-holiday-short-the-invisible-horse-from-padding"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-21T14:54:21.719Z"
+  "lastUpdated": "2026-11-21T18:47:29.233Z"
 }
