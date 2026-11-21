@@ -1,6 +1,53 @@
 {
-  "totalArticles": 2716,
+  "totalArticles": 2719,
   "runs": [
+    {
+      "timestamp": "2026-11-21T02:35:42.106Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 268,
+      "totalCandidates": 24,
+      "written": [
+        {
+          "title": "‘The Mummy’: Top Artifact Props From 1999 Film Heading to Auction Ahead of Franchise Revival (Exclusive)",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 13,
+          "slug": "ee95c7aa-the-mummy-top-artifact-props-from-1999-film-heading-to-aucti"
+        },
+        {
+          "title": "Bassam Tariq Says Marvel’s Scrapped ‘Blade’ Reboot Taught Him “Life’s Too Short to Make Sh** Films”",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "slug": "56e15953-bassam-tariq-says-marvels-scrapped-blade-reboot-taught-him-l"
+        },
+        {
+          "title": "‘Home Alone’ Sequel in Development at Disney With Macaulay Culkin, Seth Rogen and Evan Goldberg",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 9,
+          "slug": "a815aaa4-home-alone-sequel-in-development-at-disney-with-macaulay-cul"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "“The Secrecy Was Insane:” The Making of ‘The Hunger Games: Sunrise on the Reaping,’ From Locked Safes to Original Cast’s Return",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The Only Recap You Need Before Avengers: Doomsday",
+          "category": "film",
+          "source": "Looper",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-20T22:42:03.187Z",
       "status": "success",
@@ -2427,32 +2474,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-08T23:31:35.320Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 173,
-      "totalCandidates": 63,
-      "written": [
-        {
-          "title": "Resident Evil Requiem Feedback Resulted In Veronica And DLC Delay",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "slug": "b1a14b94-resident-evil-requiem-feedback-resulted-in-veronica-and-dlc-"
-        },
-        {
-          "title": "The Legend of Zelda: Ocarina of Time Speedrunners Have Already Found New Ways to Break the Remake",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "1782ea28-the-legend-of-zelda-ocarina-of-time-speedrunners-have-alread"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-20T22:42:03.187Z"
+  "lastUpdated": "2026-11-21T02:35:42.106Z"
 }
