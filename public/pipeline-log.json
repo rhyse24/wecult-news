@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2713,
+  "totalArticles": 2716,
   "runs": [
+    {
+      "timestamp": "2026-11-20T22:42:03.187Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 273,
+      "totalCandidates": 56,
+      "written": [
+        {
+          "title": "Late Comedian Sam Kinison — with His AI Avatar — Gears Up for Second Act with Buchwald (EXCLUSIVE)",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "8349d480-late-comedian-sam-kinison-with-his-ai-avatar-gears-up-for-se"
+        },
+        {
+          "title": "This Dark Comedy Series From The Writers Of Deadpool Is Perfect For A Weekend Binge",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "8f0bbe83-this-dark-comedy-series-from-the-writers-of-deadpool-is-perf"
+        },
+        {
+          "title": "Rod Serling's Other Twilight Zone-Style Show Traded Sci-Fi Tales For Supernatural Horror",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "fe554a16-rod-serlings-other-twilight-zone-style-show-traded-sci-fi-ta"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-20T18:42:49.636Z",
       "status": "success",
@@ -2420,57 +2452,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-08T19:25:39.637Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 181,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Why The Smallville Finale Didn't Show Tom Welling In The Full Superman Suit",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "2e1dca8d-why-the-smallville-finale-didnt-show-tom-welling-in-the-full"
-        },
-        {
-          "title": "Sunrise On The Reaping director thinks Plutarch Heavensbee could lead his own Hunger Games",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 9,
-          "slug": "c4b42c85-sunrise-on-the-reaping-director-thinks-plutarch-heavensbee-c"
-        },
-        {
-          "title": "Why Dolly Weaver From Marshals Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 7,
-          "slug": "b0f4c2fe-why-dolly-weaver-from-marshals-looks-so-familiar"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "‘Welcome to El Bulli’: Ferran Adrià Chef Drama Sets Netflix Release Date",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 9,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        },
-        {
-          "title": "Elon Musk Is Portrayed on ‘SNL’: “The Worst Thing South Africa Has Ever Done”",
-          "category": "tv",
-          "source": "THR TV",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-20T18:42:49.636Z"
+  "lastUpdated": "2026-11-20T22:42:03.187Z"
 }
