@@ -1,6 +1,49 @@
 {
-  "totalArticles": 2720,
+  "totalArticles": 2723,
   "runs": [
+    {
+      "timestamp": "2026-11-21T10:38:15.352Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 268,
+      "totalCandidates": 53,
+      "written": [
+        {
+          "title": "Bill Maher Mocks ‘Grand Theft Auto 6’-Playing Young Men With Awful ICE Joke",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "679cb875-bill-maher-mocks-grand-theft-auto-6-playing-young-men-with-a"
+        },
+        {
+          "title": "E.J. Carroll, ‘Law & Order,’ ‘GTA 5’ and ‘Blue Bloods’ Actor, Dies at 66",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "b5b10d17-ej-carroll-law-order-gta-5-and-blue-bloods-actor-dies-at-66"
+        },
+        {
+          "title": "Chris Columbus dropped an iron on Home Alone reboot minutes before learning of its existence",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 10,
+          "slug": "2026965f-chris-columbus-dropped-an-iron-on-home-alone-reboot-minutes-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Percy Jackson EPs Break Down Percy And Annabeth's First Dance, Explain How Season 3 Honors The Duo's 'Connection'",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 13 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-21T06:31:33.684Z",
       "status": "quota",
@@ -2416,40 +2459,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-09T07:40:27.795Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 178,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "Godzilla Minus Zero Earns Record $32 Million in N. American Opening Weekend",
-          "category": "tv",
-          "source": "Anime News Network",
-          "score": 14,
-          "slug": "5319cc99-godzilla-minus-zero-earns-record-32-million-in-n-american-op"
-        },
-        {
-          "title": "15 Best TV Shows Ending In 2027",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 10,
-          "slug": "b6e2aded-15-best-tv-shows-ending-in-2027"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "John Oliver Dunks on Midterms Losers Elon Musk and Haley Stevens",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-21T06:31:33.684Z"
+  "lastUpdated": "2026-11-21T10:38:15.352Z"
 }
