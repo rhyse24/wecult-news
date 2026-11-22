@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2744,
+  "totalArticles": 2747,
   "runs": [
+    {
+      "timestamp": "2026-11-22T21:08:46.838Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 163,
+      "totalCandidates": 84,
+      "written": [
+        {
+          "title": "Rockstar Says Jason's Viral Personality in GTA 6 Comes From Steve McQueen and Real-Life Veterans",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "f7b2e3d1-rockstar-says-jasons-viral-personality-in-gta-6-comes-from-s"
+        },
+        {
+          "title": "Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Shooter That Will Take You Hours To Beat",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "09c76368-forget-the-lighthouse-gta-6s-best-minigame-is-a-full-blown-z"
+        },
+        {
+          "title": " Unreal Engine 6 to jettison key scripting feature earlier than planned in favor of AI coding ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "313ad808-unreal-engine-6-to-jettison-key-scripting-feature-earlier-th"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-22T16:49:49.859Z",
       "status": "success",
@@ -2430,39 +2462,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-10T16:52:21.301Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 255,
-      "totalCandidates": 24,
-      "written": [
-        {
-          "title": "Ebenezer: Ti West on Johnny Depp, the Freddy Krueger Homage and a ‘Gray’ Scrooge You Can Agree With",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 17,
-          "slug": "e9b44c82-ebenezer-ti-west-on-johnny-depp-the-freddy-krueger-homage-an"
-        },
-        {
-          "title": "Lee Chang-dong on Possible Love, Filmmaking Ethics, and Characters as Mirrors",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 10,
-          "slug": "db491179-lee-chang-dong-on-possible-love-filmmaking-ethics-and-charac"
-        },
-        {
-          "title": "BMG’s Concord Originals Preps Supernatural Gothic Horror Pic ‘Wolf at the Door’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "d06a7f20-bmgs-concord-originals-preps-supernatural-gothic-horror-pic-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-22T16:49:49.859Z"
+  "lastUpdated": "2026-11-22T21:08:46.838Z"
 }
