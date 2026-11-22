@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2735,
+  "totalArticles": 2738,
   "runs": [
+    {
+      "timestamp": "2026-11-22T07:47:33.776Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 239,
+      "totalCandidates": 44,
+      "written": [
+        {
+          "title": "Kieran Culkin Says a ‘Succession’ Spinoff ‘Would Be a Terrible Idea’: ‘What Are You Hoping For? “Cousin Greg: The Sitcom?”‘",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 10,
+          "slug": "a3109893-kieran-culkin-says-a-succession-spinoff-would-be-a-terrible-"
+        },
+        {
+          "title": "10 Reasons To Greenlight Star Trek: Stargazer NOW",
+          "category": "tv",
+          "source": "WhatCulture TV",
+          "score": 10,
+          "slug": "222c5687-10-reasons-to-greenlight-star-trek-stargazer-now"
+        },
+        {
+          "title": "You Can See Everything makes enough money to sneak past the Golden Globes' anti-doc rules",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 9,
+          "slug": "a8409e4f-you-can-see-everything-makes-enough-money-to-sneak-past-the-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-22T03:23:32.289Z",
       "status": "success",
@@ -2430,39 +2462,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-10T04:53:36.180Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 251,
-      "totalCandidates": 26,
-      "written": [
-        {
-          "title": "‘Ramayana’ Makes History as First Indian Film to Top U.K., Ireland Box Office as ‘Godzilla Minus Zero’ Debuts in Third",
-          "category": "film",
-          "source": "Variety",
-          "score": 17,
-          "slug": "2f14ae7b-ramayana-makes-history-as-first-indian-film-to-top-uk-irelan"
-        },
-        {
-          "title": "Merritt Wever Regrets Not Taking Her Most Intense 'Primetime' Scene Even Further",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 11,
-          "slug": "f0e9f8b1-merritt-wever-regrets-not-taking-her-most-intense-primetime-"
-        },
-        {
-          "title": "DC in Flux: What Happens to James Gunn’s Batman, Superman and Other Heroes After Shocking Exit?",
-          "category": "film",
-          "source": "Variety",
-          "score": 10,
-          "slug": "77b72e6a-dc-in-flux-what-happens-to-james-gunns-batman-superman-and-o"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-22T03:23:32.289Z"
+  "lastUpdated": "2026-11-22T07:47:33.776Z"
 }
