@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2738,
+  "totalArticles": 2741,
   "runs": [
+    {
+      "timestamp": "2026-11-22T12:18:23.276Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 211,
+      "totalCandidates": 9,
+      "written": [
+        {
+          "title": "The Hunger Games: Sunrise on the Reaping Cares a Little Too Much About Heroes",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 16,
+          "slug": "b8909260-the-hunger-games-sunrise-on-the-reaping-cares-a-little-too-m"
+        },
+        {
+          "title": "Book Review: ‘Aristocracy, American Style,’ by Nancy Isenberg",
+          "category": "books",
+          "source": "NY Times Books",
+          "score": 7,
+          "slug": "7a1f3977-book-review-aristocracy-american-style-by-nancy-isenberg"
+        },
+        {
+          "title": "Light in the dark: 20 long books for short winter days",
+          "category": "books",
+          "source": "The Guardian Books",
+          "score": 7,
+          "slug": "ebf79012-light-in-the-dark-20-long-books-for-short-winter-days"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-22T07:47:33.776Z",
       "status": "success",
@@ -2430,39 +2462,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-10T08:48:07.280Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 249,
-      "totalCandidates": 85,
-      "written": [
-        {
-          "title": "Rayman Legends Retold Reveals Rabbids Outfit Exclusive To Switch 2",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 14,
-          "slug": "24121356-rayman-legends-retold-reveals-rabbids-outfit-exclusive-to-sw"
-        },
-        {
-          "title": "Capcom Just Sold 5 Million Copies of Resident Evil Games in 3 Months",
-          "category": "games",
-          "source": "Push Square",
-          "score": 13,
-          "slug": "bbabf7de-capcom-just-sold-5-million-copies-of-resident-evil-games-in-"
-        },
-        {
-          "title": "GTA 6 Pre-Sales “Running Far in Excess of Our Expectations,” Says Take-Two CEO",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 12,
-          "slug": "e8678d3f-gta-6-pre-sales-running-far-in-excess-of-our-expectations-sa"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-22T07:47:33.776Z"
+  "lastUpdated": "2026-11-22T12:18:23.276Z"
 }
