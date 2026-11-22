@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2741,
+  "totalArticles": 2744,
   "runs": [
+    {
+      "timestamp": "2026-11-22T16:49:49.859Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 186,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "Box Office: ‘Sunrise on the Reaping’ Reignites ‘Hunger Games’ Franchise With $120 Million Debut",
+          "category": "film",
+          "source": "Variety",
+          "score": 14,
+          "slug": "29313936-box-office-sunrise-on-the-reaping-reignites-hunger-games-fra"
+        },
+        {
+          "title": "9 Essential Movies to Watch Before 'The Further Mis-Adventures of Cliff Booth'",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 13,
+          "slug": "b37482ed-9-essential-movies-to-watch-before-the-further-mis-adventure"
+        },
+        {
+          "title": "5 Dystopian Shows Better Than The Hunger Games",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "c8284bbb-5-dystopian-shows-better-than-the-hunger-games"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-22T12:18:23.276Z",
       "status": "success",
@@ -2430,39 +2462,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-10T12:49:08.759Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 246,
-      "totalCandidates": 54,
-      "written": [
-        {
-          "title": "2026 video game release dates: PS5, PS4, Xbox, PC and Switch",
-          "category": "tv",
-          "source": "Radio Times",
-          "score": 15,
-          "slug": "f010ff61-2026-video-game-release-dates-ps5-ps4-xbox-pc-and-switch"
-        },
-        {
-          "title": "Filming Underway on Joshua Zetumer’s Netflix Thriller Series ‘Pagans’ & Cast Confirmed",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "61dd5f69-filming-underway-on-joshua-zetumers-netflix-thriller-series-"
-        },
-        {
-          "title": " TV Spy — Yellowjackets, The Altruists, and all the US dramas you can watch on UK services: 14-20 November ",
-          "category": "tv",
-          "source": "What to Watch",
-          "score": 13,
-          "slug": "306f521e-tv-spy-yellowjackets-the-altruists-and-all-the-us-dramas-you"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-22T12:18:23.276Z"
+  "lastUpdated": "2026-11-22T16:49:49.859Z"
 }
