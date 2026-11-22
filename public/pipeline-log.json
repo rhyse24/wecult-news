@@ -1,6 +1,53 @@
 {
-  "totalArticles": 2732,
+  "totalArticles": 2735,
   "runs": [
+    {
+      "timestamp": "2026-11-22T03:23:32.289Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 242,
+      "totalCandidates": 20,
+      "written": [
+        {
+          "title": "10 Artists Who Should Perform The Next James Bond Theme",
+          "category": "film",
+          "source": "Collider Film",
+          "score": 11,
+          "slug": "2daa7851-10-artists-who-should-perform-the-next-james-bond-theme"
+        },
+        {
+          "title": "Luca Guadagnino Says His ‘American Psycho’ Movie Not Moving Forward",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 8,
+          "slug": "700d6bf9-luca-guadagnino-says-his-american-psycho-movie-not-moving-fo"
+        },
+        {
+          "title": "New to Streaming: The Odyssey, Gentle Monster, When a Witness Recants, Tony & More",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 8,
+          "slug": "11ce8f97-new-to-streaming-the-odyssey-gentle-monster-when-a-witness-r"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Hunger Games: Sunrise on the Reaping’ Feasting With $120M+ in Franchise’s Box Office Comeback",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 11,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "The Hunger Games: Sunrise On The Reaping Ending Explained",
+          "category": "film",
+          "source": "Looper",
+          "score": 10,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-21T22:59:55.081Z",
       "status": "success",
@@ -2415,36 +2462,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-10T01:28:32.964Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 252,
-      "totalCandidates": 51,
-      "written": [
-        {
-          "title": "Skydance Plans Launch of Bundled Paramount+, HBO Max in Early 2027",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "slug": "b3d5346e-skydance-plans-launch-of-bundled-paramount-hbo-max-in-early-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Olivia Cooke Says ‘House of the Dragon’ Fandom Led Her to Step Away From Social Media: ‘There’s a Lot of Ugliness,’ ‘Misogyny’ and ‘Racism’",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 14,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-21T22:59:55.081Z"
+  "lastUpdated": "2026-11-22T03:23:32.289Z"
 }
