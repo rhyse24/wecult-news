@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2729,
+  "totalArticles": 2732,
   "runs": [
+    {
+      "timestamp": "2026-11-21T22:59:55.081Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 245,
+      "totalCandidates": 97,
+      "written": [
+        {
+          "title": "7 Things You Should Do First in Grand Theft Auto 6",
+          "category": "games",
+          "source": "Den of Geek Games",
+          "score": 14,
+          "slug": "3d68b871-7-things-you-should-do-first-in-grand-theft-auto-6"
+        },
+        {
+          "title": "Neuralink Participant Showcases What It's Like to Play GTA 6 With His Mind",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "263f55e3-neuralink-participant-showcases-what-its-like-to-play-gta-6-"
+        },
+        {
+          "title": " Comcast: 'At peak, GTA 6 accounted for nearly a quarter of all internet traffic' ",
+          "category": "games",
+          "source": "PC Gamer",
+          "score": 13,
+          "slug": "7641aed6-comcast-at-peak-gta-6-accounted-for-nearly-a-quarter-of-all-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-21T18:47:29.233Z",
       "status": "success",
@@ -2412,54 +2444,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-09T21:40:06.387Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 253,
-      "totalCandidates": 78,
-      "written": [
-        {
-          "title": "Epic Games Claims Ownership Over Jazz Jackrabbit in Fortnite Legal Tussle With Gears of War Creator",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "a9163c76-epic-games-claims-ownership-over-jazz-jackrabbit-in-fortnite"
-        },
-        {
-          "title": "Batman Video Game Fans Are Feeling the Pain Too After Today's James Gunn News",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "22b8dd5a-batman-video-game-fans-are-feeling-the-pain-too-after-todays"
-        },
-        {
-          "title": "GTA 5’s Trevor Should Be In GTA 6 Sitting On The Toilet To “Pass The Torch,” Actor Says",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "630defe7-gta-5s-trevor-should-be-in-gta-6-sitting-on-the-toilet-to-pa"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Capcom Just Sold 5 Million Copies of Resident Evil Games in 3 Months",
-          "category": "games",
-          "source": "Push Square",
-          "score": 16,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Legend of Zelda: Ocarina of Time Remake Dataminers Uncover Potential Majora's Mask, Master Quest DLC Hints",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-21T18:47:29.233Z"
+  "lastUpdated": "2026-11-21T22:59:55.081Z"
 }
