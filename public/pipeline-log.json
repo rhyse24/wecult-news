@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2756,
+  "totalArticles": 2759,
   "runs": [
+    {
+      "timestamp": "2026-11-23T17:43:07.849Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 232,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "‘God of War’ Live-Action Series: Deborah Ann Woll to Reprise Faye Role From Video Games",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "a836903e-god-of-war-live-action-series-deborah-ann-woll-to-reprise-fa"
+        },
+        {
+          "title": "Harry Potter HBO TV Series Posters Spotlight Dumbledore, McGonagall, Snape And Hagrid",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "c30b0ad0-harry-potter-hbo-tv-series-posters-spotlight-dumbledore-mcgo"
+        },
+        {
+          "title": "‘The Grand Tour’ Renewed for Season 2 With Hosts Francis Bourgeois, Thomas Holland and James Engelsman",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 9,
+          "slug": "7eada6a3-the-grand-tour-renewed-for-season-2-with-hosts-francis-bourg"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-23T13:21:21.404Z",
       "status": "success",
@@ -2422,39 +2454,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-11T13:26:56.072Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 35,
-      "written": [
-        {
-          "title": "Godzilla Minus Zero Team Names the Classic Monsters They Want to Bring Back Next",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 14,
-          "slug": "4f8c5c97-godzilla-minus-zero-team-names-the-classic-monsters-they-wan"
-        },
-        {
-          "title": "The Fox Trailer: Olivia Colman Is a Talking Fox With a Magical Hole That Changes Women",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 11,
-          "slug": "8bf1f239-the-fox-trailer-olivia-colman-is-a-talking-fox-with-a-magica"
-        },
-        {
-          "title": "Blade Runner 2099 Trailer Sees Humans Trying to Fell the Replicant Regime",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 11,
-          "slug": "d4f73d56-blade-runner-2099-trailer-sees-humans-trying-to-fell-the-rep"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-23T13:21:21.404Z"
+  "lastUpdated": "2026-11-23T17:43:07.849Z"
 }
