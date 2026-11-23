@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2747,
+  "totalArticles": 2750,
   "runs": [
+    {
+      "timestamp": "2026-11-23T05:00:15.986Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 154,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "11 Best-Rated TV Episodes in the Marvel Cinematic Universe",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 13,
+          "slug": "3512befc-11-best-rated-tv-episodes-in-the-marvel-cinematic-universe"
+        },
+        {
+          "title": "Marshals Revisits Kayce And Monica's Most Tragic Yellowstone Storyline In Season 2",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "8bcbd9e2-marshals-revisits-kayce-and-monicas-most-tragic-yellowstone-"
+        },
+        {
+          "title": "William Shatner's Twilight Zone-Style Children's Anthology Series Is Streaming For Free",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "afa4e16d-william-shatners-twilight-zone-style-childrens-anthology-ser"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-23T01:16:21.295Z",
       "status": "quota",
@@ -2408,39 +2440,7 @@
           "reason": "hallucination_guard"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-11T00:49:33.023Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 262,
-      "totalCandidates": 92,
-      "written": [
-        {
-          "title": "PlayStation Plus Monthly Games for November 2026 Announced",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 15,
-          "slug": "4c1c97ed-playstation-plus-monthly-games-for-november-2026-announced"
-        },
-        {
-          "title": "Remember PS5-exclusive shooter Fairgame$? It’s reportedly canceled now, to no one’s surprise",
-          "category": "games",
-          "source": "Destructoid",
-          "score": 14,
-          "slug": "d95f28ca-remember-ps5-exclusive-shooter-fairgame-its-reportedly-cance"
-        },
-        {
-          "title": "Fairgame$ Officially Cancelled Over 3 Years After Its Announcement",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 14,
-          "slug": "89aa7a07-fairgame-officially-cancelled-over-3-years-after-its-announc"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-23T01:16:21.295Z"
+  "lastUpdated": "2026-11-23T05:00:15.986Z"
 }
