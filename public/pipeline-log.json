@@ -2,6 +2,16 @@
   "totalArticles": 2747,
   "runs": [
     {
+      "timestamp": "2026-11-23T01:16:21.295Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 155,
+      "totalCandidates": 37,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-11-22T21:08:46.838Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2430,39 +2440,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-10T20:53:14.870Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 260,
-      "totalCandidates": 46,
-      "written": [
-        {
-          "title": "Why Celeborn From The Lord Of The Rings: The Rings Of Power Looks So Familiar",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 19,
-          "slug": "9d8b993f-why-celeborn-from-the-lord-of-the-rings-the-rings-of-power-l"
-        },
-        {
-          "title": "Black Doves Season 2 Viewership Falls 65%: What It Means for Season 3",
-          "category": "tv",
-          "source": "What's on Netflix",
-          "score": 13,
-          "slug": "d093963a-black-doves-season-2-viewership-falls-65-what-it-means-for-s"
-        },
-        {
-          "title": "5 TV Shows To Watch If You Like Cyberpunk: Edgerunners",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "446eb3c3-5-tv-shows-to-watch-if-you-like-cyberpunk-edgerunners"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-22T21:08:46.838Z"
+  "lastUpdated": "2026-11-23T01:16:21.295Z"
 }
