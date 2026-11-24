@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2773,
+  "totalArticles": 2776,
   "runs": [
+    {
+      "timestamp": "2026-11-24T20:02:38.043Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 265,
+      "totalCandidates": 37,
+      "written": [
+        {
+          "title": "Hexed Just Made Me Want to Watch Wildwood Again",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 18,
+          "slug": "9998867a-hexed-just-made-me-want-to-watch-wildwood-again"
+        },
+        {
+          "title": "The Biggest Characters Still Missing From the Final Avengers: Doomsday Trailer",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 17,
+          "slug": "dce20446-the-biggest-characters-still-missing-from-the-final-avengers"
+        },
+        {
+          "title": "The Rings of Power Is Officially Coming Back for a Fourth Season",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 15,
+          "slug": "893d78f4-the-rings-of-power-is-officially-coming-back-for-a-fourth-se"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-24T15:53:18.390Z",
       "status": "success",
@@ -2411,39 +2443,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-12T14:25:29.282Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 267,
-      "totalCandidates": 76,
-      "written": [
-        {
-          "title": "Resident Evil Requiem Crowned 'Ultimate Game Of The Year' At The Golden Joysticks Awards",
-          "category": "games",
-          "source": "Nintendo Life",
-          "score": 15,
-          "slug": "e13d6798-resident-evil-requiem-crowned-ultimate-game-of-the-year-at-t"
-        },
-        {
-          "title": "Popeyes Is Riding the GTA 6 Hype With a New 'Spice City' Chicken Sandwich",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "9dd193a6-popeyes-is-riding-the-gta-6-hype-with-a-new-spice-city-chick"
-        },
-        {
-          "title": "Intergalactic: The Heretic Prophet in 'Last Stages of Production,' Neil Druckmann calls it a Mash-up of Jak and Daxter, Uncharted and The Last of Us",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "f1271d45-intergalactic-the-heretic-prophet-in-last-stages-of-producti"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-24T15:53:18.390Z"
+  "lastUpdated": "2026-11-24T20:02:38.043Z"
 }
