@@ -1,6 +1,60 @@
 {
-  "totalArticles": 2762,
+  "totalArticles": 2765,
   "runs": [
+    {
+      "timestamp": "2026-11-24T03:50:04.529Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 242,
+      "totalCandidates": 43,
+      "written": [
+        {
+          "title": "‘Avengers: Doomsday’ Introduces Steve & Peggy’s Son: Everything We Know So Far",
+          "category": "tv",
+          "source": "TV Insider",
+          "score": 15,
+          "slug": "8bd3f512-avengers-doomsday-introduces-steve-peggys-son-everything-we-"
+        },
+        {
+          "title": "All the ‘GTA 6’ Movie and TV References: From ‘Jaws’ to ‘Die Hard,’ Rockstar Pays Tribute to Hollywood Classics",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "slug": "580a6417-all-the-gta-6-movie-and-tv-references-from-jaws-to-die-hard-"
+        },
+        {
+          "title": "GTA 6's Jason Actor Had A Small Role On Modern Family",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "0ee58655-gta-6s-jason-actor-had-a-small-role-on-modern-family"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "Casting News: God Of War Adds Deborah Ann Woll, SNL Reveals Two More Hosts, And More",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "5 Ways HBO's Harry Potter Series Could Improve On The Original Quidditch Scenes",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "‘Ted Lasso’ Renewed for Season 5 at Apple TV, With Jason Sudeikis Returning",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-23T23:49:20.115Z",
       "status": "success",
@@ -2422,28 +2476,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-12T00:01:20.583Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 267,
-      "totalCandidates": 93,
-      "written": [],
-      "rejected": [
-        {
-          "title": "The Expanse: Osiris Reborn Highlights Asteroid Assault in New Trailer, Voice Cast Partially Revealed",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 14,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 13 words (max 12)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-23T23:49:20.115Z"
+  "lastUpdated": "2026-11-24T03:50:04.529Z"
 }
