@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2767,
+  "totalArticles": 2770,
   "runs": [
+    {
+      "timestamp": "2026-11-24T11:48:31.093Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 242,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "‘The Hunger Games: Sunrise on the Reaping’ Dominates U.K., Ireland Box Office as ‘Ramayana’ Sets All-Time Indian Record",
+          "category": "film",
+          "source": "Variety",
+          "score": 19,
+          "slug": "82971914-the-hunger-games-sunrise-on-the-reaping-dominates-uk-ireland"
+        },
+        {
+          "title": "Dune: Part Three Conquers the Den of Geek Magazine December Issue",
+          "category": "film",
+          "source": "Den of Geek Film",
+          "score": 14,
+          "slug": "d0f198fc-dune-part-three-conquers-the-den-of-geek-magazine-december-i"
+        },
+        {
+          "title": "Adam Driver Teases His ‘X-Men’ Villain Mister Sinister to Seth Meyers",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "d286fc02-adam-driver-teases-his-x-men-villain-mister-sinister-to-seth"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-24T07:45:48.732Z",
       "status": "quota",
@@ -2429,47 +2461,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-12T06:01:21.058Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 273,
-      "totalCandidates": 53,
-      "written": [
-        {
-          "title": "How Sauron Turns Men Into Ringwraiths In The Lord Of The Rings",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "24d59db4-how-sauron-turns-men-into-ringwraiths-in-the-lord-of-the-rin"
-        },
-        {
-          "title": "Why The House Of The Dragon Fandom Made Olivia Cooke Leave Social Media",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "2a2d141d-why-the-house-of-the-dragon-fandom-made-olivia-cooke-leave-s"
-        },
-        {
-          "title": "Gang Dong-won, Kim Go-eun to Star in Netflix’s ‘The Twilight Between Us’ From ‘When Life Gives You Tangerines’ Director, ‘Queen of Tears’ Writer",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 10,
-          "slug": "1998efd0-gang-dong-won-kim-go-eun-to-star-in-netflixs-the-twilight-be"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Anatomy Of A Finale: Did VisionQuest resurrect your faith in the MCU?",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-24T07:45:48.732Z"
+  "lastUpdated": "2026-11-24T11:48:31.093Z"
 }
