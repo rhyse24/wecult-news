@@ -1,6 +1,46 @@
 {
-  "totalArticles": 2778,
+  "totalArticles": 2781,
   "runs": [
+    {
+      "timestamp": "2026-11-25T06:00:39.366Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 265,
+      "totalCandidates": 36,
+      "written": [
+        {
+          "title": "Amanda Seyfried Reveals ‘You Can See Everything’ Script Required ‘Five-Factor Authentication App’ to Access",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "slug": "aed0d721-amanda-seyfried-reveals-you-can-see-everything-script-requir"
+        },
+        {
+          "title": "Blade Runner 2099: Exploring the Human Condition, Replicant or Otherwise",
+          "category": "tv",
+          "source": "Den of Geek TV",
+          "score": 13,
+          "slug": "924b9cf0-blade-runner-2099-exploring-the-human-condition-replicant-or"
+        },
+        {
+          "title": "5 Best Mariska Hargitay Performances Outside Law & Order: SVU",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "slug": "d0b710c9-5-best-mariska-hargitay-performances-outside-law-order-svu"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "The Lord Of The Rings: The Rings Of Power Season 3 Finale Recap — The Doom Of Men Is A Smirk",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 17,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-25T02:00:35.755Z",
       "status": "quota",
@@ -2400,47 +2440,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-13T02:04:09.196Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 277,
-      "totalCandidates": 39,
-      "written": [
-        {
-          "title": "‘The Witcher’ Star Freya Allan to Lead Joachim Rønning’s Horror Movie ‘System’ (EXCLUSIVE)",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "81772532-the-witcher-star-freya-allan-to-lead-joachim-rnnings-horror-"
-        },
-        {
-          "title": "Avengers: Doomsday is Getting One Thing Right About Doctor Doom (But Maybe Only One Thing)",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 13,
-          "slug": "73fa7dcf-avengers-doomsday-is-getting-one-thing-right-about-doctor-do"
-        },
-        {
-          "title": "Shop of Horrors: How Talent Representation Firm Verve Became Hollywood’s Home for Successful Scares",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "303134ff-shop-of-horrors-how-talent-representation-firm-verve-became-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Marvel's VisionQuest Post-Credits Scene Explained: Full Breakdown",
-          "category": "film",
-          "source": "Looper",
-          "score": 14,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-25T02:00:35.755Z"
+  "lastUpdated": "2026-11-25T06:00:39.366Z"
 }
