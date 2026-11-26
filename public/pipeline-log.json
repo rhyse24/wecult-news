@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2794,
+  "totalArticles": 2797,
   "runs": [
+    {
+      "timestamp": "2026-11-26T08:00:51.101Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 266,
+      "totalCandidates": 95,
+      "written": [
+        {
+          "title": "Sony Confirms PlayStation Plus Monthly Games for December 2026",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 15,
+          "slug": "e1827fc1-sony-confirms-playstation-plus-monthly-games-for-december-20"
+        },
+        {
+          "title": "Spotify Reveals Massive Spike in Streams for Music Featured in GTA 6",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "04083519-spotify-reveals-massive-spike-in-streams-for-music-featured-"
+        },
+        {
+          "title": "GTA 6 Animation Director Reveals Rockstar Made 3 Animations for Each Item Interaction",
+          "category": "games",
+          "source": "IGN Games",
+          "score": 13,
+          "slug": "fb9a4fe8-gta-6-animation-director-reveals-rockstar-made-3-animations-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-26T04:11:14.346Z",
       "status": "quota",
@@ -2439,17 +2471,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-14T04:12:56.026Z",
-      "status": "quota",
-      "articlesWritten": 0,
-      "quotaExhausted": true,
-      "totalFetched": 270,
-      "totalCandidates": 33,
-      "written": [],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-26T04:11:14.346Z"
+  "lastUpdated": "2026-11-26T08:00:51.101Z"
 }
