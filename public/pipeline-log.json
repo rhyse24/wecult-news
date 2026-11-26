@@ -1,6 +1,39 @@
 {
-  "totalArticles": 2793,
+  "totalArticles": 2794,
   "runs": [
+    {
+      "timestamp": "2026-11-26T04:11:14.346Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 267,
+      "totalCandidates": 38,
+      "written": [
+        {
+          "title": "‘The Mosquito Bowl’ Review: Ray Nicholson Steals Peter Berg’s Brutal WWII Football Drama That Runs Out of Things to Say",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "0162ad4f-the-mosquito-bowl-review-ray-nicholson-steals-peter-bergs-br"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘South Park’ Season 29 Finale: ‘GTA 6’ Inspires Stan, Kyle and Cartman to Get to the Bottom of South America’s Power Outages",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Blade Runner 2099 Has A Major Problem That Goes Back To The Original 1982 Movie",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 12,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-26T00:00:46.307Z",
       "status": "success",
@@ -2416,39 +2449,7 @@
       "totalCandidates": 33,
       "written": [],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-14T00:01:17.105Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 265,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "A Very Special Episode of UltraVision — VisionQuest’s “Forever”",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 14,
-          "slug": "6995253f-a-very-special-episode-of-ultravision-visionquests-forever"
-        },
-        {
-          "title": "Gala del Sol on Launching a Tropical Steampunk Universe with Rains Over Babel",
-          "category": "books",
-          "source": "Reactor Mag",
-          "score": 13,
-          "slug": "8889486b-gala-del-sol-on-launching-a-tropical-steampunk-universe-with"
-        },
-        {
-          "title": "The Next Film From Disney and Pixar is a Crime Movie set in Italy… with Cats",
-          "category": "books",
-          "source": "CrimeReads",
-          "score": 11,
-          "slug": "f48d1460-the-next-film-from-disney-and-pixar-is-a-crime-movie-set-in-"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-26T00:00:46.307Z"
+  "lastUpdated": "2026-11-26T04:11:14.346Z"
 }
