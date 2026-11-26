@@ -1,6 +1,31 @@
 {
-  "totalArticles": 2800,
+  "totalArticles": 2802,
   "runs": [
+    {
+      "timestamp": "2026-11-26T14:17:43.595Z",
+      "status": "quota",
+      "articlesWritten": 2,
+      "quotaExhausted": true,
+      "totalFetched": 261,
+      "totalCandidates": 40,
+      "written": [
+        {
+          "title": "‘Fool Night’ Review: A Cyberpunk Anime Full of Heartbreak and Intrigue",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 16,
+          "slug": "d79994c2-fool-night-review-a-cyberpunk-anime-full-of-heartbreak-and-i"
+        },
+        {
+          "title": "What’s Coming to Netflix in December 2026",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 13,
+          "slug": "da7e0f19-whats-coming-to-netflix-in-december-2026"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-26T10:01:04.053Z",
       "status": "success",
@@ -2449,39 +2474,7 @@
           ]
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-14T12:03:23.345Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 262,
-      "totalCandidates": 92,
-      "written": [
-        {
-          "title": "Resident Evil 1 Remake “Might Not Resonate” With Modern Fans, Capcom Says",
-          "category": "games",
-          "source": "TheGamer",
-          "score": 15,
-          "slug": "226e6087-resident-evil-1-remake-might-not-resonate-with-modern-fans-c"
-        },
-        {
-          "title": "George R. R. Martin’s Newest ‘Game of Thrones’ Spin-Off Officially Brings Back the Targaryens",
-          "category": "games",
-          "source": "Collider Games",
-          "score": 13,
-          "slug": "3b3367de-george-r-r-martins-newest-game-of-thrones-spin-off-officiall"
-        },
-        {
-          "title": "Call of Duty Endowment marks Remembrance Day with veterans' Valor Pack push",
-          "category": "games",
-          "source": "Eurogamer",
-          "score": 12,
-          "slug": "ac07c933-call-of-duty-endowment-marks-remembrance-day-with-veterans-v"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-26T10:01:04.053Z"
+  "lastUpdated": "2026-11-26T14:17:43.595Z"
 }
