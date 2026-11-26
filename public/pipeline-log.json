@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2802,
+  "totalArticles": 2805,
   "runs": [
+    {
+      "timestamp": "2026-11-26T18:25:06.914Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 258,
+      "totalCandidates": 21,
+      "written": [
+        {
+          "title": "The Marvel Comics That May Help Explain Avengers: Doomsday’s Latverian Witches",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 14,
+          "slug": "1ffeee83-the-marvel-comics-that-may-help-explain-avengers-doomsdays-l"
+        },
+        {
+          "title": "Movies From This Past Year to Watch Over Thanksgiving",
+          "category": "books",
+          "source": "CrimeReads",
+          "score": 10,
+          "slug": "ef304707-movies-from-this-past-year-to-watch-over-thanksgiving"
+        },
+        {
+          "title": "The Rings of Power Season 3 Finale Is a Set Up to Something Much Bigger",
+          "category": "books",
+          "source": "Reactor Mag",
+          "score": 10,
+          "slug": "1d266768-the-rings-of-power-season-3-finale-is-a-set-up-to-something-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-26T14:17:43.595Z",
       "status": "quota",
@@ -2445,36 +2477,7 @@
           "reason": "gemini_fail"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-14T16:04:30.795Z",
-      "status": "quota",
-      "articlesWritten": 1,
-      "quotaExhausted": true,
-      "totalFetched": 249,
-      "totalCandidates": 51,
-      "written": [
-        {
-          "title": "‘VisionQuest’ Finale Hits 3.7 Million Views in One Day",
-          "category": "tv",
-          "source": "Variety TV",
-          "score": 16,
-          "slug": "2f423779-visionquest-finale-hits-37-million-views-in-one-day"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Why Henry Cavill Left The Witcher",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "reason": "quality_gate",
-          "errors": [
-            "EN body has no section headings (need ≥1)"
-          ]
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-26T14:17:43.595Z"
+  "lastUpdated": "2026-11-26T18:25:06.914Z"
 }
