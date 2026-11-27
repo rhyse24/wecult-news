@@ -2,6 +2,24 @@
   "totalArticles": 2805,
   "runs": [
     {
+      "timestamp": "2026-11-26T22:17:58.784Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 252,
+      "totalCandidates": 27,
+      "written": [],
+      "rejected": [
+        {
+          "title": "‘Hunger Games: Sunrise on the Reaping’ Devouring $85M Over Thanksgiving Weekend as ‘Focker-in-Law,’ ‘Hexed’ Launch",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 18,
+          "reason": "topic_dedup_recent"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-11-26T18:25:06.914Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2437,47 +2455,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-14T19:51:18.323Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 233,
-      "totalCandidates": 27,
-      "written": [
-        {
-          "title": "James Gunn Says ‘No One From Skydance’ Has Seen ‘Superman’ Sequel ‘Man of Tomorrow’ as Rumors Fly After His DC Studios Exit",
-          "category": "film",
-          "source": "Variety",
-          "score": 14,
-          "slug": "14d0e8aa-james-gunn-says-no-one-from-skydance-has-seen-superman-seque"
-        },
-        {
-          "title": "Thomasin McKenzie Teases a Major New Acting Challenge in ‘Fallout’ Season 3",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 14,
-          "slug": "61ed3f05-thomasin-mckenzie-teases-a-major-new-acting-challenge-in-fal"
-        },
-        {
-          "title": "Box Office: Johnny Depp’s ‘Ebenezer’ Leads With $6.7 Million on Opening Day, ‘How to Rob a Bank’ Struggling With $2.2 Million on Friday",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "slug": "1fb603e5-box-office-johnny-depps-ebenezer-leads-with-67-million-on-op"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "3 Best Prime Video Movies To Watch This Weekend (Nov 14-15)",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 15,
-          "reason": "gemini_fail"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-26T18:25:06.914Z"
+  "lastUpdated": "2026-11-26T22:17:58.784Z"
 }
