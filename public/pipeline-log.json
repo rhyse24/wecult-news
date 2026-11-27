@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2810,
+  "totalArticles": 2813,
   "runs": [
+    {
+      "timestamp": "2026-11-27T14:44:35.984Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 235,
+      "totalCandidates": 29,
+      "written": [
+        {
+          "title": "‘Hunger Games: Sunrise on the Reaping’ Devouring $85M Over Thanksgiving Weekend as ‘Focker-in-Law,’ ‘Hexed’ Launch",
+          "category": "film",
+          "source": "Hollywood Reporter",
+          "score": 15,
+          "slug": "7b0b5d9c-hunger-games-sunrise-on-the-reaping-devouring-85m-over-thank"
+        },
+        {
+          "title": "New to Streaming: You Can See Everything, The Samurai and the Prisoner, Wicker, Fjord & More",
+          "category": "film",
+          "source": "The Film Stage",
+          "score": 15,
+          "slug": "b83504d1-new-to-streaming-you-can-see-everything-the-samurai-and-the-"
+        },
+        {
+          "title": "Luc Besson Jokes That He Could Make the Next ‘Terminator,’ but Only if the Terminator ‘Sat Down and Said He Missed His Mom’",
+          "category": "film",
+          "source": "Variety",
+          "score": 12,
+          "slug": "957d060a-luc-besson-jokes-that-he-could-make-the-next-terminator-but-"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-27T11:11:17.521Z",
       "status": "success",
@@ -2361,39 +2393,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-15T14:56:15.942Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 198,
-      "totalCandidates": 74,
-      "written": [
-        {
-          "title": "Resident Evil Requiem Star Hopes Grace Ashcroft Has 'a Long Way to Go' Even if She Won't 'Ever Be a Leon Character'",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "3b7a886f-resident-evil-requiem-star-hopes-grace-ashcroft-has-a-long-w"
-        },
-        {
-          "title": "I Loved My Xbox 360s–All Four Of Them",
-          "category": "games",
-          "source": "GameSpot",
-          "score": 13,
-          "slug": "101268d5-i-loved-my-xbox-360sall-four-of-them"
-        },
-        {
-          "title": " Chronicles: Medieval developer declared bankruptcy on the day it announced it was in trouble, but development will continue after a $5 million reprieve from Coffee Stain ",
-          "category": "games",
-          "source": "PC Gamer",
-          "score": 13,
-          "slug": "b03809c1-chronicles-medieval-developer-declared-bankruptcy-on-the-day"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-27T11:11:17.521Z"
+  "lastUpdated": "2026-11-27T14:44:35.984Z"
 }
