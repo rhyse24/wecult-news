@@ -1,6 +1,24 @@
 {
-  "totalArticles": 2806,
+  "totalArticles": 2807,
   "runs": [
+    {
+      "timestamp": "2026-11-27T07:36:07.737Z",
+      "status": "quota",
+      "articlesWritten": 1,
+      "quotaExhausted": true,
+      "totalFetched": 247,
+      "totalCandidates": 94,
+      "written": [
+        {
+          "title": "Random: Did Dave The Diver Just Tease A GTA 6 Collab?",
+          "category": "games",
+          "source": "Nintendo Life",
+          "score": 12,
+          "slug": "64c05f86-random-did-dave-the-diver-just-tease-a-gta-6-collab"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-27T03:59:13.913Z",
       "status": "quota",
@@ -2383,64 +2401,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-15T07:32:32.580Z",
-      "status": "quota",
-      "articlesWritten": 2,
-      "quotaExhausted": true,
-      "totalFetched": 224,
-      "totalCandidates": 23,
-      "written": [
-        {
-          "title": "Adam Driver Says Disney Killing ‘The Hunt for Ben Solo’ Felt ‘Criminal’: ‘Steven Soderbergh Wants to Make a “Star Wars” Movie. What Are We Debating?’",
-          "category": "film",
-          "source": "Variety",
-          "score": 9,
-          "slug": "9d8419d5-adam-driver-says-disney-killing-the-hunt-for-ben-solo-felt-c"
-        },
-        {
-          "title": "Legendary Game Returns in Remake of Nintendo’s “The Legend of Zelda: Ocarina of Time”",
-          "category": "film",
-          "source": "RogerEbert",
-          "score": 8,
-          "slug": "4058819f-legendary-game-returns-in-remake-of-nintendos-the-legend-of-"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Chris Pratt Says He ‘Would Love’ James Gunn to Direct a Fourth ‘Guardians of the Galaxy’ Film After DC Exit",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Avengers: Doomsday Is Shaping Up To Be A Story About Fatherhood",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "The Criterion Collection’s February 2027 Lineup Features Kung Fu Hustle, The Irishman, and Jay Kelly on 4K",
-          "category": "film",
-          "source": "The Film Stage",
-          "score": 8,
-          "reason": "quality_gate",
-          "errors": [
-            "Headline too long: 14 words (max 12)"
-          ]
-        },
-        {
-          "title": "James Bond: Robert Pattinson Rumors Could Open the Way for a New Status Quo",
-          "category": "film",
-          "source": "Den of Geek Film",
-          "score": 8,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-27T03:59:13.913Z"
+  "lastUpdated": "2026-11-27T07:36:07.737Z"
 }
