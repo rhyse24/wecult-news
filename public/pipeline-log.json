@@ -1,6 +1,38 @@
 {
-  "totalArticles": 2813,
+  "totalArticles": 2816,
   "runs": [
+    {
+      "timestamp": "2026-11-27T22:01:09.575Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 219,
+      "totalCandidates": 87,
+      "written": [
+        {
+          "title": "10 Worst Games of 2026 You’re Better Off Skipping",
+          "category": "games",
+          "source": "GamingBolt",
+          "score": 18,
+          "slug": "58072ca2-10-worst-games-of-2026-youre-better-off-skipping"
+        },
+        {
+          "title": "GTA 6's pirate PC ports: new tools, old problem | Opinion",
+          "category": "games",
+          "source": "GamesIndustry.biz",
+          "score": 13,
+          "slug": "ba654b70-gta-6s-pirate-pc-ports-new-tools-old-problem-opinion"
+        },
+        {
+          "title": "No disc, yes buy: GTA 6 is the biggest physical game launch of this decade",
+          "category": "games",
+          "source": "Destructoid",
+          "score": 13,
+          "slug": "bf003bb0-no-disc-yes-buy-gta-6-is-the-biggest-physical-game-launch-of"
+        }
+      ],
+      "rejected": []
+    },
     {
       "timestamp": "2026-11-27T20:01:13.391Z",
       "status": "quota",
@@ -2324,39 +2356,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-15T22:13:49.916Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 164,
-      "totalCandidates": 36,
-      "written": [
-        {
-          "title": "Ben Affleck picks Robert Pattinson over pal Matt Damon for The Odyssey acting honors",
-          "category": "tv",
-          "source": "AV Club",
-          "score": 17,
-          "slug": "b8a0dc06-ben-affleck-picks-robert-pattinson-over-pal-matt-damon-for-t"
-        },
-        {
-          "title": "Star Trek: Strange New Worlds Star Anson Mount Played The Villain To Lex Luthor's 'Hero' On Smallville",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "eddb2d36-star-trek-strange-new-worlds-star-anson-mount-played-the-vil"
-        },
-        {
-          "title": "The Twilight Zone's First Pilot Was Actually Filmed For Another CBS Series",
-          "category": "tv",
-          "source": "TVLine",
-          "score": 12,
-          "slug": "92a5f1a7-the-twilight-zones-first-pilot-was-actually-filmed-for-anoth"
-        }
-      ],
-      "rejected": []
     }
   ],
-  "lastUpdated": "2026-11-27T20:01:13.391Z"
+  "lastUpdated": "2026-11-27T22:01:09.575Z"
 }
