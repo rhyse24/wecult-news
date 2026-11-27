@@ -2,6 +2,16 @@
   "totalArticles": 2813,
   "runs": [
     {
+      "timestamp": "2026-11-27T20:01:13.391Z",
+      "status": "quota",
+      "articlesWritten": 0,
+      "quotaExhausted": true,
+      "totalFetched": 223,
+      "totalCandidates": 90,
+      "written": [],
+      "rejected": []
+    },
+    {
       "timestamp": "2026-11-27T14:44:35.984Z",
       "status": "success",
       "articlesWritten": 3,
@@ -2346,54 +2356,7 @@
         }
       ],
       "rejected": []
-    },
-    {
-      "timestamp": "2026-11-15T18:35:42.743Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 176,
-      "totalCandidates": 20,
-      "written": [
-        {
-          "title": "Matt Damon Reveals Ben Affleck’s Review of ‘The Odyssey’ — and the One Performance He Couldn’t Stop Talking About",
-          "category": "film",
-          "source": "Hollywood Reporter",
-          "score": 15,
-          "slug": "34c0aa60-matt-damon-reveals-ben-afflecks-review-of-the-odyssey-and-th"
-        },
-        {
-          "title": "6 Superhero Movies From the 2010s That Are 10/10 Masterpieces",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "a407c693-6-superhero-movies-from-the-2010s-that-are-1010-masterpieces"
-        },
-        {
-          "title": "The 8 Best Soft Sci-Fi Movies in Film History",
-          "category": "film",
-          "source": "Collider Film",
-          "score": 10,
-          "slug": "03c73885-the-8-best-soft-sci-fi-movies-in-film-history"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Box Office: Johnny Depp’s ‘Ebenezer’ Opens to No. 1 With $19 Million, ‘How to Rob a Bank’ Stumbles With $5 Million Debut",
-          "category": "film",
-          "source": "Variety",
-          "score": 12,
-          "reason": "topic_dedup_recent"
-        },
-        {
-          "title": "Chris Pratt Says He ‘Would Love’ James Gunn to Direct a Fourth ‘Guardians of the Galaxy’ Film After DC Exit",
-          "category": "film",
-          "source": "Variety",
-          "score": 11,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-27T14:44:35.984Z"
+  "lastUpdated": "2026-11-27T20:01:13.391Z"
 }
