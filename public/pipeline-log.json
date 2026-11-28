@@ -1,6 +1,56 @@
 {
-  "totalArticles": 2816,
+  "totalArticles": 2819,
   "runs": [
+    {
+      "timestamp": "2026-11-28T08:46:19.327Z",
+      "status": "success",
+      "articlesWritten": 3,
+      "quotaExhausted": false,
+      "totalFetched": 211,
+      "totalCandidates": 46,
+      "written": [
+        {
+          "title": "All the ‘GTA 6’ Celebrity Cameos: Jeremy Irons, Janelle James, John Leguizamo, Chloe Fineman and More Vice City Residents",
+          "category": "tv",
+          "source": "Variety TV",
+          "score": 11,
+          "slug": "710c7247-all-the-gta-6-celebrity-cameos-jeremy-irons-janelle-james-jo"
+        },
+        {
+          "title": "Denis Villeneuve isn't pleased about Marvel's Dunesday release date shenanigans",
+          "category": "tv",
+          "source": "AV Club",
+          "score": 11,
+          "slug": "6201b9d6-denis-villeneuve-isnt-pleased-about-marvels-dunesday-release"
+        },
+        {
+          "title": "The Hunting Wives Creator Explains Finale Time Jump, What It Means For Season 3: 'There's More Story To Tell' (Grade It!)",
+          "category": "tv",
+          "source": "TVLine",
+          "score": 10,
+          "slug": "90a45668-the-hunting-wives-creator-explains-finale-time-jump-what-it-"
+        }
+      ],
+      "rejected": [
+        {
+          "title": "‘Spider-Man: Brand New Day’ Hits No. 1 on Netflix in Nearly 40 Countries; No US Release Yet",
+          "category": "tv",
+          "source": "What's on Netflix",
+          "score": 14,
+          "reason": "topic_dedup_recent"
+        },
+        {
+          "title": "Webtoon-Based Live-Action Series Portraits of Delusion Sets January 6 Premiere on Disney+",
+          "category": "tv",
+          "source": "Anime News Network",
+          "score": 13,
+          "reason": "quality_gate",
+          "errors": [
+            "Headline too long: 17 words (max 12)"
+          ]
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-28T06:01:11.497Z",
       "status": "quota",
@@ -2288,47 +2338,7 @@
           "reason": "topic_dedup_recent"
         }
       ]
-    },
-    {
-      "timestamp": "2026-11-16T12:02:33.987Z",
-      "status": "success",
-      "articlesWritten": 3,
-      "quotaExhausted": false,
-      "totalFetched": 189,
-      "totalCandidates": 73,
-      "written": [
-        {
-          "title": "Gangland Tales From the Frontline of Rockstar's Real-Life Grand Theft Auto Research",
-          "category": "games",
-          "source": "IGN Games",
-          "score": 13,
-          "slug": "fec33a35-gangland-tales-from-the-frontline-of-rockstars-real-life-gra"
-        },
-        {
-          "title": "Guide: GTA 6 Release Times: All The Key Details Xbox Players Need To Know",
-          "category": "games",
-          "source": "Pure Xbox",
-          "score": 13,
-          "slug": "a1b64a34-guide-gta-6-release-times-all-the-key-details-xbox-players-n"
-        },
-        {
-          "title": "Guide: These 13+ PS5 and PS Plus Games Are Coming Out This Week (16th-22nd November)",
-          "category": "games",
-          "source": "Push Square",
-          "score": 12,
-          "slug": "c3acc47f-guide-these-13-ps5-and-ps-plus-games-are-coming-out-this-wee"
-        }
-      ],
-      "rejected": [
-        {
-          "title": "Resident Evil Requiem’s Grace May Not “Ever Be a Leon Character,” Says Voice Actor",
-          "category": "games",
-          "source": "GamingBolt",
-          "score": 15,
-          "reason": "topic_dedup_recent"
-        }
-      ]
     }
   ],
-  "lastUpdated": "2026-11-28T06:01:11.497Z"
+  "lastUpdated": "2026-11-28T08:46:19.327Z"
 }
